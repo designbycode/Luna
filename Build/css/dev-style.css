@@ -302,7 +302,7 @@
   padding-left: 15px;
   padding-right: 15px; }
 
-/* line 60, Framework/sass/mixins/_grid.sass */
+/* line 62, Framework/sass/mixins/_grid.sass */
 .flex {
   display: -webkit-box;
   display: -webkit-flex;
@@ -318,477 +318,897 @@
   flex-wrap: wrap; }
 
 @media screen and (min-width: 300px) {
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xs-col-1 {
     width: 8.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xs-col-1 {
+    margin: 15px;
+    -webkit-box-flex: 12;
+    -webkit-flex: 12;
+    -ms-flex: 12;
+    flex: 12; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xs-offset-1 {
     margin-left: 8.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xs-col-2 {
     width: 16.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xs-col-2 {
+    margin: 15px;
+    -webkit-box-flex: 6;
+    -webkit-flex: 6;
+    -ms-flex: 6;
+    flex: 6; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xs-offset-2 {
     margin-left: 16.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xs-col-3 {
     width: 25%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xs-col-3 {
+    margin: 15px;
+    -webkit-box-flex: 4;
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xs-offset-3 {
     margin-left: 25%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xs-col-4 {
     width: 33.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xs-col-4 {
+    margin: 15px;
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xs-offset-4 {
     margin-left: 33.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xs-col-5 {
     width: 41.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xs-col-5 {
+    margin: 15px;
+    -webkit-box-flex: 2.4;
+    -webkit-flex: 2.4;
+    -ms-flex: 2.4;
+    flex: 2.4; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xs-offset-5 {
     margin-left: 41.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xs-col-6 {
     width: 50%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xs-col-6 {
+    margin: 15px;
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xs-offset-6 {
     margin-left: 50%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xs-col-7 {
     width: 58.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xs-col-7 {
+    margin: 15px;
+    -webkit-box-flex: 1.71429;
+    -webkit-flex: 1.71429;
+    -ms-flex: 1.71429;
+    flex: 1.71429; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xs-offset-7 {
     margin-left: 58.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xs-col-8 {
     width: 66.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xs-col-8 {
+    margin: 15px;
+    -webkit-box-flex: 1.5;
+    -webkit-flex: 1.5;
+    -ms-flex: 1.5;
+    flex: 1.5; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xs-offset-8 {
     margin-left: 66.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xs-col-9 {
     width: 75%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xs-col-9 {
+    margin: 15px;
+    -webkit-box-flex: 1.33333;
+    -webkit-flex: 1.33333;
+    -ms-flex: 1.33333;
+    flex: 1.33333; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xs-offset-9 {
     margin-left: 75%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xs-col-10 {
     width: 83.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xs-col-10 {
+    margin: 15px;
+    -webkit-box-flex: 1.2;
+    -webkit-flex: 1.2;
+    -ms-flex: 1.2;
+    flex: 1.2; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xs-offset-10 {
     margin-left: 83.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xs-col-11 {
     width: 91.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xs-col-11 {
+    margin: 15px;
+    -webkit-box-flex: 1.09091;
+    -webkit-flex: 1.09091;
+    -ms-flex: 1.09091;
+    flex: 1.09091; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xs-offset-11 {
     margin-left: 91.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xs-col-12 {
     width: 100%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xs-col-12 {
+    margin: 15px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xs-offset-12 {
     margin-left: 100%; }
-  /* line 86, Framework/sass/mixins/_grid.sass */
+  /* line 93, Framework/sass/mixins/_grid.sass */
   .xs-float-right {
     float: right; }
-  /* line 89, Framework/sass/mixins/_grid.sass */
+  /* line 96, Framework/sass/mixins/_grid.sass */
   .xs-float-left {
     float: left; }
-  /* line 93, Framework/sass/mixins/_grid.sass */
+  /* line 100, Framework/sass/mixins/_grid.sass */
   .xs-hide {
     display: none !important; }
-  /* line 96, Framework/sass/mixins/_grid.sass */
+  /* line 103, Framework/sass/mixins/_grid.sass */
   .xs-show {
     display: block !important; }
-  /* line 100, Framework/sass/mixins/_grid.sass */
+  /* line 107, Framework/sass/mixins/_grid.sass */
   .xs-text-align-right {
     text-align: right; }
-  /* line 103, Framework/sass/mixins/_grid.sass */
+  /* line 110, Framework/sass/mixins/_grid.sass */
   .xs-text-align-left {
     text-align: left; }
-  /* line 106, Framework/sass/mixins/_grid.sass */
+  /* line 113, Framework/sass/mixins/_grid.sass */
   .xs-text-align-center {
     text-align: center; } }
 
 @media screen and (min-width: 480px) {
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .sm-col-1 {
     width: 8.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .sm-col-1 {
+    margin: 15px;
+    -webkit-box-flex: 12;
+    -webkit-flex: 12;
+    -ms-flex: 12;
+    flex: 12; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .sm-offset-1 {
     margin-left: 8.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .sm-col-2 {
     width: 16.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .sm-col-2 {
+    margin: 15px;
+    -webkit-box-flex: 6;
+    -webkit-flex: 6;
+    -ms-flex: 6;
+    flex: 6; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .sm-offset-2 {
     margin-left: 16.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .sm-col-3 {
     width: 25%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .sm-col-3 {
+    margin: 15px;
+    -webkit-box-flex: 4;
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .sm-offset-3 {
     margin-left: 25%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .sm-col-4 {
     width: 33.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .sm-col-4 {
+    margin: 15px;
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .sm-offset-4 {
     margin-left: 33.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .sm-col-5 {
     width: 41.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .sm-col-5 {
+    margin: 15px;
+    -webkit-box-flex: 2.4;
+    -webkit-flex: 2.4;
+    -ms-flex: 2.4;
+    flex: 2.4; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .sm-offset-5 {
     margin-left: 41.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .sm-col-6 {
     width: 50%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .sm-col-6 {
+    margin: 15px;
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .sm-offset-6 {
     margin-left: 50%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .sm-col-7 {
     width: 58.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .sm-col-7 {
+    margin: 15px;
+    -webkit-box-flex: 1.71429;
+    -webkit-flex: 1.71429;
+    -ms-flex: 1.71429;
+    flex: 1.71429; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .sm-offset-7 {
     margin-left: 58.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .sm-col-8 {
     width: 66.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .sm-col-8 {
+    margin: 15px;
+    -webkit-box-flex: 1.5;
+    -webkit-flex: 1.5;
+    -ms-flex: 1.5;
+    flex: 1.5; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .sm-offset-8 {
     margin-left: 66.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .sm-col-9 {
     width: 75%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .sm-col-9 {
+    margin: 15px;
+    -webkit-box-flex: 1.33333;
+    -webkit-flex: 1.33333;
+    -ms-flex: 1.33333;
+    flex: 1.33333; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .sm-offset-9 {
     margin-left: 75%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .sm-col-10 {
     width: 83.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .sm-col-10 {
+    margin: 15px;
+    -webkit-box-flex: 1.2;
+    -webkit-flex: 1.2;
+    -ms-flex: 1.2;
+    flex: 1.2; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .sm-offset-10 {
     margin-left: 83.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .sm-col-11 {
     width: 91.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .sm-col-11 {
+    margin: 15px;
+    -webkit-box-flex: 1.09091;
+    -webkit-flex: 1.09091;
+    -ms-flex: 1.09091;
+    flex: 1.09091; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .sm-offset-11 {
     margin-left: 91.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .sm-col-12 {
     width: 100%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .sm-col-12 {
+    margin: 15px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .sm-offset-12 {
     margin-left: 100%; }
-  /* line 86, Framework/sass/mixins/_grid.sass */
+  /* line 93, Framework/sass/mixins/_grid.sass */
   .sm-float-right {
     float: right; }
-  /* line 89, Framework/sass/mixins/_grid.sass */
+  /* line 96, Framework/sass/mixins/_grid.sass */
   .sm-float-left {
     float: left; }
-  /* line 93, Framework/sass/mixins/_grid.sass */
+  /* line 100, Framework/sass/mixins/_grid.sass */
   .sm-hide {
     display: none !important; }
-  /* line 96, Framework/sass/mixins/_grid.sass */
+  /* line 103, Framework/sass/mixins/_grid.sass */
   .sm-show {
     display: block !important; }
-  /* line 100, Framework/sass/mixins/_grid.sass */
+  /* line 107, Framework/sass/mixins/_grid.sass */
   .sm-text-align-right {
     text-align: right; }
-  /* line 103, Framework/sass/mixins/_grid.sass */
+  /* line 110, Framework/sass/mixins/_grid.sass */
   .sm-text-align-left {
     text-align: left; }
-  /* line 106, Framework/sass/mixins/_grid.sass */
+  /* line 113, Framework/sass/mixins/_grid.sass */
   .sm-text-align-center {
     text-align: center; } }
 
 @media screen and (min-width: 800px) {
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .md-col-1 {
     width: 8.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .md-col-1 {
+    margin: 15px;
+    -webkit-box-flex: 12;
+    -webkit-flex: 12;
+    -ms-flex: 12;
+    flex: 12; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .md-offset-1 {
     margin-left: 8.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .md-col-2 {
     width: 16.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .md-col-2 {
+    margin: 15px;
+    -webkit-box-flex: 6;
+    -webkit-flex: 6;
+    -ms-flex: 6;
+    flex: 6; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .md-offset-2 {
     margin-left: 16.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .md-col-3 {
     width: 25%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .md-col-3 {
+    margin: 15px;
+    -webkit-box-flex: 4;
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .md-offset-3 {
     margin-left: 25%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .md-col-4 {
     width: 33.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .md-col-4 {
+    margin: 15px;
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .md-offset-4 {
     margin-left: 33.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .md-col-5 {
     width: 41.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .md-col-5 {
+    margin: 15px;
+    -webkit-box-flex: 2.4;
+    -webkit-flex: 2.4;
+    -ms-flex: 2.4;
+    flex: 2.4; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .md-offset-5 {
     margin-left: 41.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .md-col-6 {
     width: 50%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .md-col-6 {
+    margin: 15px;
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .md-offset-6 {
     margin-left: 50%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .md-col-7 {
     width: 58.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .md-col-7 {
+    margin: 15px;
+    -webkit-box-flex: 1.71429;
+    -webkit-flex: 1.71429;
+    -ms-flex: 1.71429;
+    flex: 1.71429; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .md-offset-7 {
     margin-left: 58.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .md-col-8 {
     width: 66.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .md-col-8 {
+    margin: 15px;
+    -webkit-box-flex: 1.5;
+    -webkit-flex: 1.5;
+    -ms-flex: 1.5;
+    flex: 1.5; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .md-offset-8 {
     margin-left: 66.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .md-col-9 {
     width: 75%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .md-col-9 {
+    margin: 15px;
+    -webkit-box-flex: 1.33333;
+    -webkit-flex: 1.33333;
+    -ms-flex: 1.33333;
+    flex: 1.33333; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .md-offset-9 {
     margin-left: 75%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .md-col-10 {
     width: 83.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .md-col-10 {
+    margin: 15px;
+    -webkit-box-flex: 1.2;
+    -webkit-flex: 1.2;
+    -ms-flex: 1.2;
+    flex: 1.2; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .md-offset-10 {
     margin-left: 83.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .md-col-11 {
     width: 91.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .md-col-11 {
+    margin: 15px;
+    -webkit-box-flex: 1.09091;
+    -webkit-flex: 1.09091;
+    -ms-flex: 1.09091;
+    flex: 1.09091; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .md-offset-11 {
     margin-left: 91.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .md-col-12 {
     width: 100%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .md-col-12 {
+    margin: 15px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .md-offset-12 {
     margin-left: 100%; }
-  /* line 86, Framework/sass/mixins/_grid.sass */
+  /* line 93, Framework/sass/mixins/_grid.sass */
   .md-float-right {
     float: right; }
-  /* line 89, Framework/sass/mixins/_grid.sass */
+  /* line 96, Framework/sass/mixins/_grid.sass */
   .md-float-left {
     float: left; }
-  /* line 93, Framework/sass/mixins/_grid.sass */
+  /* line 100, Framework/sass/mixins/_grid.sass */
   .md-hide {
     display: none !important; }
-  /* line 96, Framework/sass/mixins/_grid.sass */
+  /* line 103, Framework/sass/mixins/_grid.sass */
   .md-show {
     display: block !important; }
-  /* line 100, Framework/sass/mixins/_grid.sass */
+  /* line 107, Framework/sass/mixins/_grid.sass */
   .md-text-align-right {
     text-align: right; }
-  /* line 103, Framework/sass/mixins/_grid.sass */
+  /* line 110, Framework/sass/mixins/_grid.sass */
   .md-text-align-left {
     text-align: left; }
-  /* line 106, Framework/sass/mixins/_grid.sass */
+  /* line 113, Framework/sass/mixins/_grid.sass */
   .md-text-align-center {
     text-align: center; } }
 
 @media screen and (min-width: 960px) {
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .lg-col-1 {
     width: 8.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .lg-col-1 {
+    margin: 15px;
+    -webkit-box-flex: 12;
+    -webkit-flex: 12;
+    -ms-flex: 12;
+    flex: 12; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .lg-offset-1 {
     margin-left: 8.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .lg-col-2 {
     width: 16.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .lg-col-2 {
+    margin: 15px;
+    -webkit-box-flex: 6;
+    -webkit-flex: 6;
+    -ms-flex: 6;
+    flex: 6; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .lg-offset-2 {
     margin-left: 16.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .lg-col-3 {
     width: 25%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .lg-col-3 {
+    margin: 15px;
+    -webkit-box-flex: 4;
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .lg-offset-3 {
     margin-left: 25%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .lg-col-4 {
     width: 33.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .lg-col-4 {
+    margin: 15px;
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .lg-offset-4 {
     margin-left: 33.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .lg-col-5 {
     width: 41.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .lg-col-5 {
+    margin: 15px;
+    -webkit-box-flex: 2.4;
+    -webkit-flex: 2.4;
+    -ms-flex: 2.4;
+    flex: 2.4; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .lg-offset-5 {
     margin-left: 41.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .lg-col-6 {
     width: 50%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .lg-col-6 {
+    margin: 15px;
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .lg-offset-6 {
     margin-left: 50%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .lg-col-7 {
     width: 58.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .lg-col-7 {
+    margin: 15px;
+    -webkit-box-flex: 1.71429;
+    -webkit-flex: 1.71429;
+    -ms-flex: 1.71429;
+    flex: 1.71429; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .lg-offset-7 {
     margin-left: 58.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .lg-col-8 {
     width: 66.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .lg-col-8 {
+    margin: 15px;
+    -webkit-box-flex: 1.5;
+    -webkit-flex: 1.5;
+    -ms-flex: 1.5;
+    flex: 1.5; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .lg-offset-8 {
     margin-left: 66.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .lg-col-9 {
     width: 75%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .lg-col-9 {
+    margin: 15px;
+    -webkit-box-flex: 1.33333;
+    -webkit-flex: 1.33333;
+    -ms-flex: 1.33333;
+    flex: 1.33333; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .lg-offset-9 {
     margin-left: 75%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .lg-col-10 {
     width: 83.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .lg-col-10 {
+    margin: 15px;
+    -webkit-box-flex: 1.2;
+    -webkit-flex: 1.2;
+    -ms-flex: 1.2;
+    flex: 1.2; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .lg-offset-10 {
     margin-left: 83.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .lg-col-11 {
     width: 91.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .lg-col-11 {
+    margin: 15px;
+    -webkit-box-flex: 1.09091;
+    -webkit-flex: 1.09091;
+    -ms-flex: 1.09091;
+    flex: 1.09091; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .lg-offset-11 {
     margin-left: 91.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .lg-col-12 {
     width: 100%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .lg-col-12 {
+    margin: 15px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .lg-offset-12 {
     margin-left: 100%; }
-  /* line 86, Framework/sass/mixins/_grid.sass */
+  /* line 93, Framework/sass/mixins/_grid.sass */
   .lg-float-right {
     float: right; }
-  /* line 89, Framework/sass/mixins/_grid.sass */
+  /* line 96, Framework/sass/mixins/_grid.sass */
   .lg-float-left {
     float: left; }
-  /* line 93, Framework/sass/mixins/_grid.sass */
+  /* line 100, Framework/sass/mixins/_grid.sass */
   .lg-hide {
     display: none !important; }
-  /* line 96, Framework/sass/mixins/_grid.sass */
+  /* line 103, Framework/sass/mixins/_grid.sass */
   .lg-show {
     display: block !important; }
-  /* line 100, Framework/sass/mixins/_grid.sass */
+  /* line 107, Framework/sass/mixins/_grid.sass */
   .lg-text-align-right {
     text-align: right; }
-  /* line 103, Framework/sass/mixins/_grid.sass */
+  /* line 110, Framework/sass/mixins/_grid.sass */
   .lg-text-align-left {
     text-align: left; }
-  /* line 106, Framework/sass/mixins/_grid.sass */
+  /* line 113, Framework/sass/mixins/_grid.sass */
   .lg-text-align-center {
     text-align: center; } }
 
 @media screen and (min-width: 1170px) {
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xl-col-1 {
     width: 8.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xl-col-1 {
+    margin: 15px;
+    -webkit-box-flex: 12;
+    -webkit-flex: 12;
+    -ms-flex: 12;
+    flex: 12; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xl-offset-1 {
     margin-left: 8.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xl-col-2 {
     width: 16.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xl-col-2 {
+    margin: 15px;
+    -webkit-box-flex: 6;
+    -webkit-flex: 6;
+    -ms-flex: 6;
+    flex: 6; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xl-offset-2 {
     margin-left: 16.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xl-col-3 {
     width: 25%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xl-col-3 {
+    margin: 15px;
+    -webkit-box-flex: 4;
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xl-offset-3 {
     margin-left: 25%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xl-col-4 {
     width: 33.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xl-col-4 {
+    margin: 15px;
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xl-offset-4 {
     margin-left: 33.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xl-col-5 {
     width: 41.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xl-col-5 {
+    margin: 15px;
+    -webkit-box-flex: 2.4;
+    -webkit-flex: 2.4;
+    -ms-flex: 2.4;
+    flex: 2.4; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xl-offset-5 {
     margin-left: 41.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xl-col-6 {
     width: 50%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xl-col-6 {
+    margin: 15px;
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xl-offset-6 {
     margin-left: 50%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xl-col-7 {
     width: 58.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xl-col-7 {
+    margin: 15px;
+    -webkit-box-flex: 1.71429;
+    -webkit-flex: 1.71429;
+    -ms-flex: 1.71429;
+    flex: 1.71429; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xl-offset-7 {
     margin-left: 58.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xl-col-8 {
     width: 66.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xl-col-8 {
+    margin: 15px;
+    -webkit-box-flex: 1.5;
+    -webkit-flex: 1.5;
+    -ms-flex: 1.5;
+    flex: 1.5; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xl-offset-8 {
     margin-left: 66.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xl-col-9 {
     width: 75%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xl-col-9 {
+    margin: 15px;
+    -webkit-box-flex: 1.33333;
+    -webkit-flex: 1.33333;
+    -ms-flex: 1.33333;
+    flex: 1.33333; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xl-offset-9 {
     margin-left: 75%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xl-col-10 {
     width: 83.33333%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xl-col-10 {
+    margin: 15px;
+    -webkit-box-flex: 1.2;
+    -webkit-flex: 1.2;
+    -ms-flex: 1.2;
+    flex: 1.2; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xl-offset-10 {
     margin-left: 83.33333%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xl-col-11 {
     width: 91.66667%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xl-col-11 {
+    margin: 15px;
+    -webkit-box-flex: 1.09091;
+    -webkit-flex: 1.09091;
+    -ms-flex: 1.09091;
+    flex: 1.09091; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xl-offset-11 {
     margin-left: 91.66667%; }
-  /* line 77, Framework/sass/mixins/_grid.sass */
+  /* line 79, Framework/sass/mixins/_grid.sass */
   .xl-col-12 {
     width: 100%; }
-  /* line 81, Framework/sass/mixins/_grid.sass */
+  /* line 82, Framework/sass/mixins/_grid.sass */
+  .flex > .xl-col-12 {
+    margin: 15px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+  /* line 88, Framework/sass/mixins/_grid.sass */
   .xl-offset-12 {
     margin-left: 100%; }
-  /* line 86, Framework/sass/mixins/_grid.sass */
+  /* line 93, Framework/sass/mixins/_grid.sass */
   .xl-float-right {
     float: right; }
-  /* line 89, Framework/sass/mixins/_grid.sass */
+  /* line 96, Framework/sass/mixins/_grid.sass */
   .xl-float-left {
     float: left; }
-  /* line 93, Framework/sass/mixins/_grid.sass */
+  /* line 100, Framework/sass/mixins/_grid.sass */
   .xl-hide {
     display: none !important; }
-  /* line 96, Framework/sass/mixins/_grid.sass */
+  /* line 103, Framework/sass/mixins/_grid.sass */
   .xl-show {
     display: block !important; }
-  /* line 100, Framework/sass/mixins/_grid.sass */
+  /* line 107, Framework/sass/mixins/_grid.sass */
   .xl-text-align-right {
     text-align: right; }
-  /* line 103, Framework/sass/mixins/_grid.sass */
+  /* line 110, Framework/sass/mixins/_grid.sass */
   .xl-text-align-left {
     text-align: left; }
-  /* line 106, Framework/sass/mixins/_grid.sass */
+  /* line 113, Framework/sass/mixins/_grid.sass */
   .xl-text-align-center {
     text-align: center; } }
 
@@ -3366,33 +3786,31 @@ button:disabled {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  height: 100%;
-  border-radius: 3px;
-  margin-top: 15px; }
-  /* line 19, Framework/sass/components/_panel.sass */
+  border-radius: 3px; }
+  /* line 18, Framework/sass/components/_panel.sass */
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
     padding: 0;
     margin: 0; }
-  /* line 25, Framework/sass/components/_panel.sass */
+  /* line 24, Framework/sass/components/_panel.sass */
   .panel--default {
     border: solid 1px #e6e9ec; }
-  /* line 29, Framework/sass/components/_panel.sass */
+  /* line 28, Framework/sass/components/_panel.sass */
   .panel__header, .panel__body, .panel__footer {
     padding: 7.5px 15px; }
-  /* line 34, Framework/sass/components/_panel.sass */
+  /* line 33, Framework/sass/components/_panel.sass */
   .panel__header {
     border-bottom: solid 1px #e6e9ec;
     font-weight: 600; }
-  /* line 39, Framework/sass/components/_panel.sass */
+  /* line 38, Framework/sass/components/_panel.sass */
   .panel__body {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1; }
-    /* line 41, Framework/sass/components/_panel.sass */
+    /* line 40, Framework/sass/components/_panel.sass */
     .panel__body p {
       padding-bottom: 15px; }
-  /* line 44, Framework/sass/components/_panel.sass */
+  /* line 43, Framework/sass/components/_panel.sass */
   .panel__footer {
     background: #f7f7f7; }
 
@@ -3726,10 +4144,9 @@ button:disabled {
   background: #f7f7f7;
   border: solid 1px #e6e9ec;
   padding: 15px;
-  height: 100%;
   margin-bottom: 15px;
   border-radius: 3px; }
-  /* line 16, Framework/sass/components/_well.sass */
+  /* line 15, Framework/sass/components/_well.sass */
   .well--lg {
     padding: 30px; }
 

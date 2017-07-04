@@ -14,13 +14,12 @@ block content
 
 
   .wrapper
-    .row
-      .col.button__list
+    .row.flex
+      .md-col-3.background--primary-light  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic tenetur inventore excepturi nemo sequi unde maxime fugiat, delectus veritatis saepe?
+      .md-col-3.background--secondary-light  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      .md-col-3.background--danger-light  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic tenetur inventore excepturi nemo sequi unde maxime fugiat, delectus veritatis saepe?
+      .md-col-3.well
 
-        each val in ['moon', 'moon-solid', 'navicon', 'navicon-solid','close', 'close-solid', 'dailer', 'dailer-solid', 'bell', 'bell-solid', 'bell-mute', 'bell-mute-solid', 'star', 'star-solid', 'star-half', 'star-half-solid', 'chevron-down', 'chevron-up', 'chevron-right', 'chevron-left']
-          a.btn.btn--primary <i class="lunacon lunacon-#{val} btn__icon--left"></i> #{val}
-          | &nbsp; &nbsp;
-
-    .row
-      .col
-        br
+    .row.flex
+      .md-col-6.well
+      .md-col-6.well
