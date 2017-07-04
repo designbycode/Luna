@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/dev-style.css">
+    <link rel="stylesheet" href="css/arduino-light.css">
+    <title>Luna Framework - Css Helpers</title>
+  </head>
+  <body>
+    <nav class="nav nav--fixed">
+      <div class="nav__wrapper">
+        <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
+        <div class="nav__navicon"></div>
+        <div class="nav__links__wrapper nav__links--right">
+          <ul class="nav__links">
+            <li class="nav__links__item"><a href="index.html">Home</a></li>
+            <li class="nav__links__item"><a href="icons.html">Icons</a></li>
+            <li class="nav__links__item nav__links__item--dropdown"><a href="index.html">Docs</a>
+              <ul class="nav__links">
+                <li class="nav__links__item"><a href="grid.html">The Grid</a></li>
+                <li class="nav__links__item"><a href="components.html">Components</a></li>
+                <li class="nav__links__item"><a href="css-helpers.html">Css Helpers</a></li>
+                <li class="nav__links__item"><a href="sass-helpers.html">Sass Helper</a></li>
+                <li class="nav__links__item"><a href="javascript.html">Javascript</a></li>
+              </ul>
+            </li>
+            <li class="nav__links__item"><a href="index.html">Tutorials</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="page__header">
+      <div class="wrapper">
+        <div class="row padding">
+          <div class="md-col-7">
+            <h1 class="text--white">Luna Framework Css Helpers</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="row">
+        <div class="col">
+          <h2>Heading</h2>
+          <p>The vertical rhythm heading settings is by default set by normalize-css. Simply alter the settings in the <code>_settings.sass</code> file.</p>
+          <div class="well"><h1>Heading 1</h1><h2>Heading 2</h1><h3>Heading 3</h1><h4>Heading 4</h1><h5>Heading 5</h1><h6>Heading 6</h1>
+            <p class="text--primary">Paragraph</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Text alignment classes</h2>
+          <p>Text can be aligned in two different ways. This can be done globally or by breakpoints. Simply use ether one of these classes. For global <code>.text-align-{direction}</code> or for breakpoints <code>.{prefix}-align-{direction}</code></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3>Global alignment</h3>
+        </div>
+        <div class="md-col-4">
+          <div class="panel panel--default">
+            <div class="panel__body text-align-left"><code>.text-align-left</code></div>
+          </div>
+        </div>
+        <div class="md-col-4">
+          <div class="panel panel--default">
+            <div class="panel__body text-align-center"><code>.text-align-center</code></div>
+          </div>
+        </div>
+        <div class="md-col-4">
+          <div class="panel panel--default">
+            <div class="panel__body text-align-right"><code>.text-align-right</code></div>
+          </div>
+        </div>
+        <div class="col">
+          <h3>Align by breakpoints alignment</h3>
+        </div>
+        <div class="md-col-4">
+          <div class="panel panel--default">
+            <div class="panel__body md-text-align-left"><code>.{prefix}-align-left</code></div>
+          </div>
+        </div>
+        <div class="md-col-4">
+          <div class="panel panel--default">
+            <div class="panel__body md-text-align-center"><code>.{prefix}-align-center</code></div>
+          </div>
+        </div>
+        <div class="md-col-4">
+          <div class="panel panel--default">
+            <div class="panel__body md-text-align-right"><code>.{prefix}-align-right</code></div>
+          </div>
+        </div>
+        <div class="col">
+          <pre><code>&lt;!-- global alignment --&gt;
+&lt;div class=&quot;text-align-left&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;text-align-center&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;text-align-right&quot;&gt;...&lt;/div&gt;
+&lt;!-- alignment by breakpoint --&gt;
+&lt;div class=&quot;md-text-align-left&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;md-text-align-center&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;md-text-align-right&quot;&gt;...&lt;/div&gt;</pre></code>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Font Styles</h2>
+          <p>Here are some font styles to quickly change the font styles from normal to lighter, bold, italic or both italic and weight.</p>
+        </div>
+        <div class="md-col-6">
+          <div class="well">
+            <h3>Font Weight</h3>
+            <p class="font--light">.font--light</p>
+            <p class="font--normal">.font--normal</p>
+            <p class="font--bold">.font--bold</p>
+          </div>
+        </div>
+        <div class="md-col-6">
+          <div class="well">
+            <h3>Font Style</h3>
+            <p class="font--light-italic">font--light-italic</p>
+            <p class="font--italic">font--italic</p>
+            <p class="font--bold-italic">font--bold-italic</p>
+          </div>
+        </div>
+        <div class="col">
+          <pre><code>&lt;!-- font weight --&gt;
+&lt;span class=&quot;font--normal&quot;&gt;Normal&lt;/span&gt;
+&lt;span class=&quot;font--light&quot;&gt;Light&lt;/span&gt;
+&lt;span class=&quot;font--bold&quot;&gt;Bold&lt;/span&gt;
+&lt;!-- font styles --&gt;
+&lt;span class=&quot;font--italic&quot;&gt;Italic&lt;/span&gt;
+&lt;span class=&quot;font--light-italic&quot;&gt;Light Italic&lt;/span&gt;
+&lt;span class=&quot;font--bold-italic&quot;&gt;Bold Italic&lt;/span&gt;</pre></code>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Ellipsis</h2>
+          <p>The ellipsis class is just a small little helper class to help text form overflowing and word wrapping. This will clip the text to a single line and append three dotes to the end.</p>
+        </div>
+        <div class="md-col-3">
+          <div class="well ellipsis"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo sunt suscipit libero recusandae ducimus quibusdam veniam, quaerat saepe possimus, minima!</div>
+        </div>
+        <div class="md-col-3">
+          <div class="well ellipsis"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo sunt suscipit libero recusandae ducimus quibusdam veniam, quaerat saepe possimus, minima!</div>
+        </div>
+        <div class="md-col-3">
+          <div class="well ellipsis"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo sunt suscipit libero recusandae ducimus quibusdam veniam, quaerat saepe possimus, minima!</div>
+        </div>
+        <div class="md-col-3">
+          <div class="well ellipsis"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo sunt suscipit libero recusandae ducimus quibusdam veniam, quaerat saepe possimus, minima!</div>
+        </div>
+        <div class="col">
+          <pre><code>&lt;div class=&quot;ellipsis&quot;&gt;Long text here&lt;/div&gt;</code></pre>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Text, borders and background colors</h2>
+          <p>This helper helps to modify elements colors and even overriding existing colors set by the components. They are comprised out of color shades. The standard color and a lighter version of the same color sets.</p>
+          <p>The three-helper work in the exact same way by modifying the text, background and border colors of an element. This helper gets its colors from a color-map in the <code>_settings.sass</code> file.</p>
+        </div>
+        <div class="md-col-6">
+          <div class="well">
+            <div class="small-padding text--primary">Primary color</div>
+            <div class="small-padding text--secondary">Secondary color</div>
+            <div class="small-padding text--dark">Dark color</div>
+            <div class="small-padding text--default">default color</div>
+            <div class="small-padding text--info">Info color</div>
+            <div class="small-padding text--warning">Warning color</div>
+            <div class="small-padding text--success">Success color</div>
+            <div class="small-padding text--danger">Danger color</div>
+            <div class="small-padding text--white">White color</div>
+            <div class="small-padding text--black">Black color</div>
+          </div>
+        </div>
+        <div class="md-col-6">
+          <div class="well">
+            <div class="small-padding text--primary-light">Primary color</div>
+            <div class="small-padding text--secondary-light">Secondary color</div>
+            <div class="small-padding text--dark-light">Dark color</div>
+            <div class="small-padding text--default-light">default color</div>
+            <div class="small-padding text--info-light">Info color</div>
+            <div class="small-padding text--warning-light">Warning color</div>
+            <div class="small-padding text--success-light">Success color</div>
+            <div class="small-padding text--danger-light">Danger color</div>
+            <div class="small-padding text--white-light">White color</div>
+            <div class="small-padding text--black-light">Black color</div>
+          </div>
+        </div>
+        <div class="md-col-6">
+          <pre><code>&lt;span class=&quot;text--{color}&quot;&gt;...&lt;/span&gt;</code></pre>
+        </div>
+        <div class="md-col-6">
+          <pre><code>&lt;span class=&quot;text--{color}-light&quot;&gt;...&lt;/span&gt;</code></pre>
+        </div>
+        <div class="md-col-6">
+          <div class="well">
+            <div class="small-padding background--primary text--white">Primary color</div>
+            <div class="small-padding background--secondary text--white">Secondary color</div>
+            <div class="small-padding background--dark text--white">Dark color</div>
+            <div class="small-padding background--default text--black">default color</div>
+            <div class="small-padding background--info text--white">Info color</div>
+            <div class="small-padding background--warning text--white">Warning color</div>
+            <div class="small-padding background--success text--white">Success color</div>
+            <div class="small-padding background--danger text--white">Danger color</div>
+            <div class="small-padding background--white text--black">White color</div>
+            <div class="small-padding background--black text--white">Black color</div>
+          </div>
+        </div>
+        <div class="md-col-6">
+          <div class="well">
+            <div class="small-padding background--primary-light">Primary color</div>
+            <div class="small-padding background--secondary-light">Secondary color</div>
+            <div class="small-padding background--dark-light">Dark color</div>
+            <div class="small-padding background--default-light">default color</div>
+            <div class="small-padding background--info-light">Info color</div>
+            <div class="small-padding background--warning-light">Warning color</div>
+            <div class="small-padding background--success-light">Success color</div>
+            <div class="small-padding background--danger-light">Danger color</div>
+            <div class="small-padding background--white-light">White color</div>
+            <div class="small-padding background--black-light">Black color</div>
+          </div>
+        </div>
+        <div class="md-col-6">
+          <pre><code>&lt;span class=&quot;background--{color}&quot;&gt;...&lt;/span&gt;</code></pre>
+        </div>
+        <div class="md-col-6">
+          <pre><code>&lt;span class=&quot;background--{color}-light&quot;&gt;...&lt;/span&gt;</code></pre>
+        </div>
+        <div class="md-col-6">
+          <div class="well">
+            <div class="small-padding border--primary">Primary color</div>
+            <div class="small-padding border--secondary">Secondary color</div>
+            <div class="small-padding border--dark">Dark color</div>
+            <div class="small-padding border--default">default color</div>
+            <div class="small-padding border--info">Info color</div>
+            <div class="small-padding border--warning">Warning color</div>
+            <div class="small-padding border--success">Success color</div>
+            <div class="small-padding border--danger">Danger color</div>
+            <div class="small-padding border--white">White color</div>
+            <div class="small-padding border--black">Black color</div>
+          </div>
+        </div>
+        <div class="md-col-6">
+          <div class="well">
+            <div class="small-padding border--primary-light">Primary color</div>
+            <div class="small-padding border--secondary-light">Secondary color</div>
+            <div class="small-padding border--dark-light">Dark color</div>
+            <div class="small-padding border--default-light">default color</div>
+            <div class="small-padding border--info-light">Info color</div>
+            <div class="small-padding border--warning-light">Warning color</div>
+            <div class="small-padding border--success-light">Success color</div>
+            <div class="small-padding border--danger-light">Danger color</div>
+            <div class="small-padding border--white-light">White color</div>
+            <div class="small-padding border--black-light">Black color</div>
+          </div>
+        </div>
+        <div class="md-col-6">
+          <pre><code>&lt;span class=&quot;border--{color}&quot;&gt;...&lt;/span&gt;</code></pre>
+        </div>
+        <div class="md-col-6">
+          <pre><code>&lt;span class=&quot;border--{color}-light&quot;&gt;...&lt;/span&gt;</code></pre>
+        </div>
+        <div class="col">
+          <blockquote class="blockquote blockquote--warning">
+            <div class="blockquote__header">Any color that is added to the color-maps will automatically generate classes for that color.</div>
+            <div class="blockquote__body">This also create button with the colors added under the <code>.btn</code> class group. Read more about buttons in the components section.</div>
+            <div class="blockquote__footer background--warning-light"><a href="components.html" class="btn btn--warning">read more</a></div>
+          </blockquote>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2 class="selectable__false">Selectable</h2>
+          <p class="selectable__false--cursor">The selectable class has three different identifiers with one modifier. The job of this helper is preventing a user to select an element on the page. <span class="font--italic text--danger background--danger-light">(Try to select this text)</span></p>
+          <ul>
+            <li>The <code>.selectable__true</code> will allow a user to click or grab a single word within this class.</li>
+            <li>The <code>.selectable__false</code> will make the content in the element unselectable.</li>
+            <li>The <code>.selectable__all</code> will select everthing in this element with a single click of the mouse.</li>
+            <li>The <code>.selectable__{modifier}--cursor</code> will do the same as above but, will add the appropriate cursor for this element.</li>
+          </ul>
+        </div>
+        <div class="md-col-4 text-align-center selectable__true">
+          <div class="well">Selectable true</div>
+        </div>
+        <div class="md-col-4 text-align-center selectable__false">
+          <div class="well">Selectable false</div>
+        </div>
+        <div class="md-col-4 text-align-center selectable__all">
+          <div class="well">Selectable all</div>
+        </div>
+        <div class="md-col-4 text-align-center selectable__true--cursor">
+          <div class="well">Selectable true</div>
+        </div>
+        <div class="md-col-4 text-align-center selectable__false--cursor">
+          <div class="well">Selectable false</div>
+        </div>
+        <div class="md-col-4 text-align-center selectable__all--cursor">
+          <div class="well">Selectable all</div>
+        </div>
+        <div class="col">
+          <pre><code class="selectable__all">&lt;div class=&quot;selectable__true&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;selectable__false&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;selectable__all&quot;&gt;...&lt;/div&gt;
+&lt;!-- display cursor --&gt;
+&lt;div class=&quot;selectable__true--cursor&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;selectable__false--cursor&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;selectable__all--cursor&quot;&gt;...&lt;/div&gt;</pre></code>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Hide and Show</h2>
+          <p>Elements can be hidden or shown in two different ways. This can be done globally or by breakpoints. Simply use ether one of these classes. For global use the <code>.hide</code> or <code>.show</code> classes. If you want to hide or show an element on a specific screen size. The you can use this for breakpoints sizes <code>.{prefix}-show</code> or <code>.{prefix}-hide</code></p>
+        </div>
+      </div>
+      <div class="row flex">
+        <div class="md-col-4 hide md-show">
+          <div class="well background--primary-light">
+            <h4>Will be hidden on small size screen, but will be visible on medium size screen.</h4>
+          </div>
+        </div>
+        <div class="md-col-4 md-hide">
+          <div class="well background--secondary-light">
+            <h4 class="text--secondary">Will be visible on small size screen, but will be hidden on medium size screen.</h4>
+          </div>
+        </div>
+        <div class="md-col-4 md-hide lg-show">
+          <div class="well background--success-light">
+            <h4 class="text--success">Will be hidden on small size screen, but will be visible on large size screen.</h4>
+          </div>
+        </div>
+        <div class="md-col-4 hide xl-show">
+          <div class="well background--danger-light">
+            <h4 class="text--danger">Will be only be visable on XL screens</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Responsive Images</h2>
+          <p> The <code>.responsive__image</code> class will keep the image element from overflowing the parent element. This will also make the image mobile friendly because the image never exceeds the boundary of the webpage.</p>
+        </div>
+        <div class="md-col-4"><img src="img/luna.jpg" alt="Luna" class="responsive__image"></div>
+        <div class="md-col-4"><img src="img/nasa-earth.jpg" alt="Nasa Earth" class="responsive__image"></div>
+        <div class="md-col-4"><img src="img/nasa-moon.jpg" alt="Nasa Moon" class="responsive__image"></div>
+        <div class="col">
+          <pre><code> &lt;img src=&quot;#&quot; class=&quot;responsive__image&quot; alt=&quot;&quot;&gt;</code></pre>
+        </div>
+        <div class="col">
+          <h2>Responsive Embed</h2>
+          <p>The responsive helper will help you to make responsive video’s, iframes, embeds, object’s, maps and svg’s. There are three types of embeds you can do. Square, normal screen size and wide-screen size. Just wrap the target element with an div with a class of any of these <code>.responsive__square</code>, <code>.responsive__screen</code> or <code>.responsive__wide-screen</code>. Make the object you want to constrain a child element of the div you created.</p>
+          <blockquote class="blockquote blockquote--danger">
+            <div class="blockquote__header">Optionally</div>
+            <div class="blockquote__body">If something went wrong you can’t add a class of <code>.responsive__item</code> to the element you want to make responsive, by overriding the default css code.</div>
+          </blockquote>
+        </div>
+        <div class="md-col-6">
+          <div class="well">
+            <div class="responsive__wide-screen">
+              <video src="img/lips.mp4" controls class="responsive__item "></video>
+            </div>
+          </div>
+        </div>
+        <div class="md-col-6">
+          <div class="well">
+            <div class="responsive__screen"><img src="img/nasa-moon.jpg" alt="Nasa Moon" class="responsive__item"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Images Shapes</h2>
+          <p> The <code>.responsive__image</code> class will keep the image element from overflowing the parent element. This will also make the image mobile friendly because the image never exceeds the boundary of the webpage.</p>
+        </div>
+        <div class="md-col-4"><img src="img/luna.jpg" alt="Luna" class="responsive__image image--round"></div>
+        <div class="md-col-4"><img src="img/nasa-earth.jpg" alt="Nasa Earth" class="responsive__image"></div>
+        <div class="md-col-4"><img src="img/nasa-moon.jpg" alt="Nasa Moon" class="responsive__image"></div>
+        <div class="col">
+          <pre><code> &lt;img src=&quot;#&quot; class=&quot;responsive__image&quot; alt=&quot;&quot;&gt;</code></pre>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="wrapper padding">
+        <div class="row">
+          <div class="col text-align-center">Created by &nbsp;<a href="http://designbycode.co.za" target="_blank">DesignByCode</a></div>
+        </div>
+      </div>
+    </footer>
+    <div class="scrollup">
+      <div class="wrapper"><a href="#" class="scrollup__button"></a></div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/highlight.pack.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('pre code').each(function(i, block) {
+          hljs.highlightBlock(block);
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+// ==========================================
+// == Luna Framework
+// == AUTHOR: CLAUDE MYBURGH
+// == URL: http://lunaframework.co.za
+// ==========================================
+
++normalize()
+
+*,
+*::before,
+*::after
+  box-sizing: border-box
+
+/* Body
+body
+  background: $global-background-color
+  color: $global-font-color
+  font-size: $base-font-size
+  overflow-x: hidden
+
+
+@for $i from 1 through 6
+  h#{$i}
+    font-family: $global-header-font
+    // word-wrap: break-word
+    // @if ($i != 1)
+    //   font-weight: 400
+
+
+a:link,
+a:visited,
+a:active
+  color: $global-link-color
+  text-decoration: none
+
+a:hover
+  text-decoration: underline
+
+
+.clearfix,
+.clear
+  +clearfix
+
+.margin-bottom
+  margin-bottom: $the__global__padding

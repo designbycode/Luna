@@ -1,0 +1,27 @@
+// ==========================================
+// == Luna Framework
+// == AUTHOR: CLAUDE MYBURGH
+// == URL: http://lunaframework.co.za
+// ==========================================
+
+@mixin scrollbars($bg-rail-color: $scrollbar__track__background__color, $bg-thumb-color: $scrollbar__thumb__background__color, $thumb-border-color: $scrollbar__thumb__border__color, $thumb-border-width: $scrollbar__thumb__border__width, $track-width:  $scrollbar__track__width, $border-radius: $scrollbar__track__radius, $track-border-color: $scrollbar__track__border__color, $track-border-width: $scrollbar__track__border__width )
+  &::-webkit-scrollbar
+    background: $bg-rail-color
+    width: $track-width
+    border-left: $track-border-width solid $track-border-color
+
+
+  &::-webkit-scrollbar-thumb
+    background: $bg-thumb-color
+    border: $thumb-border-width solid $thumb-border-color
+    //background-clip: padding-box
+    +radius($border-radius)
+
+
+
+// 01. color of rail
+// 02. color of thumb
+// 03. border color of thumb
+// 04. bordr width of thumb
+// 05. track width
++scrollbars()

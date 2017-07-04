@@ -1,0 +1,121 @@
+extends ./template/_layout.jade
+
+
+block title
+  title Luna Framework - Lightweight Responsive Framework
+
+
+
+block content
+
+
+  section.hero.text-center
+    .wrapper.padding
+      h1.text--default Luna Framework
+      h3.text--default Lightweight Responsive Framework
+
+
+
+  .wrapper
+    .row.padding
+      .md-col-12
+        h1 Luna Framework
+        blockquote.blockquote.blockquote--warning
+          .blockquote__header Lightweight Responsive Framework
+
+        p.lead <strong data-tooltip="Luna Framework">Luna Framework</strong> is a responsive Open Source CSS framework, build in SASS. The aim of this framework is to speed up frontend development by handling cross browser inconsistencies and creating support for mobile devices at the same time. The <strong>Luna Framework</strong> is also built on the CSS <strong data-tooltip="Luna Framework">BEM</strong> methodology to reduce the CSS footprint.
+        a(href="#").btn.btn--lg.btn--primary Download
+
+
+    .row.padding--bottom
+      .md-col-12
+        h2 Installation
+        p <strong>Luna Framework</strong> can be obtained by bower or by downloading it from GitHub.
+
+        h3 via bower
+        p You can install the Framework using bower. Make sure you have bower installed, then run :
+        pre: code bower install Luna
+
+
+    .row.padding--bottom
+      .md-col-12
+        h1 Setting Up Luna Framework
+        blockquote.blockquote.blockquote--warning
+          .blockquote__header Duplicate the <i><strong>_settings.sass</strong></i> file in the sass folder to override the default styles.
+        | To start to use <strong>Luna Framework</strong> you will need to do the following few steps. First you will need to copy the _settings.sass file in the sass directory and add it to the root of your sass folder. Now you just have to past the following code into the top of your main CSS file.
+
+        pre: code(class="scss")
+          | @import "settings"
+          | @import "Luna/Framework/sass/init"
+
+
+
+
+    .row
+      .md-col-12
+        h2 Media Object
+        p There are 2 variations of the notify elements. A default set and a light set.  Simply append <code>–-light</code> to the end of any notify elements.
+
+        blockquote.blockquote.blockquote--warning
+          .blockquote__header This element works great for comments and listings.
+
+    .row
+      .col
+        .media
+          .media__left.media--top
+            .media__image
+              img(src="", alt="", width="80px", height="80px").media__thumbnail
+          .media__body
+            .media__heading  Lorem ipsum dolor sit amet.
+            div Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!
+        .media
+          .media__body
+            .media__heading  Lorem ipsum dolor sit amet.
+            div Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!
+          .media__right.media--top
+            .media__image
+            img(src="", alt="", width="80px", height="80px").media__thumbnail
+
+      .col
+        pre: code(class="html") &lt;div class=&quot;media&quot;&gt;
+          |  &lt;div class=&quot;media__body&quot;&gt;
+          |    &lt;div class=&quot;media__heading&quot;&gt; .....&lt;/div&gt;
+          |    &lt;div&gt;.....&lt;/div&gt;
+          |  &lt;/div&gt;
+          |  &lt;div class=&quot;media__right media--top&quot;&gt;
+          |    &lt;div class=&quot;media__image&quot;&gt;&lt;/div&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; width=&quot;80px&quot; height=&quot;80px&quot; class=&quot;media__thumbnail&quot;&gt;
+          |  &lt;/div&gt;
+          |&lt;/div&gt;
+    .row
+      .col
+        blockquote.blockquote.blockquote--warning
+          .blockquote__header Just add a little styling to the element.
+          .blockquote__body Just add <code>.media--default</code> to the main media element
+
+    .row
+      .col
+        .media.media--default
+          .media__left.media--top
+            .media__image
+              img(src="", alt="", width="80px", height="80px").media__thumbnail
+          .media__body
+            .media__heading  Lorem ipsum dolor sit amet.
+            div Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!
+        .media.media--default
+          .media__body
+            .media__heading  Lorem ipsum dolor sit amet.
+            div Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!
+          .media__right.media--top
+            .media__image
+            img(src="", alt="", width="80px", height="80px").media__thumbnail
+
+      .col
+        pre: code(class="html") &lt;div class=&quot;media media--default&quot;&gt;
+          |  &lt;div class=&quot;media__body&quot;&gt;
+          |    &lt;div class=&quot;media__heading&quot;&gt; .....&lt;/div&gt;
+          |    &lt;div&gt;.....&lt;/div&gt;
+          |  &lt;/div&gt;
+          |  &lt;div class=&quot;media__right media--top&quot;&gt;
+          |    &lt;div class=&quot;media__image&quot;&gt;&lt;/div&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; width=&quot;80px&quot; height=&quot;80px&quot; class=&quot;media__thumbnail&quot;&gt;
+          |  &lt;/div&gt;
+          |&lt;/div&gt;

@@ -1,0 +1,47 @@
+{
+  "name": "luna",
+  "description": "A lightweight sass framework",
+  "main": "index.js",
+  "authors": [
+    "Claude <claude@designbycode.co.za>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Responsive",
+    "Framework",
+    "Grid",
+    "Layout"
+  ],
+  "homepage": "http//designbycode.co.za/Luna",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "Build",
+    "Framework/img",
+    "Framework/jade",
+    "Framework/js/app.js",
+    "Framework/js/framer.js",
+    "Framework/js/highlight.pack.js",
+    "Framework/sass/dev-style.sass",
+    "Framework/sass/_init-dev.sass",
+    "Framework/sass/_settings-override.sass",
+    "Framework/lunacon",
+    "index.js",
+    "package.json",
+    "package-lock.json",
+    "Gulpfile.js"
+  ],
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "clipboard": "^1.7.1"
+  },
+  "dependencies": {
+    "normalize-scss": "normalize.scss#^7.0.0",
+    "jquery": "^3.2.1",
+    "lunacon": "^1.0.2"
+  }
+}

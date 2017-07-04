@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/dev-style.css">
+    <link rel="stylesheet" href="css/arduino-light.css">
+    <title>Luna Framework - Grid</title>
+  </head>
+  <body>
+    <nav class="nav nav--fixed">
+      <div class="nav__wrapper">
+        <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
+        <div class="nav__navicon"></div>
+        <div class="nav__links__wrapper nav__links--right">
+          <ul class="nav__links">
+            <li class="nav__links__item"><a href="index.html">Home</a></li>
+            <li class="nav__links__item"><a href="icons.html">Icons</a></li>
+            <li class="nav__links__item nav__links__item--dropdown"><a href="index.html">Docs</a>
+              <ul class="nav__links">
+                <li class="nav__links__item"><a href="grid.html">The Grid</a></li>
+                <li class="nav__links__item"><a href="components.html">Components</a></li>
+                <li class="nav__links__item"><a href="css-helpers.html">Css Helpers</a></li>
+                <li class="nav__links__item"><a href="sass-helpers.html">Sass Helper</a></li>
+                <li class="nav__links__item"><a href="javascript.html">Javascript</a></li>
+              </ul>
+            </li>
+            <li class="nav__links__item"><a href="index.html">Tutorials</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="page__header">
+      <div class="wrapper">
+        <div class="row padding">
+          <div class="md-col-7">
+            <h1 class="text--white"><wbr> Luna Frame<wbr>work The Grid</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="row">
+        <div class="col">
+          <h1>The Grid</h1>
+          <h2>Grid Layout</h2>
+          <p>The <strong>Luna Framework</strong> is a 12-column responsive grid by default. The column count be changed in the _settings.sass to whatever you need. This means that you can make it a 2-column grid, 24-column grid or anything in between. Each column set needs to be with in a <code>.row</code> class and  must by default be prepended with one of the following prefixes. <code>.xs-</code>  <code>.sm-</code>  <code>.md-</code>  <code>.lg-</code>  <code>.xl-</code></p>
+          <blockquote class="blockquote blockquote--warning">
+            <div class="blockquote__header">More breakpoint can be added or can be removed in <strong>_settings.sass</strong> file</div>
+          </blockquote>
+        </div>
+      </div>
+      <div class="row">
+        <div class="md-col-1">
+          <div class="box-fill">col-1</div>
+        </div>
+        <div class="md-col-1">
+          <div class="box-fill">col-1</div>
+        </div>
+        <div class="md-col-1">
+          <div class="box-fill">col-1</div>
+        </div>
+        <div class="md-col-1">
+          <div class="box-fill">col-1</div>
+        </div>
+        <div class="md-col-1">
+          <div class="box-fill">col-1</div>
+        </div>
+        <div class="md-col-1">
+          <div class="box-fill">col-1</div>
+        </div>
+        <div class="md-col-1">
+          <div class="box-fill">col-1</div>
+        </div>
+        <div class="md-col-1">
+          <div class="box-fill">col-1</div>
+        </div>
+        <div class="md-col-1">
+          <div class="box-fill">col-1</div>
+        </div>
+        <div class="md-col-1">
+          <div class="box-fill">col-1</div>
+        </div>
+        <div class="md-col-1">
+          <div class="box-fill">col-1</div>
+        </div>
+        <div class="md-col-1">
+          <div class="box-fill">col-1</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="md-col-2">
+          <div class="box-fill">col-2</div>
+        </div>
+        <div class="md-col-2">
+          <div class="box-fill">col-2</div>
+        </div>
+        <div class="md-col-2">
+          <div class="box-fill">col-2</div>
+        </div>
+        <div class="md-col-2">
+          <div class="box-fill">col-2</div>
+        </div>
+        <div class="md-col-2">
+          <div class="box-fill">col-2</div>
+        </div>
+        <div class="md-col-2">
+          <div class="box-fill">col-2</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="md-col-3">
+          <div class="box-fill">col-3</div>
+        </div>
+        <div class="md-col-3">
+          <div class="box-fill">col-3</div>
+        </div>
+        <div class="md-col-3">
+          <div class="box-fill">col-3</div>
+        </div>
+        <div class="md-col-3">
+          <div class="box-fill">col-3</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="md-col-4">
+          <div class="box-fill">col-4</div>
+        </div>
+        <div class="md-col-4">
+          <div class="box-fill">col-4</div>
+        </div>
+        <div class="md-col-4">
+          <div class="box-fill">col-4</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="md-col-6">
+          <div class="box-fill">col-6</div>
+        </div>
+        <div class="md-col-6">
+          <div class="box-fill">col-6</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="md-col-12">
+          <div class="box-fill">col-12</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <pre><code>&lt;div class=&quot;wrapper&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;md-col-4&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;md-col-4&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;md-col-4&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</pre></code>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Column Offset Layout</h2>
+          <p>Columns can be easily offset by using the <code>.{prefix}-offset-{num}</code> classes. Different offset can be set for different screen sizes by added multiple classes to a single element.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="md-col-4 md-offset-4">
+          <div class="box-fill background--secondary-light text--secondary border--secondary-light">col 4 offset 4</div>
+        </div>
+        <div class="md-col-4">
+          <div class="box-fill">col 4</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="md-col-4">
+          <div class="box-fill">col 4</div>
+        </div>
+        <div class="md-col-4 md-offset-4">
+          <div class="box-fill background--secondary-light text--secondary border--secondary-light">col 4 offset 4</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="md-col-3">
+          <div class="box-fill">col 3</div>
+        </div>
+        <div class="md-col-3 md-offset-1">
+          <div class="box-fill background--secondary-light text--secondary border--secondary-light">col 3 offset 1</div>
+        </div>
+        <div class="md-col-3 md-offset-1">
+          <div class="box-fill background--secondary-light text--secondary border--secondary-light">col 3 offset 1</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <pre><code>&lt;div class=&quot;row&quot;&gt;
+ &lt;div class=&quot;md-col-4 md-offset-4&quot;&gt;&lt;/div&gt;
+ &lt;div class=&quot;md-col-4&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</pre></code>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Float Columns</h2>
+          <p>Columns can be floated left or right by using the following set for classes at the appropriated screen sizes. <code>.{prefix}-float-{direction}</code></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="md-col-6 lg-float-right">
+          <div class="box-fill background--primary-light text--primary border--primary-light">col 6 float <strong>Left</strong> when small</div>
+        </div>
+        <div class="md-col-6 lg-float-left">
+          <div class="box-fill background--secondary-light text--secondary border--secondary-light">col 6 float <strong>Right</strong> when small</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <pre><code>&lt;div class=&quot;row&quot;&gt;
+ &lt;div class=&quot;md-col-4 md-float-right&quot;&gt;&lt;/div&gt;
+ &lt;div class=&quot;md-col-4 md-float-left&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</pre></code>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Equal Height Columns</h2>
+          <p>All column elements will float to the left or when specified, right. This will collapse the element. To remedy this problem a class of <code>.flex</code> can be added to the parent element to give the columns an equal height.</p>
+        </div>
+        <div class="col">
+          <blockquote class="blockquote blockquote--danger">
+            <div class="blockquote__header">When <code>.flex</code> is added. The float classes will not work.</div>
+            <div class="blockquote__body">This must be manually added by using flex box ordering classes.</div>
+          </blockquote>
+        </div>
+      </div>
+      <div class="row flex">
+        <div class="md-col-6">
+          <div class="panel panel--default">
+            <div class="panel__header background--secondary-light text--secondary"> Lorem ipsum dolor sit amet.</div>
+            <div class="panel__body"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus voluptas voluptatem nihil doloremque rem dolorum hic ipsam, dolor nostrum maiores?</div>
+          </div>
+        </div>
+        <div class="md-col-6">
+          <div class="panel panel--default">
+            <div class="panel__header background--primary-light text--primary"> Lorem ipsum dolor sit amet.</div>
+            <div class="panel__body"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <pre><code>&lt;div class=&quot;row flex&quot;&gt;
+ &lt;div class=&quot;md-col-6&quot;&gt;&lt;/div&gt;
+ &lt;div class=&quot;md-col-6&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</pre></code>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <blockquote class="blockquote blockquote--info">
+            <div class="blockquote__header">Show &amp; Hide Columns.</div>
+            <div class="blockquote__body">Element can also be hidden or shown on different screen sizes. Find out more by visiting <strong>CSS HELPER</strong> section.</div>
+            <div class="blockquote__footer background--info-light"><a href="#" class="btn btn--info">Read More</a></div>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="wrapper padding">
+        <div class="row">
+          <div class="col text-align-center">Created by &nbsp;<a href="http://designbycode.co.za" target="_blank">DesignByCode</a></div>
+        </div>
+      </div>
+    </footer>
+    <div class="scrollup">
+      <div class="wrapper"><a href="#" class="scrollup__button"></a></div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/highlight.pack.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('pre code').each(function(i, block) {
+          hljs.highlightBlock(block);
+        });
+      });
+    </script>
+  </body>
+</html>

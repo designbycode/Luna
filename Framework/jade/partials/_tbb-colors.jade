@@ -1,0 +1,106 @@
+.row
+  .col
+    h2 Text, borders and background colors
+    p This helper helps to modify elements colors and even overriding existing colors set by the components. They are comprised out of color shades. The standard color and a lighter version of the same color sets.
+    p The three-helper work in the exact same way by modifying the text, background and border colors of an element. This helper gets its colors from a color-map in the <code>_settings.sass</code> file.
+
+  .md-col-6
+    .well
+
+      div.small-padding.text--primary Primary color
+      div.small-padding.text--secondary Secondary color
+      div.small-padding.text--dark Dark color
+      div.small-padding.text--default default color
+      div.small-padding.text--info Info color
+      div.small-padding.text--warning Warning color
+      div.small-padding.text--success Success color
+      div.small-padding.text--danger Danger color
+      div.small-padding.text--white White color
+      div.small-padding.text--black Black color
+  .md-col-6
+    .well
+      div.small-padding.text--primary-light Primary color
+      div.small-padding.text--secondary-light Secondary color
+      div.small-padding.text--dark-light Dark color
+      div.small-padding.text--default-light default color
+      div.small-padding.text--info-light Info color
+      div.small-padding.text--warning-light Warning color
+      div.small-padding.text--success-light Success color
+      div.small-padding.text--danger-light Danger color
+      div.small-padding.text--white-light White color
+      div.small-padding.text--black-light Black color
+
+  .md-col-6
+    pre: code &lt;span class=&quot;text--{color}&quot;&gt;...&lt;/span&gt;
+  .md-col-6
+    pre: code &lt;span class=&quot;text--{color}-light&quot;&gt;...&lt;/span&gt;
+
+  .md-col-6
+    .well
+      div.small-padding.background--primary.text--white Primary color
+      div.small-padding.background--secondary.text--white Secondary color
+      div.small-padding.background--dark.text--white Dark color
+      div.small-padding.background--default.text--black default color
+      div.small-padding.background--info.text--white Info color
+      div.small-padding.background--warning.text--white Warning color
+      div.small-padding.background--success.text--white Success color
+      div.small-padding.background--danger.text--white Danger color
+      div.small-padding.background--white.text--black White color
+      div.small-padding.background--black.text--white Black color
+  .md-col-6
+    .well
+      div.small-padding.background--primary-light Primary color
+      div.small-padding.background--secondary-light Secondary color
+      div.small-padding.background--dark-light Dark color
+      div.small-padding.background--default-light default color
+      div.small-padding.background--info-light Info color
+      div.small-padding.background--warning-light Warning color
+      div.small-padding.background--success-light Success color
+      div.small-padding.background--danger-light Danger color
+      div.small-padding.background--white-light White color
+      div.small-padding.background--black-light Black color
+
+
+  .md-col-6
+    pre: code &lt;span class=&quot;background--{color}&quot;&gt;...&lt;/span&gt;
+  .md-col-6
+    pre: code &lt;span class=&quot;background--{color}-light&quot;&gt;...&lt;/span&gt;
+
+
+  .md-col-6
+    .well
+
+      div.small-padding.border--primary Primary color
+      div.small-padding.border--secondary Secondary color
+      div.small-padding.border--dark Dark color
+      div.small-padding.border--default default color
+      div.small-padding.border--info Info color
+      div.small-padding.border--warning Warning color
+      div.small-padding.border--success Success color
+      div.small-padding.border--danger Danger color
+      div.small-padding.border--white White color
+      div.small-padding.border--black Black color
+  .md-col-6
+    .well
+      div.small-padding.border--primary-light Primary color
+      div.small-padding.border--secondary-light Secondary color
+      div.small-padding.border--dark-light Dark color
+      div.small-padding.border--default-light default color
+      div.small-padding.border--info-light Info color
+      div.small-padding.border--warning-light Warning color
+      div.small-padding.border--success-light Success color
+      div.small-padding.border--danger-light Danger color
+      div.small-padding.border--white-light White color
+      div.small-padding.border--black-light Black color
+
+  .md-col-6
+    pre: code &lt;span class=&quot;border--{color}&quot;&gt;...&lt;/span&gt;
+  .md-col-6
+    pre: code &lt;span class=&quot;border--{color}-light&quot;&gt;...&lt;/span&gt;
+
+
+  .col
+    blockquote.blockquote.blockquote--warning
+      .blockquote__header Any color that is added to the color-maps will automatically generate classes for that color.
+      .blockquote__body This also create button with the colors added under the <code>.btn</code> class group. Read more about buttons in the components section.
+      .blockquote__footer.background--warning-light: a(href="components.html", class="btn btn--warning") read more

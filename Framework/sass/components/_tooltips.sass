@@ -1,0 +1,242 @@
+// ==========================================
+// == Luna Framework
+// == AUTHOR: CLAUDE MYBURGH
+// == URL: http://lunaframework.co.za
+// ==========================================
+
+@keyframes tooltip-top
+  0%
+    transform: translateY( 20px)
+    opacity: 0
+
+  50%
+    transform: translateY( -20px)
+
+  100%
+    transform: translateY( 0)
+    opacity: 1
+
+@keyframes tooltip-bottom
+  0%
+    transform: translateY( -20px)
+    opacity: 0
+
+  50%
+    transform: translateY( 20px)
+
+  100%
+    transform: translateY( 0)
+    opacity: 1
+
+
+@keyframes tooltip-left
+  0%
+    transform: translate(-60px, 50%)
+    opacity: 0
+  50%
+    transform: translate(0px, 50%)
+
+  100%
+    transform: translate(-16px, 50%)
+    opacity: 1
+
+
+@keyframes tooltip-right
+  0%
+    transform: translate(60px, 50%)
+    opacity: 0
+  50%
+    transform: translate(0px, 50%)
+
+  100%
+    transform: translate(16px, 50%)
+    opacity: 1
+
+
+
+
+[data-tooltip],
+.tooltip
+  position: relative
+  cursor: pointer
+  display: inline-block
+
+
+
+[data-tooltip].tooltip--top
+
+  &::before,
+  &::after
+    position: absolute
+    content: ""
+    pointer-events: none
+    visibility: hidden
+
+  &::before
+    border-color: transparent
+    border-width: 8px
+    border-style: solid
+
+
+  &::after
+    background: rgba(#000, 0.75)
+    width: 200px
+    padding: 8px 12px
+    content: attr(data-tooltip)
+    color: #fff
+    text-align: center
+    bottom: 100%
+    left: 50%
+    margin-left: -100px
+    margin-bottom: 8px
+    +radius
+
+  &::before
+    border-top-color: rgba(#000, 0.75)
+    margin-left: -8px
+    margin-bottom: -8px
+    left: 50%
+    bottom: 100%
+
+
+  &:hover,
+  &:focus
+    &::after,
+    &::before
+      visibility: visible
+      animation: tooltip-top 0.5s
+
+
+
+[data-tooltip].tooltip--bottom
+
+  &::before,
+  &::after
+    position: absolute
+    content: ""
+    pointer-events: none
+    visibility: hidden
+
+  &::before
+    border-color: transparent
+    border-width: 8px
+    border-style: solid
+
+
+  &::after
+    background: rgba(#000, 0.75)
+    width: 200px
+    padding: 8px 12px
+    content: attr(data-tooltip)
+    color: #fff
+    text-align: center
+    top: 100%
+    left: 50%
+    margin-left: -100px
+    margin-top: 8px
+    +radius
+
+  &::before
+    border-bottom-color: rgba(#000, 0.75)
+    margin-left: -8px
+    margin-top: -8px
+    left: 50%
+    top: 100%
+
+
+  &:hover,
+  &:focus
+    &::after,
+    &::before
+      visibility: visible
+      animation: tooltip-bottom 0.5s
+
+
+
+
+[data-tooltip].tooltip--left
+
+
+  &::before,
+  &::after
+    position: absolute
+    content: ""
+    pointer-events: none
+    visibility: hidden
+    transform: translate(-16px, 50%)
+
+  &::before
+    border-color: transparent
+    border-width: 8px
+    border-style: solid
+    left: 0
+    bottom: 16px
+
+
+
+
+  &::after
+    background: rgba(#000, 0.75)
+    width: 200px
+    padding: 8px 12px
+    content: attr(data-tooltip)
+    color: #fff
+    text-align: center
+    +radius
+    right: 100%
+    bottom: 50%
+
+  &::before
+    border-left-color: rgba(#000, 0.75)
+
+
+  &:hover,
+  &:focus
+    &::after,
+    &::before
+      visibility: visible
+      animation: tooltip-left 0.5s
+
+
+[data-tooltip].tooltip--right
+
+
+  &::before,
+  &::after
+    position: absolute
+    content: ""
+    pointer-events: none
+    visibility: hidden
+    transform: translate(16px, 50%)
+
+  &::before
+    border-color: transparent
+    border-width: 8px
+    border-style: solid
+    right: 0
+    bottom: 16px
+
+
+
+
+  &::after
+    background: rgba(#000, 0.75)
+    width: 200px
+    padding: 8px 12px
+    content: attr(data-tooltip)
+    color: #fff
+    text-align: center
+    +radius
+    left: 100%
+    bottom: 50%
+
+  &::before
+    border-right-color: rgba(#000, 0.75)
+
+
+  &:hover,
+  &:focus
+    &::after,
+    &::before
+      visibility: visible
+      animation: tooltip-right 0.5s

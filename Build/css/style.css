@@ -1,0 +1,4969 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates|Roboto");
+@font-face {
+  font-family: "Lunacon";
+  src: url("../fonts/lunacon/Lunacon.eot");
+  src: url("../fonts/lunacon/Lunacon.eot?#iefix") format("eot"), url("../fonts/lunacon/Lunacon.woff") format("woff"), url("../fonts/lunacon/Lunacon.ttf") format("truetype"), url("../fonts/lunacon/Lunacon.svg#Lunacon") format("svg"); }
+
+/* line 29, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon, .lunacon-bell-mute-solid::before, .lunacon-bell-mute::before, .lunacon-bell-solid::before, .lunacon-bell::before, .lunacon-checkmark-small::before, .lunacon-checkmark::before, .lunacon-chevron-down::before, .lunacon-chevron-left::before, .lunacon-chevron-right::before, .lunacon-chevron-up::before, .lunacon-close-small::before, .lunacon-close::before, .lunacon-cloud-check-solid::before, .lunacon-cloud-check::before, .lunacon-cloud-solid::before, .lunacon-cloud::before, .lunacon-dailer-solid::before, .lunacon-dailer::before, .lunacon-home-solid::before, .lunacon-home::before, .lunacon-lock-open::before, .lunacon-lock::before, .lunacon-microphone::before, .lunacon-moon-solid::before, .lunacon-moon::before, .lunacon-navicon::before, .lunacon-search-min::before, .lunacon-search-zoom::before, .lunacon-search::before, .lunacon-shield-lock-solid::before, .lunacon-shield::before, .lunacon-star-half-solid::before, .lunacon-star-half::before, .lunacon-star-solid::before, .lunacon-star::before, .lunacon-thumbs-down-solid::before, .lunacon-thumbs-down::before, .lunacon-thumbs-up-solid::before, .lunacon-thumbs-up::before, .lunacon-user-delete-solid::before, .lunacon-user-delete::before, .lunacon-user-solid::before, .lunacon-user::before, .lunacon-users-solid::before, .lunacon-users::before {
+  display: inline-block;
+  font: normal normal normal 14px/1 "Lunacon";
+  font-size: inherit;
+  font-size: inherit;
+  line-height: 24px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 33, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-fw {
+  width: 1.28571429em;
+  text-align: center; }
+
+/* line 39, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon--size-x1 {
+  font-size: 14px !important;
+  line-height: 1; }
+
+/* line 44, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon--size-x2 {
+  font-size: 28px !important;
+  line-height: 1; }
+
+/* line 49, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon--size-x3 {
+  font-size: 42px !important;
+  line-height: 1; }
+
+/* line 54, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon--size-x4 {
+  font-size: 56px !important;
+  line-height: 1; }
+
+/* line 59, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon--size-x5 {
+  font-size: 70px !important;
+  line-height: 1; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-bell-mute-solid::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-bell-mute::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-bell-solid::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-bell::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-checkmark-small::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-checkmark::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-chevron-down::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-chevron-left::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-chevron-right::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-chevron-up::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-close-small::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-close::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-cloud-check-solid::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-cloud-check::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-cloud-solid::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-cloud::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-dailer-solid::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-dailer::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-home-solid::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-home::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-lock-open::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-lock::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-microphone::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-moon-solid::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-moon::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-navicon::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-search-min::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-search-zoom::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-search::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-shield-lock-solid::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-shield::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-star-half-solid::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-star-half::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-star-solid::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-star::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-thumbs-down-solid::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-thumbs-down::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-thumbs-up-solid::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-thumbs-up::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-user-delete-solid::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-user-delete::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-user-solid::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-user::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-users-solid::before {
+  content: ""; }
+
+/* line 393, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-users::before {
+  content: ""; }
+
+/* line 544, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-spin-animation {
+  -webkit-animation: lunacon-spin 2s infinite linear;
+  animation: lunacon-spin 2s infinite linear; }
+
+/* line 549, bower_components/lunacon/lunacon/sass/_icons.scss */
+.lunacon-flash-animation {
+  -webkit-animation: lunacon-flash 1s infinite  ease-in-out;
+  animation: lunacon-flash 1s infinite  ease-in-out; }
+
+@-webkit-keyframes lunacon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+@keyframes lunacon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+@-webkit-keyframes lunacon-flash {
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes lunacon-flash {
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+/* The Columns */
+/* line 24, Framework/sass/mixins/_grid.sass */
+.wrapper {
+  position: relative;
+  width: 98%;
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 38, Framework/sass/mixins/_grid.sass */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+  *zoom: 1; }
+  /* line 9, Framework/sass/mixins/_clearfix.sass */
+  .row::before, .row::after {
+    display: table;
+    content: ''; }
+  /* line 13, Framework/sass/mixins/_clearfix.sass */
+  .row::after {
+    clear: both; }
+
+/* line 45, Framework/sass/mixins/_grid.sass */
+.col,
+.column, .xs-col-1, .xs-col-2, .xs-col-3, .xs-col-4, .xs-col-5, .xs-col-6, .xs-col-7, .xs-col-8, .xs-col-9, .xs-col-10, .xs-col-11, .xs-col-12, .sm-col-1, .sm-col-2, .sm-col-3, .sm-col-4, .sm-col-5, .sm-col-6, .sm-col-7, .sm-col-8, .sm-col-9, .sm-col-10, .sm-col-11, .sm-col-12, .md-col-1, .md-col-2, .md-col-3, .md-col-4, .md-col-5, .md-col-6, .md-col-7, .md-col-8, .md-col-9, .md-col-10, .md-col-11, .md-col-12, .lg-col-1, .lg-col-2, .lg-col-3, .lg-col-4, .lg-col-5, .lg-col-6, .lg-col-7, .lg-col-8, .lg-col-9, .lg-col-10, .lg-col-11, .lg-col-12, .xl-col-1, .xl-col-2, .xl-col-3, .xl-col-4, .xl-col-5, .xl-col-6, .xl-col-7, .xl-col-8, .xl-col-9, .xl-col-10, .xl-col-11, .xl-col-12 {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* line 60, Framework/sass/mixins/_grid.sass */
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+@media screen and (min-width: 300px) {
+<<<<<<< HEAD
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xs-col-1 {
+    width: 8.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xs-offset-1 {
+    margin-left: 8.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xs-col-2 {
+    width: 16.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xs-offset-2 {
+    margin-left: 16.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xs-col-3 {
+    width: 25%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xs-offset-3 {
+    margin-left: 25%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xs-col-4 {
+    width: 33.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xs-offset-4 {
+    margin-left: 33.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xs-col-5 {
+    width: 41.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xs-offset-5 {
+    margin-left: 41.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xs-col-6 {
+    width: 50%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xs-offset-6 {
+    margin-left: 50%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xs-col-7 {
+    width: 58.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xs-offset-7 {
+    margin-left: 58.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xs-col-8 {
+    width: 66.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xs-offset-8 {
+    margin-left: 66.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xs-col-9 {
+    width: 75%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xs-offset-9 {
+    margin-left: 75%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xs-col-10 {
+    width: 83.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xs-offset-10 {
+    margin-left: 83.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xs-col-11 {
+    width: 91.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xs-offset-11 {
+    margin-left: 91.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xs-col-12 {
+    width: 100%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xs-offset-12 {
+    margin-left: 100%; }
+  /* line 84, Framework/sass/mixins/_grid.sass */
+  .xs-float-right {
+    float: right; }
+  /* line 87, Framework/sass/mixins/_grid.sass */
+  .xs-float-left {
+    float: left; }
+  /* line 91, Framework/sass/mixins/_grid.sass */
+  .xs-hide {
+    visibility: hidden; }
+  /* line 94, Framework/sass/mixins/_grid.sass */
+  .xs-show {
+    visibility: visible; }
+  /* line 97, Framework/sass/mixins/_grid.sass */
+  .xs-text-align-right {
+    text-align: right; }
+  /* line 100, Framework/sass/mixins/_grid.sass */
+  .xs-text-align-left {
+    text-align: left; }
+  /* line 103, Framework/sass/mixins/_grid.sass */
+=======
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xs-col-1 {
+    width: 8.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xs-offset-1 {
+    margin-left: 8.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xs-col-2 {
+    width: 16.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xs-offset-2 {
+    margin-left: 16.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xs-col-3 {
+    width: 25%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xs-offset-3 {
+    margin-left: 25%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xs-col-4 {
+    width: 33.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xs-offset-4 {
+    margin-left: 33.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xs-col-5 {
+    width: 41.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xs-offset-5 {
+    margin-left: 41.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xs-col-6 {
+    width: 50%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xs-offset-6 {
+    margin-left: 50%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xs-col-7 {
+    width: 58.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xs-offset-7 {
+    margin-left: 58.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xs-col-8 {
+    width: 66.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xs-offset-8 {
+    margin-left: 66.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xs-col-9 {
+    width: 75%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xs-offset-9 {
+    margin-left: 75%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xs-col-10 {
+    width: 83.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xs-offset-10 {
+    margin-left: 83.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xs-col-11 {
+    width: 91.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xs-offset-11 {
+    margin-left: 91.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xs-col-12 {
+    width: 100%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xs-offset-12 {
+    margin-left: 100%; }
+  /* line 86, Framework/sass/mixins/_grid.sass */
+  .xs-float-right {
+    float: right; }
+  /* line 89, Framework/sass/mixins/_grid.sass */
+  .xs-float-left {
+    float: left; }
+  /* line 93, Framework/sass/mixins/_grid.sass */
+  .xs-hide {
+    display: none !important; }
+  /* line 96, Framework/sass/mixins/_grid.sass */
+  .xs-show {
+    display: block !important; }
+  /* line 100, Framework/sass/mixins/_grid.sass */
+  .xs-text-align-right {
+    text-align: right; }
+  /* line 103, Framework/sass/mixins/_grid.sass */
+  .xs-text-align-left {
+    text-align: left; }
+  /* line 106, Framework/sass/mixins/_grid.sass */
+>>>>>>> new css helpers
+  .xs-text-align-center {
+    text-align: center; } }
+
+@media screen and (min-width: 480px) {
+<<<<<<< HEAD
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .sm-col-1 {
+    width: 8.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .sm-offset-1 {
+    margin-left: 8.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .sm-col-2 {
+    width: 16.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .sm-offset-2 {
+    margin-left: 16.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .sm-col-3 {
+    width: 25%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .sm-offset-3 {
+    margin-left: 25%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .sm-col-4 {
+    width: 33.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .sm-offset-4 {
+    margin-left: 33.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .sm-col-5 {
+    width: 41.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .sm-offset-5 {
+    margin-left: 41.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .sm-col-6 {
+    width: 50%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .sm-offset-6 {
+    margin-left: 50%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .sm-col-7 {
+    width: 58.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .sm-offset-7 {
+    margin-left: 58.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .sm-col-8 {
+    width: 66.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .sm-offset-8 {
+    margin-left: 66.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .sm-col-9 {
+    width: 75%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .sm-offset-9 {
+    margin-left: 75%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .sm-col-10 {
+    width: 83.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .sm-offset-10 {
+    margin-left: 83.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .sm-col-11 {
+    width: 91.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .sm-offset-11 {
+    margin-left: 91.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .sm-col-12 {
+    width: 100%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .sm-offset-12 {
+    margin-left: 100%; }
+  /* line 84, Framework/sass/mixins/_grid.sass */
+  .sm-float-right {
+    float: right; }
+  /* line 87, Framework/sass/mixins/_grid.sass */
+  .sm-float-left {
+    float: left; }
+  /* line 91, Framework/sass/mixins/_grid.sass */
+  .sm-hide {
+    visibility: hidden; }
+  /* line 94, Framework/sass/mixins/_grid.sass */
+  .sm-show {
+    visibility: visible; }
+  /* line 97, Framework/sass/mixins/_grid.sass */
+  .sm-text-align-right {
+    text-align: right; }
+  /* line 100, Framework/sass/mixins/_grid.sass */
+  .sm-text-align-left {
+    text-align: left; }
+  /* line 103, Framework/sass/mixins/_grid.sass */
+=======
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .sm-col-1 {
+    width: 8.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .sm-offset-1 {
+    margin-left: 8.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .sm-col-2 {
+    width: 16.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .sm-offset-2 {
+    margin-left: 16.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .sm-col-3 {
+    width: 25%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .sm-offset-3 {
+    margin-left: 25%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .sm-col-4 {
+    width: 33.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .sm-offset-4 {
+    margin-left: 33.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .sm-col-5 {
+    width: 41.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .sm-offset-5 {
+    margin-left: 41.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .sm-col-6 {
+    width: 50%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .sm-offset-6 {
+    margin-left: 50%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .sm-col-7 {
+    width: 58.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .sm-offset-7 {
+    margin-left: 58.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .sm-col-8 {
+    width: 66.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .sm-offset-8 {
+    margin-left: 66.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .sm-col-9 {
+    width: 75%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .sm-offset-9 {
+    margin-left: 75%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .sm-col-10 {
+    width: 83.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .sm-offset-10 {
+    margin-left: 83.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .sm-col-11 {
+    width: 91.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .sm-offset-11 {
+    margin-left: 91.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .sm-col-12 {
+    width: 100%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .sm-offset-12 {
+    margin-left: 100%; }
+  /* line 86, Framework/sass/mixins/_grid.sass */
+  .sm-float-right {
+    float: right; }
+  /* line 89, Framework/sass/mixins/_grid.sass */
+  .sm-float-left {
+    float: left; }
+  /* line 93, Framework/sass/mixins/_grid.sass */
+  .sm-hide {
+    display: none !important; }
+  /* line 96, Framework/sass/mixins/_grid.sass */
+  .sm-show {
+    display: block !important; }
+  /* line 100, Framework/sass/mixins/_grid.sass */
+  .sm-text-align-right {
+    text-align: right; }
+  /* line 103, Framework/sass/mixins/_grid.sass */
+  .sm-text-align-left {
+    text-align: left; }
+  /* line 106, Framework/sass/mixins/_grid.sass */
+>>>>>>> new css helpers
+  .sm-text-align-center {
+    text-align: center; } }
+
+@media screen and (min-width: 800px) {
+<<<<<<< HEAD
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .md-col-1 {
+    width: 8.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .md-offset-1 {
+    margin-left: 8.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .md-col-2 {
+    width: 16.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .md-offset-2 {
+    margin-left: 16.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .md-col-3 {
+    width: 25%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .md-offset-3 {
+    margin-left: 25%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .md-col-4 {
+    width: 33.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .md-offset-4 {
+    margin-left: 33.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .md-col-5 {
+    width: 41.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .md-offset-5 {
+    margin-left: 41.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .md-col-6 {
+    width: 50%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .md-offset-6 {
+    margin-left: 50%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .md-col-7 {
+    width: 58.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .md-offset-7 {
+    margin-left: 58.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .md-col-8 {
+    width: 66.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .md-offset-8 {
+    margin-left: 66.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .md-col-9 {
+    width: 75%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .md-offset-9 {
+    margin-left: 75%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .md-col-10 {
+    width: 83.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .md-offset-10 {
+    margin-left: 83.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .md-col-11 {
+    width: 91.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .md-offset-11 {
+    margin-left: 91.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .md-col-12 {
+    width: 100%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .md-offset-12 {
+    margin-left: 100%; }
+  /* line 84, Framework/sass/mixins/_grid.sass */
+  .md-float-right {
+    float: right; }
+  /* line 87, Framework/sass/mixins/_grid.sass */
+  .md-float-left {
+    float: left; }
+  /* line 91, Framework/sass/mixins/_grid.sass */
+  .md-hide {
+    visibility: hidden; }
+  /* line 94, Framework/sass/mixins/_grid.sass */
+  .md-show {
+    visibility: visible; }
+  /* line 97, Framework/sass/mixins/_grid.sass */
+  .md-text-align-right {
+    text-align: right; }
+  /* line 100, Framework/sass/mixins/_grid.sass */
+  .md-text-align-left {
+    text-align: left; }
+  /* line 103, Framework/sass/mixins/_grid.sass */
+=======
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .md-col-1 {
+    width: 8.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .md-offset-1 {
+    margin-left: 8.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .md-col-2 {
+    width: 16.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .md-offset-2 {
+    margin-left: 16.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .md-col-3 {
+    width: 25%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .md-offset-3 {
+    margin-left: 25%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .md-col-4 {
+    width: 33.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .md-offset-4 {
+    margin-left: 33.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .md-col-5 {
+    width: 41.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .md-offset-5 {
+    margin-left: 41.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .md-col-6 {
+    width: 50%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .md-offset-6 {
+    margin-left: 50%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .md-col-7 {
+    width: 58.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .md-offset-7 {
+    margin-left: 58.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .md-col-8 {
+    width: 66.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .md-offset-8 {
+    margin-left: 66.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .md-col-9 {
+    width: 75%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .md-offset-9 {
+    margin-left: 75%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .md-col-10 {
+    width: 83.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .md-offset-10 {
+    margin-left: 83.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .md-col-11 {
+    width: 91.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .md-offset-11 {
+    margin-left: 91.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .md-col-12 {
+    width: 100%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .md-offset-12 {
+    margin-left: 100%; }
+  /* line 86, Framework/sass/mixins/_grid.sass */
+  .md-float-right {
+    float: right; }
+  /* line 89, Framework/sass/mixins/_grid.sass */
+  .md-float-left {
+    float: left; }
+  /* line 93, Framework/sass/mixins/_grid.sass */
+  .md-hide {
+    display: none !important; }
+  /* line 96, Framework/sass/mixins/_grid.sass */
+  .md-show {
+    display: block !important; }
+  /* line 100, Framework/sass/mixins/_grid.sass */
+  .md-text-align-right {
+    text-align: right; }
+  /* line 103, Framework/sass/mixins/_grid.sass */
+  .md-text-align-left {
+    text-align: left; }
+  /* line 106, Framework/sass/mixins/_grid.sass */
+>>>>>>> new css helpers
+  .md-text-align-center {
+    text-align: center; } }
+
+@media screen and (min-width: 960px) {
+<<<<<<< HEAD
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .lg-col-1 {
+    width: 8.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .lg-offset-1 {
+    margin-left: 8.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .lg-col-2 {
+    width: 16.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .lg-offset-2 {
+    margin-left: 16.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .lg-col-3 {
+    width: 25%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .lg-offset-3 {
+    margin-left: 25%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .lg-col-4 {
+    width: 33.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .lg-offset-4 {
+    margin-left: 33.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .lg-col-5 {
+    width: 41.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .lg-offset-5 {
+    margin-left: 41.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .lg-col-6 {
+    width: 50%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .lg-offset-6 {
+    margin-left: 50%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .lg-col-7 {
+    width: 58.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .lg-offset-7 {
+    margin-left: 58.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .lg-col-8 {
+    width: 66.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .lg-offset-8 {
+    margin-left: 66.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .lg-col-9 {
+    width: 75%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .lg-offset-9 {
+    margin-left: 75%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .lg-col-10 {
+    width: 83.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .lg-offset-10 {
+    margin-left: 83.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .lg-col-11 {
+    width: 91.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .lg-offset-11 {
+    margin-left: 91.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .lg-col-12 {
+    width: 100%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .lg-offset-12 {
+    margin-left: 100%; }
+  /* line 84, Framework/sass/mixins/_grid.sass */
+  .lg-float-right {
+    float: right; }
+  /* line 87, Framework/sass/mixins/_grid.sass */
+  .lg-float-left {
+    float: left; }
+  /* line 91, Framework/sass/mixins/_grid.sass */
+  .lg-hide {
+    visibility: hidden; }
+  /* line 94, Framework/sass/mixins/_grid.sass */
+  .lg-show {
+    visibility: visible; }
+  /* line 97, Framework/sass/mixins/_grid.sass */
+  .lg-text-align-right {
+    text-align: right; }
+  /* line 100, Framework/sass/mixins/_grid.sass */
+  .lg-text-align-left {
+    text-align: left; }
+  /* line 103, Framework/sass/mixins/_grid.sass */
+=======
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .lg-col-1 {
+    width: 8.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .lg-offset-1 {
+    margin-left: 8.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .lg-col-2 {
+    width: 16.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .lg-offset-2 {
+    margin-left: 16.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .lg-col-3 {
+    width: 25%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .lg-offset-3 {
+    margin-left: 25%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .lg-col-4 {
+    width: 33.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .lg-offset-4 {
+    margin-left: 33.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .lg-col-5 {
+    width: 41.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .lg-offset-5 {
+    margin-left: 41.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .lg-col-6 {
+    width: 50%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .lg-offset-6 {
+    margin-left: 50%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .lg-col-7 {
+    width: 58.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .lg-offset-7 {
+    margin-left: 58.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .lg-col-8 {
+    width: 66.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .lg-offset-8 {
+    margin-left: 66.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .lg-col-9 {
+    width: 75%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .lg-offset-9 {
+    margin-left: 75%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .lg-col-10 {
+    width: 83.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .lg-offset-10 {
+    margin-left: 83.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .lg-col-11 {
+    width: 91.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .lg-offset-11 {
+    margin-left: 91.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .lg-col-12 {
+    width: 100%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .lg-offset-12 {
+    margin-left: 100%; }
+  /* line 86, Framework/sass/mixins/_grid.sass */
+  .lg-float-right {
+    float: right; }
+  /* line 89, Framework/sass/mixins/_grid.sass */
+  .lg-float-left {
+    float: left; }
+  /* line 93, Framework/sass/mixins/_grid.sass */
+  .lg-hide {
+    display: none !important; }
+  /* line 96, Framework/sass/mixins/_grid.sass */
+  .lg-show {
+    display: block !important; }
+  /* line 100, Framework/sass/mixins/_grid.sass */
+  .lg-text-align-right {
+    text-align: right; }
+  /* line 103, Framework/sass/mixins/_grid.sass */
+  .lg-text-align-left {
+    text-align: left; }
+  /* line 106, Framework/sass/mixins/_grid.sass */
+>>>>>>> new css helpers
+  .lg-text-align-center {
+    text-align: center; } }
+
+@media screen and (min-width: 1170px) {
+<<<<<<< HEAD
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xl-col-1 {
+    width: 8.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xl-offset-1 {
+    margin-left: 8.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xl-col-2 {
+    width: 16.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xl-offset-2 {
+    margin-left: 16.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xl-col-3 {
+    width: 25%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xl-offset-3 {
+    margin-left: 25%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xl-col-4 {
+    width: 33.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xl-offset-4 {
+    margin-left: 33.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xl-col-5 {
+    width: 41.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xl-offset-5 {
+    margin-left: 41.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xl-col-6 {
+    width: 50%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xl-offset-6 {
+    margin-left: 50%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xl-col-7 {
+    width: 58.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xl-offset-7 {
+    margin-left: 58.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xl-col-8 {
+    width: 66.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xl-offset-8 {
+    margin-left: 66.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xl-col-9 {
+    width: 75%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xl-offset-9 {
+    margin-left: 75%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xl-col-10 {
+    width: 83.33333%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xl-offset-10 {
+    margin-left: 83.33333%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xl-col-11 {
+    width: 91.66667%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xl-offset-11 {
+    margin-left: 91.66667%; }
+  /* line 76, Framework/sass/mixins/_grid.sass */
+  .xl-col-12 {
+    width: 100%; }
+  /* line 80, Framework/sass/mixins/_grid.sass */
+  .xl-offset-12 {
+    margin-left: 100%; }
+  /* line 84, Framework/sass/mixins/_grid.sass */
+  .xl-float-right {
+    float: right; }
+  /* line 87, Framework/sass/mixins/_grid.sass */
+  .xl-float-left {
+    float: left; }
+  /* line 91, Framework/sass/mixins/_grid.sass */
+  .xl-hide {
+    visibility: hidden; }
+  /* line 94, Framework/sass/mixins/_grid.sass */
+  .xl-show {
+    visibility: visible; }
+  /* line 97, Framework/sass/mixins/_grid.sass */
+  .xl-text-align-right {
+    text-align: right; }
+  /* line 100, Framework/sass/mixins/_grid.sass */
+  .xl-text-align-left {
+    text-align: left; }
+  /* line 103, Framework/sass/mixins/_grid.sass */
+=======
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xl-col-1 {
+    width: 8.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xl-offset-1 {
+    margin-left: 8.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xl-col-2 {
+    width: 16.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xl-offset-2 {
+    margin-left: 16.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xl-col-3 {
+    width: 25%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xl-offset-3 {
+    margin-left: 25%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xl-col-4 {
+    width: 33.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xl-offset-4 {
+    margin-left: 33.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xl-col-5 {
+    width: 41.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xl-offset-5 {
+    margin-left: 41.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xl-col-6 {
+    width: 50%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xl-offset-6 {
+    margin-left: 50%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xl-col-7 {
+    width: 58.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xl-offset-7 {
+    margin-left: 58.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xl-col-8 {
+    width: 66.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xl-offset-8 {
+    margin-left: 66.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xl-col-9 {
+    width: 75%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xl-offset-9 {
+    margin-left: 75%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xl-col-10 {
+    width: 83.33333%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xl-offset-10 {
+    margin-left: 83.33333%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xl-col-11 {
+    width: 91.66667%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xl-offset-11 {
+    margin-left: 91.66667%; }
+  /* line 77, Framework/sass/mixins/_grid.sass */
+  .xl-col-12 {
+    width: 100%; }
+  /* line 81, Framework/sass/mixins/_grid.sass */
+  .xl-offset-12 {
+    margin-left: 100%; }
+  /* line 86, Framework/sass/mixins/_grid.sass */
+  .xl-float-right {
+    float: right; }
+  /* line 89, Framework/sass/mixins/_grid.sass */
+  .xl-float-left {
+    float: left; }
+  /* line 93, Framework/sass/mixins/_grid.sass */
+  .xl-hide {
+    display: none !important; }
+  /* line 96, Framework/sass/mixins/_grid.sass */
+  .xl-show {
+    display: block !important; }
+  /* line 100, Framework/sass/mixins/_grid.sass */
+  .xl-text-align-right {
+    text-align: right; }
+  /* line 103, Framework/sass/mixins/_grid.sass */
+  .xl-text-align-left {
+    text-align: left; }
+  /* line 106, Framework/sass/mixins/_grid.sass */
+>>>>>>> new css helpers
+  .xl-text-align-center {
+    text-align: center; } }
+
+/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
+/* Document
+       ========================================================================== */
+/**
+     * 1. Correct the line height in all browsers.
+     * 2. Prevent adjustments of font size after orientation changes in
+     *    IE on Windows Phone and in iOS.
+     */
+/* line 56, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+html {
+  /* Change the default font family in all browsers (opinionated). */
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+  line-height: 1.5em;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+       ========================================================================== */
+/**
+     * Remove the margin in all browsers (opinionated).
+     */
+/* line 85, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+body {
+  margin: 0; }
+
+/**
+     * Add the correct display in IE 9-.
+     */
+/* line 93, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+/**
+     * Correct the font size and margin on `h1` elements within `section` and
+     * `article` contexts in Chrome, Firefox, and Safari.
+     */
+/* line 107, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+h1 {
+<<<<<<< HEAD
+  font-size: 2em;
+  line-height: 1.5em;
+  /* Set 1 unit of vertical rhythm on the top and bottom margins. */
+  margin: 0.75em 0; }
+=======
+  font-size: 2.2em;
+  line-height: 1.36364em;
+  /* Set 1 unit of vertical rhythm on the top and bottom margins. */
+  margin: 0.68182em 0; }
+>>>>>>> new css helpers
+
+/* line 123, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+h2 {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin: 1em 0; }
+
+/* line 129, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+h3 {
+  font-size: 1.17em;
+  line-height: 1.28205em;
+  margin: 1.28205em 0; }
+
+/* line 135, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 1.5em 0; }
+
+/* line 141, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+h5 {
+  font-size: 0.83em;
+  line-height: 1.80723em;
+  margin: 1.80723em 0; }
+
+/* line 147, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+h6 {
+  font-size: 0.67em;
+  line-height: 2.23881em;
+  margin: 2.23881em 0; }
+
+/* Grouping content
+       ========================================================================== */
+/**
+       * Set 1 unit of vertical rhythm on the top and bottom margin.
+       */
+/* line 164, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+blockquote {
+  margin: 1.5em 40px; }
+
+/* line 168, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+dl,
+ol,
+ul {
+  margin: 1.5em 0; }
+
+/**
+       * Turn off margins on nested lists.
+       */
+/* line 180, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin: 0; }
+
+/* line 186, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+dd {
+  margin: 0 0 0 40px; }
+
+/* line 190, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+ol,
+ul {
+  padding: 0 0 0 40px; }
+
+/**
+     * Add the correct display in IE 9-.
+     */
+/* line 200, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+figcaption,
+figure {
+  display: block; }
+
+/**
+     * Add the correct margin in IE 8.
+     */
+/* line 209, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+figure {
+  margin: 1.5em 40px; }
+
+/**
+     * 1. Add the correct box sizing in Firefox.
+     * 2. Show the overflow in Edge and IE.
+     */
+/* line 223, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+hr {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+     * Add the correct display in IE.
+     */
+/* line 233, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+main {
+  display: block; }
+
+/**
+       * Set 1 unit of vertical rhythm on the top and bottom margin.
+       */
+/* line 242, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+p,
+pre {
+  margin: 1.5em 0; }
+
+/**
+     * 1. Correct the inheritance and scaling of font size in all browsers.
+     * 2. Correct the odd `em` font sizing in all browsers.
+     */
+/* line 253, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Links
+       ========================================================================== */
+/**
+     * 1. Remove the gray background on active links in IE 10.
+     * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+     */
+/* line 268, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/* Text-level semantics
+       ========================================================================== */
+/**
+     * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+     * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+     */
+/* line 283, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+     * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+     */
+/* line 293, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+     * Add the correct font weight in Chrome, Edge, and Safari.
+     */
+/* line 302, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+     * 1. Correct the inheritance and scaling of font size in all browsers.
+     * 2. Correct the odd `em` font sizing in all browsers.
+     */
+/* line 312, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+     * Add the correct font style in Android 4.3-.
+     */
+/* line 323, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+dfn {
+  font-style: italic; }
+
+/**
+     * Add the correct background and color in IE 9-.
+     */
+/* line 331, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+     * Add the correct font size in all browsers.
+     */
+/* line 340, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+small {
+  font-size: 80%; }
+
+/**
+     * Prevent `sub` and `sup` elements from affecting the line height in
+     * all browsers.
+     */
+/* line 349, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 357, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 361, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+       ========================================================================== */
+/**
+     * Add the correct display in IE 9-.
+     */
+/* line 374, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+audio,
+video {
+  display: inline-block; }
+
+/**
+     * Add the correct display in iOS 4-7.
+     */
+/* line 383, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+     * Remove the border on images inside links in IE 10-.
+     */
+/* line 392, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+img {
+  border-style: none; }
+
+/**
+     * Hide the overflow in IE.
+     */
+/* line 400, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Forms
+       ========================================================================== */
+/**
+     * 1. Change the font styles in all browsers (opinionated).
+     * 2. Remove the margin in Firefox and Safari.
+     */
+/* line 414, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: "Roboto", sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.5em;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+     * Show the overflow in IE.
+     */
+/* line 434, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+button {
+  overflow: visible; }
+
+/**
+     * Remove the inheritance of text transform in Edge, Firefox, and IE.
+     * 1. Remove the inheritance of text transform in Firefox.
+     */
+/* line 443, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+     * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+     *    controls in Android 4.
+     * 2. Correct the inability to style clickable types in iOS and Safari.
+     */
+/* line 454, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */ }
+
+/* line 461, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  /**
+       * Remove the inner border and padding in Firefox.
+       */
+  /**
+       * Restore the focus styles unset by the previous rule.
+       */ }
+  /* line 470, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0; }
+  /* line 479, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText; }
+
+/**
+     * Show the overflow in Edge.
+     */
+/* line 488, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+input {
+  overflow: visible; }
+
+/**
+     * 1. Add the correct box sizing in IE 10-.
+     * 2. Remove the padding in IE 10-.
+     */
+/* line 497, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+     * Correct the cursor style of increment and decrement buttons in Chrome.
+     */
+/* line 507, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+     * 1. Correct the odd appearance in Chrome and Safari.
+     * 2. Correct the outline style in Safari.
+     */
+/* line 517, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+  /**
+       * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+       */ }
+  /* line 525, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+  [type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+
+/**
+     * 1. Correct the inability to style clickable types in iOS and Safari.
+     * 2. Change font properties to `inherit` in Safari.
+     */
+/* line 536, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/**
+     * Correct the padding in Firefox.
+     */
+/* line 545, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+     * 1. Correct the text wrapping in Edge and IE.
+     * 2. Correct the color inheritance from `fieldset` elements in IE.
+     * 3. Remove the padding so developers are not caught out when they zero out
+     *    `fieldset` elements in all browsers.
+     */
+/* line 556, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+legend {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  color: inherit;
+  /* 2 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+     * 1. Add the correct display in IE 9-.
+     * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+     */
+/* line 570, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+     * Remove the default vertical scrollbar in IE.
+     */
+/* line 579, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+textarea {
+  overflow: auto; }
+
+/* Interactive
+       ========================================================================== */
+/*
+     * Add the correct display in Edge, IE, and Firefox.
+     */
+/* line 592, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+details {
+  display: block; }
+
+/*
+     * Add the correct display in all browsers.
+     */
+/* line 600, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+summary {
+  display: list-item; }
+
+/*
+     * Add the correct display in IE 9-.
+     */
+/* line 608, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+menu {
+  display: block;
+  /*
+         * 1. Set 1 unit of vertical rhythm on the top and bottom margin.
+         * 2. Set consistent space for the list style image.
+         */
+  margin: 1.5em 0;
+  /* 1 */
+  padding: 0 0 0 40px;
+  /* 2 */
+  /**
+         * Turn off margins on nested lists.
+         */ }
+  /* line 624, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+  menu menu,
+  ol menu,
+  ul menu {
+    margin: 0; }
+
+/* Scripting
+       ========================================================================== */
+/**
+     * Add the correct display in IE 9-.
+     */
+/* line 641, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+canvas {
+  display: inline-block; }
+
+/**
+     * Add the correct display in IE.
+     */
+/* line 649, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+template {
+  display: none; }
+
+/* Hidden
+       ========================================================================== */
+/**
+     * Add the correct display in IE 10-.
+     */
+/* line 662, bower_components/normalize-scss/sass/normalize/_normalize-mixin.scss */
+[hidden] {
+  display: none; }
+
+/* line 9, Framework/sass/globals/_body.sass */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* Body */
+/* line 15, Framework/sass/globals/_body.sass */
+body {
+  background: #fff;
+  color: #666;
+  font-size: 16px;
+  overflow-x: hidden; }
+
+/* line 23, Framework/sass/globals/_body.sass */
+h1 {
+  font-family: "Montserrat Alternates", sans-serif; }
+
+/* line 23, Framework/sass/globals/_body.sass */
+h2 {
+<<<<<<< HEAD
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400; }
+
+/* line 23, Framework/sass/globals/_body.sass */
+h3 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400; }
+
+/* line 23, Framework/sass/globals/_body.sass */
+h4 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400; }
+
+/* line 23, Framework/sass/globals/_body.sass */
+h5 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400; }
+
+/* line 23, Framework/sass/globals/_body.sass */
+h6 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400; }
+
+/* line 29, Framework/sass/globals/_body.sass */
+=======
+  font-family: "Montserrat Alternates", sans-serif; }
+
+/* line 23, Framework/sass/globals/_body.sass */
+h3 {
+  font-family: "Montserrat Alternates", sans-serif; }
+
+/* line 23, Framework/sass/globals/_body.sass */
+h4 {
+  font-family: "Montserrat Alternates", sans-serif; }
+
+/* line 23, Framework/sass/globals/_body.sass */
+h5 {
+  font-family: "Montserrat Alternates", sans-serif; }
+
+/* line 23, Framework/sass/globals/_body.sass */
+h6 {
+  font-family: "Montserrat Alternates", sans-serif; }
+
+/* line 30, Framework/sass/globals/_body.sass */
+>>>>>>> new css helpers
+a:link,
+a:visited,
+a:active {
+  color: #039be5;
+  text-decoration: none; }
+
+<<<<<<< HEAD
+/* line 35, Framework/sass/globals/_body.sass */
+a:hover {
+  text-decoration: underline; }
+
+/* line 39, Framework/sass/globals/_body.sass */
+=======
+/* line 36, Framework/sass/globals/_body.sass */
+a:hover {
+  text-decoration: underline; }
+
+/* line 40, Framework/sass/globals/_body.sass */
+>>>>>>> new css helpers
+.clearfix,
+.clear {
+  *zoom: 1; }
+  /* line 9, Framework/sass/mixins/_clearfix.sass */
+  .clearfix::before, .clearfix::after,
+  .clear::before,
+  .clear::after {
+    display: table;
+    content: ''; }
+  /* line 13, Framework/sass/mixins/_clearfix.sass */
+  .clearfix::after,
+  .clear::after {
+    clear: both; }
+
+<<<<<<< HEAD
+=======
+/* line 44, Framework/sass/globals/_body.sass */
+.margin-bottom {
+  margin-bottom: 15px; }
+
+>>>>>>> new css helpers
+/* line 10, Framework/sass/helpers/_align.sass */
+.text-align-center {
+  text-align: center; }
+
+/* line 13, Framework/sass/helpers/_align.sass */
+.text-align-left {
+  text-align: left; }
+
+/* line 16, Framework/sass/helpers/_align.sass */
+.text-align-right {
+  text-align: right; }
+
+/* line 7, Framework/sass/helpers/_ellipsis.sass */
+.ellipsis, .nav__links__item--dropdown .nav__links a {
+  overflow-x: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis; }
+
+/* line 8, Framework/sass/helpers/_selectable.sass */
+.selectable__false, .btn,
+a.btn,
+button.btn,
+input[type="submit"].btn, .form__label, .form__helper {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  /* line 10, Framework/sass/helpers/_selectable.sass */
+  .selectable__false--cursor, input:disabled,
+  button:disabled {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: not-allowed; }
+
+/* line 13, Framework/sass/helpers/_selectable.sass */
+.selectable__true {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text; }
+  /* line 15, Framework/sass/helpers/_selectable.sass */
+  .selectable__true--cursor {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    cursor: auto; }
+
+/* line 18, Framework/sass/helpers/_selectable.sass */
+.selectable__all {
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  user-select: all; }
+  /* line 20, Framework/sass/helpers/_selectable.sass */
+  .selectable__all--cursor {
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+<<<<<<< HEAD
+    cursor: auto; }
+=======
+    cursor: text; }
+>>>>>>> new css helpers
+
+/* line 7, Framework/sass/helpers/_helpers.sass */
+.lead {
+  font-weight: 700;
+  font-size: 120%; }
+
+/* line 14, Framework/sass/helpers/_helpers.sass */
+.text--primary {
+  color: #069 !important; }
+  /* line 16, Framework/sass/helpers/_helpers.sass */
+  .text--primary-light {
+    color: #b3d1e0 !important; }
+
+/* line 14, Framework/sass/helpers/_helpers.sass */
+.text--secondary {
+  color: #5c258d !important; }
+  /* line 16, Framework/sass/helpers/_helpers.sass */
+  .text--secondary-light {
+    color: #cebedd !important; }
+
+/* line 14, Framework/sass/helpers/_helpers.sass */
+<<<<<<< HEAD
+=======
+.text--dark {
+  color: #021826 !important; }
+  /* line 16, Framework/sass/helpers/_helpers.sass */
+  .text--dark-light {
+    color: #b3babe !important; }
+
+/* line 14, Framework/sass/helpers/_helpers.sass */
+>>>>>>> new css helpers
+.text--black {
+  color: #000 !important; }
+  /* line 16, Framework/sass/helpers/_helpers.sass */
+  .text--black-light {
+    color: #b3b3b3 !important; }
+
+/* line 14, Framework/sass/helpers/_helpers.sass */
+.text--white {
+  color: #fff !important; }
+  /* line 16, Framework/sass/helpers/_helpers.sass */
+  .text--white-light {
+    color: white !important; }
+
+/* line 14, Framework/sass/helpers/_helpers.sass */
+.text--default {
+  color: #fff !important; }
+  /* line 16, Framework/sass/helpers/_helpers.sass */
+  .text--default-light {
+    color: white !important; }
+
+/* line 14, Framework/sass/helpers/_helpers.sass */
+.text--info {
+  color: #4285f4 !important; }
+  /* line 16, Framework/sass/helpers/_helpers.sass */
+  .text--info-light {
+    color: #c6dafc !important; }
+
+/* line 14, Framework/sass/helpers/_helpers.sass */
+.text--success {
+  color: #008c3a !important; }
+  /* line 16, Framework/sass/helpers/_helpers.sass */
+  .text--success-light {
+    color: #b3ddc4 !important; }
+
+/* line 14, Framework/sass/helpers/_helpers.sass */
+.text--warning {
+  color: #f09300 !important; }
+  /* line 16, Framework/sass/helpers/_helpers.sass */
+  .text--warning-light {
+    color: #fbdfb3 !important; }
+
+/* line 14, Framework/sass/helpers/_helpers.sass */
+.text--danger {
+  color: #ea4335 !important; }
+  /* line 16, Framework/sass/helpers/_helpers.sass */
+  .text--danger-light {
+    color: #f9c7c2 !important; }
+
+/* line 22, Framework/sass/helpers/_helpers.sass */
+.background--primary {
+  background-color: #069 !important; }
+  /* line 24, Framework/sass/helpers/_helpers.sass */
+  .background--primary-light {
+    background-color: #e6f0f5 !important; }
+
+/* line 22, Framework/sass/helpers/_helpers.sass */
+.background--secondary {
+  background-color: #5c258d !important; }
+  /* line 24, Framework/sass/helpers/_helpers.sass */
+  .background--secondary-light {
+    background-color: #efe9f4 !important; }
+
+/* line 22, Framework/sass/helpers/_helpers.sass */
+<<<<<<< HEAD
+=======
+.background--dark {
+  background-color: #021826 !important; }
+  /* line 24, Framework/sass/helpers/_helpers.sass */
+  .background--dark-light {
+    background-color: #e6e8e9 !important; }
+
+/* line 22, Framework/sass/helpers/_helpers.sass */
+>>>>>>> new css helpers
+.background--black {
+  background-color: #000 !important; }
+  /* line 24, Framework/sass/helpers/_helpers.sass */
+  .background--black-light {
+    background-color: #e6e6e6 !important; }
+
+/* line 22, Framework/sass/helpers/_helpers.sass */
+.background--white {
+  background-color: #fff !important; }
+  /* line 24, Framework/sass/helpers/_helpers.sass */
+  .background--white-light {
+    background-color: white !important; }
+
+/* line 22, Framework/sass/helpers/_helpers.sass */
+.background--default {
+  background-color: #fff !important; }
+  /* line 24, Framework/sass/helpers/_helpers.sass */
+  .background--default-light {
+    background-color: white !important; }
+
+/* line 22, Framework/sass/helpers/_helpers.sass */
+.background--info {
+  background-color: #4285f4 !important; }
+  /* line 24, Framework/sass/helpers/_helpers.sass */
+  .background--info-light {
+    background-color: #ecf3fe !important; }
+
+/* line 22, Framework/sass/helpers/_helpers.sass */
+.background--success {
+  background-color: #008c3a !important; }
+  /* line 24, Framework/sass/helpers/_helpers.sass */
+  .background--success-light {
+    background-color: #e6f4eb !important; }
+
+/* line 22, Framework/sass/helpers/_helpers.sass */
+.background--warning {
+  background-color: #f09300 !important; }
+  /* line 24, Framework/sass/helpers/_helpers.sass */
+  .background--warning-light {
+    background-color: #fef4e6 !important; }
+
+/* line 22, Framework/sass/helpers/_helpers.sass */
+.background--danger {
+  background-color: #ea4335 !important; }
+  /* line 24, Framework/sass/helpers/_helpers.sass */
+  .background--danger-light {
+    background-color: #fdeceb !important; }
+
+/* line 31, Framework/sass/helpers/_helpers.sass */
+.border--primary {
+  border-color: #069 !important;
+  border-width: 1px;
+  border-style: solid; }
+  /* line 36, Framework/sass/helpers/_helpers.sass */
+  .border--primary-light {
+    border-color: #b3d1e0 !important;
+    border-width: 1px;
+    border-style: solid; }
+
+/* line 31, Framework/sass/helpers/_helpers.sass */
+.border--secondary {
+  border-color: #5c258d !important;
+  border-width: 1px;
+  border-style: solid; }
+  /* line 36, Framework/sass/helpers/_helpers.sass */
+  .border--secondary-light {
+    border-color: #cebedd !important;
+    border-width: 1px;
+    border-style: solid; }
+
+/* line 31, Framework/sass/helpers/_helpers.sass */
+<<<<<<< HEAD
+=======
+.border--dark {
+  border-color: #021826 !important;
+  border-width: 1px;
+  border-style: solid; }
+  /* line 36, Framework/sass/helpers/_helpers.sass */
+  .border--dark-light {
+    border-color: #b3babe !important;
+    border-width: 1px;
+    border-style: solid; }
+
+/* line 31, Framework/sass/helpers/_helpers.sass */
+>>>>>>> new css helpers
+.border--black {
+  border-color: #000 !important;
+  border-width: 1px;
+  border-style: solid; }
+  /* line 36, Framework/sass/helpers/_helpers.sass */
+  .border--black-light {
+    border-color: #b3b3b3 !important;
+    border-width: 1px;
+    border-style: solid; }
+
+/* line 31, Framework/sass/helpers/_helpers.sass */
+.border--white {
+  border-color: #fff !important;
+  border-width: 1px;
+  border-style: solid; }
+  /* line 36, Framework/sass/helpers/_helpers.sass */
+  .border--white-light {
+    border-color: white !important;
+    border-width: 1px;
+    border-style: solid; }
+
+/* line 31, Framework/sass/helpers/_helpers.sass */
+.border--default {
+  border-color: #fff !important;
+  border-width: 1px;
+  border-style: solid; }
+  /* line 36, Framework/sass/helpers/_helpers.sass */
+  .border--default-light {
+    border-color: white !important;
+    border-width: 1px;
+    border-style: solid; }
+
+/* line 31, Framework/sass/helpers/_helpers.sass */
+.border--info {
+  border-color: #4285f4 !important;
+  border-width: 1px;
+  border-style: solid; }
+  /* line 36, Framework/sass/helpers/_helpers.sass */
+  .border--info-light {
+    border-color: #c6dafc !important;
+    border-width: 1px;
+    border-style: solid; }
+
+/* line 31, Framework/sass/helpers/_helpers.sass */
+.border--success {
+  border-color: #008c3a !important;
+  border-width: 1px;
+  border-style: solid; }
+  /* line 36, Framework/sass/helpers/_helpers.sass */
+  .border--success-light {
+    border-color: #b3ddc4 !important;
+    border-width: 1px;
+    border-style: solid; }
+
+/* line 31, Framework/sass/helpers/_helpers.sass */
+.border--warning {
+  border-color: #f09300 !important;
+  border-width: 1px;
+  border-style: solid; }
+  /* line 36, Framework/sass/helpers/_helpers.sass */
+  .border--warning-light {
+    border-color: #fbdfb3 !important;
+    border-width: 1px;
+    border-style: solid; }
+
+/* line 31, Framework/sass/helpers/_helpers.sass */
+.border--danger {
+  border-color: #ea4335 !important;
+  border-width: 1px;
+  border-style: solid; }
+  /* line 36, Framework/sass/helpers/_helpers.sass */
+  .border--danger-light {
+    border-color: #f9c7c2 !important;
+    border-width: 1px;
+    border-style: solid; }
+
+<<<<<<< HEAD
+=======
+/* line 9, Framework/sass/helpers/_font-style.sass */
+.font--normal {
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 13, Framework/sass/helpers/_font-style.sass */
+.font--bold {
+  font-weight: bold;
+  font-style: normal; }
+  /* line 16, Framework/sass/helpers/_font-style.sass */
+  .font--bold-italic {
+    font-weight: bold;
+    font-style: italic; }
+
+/* line 20, Framework/sass/helpers/_font-style.sass */
+.font--light {
+  font-weight: lighter;
+  font-style: normal; }
+  /* line 23, Framework/sass/helpers/_font-style.sass */
+  .font--light-italic {
+    font-weight: lighter;
+    font-style: italic; }
+
+/* line 27, Framework/sass/helpers/_font-style.sass */
+.font--italic {
+  font-weight: normal;
+  font-style: italic; }
+
+/* line 8, Framework/sass/helpers/_hide-show.sass */
+.hide {
+  display: none; }
+
+/* line 11, Framework/sass/helpers/_hide-show.sass */
+.show {
+  display: block; }
+
+/* line 9, Framework/sass/helpers/_responsive.sass */
+.responsive__image {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 15px; }
+
+/* line 16, Framework/sass/helpers/_responsive.sass */
+.responsive__embed, .responsive__wide-screen, .responsive__screen, .responsive__square {
+  position: relative;
+  display: block;
+  height: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  overflow: hidden; }
+
+/* line 25, Framework/sass/helpers/_responsive.sass */
+.responsive__wide-screen {
+  padding-bottom: 56.25%; }
+
+/* line 29, Framework/sass/helpers/_responsive.sass */
+.responsive__screen {
+  padding-bottom: 75%; }
+
+/* line 33, Framework/sass/helpers/_responsive.sass */
+.responsive__square {
+  padding-bottom: 75%; }
+
+/* line 37, Framework/sass/helpers/_responsive.sass */
+.responsive__item,
+.responsive video,
+.responsive embed,
+.responsive object,
+.responsive iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border: none; }
+
+/* line 10, Framework/sass/helpers/_image.sass */
+.image--round {
+  -webkit-clip-path: rect(10px, 20px, 30px, 40px);
+  clip-path: rect(10px, 20px, 30px, 40px); }
+
+>>>>>>> new css helpers
+/* line 7, Framework/sass/components/_navigation.sass */
+.nav__mobile .nav__navicon {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  cursor: pointer; }
+  /* line 16, Framework/sass/components/_navigation.sass */
+  .nav__mobile .nav__navicon::after {
+    font-family: "Lunacon";
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    width: inherit;
+    height: inherit;
+    content: "";
+<<<<<<< HEAD
+    color: #eee; }
+=======
+    color: #f7f7f7; }
+>>>>>>> new css helpers
+
+/* line 32, Framework/sass/components/_navigation.sass */
+.nav {
+  position: relative;
+  background: #021826;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+  width: 100%;
+  min-height: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  *zoom: 1; }
+  /* line 9, Framework/sass/mixins/_clearfix.sass */
+  .nav::before, .nav::after {
+    display: table;
+    content: ''; }
+  /* line 13, Framework/sass/mixins/_clearfix.sass */
+  .nav::after {
+    clear: both; }
+<<<<<<< HEAD
+  /* line 44, Framework/sass/components/_navigation.sass */
+=======
+  @media screen and (min-width: 900px) {
+    /* line 43, Framework/sass/components/_navigation.sass */
+    .nav--strip {
+      background: transparent;
+      border-color: transparent;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      -webkit-transition: all 0,5s ease;
+      -o-transition: all 0,5s ease;
+      transition: all 0,5s ease; } }
+  /* line 53, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+  .nav--fixed {
+    position: fixed;
+    top: 0;
+    z-index: 1000; }
+<<<<<<< HEAD
+  /* line 50, Framework/sass/components/_navigation.sass */
+=======
+  /* line 59, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+  .nav__wrapper {
+    width: 98%;
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto; }
+<<<<<<< HEAD
+  /* line 62, Framework/sass/components/_navigation.sass */
+=======
+  /* line 71, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+  .nav__brand {
+    float: left;
+    font-size: 28px;
+    line-height: 60px;
+    margin-right: 15px; }
+<<<<<<< HEAD
+    /* line 67, Framework/sass/components/_navigation.sass */
+=======
+    /* line 76, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+    .nav__brand a {
+      color: #fff;
+      text-decoration: none;
+      float: left; }
+<<<<<<< HEAD
+  /* line 73, Framework/sass/components/_navigation.sass */
+=======
+  /* line 82, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+  .nav__links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    *zoom: 1; }
+    /* line 9, Framework/sass/mixins/_clearfix.sass */
+    .nav__links::before, .nav__links::after {
+      display: table;
+      content: ''; }
+    /* line 13, Framework/sass/mixins/_clearfix.sass */
+    .nav__links::after {
+      clear: both; }
+    @media screen and (max-width: 900px) {
+<<<<<<< HEAD
+      /* line 73, Framework/sass/components/_navigation.sass */
+      .nav__links {
+        margin-left: -15px;
+        margin-right: -15px; } }
+    /* line 85, Framework/sass/components/_navigation.sass */
+    .nav__links__wrapper {
+      float: left; }
+      @media screen and (max-width: 900px) {
+        /* line 85, Framework/sass/components/_navigation.sass */
+=======
+      /* line 82, Framework/sass/components/_navigation.sass */
+      .nav__links {
+        margin-left: -15px;
+        margin-right: -15px; } }
+    /* line 94, Framework/sass/components/_navigation.sass */
+    .nav__links__wrapper {
+      float: left; }
+      @media screen and (max-width: 900px) {
+        /* line 94, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+        .nav__links__wrapper {
+          float: none;
+          width: 100%;
+          display: none; } }
+      @media screen and (max-width: 900px) {
+<<<<<<< HEAD
+        /* line 92, Framework/sass/components/_navigation.sass */
+        .nav__links__wrapper--open {
+          display: block; } }
+      /* line 96, Framework/sass/components/_navigation.sass */
+      .nav__links__wrapper:first-child {
+        border-bottom: 1px solid white; }
+    /* line 100, Framework/sass/components/_navigation.sass */
+    .nav__links--right {
+      float: right; }
+    /* line 103, Framework/sass/components/_navigation.sass */
+    .nav__links--left {
+      float: left; }
+    /* line 108, Framework/sass/components/_navigation.sass */
+=======
+        /* line 101, Framework/sass/components/_navigation.sass */
+        .nav__links__wrapper--open {
+          display: block; } }
+      /* line 105, Framework/sass/components/_navigation.sass */
+      .nav__links__wrapper:first-child {
+        border-bottom: 1px solid white; }
+    /* line 109, Framework/sass/components/_navigation.sass */
+    .nav__links--right {
+      float: right; }
+    /* line 112, Framework/sass/components/_navigation.sass */
+    .nav__links--left {
+      float: left; }
+    /* line 117, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+    .nav__links__item {
+      position: relative;
+      display: inline-block;
+      float: left;
+      background: transparent;
+      line-height: 60px; }
+<<<<<<< HEAD
+      /* line 116, Framework/sass/components/_navigation.sass */
+=======
+      /* line 125, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+      .nav__links__item a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        padding: 0 15px; }
+<<<<<<< HEAD
+      /* line 122, Framework/sass/components/_navigation.sass */
+      .nav__links__item:hover, .nav__links__item--active {
+        background: #fff; }
+        /* line 125, Framework/sass/components/_navigation.sass */
+        .nav__links__item:hover > a, .nav__links__item--active > a {
+          color: #021826; }
+  /* line 130, Framework/sass/components/_navigation.sass */
+  .nav__navicon {
+    display: none; }
+    @media screen and (max-width: 900px) {
+      /* line 130, Framework/sass/components/_navigation.sass */
+=======
+      /* line 131, Framework/sass/components/_navigation.sass */
+      .nav__links__item:hover, .nav__links__item--active {
+        background: #fff; }
+        /* line 134, Framework/sass/components/_navigation.sass */
+        .nav__links__item:hover > a, .nav__links__item--active > a {
+          color: #021826; }
+  /* line 139, Framework/sass/components/_navigation.sass */
+  .nav__navicon {
+    display: none; }
+    @media screen and (max-width: 900px) {
+      /* line 139, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+      .nav__navicon {
+        position: absolute;
+        top: 10px;
+        right: 18px;
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        cursor: pointer; }
+<<<<<<< HEAD
+        /* line 142, Framework/sass/components/_navigation.sass */
+=======
+        /* line 151, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+        .nav__navicon::after, .nav__navicon--open::after {
+          font-family: "Lunacon";
+          position: absolute;
+          top: 0;
+          left: 0;
+          line-height: 40px;
+          font-size: 16px;
+          text-align: center;
+          width: inherit;
+          height: inherit;
+          content: "";
+<<<<<<< HEAD
+          color: #eee; } }
+
+@media screen and (max-width: 900px) {
+  /* line 164, Framework/sass/components/_navigation.sass */
+=======
+          color: #f7f7f7; } }
+
+@media screen and (max-width: 900px) {
+  /* line 173, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+  .nav__links {
+    margin-bottom: 15px; } }
+
+@media screen and (max-width: 900px) {
+<<<<<<< HEAD
+  /* line 168, Framework/sass/components/_navigation.sass */
+=======
+  /* line 177, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+  .nav__links__item {
+    float: none;
+    display: block;
+    line-height: 50px; } }
+
+<<<<<<< HEAD
+/* line 174, Framework/sass/components/_navigation.sass */
+.nav__links__item--dropdown {
+  position: relative; }
+  /* line 176, Framework/sass/components/_navigation.sass */
+  .nav__links__item--dropdown > a {
+    position: relative;
+    padding-right: 40px; }
+    /* line 180, Framework/sass/components/_navigation.sass */
+=======
+/* line 183, Framework/sass/components/_navigation.sass */
+.nav__links__item--dropdown {
+  position: relative; }
+  /* line 185, Framework/sass/components/_navigation.sass */
+  .nav__links__item--dropdown > a {
+    position: relative;
+    padding-right: 40px; }
+    /* line 189, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+    .nav__links__item--dropdown > a::after {
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-family: Lunacon;
+      content: "";
+      width: 30px;
+      height: 30px;
+      display: block; }
+<<<<<<< HEAD
+  /* line 191, Framework/sass/components/_navigation.sass */
+=======
+  /* line 200, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+  .nav__links__item--dropdown .nav__links {
+    position: absolute;
+    display: none;
+    width: 200px;
+    background: #eee;
+    top: 60px;
+    left: 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.75) 0 20px 40px -10px;
+    box-shadow: rgba(0, 0, 0, 0.75) 0 20px 40px -10px; }
+<<<<<<< HEAD
+    /* line 199, Framework/sass/components/_navigation.sass */
+    .nav__links__item--dropdown .nav__links a {
+      color: #021826; }
+    /* line 203, Framework/sass/components/_navigation.sass */
+    .nav__links__item--dropdown .nav__links__item {
+      width: 100%; }
+      /* line 205, Framework/sass/components/_navigation.sass */
+      .nav__links__item--dropdown .nav__links__item:hover {
+        background: #021826; }
+        /* line 207, Framework/sass/components/_navigation.sass */
+        .nav__links__item--dropdown .nav__links__item:hover a {
+          color: #eee; }
+  @media screen and (min-width: 900px) {
+    /* line 212, Framework/sass/components/_navigation.sass */
+    .nav__links__item--dropdown:hover .nav__links, .nav__links__item--dropdown--open .nav__links {
+      display: block; } }
+
+/* line 219, Framework/sass/components/_navigation.sass */
+=======
+    /* line 208, Framework/sass/components/_navigation.sass */
+    .nav__links__item--dropdown .nav__links a {
+      color: #021826; }
+    /* line 212, Framework/sass/components/_navigation.sass */
+    .nav__links__item--dropdown .nav__links__item {
+      width: 100%; }
+      /* line 214, Framework/sass/components/_navigation.sass */
+      .nav__links__item--dropdown .nav__links__item:hover {
+        background: #021826; }
+        /* line 216, Framework/sass/components/_navigation.sass */
+        .nav__links__item--dropdown .nav__links__item:hover a {
+          color: #eee; }
+  @media screen and (min-width: 900px) {
+    /* line 221, Framework/sass/components/_navigation.sass */
+    .nav__links__item--dropdown:hover .nav__links, .nav__links__item--dropdown--open .nav__links {
+      display: block; } }
+
+/* line 228, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+.nav__mobile .nav__links__wrapper {
+  float: none;
+  width: 100%;
+  display: none; }
+  @media screen and (min-width: 900px) {
+<<<<<<< HEAD
+    /* line 223, Framework/sass/components/_navigation.sass */
+    .nav__mobile .nav__links__wrapper:last-child {
+      margin-bottom: 15px; } }
+  /* line 228, Framework/sass/components/_navigation.sass */
+=======
+    /* line 232, Framework/sass/components/_navigation.sass */
+    .nav__mobile .nav__links__wrapper:last-child {
+      margin-bottom: 15px; } }
+  /* line 237, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+  .nav__mobile .nav__links__wrapper--open {
+    display: block;
+    clear: both; }
+
+<<<<<<< HEAD
+/* line 232, Framework/sass/components/_navigation.sass */
+.nav__mobile .nav__links__item {
+  width: 100%; }
+
+/* line 241, Framework/sass/components/_navigation.sass */
+=======
+/* line 241, Framework/sass/components/_navigation.sass */
+.nav__mobile .nav__links__item {
+  width: 100%; }
+
+/* line 250, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+.nav .form__item__group {
+  height: 40px;
+  width: 200px;
+  margin-top: 10px; }
+  @media screen and (max-width: 900px) {
+<<<<<<< HEAD
+    /* line 241, Framework/sass/components/_navigation.sass */
+    .nav .form__item__group {
+      width: 100%;
+      margin-bottom: 15px; } }
+  /* line 249, Framework/sass/components/_navigation.sass */
+=======
+    /* line 250, Framework/sass/components/_navigation.sass */
+    .nav .form__item__group {
+      width: 100%;
+      margin-bottom: 15px; } }
+  /* line 258, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+  .nav .form__item__group input,
+  .nav .form__item__group button,
+  .nav .form__item__group button.btn,
+  .nav .form__item__group .btn,
+  .nav .form__item__group a.btn {
+    height: 40px;
+    line-height: 0px;
+    outline: none;
+    border: solid 1px transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+<<<<<<< HEAD
+    /* line 260, Framework/sass/components/_navigation.sass */
+=======
+    /* line 269, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+    .nav .form__item__group input:focus,
+    .nav .form__item__group button:focus,
+    .nav .form__item__group button.btn:focus,
+    .nav .form__item__group .btn:focus,
+    .nav .form__item__group a.btn:focus {
+      outline: none;
+      border: solid 1px transparent;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+<<<<<<< HEAD
+  /* line 265, Framework/sass/components/_navigation.sass */
+=======
+  /* line 274, Framework/sass/components/_navigation.sass */
+>>>>>>> new css helpers
+  .nav .form__item__group .btn,
+  .nav .form__item__group a.btn,
+  .nav .form__item__group button,
+  .nav .form__item__group button.btn,
+  .nav .form__item__group input[type="submit"],
+  .nav .form__item__group input[type="submit"].btn {
+    width: 50px;
+    min-width: 50px; }
+
+/* line 9, Framework/sass/components/_buttons.sass */
+.btn,
+a.btn,
+button.btn,
+input[type="submit"].btn {
+  position: relative;
+  background-color: transparent;
+  border: 1px solid transparent;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  -webkit-border-radius: 2px;
+=======
+>>>>>>> new css helpers
+=======
+  -webkit-border-radius: 2px;
+>>>>>>> new icon layout
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #039be5;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  min-width: 36px;
+  outline: 0;
+  overflow: hidden;
+  padding: 4px 16px;
+  line-height: 28px;
+  text-align: center;
+  text-decoration: none;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  -webkit-transition: background-color .2s, -webkit-box-shadow .2s;
+  transition: background-color .2s, -webkit-box-shadow .2s;
+  -o-transition: background-color .2s, box-shadow .2s;
+  transition: background-color .2s, box-shadow .2s;
+  transition: background-color .2s, box-shadow .2s, -webkit-box-shadow .2s;
+  vertical-align: middle;
+  white-space: nowrap;
+  z-index: 1; }
+  /* line 37, Framework/sass/mixins/_buttons.sass */
+  .btn:hover, .btn:active, .btn:focus,
+  a.btn:hover,
+  a.btn:active,
+  a.btn:focus,
+  button.btn:hover,
+  button.btn:active,
+  button.btn:focus,
+  input[type="submit"].btn:hover,
+  input[type="submit"].btn:active,
+  input[type="submit"].btn:focus {
+    background-color: #e1f3fc;
+    z-index: 2;
+    text-decoration: none; }
+<<<<<<< HEAD
+  /* line 18, Framework/sass/components/_buttons.sass */
+=======
+  /* line 44, Framework/sass/mixins/_buttons.sass */
+  .btn.disabled, .btn[disabled],
+  a.btn.disabled,
+  a.btn[disabled],
+  button.btn.disabled,
+  button.btn[disabled],
+  input[type="submit"].btn.disabled,
+  input[type="submit"].btn[disabled] {
+    background: #f7f7f7;
+    border: solid 1px #e6e9ec;
+    color: #d8dce1; }
+    /* line 49, Framework/sass/mixins/_buttons.sass */
+    .btn.disabled:hover, .btn[disabled]:hover,
+    a.btn.disabled:hover,
+    a.btn[disabled]:hover,
+    button.btn.disabled:hover,
+    button.btn[disabled]:hover,
+    input[type="submit"].btn.disabled:hover,
+    input[type="submit"].btn[disabled]:hover {
+      background: #f7f7f7;
+      border: solid 1px #e6e9ec;
+      color: #d8dce1;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+  /* line 19, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn--primary,
+  a.btn--primary,
+  button.btn--primary,
+  input[type="submit"].btn--primary {
+    background: #069;
+    color: #fff; }
+<<<<<<< HEAD
+    /* line 27, Framework/sass/components/_buttons.sass */
+=======
+    /* line 26, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--primary:hover, .btn--primary:active, .btn--primary:focus,
+    a.btn--primary:hover,
+    a.btn--primary:active,
+    a.btn--primary:focus,
+    button.btn--primary:hover,
+    button.btn--primary:active,
+    button.btn--primary:focus,
+    input[type="submit"].btn--primary:hover,
+    input[type="submit"].btn--primary:active,
+    input[type="submit"].btn--primary:focus {
+      background: #005580;
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+    /* line 35, Framework/sass/components/_buttons.sass */
+=======
+    /* line 34, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--primary-gradient,
+    a.btn--primary-gradient,
+    button.btn--primary-gradient,
+    input[type="submit"].btn--primary-gradient {
+      background: #069;
+      background: -webkit-gradient(linear, left top, left bottom, from(#069), to(#005580));
+      background: -webkit-linear-gradient(top, #069, #005580);
+      background: -o-linear-gradient(top, #069, #005580);
+      background: linear-gradient(180deg, #069, #005580);
+      color: #fff;
+      border: solid 1px #005580;
+<<<<<<< HEAD
+      text-shadow: #002233 0 1px 1px;
+      font-size: 16px; }
+      /* line 47, Framework/sass/components/_buttons.sass */
+=======
+      text-shadow: #002233 0 1px 1px; }
+      /* line 44, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+      .btn--primary-gradient:hover, .btn--primary-gradient:active, .btn--primary-gradient:focus,
+      a.btn--primary-gradient:hover,
+      a.btn--primary-gradient:active,
+      a.btn--primary-gradient:focus,
+      button.btn--primary-gradient:hover,
+      button.btn--primary-gradient:active,
+      button.btn--primary-gradient:focus,
+      input[type="submit"].btn--primary-gradient:hover,
+      input[type="submit"].btn--primary-gradient:active,
+      input[type="submit"].btn--primary-gradient:focus {
+        background: #005580;
+        background: -webkit-gradient(linear, left top, left bottom, from(#005f8f), to(#004e75));
+        background: -webkit-linear-gradient(top, #005f8f, #004e75);
+        background: -o-linear-gradient(top, #005f8f, #004e75);
+        background: linear-gradient(180deg, #005f8f, #004e75);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+  /* line 18, Framework/sass/components/_buttons.sass */
+=======
+  /* line 19, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn--secondary,
+  a.btn--secondary,
+  button.btn--secondary,
+  input[type="submit"].btn--secondary {
+    background: #5c258d;
+    color: #fff; }
+<<<<<<< HEAD
+    /* line 27, Framework/sass/components/_buttons.sass */
+=======
+    /* line 26, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--secondary:hover, .btn--secondary:active, .btn--secondary:focus,
+    a.btn--secondary:hover,
+    a.btn--secondary:active,
+    a.btn--secondary:focus,
+    button.btn--secondary:hover,
+    button.btn--secondary:active,
+    button.btn--secondary:focus,
+    input[type="submit"].btn--secondary:hover,
+    input[type="submit"].btn--secondary:active,
+    input[type="submit"].btn--secondary:focus {
+      background: #4f2079;
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+    /* line 35, Framework/sass/components/_buttons.sass */
+=======
+    /* line 34, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--secondary-gradient,
+    a.btn--secondary-gradient,
+    button.btn--secondary-gradient,
+    input[type="submit"].btn--secondary-gradient {
+      background: #5c258d;
+      background: -webkit-gradient(linear, left top, left bottom, from(#5c258d), to(#4f2079));
+      background: -webkit-linear-gradient(top, #5c258d, #4f2079);
+      background: -o-linear-gradient(top, #5c258d, #4f2079);
+      background: linear-gradient(180deg, #5c258d, #4f2079);
+      color: #fff;
+      border: solid 1px #4f2079;
+<<<<<<< HEAD
+      text-shadow: #27103c 0 1px 1px;
+      font-size: 16px; }
+      /* line 47, Framework/sass/components/_buttons.sass */
+=======
+      text-shadow: #27103c 0 1px 1px; }
+      /* line 44, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+      .btn--secondary-gradient:hover, .btn--secondary-gradient:active, .btn--secondary-gradient:focus,
+      a.btn--secondary-gradient:hover,
+      a.btn--secondary-gradient:active,
+      a.btn--secondary-gradient:focus,
+      button.btn--secondary-gradient:hover,
+      button.btn--secondary-gradient:active,
+      button.btn--secondary-gradient:focus,
+      input[type="submit"].btn--secondary-gradient:hover,
+      input[type="submit"].btn--secondary-gradient:active,
+      input[type="submit"].btn--secondary-gradient:focus {
+        background: #4f2079;
+        background: -webkit-gradient(linear, left top, left bottom, from(#572385), to(#4a1e71));
+        background: -webkit-linear-gradient(top, #572385, #4a1e71);
+        background: -o-linear-gradient(top, #572385, #4a1e71);
+        background: linear-gradient(180deg, #572385, #4a1e71);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+  /* line 18, Framework/sass/components/_buttons.sass */
+=======
+  /* line 19, Framework/sass/components/_buttons.sass */
+  .btn--dark,
+  a.btn--dark,
+  button.btn--dark,
+  input[type="submit"].btn--dark {
+    background: #021826;
+    color: #fff; }
+    /* line 26, Framework/sass/components/_buttons.sass */
+    .btn--dark:hover, .btn--dark:active, .btn--dark:focus,
+    a.btn--dark:hover,
+    a.btn--dark:active,
+    a.btn--dark:focus,
+    button.btn--dark:hover,
+    button.btn--dark:active,
+    button.btn--dark:focus,
+    input[type="submit"].btn--dark:hover,
+    input[type="submit"].btn--dark:active,
+    input[type="submit"].btn--dark:focus {
+      background: #01090e;
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+    /* line 34, Framework/sass/components/_buttons.sass */
+    .btn--dark-gradient,
+    a.btn--dark-gradient,
+    button.btn--dark-gradient,
+    input[type="submit"].btn--dark-gradient {
+      background: #021826;
+      background: -webkit-gradient(linear, left top, left bottom, from(#021826), to(#01090e));
+      background: -webkit-linear-gradient(top, #021826, #01090e);
+      background: -o-linear-gradient(top, #021826, #01090e);
+      background: linear-gradient(180deg, #021826, #01090e);
+      color: #fff;
+      border: solid 1px #01090e;
+      text-shadow: black 0 1px 1px; }
+      /* line 44, Framework/sass/components/_buttons.sass */
+      .btn--dark-gradient:hover, .btn--dark-gradient:active, .btn--dark-gradient:focus,
+      a.btn--dark-gradient:hover,
+      a.btn--dark-gradient:active,
+      a.btn--dark-gradient:focus,
+      button.btn--dark-gradient:hover,
+      button.btn--dark-gradient:active,
+      button.btn--dark-gradient:focus,
+      input[type="submit"].btn--dark-gradient:hover,
+      input[type="submit"].btn--dark-gradient:active,
+      input[type="submit"].btn--dark-gradient:focus {
+        background: #01090e;
+        background: -webkit-gradient(linear, left top, left bottom, from(#01121c), to(#000304));
+        background: -webkit-linear-gradient(top, #01121c, #000304);
+        background: -o-linear-gradient(top, #01121c, #000304);
+        background: linear-gradient(180deg, #01121c, #000304);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+  /* line 19, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn--black,
+  a.btn--black,
+  button.btn--black,
+  input[type="submit"].btn--black {
+    background: #000;
+    color: #fff; }
+<<<<<<< HEAD
+    /* line 27, Framework/sass/components/_buttons.sass */
+=======
+    /* line 26, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--black:hover, .btn--black:active, .btn--black:focus,
+    a.btn--black:hover,
+    a.btn--black:active,
+    a.btn--black:focus,
+    button.btn--black:hover,
+    button.btn--black:active,
+    button.btn--black:focus,
+    input[type="submit"].btn--black:hover,
+    input[type="submit"].btn--black:active,
+    input[type="submit"].btn--black:focus {
+      background: black;
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+    /* line 35, Framework/sass/components/_buttons.sass */
+=======
+    /* line 34, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--black-gradient,
+    a.btn--black-gradient,
+    button.btn--black-gradient,
+    input[type="submit"].btn--black-gradient {
+      background: #000;
+      background: -webkit-gradient(linear, left top, left bottom, from(#000), to(black));
+      background: -webkit-linear-gradient(top, #000, black);
+      background: -o-linear-gradient(top, #000, black);
+      background: linear-gradient(180deg, #000, black);
+      color: #fff;
+      border: solid 1px black;
+<<<<<<< HEAD
+      text-shadow: black 0 1px 1px;
+      font-size: 16px; }
+      /* line 47, Framework/sass/components/_buttons.sass */
+=======
+      text-shadow: black 0 1px 1px; }
+      /* line 44, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+      .btn--black-gradient:hover, .btn--black-gradient:active, .btn--black-gradient:focus,
+      a.btn--black-gradient:hover,
+      a.btn--black-gradient:active,
+      a.btn--black-gradient:focus,
+      button.btn--black-gradient:hover,
+      button.btn--black-gradient:active,
+      button.btn--black-gradient:focus,
+      input[type="submit"].btn--black-gradient:hover,
+      input[type="submit"].btn--black-gradient:active,
+      input[type="submit"].btn--black-gradient:focus {
+        background: black;
+        background: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+        background: -webkit-linear-gradient(top, black, black);
+        background: -o-linear-gradient(top, black, black);
+        background: linear-gradient(180deg, black, black);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+  /* line 18, Framework/sass/components/_buttons.sass */
+=======
+  /* line 19, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn--white,
+  a.btn--white,
+  button.btn--white,
+  input[type="submit"].btn--white {
+    background: #fff;
+    color: #fff; }
+<<<<<<< HEAD
+    /* line 27, Framework/sass/components/_buttons.sass */
+=======
+    /* line 26, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--white:hover, .btn--white:active, .btn--white:focus,
+    a.btn--white:hover,
+    a.btn--white:active,
+    a.btn--white:focus,
+    button.btn--white:hover,
+    button.btn--white:active,
+    button.btn--white:focus,
+    input[type="submit"].btn--white:hover,
+    input[type="submit"].btn--white:active,
+    input[type="submit"].btn--white:focus {
+      background: #f2f2f2;
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+    /* line 35, Framework/sass/components/_buttons.sass */
+=======
+    /* line 34, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--white-gradient,
+    a.btn--white-gradient,
+    button.btn--white-gradient,
+    input[type="submit"].btn--white-gradient {
+      background: #fff;
+      background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f2f2f2));
+      background: -webkit-linear-gradient(top, #fff, #f2f2f2);
+      background: -o-linear-gradient(top, #fff, #f2f2f2);
+      background: linear-gradient(180deg, #fff, #f2f2f2);
+      color: #fff;
+      border: solid 1px #f2f2f2;
+<<<<<<< HEAD
+      text-shadow: #cccccc 0 1px 1px;
+      font-size: 16px; }
+      /* line 47, Framework/sass/components/_buttons.sass */
+=======
+      text-shadow: #cccccc 0 1px 1px; }
+      /* line 44, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+      .btn--white-gradient:hover, .btn--white-gradient:active, .btn--white-gradient:focus,
+      a.btn--white-gradient:hover,
+      a.btn--white-gradient:active,
+      a.btn--white-gradient:focus,
+      button.btn--white-gradient:hover,
+      button.btn--white-gradient:active,
+      button.btn--white-gradient:focus,
+      input[type="submit"].btn--white-gradient:hover,
+      input[type="submit"].btn--white-gradient:active,
+      input[type="submit"].btn--white-gradient:focus {
+        background: #f2f2f2;
+        background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ededed));
+        background: -webkit-linear-gradient(top, #fafafa, #ededed);
+        background: -o-linear-gradient(top, #fafafa, #ededed);
+        background: linear-gradient(180deg, #fafafa, #ededed);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+  /* line 18, Framework/sass/components/_buttons.sass */
+=======
+  /* line 19, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn--default,
+  a.btn--default,
+  button.btn--default,
+  input[type="submit"].btn--default {
+    background: #fff;
+    color: #fff;
+    color: #039be5; }
+<<<<<<< HEAD
+    /* line 27, Framework/sass/components/_buttons.sass */
+=======
+    /* line 26, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--default:hover, .btn--default:active, .btn--default:focus,
+    a.btn--default:hover,
+    a.btn--default:active,
+    a.btn--default:focus,
+    button.btn--default:hover,
+    button.btn--default:active,
+    button.btn--default:focus,
+    input[type="submit"].btn--default:hover,
+    input[type="submit"].btn--default:active,
+    input[type="submit"].btn--default:focus {
+      background: #f2f2f2;
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+      background-color: #e1f3fc; }
+<<<<<<< HEAD
+    /* line 35, Framework/sass/components/_buttons.sass */
+=======
+    /* line 34, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--default-gradient,
+    a.btn--default-gradient,
+    button.btn--default-gradient,
+    input[type="submit"].btn--default-gradient {
+      background: #fff;
+      background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f2f2f2));
+      background: -webkit-linear-gradient(top, #fff, #f2f2f2);
+      background: -o-linear-gradient(top, #fff, #f2f2f2);
+      background: linear-gradient(180deg, #fff, #f2f2f2);
+      color: #fff;
+      border: solid 1px #f2f2f2;
+      text-shadow: #cccccc 0 1px 1px;
+<<<<<<< HEAD
+      font-size: 16px;
+      color: #039be5;
+      border: solid 1px #f3f4f7; }
+      /* line 47, Framework/sass/components/_buttons.sass */
+=======
+      color: #039be5;
+      border: solid 1px #f7f7f7; }
+      /* line 44, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+      .btn--default-gradient:hover, .btn--default-gradient:active, .btn--default-gradient:focus,
+      a.btn--default-gradient:hover,
+      a.btn--default-gradient:active,
+      a.btn--default-gradient:focus,
+      button.btn--default-gradient:hover,
+      button.btn--default-gradient:active,
+      button.btn--default-gradient:focus,
+      input[type="submit"].btn--default-gradient:hover,
+      input[type="submit"].btn--default-gradient:active,
+      input[type="submit"].btn--default-gradient:focus {
+        background: #f2f2f2;
+        background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ededed));
+        background: -webkit-linear-gradient(top, #fafafa, #ededed);
+        background: -o-linear-gradient(top, #fafafa, #ededed);
+        background: linear-gradient(180deg, #fafafa, #ededed);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+        background-color: #e1f3fc; }
+<<<<<<< HEAD
+  /* line 18, Framework/sass/components/_buttons.sass */
+=======
+  /* line 19, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn--info,
+  a.btn--info,
+  button.btn--info,
+  input[type="submit"].btn--info {
+    background: #4285f4;
+    color: #fff; }
+<<<<<<< HEAD
+    /* line 27, Framework/sass/components/_buttons.sass */
+=======
+    /* line 26, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--info:hover, .btn--info:active, .btn--info:focus,
+    a.btn--info:hover,
+    a.btn--info:active,
+    a.btn--info:focus,
+    button.btn--info:hover,
+    button.btn--info:active,
+    button.btn--info:focus,
+    input[type="submit"].btn--info:hover,
+    input[type="submit"].btn--info:active,
+    input[type="submit"].btn--info:focus {
+      background: #2a75f3;
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+    /* line 35, Framework/sass/components/_buttons.sass */
+=======
+    /* line 34, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--info-gradient,
+    a.btn--info-gradient,
+    button.btn--info-gradient,
+    input[type="submit"].btn--info-gradient {
+      background: #4285f4;
+      background: -webkit-gradient(linear, left top, left bottom, from(#4285f4), to(#2a75f3));
+      background: -webkit-linear-gradient(top, #4285f4, #2a75f3);
+      background: -o-linear-gradient(top, #4285f4, #2a75f3);
+      background: linear-gradient(180deg, #4285f4, #2a75f3);
+      color: #fff;
+      border: solid 1px #2a75f3;
+<<<<<<< HEAD
+      text-shadow: #0b51c5 0 1px 1px;
+      font-size: 16px; }
+      /* line 47, Framework/sass/components/_buttons.sass */
+=======
+      text-shadow: #0b51c5 0 1px 1px; }
+      /* line 44, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+      .btn--info-gradient:hover, .btn--info-gradient:active, .btn--info-gradient:focus,
+      a.btn--info-gradient:hover,
+      a.btn--info-gradient:active,
+      a.btn--info-gradient:focus,
+      button.btn--info-gradient:hover,
+      button.btn--info-gradient:active,
+      button.btn--info-gradient:focus,
+      input[type="submit"].btn--info-gradient:hover,
+      input[type="submit"].btn--info-gradient:active,
+      input[type="submit"].btn--info-gradient:focus {
+        background: #2a75f3;
+        background: -webkit-gradient(linear, left top, left bottom, from(#387ff3), to(#206ff2));
+        background: -webkit-linear-gradient(top, #387ff3, #206ff2);
+        background: -o-linear-gradient(top, #387ff3, #206ff2);
+        background: linear-gradient(180deg, #387ff3, #206ff2);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+  /* line 18, Framework/sass/components/_buttons.sass */
+=======
+  /* line 19, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn--success,
+  a.btn--success,
+  button.btn--success,
+  input[type="submit"].btn--success {
+    background: #008c3a;
+    color: #fff; }
+<<<<<<< HEAD
+    /* line 27, Framework/sass/components/_buttons.sass */
+=======
+    /* line 26, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--success:hover, .btn--success:active, .btn--success:focus,
+    a.btn--success:hover,
+    a.btn--success:active,
+    a.btn--success:focus,
+    button.btn--success:hover,
+    button.btn--success:active,
+    button.btn--success:focus,
+    input[type="submit"].btn--success:hover,
+    input[type="submit"].btn--success:active,
+    input[type="submit"].btn--success:focus {
+      background: #00732f;
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+    /* line 35, Framework/sass/components/_buttons.sass */
+=======
+    /* line 34, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--success-gradient,
+    a.btn--success-gradient,
+    button.btn--success-gradient,
+    input[type="submit"].btn--success-gradient {
+      background: #008c3a;
+      background: -webkit-gradient(linear, left top, left bottom, from(#008c3a), to(#00732f));
+      background: -webkit-linear-gradient(top, #008c3a, #00732f);
+      background: -o-linear-gradient(top, #008c3a, #00732f);
+      background: linear-gradient(180deg, #008c3a, #00732f);
+      color: #fff;
+      border: solid 1px #00732f;
+<<<<<<< HEAD
+      text-shadow: #002610 0 1px 1px;
+      font-size: 16px; }
+      /* line 47, Framework/sass/components/_buttons.sass */
+=======
+      text-shadow: #002610 0 1px 1px; }
+      /* line 44, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+      .btn--success-gradient:hover, .btn--success-gradient:active, .btn--success-gradient:focus,
+      a.btn--success-gradient:hover,
+      a.btn--success-gradient:active,
+      a.btn--success-gradient:focus,
+      button.btn--success-gradient:hover,
+      button.btn--success-gradient:active,
+      button.btn--success-gradient:focus,
+      input[type="submit"].btn--success-gradient:hover,
+      input[type="submit"].btn--success-gradient:active,
+      input[type="submit"].btn--success-gradient:focus {
+        background: #00732f;
+        background: -webkit-gradient(linear, left top, left bottom, from(#008236), to(#00682b));
+        background: -webkit-linear-gradient(top, #008236, #00682b);
+        background: -o-linear-gradient(top, #008236, #00682b);
+        background: linear-gradient(180deg, #008236, #00682b);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+  /* line 18, Framework/sass/components/_buttons.sass */
+=======
+  /* line 19, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn--warning,
+  a.btn--warning,
+  button.btn--warning,
+  input[type="submit"].btn--warning {
+    background: #f09300;
+    color: #fff; }
+<<<<<<< HEAD
+    /* line 27, Framework/sass/components/_buttons.sass */
+=======
+    /* line 26, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--warning:hover, .btn--warning:active, .btn--warning:focus,
+    a.btn--warning:hover,
+    a.btn--warning:active,
+    a.btn--warning:focus,
+    button.btn--warning:hover,
+    button.btn--warning:active,
+    button.btn--warning:focus,
+    input[type="submit"].btn--warning:hover,
+    input[type="submit"].btn--warning:active,
+    input[type="submit"].btn--warning:focus {
+      background: #d78300;
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+    /* line 35, Framework/sass/components/_buttons.sass */
+=======
+    /* line 34, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--warning-gradient,
+    a.btn--warning-gradient,
+    button.btn--warning-gradient,
+    input[type="submit"].btn--warning-gradient {
+      background: #f09300;
+      background: -webkit-gradient(linear, left top, left bottom, from(#f09300), to(#d78300));
+      background: -webkit-linear-gradient(top, #f09300, #d78300);
+      background: -o-linear-gradient(top, #f09300, #d78300);
+      background: linear-gradient(180deg, #f09300, #d78300);
+      color: #fff;
+      border: solid 1px #d78300;
+<<<<<<< HEAD
+      text-shadow: #8a5500 0 1px 1px;
+      font-size: 16px; }
+      /* line 47, Framework/sass/components/_buttons.sass */
+=======
+      text-shadow: #8a5500 0 1px 1px; }
+      /* line 44, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+      .btn--warning-gradient:hover, .btn--warning-gradient:active, .btn--warning-gradient:focus,
+      a.btn--warning-gradient:hover,
+      a.btn--warning-gradient:active,
+      a.btn--warning-gradient:focus,
+      button.btn--warning-gradient:hover,
+      button.btn--warning-gradient:active,
+      button.btn--warning-gradient:focus,
+      input[type="submit"].btn--warning-gradient:hover,
+      input[type="submit"].btn--warning-gradient:active,
+      input[type="submit"].btn--warning-gradient:focus {
+        background: #d78300;
+        background: -webkit-gradient(linear, left top, left bottom, from(#e68d00), to(#cc7d00));
+        background: -webkit-linear-gradient(top, #e68d00, #cc7d00);
+        background: -o-linear-gradient(top, #e68d00, #cc7d00);
+        background: linear-gradient(180deg, #e68d00, #cc7d00);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+  /* line 18, Framework/sass/components/_buttons.sass */
+=======
+  /* line 19, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn--danger,
+  a.btn--danger,
+  button.btn--danger,
+  input[type="submit"].btn--danger {
+    background: #ea4335;
+    color: #fff; }
+<<<<<<< HEAD
+    /* line 27, Framework/sass/components/_buttons.sass */
+=======
+    /* line 26, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--danger:hover, .btn--danger:active, .btn--danger:focus,
+    a.btn--danger:hover,
+    a.btn--danger:active,
+    a.btn--danger:focus,
+    button.btn--danger:hover,
+    button.btn--danger:active,
+    button.btn--danger:focus,
+    input[type="submit"].btn--danger:hover,
+    input[type="submit"].btn--danger:active,
+    input[type="submit"].btn--danger:focus {
+      background: #e82e1e;
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+    /* line 35, Framework/sass/components/_buttons.sass */
+=======
+    /* line 34, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn--danger-gradient,
+    a.btn--danger-gradient,
+    button.btn--danger-gradient,
+    input[type="submit"].btn--danger-gradient {
+      background: #ea4335;
+      background: -webkit-gradient(linear, left top, left bottom, from(#ea4335), to(#e82e1e));
+      background: -webkit-linear-gradient(top, #ea4335, #e82e1e);
+      background: -o-linear-gradient(top, #ea4335, #e82e1e);
+      background: linear-gradient(180deg, #ea4335, #e82e1e);
+      color: #fff;
+      border: solid 1px #e82e1e;
+<<<<<<< HEAD
+      text-shadow: #a81d11 0 1px 1px;
+      font-size: 16px; }
+      /* line 47, Framework/sass/components/_buttons.sass */
+=======
+      text-shadow: #a81d11 0 1px 1px; }
+      /* line 44, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+      .btn--danger-gradient:hover, .btn--danger-gradient:active, .btn--danger-gradient:focus,
+      a.btn--danger-gradient:hover,
+      a.btn--danger-gradient:active,
+      a.btn--danger-gradient:focus,
+      button.btn--danger-gradient:hover,
+      button.btn--danger-gradient:active,
+      button.btn--danger-gradient:focus,
+      input[type="submit"].btn--danger-gradient:hover,
+      input[type="submit"].btn--danger-gradient:active,
+      input[type="submit"].btn--danger-gradient:focus {
+        background: #e82e1e;
+        background: -webkit-gradient(linear, left top, left bottom, from(#e93a2c), to(#e42718));
+        background: -webkit-linear-gradient(top, #e93a2c, #e42718);
+        background: -o-linear-gradient(top, #e93a2c, #e42718);
+        background: linear-gradient(180deg, #e93a2c, #e42718);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
+<<<<<<< HEAD
+  /* line 57, Framework/sass/components/_buttons.sass */
+=======
+  /* line 53, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn--xs,
+  a.btn--xs,
+  button.btn--xs,
+  input[type="submit"].btn--xs {
+    padding: 1px 4px;
+    line-height: 19px;
+    font-size: 75%; }
+<<<<<<< HEAD
+  /* line 63, Framework/sass/components/_buttons.sass */
+=======
+  /* line 58, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn--sm,
+  a.btn--sm,
+  button.btn--sm,
+  input[type="submit"].btn--sm {
+    padding: 2px 8px;
+    line-height: 22px; }
+<<<<<<< HEAD
+  /* line 68, Framework/sass/components/_buttons.sass */
+=======
+  /* line 63, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn--md,
+  a.btn--md,
+  button.btn--md,
+  input[type="submit"].btn--md {
+    padding: 4px 16px;
+    line-height: 28px; }
+<<<<<<< HEAD
+  /* line 73, Framework/sass/components/_buttons.sass */
+=======
+  /* line 68, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn--lg,
+  a.btn--lg,
+  button.btn--lg,
+  input[type="submit"].btn--lg {
+    padding: 8px 32px;
+    line-height: 32px; }
+<<<<<<< HEAD
+  /* line 78, Framework/sass/components/_buttons.sass */
+=======
+  /* line 73, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn--xl,
+  a.btn--xl,
+  button.btn--xl,
+  input[type="submit"].btn--xl {
+    padding: 16px 64px;
+    line-height: 40px; }
+<<<<<<< HEAD
+  /* line 82, Framework/sass/components/_buttons.sass */
+=======
+  /* line 77, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn--block,
+  a.btn--block,
+  button.btn--block,
+  input[type="submit"].btn--block {
+    display: block;
+    width: 100%; }
+<<<<<<< HEAD
+  /* line 86, Framework/sass/components/_buttons.sass */
+=======
+  /* line 81, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+  .btn__group,
+  a.btn__group,
+  button.btn__group,
+  input[type="submit"].btn__group {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    -webkit-border-radius: 3px;
+=======
+>>>>>>> new css helpers
+=======
+    -webkit-border-radius: 3px;
+>>>>>>> new icon layout
+    border-radius: 3px;
+    float: left;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    @media screen and (max-width: 800px) {
+<<<<<<< HEAD
+      /* line 86, Framework/sass/components/_buttons.sass */
+=======
+      /* line 81, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+      .btn__group,
+      a.btn__group,
+      button.btn__group,
+      input[type="submit"].btn__group {
+        width: 100%; } }
+<<<<<<< HEAD
+    /* line 96, Framework/sass/components/_buttons.sass */
+=======
+    /* line 91, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn__group .btn,
+    a.btn__group .btn,
+    button.btn__group .btn,
+    input[type="submit"].btn__group .btn {
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+<<<<<<< HEAD
+<<<<<<< HEAD
+      -webkit-border-radius: 0;
+      border-radius: 0;
+      display: inherit; }
+      @media screen and (max-width: 800px) {
+        /* line 96, Framework/sass/components/_buttons.sass */
+=======
+=======
+      -webkit-border-radius: 0;
+>>>>>>> new icon layout
+      border-radius: 0;
+      display: inherit; }
+      @media screen and (max-width: 800px) {
+        /* line 91, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+        .btn__group .btn,
+        a.btn__group .btn,
+        button.btn__group .btn,
+        input[type="submit"].btn__group .btn {
+          display: block;
+          width: 100%; } }
+<<<<<<< HEAD
+    /* line 104, Framework/sass/components/_buttons.sass */
+=======
+    /* line 99, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn__group .devider,
+    a.btn__group .devider,
+    button.btn__group .devider,
+    input[type="submit"].btn__group .devider {
+      position: relative;
+      z-index: 20;
+      width: 0px;
+      margin-left: -2px;
+      border-left: solid 1px rgba(0, 0, 0, 0.15);
+      border-right: solid 1px rgba(255, 255, 255, 0.15); }
+      @media screen and (max-width: 800px) {
+<<<<<<< HEAD
+        /* line 104, Framework/sass/components/_buttons.sass */
+=======
+        /* line 99, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+        .btn__group .devider,
+        a.btn__group .devider,
+        button.btn__group .devider,
+        input[type="submit"].btn__group .devider {
+          width: 100%;
+          margin-left: 0;
+          margin-bottom: -2px;
+          border-top: solid 1px rgba(0, 0, 0, 0.15);
+          border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+          border-left: none;
+          border-right: none; } }
+<<<<<<< HEAD
+    /* line 122, Framework/sass/components/_buttons.sass */
+=======
+    /* line 116, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn__group *:first-child,
+    a.btn__group *:first-child,
+    button.btn__group *:first-child,
+    input[type="submit"].btn__group *:first-child {
+<<<<<<< HEAD
+<<<<<<< HEAD
+      -webkit-border-radius: 3px 0 0 3px;
+      border-radius: 3px 0 0 3px; }
+      @media screen and (max-width: 800px) {
+        /* line 122, Framework/sass/components/_buttons.sass */
+=======
+=======
+      -webkit-border-radius: 3px 0 0 3px;
+>>>>>>> new icon layout
+      border-radius: 3px 0 0 3px; }
+      @media screen and (max-width: 800px) {
+        /* line 116, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+        .btn__group *:first-child,
+        a.btn__group *:first-child,
+        button.btn__group *:first-child,
+        input[type="submit"].btn__group *:first-child {
+<<<<<<< HEAD
+<<<<<<< HEAD
+          -webkit-border-radius: 3px 3px 0 0;
+          border-radius: 3px 3px 0 0; } }
+    /* line 127, Framework/sass/components/_buttons.sass */
+=======
+=======
+          -webkit-border-radius: 3px 3px 0 0;
+>>>>>>> new icon layout
+          border-radius: 3px 3px 0 0; } }
+    /* line 121, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+    .btn__group *:last-child,
+    a.btn__group *:last-child,
+    button.btn__group *:last-child,
+    input[type="submit"].btn__group *:last-child {
+<<<<<<< HEAD
+<<<<<<< HEAD
+      -webkit-border-radius: 0 3px 3px 0;
+      border-radius: 0 3px 3px 0; }
+      @media screen and (max-width: 800px) {
+        /* line 127, Framework/sass/components/_buttons.sass */
+=======
+=======
+      -webkit-border-radius: 0 3px 3px 0;
+>>>>>>> new icon layout
+      border-radius: 0 3px 3px 0; }
+      @media screen and (max-width: 800px) {
+        /* line 121, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+        .btn__group *:last-child,
+        a.btn__group *:last-child,
+        button.btn__group *:last-child,
+        input[type="submit"].btn__group *:last-child {
+<<<<<<< HEAD
+<<<<<<< HEAD
+          -webkit-border-radius: 0 0 3px 3px;
+          border-radius: 0 0 3px 3px; } }
+
+/* line 138, Framework/sass/components/_buttons.sass */
+=======
+=======
+          -webkit-border-radius: 0 0 3px 3px;
+>>>>>>> new icon layout
+          border-radius: 0 0 3px 3px; } }
+
+/* line 131, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+.btn__icon--left,
+.icon--left {
+  margin-right: 10px; }
+
+<<<<<<< HEAD
+/* line 140, Framework/sass/components/_buttons.sass */
+=======
+/* line 133, Framework/sass/components/_buttons.sass */
+>>>>>>> new css helpers
+.btn__icon--right,
+.icon--right {
+  margin-left: 10px; }
+
+/* line 8, Framework/sass/components/_form.sass */
+.form * {
+  line-height: 28px; }
+
+/* line 11, Framework/sass/components/_form.sass */
+.form__group {
+  padding-bottom: 15px;
+  *zoom: 1; }
+  /* line 9, Framework/sass/mixins/_clearfix.sass */
+  .form__group::before, .form__group::after {
+    display: table;
+    content: ''; }
+  /* line 13, Framework/sass/mixins/_clearfix.sass */
+  .form__group::after {
+    clear: both; }
+
+/* line 15, Framework/sass/components/_form.sass */
+.form__label {
+  display: block;
+  font-weight: 400px;
+  padding-top: 2px;
+  padding-bottom: 2px; }
+
+/* line 23, Framework/sass/components/_form.sass */
+.form__item {
+  width: 100%;
+  max-width: 100%;
+<<<<<<< HEAD
+  border: solid 1px #e4e6ed;
+=======
+  border: solid 1px #eaeaea;
+>>>>>>> new css helpers
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #fff;
+  padding: 4px 8px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+  /* line 33, Framework/sass/components/_form.sass */
+=======
+=======
+  -webkit-border-radius: 3px;
+>>>>>>> new icon layout
+  border-radius: 3px; }
+  /* line 32, Framework/sass/components/_form.sass */
+  .form__item.disabled, .form__item[disabled] {
+    background: #f7f7f7;
+    border: solid 1px #e6e9ec;
+    color: #d8dce1; }
+    /* line 37, Framework/sass/components/_form.sass */
+    .form__item.disabled:hover, .form__item[disabled]:hover {
+      background: #f7f7f7;
+      border: solid 1px #e6e9ec;
+      color: #d8dce1;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+  /* line 43, Framework/sass/components/_form.sass */
+  .form__item--xs {
+    padding: 1px 8px;
+    line-height: 19px;
+    font-size: 75%; }
+  /* line 48, Framework/sass/components/_form.sass */
+  .form__item--sm {
+    padding: 2px 8px;
+    line-height: 22px; }
+  /* line 53, Framework/sass/components/_form.sass */
+  .form__item--md {
+    padding: 4px 8px;
+    line-height: 28px; }
+  /* line 58, Framework/sass/components/_form.sass */
+  .form__item--lg {
+    padding: 8px 8px;
+    line-height: 32px; }
+  /* line 63, Framework/sass/components/_form.sass */
+  .form__item--xl {
+    padding: 16px 8px;
+    line-height: 40px; }
+  /* line 69, Framework/sass/components/_form.sass */
+>>>>>>> new css helpers
+  .form__item__group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    overflow: hidden;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    -webkit-border-radius: 3px;
+    border-radius: 3px; }
+    /* line 39, Framework/sass/components/_form.sass */
+    .form__item__group .addon {
+      background: #f3f4f7;
+      border: solid 1px #e4e6ed;
+      color: #a7aec4;
+      padding: 4px 8px;
+      font-weight: 400; }
+    /* line 46, Framework/sass/components/_form.sass */
+    .form__item__group input, .form__item__group button, .form__item__group .btn {
+      -webkit-border-radius: 0;
+      border-radius: 0; }
+    /* line 49, Framework/sass/components/_form.sass */
+    .form__item__group button.btn, .form__item__group .btn {
+      min-width: 120px; }
+
+/* line 54, Framework/sass/components/_form.sass */
+.form__helper {
+  font-size: 75%;
+  font-weight: 600;
+  font-style: italic; }
+
+/* line 60, Framework/sass/components/_form.sass */
+=======
+=======
+    -webkit-border-radius: 3px;
+>>>>>>> new icon layout
+    border-radius: 3px; }
+    /* line 75, Framework/sass/components/_form.sass */
+    .form__item__group .addon {
+      background: #f7f7f7;
+      border: solid 1px #eaeaea;
+      color: #b7b7b7;
+      padding: 4px 8px;
+      font-weight: 400; }
+    /* line 82, Framework/sass/components/_form.sass */
+    .form__item__group input, .form__item__group button, .form__item__group .btn {
+      -webkit-border-radius: 0;
+      border-radius: 0; }
+    /* line 85, Framework/sass/components/_form.sass */
+    .form__item__group button.btn, .form__item__group .btn {
+      min-width: 120px; }
+
+/* line 90, Framework/sass/components/_form.sass */
+.form__helper {
+  font-size: 75%;
+  font-weight: 600;
+  font-style: italic;
+  padding: 15px;
+  pointer-events: none; }
+
+/* line 98, Framework/sass/components/_form.sass */
+>>>>>>> new css helpers
+.form__horizontal {
+  *zoom: 1; }
+  /* line 9, Framework/sass/mixins/_clearfix.sass */
+  .form__horizontal::before, .form__horizontal::after {
+    display: table;
+    content: ''; }
+  /* line 13, Framework/sass/mixins/_clearfix.sass */
+  .form__horizontal::after {
+    clear: both; }
+<<<<<<< HEAD
+  /* line 62, Framework/sass/components/_form.sass */
+=======
+  /* line 100, Framework/sass/components/_form.sass */
+>>>>>>> new css helpers
+  .form__horizontal .form__group {
+    margin-left: -15px;
+    margin-right: -15px; }
+
+<<<<<<< HEAD
+/* line 69, Framework/sass/components/_form.sass */
+textarea.form__item {
+  height: ''; }
+
+/* line 76, Framework/sass/components/_form.sass */
+.has__default {
+  color: #fff; }
+  /* line 78, Framework/sass/components/_form.sass */
+  .has__default .form__item {
+    border: solid 1px #fff;
+    outline: none; }
+    /* line 82, Framework/sass/components/_form.sass */
+=======
+/* line 107, Framework/sass/components/_form.sass */
+textarea.form__item {
+  height: ''; }
+
+/* line 114, Framework/sass/components/_form.sass */
+.has__default {
+  color: #fff; }
+  /* line 116, Framework/sass/components/_form.sass */
+  .has__default .form__item {
+    border: solid 1px #fff;
+    outline: none; }
+    /* line 120, Framework/sass/components/_form.sass */
+>>>>>>> new css helpers
+    .has__default .form__item:focus {
+      outline: none;
+      border: solid 1px #fff;
+      -webkit-box-shadow: #fff 0 0 6px;
+      box-shadow: #fff 0 0 6px; }
+
+<<<<<<< HEAD
+/* line 76, Framework/sass/components/_form.sass */
+.has__info {
+  color: #4285f4; }
+  /* line 78, Framework/sass/components/_form.sass */
+  .has__info .form__item {
+    border: solid 1px #4285f4;
+    outline: none; }
+    /* line 82, Framework/sass/components/_form.sass */
+=======
+/* line 114, Framework/sass/components/_form.sass */
+.has__info {
+  color: #4285f4; }
+  /* line 116, Framework/sass/components/_form.sass */
+  .has__info .form__item {
+    border: solid 1px #4285f4;
+    outline: none; }
+    /* line 120, Framework/sass/components/_form.sass */
+>>>>>>> new css helpers
+    .has__info .form__item:focus {
+      outline: none;
+      border: solid 1px #4285f4;
+      -webkit-box-shadow: #4285f4 0 0 6px;
+      box-shadow: #4285f4 0 0 6px; }
+
+<<<<<<< HEAD
+/* line 76, Framework/sass/components/_form.sass */
+.has__success {
+  color: #008c3a; }
+  /* line 78, Framework/sass/components/_form.sass */
+  .has__success .form__item {
+    border: solid 1px #008c3a;
+    outline: none; }
+    /* line 82, Framework/sass/components/_form.sass */
+=======
+/* line 114, Framework/sass/components/_form.sass */
+.has__success {
+  color: #008c3a; }
+  /* line 116, Framework/sass/components/_form.sass */
+  .has__success .form__item {
+    border: solid 1px #008c3a;
+    outline: none; }
+    /* line 120, Framework/sass/components/_form.sass */
+>>>>>>> new css helpers
+    .has__success .form__item:focus {
+      outline: none;
+      border: solid 1px #008c3a;
+      -webkit-box-shadow: #008c3a 0 0 6px;
+      box-shadow: #008c3a 0 0 6px; }
+
+<<<<<<< HEAD
+/* line 76, Framework/sass/components/_form.sass */
+.has__warning {
+  color: #f09300; }
+  /* line 78, Framework/sass/components/_form.sass */
+  .has__warning .form__item {
+    border: solid 1px #f09300;
+    outline: none; }
+    /* line 82, Framework/sass/components/_form.sass */
+=======
+/* line 114, Framework/sass/components/_form.sass */
+.has__warning {
+  color: #f09300; }
+  /* line 116, Framework/sass/components/_form.sass */
+  .has__warning .form__item {
+    border: solid 1px #f09300;
+    outline: none; }
+    /* line 120, Framework/sass/components/_form.sass */
+>>>>>>> new css helpers
+    .has__warning .form__item:focus {
+      outline: none;
+      border: solid 1px #f09300;
+      -webkit-box-shadow: #f09300 0 0 6px;
+      box-shadow: #f09300 0 0 6px; }
+
+<<<<<<< HEAD
+/* line 76, Framework/sass/components/_form.sass */
+.has__danger {
+  color: #ea4335; }
+  /* line 78, Framework/sass/components/_form.sass */
+  .has__danger .form__item {
+    border: solid 1px #ea4335;
+    outline: none; }
+    /* line 82, Framework/sass/components/_form.sass */
+=======
+/* line 114, Framework/sass/components/_form.sass */
+.has__danger {
+  color: #ea4335; }
+  /* line 116, Framework/sass/components/_form.sass */
+  .has__danger .form__item {
+    border: solid 1px #ea4335;
+    outline: none; }
+    /* line 120, Framework/sass/components/_form.sass */
+>>>>>>> new css helpers
+    .has__danger .form__item:focus {
+      outline: none;
+      border: solid 1px #ea4335;
+      -webkit-box-shadow: #ea4335 0 0 6px;
+      box-shadow: #ea4335 0 0 6px; }
+
+<<<<<<< HEAD
+/* line 88, Framework/sass/components/_form.sass */
+=======
+/* line 126, Framework/sass/components/_form.sass */
+>>>>>>> new css helpers
+input:disabled,
+button:disabled {
+  cursor: not-allowed; }
+
+/* line 7, Framework/sass/components/_notify.sass */
+.notify {
+  position: relative;
+  display: block;
+  padding: 8px 16px;
+<<<<<<< HEAD
+  border: solid 1px #f3f4f7;
+  margin-bottom: 15px;
+  -webkit-border-radius: 3px;
+=======
+  border: solid 1px #f7f7f7;
+  margin-bottom: 15px;
+<<<<<<< HEAD
+>>>>>>> new css helpers
+=======
+  -webkit-border-radius: 3px;
+>>>>>>> new icon layout
+  border-radius: 3px;
+  opacity: 1;
+  -webkit-transition: 0.2s ease-out all;
+  -o-transition: 0.2s ease-out all;
+  transition: 0.2s ease-out all; }
+  /* line 17, Framework/sass/components/_notify.sass */
+  .notify__close {
+    position: absolute;
+    top: 7.5px;
+    right: 7.5px;
+    height: 30px;
+    width: 30px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    z-index: 2; }
+    /* line 28, Framework/sass/components/_notify.sass */
+    .notify__close__closed {
+      opacity: 0; }
+  /* line 36, Framework/sass/components/_notify.sass */
+  .notify--default {
+    color: #fff;
+    background: #fff;
+    border: #f2f2f2 solid 1px;
+    background: #039be5;
+<<<<<<< HEAD
+    border: solid 1px #f3f4f7;
+=======
+    border: solid 1px #f7f7f7;
+>>>>>>> new css helpers
+    color: #fff; }
+    /* line 46, Framework/sass/components/_notify.sass */
+    .notify--default-light {
+      color: #fff;
+      background: white;
+      border: #e6e6e6 solid 1px;
+      background: #fff;
+      border: solid 1px #039be5;
+      color: #039be5; }
+  /* line 36, Framework/sass/components/_notify.sass */
+  .notify--info {
+    color: #fff;
+    background: #4285f4;
+    border: #2a75f3 solid 1px; }
+    /* line 46, Framework/sass/components/_notify.sass */
+    .notify--info-light {
+      color: #4285f4;
+      background: #ecf3fe;
+      border: #1266f1 solid 1px; }
+  /* line 36, Framework/sass/components/_notify.sass */
+  .notify--success {
+    color: #fff;
+    background: #008c3a;
+    border: #00732f solid 1px; }
+    /* line 46, Framework/sass/components/_notify.sass */
+    .notify--success-light {
+      color: #008c3a;
+      background: #e6f4eb;
+      border: #005925 solid 1px; }
+  /* line 36, Framework/sass/components/_notify.sass */
+  .notify--warning {
+    color: #fff;
+    background: #f09300;
+    border: #d78300 solid 1px; }
+    /* line 46, Framework/sass/components/_notify.sass */
+    .notify--warning-light {
+      color: #f09300;
+      background: #fef4e6;
+      border: #bd7400 solid 1px; }
+  /* line 36, Framework/sass/components/_notify.sass */
+  .notify--danger {
+    color: #fff;
+    background: #ea4335;
+    border: #e82e1e solid 1px; }
+    /* line 46, Framework/sass/components/_notify.sass */
+    .notify--danger-light {
+      color: #ea4335;
+      background: #fdeceb;
+      border: #d62516 solid 1px; }
+
+/* line 6, Framework/sass/components/_media.sass */
+.media {
+  margin-top: 15px; }
+  /* line 9, Framework/sass/components/_media.sass */
+  .media:first-child {
+    margin-top: 0; }
+  /* line 12, Framework/sass/components/_media.sass */
+  .media--default {
+    padding: 15px;
+<<<<<<< HEAD
+    border: solid 1px #f3f4f7;
+    -webkit-border-radius: 3px;
+=======
+    border: solid 1px #f7f7f7;
+<<<<<<< HEAD
+>>>>>>> new css helpers
+=======
+    -webkit-border-radius: 3px;
+>>>>>>> new icon layout
+    border-radius: 3px;
+    background: #fff; }
+  /* line 18, Framework/sass/components/_media.sass */
+  .media__list {
+    padding-left: 0;
+    list-style: none; }
+  /* line 22, Framework/sass/components/_media.sass */
+  .media, .media__body {
+    zoom: 1;
+    overflow: hidden; }
+  /* line 27, Framework/sass/components/_media.sass */
+  .media__body {
+    line-height: 22.4px; }
+  /* line 31, Framework/sass/components/_media.sass */
+  .media__body, .media__left, .media__right {
+    display: table-cell;
+    vertical-align: middle; }
+  /* line 39, Framework/sass/components/_media.sass */
+  .media__image {
+    display: block; }
+  /* line 42, Framework/sass/components/_media.sass */
+  .media__thumbnail {
+<<<<<<< HEAD
+    background: #f3f4f7;
+=======
+    background: #f7f7f7;
+>>>>>>> new css helpers
+    max-width: none; }
+  /* line 46, Framework/sass/components/_media.sass */
+  .media__heading {
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-weight: bold; }
+  /* line 52, Framework/sass/components/_media.sass */
+  .media__left {
+    padding-right: 15px; }
+  /* line 55, Framework/sass/components/_media.sass */
+  .media__right {
+    padding-left: 15px; }
+  /* line 59, Framework/sass/components/_media.sass */
+  .media--top {
+    vertical-align: top; }
+  /* line 62, Framework/sass/components/_media.sass */
+  .media--middle {
+    vertical-align: middle; }
+  /* line 65, Framework/sass/components/_media.sass */
+  .media--bottom {
+    vertical-align: bottom; }
+
+/* line 7, Framework/sass/components/_blockquote.sass */
+.blockquote {
+<<<<<<< HEAD
+  border-left: solid #f3f4f7 5px;
+  margin: 15px 0;
+  background: #fff;
+  -webkit-border-radius: 3px;
+=======
+  border-left: solid #f7f7f7 5px;
+  margin: 15px 0;
+  background: #fff;
+<<<<<<< HEAD
+>>>>>>> new css helpers
+=======
+  -webkit-border-radius: 3px;
+>>>>>>> new icon layout
+  border-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 2px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 2px;
+  font-weight: 500;
+  padding: 0 15px; }
+<<<<<<< HEAD
+  /* line 15, Framework/sass/components/_blockquote.sass */
+  .blockquote__header {
+    font-weight: 600;
+    font-size: 120%;
+    color: #f3f4f7; }
+  /* line 19, Framework/sass/components/_blockquote.sass */
+=======
+  /* line 16, Framework/sass/components/_blockquote.sass */
+>>>>>>> new css helpers
+  .blockquote__header, .blockquote__body, .blockquote__footer {
+    padding: 15px;
+    margin-left: -15px;
+    margin-right: -15px; }
+<<<<<<< HEAD
+  /* line 29, Framework/sass/components/_blockquote.sass */
+  .blockquote--primary {
+    border-left: solid #069 5px; }
+    /* line 32, Framework/sass/components/_blockquote.sass */
+    .blockquote--primary .blockquote__header {
+      color: #069; }
+  /* line 29, Framework/sass/components/_blockquote.sass */
+  .blockquote--secondary {
+    border-left: solid #5c258d 5px; }
+    /* line 32, Framework/sass/components/_blockquote.sass */
+    .blockquote--secondary .blockquote__header {
+      color: #5c258d; }
+  /* line 29, Framework/sass/components/_blockquote.sass */
+  .blockquote--black {
+    border-left: solid #000 5px; }
+    /* line 32, Framework/sass/components/_blockquote.sass */
+    .blockquote--black .blockquote__header {
+      color: #000; }
+  /* line 29, Framework/sass/components/_blockquote.sass */
+  .blockquote--white {
+    border-left: solid #fff 5px; }
+    /* line 32, Framework/sass/components/_blockquote.sass */
+    .blockquote--white .blockquote__header {
+      color: #fff; }
+  /* line 29, Framework/sass/components/_blockquote.sass */
+  .blockquote--default {
+    border-left: solid #fff 5px; }
+    /* line 32, Framework/sass/components/_blockquote.sass */
+    .blockquote--default .blockquote__header {
+      color: #fff; }
+  /* line 29, Framework/sass/components/_blockquote.sass */
+  .blockquote--info {
+    border-left: solid #4285f4 5px; }
+    /* line 32, Framework/sass/components/_blockquote.sass */
+    .blockquote--info .blockquote__header {
+      color: #4285f4; }
+  /* line 29, Framework/sass/components/_blockquote.sass */
+  .blockquote--success {
+    border-left: solid #008c3a 5px; }
+    /* line 32, Framework/sass/components/_blockquote.sass */
+    .blockquote--success .blockquote__header {
+      color: #008c3a; }
+  /* line 29, Framework/sass/components/_blockquote.sass */
+  .blockquote--warning {
+    border-left: solid #f09300 5px; }
+    /* line 32, Framework/sass/components/_blockquote.sass */
+    .blockquote--warning .blockquote__header {
+      color: #f09300; }
+  /* line 29, Framework/sass/components/_blockquote.sass */
+  .blockquote--danger {
+    border-left: solid #ea4335 5px; }
+    /* line 32, Framework/sass/components/_blockquote.sass */
+=======
+  /* line 23, Framework/sass/components/_blockquote.sass */
+  .blockquote__body {
+    padding-top: 0; }
+  /* line 27, Framework/sass/components/_blockquote.sass */
+  .blockquote__header {
+    font-weight: 600;
+    font-size: 120%;
+    color: #f7f7f7; }
+  /* line 35, Framework/sass/components/_blockquote.sass */
+  .blockquote--primary {
+    border-left: solid #069 5px; }
+    /* line 38, Framework/sass/components/_blockquote.sass */
+    .blockquote--primary .blockquote__header {
+      color: #069; }
+  /* line 35, Framework/sass/components/_blockquote.sass */
+  .blockquote--secondary {
+    border-left: solid #5c258d 5px; }
+    /* line 38, Framework/sass/components/_blockquote.sass */
+    .blockquote--secondary .blockquote__header {
+      color: #5c258d; }
+  /* line 35, Framework/sass/components/_blockquote.sass */
+  .blockquote--dark {
+    border-left: solid #021826 5px; }
+    /* line 38, Framework/sass/components/_blockquote.sass */
+    .blockquote--dark .blockquote__header {
+      color: #021826; }
+  /* line 35, Framework/sass/components/_blockquote.sass */
+  .blockquote--black {
+    border-left: solid #000 5px; }
+    /* line 38, Framework/sass/components/_blockquote.sass */
+    .blockquote--black .blockquote__header {
+      color: #000; }
+  /* line 35, Framework/sass/components/_blockquote.sass */
+  .blockquote--white {
+    border-left: solid #fff 5px; }
+    /* line 38, Framework/sass/components/_blockquote.sass */
+    .blockquote--white .blockquote__header {
+      color: #fff; }
+  /* line 35, Framework/sass/components/_blockquote.sass */
+  .blockquote--default {
+    border-left: solid #fff 5px; }
+    /* line 38, Framework/sass/components/_blockquote.sass */
+    .blockquote--default .blockquote__header {
+      color: #fff; }
+  /* line 35, Framework/sass/components/_blockquote.sass */
+  .blockquote--info {
+    border-left: solid #4285f4 5px; }
+    /* line 38, Framework/sass/components/_blockquote.sass */
+    .blockquote--info .blockquote__header {
+      color: #4285f4; }
+  /* line 35, Framework/sass/components/_blockquote.sass */
+  .blockquote--success {
+    border-left: solid #008c3a 5px; }
+    /* line 38, Framework/sass/components/_blockquote.sass */
+    .blockquote--success .blockquote__header {
+      color: #008c3a; }
+  /* line 35, Framework/sass/components/_blockquote.sass */
+  .blockquote--warning {
+    border-left: solid #f09300 5px; }
+    /* line 38, Framework/sass/components/_blockquote.sass */
+    .blockquote--warning .blockquote__header {
+      color: #f09300; }
+  /* line 35, Framework/sass/components/_blockquote.sass */
+  .blockquote--danger {
+    border-left: solid #ea4335 5px; }
+    /* line 38, Framework/sass/components/_blockquote.sass */
+>>>>>>> new css helpers
+    .blockquote--danger .blockquote__header {
+      color: #ea4335; }
+
+/* line 7, Framework/sass/components/_toast.sass */
+.toaster {
+  padding: 15px 20px;
+  color: #fff;
+  background: rgba(0, 0, 10, 0.27);
+  display: inline-block;
+  position: absolute;
+  top: -100px;
+  right: 15px;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out; }
+
+/* line 19, Framework/sass/components/_toast.sass */
+.toast {
+  position: relative;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  color: #fff;
+  -webkit-transform: translateY(200%);
+  -ms-transform: translateY(200%);
+  transform: translateY(200%);
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  width: 100%;
+  margin-bottom: 15px; }
+  /* line 30, Framework/sass/components/_toast.sass */
+  .toast__in {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%); }
+  /* line 34, Framework/sass/components/_toast.sass */
+  .toast__wrap {
+    position: fixed;
+    z-index: 1000;
+    right: 15px;
+    bottom: 0;
+    border: solid red 2px;
+    width: 100%;
+    max-width: 360px;
+    min-height: 20px;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+
+/* line 8, Framework/sass/components/_scrollbar.sass */
+::-webkit-scrollbar {
+<<<<<<< HEAD
+  background: #f3f4f7;
+  width: 16px;
+  border-left: 1px solid #f3f4f7; }
+=======
+  background: #f7f7f7;
+  width: 16px;
+  border-left: 1px solid #f7f7f7; }
+>>>>>>> new css helpers
+
+/* line 14, Framework/sass/components/_scrollbar.sass */
+::-webkit-scrollbar-thumb {
+  background: #069;
+<<<<<<< HEAD
+  border: 3px solid #f3f4f7;
+  -webkit-border-radius: 0px;
+=======
+  border: 3px solid #f7f7f7;
+<<<<<<< HEAD
+>>>>>>> new css helpers
+=======
+  -webkit-border-radius: 0px;
+>>>>>>> new icon layout
+  border-radius: 0px; }
+
+/* line 7, Framework/sass/components/_panel.sass */
+.panel {
+<<<<<<< HEAD
+=======
+  position: relative;
+>>>>>>> new css helpers
+  background: #fff;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+  /* line 15, Framework/sass/components/_panel.sass */
+  .panel--default {
+    border: solid 1px #ddd; }
+  /* line 19, Framework/sass/components/_panel.sass */
+  .panel__header, .panel__body, .panel__footer {
+    padding: 7.5px 15px; }
+  /* line 24, Framework/sass/components/_panel.sass */
+  .panel__header {
+    border-bottom: solid 1px #ddd;
+    font-weight: 600; }
+  /* line 28, Framework/sass/components/_panel.sass */
+=======
+=======
+  -webkit-border-radius: 3px;
+>>>>>>> new icon layout
+  border-radius: 3px;
+  margin-top: 15px; }
+  /* line 19, Framework/sass/components/_panel.sass */
+  .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
+    padding: 0;
+    margin: 0; }
+  /* line 25, Framework/sass/components/_panel.sass */
+  .panel--default {
+    border: solid 1px #e6e9ec; }
+  /* line 29, Framework/sass/components/_panel.sass */
+  .panel__header, .panel__body, .panel__footer {
+    padding: 7.5px 15px; }
+  /* line 34, Framework/sass/components/_panel.sass */
+  .panel__header {
+    border-bottom: solid 1px #e6e9ec;
+    font-weight: 600; }
+  /* line 39, Framework/sass/components/_panel.sass */
+>>>>>>> new css helpers
+  .panel__body {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+<<<<<<< HEAD
+  /* line 31, Framework/sass/components/_panel.sass */
+  .panel__footer {
+    background: #eee; }
+=======
+    /* line 41, Framework/sass/components/_panel.sass */
+    .panel__body p {
+      padding-bottom: 15px; }
+  /* line 44, Framework/sass/components/_panel.sass */
+  .panel__footer {
+    background: #f7f7f7; }
+>>>>>>> new css helpers
+
+/* line 7, Framework/sass/components/_scrollup.sass */
+.scrollup {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  bottom: 25px;
+  pointer-events: none; }
+  /* line 17, Framework/sass/components/_scrollup.sass */
+  .scrollup__button {
+    position: absolute;
+    pointer-events: visible;
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: #069;
+    right: -65px;
+    -webkit-transform: translateY(200px);
+    -ms-transform: translateY(200px);
+    transform: translateY(200px);
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 -5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 -5px 10px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    -webkit-border-radius: 3px;
+=======
+>>>>>>> new css helpers
+=======
+    -webkit-border-radius: 3px;
+>>>>>>> new icon layout
+    border-radius: 3px; }
+    /* line 29, Framework/sass/components/_scrollup.sass */
+    .scrollup__button::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 50px;
+      width: 50px;
+      line-height: 50px;
+      font-family: "Lunacon";
+      content: "";
+      color: #fff;
+      text-align: center;
+      font-size: 20px;
+      text-shadow: 0px 2px 3px #002233; }
+    /* line 43, Framework/sass/components/_scrollup.sass */
+    .scrollup__button:hover {
+      background: #005580; }
+    @media screen and (max-width: 1050px) {
+      /* line 17, Framework/sass/components/_scrollup.sass */
+      .scrollup__button {
+        right: 0; } }
+
+@-webkit-keyframes tooltip-top {
+  0% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    opacity: 0; }
+  50% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes tooltip-top {
+  0% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    opacity: 0; }
+  50% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
+
+@-webkit-keyframes tooltip-bottom {
+  0% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+    opacity: 0; }
+  50% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px); }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes tooltip-bottom {
+  0% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+    opacity: 0; }
+  50% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px); }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
+
+@-webkit-keyframes tooltip-left {
+  0% {
+    -webkit-transform: translate(-60px, 50%);
+    transform: translate(-60px, 50%);
+    opacity: 0; }
+  50% {
+    -webkit-transform: translate(0px, 50%);
+    transform: translate(0px, 50%); }
+  100% {
+    -webkit-transform: translate(-16px, 50%);
+    transform: translate(-16px, 50%);
+    opacity: 1; } }
+
+@keyframes tooltip-left {
+  0% {
+    -webkit-transform: translate(-60px, 50%);
+    transform: translate(-60px, 50%);
+    opacity: 0; }
+  50% {
+    -webkit-transform: translate(0px, 50%);
+    transform: translate(0px, 50%); }
+  100% {
+    -webkit-transform: translate(-16px, 50%);
+    transform: translate(-16px, 50%);
+    opacity: 1; } }
+
+@-webkit-keyframes tooltip-right {
+  0% {
+    -webkit-transform: translate(60px, 50%);
+    transform: translate(60px, 50%);
+    opacity: 0; }
+  50% {
+    -webkit-transform: translate(0px, 50%);
+    transform: translate(0px, 50%); }
+  100% {
+    -webkit-transform: translate(16px, 50%);
+    transform: translate(16px, 50%);
+    opacity: 1; } }
+
+@keyframes tooltip-right {
+  0% {
+    -webkit-transform: translate(60px, 50%);
+    transform: translate(60px, 50%);
+    opacity: 0; }
+  50% {
+    -webkit-transform: translate(0px, 50%);
+    transform: translate(0px, 50%); }
+  100% {
+    -webkit-transform: translate(16px, 50%);
+    transform: translate(16px, 50%);
+    opacity: 1; } }
+
+/* line 58, Framework/sass/components/_tooltips.sass */
+[data-tooltip],
+.tooltip {
+  position: relative;
+  cursor: pointer;
+  display: inline-block; }
+
+/* line 68, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--top::before, [data-tooltip].tooltip--top::after {
+  position: absolute;
+  content: "";
+  pointer-events: none;
+  visibility: hidden; }
+
+/* line 75, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--top::before {
+  border-color: transparent;
+  border-width: 8px;
+  border-style: solid; }
+
+/* line 81, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--top::after {
+  background: rgba(0, 0, 0, 0.75);
+  width: 200px;
+  padding: 8px 12px;
+  content: attr(data-tooltip);
+  color: #fff;
+  text-align: center;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -100px;
+  margin-bottom: 8px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  -webkit-border-radius: 3px;
+=======
+>>>>>>> new css helpers
+=======
+  -webkit-border-radius: 3px;
+>>>>>>> new icon layout
+  border-radius: 3px; }
+
+/* line 94, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--top::before {
+  border-top-color: rgba(0, 0, 0, 0.75);
+  margin-left: -8px;
+  margin-bottom: -8px;
+  left: 50%;
+  bottom: 100%; }
+
+/* line 104, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--top:hover::after, [data-tooltip].tooltip--top:hover::before, [data-tooltip].tooltip--top:focus::after, [data-tooltip].tooltip--top:focus::before {
+  visibility: visible;
+  -webkit-animation: tooltip-top 0.5s;
+  animation: tooltip-top 0.5s; }
+
+/* line 113, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--bottom::before, [data-tooltip].tooltip--bottom::after {
+  position: absolute;
+  content: "";
+  pointer-events: none;
+  visibility: hidden; }
+
+/* line 120, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--bottom::before {
+  border-color: transparent;
+  border-width: 8px;
+  border-style: solid; }
+
+/* line 126, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--bottom::after {
+  background: rgba(0, 0, 0, 0.75);
+  width: 200px;
+  padding: 8px 12px;
+  content: attr(data-tooltip);
+  color: #fff;
+  text-align: center;
+  top: 100%;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: 8px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  -webkit-border-radius: 3px;
+=======
+>>>>>>> new css helpers
+=======
+  -webkit-border-radius: 3px;
+>>>>>>> new icon layout
+  border-radius: 3px; }
+
+/* line 139, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--bottom::before {
+  border-bottom-color: rgba(0, 0, 0, 0.75);
+  margin-left: -8px;
+  margin-top: -8px;
+  left: 50%;
+  top: 100%; }
+
+/* line 149, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--bottom:hover::after, [data-tooltip].tooltip--bottom:hover::before, [data-tooltip].tooltip--bottom:focus::after, [data-tooltip].tooltip--bottom:focus::before {
+  visibility: visible;
+  -webkit-animation: tooltip-bottom 0.5s;
+  animation: tooltip-bottom 0.5s; }
+
+/* line 160, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--left::before, [data-tooltip].tooltip--left::after {
+  position: absolute;
+  content: "";
+  pointer-events: none;
+  visibility: hidden;
+  -webkit-transform: translate(-16px, 50%);
+  -ms-transform: translate(-16px, 50%);
+  transform: translate(-16px, 50%); }
+
+/* line 168, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--left::before {
+  border-color: transparent;
+  border-width: 8px;
+  border-style: solid;
+  left: 0;
+  bottom: 16px; }
+
+/* line 178, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--left::after {
+  background: rgba(0, 0, 0, 0.75);
+  width: 200px;
+  padding: 8px 12px;
+  content: attr(data-tooltip);
+  color: #fff;
+  text-align: center;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  -webkit-border-radius: 3px;
+=======
+>>>>>>> new css helpers
+=======
+  -webkit-border-radius: 3px;
+>>>>>>> new icon layout
+  border-radius: 3px;
+  right: 100%;
+  bottom: 50%; }
+
+/* line 189, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--left::before {
+  border-left-color: rgba(0, 0, 0, 0.75); }
+
+/* line 195, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--left:hover::after, [data-tooltip].tooltip--left:hover::before, [data-tooltip].tooltip--left:focus::after, [data-tooltip].tooltip--left:focus::before {
+  visibility: visible;
+  -webkit-animation: tooltip-left 0.5s;
+  animation: tooltip-left 0.5s; }
+
+/* line 204, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--right::before, [data-tooltip].tooltip--right::after {
+  position: absolute;
+  content: "";
+  pointer-events: none;
+  visibility: hidden;
+  -webkit-transform: translate(16px, 50%);
+  -ms-transform: translate(16px, 50%);
+  transform: translate(16px, 50%); }
+
+/* line 212, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--right::before {
+  border-color: transparent;
+  border-width: 8px;
+  border-style: solid;
+  right: 0;
+  bottom: 16px; }
+
+/* line 222, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--right::after {
+  background: rgba(0, 0, 0, 0.75);
+  width: 200px;
+  padding: 8px 12px;
+  content: attr(data-tooltip);
+  color: #fff;
+  text-align: center;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  -webkit-border-radius: 3px;
+=======
+>>>>>>> new css helpers
+=======
+  -webkit-border-radius: 3px;
+>>>>>>> new icon layout
+  border-radius: 3px;
+  left: 100%;
+  bottom: 50%; }
+
+/* line 233, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--right::before {
+  border-right-color: rgba(0, 0, 0, 0.75); }
+
+/* line 239, Framework/sass/components/_tooltips.sass */
+[data-tooltip].tooltip--right:hover::after, [data-tooltip].tooltip--right:hover::before, [data-tooltip].tooltip--right:focus::after, [data-tooltip].tooltip--right:focus::before {
+  visibility: visible;
+  -webkit-animation: tooltip-right 0.5s;
+  animation: tooltip-right 0.5s; }
+<<<<<<< HEAD
+=======
+
+/* line 8, Framework/sass/components/_well.sass */
+.well, .well--lg {
+  background: #f7f7f7;
+  border: solid 1px #e6e9ec;
+  padding: 15px;
+  height: 100%;
+  margin-bottom: 15px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+  /* line 16, Framework/sass/components/_well.sass */
+  .well--lg {
+    padding: 30px; }
+>>>>>>> new css helpers
+
+/*# sourceMappingURL=style.css.map */

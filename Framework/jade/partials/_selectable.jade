@@ -1,0 +1,34 @@
+.row
+  .col
+    h2.selectable__false Selectable
+    p.selectable__false--cursor The selectable class has three different identifiers with one modifier. The job of this helper is preventing a user to select an element on the page. <span class="font--italic text--danger background--danger-light">(Try to select this text)</span>
+    ul
+      li The <code>.selectable__true</code> will allow a user to click or grab a single word within this class.
+      li The <code>.selectable__false</code> will make the content in the element unselectable.
+      li The <code>.selectable__all</code> will select everthing in this element with a single click of the mouse.
+      li The <code>.selectable__{modifier}--cursor</code> will do the same as above but, will add the appropriate cursor for this element.
+
+
+  .md-col-4.text-align-center.selectable__true
+    .well Selectable true
+  .md-col-4.text-align-center.selectable__false
+    .well Selectable false
+  .md-col-4.text-align-center.selectable__all
+    .well Selectable all
+  .md-col-4.text-align-center.selectable__true--cursor
+    .well Selectable true
+  .md-col-4.text-align-center.selectable__false--cursor
+    .well Selectable false
+  .md-col-4.text-align-center.selectable__all--cursor
+    .well Selectable all
+
+
+  .col
+    pre <code class="selectable__all">&lt;div class=&quot;selectable__true&quot;&gt;...&lt;/div&gt;
+        | &lt;div class=&quot;selectable__false&quot;&gt;...&lt;/div&gt;
+        | &lt;div class=&quot;selectable__all&quot;&gt;...&lt;/div&gt;
+        | &lt;!-- display cursor --&gt;
+        | &lt;div class=&quot;selectable__true--cursor&quot;&gt;...&lt;/div&gt;
+        | &lt;div class=&quot;selectable__false--cursor&quot;&gt;...&lt;/div&gt;
+        | &lt;div class=&quot;selectable__all--cursor&quot;&gt;...&lt;/div&gt;
+      </code>

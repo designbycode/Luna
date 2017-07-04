@@ -1,0 +1,112 @@
+// ==========================================
+// == Luna Framework
+// == AUTHOR: CLAUDE MYBURGH
+// == URL: http://lunaframework.co.za
+// ==========================================
+
+
+// ==========================================
+// == MAKE MAIN CONTAINER FOR GRID
+// ==========================================
+
+=wrapper($max-width: $the__max__width__of__wrapper, $width: $the__width__of__wrapper, $padding: $the__global__padding)
+  position: relative
+  width: $width
+  max-width: $max-width
+  padding:
+    left: $padding
+    right: $padding
+  margin:
+    left: auto
+    right: auto
+
+
+.wrapper
+  +wrapper
+
+
+// ==========================================
+// == MAKE ROW FOR GRID COLUMNS
+// ==========================================
+=row($padding: $the__global__padding)
+  margin:
+    left: -$padding
+    right: -$padding
+  +clearfix
+
+
+.row
+  +row
+
+// ==========================================
+// == MAKE COLUMNS
+// ==========================================
+
+%column
+  position: relative
+  display: inline-block
+  float: left
+  width: 100%
+  padding:
+    left: $the__global__padding
+    right: $the__global__padding
+
+
+.col,
+.column
+  @extend %column
+
+
+.flex
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+
+
+=makeColumns($columnCount: $the__column__count, $gutter: $the__global__padding, $map: $_breakpoints)
+  @each $key, $value in $map
+    @for $i from 1 through $columnCount
+      .#{$key}-col-#{$i}
+        @extend %column
+
+
+  @each $key, $value in $map
+
+    +media-up($key)
+      @for $i from 1 through $columnCount
+        .#{$key}-col-#{$i}
+          width: (100% / $columnCount) * $i
+
+        // Offset
+        .#{$key}-offset-#{$i}
+          margin-left: (100% / $columnCount) * $i
+
+
+      // Float on size
+      .#{$key}-float-right
+        float: right
+
+      .#{$key}-float-left
+        float: left
+
+      // Hide & Show on size
+      .#{$key}-hide
+        display: none !important
+
+      .#{$key}-show
+        display: block !important
+
+      // align text
+      .#{$key}-text-align-right
+        text-align: right
+
+      .#{$key}-text-align-left
+        text-align: left
+
+      .#{$key}-text-align-center
+        text-align: center
+
+
+
+
++makeColumns
