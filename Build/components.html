@@ -253,11 +253,11 @@
       </div>
       <div class="row">
         <div class="col">
-          <h2>Inputs</h2>
+          <h2>Form Inputs</h2>
           <p>There are 2 variations of the notify elements. A default set and a light set.  Simply append <code>-light</code> to the end of any notify elements.</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row flex">
         <div class="md-col-6">
           <div class="form__group">
             <label class="form__label">Label:</label>
@@ -269,6 +269,7 @@
           </div>
           <div class="form__group">
             <button type="submit" class="btn btn--primary">Submit</button>
+            <button type="submit" class="btn">Learn more</button>
           </div>
         </div>
         <div class="md-col-6">
@@ -284,109 +285,236 @@
             <label class="form__label">Addon</label>
             <div class="form__item__group">
               <input type="text" class="form__item">
-              <div class="addon"><i class="lunacon lunacon-bell-solid"></i></div>
+              <div class="addon"><i class="lunacon lunacon-search"></i></div>
               <button type="submit" class="btn btn--primary">Search</button>
             </div>
           </div>
+          <div class="form__group">
+            <label class="form__label">Attrubute set to Disabled</label>
+            <div class="form__item__group">
+              <input type="text" disabled value="Is Disabled" class="form__item">
+              <div class="addon"><i class="lunacon lunacon-search"></i></div>
+              <button type="submit" disabled class="btn btn--primary">Search</button>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row">
         <div class="col">
-          <h2>Inputs Errors</h2>
-          <p>There are 2 variations of the notify elements. A default set and a light set.  Simply append</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="md-col-12">
-          <h3>Form Colors</h3>
-          <div class="form__group has__info">
-            <label class="form__label">Info Input</label>
-            <input type="text" class="form__item">
-          </div>
-          <div class="form__group has__warning">
-            <label class="form__label">Warning Input</label>
-            <input type="text" class="form__item">
-          </div>
-          <div class="form__group has__success">
-            <label class="form__label">Success Input</label>
-            <input type="text" class="form__item">
-          </div>
-          <div class="form__group has__danger">
-            <label class="form__label">Danger Input</label>
-            <input type="text" class="form__item">
-          </div>
-        </div>
-        <div class="md-col-12">
-          <h3>Form Messages</h3>
-          <p>For displaying messages under the input field.</p>
-          <div class="form__group has__info">
-            <input type="text" class="form__item"><span class="form__helper">Info Message</span>
-          </div>
-          <div class="form__group has__warning">
-            <input type="text" class="form__item"><span class="form__helper">Warning Message</span>
-          </div>
-          <div class="form__group has__success">
-            <input type="text" class="form__item"><span class="form__helper">Success Message</span>
-          </div>
-          <div class="form__group has__danger">
-            <input type="text" class="form__item"><span class="form__helper">Error Message</span>
-          </div>
-        </div>
-        <div class="md-col-12">
-          <h3>Form Messages</h3>
-          <p>For displaying messages under the input field.</p>
-          <blockquote class="blockquote blockquote--warning">
-            <div class="blockquote__header">The inputs can also be styled using the <strong>Css Helpers</strong></div>By adding some html tags you can change the input fields.
-            <div class="blockquote__footer background--warning-light"><a href="css-helpers.html" class="btn btn--warning">Css helpers</a></div>
-          </blockquote>
-          <div class="form__group">
-            <label class="form__label text--warning-light">Custom color Input</label>
-            <input type="text" class="form__item background--warning-light border--warning text--warning">
-          </div>
-          <div class="form__group">
-            <label class="form__label text--warning">Custom color Input</label>
-            <input type="text" class="form__item background--warning border--warning text--warning-light">
-          </div>
-          <div class="form__group">
-            <label class="form__label text--primary">Custom color Input</label>
-            <input type="text" class="form__item background--primary border--primary text--primary-light">
-          </div>
-          <div class="form__group">
-            <label class="form__label text--secondary">Custom color Input</label>
-            <input type="text" class="form__item background--secondary-light border--secondary text--secondary">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h3>Horizontal Form</h3>
+          <h2>Form Inputs Validation</h2>
+          <p>Form validation is an important part of web development. This section will show you how to make this easy to change form input fields, label colors and adding some validation messages to the <code>.form__group</code></p>
         </div>
         <div class="md-col-6">
-          <form action="" method="post" class="form__horizontal">
+          <div class="panel panel--default">
+            <div class="panel__header">
+              <h3>Form Inputs Validation Colors</h3>
+            </div>
+            <div class="panel__body">
+              <p>The form <code>.has__{identifier}</code>automatically changes colors of the child elements in the  <code>.form__group</code> block element.</p>
+              <p>Simply add <code>info</code> , <code>warning</code> , <code>success</code> or <code>danger</code> as the {identifier} to change the input and label colors.</p>
+            </div>
+          </div>
+        </div>
+        <div class="md-col-6">
+          <div class="well">
+            <div class="form__group has__info">
+              <label class="form__label">Info Input</label>
+              <input type="text" class="form__item">
+            </div>
+            <div class="form__group has__warning">
+              <label class="form__label">Warning Input</label>
+              <input type="text" class="form__item">
+            </div>
+            <div class="form__group has__success">
+              <label class="form__label">Success Input</label>
+              <input type="text" class="form__item">
+            </div>
+            <div class="form__group has__danger">
+              <label class="form__label">Danger Input</label>
+              <input type="text" class="form__item">
+            </div>
+          </div>
+        </div>
+        <div class="md-col-12">
+          <pre><code>&lt;div class=&quot;form__group has__info&quot;&gt;
+   &lt;label class=&quot;form__label&quot;&gt;Info Input&lt;/label&gt;
+   &lt;input type=&quot;text&quot; class=&quot;form__item&quot;&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;form__group has__warning&quot;&gt;
+   &lt;label class=&quot;form__label&quot;&gt;Warning Input&lt;/label&gt;
+   &lt;input type=&quot;text&quot; class=&quot;form__item&quot;&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;form__group has__success&quot;&gt;
+   &lt;label class=&quot;form__label&quot;&gt;Success Input&lt;/label&gt;
+   &lt;input type=&quot;text&quot; class=&quot;form__item&quot;&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;form__group has__danger&quot;&gt;
+   &lt;label class=&quot;form__label&quot;&gt;Danger Input&lt;/label&gt;
+   &lt;input type=&quot;text&quot; class=&quot;form__item&quot;&gt;
+ &lt;/div&gt;</pre></code>
+        </div>
+        <div class="md-col-6">
+          <div class="panel panel--default">
+            <div class="panel__header">
+              <h3>Form Validation Messages</h3>
+            </div>
+            <div class="panel__body">
+              <p>The validation message will inherit the color of the validation colors class above. Just add a <code>span</code> element with a class of <code>.form__helper</code> after the input field with in the <code>.form__group</code> block ether using php or JavaScript.</p>
+            </div>
+          </div>
+        </div>
+        <div class="md-col-6">
+          <div class="well">
+            <div class="form__group has__info">
+              <input type="text" class="form__item"><span class="form__helper">Info Message</span>
+            </div>
+            <div class="form__group has__warning">
+              <input type="text" class="form__item"><span class="form__helper">Warning Message</span>
+            </div>
+            <div class="form__group has__success">
+              <input type="text" class="form__item"><span class="form__helper">Success Message</span>
+            </div>
+            <div class="form__group has__danger">
+              <input type="text" class="form__item"><span class="form__helper">Error Message</span>
+            </div>
+          </div>
+        </div>
+        <div class="md-col-12">
+          <pre><code>&lt;div class=&quot;form__group has__info&quot;&gt;
+   &lt;input type=&quot;text&quot; class=&quot;form__item&quot;&gt;
+   &lt;span class=&quot;form__helper&quot;&gt;Info Message&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;form__group has__warning&quot;&gt;
+   &lt;input type=&quot;text&quot; class=&quot;form__item&quot;&gt;
+   &lt;span class=&quot;form__helper&quot;&gt;Warning Message&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;form__group has__success&quot;&gt;
+   &lt;input type=&quot;text&quot; class=&quot;form__item&quot;&gt;
+   &lt;span class=&quot;form__helper&quot;&gt;Success Message&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;form__group has__danger&quot;&gt;
+   &lt;input type=&quot;text&quot; class=&quot;form__item&quot;&gt;
+   &lt;span class=&quot;form__helper&quot;&gt;Error Message&lt;/span&gt;
+ &lt;/div&gt;</pre></code>
+        </div>
+        <div class="md-col-12">
+          <blockquote class="blockquote blockquote--warning">
+            <div class="blockquote__header">The inputs can also be styled using the <strong>Css Helpers</strong></div>
+            <div class="blockquote__body">By adding some html tags you can change the input fields.</div>
+            <div class="blockquote__footer background--warning-light"><a href="css-helpers.html" class="btn btn--warning">Css helpers</a></div>
+          </blockquote>
+        </div>
+      </div>
+      <div class="row flex">
+        <div class="md-col-6">
+          <div class="panel panel--default">
+            <div class="panel__header">
+              <h3>Form Input sizes</h3>
+            </div>
+            <div class="panel__body">
+              <p>Just like the <code>.btn</code> element the form input field can be resized by using style modifyers like <code>.form__item--xs</code> <code>.form__item--sm</code> <code>.form__item--md</code> <code>.form__item--lg</code> <code>.form__item--xl</code>.</p>
+            </div>
+          </div>
+        </div>
+        <div class="md-col-6">
+          <div class="well">
             <div class="form__group">
-              <label for="name" class="md-col-3 md-text-align-right form__label">Name</label>
-              <div class="md-col-9">
-                <input type="text" id="name" class="form__item">
-              </div>
+              <input type="text" placeholder="Extra small - xs" class="form__item form__item--xs">
             </div>
             <div class="form__group">
-              <label for="email" class="md-col-3 md-text-align-right form__label">Email</label>
-              <div class="md-col-9">
-                <input type="email" id="email" class="form__item">
-              </div>
+              <input type="text" placeholder="Small - sm" class="form__item form__item--sm">
             </div>
             <div class="form__group">
-              <label for="content" class="md-col-3 md-text-align-right form__label">Content</label>
-              <div class="md-col-9">
-                <textarea id="content" class="form__item"></textarea>
-              </div>
+              <input type="text" placeholder="Medium - xs" class="form__item form__item--md">
             </div>
             <div class="form__group">
-              <div class="md-col-9 md-offset-3">
-                <button class="btn btn--primary">Submit</button>
-              </div>
+              <input type="text" placeholder="Large - lg" class="form__item form__item--lg">
             </div>
-          </form>
+            <div class="form__group">
+              <input type="text" placeholder="Extra Large - xl" class="form__item form__item--xl">
+            </div>
+          </div>
+        </div>
+        <div class="md-col-12">
+          <pre><code>&lt;div class=&quot;form__group&quot;&gt;
+   &lt;input type=&quot;text&quot; placeholder=&quot;&quot; class=&quot;form__item form__item--xs&quot;&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;form__group&quot;&gt;
+   &lt;input type=&quot;text&quot; placeholder=&quot;&quot; class=&quot;form__item form__item--sm&quot;&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;form__group&quot;&gt;
+   &lt;input type=&quot;text&quot; placeholder=&quot;&quot; class=&quot;form__item form__item--md&quot;&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;form__group&quot;&gt;
+   &lt;input type=&quot;text&quot; placeholder=&quot;&quot; class=&quot;form__item form__item--lg&quot;&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;form__group&quot;&gt;
+   &lt;input type=&quot;text&quot; placeholder=&quot;&quot; class=&quot;form__item form__item--xl&quot;&gt;
+ &lt;/div&gt;</pre></code>
+        </div>
+        <div class="md-col-6">
+          <div class="panel panel--default">
+            <div class="panel__body">
+              <h3>Horizontal Form</h3>
+              <p>The <strong>horizontal</strong> style form can be created by using the <strong>grid classes</strong> and adding <code>.form__horizontal</code> to the parent container.</p>
+            </div>
+          </div>
+        </div>
+        <div class="md-col-6">
+          <div class="well">
+            <form action="" method="post" class="form__horizontal">
+              <div class="form__group">
+                <label for="name" class="md-col-3 md-text-align-right form__label">Name</label>
+                <div class="md-col-9">
+                  <input type="text" id="name" class="form__item">
+                </div>
+              </div>
+              <div class="form__group">
+                <label for="email" class="md-col-3 md-text-align-right form__label">Email</label>
+                <div class="md-col-9">
+                  <input type="email" id="email" class="form__item">
+                </div>
+              </div>
+              <div class="form__group">
+                <label for="content" class="md-col-3 md-text-align-right form__label">Content</label>
+                <div class="md-col-9">
+                  <textarea id="content" class="form__item"></textarea>
+                </div>
+              </div>
+              <div class="form__group">
+                <div class="md-col-9 md-offset-3">
+                  <button class="btn btn--primary">Submit</button>
+                  <button class="btn">Learn more</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col">
+          <pre><code>&lt;form action=&quot;&quot; method=&quot;post&quot; class=&quot;form__horizontal&quot;&gt;
+ &lt;div class=&quot;form__group&quot;&gt;
+   &lt;label for=&quot;name&quot; class=&quot;md-col-3 md-text-align-right form__label&quot;&gt;Name&lt;/label&gt;
+   &lt;div class=&quot;md-col-9&quot;&gt;
+     &lt;input type=&quot;text&quot; id=&quot;name&quot; class=&quot;form__item&quot;&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;form__group&quot;&gt;
+   &lt;label for=&quot;email&quot; class=&quot;md-col-3 md-text-align-right form__label&quot;&gt;Email&lt;/label&gt;
+   &lt;div class=&quot;md-col-9&quot;&gt;
+     &lt;input type=&quot;email&quot; id=&quot;email&quot; class=&quot;form__item&quot;&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;form__group&quot;&gt;
+   &lt;label for=&quot;content&quot; class=&quot;md-col-3 md-text-align-right form__label&quot;&gt;Content&lt;/label&gt;
+   &lt;div class=&quot;md-col-9&quot;&gt;
+     &lt;textarea id=&quot;content&quot; class=&quot;form__item&quot;&gt;&lt;/textarea&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;form__group&quot;&gt;
+   &lt;div class=&quot;md-col-9 md-offset-3&quot;&gt;
+     &lt;button class=&quot;btn btn--primary&quot;&gt;Submit&lt;/button&gt;
+     &lt;button class=&quot;btn&quot;&gt;Learn more&lt;/button&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/form&gt;</pre></code>
         </div>
       </div>
     </div>
