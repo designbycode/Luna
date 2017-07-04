@@ -23,8 +23,10 @@ bower install Luna
 ````
 
 [![Bower](https://img.shields.io/bower/v/bootstrap.svg)](https://bower.io/search/?q=luna)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)]()
 
-[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)]()
+
 
 
 ### The MIT License (MIT)
