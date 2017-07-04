@@ -22,9 +22,9 @@ You can install the Framework using bower. Make sure you have bower installed, t
 bower install Luna
 ````
 
-[![Bower](https://img.shields.io/bower/v/bootstrap.svg)](https://bower.io/search/?q=bootstrap)
-[![npm version](https://img.shields.io/npm/v/bootstrap.svg)](https://www.npmjs.com/package/bootstrap)
-[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
+[![Bower](https://img.shields.io/bower/v/bootstrap.svg)](https://bower.io/search/?q=luna)
+
+[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)]()
 
 
 ### The MIT License (MIT)
