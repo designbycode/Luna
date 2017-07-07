@@ -1,7 +1,7 @@
 # Luna Framework
 > Lightweight Responsive Framework
 
-Luna Framework is a responsive Open Source CSS framework, build in SASS. The aim of this framework is to speed up frontend development by handling cross browser inconsistencies and creating support for mobile devices at the same time. The Luna Framework is also built on the CSS BEM methodology to reduce the CSS footprint.
+:last_quarter_moon: Luna Framework is a responsive Open Source CSS framework, build in SASS. The aim of this framework is to speed up frontend development by handling cross browser inconsistencies and creating support for mobile devices at the same time. The Luna Framework is also built on the CSS BEM methodology to reduce the CSS footprint.
 
 [Demo](https://designbycode.github.io/Luna/Build/index.html)
 
