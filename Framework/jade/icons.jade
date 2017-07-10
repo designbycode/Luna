@@ -1,3 +1,4 @@
+
 extends ./template/_layout.jade
 
 
@@ -15,19 +16,35 @@ block content
 
 
   .wrapper
-    .row
-      .col.button__list.flex
-
-        each val in ['moon', 'moon-solid', 'navicon','close', 'close-small', 'dailer', 'dailer-solid', 'bell', 'bell-solid', 'bell-mute', 'bell-mute-solid', 'star', 'star-solid', 'star-half', 'star-half-solid', 'chevron-down', 'chevron-up', 'chevron-right', 'chevron-left', 'user', 'user-delete', 'user-solid', 'user-delete-solid', 'users', 'users-solid', 'checkmark', 'checkmark-small', 'home', 'home-solid', 'cloud', 'cloud-solid', 'cloud-check', 'cloud-check-solid', 'microphone', 'thumbs-up', 'thumbs-up-solid', 'thumbs-down', 'thumbs-down-solid', 'search', 'search-min', 'search-zoom', 'shield', 'shield-lock-solid']
+    .row.bigger-text
 
 
-          a(href="#").button <i class="lunacon lunacon-#{val} btn__icon--left"></i> #{val}
-          | &nbsp;
+      each val in ['moon', 'moon-solid', 'navicon','close', 'close-small', 'dailer', 'dailer-solid', 'bell', 'bell-solid', 'bell-mute', 'bell-mute-solid', 'star', 'star-solid', 'star-half', 'star-half-solid', 'chevron-down', 'chevron-up', 'chevron-right', 'chevron-left', 'user', 'user-delete', 'user-solid', 'user-delete-solid', 'users', 'users-solid', 'checkmark', 'checkmark-small', 'home', 'home-solid', 'cloud', 'cloud-solid', 'cloud-check', 'cloud-check-solid', 'microphone', 'thumbs-up', 'thumbs-up-solid', 'thumbs-down', 'thumbs-down-solid', 'search', 'search-min', 'search-zoom', 'shield', 'shield-lock-solid', 'pencil']
+
+        .sm-col-6.md-col-3
+
+          <i class="lunacon lunacon-#{val} "></i> <span class="selectable__all"> #{val} </span>
+
+
+          //- a(href="#").button <i class="lunacon lunacon-#{val} btn__icon--left"></i> #{val}
+          //- | &nbsp;
+
+    hr
+
+    h2.color--primary eCommerce
+
+    .row.bigger-text
+      each val in ['cart', 'cart-solid', 'basket', 'basket-solid', 'gift']
+        .sm-col-6.md-col-3
+          <i class="lunacon lunacon-#{val} "></i> <span class="selectable__all"> #{val} </span>
+
+
+
     .row
       .col
         hr
-        <i class="lunacon text--primary lunacon-home-solid lunacon--size-x1"></i>
-        <i class="lunacon text--primary lunacon-home-solid lunacon--size-x2"></i>
-        <i class="lunacon text--primary lunacon-home-solid lunacon--size-x3"></i>
-        <i class="lunacon text--primary lunacon-home-solid lunacon--size-x4"></i>
-        <i class="lunacon text--primary lunacon-home-solid lunacon--size-x5"></i>
+        <i class="lunacon text--primary lunacon-cart-solid lunacon--size-x1"></i>
+        <i class="lunacon text--primary lunacon-cart-solid lunacon--size-x2"></i>
+        <i class="lunacon text--primary lunacon-cart-solid lunacon--size-x3"></i>
+        <i class="lunacon text--primary lunacon-cart-solid lunacon--size-x4"></i>
+        <i class="lunacon text--primary lunacon-cart-solid lunacon--size-x5"></i>

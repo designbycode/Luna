@@ -42,6 +42,6 @@
   "dependencies": {
     "normalize-scss": "normalize.scss#^7.0.0",
     "jquery": "^3.2.1",
-    "lunacon": "^1.0.2"
+    "lunacon": "^1.0.0"
   }
 }
