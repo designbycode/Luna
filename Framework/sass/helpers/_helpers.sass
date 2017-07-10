@@ -9,7 +9,8 @@
   font-size: 120%
 
 
-.text
+.text,
+.color
   @each $key, $value in $_color_set
     &--#{$key}
       color: $value !important

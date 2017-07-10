@@ -52,8 +52,6 @@
     right: $the__global__padding
 
 
-
-
 .col,
 .column
   @extend %column
@@ -78,7 +76,6 @@
       @for $i from 1 through $columnCount
         .#{$key}-col-#{$i}
           width: (100% / $columnCount) * $i
-
 
         // Offset
         .#{$key}-offset-#{$i}
