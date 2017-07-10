@@ -1925,7 +1925,7 @@ input[type="submit"].btn, .form__label, .form__helper {
   .nav--fixed {
     position: fixed;
     top: 0;
-    z-index: 1000; }
+    z-index: 10000; }
   /* line 60, Framework/sass/components/_navigation.sass */
   .nav__wrapper {
     width: 98%;
@@ -1993,23 +1993,23 @@ input[type="submit"].btn, .form__label, .form__helper {
       float: left;
       background: transparent;
       line-height: 60px; }
-      /* line 126, Framework/sass/components/_navigation.sass */
+      /* line 125, Framework/sass/components/_navigation.sass */
       .nav__links__item a {
         display: block;
         color: #fff;
         text-decoration: none;
         padding: 0 15px; }
-      /* line 132, Framework/sass/components/_navigation.sass */
+      /* line 131, Framework/sass/components/_navigation.sass */
       .nav__links__item:hover, .nav__links__item--active {
         background: #fff; }
-        /* line 135, Framework/sass/components/_navigation.sass */
+        /* line 134, Framework/sass/components/_navigation.sass */
         .nav__links__item:hover > a, .nav__links__item--active > a {
           color: #021826; }
-  /* line 140, Framework/sass/components/_navigation.sass */
+  /* line 139, Framework/sass/components/_navigation.sass */
   .nav__navicon {
     display: none; }
     @media screen and (max-width: 900px) {
-      /* line 140, Framework/sass/components/_navigation.sass */
+      /* line 139, Framework/sass/components/_navigation.sass */
       .nav__navicon {
         position: absolute;
         top: 10px;
@@ -2019,7 +2019,7 @@ input[type="submit"].btn, .form__label, .form__helper {
         height: 40px;
         background: transparent;
         cursor: pointer; }
-        /* line 152, Framework/sass/components/_navigation.sass */
+        /* line 151, Framework/sass/components/_navigation.sass */
         .nav__navicon::after, .nav__navicon--open::after {
           font-family: "Lunacon";
           position: absolute;
@@ -2034,25 +2034,25 @@ input[type="submit"].btn, .form__label, .form__helper {
           color: #f7f7f7; } }
 
 @media screen and (max-width: 900px) {
-  /* line 174, Framework/sass/components/_navigation.sass */
+  /* line 173, Framework/sass/components/_navigation.sass */
   .nav__links {
     margin-bottom: 15px; } }
 
 @media screen and (max-width: 900px) {
-  /* line 178, Framework/sass/components/_navigation.sass */
+  /* line 177, Framework/sass/components/_navigation.sass */
   .nav__links__item {
     float: none;
     display: block;
     line-height: 50px; } }
 
-/* line 184, Framework/sass/components/_navigation.sass */
+/* line 183, Framework/sass/components/_navigation.sass */
 .nav__links__item--dropdown {
   position: relative; }
-  /* line 186, Framework/sass/components/_navigation.sass */
+  /* line 185, Framework/sass/components/_navigation.sass */
   .nav__links__item--dropdown > a {
     position: relative;
     padding-right: 40px; }
-    /* line 190, Framework/sass/components/_navigation.sass */
+    /* line 189, Framework/sass/components/_navigation.sass */
     .nav__links__item--dropdown > a::after {
       position: absolute;
       right: 0;
@@ -2062,7 +2062,7 @@ input[type="submit"].btn, .form__label, .form__helper {
       width: 30px;
       height: 30px;
       display: block; }
-  /* line 201, Framework/sass/components/_navigation.sass */
+  /* line 200, Framework/sass/components/_navigation.sass */
   .nav__links__item--dropdown .nav__links {
     position: absolute;
     display: none;
@@ -2072,52 +2072,44 @@ input[type="submit"].btn, .form__label, .form__helper {
     left: 0;
     -webkit-box-shadow: rgba(0, 0, 0, 0.75) 0 20px 40px -10px;
     box-shadow: rgba(0, 0, 0, 0.75) 0 20px 40px -10px; }
-    /* line 209, Framework/sass/components/_navigation.sass */
+    /* line 208, Framework/sass/components/_navigation.sass */
     .nav__links__item--dropdown .nav__links a {
       color: #021826; }
-    /* line 213, Framework/sass/components/_navigation.sass */
+    /* line 212, Framework/sass/components/_navigation.sass */
     .nav__links__item--dropdown .nav__links__item {
       width: 100%; }
-      /* line 215, Framework/sass/components/_navigation.sass */
+      /* line 214, Framework/sass/components/_navigation.sass */
       .nav__links__item--dropdown .nav__links__item:hover {
         background: #021826; }
-        /* line 217, Framework/sass/components/_navigation.sass */
+        /* line 216, Framework/sass/components/_navigation.sass */
         .nav__links__item--dropdown .nav__links__item:hover a {
           color: #eee; }
   @media screen and (min-width: 900px) {
-    /* line 222, Framework/sass/components/_navigation.sass */
+    /* line 221, Framework/sass/components/_navigation.sass */
     .nav__links__item--dropdown:hover .nav__links, .nav__links__item--dropdown--open .nav__links {
       display: block; } }
 
-/* line 229, Framework/sass/components/_navigation.sass */
-.nav__mobile .nav__links__wrapper {
-  float: none;
-  width: 100%;
-  display: none; }
-  @media screen and (min-width: 900px) {
-    /* line 233, Framework/sass/components/_navigation.sass */
-    .nav__mobile .nav__links__wrapper:last-child {
-      margin-bottom: 15px; } }
-  /* line 238, Framework/sass/components/_navigation.sass */
-  .nav__mobile .nav__links__wrapper--open {
-    display: block;
-    clear: both; }
+@media screen and (min-width: 900px) {
+  /* line 232, Framework/sass/components/_navigation.sass */
+  .nav__mobile .nav__links__wrapper:last-child {
+    margin-bottom: 15px; } }
 
-/* line 242, Framework/sass/components/_navigation.sass */
-.nav__mobile .nav__links__item {
-  width: 100%; }
+/* line 237, Framework/sass/components/_navigation.sass */
+.nav__mobile .nav__links__wrapper--open {
+  display: block;
+  clear: both; }
 
-/* line 251, Framework/sass/components/_navigation.sass */
+/* line 250, Framework/sass/components/_navigation.sass */
 .nav .form__item__group {
   height: 40px;
   width: 200px;
   margin-top: 10px; }
   @media screen and (max-width: 900px) {
-    /* line 251, Framework/sass/components/_navigation.sass */
+    /* line 250, Framework/sass/components/_navigation.sass */
     .nav .form__item__group {
       width: 100%;
       margin-bottom: 15px; } }
-  /* line 259, Framework/sass/components/_navigation.sass */
+  /* line 258, Framework/sass/components/_navigation.sass */
   .nav .form__item__group input,
   .nav .form__item__group button,
   .nav .form__item__group button.btn,
@@ -2129,7 +2121,7 @@ input[type="submit"].btn, .form__label, .form__helper {
     border: solid 1px transparent;
     -webkit-box-shadow: none;
     box-shadow: none; }
-    /* line 270, Framework/sass/components/_navigation.sass */
+    /* line 269, Framework/sass/components/_navigation.sass */
     .nav .form__item__group input:focus,
     .nav .form__item__group button:focus,
     .nav .form__item__group button.btn:focus,
@@ -2139,7 +2131,7 @@ input[type="submit"].btn, .form__label, .form__helper {
       border: solid 1px transparent;
       -webkit-box-shadow: none;
       box-shadow: none; }
-  /* line 275, Framework/sass/components/_navigation.sass */
+  /* line 274, Framework/sass/components/_navigation.sass */
   .nav .form__item__group .btn,
   .nav .form__item__group a.btn,
   .nav .form__item__group button,

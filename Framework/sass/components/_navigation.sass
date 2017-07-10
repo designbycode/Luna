@@ -54,7 +54,7 @@
   &--fixed
     position: fixed
     top: 0
-    z-index: 1000
+    z-index: 10000
 
   // Main Menu Wrapper
   &__wrapper
@@ -113,13 +113,12 @@
     &--left
       float: left
 
-
+    // The li emements
 
     &__item
       position: relative
       display: inline-block
       float: left
-
       background: $navigation__links__background__color
       line-height: $navigation__height
 
@@ -227,9 +226,9 @@
 .nav
   &__mobile
     .nav__links__wrapper
-      float: none
-      width: 100%
-      display: none
+      // float: none
+      // width: 100%
+      // display: none
       &:last-child
         +media-custom('min', $navigation__breakpoint)
           margin-bottom: $the__global__padding
@@ -239,11 +238,11 @@
         display: block
         clear: both
 
-    .nav__links__item
-      width: 100%
-      // +media-custom('min', $navigation__breakpoint)
-      //   margin-left: -$the__global__padding
-      //   margin-right: -$the__global__padding
+    // .nav__links__item
+    //   width: 100%
+    //   // +media-custom('min', $navigation__breakpoint)
+    //   //   margin-left: -$the__global__padding
+    //   //   margin-right: -$the__global__padding
 
     .nav__navicon
       @extend %icon
