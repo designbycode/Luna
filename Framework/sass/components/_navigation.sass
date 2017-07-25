@@ -36,9 +36,11 @@
   box-shadow: rgba(#000, 0.5) 0 2px 5px
   width: 100%
   min-height: $navigation__height + ($navigation__padding * 2)
-  padding:
-    top: $navigation__padding
-    bottom: $navigation__padding
+  +media-custom('min', $navigation__breakpoint)
+    min-height: $navigation__height
+    padding:
+      top: $navigation__padding
+      bottom: $navigation__padding
   +clearfix
 
   &--strip
