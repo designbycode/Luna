@@ -1,4 +1,6 @@
 
+
+
 if ( typeof Object.create !== 'function' ) {
   Object.create = function(obj){
     function F(){}
@@ -206,6 +208,11 @@ if ( typeof Object.create !== 'function' ) {
   };
 
 
+  /**
+   * Luna Init
+   */
+
+  $(document).Luna();
 
 
 })(jQuery, window, document);

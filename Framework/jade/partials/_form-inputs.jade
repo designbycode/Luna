@@ -4,7 +4,7 @@
     p There are 2 variations of the notify elements. A default set and a light set.  Simply append <code>-light</code> to the end of any notify elements.
 
 
-.row.flex
+.row
   .md-col-6
     .form__group
       label.form__label Label:
@@ -43,12 +43,11 @@
     p Form validation is an important part of web development. This section will show you how to make this easy to change form input fields, label colors and adding some validation messages to the <code>.form__group</code>
 
   .md-col-6
-    .panel.panel--default
-      .panel__header: h3 Form Inputs Validation Colors
+    h2 Form Inputs Validation Colors
 
-      .panel__body
-        p The form <code>.has__{identifier}</code>automatically changes colors of the child elements in the  <code>.form__group</code> block element.
-        p Simply add <code>info</code> , <code>warning</code> , <code>success</code> or <code>danger</code> as the {identifier} to change the input and label colors.
+
+    p The form <code>.has__{identifier}</code>automatically changes colors of the child elements in the  <code>.form__group</code> block element.
+    p Simply add <code>info</code> , <code>warning</code> , <code>success</code> or <code>danger</code> as the {identifier} to change the input and label colors.
 
 
   .md-col-6
@@ -86,11 +85,10 @@
     </code>
 
   .md-col-6
-    .panel.panel--default
-      .panel__header
-        h3 Form Validation Messages
-      .panel__body
-        p The validation message will inherit the color of the validation colors class above. Just add a <code>span</code> element with a class of <code>.form__helper</code> after the input field with in the <code>.form__group</code> block ether using php or JavaScript.
+
+    h2 Form Validation Messages
+
+    p The validation message will inherit the color of the validation colors class above. Just add a <code>span</code> element with a class of <code>.form__helper</code> after the input field with in the <code>.form__group</code> block ether using php or JavaScript.
 
   .md-col-6
     .well
@@ -134,11 +132,10 @@
       .blockquote__footer.background--warning-light
         a(href="css-helpers.html", class="btn btn--warning") Css helpers
 
-.row.flex
+.row
   .md-col-6
-    .panel.panel--default
-      .panel__header: h3 Form Input sizes
-      .panel__body: p Just like the <code>.btn</code> element the form input field can be resized by using style modifyers like <code>.form__item--xs</code> <code>.form__item--sm</code> <code>.form__item--md</code> <code>.form__item--lg</code> <code>.form__item--xl</code>.
+    h2 Form Input sizes
+    p Just like the <code>.btn</code> element the form input field can be resized by using style modifyers like <code>.form__item--xs</code> <code>.form__item--sm</code> <code>.form__item--md</code> <code>.form__item--lg</code> <code>.form__item--xl</code>.
 
   .md-col-6
     .well
@@ -173,10 +170,9 @@
 
 
   .md-col-6
-    .panel.panel--default
-      .panel__body
-        h3 Horizontal Form
-        p The <strong>horizontal</strong> style form can be created by using the <strong>grid classes</strong> and adding <code>.form__horizontal</code> to the parent container.
+
+    h2 Horizontal Form
+    p The <strong>horizontal</strong> style form can be created by using the <strong>grid classes</strong> and adding <code>.form__horizontal</code> to the parent container.
   .md-col-6
     .well
       form(action="", method="post", class="form__horizontal")

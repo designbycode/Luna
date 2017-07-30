@@ -21,7 +21,7 @@ $.fn.toast = function(opt){
       html: settings.text
     }).prependTo($('body'));
 
-    var topOffset = 15
+    var topOffset = 15;
     makeToaster.each(function(){
       var $this = $(this),
           height = $this.outerHeight(),
@@ -50,7 +50,7 @@ $.fn.toast = function(opt){
 
     setTimeout(function(){
       makeToaster.remove();
-    }, settings.delay + 1000)
+    }, settings.delay + 1000);
 
   });
 

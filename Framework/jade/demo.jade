@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Document
+    link(rel="stylesheet", href="css/style.css")
+  body
+
+    nav.nav.nav--shadow
+      .nav__wrapper
+        .nav__brand: a(href="#") Luna Framework
+        .nav__navicon
+        .nav__links__wrapper.nav__links--left
+          ul.nav__links
+            li.nav__links__item: a(href="#") Home
+            li.nav__links__item.nav__links__item--dropdown: a(href="#") Shop
+              ul.nav__links
+                li.nav__links__item.nav__links__item--dropdown: a(href="#") Mens
+                  ul.nav__links.left
+                    li.nav__links__item: a(href="#") Shoes
+                    li.nav__links__item.nav__links__item--dropdown: a(href="#") Jackets
+                      ul.nav__links.left
+                        li.nav__links__item.nav__links__item--dropdown: a(href="#") Wool
+                          ul.nav__links
+                            li.nav__links__item: a(href="#") Shoes
+                            li.nav__links__item: a(href="#") Jackets
+                            li.nav__links__item: a(href="#") Dresses
+                        li.nav__links__item: a(href="#") Leather
+
+                    li.nav__links__item: a(href="#") Pants
+                li.nav__links__item.nav__links__item--dropdown: a(href="#") Woman
+                  ul.nav__links
+                    li.nav__links__item: a(href="#") Shoes
+                    li.nav__links__item: a(href="#") Jackets
+                    li.nav__links__item: a(href="#") Dresses
+            li.nav__links__item: a(href="#") Services
+            li.nav__links__item: a(href="#") Contact Us
+
+
+    script(src="js/app.js")

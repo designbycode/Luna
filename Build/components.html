@@ -15,14 +15,17 @@
         <div class="nav__navicon"></div>
         <div class="nav__links__wrapper nav__links--right">
           <ul class="nav__links">
-            <li class="nav__links__item nav__links__item--active"><a href="index.html">Home</a></li>
+            <li class="nav__links__item"><a href="index.html">Home</a></li>
             <li class="nav__links__item"><a href="icons.html">Icons</a></li>
             <li class="nav__links__item nav__links__item--dropdown"><a href="index.html">Docs</a>
               <ul class="nav__links">
                 <li class="nav__links__item"><a href="grid.html">The Grid</a></li>
                 <li class="nav__links__item"><a href="components.html">Components</a></li>
-                <li class="nav__links__item"><a href="css-helpers.html">Css Helpers</a></li>
-                <li class="nav__links__item"><a href="sass-helpers.html">Sass Helper</a></li>
+                <li class="nav__links__item nav__links__item--dropdown"><a href="#">Helpers
+                    <ul class="nav__links left">
+                      <li class="nav__links__item"><a href="css-helpers.html">Css Helpers</a></li>
+                      <li class="nav__links__item"><a href="sass-helpers.html">Sass Helper</a></li>
+                    </ul></a></li>
                 <li class="nav__links__item"><a href="javascript.html">Javascript</a></li>
               </ul>
             </li>
@@ -252,12 +255,24 @@
         </div>
       </div>
       <div class="row">
+        <div class="column">
+          <pre><code>&lt;div class=&quot;notify notify__dismissable&quot;&gt;Info Notify&lt;/div&gt;
+&lt;div class=&quot;notify notify__dismissable notify--default&quot;&gt;Info Notify&lt;/div&gt;
+&lt;div class=&quot;notify notify__dismissable notify--info&quot;&gt;Info Notify&lt;/div&gt;
+&lt;div class=&quot;notify notify__dismissable notify--warning&quot;&gt;Warning Notify&lt;/div&gt;
+&lt;div class=&quot;notify notify__dismissable notify--success&quot;&gt;Success Notify&lt;/div&gt;
+&lt;div class=&quot;notify notify__dismissable notify--danger&quot;&gt;Danger Notify&lt;/div&gt;
+&lt;!-- for light version just add -light at the back --&gt;
+&lt;div class=&quot;notify notify--info-light&quot;&gt;Info Notify&lt;/div&gt;</pre></code>
+        </div>
+      </div>
+      <div class="row">
         <div class="col">
           <h2>Form Inputs</h2>
           <p>There are 2 variations of the notify elements. A default set and a light set.  Simply append <code>-light</code> to the end of any notify elements.</p>
         </div>
       </div>
-      <div class="row flex">
+      <div class="row">
         <div class="md-col-6">
           <div class="form__group">
             <label class="form__label">Label:</label>
@@ -303,15 +318,9 @@
           <p>Form validation is an important part of web development. This section will show you how to make this easy to change form input fields, label colors and adding some validation messages to the <code>.form__group</code></p>
         </div>
         <div class="md-col-6">
-          <div class="panel panel--default">
-            <div class="panel__header">
-              <h3>Form Inputs Validation Colors</h3>
-            </div>
-            <div class="panel__body">
-              <p>The form <code>.has__{identifier}</code>automatically changes colors of the child elements in the  <code>.form__group</code> block element.</p>
-              <p>Simply add <code>info</code> , <code>warning</code> , <code>success</code> or <code>danger</code> as the {identifier} to change the input and label colors.</p>
-            </div>
-          </div>
+          <h2>Form Inputs Validation Colors</h2>
+          <p>The form <code>.has__{identifier}</code>automatically changes colors of the child elements in the  <code>.form__group</code> block element.</p>
+          <p>Simply add <code>info</code> , <code>warning</code> , <code>success</code> or <code>danger</code> as the {identifier} to change the input and label colors.</p>
         </div>
         <div class="md-col-6">
           <div class="well">
@@ -352,14 +361,8 @@
  &lt;/div&gt;</pre></code>
         </div>
         <div class="md-col-6">
-          <div class="panel panel--default">
-            <div class="panel__header">
-              <h3>Form Validation Messages</h3>
-            </div>
-            <div class="panel__body">
-              <p>The validation message will inherit the color of the validation colors class above. Just add a <code>span</code> element with a class of <code>.form__helper</code> after the input field with in the <code>.form__group</code> block ether using php or JavaScript.</p>
-            </div>
-          </div>
+          <h2>Form Validation Messages</h2>
+          <p>The validation message will inherit the color of the validation colors class above. Just add a <code>span</code> element with a class of <code>.form__helper</code> after the input field with in the <code>.form__group</code> block ether using php or JavaScript.</p>
         </div>
         <div class="md-col-6">
           <div class="well">
@@ -403,16 +406,10 @@
           </blockquote>
         </div>
       </div>
-      <div class="row flex">
+      <div class="row">
         <div class="md-col-6">
-          <div class="panel panel--default">
-            <div class="panel__header">
-              <h3>Form Input sizes</h3>
-            </div>
-            <div class="panel__body">
-              <p>Just like the <code>.btn</code> element the form input field can be resized by using style modifyers like <code>.form__item--xs</code> <code>.form__item--sm</code> <code>.form__item--md</code> <code>.form__item--lg</code> <code>.form__item--xl</code>.</p>
-            </div>
-          </div>
+          <h2>Form Input sizes</h2>
+          <p>Just like the <code>.btn</code> element the form input field can be resized by using style modifyers like <code>.form__item--xs</code> <code>.form__item--sm</code> <code>.form__item--md</code> <code>.form__item--lg</code> <code>.form__item--xl</code>.</p>
         </div>
         <div class="md-col-6">
           <div class="well">
@@ -451,12 +448,8 @@
  &lt;/div&gt;</pre></code>
         </div>
         <div class="md-col-6">
-          <div class="panel panel--default">
-            <div class="panel__body">
-              <h3>Horizontal Form</h3>
-              <p>The <strong>horizontal</strong> style form can be created by using the <strong>grid classes</strong> and adding <code>.form__horizontal</code> to the parent container.</p>
-            </div>
-          </div>
+          <h2>Horizontal Form</h2>
+          <p>The <strong>horizontal</strong> style form can be created by using the <strong>grid classes</strong> and adding <code>.form__horizontal</code> to the parent container.</p>
         </div>
         <div class="md-col-6">
           <div class="well">
