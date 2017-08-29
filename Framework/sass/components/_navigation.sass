@@ -36,6 +36,7 @@
   width: 100%
   min-height: $navigation__height
   padding: 0
+  transition: color 0.3s ease
   +media-custom('min', $navigation__breakpoint)
     min-height: $navigation__height + ($navigation__padding * 2)
     padding:
@@ -44,13 +45,14 @@
   +clearfix
 
   &--shadow
-    box-shadow: rgba(#000, 0.25) 0 1px 2px
-  &--strip
+    box-shadow: rgba(#000, 0.25) 0 1px 2px !important
+  &--transparent
     +media-custom('min', $navigation__breakpoint)
-      background: transparent
+
+      background: rgba($navigation__background__color, 0)
       border-color: transparent
       box-shadow: none
-      transition: all 0,5s ease
+      transition: all 0,3s ease
 
 
 

@@ -4,7 +4,8 @@
 // == URL: http://lunaframework.co.za
 // ==========================================
 
-.blockquote
+.blockquote,
+.bq
   border-left: solid $mute-color 5px
   margin: $the__global__padding 0
   background: #fff
@@ -23,6 +24,10 @@
   &__body
     padding-top: 0
 
+  &__list
+    padding-top: 0
+    padding-bottom: $the__global__padding
+
 
   &__header
     font-weight: 600
@@ -35,5 +40,6 @@
     &--#{$key}
       border-left: solid $value 5px
 
-      .blockquote__header
+      .blockquote__header,
+      .bq__header
         color: $value

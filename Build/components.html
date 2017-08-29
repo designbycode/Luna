@@ -52,7 +52,7 @@
       <div class="row">
         <div class="md-col-12">
           <h2>Navigation</h2>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque culpa laborum ullam, possimus odio, quaerat quasi optio commodi hic, laudantium voluptates numquam esse quam? Quia quo autem impedit voluptatem ipsam.</p>
+          <p>The navigation component is fully responsive with an unlimited trier level dropdown feature which can flow off ever to the left or right.</p>
         </div>
       </div>
       <div class="row padding--bottom">
@@ -131,7 +131,7 @@
           </nav>
         </div>
       </div>
-      <div class="row padding--bottom">
+      <div class="row">
         <div class="col">
           <nav class="nav background--info">
             <div class="nav__wrapper">
@@ -151,6 +151,60 @@
               </div>
             </div>
           </nav>
+        </div>
+      </div>
+      <div class="row padding-bottom">
+        <div class="col">
+          <pre><code>&lt;nav class=&quot;nav&quot;&gt;
+ &lt;div class=&quot;nav__wrapper&quot;&gt;
+   &lt;div class=&quot;nav__brand&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/div&gt;
+   &lt;div class=&quot;nav__navicon&quot;&gt;&lt;/div&gt;
+   &lt;div class=&quot;nav__links__wrapper nav__links--right&quot;&gt;
+     &lt;ul class=&quot;nav__links&quot;&gt;
+       &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+       &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+       &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+     &lt;/ul&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/nav&gt;</pre></code>
+        </div>
+      </div>
+      <div class="row padding-bottom">
+        <div class="col">
+          <h2>Adding an dropdown to the menu</h2>
+          <p>Just add an class of <code> .nav__links__item--dropdown</code> to any <code>li.nav__links__item </code> element in the menu to make it a dropdown. The rest will be handled with JavaScript.</p>
+        </div>
+        <div class="col">
+          <pre><code>&lt;li class=&quot;nav__links__item nav__links__item--dropdown&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;
+ &lt;ul class=&quot;nav__links&quot;&gt;
+   &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt; ...&lt;/a&gt;&lt;/li&gt;
+   &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+   &lt;li class=&quot;nav__links__item nav__links__item--dropdown&quot;&gt;&lt;a href=&quot;#&quot;&gt;...
+       &lt;ul class=&quot;nav__links left&quot;&gt;
+         &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+         &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+       &lt;/ul&gt;&lt;/a&gt;&lt;/li&gt;
+   &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;javascript.html&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/li&gt;</pre></code>
+        </div>
+        <div class="col">
+          <blockquote class="blockquote blockquote--info">
+            <div class="blockquote__header">Open submenu to the left.</div>
+            <div class="blockquote__body">To make the dropdown menu open in the left side of its parent, you simply need to add the class of  <code>.left</code> to the <code>ul.nav__links</code>  child of the dropdown element.</div>
+          </blockquote>
+        </div>
+        <div class="col">
+          <blockquote class="blockquote blockquote--warning">
+            <div class="blockquote__header">Navigation shadow, color &amp; postion</div>
+            <div class="blockquote__body">By default the navigation dont have a shadow and is not fixed. This can be changed by added the following classes the the <code>.nav</code> element. Also the navigation get it color from the <code>_settings.sass</code>. Also, the navigation gets it color from the <code>_settings.sass</code> . It can be made transparent with transitions effects for JavaScript events.</div>
+            <ul class="blockquote__list">
+              <li><code> .nav--shadow </code> <small class="text--primary">(Add a shadow to the navigation)</small></li>
+              <li><code> .nav--fixed </code> <small class="text--primary">(Make the navigation fixed)</small></li>
+              <li><code> .nav--transparent </code> <small class="text--primary">(Make background color transparent only on desktop screen sizes)</small></li>
+            </ul>
+          </blockquote>
         </div>
       </div>
       <div class="row">
@@ -527,6 +581,89 @@
             <li><a href="#">6</a></li>
             <li><a href="#">&raquo;</a></li>
           </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="md-col-12">
+          <h2>Media Object</h2>
+          <p>There are 2 variations of the notify elements. A default set and a light set.  Simply append <code>–-light</code> to the end of any notify elements.</p>
+          <blockquote class="blockquote blockquote--warning">
+            <div class="blockquote__header">This element works great for comments and listings.</div>
+          </blockquote>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="media">
+            <div class="media__left media--top">
+              <div class="media__image"><img src="" alt="" width="80px" height="80px" class="media__thumbnail"></div>
+            </div>
+            <div class="media__body">
+              <div class="media__heading"> Lorem ipsum dolor sit amet.</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!</div>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media__body">
+              <div class="media__heading"> Lorem ipsum dolor sit amet.</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!</div>
+            </div>
+            <div class="media__right media--top">
+              <div class="media__image"></div><img src="" alt="" width="80px" height="80px" class="media__thumbnail">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <pre><code class="html">&lt;div class=&quot;media&quot;&gt;
+ &lt;div class=&quot;media__body&quot;&gt;
+   &lt;div class=&quot;media__heading&quot;&gt; .....&lt;/div&gt;
+   &lt;div&gt;.....&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;media__right media--top&quot;&gt;
+   &lt;div class=&quot;media__image&quot;&gt;&lt;/div&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; width=&quot;80px&quot; height=&quot;80px&quot; class=&quot;media__thumbnail&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <blockquote class="blockquote blockquote--warning">
+            <div class="blockquote__header">Just add a little styling to the element.</div>
+            <ul class="blockquote__list">Just add <code>.media--default</code> to the main media element</ul>
+          </blockquote>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="media media--default">
+            <div class="media__left media--top">
+              <div class="media__image"><img src="" alt="" width="80px" height="80px" class="media__thumbnail"></div>
+            </div>
+            <div class="media__body">
+              <div class="media__heading"> Lorem ipsum dolor sit amet.</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!</div>
+            </div>
+          </div>
+          <div class="media media--default">
+            <div class="media__body">
+              <div class="media__heading"> Lorem ipsum dolor sit amet.</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!</div>
+            </div>
+            <div class="media__right media--top">
+              <div class="media__image"></div><img src="" alt="" width="80px" height="80px" class="media__thumbnail">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <pre><code class="html">&lt;div class=&quot;media media--default&quot;&gt;
+ &lt;div class=&quot;media__body&quot;&gt;
+   &lt;div class=&quot;media__heading&quot;&gt; .....&lt;/div&gt;
+   &lt;div&gt;.....&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;media__right media--top&quot;&gt;
+   &lt;div class=&quot;media__image&quot;&gt;&lt;/div&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; width=&quot;80px&quot; height=&quot;80px&quot; class=&quot;media__thumbnail&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</code></pre>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 .row
   .md-col-12
     h2 Navigation
-    p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque culpa laborum ullam, possimus odio, quaerat quasi optio commodi hic, laudantium voluptates numquam esse quam? Quia quo autem impedit voluptatem ipsam.
+    p The navigation component is fully responsive with an unlimited trier level dropdown feature which can flow off ever to the left or right.
 
 .row.padding--bottom
   .col
@@ -73,7 +73,7 @@
               a(href="index.html")  <i class="btn__icon--left lunacon lunacon-user-solid"></i> Login
             li.nav__links__item
               a(href="icons.html") <i class="btn__icon--left lunacon lunacon-user-delete-solid "></i> Register
-.row.padding--bottom
+.row
   .col
     nav.nav.background--info
       .nav__wrapper
@@ -92,3 +92,53 @@
           .form__item__group
             input(type="text", placeholder="seach" class="form__item background--info-light text--info border--primary")
             button(type="submit", class="btn btn--primary") <i class="lunacon lunacon-bell-solid"></i>
+
+
+.row.padding-bottom
+  .col
+    pre <code>&lt;nav class=&quot;nav&quot;&gt;
+        |  &lt;div class=&quot;nav__wrapper&quot;&gt;
+        |    &lt;div class=&quot;nav__brand&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/div&gt;
+        |    &lt;div class=&quot;nav__navicon&quot;&gt;&lt;/div&gt;
+        |    &lt;div class=&quot;nav__links__wrapper nav__links--right&quot;&gt;
+        |      &lt;ul class=&quot;nav__links&quot;&gt;
+        |        &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+        |        &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+        |        &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+        |      &lt;/ul&gt;
+        |    &lt;/div&gt;
+        |  &lt;/div&gt;
+        |&lt;/nav&gt;
+    </code>
+
+.row.padding-bottom
+  .col
+    h2 Adding an dropdown to the menu
+    p Just add an class of <code> .nav__links__item--dropdown</code> to any <code>li.nav__links__item </code> element in the menu to make it a dropdown. The rest will be handled with JavaScript.
+  .col
+    pre <code>&lt;li class=&quot;nav__links__item nav__links__item--dropdown&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;
+      |  &lt;ul class=&quot;nav__links&quot;&gt;
+      |    &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt; ...&lt;/a&gt;&lt;/li&gt;
+      |    &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+      |    &lt;li class=&quot;nav__links__item nav__links__item--dropdown&quot;&gt;&lt;a href=&quot;#&quot;&gt;...
+      |        &lt;ul class=&quot;nav__links left&quot;&gt;
+      |          &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+      |          &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+      |        &lt;/ul&gt;&lt;/a&gt;&lt;/li&gt;
+      |    &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;javascript.html&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+      |  &lt;/ul&gt;
+      |&lt;/li&gt;
+    </code>
+
+  .col
+    blockquote.blockquote.blockquote--info
+      .blockquote__header Open submenu to the left.
+      .blockquote__body To make the dropdown menu open in the left side of its parent, you simply need to add the class of  <code>.left</code> to the <code>ul.nav__links</code>  child of the dropdown element.
+  .col
+    blockquote.blockquote.blockquote--warning
+      .blockquote__header Navigation shadow, color &amp; postion
+      .blockquote__body By default the navigation dont have a shadow and is not fixed. This can be changed by added the following classes the the <code>.nav</code> element. Also the navigation get it color from the <code>_settings.sass</code>. Also, the navigation gets it color from the <code>_settings.sass</code> . It can be made transparent with transitions effects for JavaScript events.
+      ul.blockquote__list
+        li <code> .nav--shadow </code> <small class="text--primary">(Add a shadow to the navigation)</small>
+        li <code> .nav--fixed </code> <small class="text--primary">(Make the navigation fixed)</small>
+        li <code> .nav--transparent </code> <small class="text--primary">(Make background color transparent only on desktop screen sizes)</small>
