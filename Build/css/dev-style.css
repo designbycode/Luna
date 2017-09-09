@@ -1145,7 +1145,7 @@ a:hover {
   src: url("../fonts/lunacon/Lunacon.eot?#iefix") format("eot"), url("../fonts/lunacon/Lunacon.woff") format("woff"), url("../fonts/lunacon/Lunacon.ttf") format("truetype"), url("../fonts/lunacon/Lunacon.svg#Lunacon") format("svg"); }
 
 /* line 29, Framework/sass/vendor/_icons.scss */
-.lunacon, .lunacon-address-book::before, .lunacon-basket-solid::before, .lunacon-basket::before, .lunacon-bell-mute-solid::before, .lunacon-bell-mute::before, .lunacon-bell-solid::before, .lunacon-bell::before, .lunacon-cart-solid::before, .lunacon-cart::before, .lunacon-checkmark-small::before, .lunacon-checkmark::before, .lunacon-chevron-down::before, .lunacon-chevron-left::before, .lunacon-chevron-right::before, .lunacon-chevron-up::before, .lunacon-close-small::before, .lunacon-close::before, .lunacon-cloud-check-solid::before, .lunacon-cloud-check::before, .lunacon-cloud-solid::before, .lunacon-cloud::before, .lunacon-dailer-solid::before, .lunacon-dailer::before, .lunacon-dashboard::before, .lunacon-download::before, .lunacon-gift::before, .lunacon-home-solid::before, .lunacon-home::before, .lunacon-key::before, .lunacon-lock-open::before, .lunacon-lock::before, .lunacon-login::before, .lunacon-logout::before, .lunacon-microphone::before, .lunacon-moon-solid::before, .lunacon-moon::before, .lunacon-navicon::before, .lunacon-pencil::before, .lunacon-search-min::before, .lunacon-search-zoom::before, .lunacon-search::before, .lunacon-shield-lock-solid::before, .lunacon-shield::before, .lunacon-star-half-solid::before, .lunacon-star-half::before, .lunacon-star-solid::before, .lunacon-star::before, .lunacon-thumbs-down-solid::before, .lunacon-thumbs-down::before, .lunacon-thumbs-up-solid::before, .lunacon-thumbs-up::before, .lunacon-upload::before, .lunacon-user-delete-solid::before, .lunacon-user-delete::before, .lunacon-user-solid::before, .lunacon-user::before, .lunacon-users-solid::before, .lunacon-users::before {
+.lunacon, .lunacon-address-book::before, .lunacon-backward::before, .lunacon-basket-solid::before, .lunacon-basket::before, .lunacon-bell-mute-solid::before, .lunacon-bell-mute::before, .lunacon-bell-solid::before, .lunacon-bell::before, .lunacon-cart-solid::before, .lunacon-cart::before, .lunacon-checkmark-small::before, .lunacon-checkmark::before, .lunacon-chevron-down::before, .lunacon-chevron-left::before, .lunacon-chevron-right::before, .lunacon-chevron-up::before, .lunacon-close-small::before, .lunacon-close::before, .lunacon-cloud-check-solid::before, .lunacon-cloud-check::before, .lunacon-cloud-solid::before, .lunacon-cloud::before, .lunacon-dailer-solid::before, .lunacon-dailer::before, .lunacon-dashboard::before, .lunacon-download::before, .lunacon-forward::before, .lunacon-gift::before, .lunacon-home-solid::before, .lunacon-home::before, .lunacon-key::before, .lunacon-lock-open::before, .lunacon-lock::before, .lunacon-login::before, .lunacon-logout::before, .lunacon-microphone::before, .lunacon-moon-solid::before, .lunacon-moon::before, .lunacon-navicon::before, .lunacon-pause::before, .lunacon-pencil::before, .lunacon-play::before, .lunacon-search-min::before, .lunacon-search-zoom::before, .lunacon-search::before, .lunacon-shield-lock-solid::before, .lunacon-shield::before, .lunacon-skip-back::before, .lunacon-skip-forward::before, .lunacon-skip-next::before, .lunacon-sound-big::before, .lunacon-sound-mute::before, .lunacon-sound-waves::before, .lunacon-sound::before, .lunacon-star-half-solid::before, .lunacon-star-half::before, .lunacon-star-solid::before, .lunacon-star::before, .lunacon-stop::before, .lunacon-thumbs-down-solid::before, .lunacon-thumbs-down::before, .lunacon-thumbs-up-solid::before, .lunacon-thumbs-up::before, .lunacon-upload::before, .lunacon-user-delete-solid::before, .lunacon-user-delete::before, .lunacon-user-solid::before, .lunacon-user::before, .lunacon-users-solid::before, .lunacon-users::before {
   display: inline-block;
   font: normal normal normal 14px/1 "Lunacon";
   font-size: inherit;
@@ -1185,244 +1185,292 @@ a:hover {
   font-size: 70px !important;
   line-height: 1; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-address-book::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-basket-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-backward::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-basket::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-basket-solid::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-bell-mute-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-basket::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-bell-mute::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-bell-mute-solid::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-bell-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-bell-mute::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-bell::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-bell-solid::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-cart-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-bell::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-cart::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-cart-solid::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-checkmark-small::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-cart::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-checkmark::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-checkmark-small::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-chevron-down::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-checkmark::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-chevron-left::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-chevron-down::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-chevron-right::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-chevron-left::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-chevron-up::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-chevron-right::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-close-small::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-chevron-up::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-close::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-close-small::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-cloud-check-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-close::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-cloud-check::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-cloud-check-solid::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-cloud-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-cloud-check::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-cloud::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-cloud-solid::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-dailer-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-cloud::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-dailer::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-dailer-solid::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-dashboard::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-dailer::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-download::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-dashboard::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-gift::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-download::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-home-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-forward::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-home::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-gift::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-key::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-home-solid::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-lock-open::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-home::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-lock::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-key::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-login::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-lock-open::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-logout::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-lock::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-microphone::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-login::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-moon-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-logout::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-moon::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-microphone::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-navicon::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-moon-solid::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-pencil::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-moon::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-search-min::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-navicon::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-search-zoom::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-pause::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-search::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-pencil::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-shield-lock-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-play::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-shield::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-search-min::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-star-half-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-search-zoom::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-star-half::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-search::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-star-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-shield-lock-solid::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-star::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-shield::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-thumbs-down-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-skip-back::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-thumbs-down::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-skip-forward::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-thumbs-up-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-skip-next::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-thumbs-up::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-sound-big::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-upload::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-sound-mute::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-user-delete-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-sound-waves::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-user-delete::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-sound::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-user-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-star-half-solid::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-user::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-star-half::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-users-solid::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-star-solid::before {
   content: ""; }
 
-/* line 484, Framework/sass/vendor/_icons.scss */
-.lunacon-users::before {
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-star::before {
   content: ""; }
 
-/* line 674, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-stop::before {
+  content: ""; }
+
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-thumbs-down-solid::before {
+  content: ""; }
+
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-thumbs-down::before {
+  content: ""; }
+
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-thumbs-up-solid::before {
+  content: ""; }
+
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-thumbs-up::before {
+  content: ""; }
+
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-upload::before {
+  content: ""; }
+
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-user-delete-solid::before {
+  content: ""; }
+
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-user-delete::before {
+  content: ""; }
+
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-user-solid::before {
+  content: ""; }
+
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-user::before {
+  content: ""; }
+
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-users-solid::before {
+  content: ""; }
+
+/* line 568, Framework/sass/vendor/_icons.scss */
+.lunacon-users::before {
+  content: ""; }
+
+/* line 794, Framework/sass/vendor/_icons.scss */
 .lunacon-spin-animation {
   -webkit-animation: lunacon-spin 2s infinite linear;
   animation: lunacon-spin 2s infinite linear; }
 
-/* line 679, Framework/sass/vendor/_icons.scss */
+/* line 799, Framework/sass/vendor/_icons.scss */
 .lunacon-flash-animation {
   -webkit-animation: lunacon-flash 1s infinite  ease-in-out;
   animation: lunacon-flash 1s infinite  ease-in-out; }
@@ -1902,13 +1950,13 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
   z-index: 9999;
   background: #021826;
   width: 100%;
-  min-height: 70px;
+  min-height: 60px;
   padding: 0;
   *zoom: 1; }
   @media screen and (min-width: 900px) {
     /* line 32, Framework/sass/components/_navigation.sass */
     .nav {
-      min-height: 70px;
+      min-height: 60px;
       padding-top: 0px;
       padding-bottom: 0px; } }
   /* line 9, Framework/sass/mixins/_clearfix.sass */
@@ -1949,7 +1997,7 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
   .nav__brand {
     float: left;
     font-size: 28px;
-    line-height: 70px;
+    line-height: 60px;
     margin-right: 15px; }
     /* line 82, Framework/sass/components/_navigation.sass */
     .nav__brand a {
@@ -1959,7 +2007,7 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
   @media screen and (max-width: 900px) {
     /* line 87, Framework/sass/components/_navigation.sass */
     .nav__no__brand {
-      padding-top: 70px; } }
+      padding-top: 60px; } }
   /* line 92, Framework/sass/components/_navigation.sass */
   .nav__links {
     list-style: none;
@@ -1996,40 +2044,47 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
     /* line 120, Framework/sass/components/_navigation.sass */
     .nav__links--left {
       float: left; }
-    /* line 125, Framework/sass/components/_navigation.sass */
+    /* line 124, Framework/sass/components/_navigation.sass */
+    .nav__links__button {
+      position: relative;
+      display: inline-block;
+      float: left;
+      line-height: 60px;
+      margin-left: 7.5px; }
+    /* line 132, Framework/sass/components/_navigation.sass */
     .nav__links__item {
       position: relative;
       display: inline-block;
       float: left;
       background: transparent;
-      line-height: 70px; }
-      /* line 132, Framework/sass/components/_navigation.sass */
+      line-height: 60px; }
+      /* line 139, Framework/sass/components/_navigation.sass */
       .nav__links__item a {
         display: block;
         color: #fff;
         text-decoration: none;
         padding: 0 15px; }
-      /* line 138, Framework/sass/components/_navigation.sass */
+      /* line 145, Framework/sass/components/_navigation.sass */
       .nav__links__item:hover, .nav__links__item--active {
         background: #fff; }
-        /* line 141, Framework/sass/components/_navigation.sass */
+        /* line 148, Framework/sass/components/_navigation.sass */
         .nav__links__item:hover > a, .nav__links__item--active > a {
           color: #021826; }
-  /* line 148, Framework/sass/components/_navigation.sass */
+  /* line 155, Framework/sass/components/_navigation.sass */
   .nav__navicon {
     display: none; }
     @media screen and (max-width: 900px) {
-      /* line 148, Framework/sass/components/_navigation.sass */
+      /* line 155, Framework/sass/components/_navigation.sass */
       .nav__navicon {
         position: absolute;
-        top: 15px;
+        top: 10px;
         right: 18px;
         display: block;
         width: 40px;
         height: 40px;
         background: transparent;
         cursor: pointer; }
-        /* line 160, Framework/sass/components/_navigation.sass */
+        /* line 167, Framework/sass/components/_navigation.sass */
         .nav__navicon::after, .nav__navicon--open::after {
           font-family: "Lunacon";
           position: absolute;
@@ -2040,51 +2095,51 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
           text-align: center;
           width: inherit;
           height: inherit;
-          content: "";
+          content: "";
           color: #f7f7f7; } }
 
 @media screen and (max-width: 900px) {
-  /* line 182, Framework/sass/components/_navigation.sass */
+  /* line 189, Framework/sass/components/_navigation.sass */
   .nav__links {
     margin-bottom: 15px; } }
 
 @media screen and (max-width: 900px) {
-  /* line 186, Framework/sass/components/_navigation.sass */
+  /* line 193, Framework/sass/components/_navigation.sass */
   .nav__links__item {
     float: none;
     display: block;
     line-height: 50px; } }
 
-/* line 192, Framework/sass/components/_navigation.sass */
+/* line 199, Framework/sass/components/_navigation.sass */
 .nav__links__item--dropdown {
   position: relative; }
-  /* line 194, Framework/sass/components/_navigation.sass */
+  /* line 201, Framework/sass/components/_navigation.sass */
   .nav__links__item--dropdown > a {
     position: relative;
     padding-right: 40px; }
     @media screen and (min-width: 900px) {
-      /* line 198, Framework/sass/components/_navigation.sass */
+      /* line 205, Framework/sass/components/_navigation.sass */
       .nav__links__item--dropdown > a::after {
         position: absolute;
         right: 0;
         top: 0;
         font-family: Lunacon;
-        content: "";
+        content: "";
         width: 30px;
         height: 30px;
         display: block; } }
-  /* line 210, Framework/sass/components/_navigation.sass */
+  /* line 217, Framework/sass/components/_navigation.sass */
   .nav__links__item--dropdown .nav__links {
     position: absolute;
     display: none;
     width: 200px;
     background: #eee;
-    top: 70px;
+    top: 60px;
     left: 0;
     -webkit-box-shadow: rgba(0, 0, 0, 0.75) 0 20px 40px -10px;
     box-shadow: rgba(0, 0, 0, 0.75) 0 20px 40px -10px; }
     @media screen and (max-width: 900px) {
-      /* line 210, Framework/sass/components/_navigation.sass */
+      /* line 217, Framework/sass/components/_navigation.sass */
       .nav__links__item--dropdown .nav__links {
         -webkit-box-shadow: none;
         box-shadow: none;
@@ -2092,31 +2147,31 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
         width: 100%;
         top: 0;
         padding-left: 15px; } }
-    /* line 224, Framework/sass/components/_navigation.sass */
+    /* line 231, Framework/sass/components/_navigation.sass */
     .nav__links__item--dropdown .nav__links a {
-      line-height: 60px;
+      line-height: 50px;
       color: #021826; }
       @media screen and (max-width: 900px) {
-        /* line 224, Framework/sass/components/_navigation.sass */
+        /* line 231, Framework/sass/components/_navigation.sass */
         .nav__links__item--dropdown .nav__links a {
           border-left: solid 2px #e1e1e1;
           line-height: 50px; } }
-    /* line 231, Framework/sass/components/_navigation.sass */
+    /* line 238, Framework/sass/components/_navigation.sass */
     .nav__links__item--dropdown .nav__links__item {
       width: 100%; }
-      /* line 233, Framework/sass/components/_navigation.sass */
+      /* line 240, Framework/sass/components/_navigation.sass */
       .nav__links__item--dropdown .nav__links__item:hover {
         background: #e1e1e1; }
-        /* line 235, Framework/sass/components/_navigation.sass */
+        /* line 242, Framework/sass/components/_navigation.sass */
         .nav__links__item--dropdown .nav__links__item:hover a {
           color: #021826; }
   @media screen and (min-width: 900px) {
-    /* line 240, Framework/sass/components/_navigation.sass */
+    /* line 247, Framework/sass/components/_navigation.sass */
     .nav__links__item--dropdown:hover .nav__links, .nav__links__item--dropdown--open .nav__links {
       display: block; } }
 
 @media screen and (max-width: 900px) {
-  /* line 246, Framework/sass/components/_navigation.sass */
+  /* line 253, Framework/sass/components/_navigation.sass */
   .submenu-button {
     position: relative;
     z-index: 10;
@@ -2127,31 +2182,31 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
     border-left: 1px solid #e6e9ec;
     cursor: pointer;
     float: right; }
-    /* line 257, Framework/sass/components/_navigation.sass */
+    /* line 264, Framework/sass/components/_navigation.sass */
     .submenu-button::after {
       position: absolute;
       font-family: "Lunacon";
       color: #021826;
-      content: "";
+      content: "";
       text-align: center;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%; } }
 
-/* line 271, Framework/sass/components/_navigation.sass */
+/* line 278, Framework/sass/components/_navigation.sass */
 .is-open::after {
   position: absolute;
   font-family: "Lunacon";
   color: #021826;
-  content: "";
+  content: "";
   text-align: center;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%; }
 
-/* line 289, Framework/sass/components/_navigation.sass */
+/* line 296, Framework/sass/components/_navigation.sass */
 .nav__links .nav__links .nav__links {
   display: none;
   position: absolute;
@@ -2159,29 +2214,29 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
   top: 15px;
   z-index: 10; }
   @media screen and (max-width: 900px) {
-    /* line 289, Framework/sass/components/_navigation.sass */
+    /* line 296, Framework/sass/components/_navigation.sass */
     .nav__links .nav__links .nav__links {
       position: relative;
       top: 0;
       left: 0;
       padding-left: 15px; } }
-  /* line 301, Framework/sass/components/_navigation.sass */
+  /* line 308, Framework/sass/components/_navigation.sass */
   .nav__links .nav__links .nav__links a {
     color: #021826; }
     @media screen and (max-width: 900px) {
-      /* line 301, Framework/sass/components/_navigation.sass */
+      /* line 308, Framework/sass/components/_navigation.sass */
       .nav__links .nav__links .nav__links a {
         border-left: solid 2px #e1e1e1; } }
-    /* line 305, Framework/sass/components/_navigation.sass */
+    /* line 312, Framework/sass/components/_navigation.sass */
     .nav__links .nav__links .nav__links a:hover {
       color: #021826; }
 
 @media screen and (min-width: 900px) {
-  /* line 312, Framework/sass/components/_navigation.sass */
+  /* line 319, Framework/sass/components/_navigation.sass */
   .nav__links__item--dropdown .nav__links__item--dropdown:hover .nav__links {
     display: block; } }
 
-/* line 319, Framework/sass/components/_navigation.sass */
+/* line 326, Framework/sass/components/_navigation.sass */
 .nav__links .nav__links .nav__links .nav__links {
   display: none;
   position: absolute;
@@ -2189,33 +2244,33 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
   top: 15px;
   z-index: 20; }
   @media screen and (max-width: 900px) {
-    /* line 319, Framework/sass/components/_navigation.sass */
+    /* line 326, Framework/sass/components/_navigation.sass */
     .nav__links .nav__links .nav__links .nav__links {
       position: relative;
       left: 0;
       top: 0; } }
-  /* line 329, Framework/sass/components/_navigation.sass */
+  /* line 336, Framework/sass/components/_navigation.sass */
   .nav__links .nav__links .nav__links .nav__links a {
     color: #021826; }
-    /* line 331, Framework/sass/components/_navigation.sass */
+    /* line 338, Framework/sass/components/_navigation.sass */
     .nav__links .nav__links .nav__links .nav__links a:hover {
       color: #021826; }
-  /* line 334, Framework/sass/components/_navigation.sass */
+  /* line 341, Framework/sass/components/_navigation.sass */
   .nav__links .nav__links .nav__links .nav__links:hover {
     display: block; }
 
 @media screen and (min-width: 900px) {
-  /* line 339, Framework/sass/components/_navigation.sass */
+  /* line 346, Framework/sass/components/_navigation.sass */
   .nav__links__item--dropdown .nav__links__item--dropdown .nav__links__item--dropdown:hover > .nav__links {
     display: block; } }
 
 @media screen and (max-width: 900px) {
-  /* line 345, Framework/sass/components/_navigation.sass */
+  /* line 352, Framework/sass/components/_navigation.sass */
   .nav__links .nav__links .nav__links .nav__links {
     width: 100%; } }
 
 @media screen and (min-width: 900px) {
-  /* line 350, Framework/sass/components/_navigation.sass */
+  /* line 357, Framework/sass/components/_navigation.sass */
   .nav__links .left {
     left: -95% !important; } }
 
@@ -2250,7 +2305,6 @@ input[type="submit"].button {
   text-decoration: none;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
-  text-transform: uppercase;
   -webkit-transition: background-color .2s, -webkit-box-shadow .2s;
   transition: background-color .2s, -webkit-box-shadow .2s;
   -o-transition: background-color .2s, box-shadow .2s;
@@ -3499,7 +3553,7 @@ button:disabled {
       width: 50px;
       line-height: 50px;
       font-family: "Lunacon";
-      content: "";
+      content: "";
       color: #fff;
       text-align: center;
       font-size: 20px;
@@ -3896,7 +3950,7 @@ button:disabled {
 
 /* line 14, Framework/sass/dev-style.sass */
 body {
-  padding-top: 70px; }
+  padding-top: 60px; }
 
 /* line 17, Framework/sass/dev-style.sass */
 .hero {
@@ -3993,7 +4047,7 @@ pre code {
 .star__block {
   padding: 5px; }
   /* line 113, Framework/sass/dev-style.sass */
-  .star__block i.lunacon, .star__block i.lunacon-address-book::before, .star__block i.lunacon-basket-solid::before, .star__block i.lunacon-basket::before, .star__block i.lunacon-bell-mute-solid::before, .star__block i.lunacon-bell-mute::before, .star__block i.lunacon-bell-solid::before, .star__block i.lunacon-bell::before, .star__block i.lunacon-cart-solid::before, .star__block i.lunacon-cart::before, .star__block i.lunacon-checkmark-small::before, .star__block i.lunacon-checkmark::before, .star__block i.lunacon-chevron-down::before, .star__block i.lunacon-chevron-left::before, .star__block i.lunacon-chevron-right::before, .star__block i.lunacon-chevron-up::before, .star__block i.lunacon-close-small::before, .star__block i.lunacon-close::before, .star__block i.lunacon-cloud-check-solid::before, .star__block i.lunacon-cloud-check::before, .star__block i.lunacon-cloud-solid::before, .star__block i.lunacon-cloud::before, .star__block i.lunacon-dailer-solid::before, .star__block i.lunacon-dailer::before, .star__block i.lunacon-dashboard::before, .star__block i.lunacon-download::before, .star__block i.lunacon-gift::before, .star__block i.lunacon-home-solid::before, .star__block i.lunacon-home::before, .star__block i.lunacon-key::before, .star__block i.lunacon-lock-open::before, .star__block i.lunacon-lock::before, .star__block i.lunacon-login::before, .star__block i.lunacon-logout::before, .star__block i.lunacon-microphone::before, .star__block i.lunacon-moon-solid::before, .star__block i.lunacon-moon::before, .star__block i.lunacon-navicon::before, .star__block i.lunacon-pencil::before, .star__block i.lunacon-search-min::before, .star__block i.lunacon-search-zoom::before, .star__block i.lunacon-search::before, .star__block i.lunacon-shield-lock-solid::before, .star__block i.lunacon-shield::before, .star__block i.lunacon-star-half-solid::before, .star__block i.lunacon-star-half::before, .star__block i.lunacon-star-solid::before, .star__block i.lunacon-star::before, .star__block i.lunacon-thumbs-down-solid::before, .star__block i.lunacon-thumbs-down::before, .star__block i.lunacon-thumbs-up-solid::before, .star__block i.lunacon-thumbs-up::before, .star__block i.lunacon-upload::before, .star__block i.lunacon-user-delete-solid::before, .star__block i.lunacon-user-delete::before, .star__block i.lunacon-user-solid::before, .star__block i.lunacon-user::before, .star__block i.lunacon-users-solid::before, .star__block i.lunacon-users::before {
+  .star__block i.lunacon, .star__block i.lunacon-address-book::before, .star__block i.lunacon-backward::before, .star__block i.lunacon-basket-solid::before, .star__block i.lunacon-basket::before, .star__block i.lunacon-bell-mute-solid::before, .star__block i.lunacon-bell-mute::before, .star__block i.lunacon-bell-solid::before, .star__block i.lunacon-bell::before, .star__block i.lunacon-cart-solid::before, .star__block i.lunacon-cart::before, .star__block i.lunacon-checkmark-small::before, .star__block i.lunacon-checkmark::before, .star__block i.lunacon-chevron-down::before, .star__block i.lunacon-chevron-left::before, .star__block i.lunacon-chevron-right::before, .star__block i.lunacon-chevron-up::before, .star__block i.lunacon-close-small::before, .star__block i.lunacon-close::before, .star__block i.lunacon-cloud-check-solid::before, .star__block i.lunacon-cloud-check::before, .star__block i.lunacon-cloud-solid::before, .star__block i.lunacon-cloud::before, .star__block i.lunacon-dailer-solid::before, .star__block i.lunacon-dailer::before, .star__block i.lunacon-dashboard::before, .star__block i.lunacon-download::before, .star__block i.lunacon-forward::before, .star__block i.lunacon-gift::before, .star__block i.lunacon-home-solid::before, .star__block i.lunacon-home::before, .star__block i.lunacon-key::before, .star__block i.lunacon-lock-open::before, .star__block i.lunacon-lock::before, .star__block i.lunacon-login::before, .star__block i.lunacon-logout::before, .star__block i.lunacon-microphone::before, .star__block i.lunacon-moon-solid::before, .star__block i.lunacon-moon::before, .star__block i.lunacon-navicon::before, .star__block i.lunacon-pause::before, .star__block i.lunacon-pencil::before, .star__block i.lunacon-play::before, .star__block i.lunacon-search-min::before, .star__block i.lunacon-search-zoom::before, .star__block i.lunacon-search::before, .star__block i.lunacon-shield-lock-solid::before, .star__block i.lunacon-shield::before, .star__block i.lunacon-skip-back::before, .star__block i.lunacon-skip-forward::before, .star__block i.lunacon-skip-next::before, .star__block i.lunacon-sound-big::before, .star__block i.lunacon-sound-mute::before, .star__block i.lunacon-sound-waves::before, .star__block i.lunacon-sound::before, .star__block i.lunacon-star-half-solid::before, .star__block i.lunacon-star-half::before, .star__block i.lunacon-star-solid::before, .star__block i.lunacon-star::before, .star__block i.lunacon-stop::before, .star__block i.lunacon-thumbs-down-solid::before, .star__block i.lunacon-thumbs-down::before, .star__block i.lunacon-thumbs-up-solid::before, .star__block i.lunacon-thumbs-up::before, .star__block i.lunacon-upload::before, .star__block i.lunacon-user-delete-solid::before, .star__block i.lunacon-user-delete::before, .star__block i.lunacon-user-solid::before, .star__block i.lunacon-user::before, .star__block i.lunacon-users-solid::before, .star__block i.lunacon-users::before {
     margin-right: 2px;
     font-size: 12px !important; }
 
@@ -4105,5 +4159,32 @@ Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
 /* line 86, Framework/sass/_arduino-light.scss */
 .hljs-number {
   color: #8A7B52; }
+
+/* line 153, Framework/sass/dev-style.sass */
+.media__ui {
+  background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#000));
+  background: -webkit-linear-gradient(top, #333, #000);
+  background: -o-linear-gradient(top, #333, #000);
+  background: linear-gradient(180deg, #333, #000);
+  list-style: none; }
+
+/* line 158, Framework/sass/dev-style.sass */
+.media__li i {
+  float: left;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  padding: 8px 12px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#000));
+  background: -webkit-linear-gradient(top, #333, #000);
+  background: -o-linear-gradient(top, #333, #000);
+  background: linear-gradient(180deg, #333, #000);
+  opacity: 1;
+  -webkit-transition: opacity 0.5 ease;
+  -o-transition: opacity 0.5 ease;
+  transition: opacity 0.5 ease; }
+  /* line 168, Framework/sass/dev-style.sass */
+  .media__li i:hover {
+    opacity: 0.75; }
 
 /*# sourceMappingURL=dev-style.css.map */

@@ -1,5 +1,5 @@
 // ==========================================
-// == Luna Framework
+// == Luna Framework - Lunacon
 // == AUTHOR: CLAUDE MYBURGH
 // == URL: http://lunaframework.co.za
 // ==========================================
@@ -67,119 +67,143 @@
 
 $unicode-address-book: "\E001";
 
-$unicode-basket-solid: "\E002";
+$unicode-backward: "\E002";
 
-$unicode-basket: "\E003";
+$unicode-basket-solid: "\E003";
 
-$unicode-bell-mute-solid: "\E004";
+$unicode-basket: "\E004";
 
-$unicode-bell-mute: "\E005";
+$unicode-bell-mute-solid: "\E005";
 
-$unicode-bell-solid: "\E006";
+$unicode-bell-mute: "\E006";
 
-$unicode-bell: "\E007";
+$unicode-bell-solid: "\E007";
 
-$unicode-cart-solid: "\E008";
+$unicode-bell: "\E008";
 
-$unicode-cart: "\E009";
+$unicode-cart-solid: "\E009";
 
-$unicode-checkmark-small: "\E00A";
+$unicode-cart: "\E00A";
 
-$unicode-checkmark: "\E00B";
+$unicode-checkmark-small: "\E00B";
 
-$unicode-chevron-down: "\E00C";
+$unicode-checkmark: "\E00C";
 
-$unicode-chevron-left: "\E00D";
+$unicode-chevron-down: "\E00D";
 
-$unicode-chevron-right: "\E00E";
+$unicode-chevron-left: "\E00E";
 
-$unicode-chevron-up: "\E00F";
+$unicode-chevron-right: "\E00F";
 
-$unicode-close-small: "\E010";
+$unicode-chevron-up: "\E010";
 
-$unicode-close: "\E011";
+$unicode-close-small: "\E011";
 
-$unicode-cloud-check-solid: "\E012";
+$unicode-close: "\E012";
 
-$unicode-cloud-check: "\E013";
+$unicode-cloud-check-solid: "\E013";
 
-$unicode-cloud-solid: "\E014";
+$unicode-cloud-check: "\E014";
 
-$unicode-cloud: "\E015";
+$unicode-cloud-solid: "\E015";
 
-$unicode-dailer-solid: "\E016";
+$unicode-cloud: "\E016";
 
-$unicode-dailer: "\E017";
+$unicode-dailer-solid: "\E017";
 
-$unicode-dashboard: "\E018";
+$unicode-dailer: "\E018";
 
-$unicode-download: "\E019";
+$unicode-dashboard: "\E019";
 
-$unicode-gift: "\E01A";
+$unicode-download: "\E01A";
 
-$unicode-home-solid: "\E01B";
+$unicode-forward: "\E01B";
 
-$unicode-home: "\E01C";
+$unicode-gift: "\E01C";
 
-$unicode-key: "\E01D";
+$unicode-home-solid: "\E01D";
 
-$unicode-lock-open: "\E01E";
+$unicode-home: "\E01E";
 
-$unicode-lock: "\E01F";
+$unicode-key: "\E01F";
 
-$unicode-login: "\E020";
+$unicode-lock-open: "\E020";
 
-$unicode-logout: "\E021";
+$unicode-lock: "\E021";
 
-$unicode-microphone: "\E022";
+$unicode-login: "\E022";
 
-$unicode-moon-solid: "\E023";
+$unicode-logout: "\E023";
 
-$unicode-moon: "\E024";
+$unicode-microphone: "\E024";
 
-$unicode-navicon: "\E025";
+$unicode-moon-solid: "\E025";
 
-$unicode-pencil: "\E026";
+$unicode-moon: "\E026";
 
-$unicode-search-min: "\E027";
+$unicode-navicon: "\E027";
 
-$unicode-search-zoom: "\E028";
+$unicode-pause: "\E028";
 
-$unicode-search: "\E029";
+$unicode-pencil: "\E029";
 
-$unicode-shield-lock-solid: "\E02A";
+$unicode-play: "\E02A";
 
-$unicode-shield: "\E02B";
+$unicode-search-min: "\E02B";
 
-$unicode-star-half-solid: "\E02C";
+$unicode-search-zoom: "\E02C";
 
-$unicode-star-half: "\E02D";
+$unicode-search: "\E02D";
 
-$unicode-star-solid: "\E02E";
+$unicode-shield-lock-solid: "\E02E";
 
-$unicode-star: "\E02F";
+$unicode-shield: "\E02F";
 
-$unicode-thumbs-down-solid: "\E030";
+$unicode-skip-back: "\E030";
 
-$unicode-thumbs-down: "\E031";
+$unicode-skip-forward: "\E031";
 
-$unicode-thumbs-up-solid: "\E032";
+$unicode-skip-next: "\E032";
 
-$unicode-thumbs-up: "\E033";
+$unicode-sound-big: "\E033";
 
-$unicode-upload: "\E034";
+$unicode-sound-mute: "\E034";
 
-$unicode-user-delete-solid: "\E035";
+$unicode-sound-waves: "\E035";
 
-$unicode-user-delete: "\E036";
+$unicode-sound: "\E036";
 
-$unicode-user-solid: "\E037";
+$unicode-star-half-solid: "\E037";
 
-$unicode-user: "\E038";
+$unicode-star-half: "\E038";
 
-$unicode-users-solid: "\E039";
+$unicode-star-solid: "\E039";
 
-$unicode-users: "\E03A";
+$unicode-star: "\E03A";
+
+$unicode-stop: "\E03B";
+
+$unicode-thumbs-down-solid: "\E03C";
+
+$unicode-thumbs-down: "\E03D";
+
+$unicode-thumbs-up-solid: "\E03E";
+
+$unicode-thumbs-up: "\E03F";
+
+$unicode-upload: "\E040";
+
+$unicode-user-delete-solid: "\E041";
+
+$unicode-user-delete: "\E042";
+
+$unicode-user-solid: "\E043";
+
+$unicode-user: "\E044";
+
+$unicode-users-solid: "\E045";
+
+$unicode-users: "\E046";
 
 
 
@@ -192,288 +216,348 @@ $unicode-users: "\E03A";
 		}
 
 	
-		@if $filename == basket-solid{
+		@if $filename == backward{
 			$char: "\E002";
 		}
 
 	
-		@if $filename == basket{
+		@if $filename == basket-solid{
 			$char: "\E003";
 		}
 
 	
-		@if $filename == bell-mute-solid{
+		@if $filename == basket{
 			$char: "\E004";
 		}
 
 	
-		@if $filename == bell-mute{
+		@if $filename == bell-mute-solid{
 			$char: "\E005";
 		}
 
 	
-		@if $filename == bell-solid{
+		@if $filename == bell-mute{
 			$char: "\E006";
 		}
 
 	
-		@if $filename == bell{
+		@if $filename == bell-solid{
 			$char: "\E007";
 		}
 
 	
-		@if $filename == cart-solid{
+		@if $filename == bell{
 			$char: "\E008";
 		}
 
 	
-		@if $filename == cart{
+		@if $filename == cart-solid{
 			$char: "\E009";
 		}
 
 	
-		@if $filename == checkmark-small{
+		@if $filename == cart{
 			$char: "\E00A";
 		}
 
 	
-		@if $filename == checkmark{
+		@if $filename == checkmark-small{
 			$char: "\E00B";
 		}
 
 	
-		@if $filename == chevron-down{
+		@if $filename == checkmark{
 			$char: "\E00C";
 		}
 
 	
-		@if $filename == chevron-left{
+		@if $filename == chevron-down{
 			$char: "\E00D";
 		}
 
 	
-		@if $filename == chevron-right{
+		@if $filename == chevron-left{
 			$char: "\E00E";
 		}
 
 	
-		@if $filename == chevron-up{
+		@if $filename == chevron-right{
 			$char: "\E00F";
 		}
 
 	
-		@if $filename == close-small{
+		@if $filename == chevron-up{
 			$char: "\E010";
 		}
 
 	
-		@if $filename == close{
+		@if $filename == close-small{
 			$char: "\E011";
 		}
 
 	
-		@if $filename == cloud-check-solid{
+		@if $filename == close{
 			$char: "\E012";
 		}
 
 	
-		@if $filename == cloud-check{
+		@if $filename == cloud-check-solid{
 			$char: "\E013";
 		}
 
 	
-		@if $filename == cloud-solid{
+		@if $filename == cloud-check{
 			$char: "\E014";
 		}
 
 	
-		@if $filename == cloud{
+		@if $filename == cloud-solid{
 			$char: "\E015";
 		}
 
 	
-		@if $filename == dailer-solid{
+		@if $filename == cloud{
 			$char: "\E016";
 		}
 
 	
-		@if $filename == dailer{
+		@if $filename == dailer-solid{
 			$char: "\E017";
 		}
 
 	
-		@if $filename == dashboard{
+		@if $filename == dailer{
 			$char: "\E018";
 		}
 
 	
-		@if $filename == download{
+		@if $filename == dashboard{
 			$char: "\E019";
 		}
 
 	
-		@if $filename == gift{
+		@if $filename == download{
 			$char: "\E01A";
 		}
 
 	
-		@if $filename == home-solid{
+		@if $filename == forward{
 			$char: "\E01B";
 		}
 
 	
-		@if $filename == home{
+		@if $filename == gift{
 			$char: "\E01C";
 		}
 
 	
-		@if $filename == key{
+		@if $filename == home-solid{
 			$char: "\E01D";
 		}
 
 	
-		@if $filename == lock-open{
+		@if $filename == home{
 			$char: "\E01E";
 		}
 
 	
-		@if $filename == lock{
+		@if $filename == key{
 			$char: "\E01F";
 		}
 
 	
-		@if $filename == login{
+		@if $filename == lock-open{
 			$char: "\E020";
 		}
 
 	
-		@if $filename == logout{
+		@if $filename == lock{
 			$char: "\E021";
 		}
 
 	
-		@if $filename == microphone{
+		@if $filename == login{
 			$char: "\E022";
 		}
 
 	
-		@if $filename == moon-solid{
+		@if $filename == logout{
 			$char: "\E023";
 		}
 
 	
-		@if $filename == moon{
+		@if $filename == microphone{
 			$char: "\E024";
 		}
 
 	
-		@if $filename == navicon{
+		@if $filename == moon-solid{
 			$char: "\E025";
 		}
 
 	
-		@if $filename == pencil{
+		@if $filename == moon{
 			$char: "\E026";
 		}
 
 	
-		@if $filename == search-min{
+		@if $filename == navicon{
 			$char: "\E027";
 		}
 
 	
-		@if $filename == search-zoom{
+		@if $filename == pause{
 			$char: "\E028";
 		}
 
 	
-		@if $filename == search{
+		@if $filename == pencil{
 			$char: "\E029";
 		}
 
 	
-		@if $filename == shield-lock-solid{
+		@if $filename == play{
 			$char: "\E02A";
 		}
 
 	
-		@if $filename == shield{
+		@if $filename == search-min{
 			$char: "\E02B";
 		}
 
 	
-		@if $filename == star-half-solid{
+		@if $filename == search-zoom{
 			$char: "\E02C";
 		}
 
 	
-		@if $filename == star-half{
+		@if $filename == search{
 			$char: "\E02D";
 		}
 
 	
-		@if $filename == star-solid{
+		@if $filename == shield-lock-solid{
 			$char: "\E02E";
 		}
 
 	
-		@if $filename == star{
+		@if $filename == shield{
 			$char: "\E02F";
 		}
 
 	
-		@if $filename == thumbs-down-solid{
+		@if $filename == skip-back{
 			$char: "\E030";
 		}
 
 	
-		@if $filename == thumbs-down{
+		@if $filename == skip-forward{
 			$char: "\E031";
 		}
 
 	
-		@if $filename == thumbs-up-solid{
+		@if $filename == skip-next{
 			$char: "\E032";
 		}
 
 	
-		@if $filename == thumbs-up{
+		@if $filename == sound-big{
 			$char: "\E033";
 		}
 
 	
-		@if $filename == upload{
+		@if $filename == sound-mute{
 			$char: "\E034";
 		}
 
 	
-		@if $filename == user-delete-solid{
+		@if $filename == sound-waves{
 			$char: "\E035";
 		}
 
 	
-		@if $filename == user-delete{
+		@if $filename == sound{
 			$char: "\E036";
 		}
 
 	
-		@if $filename == user-solid{
+		@if $filename == star-half-solid{
 			$char: "\E037";
 		}
 
 	
-		@if $filename == user{
+		@if $filename == star-half{
 			$char: "\E038";
 		}
 
 	
-		@if $filename == users-solid{
+		@if $filename == star-solid{
 			$char: "\E039";
 		}
 
 	
-		@if $filename == users{
+		@if $filename == star{
 			$char: "\E03A";
+		}
+
+	
+		@if $filename == stop{
+			$char: "\E03B";
+		}
+
+	
+		@if $filename == thumbs-down-solid{
+			$char: "\E03C";
+		}
+
+	
+		@if $filename == thumbs-down{
+			$char: "\E03D";
+		}
+
+	
+		@if $filename == thumbs-up-solid{
+			$char: "\E03E";
+		}
+
+	
+		@if $filename == thumbs-up{
+			$char: "\E03F";
+		}
+
+	
+		@if $filename == upload{
+			$char: "\E040";
+		}
+
+	
+		@if $filename == user-delete-solid{
+			$char: "\E041";
+		}
+
+	
+		@if $filename == user-delete{
+			$char: "\E042";
+		}
+
+	
+		@if $filename == user-solid{
+			$char: "\E043";
+		}
+
+	
+		@if $filename == user{
+			$char: "\E044";
+		}
+
+	
+		@if $filename == users-solid{
+			$char: "\E045";
+		}
+
+	
+		@if $filename == users{
+			$char: "\E046";
 		}
 
 	
@@ -493,6 +577,9 @@ $unicode-users: "\E03A";
 
 .lunacon-address-book {
 	@include lunacon(address-book);
+}
+.lunacon-backward {
+	@include lunacon(backward);
 }
 .lunacon-basket-solid {
 	@include lunacon(basket-solid);
@@ -566,6 +653,9 @@ $unicode-users: "\E03A";
 .lunacon-download {
 	@include lunacon(download);
 }
+.lunacon-forward {
+	@include lunacon(forward);
+}
 .lunacon-gift {
 	@include lunacon(gift);
 }
@@ -602,8 +692,14 @@ $unicode-users: "\E03A";
 .lunacon-navicon {
 	@include lunacon(navicon);
 }
+.lunacon-pause {
+	@include lunacon(pause);
+}
 .lunacon-pencil {
 	@include lunacon(pencil);
+}
+.lunacon-play {
+	@include lunacon(play);
 }
 .lunacon-search-min {
 	@include lunacon(search-min);
@@ -620,6 +716,27 @@ $unicode-users: "\E03A";
 .lunacon-shield {
 	@include lunacon(shield);
 }
+.lunacon-skip-back {
+	@include lunacon(skip-back);
+}
+.lunacon-skip-forward {
+	@include lunacon(skip-forward);
+}
+.lunacon-skip-next {
+	@include lunacon(skip-next);
+}
+.lunacon-sound-big {
+	@include lunacon(sound-big);
+}
+.lunacon-sound-mute {
+	@include lunacon(sound-mute);
+}
+.lunacon-sound-waves {
+	@include lunacon(sound-waves);
+}
+.lunacon-sound {
+	@include lunacon(sound);
+}
 .lunacon-star-half-solid {
 	@include lunacon(star-half-solid);
 }
@@ -631,6 +748,9 @@ $unicode-users: "\E03A";
 }
 .lunacon-star {
 	@include lunacon(star);
+}
+.lunacon-stop {
+	@include lunacon(stop);
 }
 .lunacon-thumbs-down-solid {
 	@include lunacon(thumbs-down-solid);
