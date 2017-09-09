@@ -1,6 +1,54 @@
 
-$base-font-size: 14px
-$the__max__width__of__wrapper: 960px
-$the__column__count: 12
+// ==========================================
+// == Global Styles
+// ==========================================
 
-$the__button__font__size: $base-font-size
+
+$global-border-radius: 3px
+
+$global-background-color: #fff
+$global-font-color: #666
+$global-link-color: #039be5
+$global-header-font: 'Montserrat Alternates', sans-serif
+$global-body-font: 'Roboto', sans-serif
+
+$font-path: '../fonts'
+
+
+// ==========================================
+// == Colors
+// ==========================================
+
+
+
+// Main Colors
+$primary-color: #069
+$secondary-color: teal
+$dark-color: #021826
+
+$mute-color: #f7f7f7
+$mute-border-color: #e6e9ec
+
+$well-color: $mute-color
+$well-border-color: $mute-border-color
+
+// notifacation colors
+$info-color: mix($primary-color, #4285f4, 15%)
+$warning-color: mix($primary-color, #f09300, 15%)
+$success-color: mix($primary-color, #008c3a, 15%)
+$danger-color: mix($primary-color, #ea4335, 15%)
+
+
+
+// ==========================================
+// == COLOR MAP
+// ==========================================
+
+$_colors: (primary: $primary-color, secondary: $secondary-color, dark: $dark-color)
+$_custom_colors: (black: #000, white: #fff)
+
+$_nofiy_colors: (default: #fff, info: $info-color, success: $success-color, warning: $warning-color, danger: $danger-color, )
+
+// Merge Colors
+$_color_set: map-merge($_colors, $_custom_colors)
+$_color_set: map-merge($_color_set, $_nofiy_colors)

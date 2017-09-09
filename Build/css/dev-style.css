@@ -12,8 +12,8 @@
 html {
   /* Change the default font family in all browsers (opinionated). */
   font-family: "Roboto", sans-serif;
-  font-size: 87.5%;
-  line-height: 1.71429em;
+  font-size: 100%;
+  line-height: 1.5em;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -47,38 +47,38 @@ section {
      */
 /* line 107, Framework/sass/normalize/_normalize-mixin.scss */
 h1 {
-  font-size: 2.51429em;
+  font-size: 2.2em;
   line-height: 1.36364em;
   /* Set 1 unit of vertical rhythm on the top and bottom margins. */
   margin: 0.68182em 0; }
 
 /* line 123, Framework/sass/normalize/_normalize-mixin.scss */
 h2 {
-  font-size: 1.71429em;
+  font-size: 1.5em;
   line-height: 2em;
   margin: 1em 0; }
 
 /* line 129, Framework/sass/normalize/_normalize-mixin.scss */
 h3 {
-  font-size: 1.33714em;
+  font-size: 1.17em;
   line-height: 1.28205em;
   margin: 1.28205em 0; }
 
 /* line 135, Framework/sass/normalize/_normalize-mixin.scss */
 h4 {
-  font-size: 1.14286em;
+  font-size: 1em;
   line-height: 1.5em;
   margin: 1.5em 0; }
 
 /* line 141, Framework/sass/normalize/_normalize-mixin.scss */
 h5 {
-  font-size: 0.94857em;
+  font-size: 0.83em;
   line-height: 1.80723em;
   margin: 1.80723em 0; }
 
 /* line 147, Framework/sass/normalize/_normalize-mixin.scss */
 h6 {
-  font-size: 0.76571em;
+  font-size: 0.67em;
   line-height: 2.23881em;
   margin: 2.23881em 0; }
 
@@ -89,13 +89,13 @@ h6 {
        */
 /* line 164, Framework/sass/normalize/_normalize-mixin.scss */
 blockquote {
-  margin: 1.71429em 40px; }
+  margin: 1.5em 40px; }
 
 /* line 168, Framework/sass/normalize/_normalize-mixin.scss */
 dl,
 ol,
 ul {
-  margin: 1.71429em 0; }
+  margin: 1.5em 0; }
 
 /**
        * Turn off margins on nested lists.
@@ -129,7 +129,7 @@ figure {
      */
 /* line 209, Framework/sass/normalize/_normalize-mixin.scss */
 figure {
-  margin: 1.71429em 40px; }
+  margin: 1.5em 40px; }
 
 /**
      * 1. Add the correct box sizing in Firefox.
@@ -158,7 +158,7 @@ main {
 /* line 242, Framework/sass/normalize/_normalize-mixin.scss */
 p,
 pre {
-  margin: 1.71429em 0; }
+  margin: 1.5em 0; }
 
 /**
      * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -319,7 +319,7 @@ textarea {
   /* 1 */
   font-size: 100%;
   /* 1 */
-  line-height: 1.71429em;
+  line-height: 1.5em;
   /* 1 */
   margin: 0;
   /* 2 */ }
@@ -508,7 +508,7 @@ menu {
          * 1. Set 1 unit of vertical rhythm on the top and bottom margin.
          * 2. Set consistent space for the list style image.
          */
-  margin: 1.71429em 0;
+  margin: 1.5em 0;
   /* 1 */
   padding: 0 0 0 40px;
   /* 2 */
@@ -558,7 +558,7 @@ template {
 body {
   background: #fff;
   color: #666;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   overflow-x: hidden; }
 
@@ -620,7 +620,7 @@ a:hover {
 .wrapper {
   position: relative;
   width: 98%;
-  max-width: 960px;
+  max-width: 1140px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -1541,11 +1541,11 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
 /* line 15, Framework/sass/helpers/_helpers.sass */
 .text--secondary,
 .color--secondary {
-  color: #5c258d !important; }
+  color: teal !important; }
   /* line 17, Framework/sass/helpers/_helpers.sass */
   .text--secondary-light,
   .color--secondary-light {
-    color: #cebedd !important; }
+    color: #b3d9d9 !important; }
 
 /* line 15, Framework/sass/helpers/_helpers.sass */
 .text--dark,
@@ -1586,38 +1586,38 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
 /* line 15, Framework/sass/helpers/_helpers.sass */
 .text--info,
 .color--info {
-  color: #4285f4 !important; }
+  color: #3880e6 !important; }
   /* line 17, Framework/sass/helpers/_helpers.sass */
   .text--info-light,
   .color--info-light {
-    color: #c6dafc !important; }
+    color: #c3d9f8 !important; }
 
 /* line 15, Framework/sass/helpers/_helpers.sass */
 .text--success,
 .color--success {
-  color: #008c3a !important; }
+  color: #008648 !important; }
   /* line 17, Framework/sass/helpers/_helpers.sass */
   .text--success-light,
   .color--success-light {
-    color: #b3ddc4 !important; }
+    color: #b3dbc8 !important; }
 
 /* line 15, Framework/sass/helpers/_helpers.sass */
 .text--warning,
 .color--warning {
-  color: #f09300 !important; }
+  color: #cc8c17 !important; }
   /* line 17, Framework/sass/helpers/_helpers.sass */
   .text--warning-light,
   .color--warning-light {
-    color: #fbdfb3 !important; }
+    color: #f0ddb9 !important; }
 
 /* line 15, Framework/sass/helpers/_helpers.sass */
 .text--danger,
 .color--danger {
-  color: #ea4335 !important; }
+  color: #c74844 !important; }
   /* line 17, Framework/sass/helpers/_helpers.sass */
   .text--danger-light,
   .color--danger-light {
-    color: #f9c7c2 !important; }
+    color: #eec8c7 !important; }
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--primary {
@@ -1628,10 +1628,10 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--secondary {
-  background-color: #5c258d !important; }
+  background-color: teal !important; }
   /* line 25, Framework/sass/helpers/_helpers.sass */
   .background--secondary-light {
-    background-color: #efe9f4 !important; }
+    background-color: #e6f2f2 !important; }
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--dark {
@@ -1663,31 +1663,31 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--info {
-  background-color: #4285f4 !important; }
+  background-color: #3880e6 !important; }
   /* line 25, Framework/sass/helpers/_helpers.sass */
   .background--info-light {
-    background-color: #ecf3fe !important; }
+    background-color: #ebf2fd !important; }
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--success {
-  background-color: #008c3a !important; }
+  background-color: #008648 !important; }
   /* line 25, Framework/sass/helpers/_helpers.sass */
   .background--success-light {
-    background-color: #e6f4eb !important; }
+    background-color: #e6f3ed !important; }
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--warning {
-  background-color: #f09300 !important; }
+  background-color: #cc8c17 !important; }
   /* line 25, Framework/sass/helpers/_helpers.sass */
   .background--warning-light {
-    background-color: #fef4e6 !important; }
+    background-color: #faf4e8 !important; }
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--danger {
-  background-color: #ea4335 !important; }
+  background-color: #c74844 !important; }
   /* line 25, Framework/sass/helpers/_helpers.sass */
   .background--danger-light {
-    background-color: #fdeceb !important; }
+    background-color: #f9edec !important; }
 
 /* line 32, Framework/sass/helpers/_helpers.sass */
 .border--primary, .button {
@@ -1702,12 +1702,12 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
 
 /* line 32, Framework/sass/helpers/_helpers.sass */
 .border--secondary {
-  border-color: #5c258d !important;
+  border-color: teal !important;
   border-width: 1px;
   border-style: solid; }
   /* line 37, Framework/sass/helpers/_helpers.sass */
   .border--secondary-light {
-    border-color: #cebedd !important;
+    border-color: #b3d9d9 !important;
     border-width: 1px;
     border-style: solid; }
 
@@ -1757,45 +1757,45 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
 
 /* line 32, Framework/sass/helpers/_helpers.sass */
 .border--info {
-  border-color: #4285f4 !important;
+  border-color: #3880e6 !important;
   border-width: 1px;
   border-style: solid; }
   /* line 37, Framework/sass/helpers/_helpers.sass */
   .border--info-light {
-    border-color: #c6dafc !important;
+    border-color: #c3d9f8 !important;
     border-width: 1px;
     border-style: solid; }
 
 /* line 32, Framework/sass/helpers/_helpers.sass */
 .border--success {
-  border-color: #008c3a !important;
+  border-color: #008648 !important;
   border-width: 1px;
   border-style: solid; }
   /* line 37, Framework/sass/helpers/_helpers.sass */
   .border--success-light {
-    border-color: #b3ddc4 !important;
+    border-color: #b3dbc8 !important;
     border-width: 1px;
     border-style: solid; }
 
 /* line 32, Framework/sass/helpers/_helpers.sass */
 .border--warning {
-  border-color: #f09300 !important;
+  border-color: #cc8c17 !important;
   border-width: 1px;
   border-style: solid; }
   /* line 37, Framework/sass/helpers/_helpers.sass */
   .border--warning-light {
-    border-color: #fbdfb3 !important;
+    border-color: #f0ddb9 !important;
     border-width: 1px;
     border-style: solid; }
 
 /* line 32, Framework/sass/helpers/_helpers.sass */
 .border--danger {
-  border-color: #ea4335 !important;
+  border-color: #c74844 !important;
   border-width: 1px;
   border-style: solid; }
   /* line 37, Framework/sass/helpers/_helpers.sass */
   .border--danger-light {
-    border-color: #f9c7c2 !important;
+    border-color: #eec8c7 !important;
     border-width: 1px;
     border-style: solid; }
 
@@ -1940,7 +1940,7 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
   /* line 65, Framework/sass/components/_navigation.sass */
   .nav__wrapper {
     width: 98%;
-    max-width: 960px;
+    max-width: 1140px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -2238,14 +2238,14 @@ input[type="submit"].button {
   display: inline-block;
   letter-spacing: 1px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   font-family: Roboto, sans-serif;
   margin: 0;
   min-width: 36px;
   outline: 0;
   overflow: hidden;
   padding: 4px 16px;
-  line-height: 26px;
+  line-height: 28px;
   text-align: center;
   text-decoration: none;
   -o-text-overflow: ellipsis;
@@ -2375,7 +2375,7 @@ input[type="submit"].button {
   a.btn--secondary,
   button.btn--secondary,
   input[type="submit"].btn--secondary {
-    background: #5c258d;
+    background: teal;
     color: #fff; }
     /* line 26, Framework/sass/components/_buttons.sass */
     .btn--secondary:hover, .btn--secondary:active, .btn--secondary:focus,
@@ -2388,7 +2388,7 @@ input[type="submit"].button {
     input[type="submit"].btn--secondary:hover,
     input[type="submit"].btn--secondary:active,
     input[type="submit"].btn--secondary:focus {
-      background: #4f2079;
+      background: #006767;
       -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
     /* line 34, Framework/sass/components/_buttons.sass */
@@ -2396,14 +2396,14 @@ input[type="submit"].button {
     a.btn--secondary-gradient,
     button.btn--secondary-gradient,
     input[type="submit"].btn--secondary-gradient {
-      background: #5c258d;
-      background: -webkit-gradient(linear, left top, left bottom, from(#5c258d), to(#4f2079));
-      background: -webkit-linear-gradient(top, #5c258d, #4f2079);
-      background: -o-linear-gradient(top, #5c258d, #4f2079);
-      background: linear-gradient(180deg, #5c258d, #4f2079);
+      background: teal;
+      background: -webkit-gradient(linear, left top, left bottom, from(teal), to(#006767));
+      background: -webkit-linear-gradient(top, teal, #006767);
+      background: -o-linear-gradient(top, teal, #006767);
+      background: linear-gradient(180deg, teal, #006767);
       color: #fff;
-      border: solid 1px #4f2079;
-      text-shadow: #27103c 0 1px 1px; }
+      border: solid 1px #006767;
+      text-shadow: #001a1a 0 1px 1px; }
       /* line 44, Framework/sass/components/_buttons.sass */
       .btn--secondary-gradient:hover, .btn--secondary-gradient:active, .btn--secondary-gradient:focus,
       a.btn--secondary-gradient:hover,
@@ -2415,11 +2415,11 @@ input[type="submit"].button {
       input[type="submit"].btn--secondary-gradient:hover,
       input[type="submit"].btn--secondary-gradient:active,
       input[type="submit"].btn--secondary-gradient:focus {
-        background: #4f2079;
-        background: -webkit-gradient(linear, left top, left bottom, from(#572385), to(#4a1e71));
-        background: -webkit-linear-gradient(top, #572385, #4a1e71);
-        background: -o-linear-gradient(top, #572385, #4a1e71);
-        background: linear-gradient(180deg, #572385, #4a1e71);
+        background: #006767;
+        background: -webkit-gradient(linear, left top, left bottom, from(#007676), to(#005c5c));
+        background: -webkit-linear-gradient(top, #007676, #005c5c);
+        background: -o-linear-gradient(top, #007676, #005c5c);
+        background: linear-gradient(180deg, #007676, #005c5c);
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
   /* line 19, Framework/sass/components/_buttons.sass */
@@ -2640,7 +2640,7 @@ input[type="submit"].button {
   a.btn--info,
   button.btn--info,
   input[type="submit"].btn--info {
-    background: #4285f4;
+    background: #3880e6;
     color: #fff; }
     /* line 26, Framework/sass/components/_buttons.sass */
     .btn--info:hover, .btn--info:active, .btn--info:focus,
@@ -2653,7 +2653,7 @@ input[type="submit"].button {
     input[type="submit"].btn--info:hover,
     input[type="submit"].btn--info:active,
     input[type="submit"].btn--info:focus {
-      background: #2a75f3;
+      background: #2172e3;
       -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
     /* line 34, Framework/sass/components/_buttons.sass */
@@ -2661,14 +2661,14 @@ input[type="submit"].button {
     a.btn--info-gradient,
     button.btn--info-gradient,
     input[type="submit"].btn--info-gradient {
-      background: #4285f4;
-      background: -webkit-gradient(linear, left top, left bottom, from(#4285f4), to(#2a75f3));
-      background: -webkit-linear-gradient(top, #4285f4, #2a75f3);
-      background: -o-linear-gradient(top, #4285f4, #2a75f3);
-      background: linear-gradient(180deg, #4285f4, #2a75f3);
+      background: #3880e6;
+      background: -webkit-gradient(linear, left top, left bottom, from(#3880e6), to(#2172e3));
+      background: -webkit-linear-gradient(top, #3880e6, #2172e3);
+      background: -o-linear-gradient(top, #3880e6, #2172e3);
+      background: linear-gradient(180deg, #3880e6, #2172e3);
       color: #fff;
-      border: solid 1px #2a75f3;
-      text-shadow: #0b51c5 0 1px 1px; }
+      border: solid 1px #2172e3;
+      text-shadow: #1550a3 0 1px 1px; }
       /* line 44, Framework/sass/components/_buttons.sass */
       .btn--info-gradient:hover, .btn--info-gradient:active, .btn--info-gradient:focus,
       a.btn--info-gradient:hover,
@@ -2680,11 +2680,11 @@ input[type="submit"].button {
       input[type="submit"].btn--info-gradient:hover,
       input[type="submit"].btn--info-gradient:active,
       input[type="submit"].btn--info-gradient:focus {
-        background: #2a75f3;
-        background: -webkit-gradient(linear, left top, left bottom, from(#387ff3), to(#206ff2));
-        background: -webkit-linear-gradient(top, #387ff3, #206ff2);
-        background: -o-linear-gradient(top, #387ff3, #206ff2);
-        background: linear-gradient(180deg, #387ff3, #206ff2);
+        background: #2172e3;
+        background: -webkit-gradient(linear, left top, left bottom, from(#2f7ae5), to(#1c6cde));
+        background: -webkit-linear-gradient(top, #2f7ae5, #1c6cde);
+        background: -o-linear-gradient(top, #2f7ae5, #1c6cde);
+        background: linear-gradient(180deg, #2f7ae5, #1c6cde);
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
   /* line 19, Framework/sass/components/_buttons.sass */
@@ -2692,7 +2692,7 @@ input[type="submit"].button {
   a.btn--success,
   button.btn--success,
   input[type="submit"].btn--success {
-    background: #008c3a;
+    background: #008648;
     color: #fff; }
     /* line 26, Framework/sass/components/_buttons.sass */
     .btn--success:hover, .btn--success:active, .btn--success:focus,
@@ -2705,7 +2705,7 @@ input[type="submit"].button {
     input[type="submit"].btn--success:hover,
     input[type="submit"].btn--success:active,
     input[type="submit"].btn--success:focus {
-      background: #00732f;
+      background: #006d3a;
       -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
     /* line 34, Framework/sass/components/_buttons.sass */
@@ -2713,14 +2713,14 @@ input[type="submit"].button {
     a.btn--success-gradient,
     button.btn--success-gradient,
     input[type="submit"].btn--success-gradient {
-      background: #008c3a;
-      background: -webkit-gradient(linear, left top, left bottom, from(#008c3a), to(#00732f));
-      background: -webkit-linear-gradient(top, #008c3a, #00732f);
-      background: -o-linear-gradient(top, #008c3a, #00732f);
-      background: linear-gradient(180deg, #008c3a, #00732f);
+      background: #008648;
+      background: -webkit-gradient(linear, left top, left bottom, from(#008648), to(#006d3a));
+      background: -webkit-linear-gradient(top, #008648, #006d3a);
+      background: -o-linear-gradient(top, #008648, #006d3a);
+      background: linear-gradient(180deg, #008648, #006d3a);
       color: #fff;
-      border: solid 1px #00732f;
-      text-shadow: #002610 0 1px 1px; }
+      border: solid 1px #006d3a;
+      text-shadow: #002011 0 1px 1px; }
       /* line 44, Framework/sass/components/_buttons.sass */
       .btn--success-gradient:hover, .btn--success-gradient:active, .btn--success-gradient:focus,
       a.btn--success-gradient:hover,
@@ -2732,11 +2732,11 @@ input[type="submit"].button {
       input[type="submit"].btn--success-gradient:hover,
       input[type="submit"].btn--success-gradient:active,
       input[type="submit"].btn--success-gradient:focus {
-        background: #00732f;
-        background: -webkit-gradient(linear, left top, left bottom, from(#008236), to(#00682b));
-        background: -webkit-linear-gradient(top, #008236, #00682b);
-        background: -o-linear-gradient(top, #008236, #00682b);
-        background: linear-gradient(180deg, #008236, #00682b);
+        background: #006d3a;
+        background: -webkit-gradient(linear, left top, left bottom, from(#007c43), to(#006235));
+        background: -webkit-linear-gradient(top, #007c43, #006235);
+        background: -o-linear-gradient(top, #007c43, #006235);
+        background: linear-gradient(180deg, #007c43, #006235);
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
   /* line 19, Framework/sass/components/_buttons.sass */
@@ -2744,7 +2744,7 @@ input[type="submit"].button {
   a.btn--warning,
   button.btn--warning,
   input[type="submit"].btn--warning {
-    background: #f09300;
+    background: #cc8c17;
     color: #fff; }
     /* line 26, Framework/sass/components/_buttons.sass */
     .btn--warning:hover, .btn--warning:active, .btn--warning:focus,
@@ -2757,7 +2757,7 @@ input[type="submit"].button {
     input[type="submit"].btn--warning:hover,
     input[type="submit"].btn--warning:active,
     input[type="submit"].btn--warning:focus {
-      background: #d78300;
+      background: #b57c14;
       -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
     /* line 34, Framework/sass/components/_buttons.sass */
@@ -2765,14 +2765,14 @@ input[type="submit"].button {
     a.btn--warning-gradient,
     button.btn--warning-gradient,
     input[type="submit"].btn--warning-gradient {
-      background: #f09300;
-      background: -webkit-gradient(linear, left top, left bottom, from(#f09300), to(#d78300));
-      background: -webkit-linear-gradient(top, #f09300, #d78300);
-      background: -o-linear-gradient(top, #f09300, #d78300);
-      background: linear-gradient(180deg, #f09300, #d78300);
+      background: #cc8c17;
+      background: -webkit-gradient(linear, left top, left bottom, from(#cc8c17), to(#b57c14));
+      background: -webkit-linear-gradient(top, #cc8c17, #b57c14);
+      background: -o-linear-gradient(top, #cc8c17, #b57c14);
+      background: linear-gradient(180deg, #cc8c17, #b57c14);
       color: #fff;
-      border: solid 1px #d78300;
-      text-shadow: #8a5500 0 1px 1px; }
+      border: solid 1px #b57c14;
+      text-shadow: #704d0d 0 1px 1px; }
       /* line 44, Framework/sass/components/_buttons.sass */
       .btn--warning-gradient:hover, .btn--warning-gradient:active, .btn--warning-gradient:focus,
       a.btn--warning-gradient:hover,
@@ -2784,11 +2784,11 @@ input[type="submit"].button {
       input[type="submit"].btn--warning-gradient:hover,
       input[type="submit"].btn--warning-gradient:active,
       input[type="submit"].btn--warning-gradient:focus {
-        background: #d78300;
-        background: -webkit-gradient(linear, left top, left bottom, from(#e68d00), to(#cc7d00));
-        background: -webkit-linear-gradient(top, #e68d00, #cc7d00);
-        background: -o-linear-gradient(top, #e68d00, #cc7d00);
-        background: linear-gradient(180deg, #e68d00, #cc7d00);
+        background: #b57c14;
+        background: -webkit-gradient(linear, left top, left bottom, from(#c38616), to(#ac7613));
+        background: -webkit-linear-gradient(top, #c38616, #ac7613);
+        background: -o-linear-gradient(top, #c38616, #ac7613);
+        background: linear-gradient(180deg, #c38616, #ac7613);
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
   /* line 19, Framework/sass/components/_buttons.sass */
@@ -2796,7 +2796,7 @@ input[type="submit"].button {
   a.btn--danger,
   button.btn--danger,
   input[type="submit"].btn--danger {
-    background: #ea4335;
+    background: #c74844;
     color: #fff; }
     /* line 26, Framework/sass/components/_buttons.sass */
     .btn--danger:hover, .btn--danger:active, .btn--danger:focus,
@@ -2809,7 +2809,7 @@ input[type="submit"].button {
     input[type="submit"].btn--danger:hover,
     input[type="submit"].btn--danger:active,
     input[type="submit"].btn--danger:focus {
-      background: #e82e1e;
+      background: #ba3c38;
       -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
     /* line 34, Framework/sass/components/_buttons.sass */
@@ -2817,14 +2817,14 @@ input[type="submit"].button {
     a.btn--danger-gradient,
     button.btn--danger-gradient,
     input[type="submit"].btn--danger-gradient {
-      background: #ea4335;
-      background: -webkit-gradient(linear, left top, left bottom, from(#ea4335), to(#e82e1e));
-      background: -webkit-linear-gradient(top, #ea4335, #e82e1e);
-      background: -o-linear-gradient(top, #ea4335, #e82e1e);
-      background: linear-gradient(180deg, #ea4335, #e82e1e);
+      background: #c74844;
+      background: -webkit-gradient(linear, left top, left bottom, from(#c74844), to(#ba3c38));
+      background: -webkit-linear-gradient(top, #c74844, #ba3c38);
+      background: -o-linear-gradient(top, #c74844, #ba3c38);
+      background: linear-gradient(180deg, #c74844, #ba3c38);
       color: #fff;
-      border: solid 1px #e82e1e;
-      text-shadow: #a81d11 0 1px 1px; }
+      border: solid 1px #ba3c38;
+      text-shadow: #7f2926 0 1px 1px; }
       /* line 44, Framework/sass/components/_buttons.sass */
       .btn--danger-gradient:hover, .btn--danger-gradient:active, .btn--danger-gradient:focus,
       a.btn--danger-gradient:hover,
@@ -2836,11 +2836,11 @@ input[type="submit"].button {
       input[type="submit"].btn--danger-gradient:hover,
       input[type="submit"].btn--danger-gradient:active,
       input[type="submit"].btn--danger-gradient:focus {
-        background: #e82e1e;
-        background: -webkit-gradient(linear, left top, left bottom, from(#e93a2c), to(#e42718));
-        background: -webkit-linear-gradient(top, #e93a2c, #e42718);
-        background: -o-linear-gradient(top, #e93a2c, #e42718);
-        background: linear-gradient(180deg, #e93a2c, #e42718);
+        background: #ba3c38;
+        background: -webkit-gradient(linear, left top, left bottom, from(#c5403c), to(#b23935));
+        background: -webkit-linear-gradient(top, #c5403c, #b23935);
+        background: -o-linear-gradient(top, #c5403c, #b23935);
+        background: linear-gradient(180deg, #c5403c, #b23935);
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
   /* line 53, Framework/sass/components/_buttons.sass */
@@ -2849,7 +2849,7 @@ input[type="submit"].button {
   button.btn--xs,
   input[type="submit"].btn--xs {
     padding: 1px 4px;
-    line-height: 17px;
+    line-height: 19px;
     font-size: 75%; }
   /* line 58, Framework/sass/components/_buttons.sass */
   .btn--sm,
@@ -2857,28 +2857,28 @@ input[type="submit"].button {
   button.btn--sm,
   input[type="submit"].btn--sm {
     padding: 2px 8px;
-    line-height: 20px; }
+    line-height: 22px; }
   /* line 63, Framework/sass/components/_buttons.sass */
   .btn--md,
   a.btn--md,
   button.btn--md,
   input[type="submit"].btn--md {
     padding: 4px 16px;
-    line-height: 26px; }
+    line-height: 28px; }
   /* line 68, Framework/sass/components/_buttons.sass */
   .btn--lg,
   a.btn--lg,
   button.btn--lg,
   input[type="submit"].btn--lg {
     padding: 8px 32px;
-    line-height: 30px; }
+    line-height: 32px; }
   /* line 73, Framework/sass/components/_buttons.sass */
   .btn--xl,
   a.btn--xl,
   button.btn--xl,
   input[type="submit"].btn--xl {
     padding: 16px 64px;
-    line-height: 38px; }
+    line-height: 40px; }
   /* line 77, Framework/sass/components/_buttons.sass */
   .btn--block,
   a.btn--block,
@@ -2996,7 +2996,7 @@ input[type="submit"].button {
 
 /* line 8, Framework/sass/components/_form.sass */
 .form * {
-  line-height: 26px; }
+  line-height: 28px; }
 
 /* line 11, Framework/sass/components/_form.sass */
 .form__group {
@@ -3042,24 +3042,24 @@ input[type="submit"].button {
   /* line 43, Framework/sass/components/_form.sass */
   .form__item--xs {
     padding: 1px 8px;
-    line-height: 17px;
+    line-height: 19px;
     font-size: 75%; }
   /* line 48, Framework/sass/components/_form.sass */
   .form__item--sm {
     padding: 2px 8px;
-    line-height: 20px; }
+    line-height: 22px; }
   /* line 53, Framework/sass/components/_form.sass */
   .form__item--md {
     padding: 4px 8px;
-    line-height: 26px; }
+    line-height: 28px; }
   /* line 58, Framework/sass/components/_form.sass */
   .form__item--lg {
     padding: 8px 8px;
-    line-height: 30px; }
+    line-height: 32px; }
   /* line 63, Framework/sass/components/_form.sass */
   .form__item--xl {
     padding: 16px 8px;
-    line-height: 38px; }
+    line-height: 40px; }
   /* line 69, Framework/sass/components/_form.sass */
   .form__item__group {
     display: -webkit-box;
@@ -3130,59 +3130,59 @@ textarea.form__item {
 
 /* line 114, Framework/sass/components/_form.sass */
 .has__info {
-  color: #4285f4; }
+  color: #3880e6; }
   /* line 116, Framework/sass/components/_form.sass */
   .has__info .form__item {
-    border: solid 1px #4285f4;
+    border: solid 1px #3880e6;
     outline: none; }
     /* line 120, Framework/sass/components/_form.sass */
     .has__info .form__item:focus {
       outline: none;
-      border: solid 1px #4285f4;
-      -webkit-box-shadow: #4285f4 0 0 6px;
-      box-shadow: #4285f4 0 0 6px; }
+      border: solid 1px #3880e6;
+      -webkit-box-shadow: #3880e6 0 0 6px;
+      box-shadow: #3880e6 0 0 6px; }
 
 /* line 114, Framework/sass/components/_form.sass */
 .has__success {
-  color: #008c3a; }
+  color: #008648; }
   /* line 116, Framework/sass/components/_form.sass */
   .has__success .form__item {
-    border: solid 1px #008c3a;
+    border: solid 1px #008648;
     outline: none; }
     /* line 120, Framework/sass/components/_form.sass */
     .has__success .form__item:focus {
       outline: none;
-      border: solid 1px #008c3a;
-      -webkit-box-shadow: #008c3a 0 0 6px;
-      box-shadow: #008c3a 0 0 6px; }
+      border: solid 1px #008648;
+      -webkit-box-shadow: #008648 0 0 6px;
+      box-shadow: #008648 0 0 6px; }
 
 /* line 114, Framework/sass/components/_form.sass */
 .has__warning {
-  color: #f09300; }
+  color: #cc8c17; }
   /* line 116, Framework/sass/components/_form.sass */
   .has__warning .form__item {
-    border: solid 1px #f09300;
+    border: solid 1px #cc8c17;
     outline: none; }
     /* line 120, Framework/sass/components/_form.sass */
     .has__warning .form__item:focus {
       outline: none;
-      border: solid 1px #f09300;
-      -webkit-box-shadow: #f09300 0 0 6px;
-      box-shadow: #f09300 0 0 6px; }
+      border: solid 1px #cc8c17;
+      -webkit-box-shadow: #cc8c17 0 0 6px;
+      box-shadow: #cc8c17 0 0 6px; }
 
 /* line 114, Framework/sass/components/_form.sass */
 .has__danger {
-  color: #ea4335; }
+  color: #c74844; }
   /* line 116, Framework/sass/components/_form.sass */
   .has__danger .form__item {
-    border: solid 1px #ea4335;
+    border: solid 1px #c74844;
     outline: none; }
     /* line 120, Framework/sass/components/_form.sass */
     .has__danger .form__item:focus {
       outline: none;
-      border: solid 1px #ea4335;
-      -webkit-box-shadow: #ea4335 0 0 6px;
-      box-shadow: #ea4335 0 0 6px; }
+      border: solid 1px #c74844;
+      -webkit-box-shadow: #c74844 0 0 6px;
+      box-shadow: #c74844 0 0 6px; }
 
 /* line 126, Framework/sass/components/_form.sass */
 input:disabled,
@@ -3234,43 +3234,43 @@ button:disabled {
   /* line 36, Framework/sass/components/_notify.sass */
   .notify--info {
     color: #fff;
-    background: #4285f4;
-    border: #2a75f3 solid 1px; }
+    background: #3880e6;
+    border: #2172e3 solid 1px; }
     /* line 46, Framework/sass/components/_notify.sass */
     .notify--info-light {
-      color: #4285f4;
-      background: #ecf3fe;
-      border: #1266f1 solid 1px; }
+      color: #3880e6;
+      background: #ebf2fd;
+      border: #1a66d1 solid 1px; }
   /* line 36, Framework/sass/components/_notify.sass */
   .notify--success {
     color: #fff;
-    background: #008c3a;
-    border: #00732f solid 1px; }
+    background: #008648;
+    border: #006d3a solid 1px; }
     /* line 46, Framework/sass/components/_notify.sass */
     .notify--success-light {
-      color: #008c3a;
-      background: #e6f4eb;
-      border: #005925 solid 1px; }
+      color: #008648;
+      background: #e6f3ed;
+      border: #00532d solid 1px; }
   /* line 36, Framework/sass/components/_notify.sass */
   .notify--warning {
     color: #fff;
-    background: #f09300;
-    border: #d78300 solid 1px; }
+    background: #cc8c17;
+    border: #b57c14 solid 1px; }
     /* line 46, Framework/sass/components/_notify.sass */
     .notify--warning-light {
-      color: #f09300;
-      background: #fef4e6;
-      border: #bd7400 solid 1px; }
+      color: #cc8c17;
+      background: #faf4e8;
+      border: #9e6d12 solid 1px; }
   /* line 36, Framework/sass/components/_notify.sass */
   .notify--danger {
     color: #fff;
-    background: #ea4335;
-    border: #e82e1e solid 1px; }
+    background: #c74844;
+    border: #ba3c38 solid 1px; }
     /* line 46, Framework/sass/components/_notify.sass */
     .notify--danger-light {
-      color: #ea4335;
-      background: #fdeceb;
-      border: #d62516 solid 1px; }
+      color: #c74844;
+      background: #f9edec;
+      border: #a63532 solid 1px; }
 
 /* line 7, Framework/sass/components/_blockquote.sass */
 .blockquote {
@@ -3303,10 +3303,10 @@ button:disabled {
       color: #069; }
   /* line 35, Framework/sass/components/_blockquote.sass */
   .blockquote--secondary {
-    border-left: solid #5c258d 5px; }
+    border-left: solid teal 5px; }
     /* line 38, Framework/sass/components/_blockquote.sass */
     .blockquote--secondary .blockquote__header {
-      color: #5c258d; }
+      color: teal; }
   /* line 35, Framework/sass/components/_blockquote.sass */
   .blockquote--dark {
     border-left: solid #021826 5px; }
@@ -3333,28 +3333,28 @@ button:disabled {
       color: #fff; }
   /* line 35, Framework/sass/components/_blockquote.sass */
   .blockquote--info {
-    border-left: solid #4285f4 5px; }
+    border-left: solid #3880e6 5px; }
     /* line 38, Framework/sass/components/_blockquote.sass */
     .blockquote--info .blockquote__header {
-      color: #4285f4; }
+      color: #3880e6; }
   /* line 35, Framework/sass/components/_blockquote.sass */
   .blockquote--success {
-    border-left: solid #008c3a 5px; }
+    border-left: solid #008648 5px; }
     /* line 38, Framework/sass/components/_blockquote.sass */
     .blockquote--success .blockquote__header {
-      color: #008c3a; }
+      color: #008648; }
   /* line 35, Framework/sass/components/_blockquote.sass */
   .blockquote--warning {
-    border-left: solid #f09300 5px; }
+    border-left: solid #cc8c17 5px; }
     /* line 38, Framework/sass/components/_blockquote.sass */
     .blockquote--warning .blockquote__header {
-      color: #f09300; }
+      color: #cc8c17; }
   /* line 35, Framework/sass/components/_blockquote.sass */
   .blockquote--danger {
-    border-left: solid #ea4335 5px; }
+    border-left: solid #c74844 5px; }
     /* line 38, Framework/sass/components/_blockquote.sass */
     .blockquote--danger .blockquote__header {
-      color: #ea4335; }
+      color: #c74844; }
 
 /* line 7, Framework/sass/components/_toast.sass */
 .toaster {
@@ -3860,7 +3860,7 @@ button:disabled {
     overflow: hidden; }
   /* line 27, Framework/sass/components/_media.sass */
   .media__body {
-    line-height: 19.6px; }
+    line-height: 22.4px; }
   /* line 31, Framework/sass/components/_media.sass */
   .media__body, .media__left, .media__right {
     display: table-cell;
@@ -3965,13 +3965,13 @@ footer.footer {
 
 /* line 80, Framework/sass/dev-style.sass */
 code {
-  border: solid #d6c9e3 1px;
+  border: solid #bfdfdf 1px;
   border-radius: 3px;
-  background: #f7f4f9;
+  background: #f2f9f9;
   padding: 0 5px;
   margin-right: 3px;
   display: inline-block;
-  color: #5c258d; }
+  color: teal; }
 
 /* line 90, Framework/sass/dev-style.sass */
 pre code {
@@ -4011,7 +4011,7 @@ pre code {
   /* line 139, Framework/sass/dev-style.sass */
   .bigger-text i {
     font-size: 24px;
-    color: #ea4335;
+    color: #c74844;
     width: 46px; }
   /* line 144, Framework/sass/dev-style.sass */
   .bigger-text span {
@@ -4105,13 +4105,5 @@ Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
 /* line 86, Framework/sass/_arduino-light.scss */
 .hljs-number {
   color: #8A7B52; }
-
-/* line 152, Framework/sass/dev-style.sass */
-.blue {
-  background: blue; }
-  @media screen and (min-width: 300px) {
-    /* line 152, Framework/sass/dev-style.sass */
-    .blue {
-      background: red; } }
 
 /*# sourceMappingURL=dev-style.css.map */
