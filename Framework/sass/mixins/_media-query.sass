@@ -5,13 +5,21 @@
 // ==========================================
 
 =media-up($name)
-  $size: map-get($_breakpoints, $name)
+  $size: ''
+  @if is-number($name)
+    $size: $name
+  @else
+    $size: map-get($_breakpoints, $name)
   @media screen and (min-width: $size)
     @content
 
 
 =media-down($name)
-  $size: map-get($_breakpoints, $name)
+  $size: ''
+  @if is-number($name)
+    $size: $name
+  @else
+    $size: map-get($_breakpoints, $name)
   @media screen and (max-width: $size)
     @content
 

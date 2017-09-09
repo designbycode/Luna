@@ -1,0 +1,701 @@
+// ==========================================
+// == Luna Framework
+// == AUTHOR: CLAUDE MYBURGH
+// == URL: http://lunaframework.co.za
+// ==========================================
+//
+//
+@font-face {
+	font-family: "Lunacon";
+	src: url('#{$font-path}/lunacon/Lunacon.eot');
+	src: url('#{$font-path}/lunacon/Lunacon.eot?#iefix') format('eot'),
+		url('#{$font-path}/lunacon/Lunacon.woff') format('woff'),
+		url('#{$font-path}/lunacon/Lunacon.ttf') format('truetype'),
+		url('#{$font-path}/lunacon/Lunacon.svg#Lunacon') format('svg');
+}
+
+@mixin lunacon-styles() {
+	display: inline-block;
+  font: normal normal normal 14px/1 "Lunacon";
+  font-size: inherit;
+  font-size: inherit;
+	line-height: $base-line-height;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.lunacon{
+	@include lunacon-styles();
+}
+
+.lunacon-fw{
+	width: 1.28571429em;
+  text-align: center;
+}
+
+
+  .lunacon--size-x1{
+    font-size: ($base-icon-size * 0) + $base-icon-size !important;
+    line-height: 1;
+  }
+
+  .lunacon--size-x2{
+    font-size: ($base-icon-size * 1) + $base-icon-size !important;
+    line-height: 1;
+  }
+
+  .lunacon--size-x3{
+    font-size: ($base-icon-size * 2) + $base-icon-size !important;
+    line-height: 1;
+  }
+
+  .lunacon--size-x4{
+    font-size: ($base-icon-size * 3) + $base-icon-size !important;
+    line-height: 1;
+  }
+
+  .lunacon--size-x5{
+    font-size: ($base-icon-size * 4) + $base-icon-size !important;
+    line-height: 1;
+  }
+
+
+
+
+
+$unicode-address-book: "\E001";
+
+$unicode-basket-solid: "\E002";
+
+$unicode-basket: "\E003";
+
+$unicode-bell-mute-solid: "\E004";
+
+$unicode-bell-mute: "\E005";
+
+$unicode-bell-solid: "\E006";
+
+$unicode-bell: "\E007";
+
+$unicode-cart-solid: "\E008";
+
+$unicode-cart: "\E009";
+
+$unicode-checkmark-small: "\E00A";
+
+$unicode-checkmark: "\E00B";
+
+$unicode-chevron-down: "\E00C";
+
+$unicode-chevron-left: "\E00D";
+
+$unicode-chevron-right: "\E00E";
+
+$unicode-chevron-up: "\E00F";
+
+$unicode-close-small: "\E010";
+
+$unicode-close: "\E011";
+
+$unicode-cloud-check-solid: "\E012";
+
+$unicode-cloud-check: "\E013";
+
+$unicode-cloud-solid: "\E014";
+
+$unicode-cloud: "\E015";
+
+$unicode-dailer-solid: "\E016";
+
+$unicode-dailer: "\E017";
+
+$unicode-dashboard: "\E018";
+
+$unicode-download: "\E019";
+
+$unicode-gift: "\E01A";
+
+$unicode-home-solid: "\E01B";
+
+$unicode-home: "\E01C";
+
+$unicode-key: "\E01D";
+
+$unicode-lock-open: "\E01E";
+
+$unicode-lock: "\E01F";
+
+$unicode-login: "\E020";
+
+$unicode-logout: "\E021";
+
+$unicode-microphone: "\E022";
+
+$unicode-moon-solid: "\E023";
+
+$unicode-moon: "\E024";
+
+$unicode-navicon: "\E025";
+
+$unicode-pencil: "\E026";
+
+$unicode-search-min: "\E027";
+
+$unicode-search-zoom: "\E028";
+
+$unicode-search: "\E029";
+
+$unicode-shield-lock-solid: "\E02A";
+
+$unicode-shield: "\E02B";
+
+$unicode-star-half-solid: "\E02C";
+
+$unicode-star-half: "\E02D";
+
+$unicode-star-solid: "\E02E";
+
+$unicode-star: "\E02F";
+
+$unicode-thumbs-down-solid: "\E030";
+
+$unicode-thumbs-down: "\E031";
+
+$unicode-thumbs-up-solid: "\E032";
+
+$unicode-thumbs-up: "\E033";
+
+$unicode-upload: "\E034";
+
+$unicode-user-delete-solid: "\E035";
+
+$unicode-user-delete: "\E036";
+
+$unicode-user-solid: "\E037";
+
+$unicode-user: "\E038";
+
+$unicode-users-solid: "\E039";
+
+$unicode-users: "\E03A";
+
+
+
+
+@function lunacon-char($filename){
+	$char: "";
+	
+		@if $filename == address-book{
+			$char: "\E001";
+		}
+
+	
+		@if $filename == basket-solid{
+			$char: "\E002";
+		}
+
+	
+		@if $filename == basket{
+			$char: "\E003";
+		}
+
+	
+		@if $filename == bell-mute-solid{
+			$char: "\E004";
+		}
+
+	
+		@if $filename == bell-mute{
+			$char: "\E005";
+		}
+
+	
+		@if $filename == bell-solid{
+			$char: "\E006";
+		}
+
+	
+		@if $filename == bell{
+			$char: "\E007";
+		}
+
+	
+		@if $filename == cart-solid{
+			$char: "\E008";
+		}
+
+	
+		@if $filename == cart{
+			$char: "\E009";
+		}
+
+	
+		@if $filename == checkmark-small{
+			$char: "\E00A";
+		}
+
+	
+		@if $filename == checkmark{
+			$char: "\E00B";
+		}
+
+	
+		@if $filename == chevron-down{
+			$char: "\E00C";
+		}
+
+	
+		@if $filename == chevron-left{
+			$char: "\E00D";
+		}
+
+	
+		@if $filename == chevron-right{
+			$char: "\E00E";
+		}
+
+	
+		@if $filename == chevron-up{
+			$char: "\E00F";
+		}
+
+	
+		@if $filename == close-small{
+			$char: "\E010";
+		}
+
+	
+		@if $filename == close{
+			$char: "\E011";
+		}
+
+	
+		@if $filename == cloud-check-solid{
+			$char: "\E012";
+		}
+
+	
+		@if $filename == cloud-check{
+			$char: "\E013";
+		}
+
+	
+		@if $filename == cloud-solid{
+			$char: "\E014";
+		}
+
+	
+		@if $filename == cloud{
+			$char: "\E015";
+		}
+
+	
+		@if $filename == dailer-solid{
+			$char: "\E016";
+		}
+
+	
+		@if $filename == dailer{
+			$char: "\E017";
+		}
+
+	
+		@if $filename == dashboard{
+			$char: "\E018";
+		}
+
+	
+		@if $filename == download{
+			$char: "\E019";
+		}
+
+	
+		@if $filename == gift{
+			$char: "\E01A";
+		}
+
+	
+		@if $filename == home-solid{
+			$char: "\E01B";
+		}
+
+	
+		@if $filename == home{
+			$char: "\E01C";
+		}
+
+	
+		@if $filename == key{
+			$char: "\E01D";
+		}
+
+	
+		@if $filename == lock-open{
+			$char: "\E01E";
+		}
+
+	
+		@if $filename == lock{
+			$char: "\E01F";
+		}
+
+	
+		@if $filename == login{
+			$char: "\E020";
+		}
+
+	
+		@if $filename == logout{
+			$char: "\E021";
+		}
+
+	
+		@if $filename == microphone{
+			$char: "\E022";
+		}
+
+	
+		@if $filename == moon-solid{
+			$char: "\E023";
+		}
+
+	
+		@if $filename == moon{
+			$char: "\E024";
+		}
+
+	
+		@if $filename == navicon{
+			$char: "\E025";
+		}
+
+	
+		@if $filename == pencil{
+			$char: "\E026";
+		}
+
+	
+		@if $filename == search-min{
+			$char: "\E027";
+		}
+
+	
+		@if $filename == search-zoom{
+			$char: "\E028";
+		}
+
+	
+		@if $filename == search{
+			$char: "\E029";
+		}
+
+	
+		@if $filename == shield-lock-solid{
+			$char: "\E02A";
+		}
+
+	
+		@if $filename == shield{
+			$char: "\E02B";
+		}
+
+	
+		@if $filename == star-half-solid{
+			$char: "\E02C";
+		}
+
+	
+		@if $filename == star-half{
+			$char: "\E02D";
+		}
+
+	
+		@if $filename == star-solid{
+			$char: "\E02E";
+		}
+
+	
+		@if $filename == star{
+			$char: "\E02F";
+		}
+
+	
+		@if $filename == thumbs-down-solid{
+			$char: "\E030";
+		}
+
+	
+		@if $filename == thumbs-down{
+			$char: "\E031";
+		}
+
+	
+		@if $filename == thumbs-up-solid{
+			$char: "\E032";
+		}
+
+	
+		@if $filename == thumbs-up{
+			$char: "\E033";
+		}
+
+	
+		@if $filename == upload{
+			$char: "\E034";
+		}
+
+	
+		@if $filename == user-delete-solid{
+			$char: "\E035";
+		}
+
+	
+		@if $filename == user-delete{
+			$char: "\E036";
+		}
+
+	
+		@if $filename == user-solid{
+			$char: "\E037";
+		}
+
+	
+		@if $filename == user{
+			$char: "\E038";
+		}
+
+	
+		@if $filename == users-solid{
+			$char: "\E039";
+		}
+
+	
+		@if $filename == users{
+			$char: "\E03A";
+		}
+
+	
+	@return $char;
+}
+
+@mixin lunacon($filename, $insert: before, $extend: true){
+	&::#{$insert}{
+		@if $extend{
+			@extend .lunacon;
+		}@else {
+			@include lunacon-styles;
+		}
+		content: lunacon-char($filename);
+	}
+}
+
+.lunacon-address-book {
+	@include lunacon(address-book);
+}
+.lunacon-basket-solid {
+	@include lunacon(basket-solid);
+}
+.lunacon-basket {
+	@include lunacon(basket);
+}
+.lunacon-bell-mute-solid {
+	@include lunacon(bell-mute-solid);
+}
+.lunacon-bell-mute {
+	@include lunacon(bell-mute);
+}
+.lunacon-bell-solid {
+	@include lunacon(bell-solid);
+}
+.lunacon-bell {
+	@include lunacon(bell);
+}
+.lunacon-cart-solid {
+	@include lunacon(cart-solid);
+}
+.lunacon-cart {
+	@include lunacon(cart);
+}
+.lunacon-checkmark-small {
+	@include lunacon(checkmark-small);
+}
+.lunacon-checkmark {
+	@include lunacon(checkmark);
+}
+.lunacon-chevron-down {
+	@include lunacon(chevron-down);
+}
+.lunacon-chevron-left {
+	@include lunacon(chevron-left);
+}
+.lunacon-chevron-right {
+	@include lunacon(chevron-right);
+}
+.lunacon-chevron-up {
+	@include lunacon(chevron-up);
+}
+.lunacon-close-small {
+	@include lunacon(close-small);
+}
+.lunacon-close {
+	@include lunacon(close);
+}
+.lunacon-cloud-check-solid {
+	@include lunacon(cloud-check-solid);
+}
+.lunacon-cloud-check {
+	@include lunacon(cloud-check);
+}
+.lunacon-cloud-solid {
+	@include lunacon(cloud-solid);
+}
+.lunacon-cloud {
+	@include lunacon(cloud);
+}
+.lunacon-dailer-solid {
+	@include lunacon(dailer-solid);
+}
+.lunacon-dailer {
+	@include lunacon(dailer);
+}
+.lunacon-dashboard {
+	@include lunacon(dashboard);
+}
+.lunacon-download {
+	@include lunacon(download);
+}
+.lunacon-gift {
+	@include lunacon(gift);
+}
+.lunacon-home-solid {
+	@include lunacon(home-solid);
+}
+.lunacon-home {
+	@include lunacon(home);
+}
+.lunacon-key {
+	@include lunacon(key);
+}
+.lunacon-lock-open {
+	@include lunacon(lock-open);
+}
+.lunacon-lock {
+	@include lunacon(lock);
+}
+.lunacon-login {
+	@include lunacon(login);
+}
+.lunacon-logout {
+	@include lunacon(logout);
+}
+.lunacon-microphone {
+	@include lunacon(microphone);
+}
+.lunacon-moon-solid {
+	@include lunacon(moon-solid);
+}
+.lunacon-moon {
+	@include lunacon(moon);
+}
+.lunacon-navicon {
+	@include lunacon(navicon);
+}
+.lunacon-pencil {
+	@include lunacon(pencil);
+}
+.lunacon-search-min {
+	@include lunacon(search-min);
+}
+.lunacon-search-zoom {
+	@include lunacon(search-zoom);
+}
+.lunacon-search {
+	@include lunacon(search);
+}
+.lunacon-shield-lock-solid {
+	@include lunacon(shield-lock-solid);
+}
+.lunacon-shield {
+	@include lunacon(shield);
+}
+.lunacon-star-half-solid {
+	@include lunacon(star-half-solid);
+}
+.lunacon-star-half {
+	@include lunacon(star-half);
+}
+.lunacon-star-solid {
+	@include lunacon(star-solid);
+}
+.lunacon-star {
+	@include lunacon(star);
+}
+.lunacon-thumbs-down-solid {
+	@include lunacon(thumbs-down-solid);
+}
+.lunacon-thumbs-down {
+	@include lunacon(thumbs-down);
+}
+.lunacon-thumbs-up-solid {
+	@include lunacon(thumbs-up-solid);
+}
+.lunacon-thumbs-up {
+	@include lunacon(thumbs-up);
+}
+.lunacon-upload {
+	@include lunacon(upload);
+}
+.lunacon-user-delete-solid {
+	@include lunacon(user-delete-solid);
+}
+.lunacon-user-delete {
+	@include lunacon(user-delete);
+}
+.lunacon-user-solid {
+	@include lunacon(user-solid);
+}
+.lunacon-user {
+	@include lunacon(user);
+}
+.lunacon-users-solid {
+	@include lunacon(users-solid);
+}
+.lunacon-users {
+	@include lunacon(users);
+}
+
+
+
+
+
+
+.lunacon-spin-animation {
+  animation: lunacon-spin 2s infinite linear;
+}
+
+
+.lunacon-flash-animation {
+  animation: lunacon-flash 1s infinite  ease-in-out;
+}
+
+
+@keyframes lunacon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+
+@keyframes lunacon-flash {
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

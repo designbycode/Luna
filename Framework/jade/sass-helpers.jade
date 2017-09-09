@@ -15,18 +15,61 @@ block content
 
   .wrapper
     .row
-      .col.button__list
-
-        each val in ['moon', 'moon-solid', 'navicon', 'navicon-solid','close', 'close-solid', 'dailer', 'dailer-solid', 'bell', 'bell-solid', 'bell-mute', 'bell-mute-solid', 'star', 'star-solid', 'star-half', 'star-half-solid', 'chevron-down', 'chevron-up', 'chevron-right', 'chevron-left']
-          a.btn.btn--primary <i class="lunacon lunacon-#{val} btn__icon--left"></i> #{val}
-          | &nbsp; &nbsp;
-
-
-
-
-
-
-
-    .row
       .col
-        br
+        h2 Clearfix Helper
+        p Add a clearfix helper to any element to add a clear fix to it.
+        pre: <code class="sass">//-- for sass
+          |.element
+          |   +clearfix
+        </code>
+
+        pre: <code class="scss">//-- for scss
+          |.element{
+          |   @include clearfix;
+          |}
+        </code>
+
+
+      .col
+        h2 Border Radius
+        p The border radius helper will help you by short handing the class and also give you default radius that is predefined in the <code>_settings.sass</code> file.
+
+        pre: <code class="sass">//-- for sass
+          |  .element
+          |     +radius
+          |  .element
+          |     +radius(10px)
+        </code>
+
+        pre: <code class="scss">//-- for sass
+          |  .element{
+          |     @include radius;
+          |  }
+          |  .element{
+          |     @include radius(10px);
+          |  }
+        </code>
+
+
+      .col
+        h2 Media Breakpoints
+        p Luna has loads of media helpers for creating breakpoints.
+        ul
+          li <code>+media-up($size)</code>
+          li <code>+media-down($size)</code>
+          li <code>+media-between($size1, $size2)</code>
+          li <code>+media-custom($direction, $value)</code>
+
+        h3 Predefined queries.
+        ul
+          li <code>+is--mobile</code>
+          li <code>+is--tablet</code>
+          li <code>+is--desktop</code>
+
+
+        pre: <code class="sass">//-- for sass
+          |  .element
+          |     background: red
+          |     +media-up(md)
+          |        background: blue
+        </code>

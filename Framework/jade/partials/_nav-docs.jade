@@ -92,3 +92,41 @@
           .form__item__group
             input(type="text", placeholder="seach" class="form__item background--info-light text--info border--primary")
             button(type="submit", class="btn btn--primary") <i class="lunacon lunacon-bell-solid"></i>
+
+
+.row
+  .col
+    h2 Single level navigation
+    pre: <code class="html">&lt;nav class=&quot;nav&quot;&gt;
+      |   &lt;div class=&quot;nav__wrapper&quot;&gt;
+      |     &lt;div class=&quot;nav__brand&quot;&gt;&lt;a href=&quot;#&quot;&gt;Luna Framework&lt;/a&gt;&lt;/div&gt;
+      |     &lt;div class=&quot;nav__navicon&quot;&gt;&lt;/div&gt;
+      |     &lt;div class=&quot;nav__links__wrapper nav__links--left&quot;&gt;
+      |       &lt;ul class=&quot;nav__links&quot;&gt;
+      |         &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+      |         &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+      |       &lt;/ul&gt;
+      |     &lt;/div&gt;
+      |   &lt;/div&gt;
+      |&lt;/nav&gt;
+    </code>
+
+  .col
+    h2 Multi-level dropdown navigation
+    p  To create a dropdown menu within the navigation you simply need to add <code> .nav__links__item--dropdown</code> to the <code>.nav__links__item</code> item.
+
+    pre: <code class="html">&lt;li class=&quot;nav__links__item nav__links__item--dropdown&quot;&gt;
+      |  &lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;
+      |  &lt;ul class=&quot;nav__links&quot;&gt;
+      |    &lt;li class=&quot;nav__links__item&quot;&gt;
+      |      &lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;
+      |    &lt;/li&gt;
+      |    &lt;li class=&quot;nav__links__item&quot;&gt;
+      |      &lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;
+      |    &lt;/li&gt;
+      |    &lt;li class=&quot;nav__links__item&quot;&gt;
+      |      &lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;
+      |    &lt;/li&gt;
+      |  &lt;/ul&gt;
+      |&lt;/li&gt;
+    </code>

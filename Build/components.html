@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/dev-style.css">
-    <link rel="stylesheet" href="css/arduino-light.css">
     <title>Luna Framework - Components</title>
   </head>
   <body>
@@ -151,6 +150,41 @@
               </div>
             </div>
           </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Single level navigation</h2>
+          <pre><code class="html">&lt;nav class=&quot;nav&quot;&gt;
+  &lt;div class=&quot;nav__wrapper&quot;&gt;
+    &lt;div class=&quot;nav__brand&quot;&gt;&lt;a href=&quot;#&quot;&gt;Luna Framework&lt;/a&gt;&lt;/div&gt;
+    &lt;div class=&quot;nav__navicon&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;nav__links__wrapper nav__links--left&quot;&gt;
+      &lt;ul class=&quot;nav__links&quot;&gt;
+        &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;nav__links__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;</pre></code>
+        </div>
+        <div class="col">
+          <h2>Multi-level dropdown navigation</h2>
+          <p> To create a dropdown menu within the navigation you simply need to add <code> .nav__links__item--dropdown</code> to the <code>.nav__links__item</code> item.</p>
+          <pre><code class="html">&lt;li class=&quot;nav__links__item nav__links__item--dropdown&quot;&gt;
+ &lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;
+ &lt;ul class=&quot;nav__links&quot;&gt;
+   &lt;li class=&quot;nav__links__item&quot;&gt;
+     &lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li class=&quot;nav__links__item&quot;&gt;
+     &lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li class=&quot;nav__links__item&quot;&gt;
+     &lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;
+   &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/li&gt;</pre></code>
         </div>
       </div>
       <div class="row">
@@ -532,7 +566,7 @@
       <div class="row">
         <div class="md-col-12">
           <h2>Media Object</h2>
-          <p>There are 2 variations of the notify elements. A default set and a light set.  Simply append <code>–-light</code> to the end of any notify elements.</p>
+          <p>The media object is ideal for comment, listing product or categories.</p>
           <blockquote class="blockquote blockquote--warning">
             <div class="blockquote__header">This element works great for comments and listings.</div>
           </blockquote>
