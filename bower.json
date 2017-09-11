@@ -30,7 +30,6 @@
     "Framework/sass/dev-style.sass",
     "Framework/sass/_init-dev.sass",
     "Framework/sass/_settings-override.sass",
-    "Framework/lunacon",
     "index.js",
     "package.json",
     "package-lock.json",
