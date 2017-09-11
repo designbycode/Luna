@@ -41,8 +41,6 @@
     "clipboard": "^1.7.1"
   },
   "dependencies": {
-    "normalize-scss": "normalize.scss#^7.0.0",
-    "jquery": "^3.2.1",
-    "lunacon": "^1.2.0"
+    "jquery": "^3.2.1"
   }
 }
