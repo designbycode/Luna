@@ -4,36 +4,36 @@
 // == URL: http://lunaframework.co.za
 // ==========================================
 
-.pagination 
-	border: solid 1px $mute-border-color 
+.pagination
+	border: solid 1px $mute-border-color
 	background: #fff
 	+radius
 	+clearfix
 	padding: 0
 	margin: 0
-	display: inline-block 
+	display: inline-block
 
-	li 
+	li
 		display: block
-		float: left 
+		float: left
 		height: 40px
 		width: 40px
 		line-height: 40px
 		text-align: center
 
-		&.disable 
+		&.disable
 			background: $mute-color
 			color: darken($mute-border-color, 10%)
 			cursor: no-drop
 
-		a 
+		a
 			display: block
-			color: $primary-color 
+			color: $primary-color
 			text-decoration: none
 
 		&:not(.disable).active,
 		&:not(.disable):hover
 			background: $primary-color
-			a 
-				color: #fff	
-				
+			a,
+      span
+				color: #fff
