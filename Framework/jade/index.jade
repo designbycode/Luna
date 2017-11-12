@@ -14,8 +14,6 @@ block content
       h1.text--default Luna Framework
       h3.text--default Lightweight Responsive Framework
 
-
-
   .wrapper
     .row.padding
       .md-col-12
@@ -30,11 +28,15 @@ block content
     .row.padding--bottom
       .md-col-12
         h2 Installation
-        p <strong>Luna Framework</strong> can be obtained by bower or by downloading it from GitHub.
+        p <strong>Luna Framework</strong> can be obtained by bower, npm or by downloading it from GitHub.
 
         h3 via bower
         p You can install the Framework using bower. Make sure you have bower installed, then run :
-        pre: code bower install Luna
+        pre: code bower install Luna        
+
+        h3 via npm
+        p You can install the Framework using npm. Make sure you have nodejs installed, then run :
+        pre: code npm install luna-sass
 
 
     .row.padding--bottom
@@ -47,75 +49,3 @@ block content
         pre: code(class="scss")
           | @import "settings"
           | @import "Luna/Framework/sass/init"
-
-
-
-
-    .row
-      .md-col-12
-        h2 Media Object
-        p There are 2 variations of the notify elements. A default set and a light set.  Simply append <code>–-light</code> to the end of any notify elements.
-
-        blockquote.blockquote.blockquote--warning
-          .blockquote__header This element works great for comments and listings.
-
-    .row
-      .col
-        .media
-          .media__left.media--top
-            .media__image
-              img(src="", alt="", width="80px", height="80px").media__thumbnail
-          .media__body
-            .media__heading  Lorem ipsum dolor sit amet.
-            div Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!
-        .media
-          .media__body
-            .media__heading  Lorem ipsum dolor sit amet.
-            div Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!
-          .media__right.media--top
-            .media__image
-              img(src="", alt="", width="80px", height="80px").media__thumbnail
-
-      .col
-        pre: code(class="html") &lt;div class=&quot;media&quot;&gt;
-          |  &lt;div class=&quot;media__body&quot;&gt;
-          |    &lt;div class=&quot;media__heading&quot;&gt; .....&lt;/div&gt;
-          |    &lt;div&gt;.....&lt;/div&gt;
-          |  &lt;/div&gt;
-          |  &lt;div class=&quot;media__right media--top&quot;&gt;
-          |    &lt;div class=&quot;media__image&quot;&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; width=&quot;80px&quot;&lt;/div&gt; height=&quot;80px&quot; class=&quot;media__thumbnail&quot;&gt;
-          |  &lt;/div&gt;
-          |&lt;/div&gt;
-    .row
-      .col
-        blockquote.blockquote.blockquote--warning
-          .blockquote__header Just add a little styling to the element.
-          .blockquote__body Just add <code>.media--default</code> to the main media element
-
-    .row
-      .col
-        .media.media--default
-          .media__left.media--top
-            .media__image
-              img(src="", alt="", width="80px", height="80px").media__thumbnail
-          .media__body
-            .media__heading  Lorem ipsum dolor sit amet.
-            div Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!
-        .media.media--default
-          .media__body
-            .media__heading  Lorem ipsum dolor sit amet.
-            div Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!
-          .media__right.media--top
-            .media__image
-              img(src="", alt="", width="80px", height="80px").media__thumbnail
-
-      .col
-        pre: code(class="html") &lt;div class=&quot;media media--default&quot;&gt;
-          |  &lt;div class=&quot;media__body&quot;&gt;
-          |    &lt;div class=&quot;media__heading&quot;&gt; .....&lt;/div&gt;
-          |    &lt;div&gt;.....&lt;/div&gt;
-          |  &lt;/div&gt;
-          |  &lt;div class=&quot;media__right media--top&quot;&gt;
-          |    &lt;div class=&quot;media__image&quot;&gt;&lt;/div&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; width=&quot;80px&quot; height=&quot;80px&quot; class=&quot;media__thumbnail&quot;&gt;
-          |  &lt;/div&gt;
-          |&lt;/div&gt;

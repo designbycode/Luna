@@ -16,13 +16,14 @@
 
 @mixin lunacon-styles() {
 	display: inline-block;
-  font: normal normal normal 14px/1 "Lunacon";
-  font-size: inherit;
-  font-size: inherit;
+	font: normal normal normal 14px/1 "Lunacon";
+	font-size: inherit;
+	font-size: inherit;
 	line-height: $base-line-height;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	vertical-align: unset;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 
 }
 
@@ -32,34 +33,34 @@
 
 .lunacon-fw{
 	width: 1.28571429em;
-  text-align: center;
+	text-align: center;
 }
 
 
-  .lunacon--size-x1{
-    font-size: ($base-icon-size * 0) + $base-icon-size !important;
-    line-height: 1;
-  }
+	.lunacon--size-x1{
+		font-size: ($base-icon-size * 0) + $base-icon-size !important;
+		line-height: 1;
+	}
 
-  .lunacon--size-x2{
-    font-size: ($base-icon-size * 1) + $base-icon-size !important;
-    line-height: 1;
-  }
+	.lunacon--size-x2{
+		font-size: ($base-icon-size * 1) + $base-icon-size !important;
+		line-height: 1;
+	}
 
-  .lunacon--size-x3{
-    font-size: ($base-icon-size * 2) + $base-icon-size !important;
-    line-height: 1;
-  }
+	.lunacon--size-x3{
+		font-size: ($base-icon-size * 2) + $base-icon-size !important;
+		line-height: 1;
+	}
 
-  .lunacon--size-x4{
-    font-size: ($base-icon-size * 3) + $base-icon-size !important;
-    line-height: 1;
-  }
+	.lunacon--size-x4{
+		font-size: ($base-icon-size * 3) + $base-icon-size !important;
+		line-height: 1;
+	}
 
-  .lunacon--size-x5{
-    font-size: ($base-icon-size * 4) + $base-icon-size !important;
-    line-height: 1;
-  }
+	.lunacon--size-x5{
+		font-size: ($base-icon-size * 4) + $base-icon-size !important;
+		line-height: 1;
+	}
 
 
 
@@ -792,30 +793,30 @@ $unicode-users: "\E046";
 
 
 .lunacon-spin-animation {
-  animation: lunacon-spin 2s infinite linear;
+	animation: lunacon-spin 2s infinite linear;
 }
 
 
 .lunacon-flash-animation {
-  animation: lunacon-flash 1s infinite  ease-in-out;
+	animation: lunacon-flash 1s infinite  ease-in-out;
 }
 
 
 @keyframes lunacon-spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(359deg);
-  }
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(359deg);
+	}
 }
 
 
 @keyframes lunacon-flash {
-  50% {
-    transform: scale(0.5);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
+	50% {
+		transform: scale(0.5);
+	}
+	100% {
+		transform: scale(1);
+	}
+}

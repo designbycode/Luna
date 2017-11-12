@@ -5,43 +5,43 @@
 // ==========================================
 
 .scrollup
-  position: fixed
-  height: 50px
-  width: 100%
-  z-index: 999
-  left: 0
-  right: 0
-  bottom: 25px
-  pointer-events: none
+	position: fixed
+	height: 50px
+	width: 100%
+	z-index: 999
+	left: 0
+	right: 0
+	bottom: 25px
+	pointer-events: none
 
-  &__button
-    position: absolute
-    pointer-events: visible
-    width: $scrolltotop__size
-    height: $scrolltotop__size
-    display: block
-    background: $scrolltotop__background__color
-    right: - ($the__global__padding + $scrolltotop__size)
-    transform: translateY(200px)
-    transition: transform 0.5s ease
-    box-shadow: rgba(#000, 0.25) 0 -5px 10px
-    border-radius: $scrolltotop__border__radius
-    &::after
-      position: absolute
-      top: 0
-      left: 0
-      height: $scrolltotop__size
-      width: $scrolltotop__size
-      line-height: $scrolltotop__size
-      font-family: "Lunacon"
-      content: $unicode-chevron-up
-      color: #fff
-      text-align: center
-      font-size: $scrolltotop__icon__size
-      text-shadow: 0px 2px 3px darken($scrolltotop__background__color, 20%)
+	&__button
+		position: absolute
+		pointer-events: visible
+		width: $scrolltotop__size
+		height: $scrolltotop__size
+		display: block
+		background: $scrolltotop__background__color
+		right: - ($the__global__padding + $scrolltotop__size)
+		transform: translateY(200px)
+		transition: transform 0.5s ease
+		box-shadow: rgba(#000, 0.25) 0 -5px 10px
+		border-radius: $scrolltotop__border__radius
+		&::after
+			position: absolute
+			top: 0
+			left: 0
+			height: $scrolltotop__size
+			width: $scrolltotop__size
+			line-height: $scrolltotop__size
+			font-family: "Lunacon"
+			content: $unicode-chevron-up
+			color: #fff
+			text-align: center
+			font-size: $scrolltotop__icon__size
+			text-shadow: 0px 2px 3px darken($scrolltotop__background__color, 20%)
 
-    &:hover
-      background: darken($scrolltotop__background__color, 5%)
+		&:hover
+			background: darken($scrolltotop__background__color, 5%)
 
-    +media-custom('max', ($navigation__breakpoint + 150))
-      right: 0
+		+media-custom('max', ($navigation__breakpoint + 150))
+			right: 0

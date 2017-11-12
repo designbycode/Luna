@@ -7,11 +7,11 @@
 .pagination
 	border: solid 1px $mute-border-color
 	background: #fff
-	+radius
-	+clearfix
+	display: inline-block
 	padding: 0
 	margin: 0
-	display: inline-block
+	+radius
+	+clearfix
 
 	li
 		display: block
@@ -20,6 +20,7 @@
 		width: 40px
 		line-height: 40px
 		text-align: center
+
 
 		&.disable
 			background: $mute-color
@@ -30,10 +31,12 @@
 			display: block
 			color: $primary-color
 			text-decoration: none
+		
+		&:not(.disable):hover,
+		&:not(.disable).active
+			background: $primary-color 
 
-		&:not(.disable).active,
-		&:not(.disable):hover
-			background: $primary-color
-			a,
-      span
-				color: #fff
+			a,span 
+				color: $mute-color
+		&:not(.disable).active:hover  
+			cursor: no-drop

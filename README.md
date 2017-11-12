@@ -17,9 +17,9 @@ bower install Luna
 ````
 ### via npm
 
-You can install the Framework using bower. Make sure you have bower installed, then run :
+You can install the Framework using npm. Make sure you have nodejs installed, then run :
 ````
-bower install Luna
+npm install luna-sass
 ````
 
 [![Bower](https://img.shields.io/bower/v/bootstrap.svg)](https://bower.io/search/?q=luna)

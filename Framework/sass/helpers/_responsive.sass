@@ -6,56 +6,56 @@
 
 
 .responsive
-  &__image
-    display: block
-    height: auto
-    max-width: 100%
-    margin-bottom: $the__global__padding
+	&__image
+		display: block
+		height: auto
+		max-width: 100%
+		margin-bottom: $the__global__padding
 
 
-  &__embed
-    position: relative
-    display: block
-    height: 0
-    width: 100%
-    max-width: 100%
-    padding: 0
-    overflow: hidden
+	&__embed
+		position: relative
+		display: block
+		height: 0
+		width: 100%
+		max-width: 100%
+		padding: 0
+		overflow: hidden
 
-  &__wide-screen
-    @extend .responsive__embed
-    padding-bottom: 56.25%
+	&__wide-screen
+		@extend .responsive__embed
+		padding-bottom: 56.25%
 
-  &__screen
-    @extend .responsive__embed
-    padding-bottom: 75%
+	&__screen
+		@extend .responsive__embed
+		padding-bottom: 75%
 
-  &__square
-    @extend .responsive__embed
-    padding-bottom: 75%
+	&__square
+		@extend .responsive__embed
+		padding-bottom: 100%
 
-  &__item,
-  video,
-  embed,
-  object,
-  iframe
-    position: absolute
-    top: 0
-    bottom: 0
-    left: 0
-    right: 0
-    height: 100%
-    width: 100%
-    border: none
+	&__item,
+	video,
+	embed,
+	object,
+	iframe
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0
+		height: 100%
+		width: 100%
+		border: none
 
 
-  &__figure
-    padding: 0
-    margin: 0
-    display: block
+	&__figure
+		padding: 0
+		margin: 0
+		display: block
 
-    img
-      width: 100%
-      max-width: 100%
-      height: auto
-      display: block
+		img
+			width: 100%
+			max-width: 100%
+			height: auto
+			display: block

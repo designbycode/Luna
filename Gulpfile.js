@@ -5,6 +5,8 @@ const gulp         = require('gulp'),
       sourcemaps   = require('gulp-sourcemaps'),
       autoprefixer = require('gulp-autoprefixer'),
 
+      scsslint     = require('gulp-scss-lint'),
+
       jade         = require('gulp-jade'),
 
       concat       = require('gulp-concat'),
@@ -144,6 +146,11 @@ gulp.task('watch', ()=>{
 gulp.task('webstandards', function () {
     return gulp.src(`${Paths.output}/**/*.css`)
         .pipe(webstandards());
+});
+
+gulp.task('scss-lint', function() {
+  return gulp.src(`${Paths.sass}**/*.{sass,scss}`)
+    .pipe(scsslint());
 });
 
 
