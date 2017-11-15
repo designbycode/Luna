@@ -1529,20 +1529,20 @@ input[type="submit"].btn, .form__label, .form__helper {
 /* line 15, Framework/sass/helpers/_helpers.sass */
 .text--primary,
 .color--primary {
-  color: #a21717 !important; }
+  color: teal !important; }
   /* line 17, Framework/sass/helpers/_helpers.sass */
   .text--primary-light,
   .color--primary-light {
-    color: #e3b9b9 !important; }
+    color: #b3d9d9 !important; }
 
 /* line 15, Framework/sass/helpers/_helpers.sass */
 .text--secondary,
 .color--secondary {
-  color: teal !important; }
+  color: #a2e600 !important; }
   /* line 17, Framework/sass/helpers/_helpers.sass */
   .text--secondary-light,
   .color--secondary-light {
-    color: #b3d9d9 !important; }
+    color: #e3f8b3 !important; }
 
 /* line 15, Framework/sass/helpers/_helpers.sass */
 .text--dark,
@@ -1618,17 +1618,17 @@ input[type="submit"].btn, .form__label, .form__helper {
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--primary {
-  background-color: #a21717 !important; }
+  background-color: teal !important; }
   /* line 25, Framework/sass/helpers/_helpers.sass */
   .background--primary-light {
-    background-color: #f6e8e8 !important; }
+    background-color: #e6f2f2 !important; }
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--secondary {
-  background-color: teal !important; }
+  background-color: #a2e600 !important; }
   /* line 25, Framework/sass/helpers/_helpers.sass */
   .background--secondary-light {
-    background-color: #e6f2f2 !important; }
+    background-color: #f6fde6 !important; }
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--dark {
@@ -1688,23 +1688,23 @@ input[type="submit"].btn, .form__label, .form__helper {
 
 /* line 32, Framework/sass/helpers/_helpers.sass */
 .border--primary {
-  border-color: #a21717 !important;
+  border-color: teal !important;
   border-width: 1px;
   border-style: solid; }
   /* line 37, Framework/sass/helpers/_helpers.sass */
   .border--primary-light {
-    border-color: #e3b9b9 !important;
+    border-color: #b3d9d9 !important;
     border-width: 1px;
     border-style: solid; }
 
 /* line 32, Framework/sass/helpers/_helpers.sass */
 .border--secondary {
-  border-color: teal !important;
+  border-color: #a2e600 !important;
   border-width: 1px;
   border-style: solid; }
   /* line 37, Framework/sass/helpers/_helpers.sass */
   .border--secondary-light {
-    border-color: #b3d9d9 !important;
+    border-color: #e3f8b3 !important;
     border-width: 1px;
     border-style: solid; }
 
@@ -2303,7 +2303,7 @@ input[type="submit"].btn {
   a.btn--primary,
   button.btn--primary,
   input[type="submit"].btn--primary {
-    background: #a21717;
+    background: teal;
     color: #fff; }
     /* line 23, Framework/sass/components/_buttons.sass */
     .btn--primary:hover, .btn--primary:active, .btn--primary:focus,
@@ -2316,7 +2316,7 @@ input[type="submit"].btn {
     input[type="submit"].btn--primary:hover,
     input[type="submit"].btn--primary:active,
     input[type="submit"].btn--primary:focus {
-      background: #8c1414;
+      background: #006767;
       -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
     /* line 31, Framework/sass/components/_buttons.sass */
@@ -2324,14 +2324,14 @@ input[type="submit"].btn {
     a.btn--primary-gradient,
     button.btn--primary-gradient,
     input[type="submit"].btn--primary-gradient {
-      background: #a21717;
-      background: -webkit-gradient(linear, left top, left bottom, from(#a21717), to(#8c1414));
-      background: -webkit-linear-gradient(top, #a21717, #8c1414);
-      background: -o-linear-gradient(top, #a21717, #8c1414);
-      background: linear-gradient(180deg, #a21717, #8c1414);
+      background: teal;
+      background: -webkit-gradient(linear, left top, left bottom, from(teal), to(#006767));
+      background: -webkit-linear-gradient(top, teal, #006767);
+      background: -o-linear-gradient(top, teal, #006767);
+      background: linear-gradient(180deg, teal, #006767);
       color: #fff;
-      border: solid 1px #8c1414;
-      text-shadow: #490a0a 0 1px 1px; }
+      border: solid 1px #006767;
+      text-shadow: #001a1a 0 1px 1px; }
       /* line 41, Framework/sass/components/_buttons.sass */
       .btn--primary-gradient:hover, .btn--primary-gradient:active, .btn--primary-gradient:focus,
       a.btn--primary-gradient:hover,
@@ -2343,11 +2343,11 @@ input[type="submit"].btn {
       input[type="submit"].btn--primary-gradient:hover,
       input[type="submit"].btn--primary-gradient:active,
       input[type="submit"].btn--primary-gradient:focus {
-        background: #8c1414;
-        background: -webkit-gradient(linear, left top, left bottom, from(#991616), to(#831313));
-        background: -webkit-linear-gradient(top, #991616, #831313);
-        background: -o-linear-gradient(top, #991616, #831313);
-        background: linear-gradient(180deg, #991616, #831313);
+        background: #006767;
+        background: -webkit-gradient(linear, left top, left bottom, from(#007676), to(#005c5c));
+        background: -webkit-linear-gradient(top, #007676, #005c5c);
+        background: -o-linear-gradient(top, #007676, #005c5c);
+        background: linear-gradient(180deg, #007676, #005c5c);
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
   /* line 16, Framework/sass/components/_buttons.sass */
@@ -2355,7 +2355,7 @@ input[type="submit"].btn {
   a.btn--secondary,
   button.btn--secondary,
   input[type="submit"].btn--secondary {
-    background: teal;
+    background: #a2e600;
     color: #fff; }
     /* line 23, Framework/sass/components/_buttons.sass */
     .btn--secondary:hover, .btn--secondary:active, .btn--secondary:focus,
@@ -2368,7 +2368,7 @@ input[type="submit"].btn {
     input[type="submit"].btn--secondary:hover,
     input[type="submit"].btn--secondary:active,
     input[type="submit"].btn--secondary:focus {
-      background: #006767;
+      background: #90cd00;
       -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
     /* line 31, Framework/sass/components/_buttons.sass */
@@ -2376,14 +2376,14 @@ input[type="submit"].btn {
     a.btn--secondary-gradient,
     button.btn--secondary-gradient,
     input[type="submit"].btn--secondary-gradient {
-      background: teal;
-      background: -webkit-gradient(linear, left top, left bottom, from(teal), to(#006767));
-      background: -webkit-linear-gradient(top, teal, #006767);
-      background: -o-linear-gradient(top, teal, #006767);
-      background: linear-gradient(180deg, teal, #006767);
+      background: #a2e600;
+      background: -webkit-gradient(linear, left top, left bottom, from(#a2e600), to(#90cd00));
+      background: -webkit-linear-gradient(top, #a2e600, #90cd00);
+      background: -o-linear-gradient(top, #a2e600, #90cd00);
+      background: linear-gradient(180deg, #a2e600, #90cd00);
       color: #fff;
-      border: solid 1px #006767;
-      text-shadow: #001a1a 0 1px 1px; }
+      border: solid 1px #90cd00;
+      text-shadow: #5a8000 0 1px 1px; }
       /* line 41, Framework/sass/components/_buttons.sass */
       .btn--secondary-gradient:hover, .btn--secondary-gradient:active, .btn--secondary-gradient:focus,
       a.btn--secondary-gradient:hover,
@@ -2395,11 +2395,11 @@ input[type="submit"].btn {
       input[type="submit"].btn--secondary-gradient:hover,
       input[type="submit"].btn--secondary-gradient:active,
       input[type="submit"].btn--secondary-gradient:focus {
-        background: #006767;
-        background: -webkit-gradient(linear, left top, left bottom, from(#007676), to(#005c5c));
-        background: -webkit-linear-gradient(top, #007676, #005c5c);
-        background: -o-linear-gradient(top, #007676, #005c5c);
-        background: linear-gradient(180deg, #007676, #005c5c);
+        background: #90cd00;
+        background: -webkit-gradient(linear, left top, left bottom, from(#9bdc00), to(#89c200));
+        background: -webkit-linear-gradient(top, #9bdc00, #89c200);
+        background: -o-linear-gradient(top, #9bdc00, #89c200);
+        background: linear-gradient(180deg, #9bdc00, #89c200);
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
   /* line 16, Framework/sass/components/_buttons.sass */
@@ -3208,16 +3208,16 @@ button:disabled {
     color: #f7f7f7; }
   /* line 35, Framework/sass/components/_blockquote.sass */
   .blockquote--primary {
-    border-left: solid #a21717 5px; }
-    /* line 38, Framework/sass/components/_blockquote.sass */
-    .blockquote--primary .blockquote__header {
-      color: #a21717; }
-  /* line 35, Framework/sass/components/_blockquote.sass */
-  .blockquote--secondary {
     border-left: solid teal 5px; }
     /* line 38, Framework/sass/components/_blockquote.sass */
-    .blockquote--secondary .blockquote__header {
+    .blockquote--primary .blockquote__header {
       color: teal; }
+  /* line 35, Framework/sass/components/_blockquote.sass */
+  .blockquote--secondary {
+    border-left: solid #a2e600 5px; }
+    /* line 38, Framework/sass/components/_blockquote.sass */
+    .blockquote--secondary .blockquote__header {
+      color: #a2e600; }
   /* line 35, Framework/sass/components/_blockquote.sass */
   .blockquote--dark {
     border-left: solid #3d4b54 5px; }
@@ -3275,7 +3275,7 @@ button:disabled {
 
 /* line 14, Framework/sass/components/_scrollbar.sass */
 ::-webkit-scrollbar-thumb {
-  background: #a21717;
+  background: teal;
   border: 3px solid #f7f7f7;
   border-radius: 0px; }
 
@@ -3340,7 +3340,7 @@ button:disabled {
     width: 50px;
     height: 50px;
     display: block;
-    background: #a21717;
+    background: teal;
     right: -65px;
     -webkit-transform: translateY(200px);
     -ms-transform: translateY(200px);
@@ -3366,10 +3366,10 @@ button:disabled {
       color: #fff;
       text-align: center;
       font-size: 20px;
-      text-shadow: 0px 2px 3px #490a0a; }
+      text-shadow: 0px 2px 3px #001a1a; }
     /* line 43, Framework/sass/components/_scrollup.sass */
     .scrollup__button:hover {
-      background: #8c1414; }
+      background: #006767; }
     @media screen and (max-width: 1050px) {
       /* line 17, Framework/sass/components/_scrollup.sass */
       .scrollup__button {
@@ -3419,11 +3419,11 @@ button:disabled {
     /* line 30, Framework/sass/components/_pagination.sass */
     .pagination li a {
       display: block;
-      color: #a21717;
+      color: teal;
       text-decoration: none; }
     /* line 35, Framework/sass/components/_pagination.sass */
     .pagination li:not(.disable):hover, .pagination li:not(.disable).active {
-      background: #a21717; }
+      background: teal; }
       /* line 39, Framework/sass/components/_pagination.sass */
       .pagination li:not(.disable):hover a, .pagination li:not(.disable):hover span, .pagination li:not(.disable).active a, .pagination li:not(.disable).active span {
         color: #f7f7f7; }

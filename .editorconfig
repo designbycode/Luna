@@ -5,25 +5,23 @@ root = true
 
 # Unix-style newlines with a newline ending every file
 [*]
-end_of_line = lf
 insert_final_newline = true
 
 # Matches multiple files with brace expansion notation
 # Set default charset
-[*.{js,py}]
+[*.{js,py,vue}]
 charset = utf-8
-
+end_of_line = lf
 # 4 space indentation
 [*.{php,blade}]
 indent_style = tab
 indent_size = 4
-
+end_of_line = lf
 # 4 space indentation
 [*.{scss,sass}]
 indent_style = tab
 indent_size = 2
-end_of_line = lf
-insert_final_newline = true
+
 # Tab indentation (no size specified)
 [Makefile]
 indent_style = tab
