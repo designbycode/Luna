@@ -34,7 +34,11 @@
 
 		display: table-cell
 		vertical-align: middle
-		// background: pink
+		+media-custom('max', 400px)
+			display: table-row
+			// text-align: -webkit-center
+			
+
 
 	&__image
 		display: block
@@ -50,6 +54,10 @@
 		display: block
 		background: $mute-color
 		max-width: none
+		+media-custom('max', 400px)
+			margin-top: $the__global__padding
+			margin-bottom: $the__global__padding
+
 
 	&__left
 		padding-right: $the__global__padding

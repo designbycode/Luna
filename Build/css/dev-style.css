@@ -558,7 +558,12 @@ a:link,
 a:visited,
 a:hover,
 a:focus {
-  color: teal; }
+  color: teal;
+  text-decoration: none; }
+
+/* line 21, Framework/sass/globals/_body.sass */
+a:hover {
+  text-decoration: underline; }
 
 /* line 24, Framework/sass/mixins/_grid.sass */
 .wrapper {
@@ -1088,334 +1093,333 @@ a:focus {
   src: url("../fonts/lunacon/Lunacon.eot");
   src: url("../fonts/lunacon/Lunacon.eot?#iefix") format("eot"), url("../fonts/lunacon/Lunacon.woff") format("woff"), url("../fonts/lunacon/Lunacon.ttf") format("truetype"), url("../fonts/lunacon/Lunacon.svg#Lunacon") format("svg"); }
 
-/* line 30, Framework/sass/vendor/_icons.scss */
+/* line 29, Framework/sass/vendor/_icons.scss */
 .lunacon, .lunacon-address-book::before, .lunacon-backward::before, .lunacon-basket-solid::before, .lunacon-basket::before, .lunacon-bell-mute-solid::before, .lunacon-bell-mute::before, .lunacon-bell-solid::before, .lunacon-bell::before, .lunacon-cart-solid::before, .lunacon-cart::before, .lunacon-checkmark-small::before, .lunacon-checkmark::before, .lunacon-chevron-down::before, .lunacon-chevron-left::before, .lunacon-chevron-right::before, .lunacon-chevron-up::before, .lunacon-close-small::before, .lunacon-close::before, .lunacon-cloud-check-solid::before, .lunacon-cloud-check::before, .lunacon-cloud-solid::before, .lunacon-cloud::before, .lunacon-dailer-solid::before, .lunacon-dailer::before, .lunacon-dashboard::before, .lunacon-download::before, .lunacon-forward::before, .lunacon-gift::before, .lunacon-home-solid::before, .lunacon-home::before, .lunacon-key::before, .lunacon-lock-open::before, .lunacon-lock::before, .lunacon-login::before, .lunacon-logout::before, .lunacon-microphone::before, .lunacon-moon-solid::before, .lunacon-moon::before, .lunacon-navicon::before, .lunacon-pause::before, .lunacon-pencil::before, .lunacon-play::before, .lunacon-search-min::before, .lunacon-search-zoom::before, .lunacon-search::before, .lunacon-shield-lock-solid::before, .lunacon-shield::before, .lunacon-skip-back::before, .lunacon-skip-forward::before, .lunacon-skip-next::before, .lunacon-sound-big::before, .lunacon-sound-mute::before, .lunacon-sound-waves::before, .lunacon-sound::before, .lunacon-star-half-solid::before, .lunacon-star-half::before, .lunacon-star-solid::before, .lunacon-star::before, .lunacon-stop::before, .lunacon-thumbs-down-solid::before, .lunacon-thumbs-down::before, .lunacon-thumbs-up-solid::before, .lunacon-thumbs-up::before, .lunacon-upload::before, .lunacon-user-delete-solid::before, .lunacon-user-delete::before, .lunacon-user-solid::before, .lunacon-user::before, .lunacon-users-solid::before, .lunacon-users::before {
   display: inline-block;
   font: normal normal normal 14px/1 "Lunacon";
   font-size: inherit;
-  font-size: inherit;
-  line-height: 24px;
+  line-height: 0px;
   vertical-align: unset;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 34, Framework/sass/vendor/_icons.scss */
+/* line 33, Framework/sass/vendor/_icons.scss */
 .lunacon-fw {
   width: 1.28571429em;
   text-align: center; }
 
-/* line 40, Framework/sass/vendor/_icons.scss */
+/* line 39, Framework/sass/vendor/_icons.scss */
 .lunacon--size-x1 {
   font-size: 14px !important;
   line-height: 1; }
 
-/* line 45, Framework/sass/vendor/_icons.scss */
+/* line 44, Framework/sass/vendor/_icons.scss */
 .lunacon--size-x2 {
   font-size: 28px !important;
   line-height: 1; }
 
-/* line 50, Framework/sass/vendor/_icons.scss */
+/* line 49, Framework/sass/vendor/_icons.scss */
 .lunacon--size-x3 {
   font-size: 42px !important;
   line-height: 1; }
 
-/* line 55, Framework/sass/vendor/_icons.scss */
+/* line 54, Framework/sass/vendor/_icons.scss */
 .lunacon--size-x4 {
   font-size: 56px !important;
   line-height: 1; }
 
-/* line 60, Framework/sass/vendor/_icons.scss */
+/* line 59, Framework/sass/vendor/_icons.scss */
 .lunacon--size-x5 {
   font-size: 70px !important;
   line-height: 1; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-address-book::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-backward::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-basket-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-basket::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-bell-mute-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-bell-mute::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-bell-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-bell::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-cart-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-cart::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-checkmark-small::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-checkmark::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-chevron-down::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-chevron-left::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-chevron-right::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-chevron-up::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-close-small::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-close::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-cloud-check-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-cloud-check::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-cloud-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-cloud::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-dailer-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-dailer::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-dashboard::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-download::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-forward::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-gift::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-home-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-home::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-key::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-lock-open::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-lock::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-login::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-logout::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-microphone::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-moon-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-moon::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-navicon::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-pause::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-pencil::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-play::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-search-min::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-search-zoom::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-search::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-shield-lock-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-shield::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-skip-back::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-skip-forward::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-skip-next::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-sound-big::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-sound-mute::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-sound-waves::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-sound::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-star-half-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-star-half::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-star-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-star::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-stop::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-thumbs-down-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-thumbs-down::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-thumbs-up-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-thumbs-up::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-upload::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-user-delete-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-user-delete::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-user-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-user::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-users-solid::before {
   content: ""; }
 
-/* line 569, Framework/sass/vendor/_icons.scss */
+/* line 568, Framework/sass/vendor/_icons.scss */
 .lunacon-users::before {
   content: ""; }
 
-/* line 795, Framework/sass/vendor/_icons.scss */
+/* line 794, Framework/sass/vendor/_icons.scss */
 .lunacon-spin-animation {
   -webkit-animation: lunacon-spin 2s infinite linear;
   animation: lunacon-spin 2s infinite linear; }
 
-/* line 800, Framework/sass/vendor/_icons.scss */
+/* line 799, Framework/sass/vendor/_icons.scss */
 .lunacon-flash-animation {
   -webkit-animation: lunacon-flash 1s infinite  ease-in-out;
   animation: lunacon-flash 1s infinite  ease-in-out; }
@@ -1534,11 +1538,11 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
 /* line 15, Framework/sass/helpers/_helpers.sass */
 .text--secondary,
 .color--secondary {
-  color: tomato !important; }
+  color: teal !important; }
   /* line 17, Framework/sass/helpers/_helpers.sass */
   .text--secondary-light,
   .color--secondary-light {
-    color: #ffd0c8 !important; }
+    color: #b3d9d9 !important; }
 
 /* line 15, Framework/sass/helpers/_helpers.sass */
 .text--dark,
@@ -1621,10 +1625,10 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--secondary {
-  background-color: tomato !important; }
+  background-color: teal !important; }
   /* line 25, Framework/sass/helpers/_helpers.sass */
   .background--secondary-light {
-    background-color: #ffefed !important; }
+    background-color: #e6f2f2 !important; }
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--dark {
@@ -1695,12 +1699,12 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
 
 /* line 32, Framework/sass/helpers/_helpers.sass */
 .border--secondary {
-  border-color: tomato !important;
+  border-color: teal !important;
   border-width: 1px;
   border-style: solid; }
   /* line 37, Framework/sass/helpers/_helpers.sass */
   .border--secondary-light {
-    border-color: #ffd0c8 !important;
+    border-color: #b3d9d9 !important;
     border-width: 1px;
     border-style: solid; }
 
@@ -2375,7 +2379,7 @@ input[type="submit"].button {
   a.btn--secondary,
   button.btn--secondary,
   input[type="submit"].btn--secondary {
-    background: tomato;
+    background: teal;
     color: #fff; }
     /* line 23, Framework/sass/components/_buttons.sass */
     .btn--secondary:hover, .btn--secondary:active, .btn--secondary:focus,
@@ -2388,7 +2392,7 @@ input[type="submit"].button {
     input[type="submit"].btn--secondary:hover,
     input[type="submit"].btn--secondary:active,
     input[type="submit"].btn--secondary:focus {
-      background: #ff4d2e;
+      background: #006767;
       -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
     /* line 31, Framework/sass/components/_buttons.sass */
@@ -2396,14 +2400,14 @@ input[type="submit"].button {
     a.btn--secondary-gradient,
     button.btn--secondary-gradient,
     input[type="submit"].btn--secondary-gradient {
-      background: tomato;
-      background: -webkit-gradient(linear, left top, left bottom, from(tomato), to(#ff4d2e));
-      background: -webkit-linear-gradient(top, tomato, #ff4d2e);
-      background: -o-linear-gradient(top, tomato, #ff4d2e);
-      background: linear-gradient(180deg, tomato, #ff4d2e);
+      background: teal;
+      background: -webkit-gradient(linear, left top, left bottom, from(teal), to(#006767));
+      background: -webkit-linear-gradient(top, teal, #006767);
+      background: -o-linear-gradient(top, teal, #006767);
+      background: linear-gradient(180deg, teal, #006767);
       color: #fff;
-      border: solid 1px #ff4d2e;
-      text-shadow: #e02200 0 1px 1px; }
+      border: solid 1px #006767;
+      text-shadow: #001a1a 0 1px 1px; }
       /* line 41, Framework/sass/components/_buttons.sass */
       .btn--secondary-gradient:hover, .btn--secondary-gradient:active, .btn--secondary-gradient:focus,
       a.btn--secondary-gradient:hover,
@@ -2415,11 +2419,11 @@ input[type="submit"].button {
       input[type="submit"].btn--secondary-gradient:hover,
       input[type="submit"].btn--secondary-gradient:active,
       input[type="submit"].btn--secondary-gradient:focus {
-        background: #ff4d2e;
-        background: -webkit-gradient(linear, left top, left bottom, from(#ff5a3d), to(#ff4523));
-        background: -webkit-linear-gradient(top, #ff5a3d, #ff4523);
-        background: -o-linear-gradient(top, #ff5a3d, #ff4523);
-        background: linear-gradient(180deg, #ff5a3d, #ff4523);
+        background: #006767;
+        background: -webkit-gradient(linear, left top, left bottom, from(#007676), to(#005c5c));
+        background: -webkit-linear-gradient(top, #007676, #005c5c);
+        background: -o-linear-gradient(top, #007676, #005c5c);
+        background: linear-gradient(180deg, #007676, #005c5c);
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
   /* line 16, Framework/sass/components/_buttons.sass */
@@ -2890,6 +2894,7 @@ input[type="submit"].button {
 /* line 78, Framework/sass/components/_buttons.sass */
 .btn__group {
   position: relative;
+  margin-left: -3px;
   *zoom: 1; }
   /* line 9, Framework/sass/mixins/_clearfix.sass */
   .btn__group::before, .btn__group::after {
@@ -2900,24 +2905,24 @@ input[type="submit"].button {
     clear: both; }
   /* line 84, Framework/sass/components/_buttons.sass */
   .btn__group .btn, .btn__group .button {
-    float: left; }
-    /* line 87, Framework/sass/components/_buttons.sass */
-    .btn__group .btn + .btn, .btn__group .button + .btn, .btn__group .btn + .button, .btn__group .button + .button {
-      margin-left: 5px; }
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 3px;
+    margin-right: 3px; }
 
-/* line 92, Framework/sass/components/_buttons.sass */
+/* line 90, Framework/sass/components/_buttons.sass */
 .btn__icon,
 .icon {
   vertical-align: middle; }
-  /* line 95, Framework/sass/components/_buttons.sass */
+  /* line 93, Framework/sass/components/_buttons.sass */
   .btn__icon--left,
   .icon--left {
     margin-right: 5px; }
-  /* line 97, Framework/sass/components/_buttons.sass */
+  /* line 95, Framework/sass/components/_buttons.sass */
   .btn__icon--right,
   .icon--right {
     margin-left: 5px; }
-  /* line 100, Framework/sass/components/_buttons.sass */
+  /* line 98, Framework/sass/components/_buttons.sass */
   .btn__icon--left, .btn__icon--right,
   .icon--left,
   .icon--right {
@@ -3233,10 +3238,10 @@ button:disabled {
       color: #a21717; }
   /* line 35, Framework/sass/components/_blockquote.sass */
   .blockquote--secondary {
-    border-left: solid tomato 5px; }
+    border-left: solid teal 5px; }
     /* line 38, Framework/sass/components/_blockquote.sass */
     .blockquote--secondary .blockquote__header {
-      color: tomato; }
+      color: teal; }
   /* line 35, Framework/sass/components/_blockquote.sass */
   .blockquote--dark {
     border-left: solid #3d4b54 5px; }
@@ -3477,32 +3482,41 @@ button:disabled {
   .media__body, .media__left, .media__right {
     display: table-cell;
     vertical-align: middle; }
-  /* line 39, Framework/sass/components/_media.sass */
+    @media screen and (max-width: 400px) {
+      /* line 31, Framework/sass/components/_media.sass */
+      .media__body, .media__left, .media__right {
+        display: table-row; } }
+  /* line 43, Framework/sass/components/_media.sass */
   .media__image {
     display: block; }
-  /* line 44, Framework/sass/components/_media.sass */
+  /* line 48, Framework/sass/components/_media.sass */
   .media__heading {
     margin-top: 0;
     margin-bottom: 0px;
     font-weight: bold; }
-  /* line 49, Framework/sass/components/_media.sass */
+  /* line 53, Framework/sass/components/_media.sass */
   .media__thumbnail {
     display: block;
     background: #f7f7f7;
     max-width: none; }
-  /* line 54, Framework/sass/components/_media.sass */
+    @media screen and (max-width: 400px) {
+      /* line 53, Framework/sass/components/_media.sass */
+      .media__thumbnail {
+        margin-top: 15px;
+        margin-bottom: 15px; } }
+  /* line 62, Framework/sass/components/_media.sass */
   .media__left {
     padding-right: 15px; }
-  /* line 57, Framework/sass/components/_media.sass */
+  /* line 65, Framework/sass/components/_media.sass */
   .media__right {
     padding-left: 15px; }
-  /* line 61, Framework/sass/components/_media.sass */
+  /* line 69, Framework/sass/components/_media.sass */
   .media--top {
     vertical-align: top; }
-  /* line 64, Framework/sass/components/_media.sass */
+  /* line 72, Framework/sass/components/_media.sass */
   .media--middle {
     vertical-align: middle; }
-  /* line 67, Framework/sass/components/_media.sass */
+  /* line 75, Framework/sass/components/_media.sass */
   .media--bottom {
     vertical-align: bottom; }
 
@@ -3513,10 +3527,10 @@ body {
 /* line 16, Framework/sass/dev-style.sass */
 .hero {
   padding: 120px 0;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(10%, tomato), color-stop(90%, #a21717));
-  background-image: -webkit-linear-gradient(bottom, tomato 10%, #a21717 90%);
-  background-image: -o-linear-gradient(bottom, tomato 10%, #a21717 90%);
-  background-image: linear-gradient(0deg, tomato 10%, #a21717 90%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(10%, teal), color-stop(90%, #a21717));
+  background-image: -webkit-linear-gradient(bottom, teal 10%, #a21717 90%);
+  background-image: -o-linear-gradient(bottom, teal 10%, #a21717 90%);
+  background-image: linear-gradient(0deg, teal 10%, #a21717 90%);
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
@@ -3578,13 +3592,13 @@ footer.footer {
 
 /* line 79, Framework/sass/dev-style.sass */
 code {
-  border: solid #ffd8d1 1px;
+  border: solid #bfdfdf 1px;
   border-radius: 3px;
-  background: #fff7f6;
+  background: #f2f9f9;
   padding: 0 5px;
   margin-right: 3px;
   display: inline-block;
-  color: tomato; }
+  color: teal; }
 
 /* line 89, Framework/sass/dev-style.sass */
 pre code {
