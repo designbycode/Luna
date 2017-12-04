@@ -8,8 +8,7 @@
 	position: relative
 	background: #fff
 	overflow: hidden
-	display: flex
-	flex-direction: column
+	display: inline-block
 	height: 100%
 	+radius
 	margin-top: $the__global__padding
@@ -29,7 +28,7 @@
 	&__header,
 	&__body,
 	&__footer
-		padding: ($the__global__padding / 2) $the__global__padding
+		padding: $the__global__padding 
 
 	&__header
 		border-bottom: solid 1px $mute-border-color
@@ -37,7 +36,6 @@
 
 
 	&__body
-		flex: 1
 		p
 			padding-bottom: $the__global__padding
 

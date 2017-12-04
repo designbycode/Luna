@@ -1538,11 +1538,11 @@ input[type="submit"].btn, .form__label, .form__helper {
 /* line 15, Framework/sass/helpers/_helpers.sass */
 .text--secondary,
 .color--secondary {
-  color: #a2e600 !important; }
+  color: tomato !important; }
   /* line 17, Framework/sass/helpers/_helpers.sass */
   .text--secondary-light,
   .color--secondary-light {
-    color: #e3f8b3 !important; }
+    color: #ffd0c8 !important; }
 
 /* line 15, Framework/sass/helpers/_helpers.sass */
 .text--dark,
@@ -1625,10 +1625,10 @@ input[type="submit"].btn, .form__label, .form__helper {
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--secondary {
-  background-color: #a2e600 !important; }
+  background-color: tomato !important; }
   /* line 25, Framework/sass/helpers/_helpers.sass */
   .background--secondary-light {
-    background-color: #f6fde6 !important; }
+    background-color: #ffefed !important; }
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--dark {
@@ -1699,12 +1699,12 @@ input[type="submit"].btn, .form__label, .form__helper {
 
 /* line 32, Framework/sass/helpers/_helpers.sass */
 .border--secondary {
-  border-color: #a2e600 !important;
+  border-color: tomato !important;
   border-width: 1px;
   border-style: solid; }
   /* line 37, Framework/sass/helpers/_helpers.sass */
   .border--secondary-light {
-    border-color: #e3f8b3 !important;
+    border-color: #ffd0c8 !important;
     border-width: 1px;
     border-style: solid; }
 
@@ -2355,7 +2355,7 @@ input[type="submit"].btn {
   a.btn--secondary,
   button.btn--secondary,
   input[type="submit"].btn--secondary {
-    background: #a2e600;
+    background: tomato;
     color: #fff; }
     /* line 23, Framework/sass/components/_buttons.sass */
     .btn--secondary:hover, .btn--secondary:active, .btn--secondary:focus,
@@ -2368,7 +2368,7 @@ input[type="submit"].btn {
     input[type="submit"].btn--secondary:hover,
     input[type="submit"].btn--secondary:active,
     input[type="submit"].btn--secondary:focus {
-      background: #90cd00;
+      background: #ff4d2e;
       -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
     /* line 31, Framework/sass/components/_buttons.sass */
@@ -2376,14 +2376,14 @@ input[type="submit"].btn {
     a.btn--secondary-gradient,
     button.btn--secondary-gradient,
     input[type="submit"].btn--secondary-gradient {
-      background: #a2e600;
-      background: -webkit-gradient(linear, left top, left bottom, from(#a2e600), to(#90cd00));
-      background: -webkit-linear-gradient(top, #a2e600, #90cd00);
-      background: -o-linear-gradient(top, #a2e600, #90cd00);
-      background: linear-gradient(180deg, #a2e600, #90cd00);
+      background: tomato;
+      background: -webkit-gradient(linear, left top, left bottom, from(tomato), to(#ff4d2e));
+      background: -webkit-linear-gradient(top, tomato, #ff4d2e);
+      background: -o-linear-gradient(top, tomato, #ff4d2e);
+      background: linear-gradient(180deg, tomato, #ff4d2e);
       color: #fff;
-      border: solid 1px #90cd00;
-      text-shadow: #5a8000 0 1px 1px; }
+      border: solid 1px #ff4d2e;
+      text-shadow: #e02200 0 1px 1px; }
       /* line 41, Framework/sass/components/_buttons.sass */
       .btn--secondary-gradient:hover, .btn--secondary-gradient:active, .btn--secondary-gradient:focus,
       a.btn--secondary-gradient:hover,
@@ -2395,11 +2395,11 @@ input[type="submit"].btn {
       input[type="submit"].btn--secondary-gradient:hover,
       input[type="submit"].btn--secondary-gradient:active,
       input[type="submit"].btn--secondary-gradient:focus {
-        background: #90cd00;
-        background: -webkit-gradient(linear, left top, left bottom, from(#9bdc00), to(#89c200));
-        background: -webkit-linear-gradient(top, #9bdc00, #89c200);
-        background: -o-linear-gradient(top, #9bdc00, #89c200);
-        background: linear-gradient(180deg, #9bdc00, #89c200);
+        background: #ff4d2e;
+        background: -webkit-gradient(linear, left top, left bottom, from(#ff5a3d), to(#ff4523));
+        background: -webkit-linear-gradient(top, #ff5a3d, #ff4523);
+        background: -o-linear-gradient(top, #ff5a3d, #ff4523);
+        background: linear-gradient(180deg, #ff5a3d, #ff4523);
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
   /* line 16, Framework/sass/components/_buttons.sass */
@@ -3214,10 +3214,10 @@ button:disabled {
       color: teal; }
   /* line 35, Framework/sass/components/_blockquote.sass */
   .blockquote--secondary {
-    border-left: solid #a2e600 5px; }
+    border-left: solid tomato 5px; }
     /* line 38, Framework/sass/components/_blockquote.sass */
     .blockquote--secondary .blockquote__header {
-      color: #a2e600; }
+      color: tomato; }
   /* line 35, Framework/sass/components/_blockquote.sass */
   .blockquote--dark {
     border-left: solid #3d4b54 5px; }
@@ -3284,42 +3284,28 @@ button:disabled {
   position: relative;
   background: #fff;
   overflow: hidden;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  display: inline-block;
   height: 100%;
   border-radius: 3px;
   margin-top: 15px; }
-  /* line 19, Framework/sass/components/_panel.sass */
+  /* line 18, Framework/sass/components/_panel.sass */
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
     padding: 0;
     margin: 0; }
-  /* line 25, Framework/sass/components/_panel.sass */
+  /* line 24, Framework/sass/components/_panel.sass */
   .panel--default {
     border: solid 1px #e6e9ec; }
-  /* line 29, Framework/sass/components/_panel.sass */
+  /* line 28, Framework/sass/components/_panel.sass */
   .panel__header, .panel__body, .panel__footer {
-    padding: 7.5px 15px; }
-  /* line 34, Framework/sass/components/_panel.sass */
+    padding: 15px; }
+  /* line 33, Framework/sass/components/_panel.sass */
   .panel__header {
     border-bottom: solid 1px #e6e9ec;
     font-weight: 600; }
   /* line 39, Framework/sass/components/_panel.sass */
-  .panel__body {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1; }
-    /* line 41, Framework/sass/components/_panel.sass */
-    .panel__body p {
-      padding-bottom: 15px; }
-  /* line 44, Framework/sass/components/_panel.sass */
+  .panel__body p {
+    padding-bottom: 15px; }
+  /* line 42, Framework/sass/components/_panel.sass */
   .panel__footer {
     background: #f7f7f7; }
 

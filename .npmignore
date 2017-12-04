@@ -8,6 +8,7 @@ _init-dev.sass
 dev-style.sass
 lunacon/*.ai
 lunacon/svgicons
+Build
 Framework/img
 Framework/jade
 Framework/sass/_arduino-light.scss
