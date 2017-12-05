@@ -10465,4 +10465,9 @@ if ( typeof Object.create !== 'function' ) {
 })(jQuery, window, document);
 
 
-$(document).Luna();
+(function(){
+    'use stric';
+
+    $(document).Luna();
+})();
+

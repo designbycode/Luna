@@ -80,10 +80,10 @@ $_breakpoints : (xs: $grid__breakpoint__xs, sm: $grid__breakpoint__sm, md: $grid
 $global-border-radius: 3px
 
 $global-background-color: #fff
-$global-font-color: #666
-$global-link-color: teal
+$global-font-color: #444
+$global-link-color: #2075d0
 $global-header-font: 'Montserrat Alternates', sans-serif
-$global-body-font: 'Roboto', sans-serif
+$global-body-font: $base-font-family // override normalize base font family
 
 $font-path: '../fonts'
 
@@ -94,11 +94,9 @@ $font-path: '../fonts'
 
 
 // Main Colors
-$primary-color: teal
-
-$secondary-color: tomato
-$dark-color: #3d4b54
-
+$primary-color: #ddd
+$secondary-color: #ccc
+$dark-color: #222
 
 $mute-color: #f7f7f7
 $mute-border-color: #e6e9ec
@@ -111,8 +109,6 @@ $info-color: #4285f4
 $warning-color: #f09300
 $success-color: #008c3a
 $danger-color: #ea4335
-
-
 
 // ==========================================
 // == COLOR MAP
@@ -135,6 +131,7 @@ $_color_set: map-merge($_color_set, $_nofiy_colors)
 $the__button__font__size: $base-font-size
 $the__button__font__weight: 400
 $the__button__border__radius: $global-border-radius
+$the__button__default__hover__background__color: #e1f3fc 
 
 
 // ==========================================

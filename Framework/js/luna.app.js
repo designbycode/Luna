@@ -1,2 +1,7 @@
 
-$(document).Luna();
+(function(){
+    'use stric';
+
+    $(document).Luna();
+})();
+

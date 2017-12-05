@@ -14,7 +14,7 @@ $base-font-size: 16px !default
 $base-icon-size: 14px !default
 
 // The base line height determines the basic unit of vertical rhythm.
-$base-line-height: 34px !default
+$base-line-height: 24px !default 
 
 // The length unit in which to output vertical rhythm values.
 // Supported values: px, em, rem.
@@ -79,11 +79,11 @@ $_breakpoints : (xs: $grid__breakpoint__xs, sm: $grid__breakpoint__sm, md: $grid
 
 $global-border-radius: 3px
 
-$global-background-color: #fff
+$global-background-color: #fff 
 $global-font-color: #666
-$global-link-color: #039be5
+$global-link-color: #2075d0
 $global-header-font: 'Montserrat Alternates', sans-serif
-$global-body-font: 'Roboto', sans-serif
+$global-body-font: $base-font-family // override normalize base font family
 
 $font-path: '../fonts'
 
@@ -94,9 +94,9 @@ $font-path: '../fonts'
 
 
 // Main Colors
-$primary-color: teal
-$secondary-color: tomato
-$dark-color: #3d4b54
+$primary-color: #5278bd 
+$secondary-color: #ce5c5c
+$dark-color: #222
 
 $mute-color: #f7f7f7
 $mute-border-color: #e6e9ec
@@ -109,7 +109,6 @@ $info-color: #4285f4
 $warning-color: #f09300
 $success-color: #008c3a
 $danger-color: #ea4335
-
 
 // ==========================================
 // == COLOR MAP
@@ -132,6 +131,7 @@ $_color_set: map-merge($_color_set, $_nofiy_colors)
 $the__button__font__size: $base-font-size
 $the__button__font__weight: 400
 $the__button__border__radius: $global-border-radius
+$the__button__default__hover__background__color: #e1f3fc
 
 
 // ==========================================
@@ -139,29 +139,29 @@ $the__button__border__radius: $global-border-radius
 // ==========================================
 
 $navigation__breakpoint: 900px
-$navigation__height: 50px
-$navigation__dropdown__links__height: 50px
+$navigation__height: 70px
+$navigation__dropdown__links__height: 60px
 
-$navigation__padding: 10px 
-$navigation__brand__color: #fff
+$navigation__padding: 0px
+$navigation__brand__color: $dark-color
 $navigation__brand__font__size: 28px
-$navigation__background__color: #222 
+$navigation__background__color: $mute-color 
+$navigation__links__color: $dark-color
+$navigation__links__color__hover: #fff
 
-$navigation__links__color: #fff
-$navigation__links__color__hover: $dark-color
 
 $navigation__links__background__color: transparent
-$navigation__links__background__color__hover: #fff
+$navigation__links__background__color__hover: $primary-color
 // Submenu
 $navigation__submenu__links__width: 200px
 $navigation__submenu__links__color: $dark-color
-$navigation__submenu__links__color__hover: $dark-color
+$navigation__submenu__links__color__hover: #eee  
 $navigation__submenu__links__background__color: #eee
-$navigation__submenu__links__background__color__hover: darken(#eee, 5%)
+$navigation__submenu__links__background__color__hover: $primary-color   
 
 // Nav Button
 $navicon__backgound__color: transparent
-$navicon__color: $mute-color
+$navicon__color: $dark-color
 $navicon__font__size: 16px
 $navicon__size: 40px
 
