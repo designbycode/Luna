@@ -11,6 +11,9 @@ button.btn,
 input[type="submit"].btn
 	+makeButton
 
+	> .lunacon 
+		vertical-align: text-top !important 
+
 	@each $key, $value in $_color_set
 
 		&--#{$key}
@@ -80,16 +83,28 @@ input[type="submit"].btn
 	margin-left: -3px
 	+clearfix
 
-
 	.btn
 		float: left
 		margin-bottom: $the__global__padding
 		margin-left: 3px
 		margin-right: 3px
 
+	&--middle 
+		@extend .btn__group	
+
+		.btn 
+			float: none
+			display: inline-block
+
 .btn__icon,
-.icon
-	vertical-align: middle 
+.icon,
+a.btn__icon,
+a.icon,
+button.btn__icon,
+button.icon,
+input[type="submit"].btn__icon,
+input[type="submit"].icon
+	
 	&--left
 		margin-right: 5px
 	&--right
@@ -98,4 +113,4 @@ input[type="submit"].btn
 	&--left,
 	&--right
 		position: relative
-		top: 3px
+

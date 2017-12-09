@@ -8,7 +8,7 @@
     <title>Luna Framework - Components</title>
   </head>
   <body>
-    <nav class="nav nav--fixed nav--shadow">
+    <nav class="nav nav--fixed nav--shadow-light">
       <div class="nav__wrapper">
         <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
         <div class="nav__navicon"></div>
@@ -72,7 +72,7 @@
       </div>
       <div class="row padding--bottom">
         <div class="col">
-          <nav class="nav background--secondary">
+          <nav class="nav background--secondary nav--shadow-dark">
             <div class="nav__wrapper">
               <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
               <div class="nav__navicon"></div>
@@ -89,7 +89,7 @@
       </div>
       <div class="row padding--bottom">
         <div class="col">
-          <nav class="nav background--danger">
+          <nav class="nav background--danger nav--shadow">
             <div class="nav__wrapper">
               <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
               <div class="nav__navicon"></div>
@@ -111,7 +111,7 @@
       </div>
       <div class="row padding--bottom">
         <div class="col">
-          <nav class="nav nav__mobile background--success">
+          <nav class="nav nav__mobile background--success nav--shadow-light">
             <div class="nav__wrapper">
               <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
               <div class="nav__navicon"></div>
@@ -144,9 +144,11 @@
                 </ul>
               </div>
               <div class="nav__links__wrapper nav__links--right">
-                <div class="form__item__group">
-                  <input type="text" placeholder="seach" class="form__item background--info-light text--info border--primary">
-                  <button type="submit" class="btn btn--primary"><i class="lunacon lunacon-bell-solid"></i></button>
+                <div class="nav__links__item">
+                  <div class="nav__form">
+                    <input type="text" placeholder="seach" class="form__item">
+                    <button type="submit" class="btn btn--secondary"><i class="lunacon lunacon-bell-solid"></i></button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -215,12 +217,19 @@
           <pre><code class="html">&lt;a href=&quot;#&quot; class=&quot;btn btn--primary-gradiant&quot;&gt;Button&lt;/a&gt;</code></pre>
           <h2>Button Sizes</h2>
           <p>To change button size, add one of the following classes to the <code>.btn</code> class. <code>.btn--xs</code> <code>.btn--sm</code> <code>.btn--md</code> <code>.btn--lg</code> <code>.btn--xl</code></p>
-          <div class="button__lists">
+          <div class="btn__group">
             <a href="#" class="btn btn--primary btn--xs">Button</a>
             <a href="#" class="btn btn--primary btn--sm">Button</a>
             <a href="#" class="btn btn--primary btn--md">Button</a>
             <a href="#" class="btn btn--primary btn--lg">Button</a>
-            <a href="#" class="btn btn--primary btn--xl">Button</a>
+            <a href="#" class="btn btn--primary btn--xl">Button</a>    
+          </div>
+          <div class="btn__group--middle">
+            <a href="#" class="btn btn--secondary-gradient btn--xl">Button</a>
+            <a href="#" class="btn btn--secondary-gradient btn--lg">Button</a>
+            <a href="#" class="btn btn--secondary-gradient btn--md">Button</a>
+            <a href="#" class="btn btn--secondary-gradient btn--sm">Button</a>
+            <a href="#" class="btn btn--secondary-gradient btn--xs">Button</a>
           </div>
           <pre><code class="html">&lt;a href=&quot;#&quot; class=&quot;btn btn--xl&quot;&gt;Button&lt;/a&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn--sm&quot;&gt;Button&lt;/a&gt;
@@ -229,7 +238,7 @@
 &lt;a href=&quot;#&quot; class=&quot;btn btn--xl&quot;&gt;Button&lt;/a&gt;</code></pre>
           <h2>Button Icons</h2>
           <p>Lunacon Icon can be placed ever on left or right. <code>.btn__icon--left</code> or <code>.btn__icon--right</code></p>
-          <div class="button__list"><a href="#" class="btn btn--primary-gradient">Icon on Right <i class="btn__icon--right lunacon lunacon-moon"></i></a><a href="#" class="btn btn--primary-gradient"><i class="btn__icon--left lunacon lunacon-moon-solid"></i> Icon on Left</a><a href="#" class="btn btn--primary-gradient"><i class="btn__icon lunacon lunacon-moon-solid"></i></a></div>
+          <div class="btn__group"><a href="#" class="btn btn--primary-gradient">Icon on Right <i class="btn__icon--right lunacon lunacon-moon"></i></a><a href="#" class="btn btn--primary-gradient"><i class="btn__icon--left lunacon lunacon-moon-solid"></i> Icon on Left</a><a href="#" class="btn btn--primary-gradient"><i class="btn__icon lunacon lunacon-moon-solid"></i></a></div>
           <pre><code class="html">&lt;a class=&quot;btn&quot;&gt;&lt;i class=&quot;btn__icon--left lunacon lunacon-moon-solid&quot;&gt;&lt;/i&gt;Button&lt;/a&gt;
 &lt;a class=&quot;btn&quot;&gt;Button&lt;i class=&quot;btn__icon--right lunacon lunacon-moon-solid&quot;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;a class=&quot;btn&quot;&gt;&lt;i class=&quot;btn__icon lunacon lunacon-moon-solid&quot;&gt;&lt;/i&gt;&lt;/a&gt;</code></pre>
@@ -653,14 +662,17 @@
     <div class="scrollup">
       <div class="wrapper"><a href="#" class="scrollup__button"></a></div>
     </div>
+    <script src="js/jquery.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/highlight.pack.js"></script>
     <script>
       $(document).ready(function() {
+        $(document).Luna();
         $('pre code').each(function(i, block) {
           hljs.highlightBlock(block);
         });
       });
+      
     </script>
   </body>
 </html>

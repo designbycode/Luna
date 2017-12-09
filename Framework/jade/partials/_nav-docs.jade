@@ -19,7 +19,7 @@
 
 .row.padding--bottom
   .col
-    nav.nav.background--secondary
+    nav.nav.background--secondary.nav--shadow-dark
       .nav__wrapper
         .nav__brand
           a(href="index.html") Luna Framework
@@ -37,7 +37,7 @@
 
 .row.padding--bottom
   .col
-    nav.nav.background--danger
+    nav.nav.background--danger.nav--shadow
       .nav__wrapper
         .nav__brand
           a(href="index.html") Luna Framework
@@ -58,7 +58,7 @@
 
 .row.padding--bottom
   .col
-    nav.nav.nav__mobile.background--success
+    nav.nav.nav__mobile.background--success.nav--shadow-light
       .nav__wrapper
         .nav__brand
           a(href="index.html") Luna Framework
@@ -76,6 +76,7 @@
               a(href="index.html").btn.btn--white.text--success  <i class="btn__icon--left lunacon lunacon-user-solid"></i> Login
             li.nav__links__button
               a(href="icons.html").btn.btn--white.text--success <i class="btn__icon--left lunacon lunacon-user-delete-solid "></i> Register
+
 .row.padding--bottom
   .col
     nav.nav.background--info
@@ -92,9 +93,10 @@
 
 
         .nav__links__wrapper.nav__links--right
-          .form__item__group
-            input(type="text", placeholder="seach" class="form__item background--info-light text--info border--primary")
-            button(type="submit", class="btn btn--primary") <i class="lunacon lunacon-bell-solid"></i>
+          .nav__links__item
+            .nav__form
+              input(type="text", placeholder="seach", class="form__item")
+              button(type="submit", class="btn btn--secondary") <i class="lunacon lunacon-bell-solid"></i>
 
 
 .row

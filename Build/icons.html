@@ -8,7 +8,7 @@
     <title>Luna Framework - Icons</title>
   </head>
   <body>
-    <nav class="nav nav--fixed nav--shadow">
+    <nav class="nav nav--fixed nav--shadow-light">
       <div class="nav__wrapper">
         <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
         <div class="nav__navicon"></div>
@@ -188,14 +188,17 @@
     <div class="scrollup">
       <div class="wrapper"><a href="#" class="scrollup__button"></a></div>
     </div>
+    <script src="js/jquery.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/highlight.pack.js"></script>
     <script>
       $(document).ready(function() {
+        $(document).Luna();
         $('pre code').each(function(i, block) {
           hljs.highlightBlock(block);
         });
       });
+      
     </script>
   </body>
 </html>

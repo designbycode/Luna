@@ -17,9 +17,6 @@
 @mixin lunacon-styles() {
 	display: inline-block;
 	font: normal normal normal 14px/1 "Lunacon";
-	font-size: inherit;
-	line-height: 0px;
-	vertical-align: unset;
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -28,6 +25,8 @@
 
 .lunacon{
 	@include lunacon-styles();
+	font-size: inherit; 
+	vertical-align: sub; 
 }
 
 .lunacon-fw{

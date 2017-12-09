@@ -7,12 +7,14 @@ html(lang="en")
     title Document
     link(rel="stylesheet", href="css/style.css")
   body
+    
+
 
     nav.nav.nav--shadow
       .nav__wrapper
         .nav__brand: a(href="#") Luna Framework
         .nav__navicon
-        .nav__links__wrapper.nav__links--left
+        .nav__links__wrapper.nav__links--right
           ul.nav__links
             li.nav__links__item: a(href="#") Home
             li.nav__links__item.nav__links__item--dropdown: a(href="#") Shop
@@ -37,40 +39,31 @@ html(lang="en")
                     li.nav__links__item: a(href="#") Dresses
             li.nav__links__item: a(href="#") Services
             li.nav__links__item: a(href="#") Contact Us
+  
+
     .wrapper 
+      br
+      .row
+
+        .md-col-8.md-float-right
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi perferendis ratione ipsam porro voluptates, quos quae temporibus enim maxime labore doloremque qui a consequatur inventore nemo dolores possimus nesciunt error impedit molestias rem harum. Maiores quaerat molestiae, velit officia est aliquid veniam impedit suscipit iste corporis perferendis, ipsa repellendus vero voluptatibus. Ipsam distinctio nam magnam ea dolorem est tempore nostrum, nisi aperiam similique architecto, cupiditate perspiciatis aspernatur quasi repellendus dolore provident numquam repellat quidem laboriosam porro totam debitis adipisci? Dolorem sed qui numquam consequuntur aperiam inventore eligendi, voluptatum asperiores, id dolor aliquid iure nesciunt veritatis vitae unde illum ab voluptate!
+
+        .md-col-4.md-float-left
+          h3  Lorem ipsum dolor sit amet, consectetur .
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat aperiam dolorum delectus quidem perferendis saepe sit voluptates deserunt! Laboriosam, architecto!
+      .row
+        hr
       .row 
       
-        .md-col-4 
-          .panel.panel--default 
-            .panel__header Hello World 
-            .panel__body  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, rem minima deleniti doloribus corporis exercitationem, sapiente in deserunt, placeat dignissimos ducimus aspernatur eos quisquam! Ad tempore, nam provident! Labore, adipisci.
-            .panel__footer:  a.btn.btn--primary(href="#") Button   
-
-        .md-col-4 
-          .panel.panel--default 
-            .panel__header Hello World 
-            .panel__body  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, rem minima deleniti doloribus corporis exercitationem, sapiente in deserunt, placeat dignissimos ducimus aspernatur abore, adipisci.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo aut ratione possimus ex et repellat distinctio deleniti dolor deserunt in ducimus, quidem doloremque assumenda, asperiores porro non ad! Impedit, ut!
-            .panel__footer:  a.btn.btn--primary(href="#") Button        
-        .md-col-4 
-          .panel.panel--default 
-            .panel__header Hello World 
-            .panel__body  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, rem minima deleniti doloribus corporis exercitationem, sapiente in deserunt, placeat dignissimos ducimus aspernatur abore, adipisci.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, vel, blanditiis a quaerat perspiciatis aut eos hic ab suscipit? Nemo.
-            .panel__footer:  a.btn.btn--primary(href="#") Button   
-      .row         
-        .md-col-4 
-          .panel
-            .panel__header Hello World 
-            .panel__body  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, rem minima deleniti doloribus corporis exercitationem, sapiente in deserunt, placeat dignissimos ducimus aspernatur eos quisquam! Ad tempore, nam provident! Labore, adipisci.
-            .panel__footer:  a.btn.btn--primary(href="#") Button   
-
-        .md-col-4 
-          .panel
-            .panel__header Hello World 
-            .panel__body  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, rem minima deleniti doloribus corporis exercitationem, sapiente in deserunt, placeat dignissimos ducimus aspernatur abore, adipisci.
-            .panel__footer:  a.btn.btn--primary(href="#") Button        
-        .md-col-4 
-          .panel
-            .panel__header Hello World 
-            .panel__body  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, rem minima deleniti doloribus corporis exercitationem, sapiente in deserunt, placeat dignissimos ducimus aspernatur abore, adipisci.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, vel, blanditiis a quaerat perspiciatis aut eos hic ab suscipit? Nemo.
-            .panel__footer:  a.btn.btn--primary(href="#") Button
+        each val in [1,2,3] 
+          .md-col-4  
+            .panel.panel--default 
+              .panel__header= 'Header ' + val 
+              .panel__body  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex dolor, minima, totam nulla accusantium impedit blanditiis neque dicta ab ipsa dolore reiciendis quas alias ut quos aperiam cupiditate ad....
+              .panel__footer: a.btn.btn--primary(href="#") READ MORE
+    script(src="js/jquery.min.js")
     script(src="js/app.js")
+    script.
+      $(document).ready(function(){
+        $(document).Luna();
+      });

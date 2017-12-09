@@ -17,12 +17,15 @@ html(lang="en")
 
     include ../partials/_footer.jade
     include ../partials/_scrollup.jade
-
+    script(src="js/jquery.min.js")
     script(src="js/app.js")
     script(src="js/highlight.pack.js")
     script.
       $(document).ready(function() {
+        $(document).Luna();
         $('pre code').each(function(i, block) {
           hljs.highlightBlock(block);
         });
       });
+  
+  block scripts

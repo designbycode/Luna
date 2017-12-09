@@ -7,8 +7,9 @@
     var settings, createModal, $body, closeModal;
 
     settings = $.extend({
-      'modal' : 'modal__md',
+      'modal' : 'modal',
       'close' : 'modal__close',
+      'closecolor' : 'danger',
       'overlay' : 'modal__overlay'
     }, opt);
 
@@ -20,18 +21,22 @@
     };
 
     createModal = function(data){
-      var overlay, close, modal, icon;
+      var overlay, close, modal, modalHeader, modalBody;
 
-      icon = $('<i/>', {
-        class: "fr fr-close"
+      modalHeader = $('<div/>', {
+      
+        class: "modal__header",
+        html: 'MODAL HEADER'
       });
 
+
       close = $('<div/>', {
-        class: settings.close
-      }).append(icon).on('click', function(e){
+        class: settings.close + ' text--' + settings.closecolor + ' border--' + settings.closecolor
+      }).on('click', function(e){
         e.preventDefault();
         //close modal and overlay
         closeModal(modal, overlay);
+        $body.removeClass('has__modal');
       });
 
       overlay = $('<div/>', {
@@ -40,12 +45,17 @@
         e.preventDefault();
         //close modal and overlay
         closeModal(modal, overlay);
+        $body.removeClass('has__modal');
+      });
+
+      modalBody = $('<div/>' , {
+        class: "modal__body",
+        html: data
       });
 
       modal = $('<div/>', {
-        html: data,
         class: "modal " + settings.modal
-      }).append(close);
+      }).append(modalHeader, modalBody, close);
 
       $body.prepend(overlay, modal);
     };
@@ -60,7 +70,7 @@
       }).done(function(data){
         createModal(data);
       });
-      $body.addClass('has__model');
+      $body.addClass('has__modal');
     });
 
   }
