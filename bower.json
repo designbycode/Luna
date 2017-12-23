@@ -45,6 +45,6 @@
   },
   "dependencies": {
     "jquery": "^3.2.1",
-    "lunacon": "^1.3.0"
+    "lunacon": "^1.6.0"
   }
 }
