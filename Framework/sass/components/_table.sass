@@ -130,9 +130,13 @@
 
 +media-down(md)
   .table
+    &__responsive
+      max-width: 100%
+
     &__responsive > &
       margin-bottom: 0
       background-color: transparent
+      max-width: 100%
 
     &__responsive > & > thead.table__head,
     &__responsive > & > tfoot.table__foot

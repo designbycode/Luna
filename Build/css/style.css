@@ -560,7 +560,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #444;
   background: #fff;
-    background-overflow-x: hidden; }
+    background-overflow-x: hidden !important; }
 
 /* line 22, Framework/sass/globals/_body.sass */
 a:link,
@@ -4508,57 +4508,61 @@ button:disabled {
 
 @media screen and (max-width: 800px) {
   /* line 133, Framework/sass/components/_table.sass */
+  .table__responsive {
+    max-width: 100%; }
+  /* line 136, Framework/sass/components/_table.sass */
   .table__responsive > .table {
     margin-bottom: 0;
-    background-color: transparent; }
-  /* line 137, Framework/sass/components/_table.sass */
+    background-color: transparent;
+    max-width: 100%; }
+  /* line 141, Framework/sass/components/_table.sass */
   .table__responsive > .table > thead.table__head,
   .table__responsive > .table > tfoot.table__foot {
     display: none; }
-  /* line 141, Framework/sass/components/_table.sass */
+  /* line 145, Framework/sass/components/_table.sass */
   .table__responsive > .table > tbody.table__body {
     display: block; }
-  /* line 144, Framework/sass/components/_table.sass */
+  /* line 148, Framework/sass/components/_table.sass */
   .table__responsive > .table > tbody.table__body > tr {
     display: block;
     border: 1px solid #e6e9ec;
     margin-bottom: 15px;
     border-radius: 3px; }
-  /* line 150, Framework/sass/components/_table.sass */
+  /* line 154, Framework/sass/components/_table.sass */
   .table__responsive > .table > tbody.table__body > tr > td {
     background-color: #fff;
     display: block;
     vertical-align: middle;
     text-align: right; }
-  /* line 156, Framework/sass/components/_table.sass */
+  /* line 160, Framework/sass/components/_table.sass */
   .table__responsive > .table > tbody.table__body > tr > td[data-title]:before {
     content: attr(data-title);
     float: left;
     font-size: inherit;
     font-weight: 700;
     color: #444; }
-  /* line 163, Framework/sass/components/_table.sass */
+  /* line 167, Framework/sass/components/_table.sass */
   .table__responsive > .table--bordered {
     border: 0; }
-  /* line 166, Framework/sass/components/_table.sass */
+  /* line 170, Framework/sass/components/_table.sass */
   .table__responsive > .table--bordered > tbody.table__body > tr > td {
     border: 0;
     border-bottom: 1px solid #e6e9ec; }
-    /* line 170, Framework/sass/components/_table.sass */
+    /* line 174, Framework/sass/components/_table.sass */
     .table__responsive > .table--bordered > tbody.table__body > tr > td:last-child {
       border-bottom: 0; }
-  /* line 173, Framework/sass/components/_table.sass */
+  /* line 177, Framework/sass/components/_table.sass */
   .table__responsive > .table--striped > tbody.table__body > tr > td,
   .table__responsive > .table--striped > tbody.table__body > tr:nth-child(odd) {
     background: #fff; }
-  /* line 177, Framework/sass/components/_table.sass */
+  /* line 181, Framework/sass/components/_table.sass */
   .table__responsive > .table--striped > tbody.table__body > tr > td:nth-child(odd) {
     background: #f7f7f7; }
-  /* line 180, Framework/sass/components/_table.sass */
+  /* line 184, Framework/sass/components/_table.sass */
   .table__responsive > .table--striped > tbody.table__body > tr:hover > td,
   .table__responsive > .table--striped > tbody.table__body > tr:hover {
     background: #fff; }
-  /* line 184, Framework/sass/components/_table.sass */
+  /* line 188, Framework/sass/components/_table.sass */
   .table__responsive > .table--striped > tbody.table__body > tr:hover > td:hover {
     background: #f7f7f7; } }
 
