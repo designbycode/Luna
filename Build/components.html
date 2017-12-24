@@ -665,11 +665,16 @@
             <input id="striped" type="checkbox">&nbsp;
             <label for="hover"><strong>Hover Effect</strong></label>
             <input id="hover" type="checkbox">
+            <nbsp></nbsp>
+            <label for="scroller"><strong>Scrollable</strong></label>
+            <input id="scroller" type="checkbox" checked>&nbsp;
+            <label for="responsive"><strong>Responsive</strong></label>
+            <input id="responsive" type="checkbox" checked>
           </div>
         </div>
         <div class="col">
-          <div class="table__responsive table__scrollable">
-            <table class="table table--border table--bordered table--striped table--hover">
+          <div id="table_set" class="table__responsive table__scrollable shadow--level-10">
+            <table id="table" class="table">
               <thead class="table__head">
                 <tr>
                   <th>Id</th>
@@ -825,6 +830,67 @@
         });
       });
       
+    </script>
+    <script>
+      $(document).ready(function(){
+          $table = $('#table');
+          $('#striped').on('change', function(){
+            if (this.checked){
+                $table.addClass('table--striped');
+              }else{
+                $table.removeClass('table--striped');
+      
+              }
+          });
+      
+          $('#outline').on('change', function(){
+            if (this.checked){
+                $table.addClass('table--border');
+              }else{
+                $table.removeClass('table--border');
+      
+              }
+          });
+      
+      
+          $('#border').on('change', function(){
+            if (this.checked){
+                $table.addClass('table--bordered');
+              }else{
+                $table.removeClass('table--bordered');
+      
+              }
+          });
+      
+      
+          $('#hover').on('change', function(){
+            if (this.checked){
+                $table.addClass('table--hover');
+              }else{
+                $table.removeClass('table--hover');
+      
+              }
+          });
+      
+          $('#scroller').on('change', function(){
+            if (this.checked){
+                $('#table_set').addClass('table__scrollable');
+              }else{
+                $('#table_set').removeClass('table__scrollable');
+      
+              }
+          });
+      
+          $('#responsive').on('change', function(){
+            if (this.checked){
+                $('#table_set').addClass('table__responsive');
+              }else{
+                $('#table_set').removeClass('table__responsive');
+      
+              }
+          });
+      
+      });
     </script>
   </body>
 </html>

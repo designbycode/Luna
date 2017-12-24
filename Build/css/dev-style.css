@@ -2085,123 +2085,123 @@ input[type="submit"].btn, input[type="submit"].button, .form__label, .form__help
 
 /* line 4, Framework/sass/helpers/_shadow.sass */
 .shadow--level-1 {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 5px 2px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0 1px 5px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 1px 1px;
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease; }
   /* line 9, Framework/sass/helpers/_shadow.sass */
   .shadow--level-1-hover:hover {
-    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 5px 2px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 5px 2px; }
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px; }
 
 /* line 4, Framework/sass/helpers/_shadow.sass */
 .shadow--level-2 {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 2px 5px 2px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 5px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 2px;
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease; }
   /* line 9, Framework/sass/helpers/_shadow.sass */
   .shadow--level-2-hover:hover {
-    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 5px 2px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 2px 5px 2px; }
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px; }
 
 /* line 4, Framework/sass/helpers/_shadow.sass */
 .shadow--level-3 {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 3px 5px 2px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 5px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 3px 3px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 3px;
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease; }
   /* line 9, Framework/sass/helpers/_shadow.sass */
   .shadow--level-3-hover:hover {
-    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 3px 5px 2px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 3px 5px 2px; }
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 3px 3px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 3px 3px; }
 
 /* line 4, Framework/sass/helpers/_shadow.sass */
 .shadow--level-4 {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 4px 5px 2px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0 4px 5px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 4px 4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 4px 4px;
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease; }
   /* line 9, Framework/sass/helpers/_shadow.sass */
   .shadow--level-4-hover:hover {
-    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 4px 5px 2px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 4px 5px 2px; }
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 4px 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 4px 4px; }
 
 /* line 4, Framework/sass/helpers/_shadow.sass */
 .shadow--level-5 {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 5px 5px 2px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0 5px 5px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 5px 5px;
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease; }
   /* line 9, Framework/sass/helpers/_shadow.sass */
   .shadow--level-5-hover:hover {
-    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 5px 5px 2px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 5px 5px 2px; }
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 5px 5px; }
 
 /* line 4, Framework/sass/helpers/_shadow.sass */
 .shadow--level-6 {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 6px 5px 2px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0 6px 5px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 6px 6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 6px 6px;
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease; }
   /* line 9, Framework/sass/helpers/_shadow.sass */
   .shadow--level-6-hover:hover {
-    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 6px 5px 2px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 6px 5px 2px; }
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 6px 6px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 6px 6px; }
 
 /* line 4, Framework/sass/helpers/_shadow.sass */
 .shadow--level-7 {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 7px 5px 2px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0 7px 5px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 7px 7px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 7px 7px;
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease; }
   /* line 9, Framework/sass/helpers/_shadow.sass */
   .shadow--level-7-hover:hover {
-    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 7px 5px 2px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 7px 5px 2px; }
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 7px 7px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 7px 7px; }
 
 /* line 4, Framework/sass/helpers/_shadow.sass */
 .shadow--level-8 {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 8px 5px 2px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0 8px 5px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 8px 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 8px 8px;
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease; }
   /* line 9, Framework/sass/helpers/_shadow.sass */
   .shadow--level-8-hover:hover {
-    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 8px 5px 2px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 8px 5px 2px; }
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 8px 8px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 8px 8px; }
 
 /* line 4, Framework/sass/helpers/_shadow.sass */
 .shadow--level-9 {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 9px 5px 2px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0 9px 5px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 9px 9px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 9px 9px;
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease; }
   /* line 9, Framework/sass/helpers/_shadow.sass */
   .shadow--level-9-hover:hover {
-    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 9px 5px 2px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 9px 5px 2px; }
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 9px 9px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 9px 9px; }
 
 /* line 4, Framework/sass/helpers/_shadow.sass */
 .shadow--level-10 {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 10px 5px 2px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0 10px 5px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 10px 10px;
   -webkit-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   transition: all 0.15s ease; }
   /* line 9, Framework/sass/helpers/_shadow.sass */
   .shadow--level-10-hover:hover {
-    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 10px 5px 2px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 10px 5px 2px; }
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 10px 10px; }
 
 /* line 32, Framework/sass/components/_navigation.sass */
 .nav {
@@ -4349,7 +4349,7 @@ button:disabled {
   /* line 88, Framework/sass/components/_table.sass */
   .table--hover > tbody.table__body > tr:hover > td,
   .table--hover > tbody.table__body > tr:hover > th {
-    background-color: #f7f7f7;
+    background-color: #e6e9ec;
     color: #666; }
 
 /* line 94, Framework/sass/components/_table.sass */

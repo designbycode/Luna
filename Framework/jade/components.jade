@@ -26,3 +26,65 @@ block content
     include partials/_pagination.jade
     include partials/_media-object.jade
     include partials/_tables.jade
+
+block scripts
+  script.
+    $(document).ready(function(){
+        $table = $('#table');
+        $('#striped').on('change', function(){
+          if (this.checked){
+              $table.addClass('table--striped');
+            }else{
+              $table.removeClass('table--striped');
+
+            }
+        });
+
+        $('#outline').on('change', function(){
+          if (this.checked){
+              $table.addClass('table--border');
+            }else{
+              $table.removeClass('table--border');
+
+            }
+        });
+
+
+        $('#border').on('change', function(){
+          if (this.checked){
+              $table.addClass('table--bordered');
+            }else{
+              $table.removeClass('table--bordered');
+
+            }
+        });
+
+
+        $('#hover').on('change', function(){
+          if (this.checked){
+              $table.addClass('table--hover');
+            }else{
+              $table.removeClass('table--hover');
+
+            }
+        });
+
+        $('#scroller').on('change', function(){
+          if (this.checked){
+              $('#table_set').addClass('table__scrollable');
+            }else{
+              $('#table_set').removeClass('table__scrollable');
+
+            }
+        });
+
+        $('#responsive').on('change', function(){
+          if (this.checked){
+              $('#table_set').addClass('table__responsive');
+            }else{
+              $('#table_set').removeClass('table__responsive');
+
+            }
+        });
+
+    });

@@ -2,10 +2,10 @@
 .shadow
   @for $i from 1 through 10
     &--level-#{$i}
-      box-shadow: rgba(#000, 0.15)  0 #{$i}px 5px 2px
+      box-shadow: rgba(#000, 0.15)  0 #{$i}px #{$i}px
       transition: all 0.15s ease
 
       &-hover
         &:hover
-          box-shadow: rgba(#000, 0.3) 0 #{$i}px 5px 2px
+          box-shadow: rgba(#000, 0.3) 0 #{$i}px #{$i}px
 
