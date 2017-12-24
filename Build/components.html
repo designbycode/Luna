@@ -651,6 +651,158 @@
 &lt;/div&gt;</code></pre>
         </div>
       </div>
+      <div class="row">
+        <div class="col">
+          <h2>Data Tables</h2>
+        </div>
+        <div class="col">
+          <div class="form__group">
+            <label for="outline"><strong>Outline</strong></label>
+            <input id="outline" type="checkbox">&nbsp;
+            <label for="border"><strong>Border</strong></label>
+            <input id="border" type="checkbox">&nbsp;
+            <label for="striped"><strong>Striped</strong></label>
+            <input id="striped" type="checkbox">&nbsp;
+            <label for="hover"><strong>Hover Effect</strong></label>
+            <input id="hover" type="checkbox">
+          </div>
+        </div>
+        <div class="col">
+          <div class="table__responsive table__scrollable">
+            <table class="table table--border table--bordered table--striped table--hover">
+              <thead class="table__head">
+                <tr>
+                  <th>Id</th>
+                  <th>Name</th>
+                  <th>Email Address</th>
+                  <th>Mission</th>
+                  <th>Services</th>
+                </tr>
+              </thead>
+              <tbody class="table__body">
+                <tr>
+                  <td data-title="Id">1</td>
+                  <td data-title="Name">Neil Armstrong</td>
+                  <td data-title="Email">nielarmstrong@luna.co.za</td>
+                  <td data-title="Mission">Apollo 11</td>
+                  <td data-title="Services">NASA</td>
+                </tr>
+                <tr>
+                  <td data-title="Id">2</td>
+                  <td data-title="Name">Buzz Aldrin</td>
+                  <td data-title="Email">buzzaldrin@luna.co.za</td>
+                  <td data-title="Mission">Apollo 11</td>
+                  <td data-title="Services">Air Force</td>
+                </tr>
+                <tr>
+                  <td data-title="Id">3</td>
+                  <td data-title="Name">Pete Conrad</td>
+                  <td data-title="Email">pete-conrad@luna.co.za</td>
+                  <td data-title="Mission">Apollo 12</td>
+                  <td data-title="Services">Navy</td>
+                </tr>
+                <tr>
+                  <td data-title="Id">4</td>
+                  <td data-title="Name">Alan Bean</td>
+                  <td data-title="Email">alan-bean@luna.co.za</td>
+                  <td data-title="Mission">Apollo 12</td>
+                  <td data-title="Services">Navy</td>
+                </tr>
+                <tr>
+                  <td data-title="Id">5</td>
+                  <td data-title="Name">Alan Shepard</td>
+                  <td data-title="Email">alanshepard@luna.co.za</td>
+                  <td data-title="Mission">Apollo 14</td>
+                  <td data-title="Services">Navy</td>
+                </tr>
+                <tr>
+                  <td data-title="Id">6</td>
+                  <td data-title="Name">Edgar Mitchell</td>
+                  <td data-title="Email">edgar-mitchell@luna.co.za</td>
+                  <td data-title="Mission">Apollo 14</td>
+                  <td data-title="Services">Navy</td>
+                </tr>
+                <tr>
+                  <td data-title="Id">7</td>
+                  <td data-title="Name">David Scott</td>
+                  <td data-title="Email">davidscott@luna.co.za</td>
+                  <td data-title="Mission">Apollo 15</td>
+                  <td data-title="Services">Air Force</td>
+                </tr>
+                <tr>
+                  <td data-title="Id">8</td>
+                  <td data-title="Name">James Irwin</td>
+                  <td data-title="Email">james-irwin@luna.co.za</td>
+                  <td data-title="Mission">Apollo 15</td>
+                  <td data-title="Services">Air Force</td>
+                </tr>
+                <tr>
+                  <td data-title="Id">9</td>
+                  <td data-title="Name">John Young</td>
+                  <td data-title="Email">johnyoung@luna.co.za</td>
+                  <td data-title="Mission">Apollo 16</td>
+                  <td data-title="Services">Navy</td>
+                </tr>
+                <tr>
+                  <td data-title="Id">10</td>
+                  <td data-title="Name">Charles Duke</td>
+                  <td data-title="Email">charles-duke@luna.co.za</td>
+                  <td data-title="Mission">Apollo 16</td>
+                  <td data-title="Services">Air Force</td>
+                </tr>
+                <tr>
+                  <td data-title="Id">11</td>
+                  <td data-title="Name">Eugene Cernan</td>
+                  <td data-title="Email">eugenecernan@luna.co.za</td>
+                  <td data-title="Mission">Apollo 17</td>
+                  <td data-title="Services">Navy</td>
+                </tr>
+                <tr>
+                  <td data-title="Id">12</td>
+                  <td data-title="Name">Harrison Schmitt</td>
+                  <td data-title="Email">harrison-schmitt@luna.co.za</td>
+                  <td data-title="Mission">Apollo 17</td>
+                  <td data-title="Services">NASA</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="col">
+          <pre><code class="html">&lt;div class=&quot;table__responsive&quot;&gt;
+  &lt;table class=&quot;table table--striped table--bordered table--border&quot;&gt;
+    &lt;thead class=&quot;table__head&quot;&gt;
+      &lt;tr&gt;
+        &lt;th&gt;...&lt;/th&gt;
+        &lt;th&gt;...&lt;/th&gt;
+        &lt;th&gt;...&lt;/th&gt;
+        &lt;th&gt;...&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody class=&quot;table__body&quot;&gt;
+      &lt;tr&gt;
+        &lt;td data-title=&quot;...&quot;&gt;...&lt;/td&gt;
+        &lt;td data-title=&quot;...&quot;&gt;...&lt;/td&gt;
+        &lt;td data-title=&quot;...&quot;&gt;&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;...&lt;/a&gt;&lt;/td&gt;
+        &lt;td data-title=&quot;...&quot;&gt;...&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td data-title=&quot;...&quot;&gt;...&lt;/td&gt;
+        &lt;td data-title=&quot;...&quot;&gt;...&lt;/td&gt;
+        &lt;td data-title=&quot;...&quot;&gt; &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;...&lt;/a&gt;&lt;/td&gt;
+        &lt;td data-title=&quot;...&quot;&gt;...&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td data-title=&quot;...&quot;&gt;...&lt;/td&gt;
+        &lt;td data-title=&quot;...&quot;&gt;...&lt;/td&gt;
+        &lt;td data-title=&quot;...&quot;&gt; &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;...&lt;/a&gt;&lt;/td&gt;
+        &lt;td data-title=&quot;...&quot;&gt;...&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/div&gt;</pre></code>
+        </div>
+      </div>
     </div>
     <footer class="footer">
       <div class="wrapper padding">
