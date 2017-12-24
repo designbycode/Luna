@@ -1,0 +1,185 @@
+
+
+
+.table
+  width: 100%
+  max-width: 100%
+  margin-bottom: $the__global__padding
+  background-color: $table__background__color
+  +radius
+
+  &--border
+    border: solid 1px $table__border__color
+
+  &--layout-fixed
+    table-layout: fixed
+
+  thead.table__head > tr,
+  tbody.table__body > tr,
+  tfoot.table__foot > tr
+    transition: all 0.1s ease-in-out
+
+
+  > thead.table__head > tr > th,
+  > tbody.table__body > tr > th,
+  > tfoot.table__foot > tr > th,
+  > thead.table__head > tr > td,
+  > tbody.table__body > tr > td,
+  > tfoot.table__foot > tr > td
+    text-align: left
+    padding: $the__global__padding
+    vertical-align: top
+    border-top: 0
+
+  > thead.table__head > tr > th
+    font-weight: 700
+    color: $table__text__color__header
+    vertical-align: top
+    border-bottom: 1px solid $table__border__color
+
+
+  & > caption + thead.table__head > tr:first-child > th,
+  & > colgroup + thead.table__head > tr:first-child > th,
+  & > thead.table__head:first-child > tr:first-child > th,
+  & > caption + thead.table__head > tr:first-child > td,
+  & > colgroup + thead.table__head > tr:first-child > td,
+  & > thead.table__head:first-child > tr:first-child > td
+    boorder-top: 0
+
+  & > tbody.table__body + tbody.table__body
+    border-top: 1px solid $table__border__color
+
+  & + &
+    border: 0
+
+  &--condensed > thead.table__head > tr > th,
+  &--condensed > tbody.table__body > tr > th,
+  &--condensed > tfoot.table__foot > tr > th,
+  &--condensed > thead.table__head > tr > td,
+  &--condensed > tbody.table__body > tr > td,
+  &--condensed > tfoot.table__foot > tr > td
+    padding: $the__global__padding / 2
+
+
+  &-bordered
+    border: 0
+
+  &--bordered > thead.table__head > tr > th,
+  &--bordered > tbody.table__body > tr > th,
+  &--bordered > tfoot.table__foot > tr > th,
+  &--bordered > thead.table__head > tr > td,
+  &--bordered > tbody.table__body > tr > td,
+  &--bordered > tfoot.table__foot > tr > td
+    border: 0;
+    border-bottom: 1px solid $table__border__color
+
+
+
+  &--bordered > thead.table__head > tr > th,
+  &--bordered > thead.table__head > tr > td
+    border-bottom-width: 2px
+
+
+  &--striped > tbody.table__body > tr:nth-child(odd) > td,
+  &--striped > tbody.table__body > tr:nth-child(odd) > th
+    background-color: $table__background__color__striped__odd
+
+
+  &--hover > tbody.table__body > tr:hover > td,
+  &--hover > tbody.table__body > tr:hover > th
+    background-color: $table__background__color__default__hover
+    color: $table__text__color__default__hover
+
+
+.table__scrollable
+  max-height: 400px
+  overflow-y: auto
+  overflow-x: hidden
+  background: $table__background__color
+  margin-bottom: $the__global__padding
+  +radius
+
+  > table.table
+    margin-bottom: 0
+
+  &::-webkit-scrollbar
+    width: 12px
+
+
++media-up(md)
+  .table
+    @each $key, $value in $_color_set
+      &--striped-#{$key} > tbody.table__body > tr:nth-child(odd) > td,
+      &--striped-#{$key} > tbody.table__body > tr:nth-child(odd) > th
+        background: $value
+        @if(lightness($value) > 20%)
+
+          color: #fff
+          a
+            color: #fff
+
+
+      &--hover-#{$key}  > tbody.table__body > tr:hover > td,
+      &--hover-#{$key}  > tbody.table__body > tr:hover > th
+        background: $value
+        @if(lightness($value) > 20%)
+          color: #fff
+          a
+            color: #fff
+
+
++media-down(md)
+  .table
+    &__responsive > &
+      margin-bottom: 0
+      background-color: transparent
+
+    &__responsive > & > thead.table__head,
+    &__responsive > & > tfoot.table__foot
+      display: none
+
+    &__responsive > & > tbody.table__body
+      display: block
+
+    &__responsive > & > tbody.table__body > tr
+      display: block
+      border: 1px solid $table__border__color
+      margin-bottom: $the__global__padding
+      +radius
+
+    &__responsive > & > tbody.table__body > tr > td
+      background-color: $table__background__color
+      display: block
+      vertical-align: middle
+      text-align: right
+
+    &__responsive > & > tbody.table__body > tr > td[data-title]:before
+      content: attr(data-title)
+      float: left
+      font-size: inherit
+      font-weight: 700
+      color: $table__text__color__header
+
+    &__responsive > &--bordered
+      border: 0
+
+    &__responsive > &--bordered > tbody.table__body > tr > td
+      border: 0
+      border-bottom: 1px solid $table__border__color
+
+      &:last-child
+        border-bottom: 0
+
+    &__responsive > &--striped > tbody.table__body > tr > td,
+    &__responsive > &--striped > tbody.table__body > tr:nth-child(odd)
+      background: $table__background__color
+
+    &__responsive > &--striped > tbody.table__body > tr > td:nth-child(odd)
+      background: $mute-color
+
+    &__responsive > &--striped > tbody.table__body > tr:hover > td,
+    &__responsive > &--striped > tbody.table__body > tr:hover
+      background: $table__background__color
+
+    &__responsive > &--striped > tbody.table__body > tr:hover > td:hover
+      background: $mute-color

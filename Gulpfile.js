@@ -64,7 +64,7 @@ const FontsArray = [
 gulp.task('browserSync', function(){
   browserSync({
     online: false,
-    notify: false,
+    notify: true,
     server: './Build',
   });
 });
