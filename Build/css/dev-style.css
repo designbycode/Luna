@@ -4342,17 +4342,21 @@ button:disabled {
   .table--bordered > thead.table__head > tr > th,
   .table--bordered > thead.table__head > tr > td {
     border-bottom-width: 2px; }
-  /* line 83, Framework/sass/components/_table.sass */
+  /* line 82, Framework/sass/components/_table.sass */
+  .table--striped > tbody.table__body > tr > td,
+  .table--striped > tbody.table__body > tr > th {
+    background-color: #fff; }
+  /* line 86, Framework/sass/components/_table.sass */
   .table--striped > tbody.table__body > tr:nth-child(odd) > td,
   .table--striped > tbody.table__body > tr:nth-child(odd) > th {
     background-color: #e6e9ec; }
-  /* line 88, Framework/sass/components/_table.sass */
+  /* line 91, Framework/sass/components/_table.sass */
   .table--hover > tbody.table__body > tr:hover > td,
   .table--hover > tbody.table__body > tr:hover > th {
     background-color: #e6e9ec;
     color: #666; }
 
-/* line 94, Framework/sass/components/_table.sass */
+/* line 97, Framework/sass/components/_table.sass */
 .table__scrollable {
   max-height: 400px;
   overflow-y: auto;
@@ -4360,232 +4364,232 @@ button:disabled {
   background: #fff;
   margin-bottom: 15px;
   border-radius: 2px; }
-  /* line 102, Framework/sass/components/_table.sass */
+  /* line 105, Framework/sass/components/_table.sass */
   .table__scrollable > table.table {
     margin-bottom: 0; }
-  /* line 105, Framework/sass/components/_table.sass */
+  /* line 108, Framework/sass/components/_table.sass */
   .table__scrollable::-webkit-scrollbar {
     width: 12px; }
 
 @media screen and (min-width: 800px) {
-  /* line 112, Framework/sass/components/_table.sass */
+  /* line 115, Framework/sass/components/_table.sass */
   .table--striped-primary > tbody.table__body > tr:nth-child(odd) > td,
   .table--striped-primary > tbody.table__body > tr:nth-child(odd) > th {
     background: #5278bd;
     color: #fff; }
-    /* line 118, Framework/sass/components/_table.sass */
+    /* line 121, Framework/sass/components/_table.sass */
     .table--striped-primary > tbody.table__body > tr:nth-child(odd) > td a,
     .table--striped-primary > tbody.table__body > tr:nth-child(odd) > th a {
       color: #fff; }
-  /* line 122, Framework/sass/components/_table.sass */
+  /* line 125, Framework/sass/components/_table.sass */
   .table--hover-primary > tbody.table__body > tr:hover > td,
   .table--hover-primary > tbody.table__body > tr:hover > th {
     background: #5278bd;
     color: #fff; }
-    /* line 127, Framework/sass/components/_table.sass */
+    /* line 130, Framework/sass/components/_table.sass */
     .table--hover-primary > tbody.table__body > tr:hover > td a,
     .table--hover-primary > tbody.table__body > tr:hover > th a {
       color: #fff; }
-  /* line 112, Framework/sass/components/_table.sass */
+  /* line 115, Framework/sass/components/_table.sass */
   .table--striped-secondary > tbody.table__body > tr:nth-child(odd) > td,
   .table--striped-secondary > tbody.table__body > tr:nth-child(odd) > th {
     background: teal;
     color: #fff; }
-    /* line 118, Framework/sass/components/_table.sass */
+    /* line 121, Framework/sass/components/_table.sass */
     .table--striped-secondary > tbody.table__body > tr:nth-child(odd) > td a,
     .table--striped-secondary > tbody.table__body > tr:nth-child(odd) > th a {
       color: #fff; }
-  /* line 122, Framework/sass/components/_table.sass */
+  /* line 125, Framework/sass/components/_table.sass */
   .table--hover-secondary > tbody.table__body > tr:hover > td,
   .table--hover-secondary > tbody.table__body > tr:hover > th {
     background: teal;
     color: #fff; }
-    /* line 127, Framework/sass/components/_table.sass */
+    /* line 130, Framework/sass/components/_table.sass */
     .table--hover-secondary > tbody.table__body > tr:hover > td a,
     .table--hover-secondary > tbody.table__body > tr:hover > th a {
       color: #fff; }
-  /* line 112, Framework/sass/components/_table.sass */
+  /* line 115, Framework/sass/components/_table.sass */
   .table--striped-dark > tbody.table__body > tr:nth-child(odd) > td,
   .table--striped-dark > tbody.table__body > tr:nth-child(odd) > th {
     background: #222; }
-  /* line 122, Framework/sass/components/_table.sass */
+  /* line 125, Framework/sass/components/_table.sass */
   .table--hover-dark > tbody.table__body > tr:hover > td,
   .table--hover-dark > tbody.table__body > tr:hover > th {
     background: #222; }
-  /* line 112, Framework/sass/components/_table.sass */
+  /* line 115, Framework/sass/components/_table.sass */
   .table--striped-black > tbody.table__body > tr:nth-child(odd) > td,
   .table--striped-black > tbody.table__body > tr:nth-child(odd) > th {
     background: #000; }
-  /* line 122, Framework/sass/components/_table.sass */
+  /* line 125, Framework/sass/components/_table.sass */
   .table--hover-black > tbody.table__body > tr:hover > td,
   .table--hover-black > tbody.table__body > tr:hover > th {
     background: #000; }
-  /* line 112, Framework/sass/components/_table.sass */
+  /* line 115, Framework/sass/components/_table.sass */
   .table--striped-white > tbody.table__body > tr:nth-child(odd) > td,
   .table--striped-white > tbody.table__body > tr:nth-child(odd) > th {
     background: #fff;
     color: #fff; }
-    /* line 118, Framework/sass/components/_table.sass */
+    /* line 121, Framework/sass/components/_table.sass */
     .table--striped-white > tbody.table__body > tr:nth-child(odd) > td a,
     .table--striped-white > tbody.table__body > tr:nth-child(odd) > th a {
       color: #fff; }
-  /* line 122, Framework/sass/components/_table.sass */
+  /* line 125, Framework/sass/components/_table.sass */
   .table--hover-white > tbody.table__body > tr:hover > td,
   .table--hover-white > tbody.table__body > tr:hover > th {
     background: #fff;
     color: #fff; }
-    /* line 127, Framework/sass/components/_table.sass */
+    /* line 130, Framework/sass/components/_table.sass */
     .table--hover-white > tbody.table__body > tr:hover > td a,
     .table--hover-white > tbody.table__body > tr:hover > th a {
       color: #fff; }
-  /* line 112, Framework/sass/components/_table.sass */
+  /* line 115, Framework/sass/components/_table.sass */
   .table--striped-default > tbody.table__body > tr:nth-child(odd) > td,
   .table--striped-default > tbody.table__body > tr:nth-child(odd) > th {
     background: #fff;
     color: #fff; }
-    /* line 118, Framework/sass/components/_table.sass */
+    /* line 121, Framework/sass/components/_table.sass */
     .table--striped-default > tbody.table__body > tr:nth-child(odd) > td a,
     .table--striped-default > tbody.table__body > tr:nth-child(odd) > th a {
       color: #fff; }
-  /* line 122, Framework/sass/components/_table.sass */
+  /* line 125, Framework/sass/components/_table.sass */
   .table--hover-default > tbody.table__body > tr:hover > td,
   .table--hover-default > tbody.table__body > tr:hover > th {
     background: #fff;
     color: #fff; }
-    /* line 127, Framework/sass/components/_table.sass */
+    /* line 130, Framework/sass/components/_table.sass */
     .table--hover-default > tbody.table__body > tr:hover > td a,
     .table--hover-default > tbody.table__body > tr:hover > th a {
       color: #fff; }
-  /* line 112, Framework/sass/components/_table.sass */
+  /* line 115, Framework/sass/components/_table.sass */
   .table--striped-info > tbody.table__body > tr:nth-child(odd) > td,
   .table--striped-info > tbody.table__body > tr:nth-child(odd) > th {
     background: #4285f4;
     color: #fff; }
-    /* line 118, Framework/sass/components/_table.sass */
+    /* line 121, Framework/sass/components/_table.sass */
     .table--striped-info > tbody.table__body > tr:nth-child(odd) > td a,
     .table--striped-info > tbody.table__body > tr:nth-child(odd) > th a {
       color: #fff; }
-  /* line 122, Framework/sass/components/_table.sass */
+  /* line 125, Framework/sass/components/_table.sass */
   .table--hover-info > tbody.table__body > tr:hover > td,
   .table--hover-info > tbody.table__body > tr:hover > th {
     background: #4285f4;
     color: #fff; }
-    /* line 127, Framework/sass/components/_table.sass */
+    /* line 130, Framework/sass/components/_table.sass */
     .table--hover-info > tbody.table__body > tr:hover > td a,
     .table--hover-info > tbody.table__body > tr:hover > th a {
       color: #fff; }
-  /* line 112, Framework/sass/components/_table.sass */
+  /* line 115, Framework/sass/components/_table.sass */
   .table--striped-success > tbody.table__body > tr:nth-child(odd) > td,
   .table--striped-success > tbody.table__body > tr:nth-child(odd) > th {
     background: #008c3a;
     color: #fff; }
-    /* line 118, Framework/sass/components/_table.sass */
+    /* line 121, Framework/sass/components/_table.sass */
     .table--striped-success > tbody.table__body > tr:nth-child(odd) > td a,
     .table--striped-success > tbody.table__body > tr:nth-child(odd) > th a {
       color: #fff; }
-  /* line 122, Framework/sass/components/_table.sass */
+  /* line 125, Framework/sass/components/_table.sass */
   .table--hover-success > tbody.table__body > tr:hover > td,
   .table--hover-success > tbody.table__body > tr:hover > th {
     background: #008c3a;
     color: #fff; }
-    /* line 127, Framework/sass/components/_table.sass */
+    /* line 130, Framework/sass/components/_table.sass */
     .table--hover-success > tbody.table__body > tr:hover > td a,
     .table--hover-success > tbody.table__body > tr:hover > th a {
       color: #fff; }
-  /* line 112, Framework/sass/components/_table.sass */
+  /* line 115, Framework/sass/components/_table.sass */
   .table--striped-warning > tbody.table__body > tr:nth-child(odd) > td,
   .table--striped-warning > tbody.table__body > tr:nth-child(odd) > th {
     background: #f09300;
     color: #fff; }
-    /* line 118, Framework/sass/components/_table.sass */
+    /* line 121, Framework/sass/components/_table.sass */
     .table--striped-warning > tbody.table__body > tr:nth-child(odd) > td a,
     .table--striped-warning > tbody.table__body > tr:nth-child(odd) > th a {
       color: #fff; }
-  /* line 122, Framework/sass/components/_table.sass */
+  /* line 125, Framework/sass/components/_table.sass */
   .table--hover-warning > tbody.table__body > tr:hover > td,
   .table--hover-warning > tbody.table__body > tr:hover > th {
     background: #f09300;
     color: #fff; }
-    /* line 127, Framework/sass/components/_table.sass */
+    /* line 130, Framework/sass/components/_table.sass */
     .table--hover-warning > tbody.table__body > tr:hover > td a,
     .table--hover-warning > tbody.table__body > tr:hover > th a {
       color: #fff; }
-  /* line 112, Framework/sass/components/_table.sass */
+  /* line 115, Framework/sass/components/_table.sass */
   .table--striped-danger > tbody.table__body > tr:nth-child(odd) > td,
   .table--striped-danger > tbody.table__body > tr:nth-child(odd) > th {
     background: #ea4335;
     color: #fff; }
-    /* line 118, Framework/sass/components/_table.sass */
+    /* line 121, Framework/sass/components/_table.sass */
     .table--striped-danger > tbody.table__body > tr:nth-child(odd) > td a,
     .table--striped-danger > tbody.table__body > tr:nth-child(odd) > th a {
       color: #fff; }
-  /* line 122, Framework/sass/components/_table.sass */
+  /* line 125, Framework/sass/components/_table.sass */
   .table--hover-danger > tbody.table__body > tr:hover > td,
   .table--hover-danger > tbody.table__body > tr:hover > th {
     background: #ea4335;
     color: #fff; }
-    /* line 127, Framework/sass/components/_table.sass */
+    /* line 130, Framework/sass/components/_table.sass */
     .table--hover-danger > tbody.table__body > tr:hover > td a,
     .table--hover-danger > tbody.table__body > tr:hover > th a {
       color: #fff; } }
 
 @media screen and (max-width: 800px) {
-  /* line 133, Framework/sass/components/_table.sass */
+  /* line 136, Framework/sass/components/_table.sass */
   .table__responsive {
     max-width: 100%; }
-  /* line 136, Framework/sass/components/_table.sass */
+  /* line 139, Framework/sass/components/_table.sass */
   .table__responsive > .table {
     margin-bottom: 0;
     background-color: transparent;
     max-width: 100%; }
-  /* line 141, Framework/sass/components/_table.sass */
+  /* line 144, Framework/sass/components/_table.sass */
   .table__responsive > .table > thead.table__head,
   .table__responsive > .table > tfoot.table__foot {
     display: none; }
-  /* line 145, Framework/sass/components/_table.sass */
+  /* line 148, Framework/sass/components/_table.sass */
   .table__responsive > .table > tbody.table__body {
     display: block; }
-  /* line 148, Framework/sass/components/_table.sass */
+  /* line 151, Framework/sass/components/_table.sass */
   .table__responsive > .table > tbody.table__body > tr {
     display: block;
     border: 1px solid #e6e9ec;
     margin-bottom: 15px;
     border-radius: 2px; }
-  /* line 154, Framework/sass/components/_table.sass */
+  /* line 157, Framework/sass/components/_table.sass */
   .table__responsive > .table > tbody.table__body > tr > td {
     background-color: #fff;
     display: block;
     vertical-align: middle;
     text-align: right; }
-  /* line 160, Framework/sass/components/_table.sass */
+  /* line 163, Framework/sass/components/_table.sass */
   .table__responsive > .table > tbody.table__body > tr > td[data-title]:before {
     content: attr(data-title);
     float: left;
     font-size: inherit;
     font-weight: 700;
     color: #666; }
-  /* line 167, Framework/sass/components/_table.sass */
+  /* line 170, Framework/sass/components/_table.sass */
   .table__responsive > .table--bordered {
     border: 0; }
-  /* line 170, Framework/sass/components/_table.sass */
+  /* line 173, Framework/sass/components/_table.sass */
   .table__responsive > .table--bordered > tbody.table__body > tr > td {
     border: 0;
     border-bottom: 1px solid #e6e9ec; }
-    /* line 174, Framework/sass/components/_table.sass */
+    /* line 177, Framework/sass/components/_table.sass */
     .table__responsive > .table--bordered > tbody.table__body > tr > td:last-child {
       border-bottom: 0; }
-  /* line 177, Framework/sass/components/_table.sass */
+  /* line 180, Framework/sass/components/_table.sass */
   .table__responsive > .table--striped > tbody.table__body > tr > td,
   .table__responsive > .table--striped > tbody.table__body > tr:nth-child(odd) {
     background: #fff; }
-  /* line 181, Framework/sass/components/_table.sass */
+  /* line 184, Framework/sass/components/_table.sass */
   .table__responsive > .table--striped > tbody.table__body > tr > td:nth-child(odd) {
     background: #f7f7f7; }
-  /* line 184, Framework/sass/components/_table.sass */
+  /* line 187, Framework/sass/components/_table.sass */
   .table__responsive > .table--striped > tbody.table__body > tr:hover > td,
   .table__responsive > .table--striped > tbody.table__body > tr:hover {
     background: #fff; }
-  /* line 188, Framework/sass/components/_table.sass */
+  /* line 191, Framework/sass/components/_table.sass */
   .table__responsive > .table--striped > tbody.table__body > tr:hover > td:hover {
     background: #f7f7f7; } }
 

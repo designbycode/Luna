@@ -79,6 +79,9 @@
   &--bordered > thead.table__head > tr > td
     border-bottom-width: 2px
 
+  &--striped > tbody.table__body > tr > td,
+  &--striped > tbody.table__body > tr > th
+    background-color: $table__background__color
 
   &--striped > tbody.table__body > tr:nth-child(odd) > td,
   &--striped > tbody.table__body > tr:nth-child(odd) > th
