@@ -1,0 +1,92 @@
+
+.dropdown
+  position: relative
+  display: inline-block 
+  text-decoration: none
+  padding-right: 5px  
+  &:hover 
+    text-decoration: none
+  i.lunacon 
+    vertical-align: text-bottom !important
+
+  &__link 
+    text-decoration: none
+    &:hover 
+      text-decoration: none
+
+  &__container
+    position: absolute 
+    display: block
+    opacity: 0
+    background: $dropdown__container__background__color 
+    border: 1px solid #DFDFDF
+    padding: 10px 
+    margin-top: 20px
+    margin-left: -10px
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 0px
+    width: $dropdown__container__width
+    max-width: $dropdown__container__width
+    transition: all .25s ease-in-out
+    left: 50% 
+    transform: translate(-50%, -24px) 
+    z-index: 9990
+    pointer-events: none 
+    color: $dropdown__container__text__color
+  
+
+    +radius
+  
+    &::after,
+    &::before 
+      bottom: 100%
+      left: 50%
+      border: solid transparent
+      content: " "
+      height: 0
+      width: 0
+      position: absolute
+      pointer-events: none
+
+    &::after 
+      border-bottom-color: $dropdown__container__background__color
+      border-width: 10px
+      margin-left: -10px
+
+    &::before
+      border-bottom-color: $dropdown__container__background__color
+      border-width: 11px
+      margin-left: -11px
+    
+    a,
+    a:hover 
+
+      text-decoration: none
+      color: $dropdown__container__text__color
+
+    ul 
+      list-style-type: none 
+      padding: 0
+      margin: 0
+
+    li 
+      padding: 10px 16px
+      text-align: center
+      cursor: pointer
+      border-bottom: solid 1px $mute-border-color
+      &:last-child 
+        border: none
+      &:hover 
+        background: $primary-color
+        a 
+          color: #fff
+
+.btn + .dropdown__container
+  margin-left: 0 
+
+
+.dropdown__active 
+
+  .dropdown__container
+    opacity: 1
+    transform: translate(-50%, 0px) 
+    pointer-events: all

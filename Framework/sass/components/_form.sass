@@ -5,126 +5,127 @@
 // ==========================================
 
 .form
-	*
-		line-height: (12px + $the__button__font__size)
+  *
+    line-height: (12px + $the__button__font__size)
 
-	&__group
-		padding-bottom: $the__global__padding
-		+clearfix
+  &__group
+    padding-bottom: $the__global__padding
+    +clearfix
 
-	&__label
-		@extend .selectable__false
-		display: block
-		font-weight: 400px
-		padding:
-			top: 2px
-			bottom: 2px
+  &__label
+    @extend .selectable__false
+    display: block
+    font-weight: 400px
+    padding:
+      top: 2px
+      bottom: 2px
 
-	&__item
-		width: 100%
-		max-width: 100%
-		border: solid 1px $the__form__border__color
-		box-shadow: none
-		background: #fff
-		padding: 4px 8px
-		border-radius: $global-border-radius
+  &__item
+    width: 100%
+    max-width: 100%
+    border: solid 1px $the__form__border__color
+    box-shadow: none
+    background: #fff
+    padding: 4px 8px
+    border-radius: $global-border-radius
 
-		&.disabled,
-		&[disabled]
-			background: $mute-color
-			border: solid 1px $mute-border-color
-			color: darken($mute-border-color, 5%)
-			&:hover
-				background: $mute-color
-				border: solid 1px $mute-border-color
-				color: darken($mute-border-color, 5%)
-				box-shadow: none
+    &.disabled,
+    &[disabled]
+      background: $mute-color
+      border: solid 1px $mute-border-color
+      color: darken($mute-border-color, 5%)
+      &:hover
+        background: $mute-color
+        border: solid 1px $mute-border-color
+        color: darken($mute-border-color, 5%)
+        box-shadow: none
 
-		&--xs
-			padding: 1px 8px
-			line-height: (3px + $the__button__font__size)
-			font-size: 75%
+    &--xs
+      padding: 1px 8px
+      line-height: (3px + $the__button__font__size)
+      font-size: 75%
 
-		&--sm
-			padding: 2px 8px
-			line-height: (6px + $the__button__font__size)
-
-
-		&--md
-			padding: 4px 8px
-			line-height: (12px + $the__button__font__size)
+    &--sm
+      padding: 2px 8px
+      line-height: (6px + $the__button__font__size)
 
 
-		&--lg
-			padding: 8px 8px
-			line-height: (16px + $the__button__font__size)
+    &--md
+      padding: 4px 8px
+      line-height: (12px + $the__button__font__size)
 
 
-		&--xl
-			padding: 16px 8px
-			line-height: (24px + $the__button__font__size)
+    &--lg
+      padding: 8px 8px
+      line-height: (16px + $the__button__font__size)
 
 
-
-		&__group
-			display: flex
-			flex-direction: row
-			overflow: hidden
-			+radius($global-border-radius)
-
-			.addon
-				background: $mute-color
-				border: solid 1px $the__form__border__color
-				color: darken($the__form__border__color, 20%)
-				padding: 4px 8px
-				font-weight: 400
-
-			input,button,.btn
-				+radius(0)
-
-			button.btn, .btn
-				min-width: 120px
+    &--xl
+      padding: 16px 8px
+      line-height: (24px + $the__button__font__size)
 
 
 
-	&__helper
-		font-size: 75%
-		font-weight: 600
-		font-style: italic
-		display: inline-block
-		// padding: $the__global__padding
-		@extend .selectable__false
-		pointer-events: none
+    &__group
+      display: flex
+      flex-direction: row
+      overflow: hidden
+      +radius($global-border-radius)
 
-	&__horizontal
-		+clearfix
-		.form__group
-			margin-left: -15px
-			margin-right: -15px
+      .addon
+        background: $mute-color
+        border: solid 1px $the__form__border__color
+        color: darken($the__form__border__color, 20%)
+        padding: 4px 8px
+        font-weight: 400
+
+      input,button,.btn
+        +radius(0)
+
+      button.btn, .btn
+        min-width: 120px
 
 
 
+  &__helper
+    font-size: 75%
+    font-weight: 600
+    font-style: italic
+    display: inline-block
+    // padding: $the__global__padding
+    @extend .selectable__false
+    pointer-events: none
+
+  &__horizontal
+    +clearfix
+    .form__group
+      margin-left: -15px
+      margin-right: -15px
+
+input.form__item,
+select.form__item
+  height: 38px
 
 textarea.form__item
-	height: ''
+  height: ''
 
 
 
 .has
-	@each $key, $value in $_nofiy_colors
-		&__#{$key}
-			color: $value
-			.form__item
-				border: solid 1px $value
-				outline: none
+  @each $key, $value in $_nofiy_colors
+    &__#{$key}
+      color: $value
+      .form__item
+        border: solid 1px $value
+        outline: none
 
-				&:focus
-					outline: none
-					border: solid 1px $value
-					box-shadow: $value 0 0 6px
+        &:focus
+          outline: none
+          border: solid 1px $value
+          box-shadow: $value 0 0 6px
 
 
 input:disabled,
 button:disabled
-	@extend .selectable__false--cursor
-	cursor: not-allowed
+  @extend .selectable__false--cursor
+  cursor: not-allowed

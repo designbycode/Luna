@@ -1,0 +1,27 @@
+  .form
+
+  &__group
+    position: relative
+    display: table
+    border-collapse: separate
+
+    &[class*="-col-"]
+      float: none
+      padding:
+        left: 0
+        right: 0
+
+  &__item
+    position: relative
+    z-index: 2
+    float: left
+    width: 100%
+    margin-bottom: 0
+    display: table-cell
+
+
+    &:focus
+      z-index: 3
+
+
+

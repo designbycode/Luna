@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/dev-style.css">
     <title>Luna Framework - Lightweight Responsive Framework</title>
+    <style>
+      body{
+        background: #ddd;
+      }
+      
+    </style>
   </head>
   <body>
     <nav class="nav nav--fixed nav--shadow-light">
@@ -31,209 +37,56 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav><br><br><br><br>
     <div class="wrapper">
       <div class="row">
-        <div class="md-col-12">
-          <div class="table__responsive">
-            <table class="table table--striped table--bordered table--border">
-              <thead class="table__head">
-                <tr>
-                  <th>ID</th>
-                  <th>NAME</th>
-                  <th>LINK</th>
-                  <th>STATUS</th>
-                </tr>
-              </thead>
-              <tbody class="table__body">
-                <tr>
-                  <td data-title="ID">1</td>
-                  <td data-title="NAME">Material Design Color Palette</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">1</td>
-                  <td data-title="NAME">Material Design Color Palette</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">1</td>
-                  <td data-title="NAME">Material Design Color Palette</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-      <div class="row">
         <div class="col">
-          <div class="table__responsive">
-            <table class="table table--bordered table--hover-primary table--striped-primary">
-              <thead class="table__head">
-                <tr>
-                  <th>ID</th>
-                  <th>NAME</th>
-                  <th>LINK</th>
-                  <th>STATUS</th>
-                </tr>
-              </thead>
-              <tbody class="table__body">
-                <tr>
-                  <td data-title="ID">1</td>
-                  <td data-title="NAME">Material Design Color Palette</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">2</td>
-                  <td data-title="NAME"> Lorem ipsum dolor.</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">3</td>
-                  <td data-title="NAME"> Lorem ipsum dolor sit amet, consectetur.</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">4</td>
-                  <td data-title="NAME"> Lorem ipsum dolor sit amet, consectetur adipisicing.</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">5</td>
-                  <td data-title="NAME"> Lorem ipsum dolor sit amet.</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="dropdown"><a href="#" data-dropdown="#drop-1" class="dropdown__link">Menu   <i class="lunacon lunacon-chevron-down"></i> </a>
+            <div class="dropdown__container"> 
+              <ul> 
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home </a></li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="table__responsive">
-            <table class="table table--bordered table--striped table--hover">
-              <thead class="table__head">
-                <tr>
-                  <th>ID</th>
-                  <th colspan="2">NAME</th>
-                  <th>LINK</th>
-                  <th>STATUS</th>
-                </tr>
-              </thead>
-              <tbody class="table__body">
-                <tr>
-                  <td data-title="ID">1</td>
-                  <td data-title="NAME" colspan="2">Material Design Color Palette</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">2</td>
-                  <td data-title="NAME" colspan="2"> Lorem ipsum dolor.</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">3</td>
-                  <td data-title="NAME" colspan="2"> Lorem ipsum dolor sit amet, consectetur.</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">4</td>
-                  <td data-title="NAME" colspan="2"> Lorem ipsum dolor sit amet, consectetur adipisicing.</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">5</td>
-                  <td data-title="NAME" colspan="2"> Lorem ipsum dolor sit amet.</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-              </tbody>
-              <tbody class="table__body">
-                <tr>
-                  <td colspan="5"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nam alias, quam minima est sed sunt eligendi eos! Perspiciatis eaque qui praesentium, eligendi excepturi officiis, mollitia quidem debitis voluptate laborum.</td>
-                </tr>
-              </tbody>
-              <tfoot class="table__foot">
-                <tr>
-                  <td colspan="5"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nam alias, quam minima est sed sunt eligendi eos! Perspiciatis eaque qui praesentium, eligendi excepturi officiis, mollitia quidem debitis voluptate laborum.</td>
-                </tr>
-              </tfoot>
-            </table>
+          <div class="dropdown"><a href="#" data-dropdown="#drop-1" class="dropdown__link">Menu   <i class="lunacon lunacon-chevron-down"></i> </a>
+            <div class="dropdown__container"> 
+              <ul> 
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home </a></li>
+              </ul>
+            </div>
           </div>
-          <div class="table__responsive table__scrollable">
-            <table class="table table--bordered table--striped table--hover-info">
-              <thead class="table__head">
-                <tr>
-                  <th>ID</th>
-                  <th colspan="2">NAME</th>
-                  <th>LINK</th>
-                  <th>STATUS</th>
-                </tr>
-              </thead>
-              <tbody class="table__body">
-                <tr>
-                  <td data-title="ID">1</td>
-                  <td data-title="NAME" colspan="2">Material Design Color Palette</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">2</td>
-                  <td data-title="NAME" colspan="2"> Lorem ipsum dolor.</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">3</td>
-                  <td data-title="NAME" colspan="2"> Lorem ipsum dolor sit amet, consectetur.</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">4</td>
-                  <td data-title="NAME" colspan="2"> Lorem ipsum dolor sit amet, consectetur adipisicing.</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">5</td>
-                  <td data-title="NAME" colspan="2"> Lorem ipsum dolor sit amet.</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">3</td>
-                  <td data-title="NAME" colspan="2"> Lorem ipsum dolor sit amet, consectetur.</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">4</td>
-                  <td data-title="NAME" colspan="2"> Lorem ipsum dolor sit amet, consectetur adipisicing.</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-                <tr>
-                  <td data-title="ID">5</td>
-                  <td data-title="NAME" colspan="2"> Lorem ipsum dolor sit amet.</td>
-                  <td data-title="LINK"> <a href="" target="_blank">GitHub</a></td>
-                  <td data-title="STATUS">Completed</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="dropdown"><a href="#" data-dropdown="#drop-1" class="dropdown__link">Menu   <i class="lunacon lunacon-chevron-down"></i> </a>
+            <div class="dropdown__container"> <a href="#" class="btn btn--block btn--primary">Click Link </a><a href="#" class="btn btn--block btn--secondary">Click Link </a><a href="#" class="btn btn--block btn--dark">Click Link </a><a href="#" class="btn btn--block btn--success">Click Link </a><a href="#" class="btn btn--block btn--info">Click Link </a><a href="#" class="btn btn--block btn--warning">Click Link </a><a href="#" class="btn btn--block btn--danger">Click Link  </a></div>
+          </div>
+          <div class="dropdown"><a href="#" data-dropdown="#drop-1" class="btn btn--primary dropdown__link">Menu   <i class="lunacon lunacon-chevron-down"></i> </a>
+            <div class="dropdown__container"> 
+              <ul> 
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="dropdown"><a href="#" data-dropdown="#drop-1" class="btn btn--primary btn--xl dropdown__link">Menu   <i class="lunacon lunacon-chevron-down"></i> </a>
+            <div class="dropdown__container"> 
+              <ul> 
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home </a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
