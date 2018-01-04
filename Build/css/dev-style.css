@@ -4708,6 +4708,16 @@ button:disabled {
   transform: translate(-50%, 0px);
   pointer-events: all; }
 
+/* line 4, Framework/sass/components/_card.sass */
+.card {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden; }
+  /* line 11, Framework/sass/components/_card.sass */
+  .card__thumb img {
+    max-width: 100%; }
+
 /* line 13, Framework/sass/dev-style.sass */
 body {
   padding-top: 70px; }
