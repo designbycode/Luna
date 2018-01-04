@@ -26,6 +26,8 @@
                       <li class="nav__links__item"><a href="sass-helpers.html">Sass Helper</a></li>
                     </ul></a></li>
                 <li class="nav__links__item"><a href="javascript.html">Javascript</a></li>
+                <li class="nav__links__devider"> </li>
+                <li class="nav__links__item"><a href="index.html">Tutorials</a></li>
               </ul>
             </li>
           </ul>
@@ -143,12 +145,18 @@
                 </ul>
               </div>
               <div class="nav__links__wrapper nav__links--right">
-                <div class="nav__links__item">
-                  <div class="nav__form">
-                    <input type="text" placeholder="seach" class="form__item">
-                    <button type="submit" class="btn btn--secondary"><i class="lunacon lunacon-bell-solid"></i></button>
+                <li class="nav__links__button">
+                  <div class="dropdown"> <a href="#" class="btn btn--default dropdown__link">Dropdown Link <i class="lunacon lunacon-chevron-down"></i></a>
+                    <div class="dropdown__container"> 
+                      <ul> 
+                        <li> <a href="#">Link Item 1</a></li>
+                        <li> <a href="#">Link Item 2</a></li>
+                        <li> <a href="#">Link Item 3</a></li>
+                        <li> <a href="#">Link Item 4</a></li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </li>
               </div>
             </div>
           </nav>
@@ -254,6 +262,13 @@
           <div class="btn__group"><a href="#" class="btn btn--primary">Button</a><a href="#" class="btn btn--primary"><i class="lunacon lunacon-moon-solid"></i></a></div>
           <p class="clearfix"></p>
           <div class="btn__group"><a href="#" class="btn btn--info"><i class="btn__icon--left lunacon lunacon-home-solid"></i> Button</a><a href="#" class="btn btn--warning"><i class="btn__icon--left lunacon lunacon-home-solid"></i> Button</a><a href="#" class="btn btn--success"><i class="btn__icon--left lunacon lunacon-home-solid"></i> Button</a><a href="#" class="btn btn--danger"><i class="btn__icon--left lunacon lunacon-home-solid"></i> Button</a></div>
+          <p>When using more than one <code>.btn</code> class, just wrap all the <code>.btn</code> in a <code>.btn__group</code>  </p>
+          <pre><code class="html">&lt;div clas=&quot;btn__group&quot;&gt;
+  &lt;a href=&quot;#&quot; class=&quot;btn btn--primary&quot;&gt;Button&lt;/a&gt;
+  &lt;a href=&quot;#&quot; class=&quot;btn btn--primary&quot;&gt;Button&lt;/a&gt;
+  &lt;a href=&quot;#&quot; class=&quot;btn btn--primary&quot;&gt;Button&lt;/a&gt;
+  &lt;a href=&quot;#&quot; class=&quot;btn btn--primary&quot;&gt;Button&lt;/a&gt;
+&lt;/a&gt;</code></pre>
         </div>
       </div>
       <div class="row">
@@ -303,6 +318,23 @@
               </ul>
             </div>
           </div>
+        </div>
+        <div class="col"> 
+          <pre><code class="html">&lt;div class=&quot;dropdown&quot;&gt; 
+ &lt;a href=&quot;#&quot; class=&quot;dropdown__link&quot;&gt;Dropdown Link &lt;i class=&quot;lunacon lunacon-chevron-down&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;div class=&quot;dropdown__container&quot;&gt; 
+    &lt;ul&gt; 
+      &lt;li&gt; &lt;a href=&quot;#&quot;&gt;Link Item 1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt; &lt;a href=&quot;#&quot;&gt;Link Item 2&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt; &lt;a href=&quot;#&quot;&gt;Link Item 3&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt; &lt;a href=&quot;#&quot;&gt;Link Item 4&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;</code></pre>
+          <blockquote class="blockquote blockquote--info">
+            <div class="blockquote__header">Optionally to make button</div>
+            <div class="blockquote__body">To make the <code>.dropdown__link</code> a button, you simply chain on the <code>.btn</code>  classes to modify as needed.</div>
+          </blockquote>
         </div>
       </div>
       <div class="row">
