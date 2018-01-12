@@ -32,6 +32,7 @@
     "Framework/js/luna.testmenu.js",
     "Framework/sass/dev-style.sass",
     "Framework/sass/_init-dev.sass",
+    "Framework/sass/_hero.sass",
     "Framework/sass/_settings-override.sass",
     "index.js",
     "package.json",

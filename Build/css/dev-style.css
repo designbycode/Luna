@@ -4817,26 +4817,25 @@ body {
   text-align: center;
   color: #fff;
   background-color: #2075d0;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #2075d0), color-stop(90%, teal));
-  background-image: -webkit-linear-gradient(bottom, #2075d0 10%, teal 90%);
-  background-image: -o-linear-gradient(bottom, #2075d0 10%, teal 90%);
-  background-image: linear-gradient(0deg, #2075d0 10%, teal 90%);
+  background-image: url(../img/luna-sass.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
 
-/* line 27, Framework/sass/dev-style.sass */
+/* line 29, Framework/sass/dev-style.sass */
 .lunaconHeader {
   font-size: 40px; }
 
-/* line 30, Framework/sass/dev-style.sass */
+/* line 32, Framework/sass/dev-style.sass */
 .page__header {
   margin-bottom: 60px;
   background-color: teal; }
-  /* line 35, Framework/sass/dev-style.sass */
+  /* line 37, Framework/sass/dev-style.sass */
   .page__header h1 {
     color: #fff; }
 
-/* line 38, Framework/sass/dev-style.sass */
+/* line 40, Framework/sass/dev-style.sass */
 .box-fill {
   padding: 5px;
   background: #f7f7f7;
@@ -4848,29 +4847,29 @@ body {
   margin-bottom: 15px;
   margin-top: 15px; }
 
-/* line 50, Framework/sass/dev-style.sass */
+/* line 52, Framework/sass/dev-style.sass */
 .padding {
   padding-top: 60px;
   padding-bottom: 60px; }
-  /* line 55, Framework/sass/dev-style.sass */
+  /* line 57, Framework/sass/dev-style.sass */
   .padding--bottom {
     padding-bottom: 60px; }
-  /* line 57, Framework/sass/dev-style.sass */
+  /* line 59, Framework/sass/dev-style.sass */
   .padding--top {
     padding-top: 60px; }
 
-/* line 60, Framework/sass/dev-style.sass */
+/* line 62, Framework/sass/dev-style.sass */
 .small-padding {
   padding: 5px 15px;
   margin-bottom: 5px; }
 
-/* line 64, Framework/sass/dev-style.sass */
+/* line 66, Framework/sass/dev-style.sass */
 footer.footer {
   background: #222;
   color: #eee;
   margin-top: 60px; }
 
-/* line 70, Framework/sass/dev-style.sass */
+/* line 72, Framework/sass/dev-style.sass */
 .pre {
   text-align: left;
   padding: 15px;
@@ -4878,7 +4877,7 @@ footer.footer {
   border-radius: 3px;
   background: #fafcfc; }
 
-/* line 80, Framework/sass/dev-style.sass */
+/* line 82, Framework/sass/dev-style.sass */
 code {
   border: solid #c7ddf3 1px;
   border-radius: 3px;
@@ -4888,47 +4887,47 @@ code {
   display: inline-block;
   color: #2075d0; }
 
-/* line 90, Framework/sass/dev-style.sass */
+/* line 92, Framework/sass/dev-style.sass */
 pre code {
   overflow-x: hidden !important;
   -o-text-overflow: ellipsis !important;
   text-overflow: ellipsis !important; }
 
-/* line 99, Framework/sass/dev-style.sass */
+/* line 101, Framework/sass/dev-style.sass */
 .hljs {
   background: #f7fbfb !important;
   border: solid 1px #cce6e6; }
 
-/* line 105, Framework/sass/dev-style.sass */
+/* line 107, Framework/sass/dev-style.sass */
 .button__list > .btn, .button__list > .button {
   margin-bottom: 15px;
   margin-right: 5px; }
 
-/* line 110, Framework/sass/dev-style.sass */
+/* line 112, Framework/sass/dev-style.sass */
 .star__block {
   padding: 5px; }
-  /* line 113, Framework/sass/dev-style.sass */
+  /* line 115, Framework/sass/dev-style.sass */
   .star__block i.lunacon, .star__block i.lunacon-address-book::before, .star__block i.lunacon-algolia::before, .star__block i.lunacon-android::before, .star__block i.lunacon-backward::before, .star__block i.lunacon-basket-solid::before, .star__block i.lunacon-basket::before, .star__block i.lunacon-bell-mute-solid::before, .star__block i.lunacon-bell-mute::before, .star__block i.lunacon-bell-solid::before, .star__block i.lunacon-bell::before, .star__block i.lunacon-bitcoin::before, .star__block i.lunacon-cart-solid::before, .star__block i.lunacon-cart::before, .star__block i.lunacon-checkmark-small::before, .star__block i.lunacon-checkmark::before, .star__block i.lunacon-chevron-down::before, .star__block i.lunacon-chevron-left::before, .star__block i.lunacon-chevron-right::before, .star__block i.lunacon-chevron-up::before, .star__block i.lunacon-close-small::before, .star__block i.lunacon-close::before, .star__block i.lunacon-cloud-check-solid::before, .star__block i.lunacon-cloud-check::before, .star__block i.lunacon-cloud-computing::before, .star__block i.lunacon-cloud-solid::before, .star__block i.lunacon-cloud::before, .star__block i.lunacon-code-fork::before, .star__block i.lunacon-cone::before, .star__block i.lunacon-dailer-solid::before, .star__block i.lunacon-dailer::before, .star__block i.lunacon-dashboard::before, .star__block i.lunacon-download::before, .star__block i.lunacon-drag::before, .star__block i.lunacon-facebook::before, .star__block i.lunacon-fire::before, .star__block i.lunacon-forward::before, .star__block i.lunacon-gears::before, .star__block i.lunacon-gift::before, .star__block i.lunacon-giftbox::before, .star__block i.lunacon-git::before, .star__block i.lunacon-github-round-o::before, .star__block i.lunacon-github-round::before, .star__block i.lunacon-github::before, .star__block i.lunacon-google-play::before, .star__block i.lunacon-google-plus-g::before, .star__block i.lunacon-google-plus::before, .star__block i.lunacon-heartbeat::before, .star__block i.lunacon-home-solid::before, .star__block i.lunacon-home::before, .star__block i.lunacon-instagram::before, .star__block i.lunacon-key::before, .star__block i.lunacon-keys-hole::before, .star__block i.lunacon-linkedin::before, .star__block i.lunacon-list::before, .star__block i.lunacon-lock-open::before, .star__block i.lunacon-lock::before, .star__block i.lunacon-login::before, .star__block i.lunacon-logout::before, .star__block i.lunacon-mail-envelope::before, .star__block i.lunacon-management::before, .star__block i.lunacon-message::before, .star__block i.lunacon-microphone::before, .star__block i.lunacon-moon-solid::before, .star__block i.lunacon-moon::before, .star__block i.lunacon-navicon::before, .star__block i.lunacon-pause::before, .star__block i.lunacon-paypal-p::before, .star__block i.lunacon-paypal::before, .star__block i.lunacon-pencil::before, .star__block i.lunacon-play::before, .star__block i.lunacon-roboto::before, .star__block i.lunacon-search-min::before, .star__block i.lunacon-search-zoom::before, .star__block i.lunacon-search::before, .star__block i.lunacon-sent-mail::before, .star__block i.lunacon-settings-tool::before, .star__block i.lunacon-shield-lock-solid::before, .star__block i.lunacon-shield::before, .star__block i.lunacon-skip-back::before, .star__block i.lunacon-skip-next::before, .star__block i.lunacon-sky::before, .star__block i.lunacon-slack::before, .star__block i.lunacon-smartphonel::before, .star__block i.lunacon-sound-big::before, .star__block i.lunacon-sound-mute::before, .star__block i.lunacon-sound-waves::before, .star__block i.lunacon-sound::before, .star__block i.lunacon-star-half-solid::before, .star__block i.lunacon-star-half::before, .star__block i.lunacon-star-solid::before, .star__block i.lunacon-star::before, .star__block i.lunacon-stop::before, .star__block i.lunacon-tag::before, .star__block i.lunacon-thumbs-down-solid::before, .star__block i.lunacon-thumbs-down::before, .star__block i.lunacon-thumbs-up-solid::before, .star__block i.lunacon-thumbs-up::before, .star__block i.lunacon-tractor::before, .star__block i.lunacon-twitter-bird::before, .star__block i.lunacon-twitter::before, .star__block i.lunacon-upload::before, .star__block i.lunacon-user-delete-solid::before, .star__block i.lunacon-user-delete::before, .star__block i.lunacon-user-solid::before, .star__block i.lunacon-user::before, .star__block i.lunacon-users-solid::before, .star__block i.lunacon-users::before, .star__block i.lunacon-whatsapp::before, .star__block i.lunacon-wordpress::before, .star__block i.lunacon-youtube-play-button::before, .star__block i.lunacon-youtube::before {
     margin-right: 2px;
     font-size: 12px !important; }
 
-/* line 124, Framework/sass/dev-style.sass */
+/* line 126, Framework/sass/dev-style.sass */
 .button:hover {
   background: teal !important;
   color: #fff !important; }
 
-/* line 129, Framework/sass/dev-style.sass */
+/* line 131, Framework/sass/dev-style.sass */
 .bigger-text {
   color: teal; }
-  /* line 132, Framework/sass/dev-style.sass */
+  /* line 134, Framework/sass/dev-style.sass */
   .bigger-text [class*="col"] {
     padding: 15px; }
-  /* line 139, Framework/sass/dev-style.sass */
+  /* line 141, Framework/sass/dev-style.sass */
   .bigger-text i {
     font-size: 24px;
     color: #2075d0;
     width: 46px; }
-  /* line 144, Framework/sass/dev-style.sass */
+  /* line 146, Framework/sass/dev-style.sass */
   .bigger-text span {
     font-weight: bold;
     letter-spacing: 2px; }
@@ -5021,7 +5020,7 @@ Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
 .hljs-number {
   color: #8A7B52; }
 
-/* line 153, Framework/sass/dev-style.sass */
+/* line 155, Framework/sass/dev-style.sass */
 .media__ui {
   background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#000));
   background: -webkit-linear-gradient(top, #333, #000);
@@ -5029,7 +5028,7 @@ Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
   background: linear-gradient(180deg, #333, #000);
   list-style: none; }
 
-/* line 158, Framework/sass/dev-style.sass */
+/* line 160, Framework/sass/dev-style.sass */
 .media__li i {
   float: left;
   padding: 0;
@@ -5044,7 +5043,7 @@ Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
   -webkit-transition: opacity 0.5 ease;
   -o-transition: opacity 0.5 ease;
   transition: opacity 0.5 ease; }
-  /* line 168, Framework/sass/dev-style.sass */
+  /* line 170, Framework/sass/dev-style.sass */
   .media__li i:hover {
     opacity: 0.75; }
 
