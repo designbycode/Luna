@@ -3743,82 +3743,191 @@ select.form__item {
 
 /* line 109, Framework/sass/components/_form.sass */
 textarea.form__item {
-  height: ''; }
+  height: '';
+  min-width: 100%;
+  width: 100%; }
 
-/* line 116, Framework/sass/components/_form.sass */
+/* line 117, Framework/sass/components/_form.sass */
 .has__default {
   color: #fff; }
-  /* line 118, Framework/sass/components/_form.sass */
+  /* line 119, Framework/sass/components/_form.sass */
   .has__default .form__item {
     border: solid 1px #fff;
     outline: none; }
-    /* line 122, Framework/sass/components/_form.sass */
+    /* line 123, Framework/sass/components/_form.sass */
     .has__default .form__item:focus {
       outline: none;
       border: solid 1px #fff;
       -webkit-box-shadow: #fff 0 0 6px;
       box-shadow: #fff 0 0 6px; }
 
-/* line 116, Framework/sass/components/_form.sass */
+/* line 117, Framework/sass/components/_form.sass */
 .has__info {
   color: #4285f4; }
-  /* line 118, Framework/sass/components/_form.sass */
+  /* line 119, Framework/sass/components/_form.sass */
   .has__info .form__item {
     border: solid 1px #4285f4;
     outline: none; }
-    /* line 122, Framework/sass/components/_form.sass */
+    /* line 123, Framework/sass/components/_form.sass */
     .has__info .form__item:focus {
       outline: none;
       border: solid 1px #4285f4;
       -webkit-box-shadow: #4285f4 0 0 6px;
       box-shadow: #4285f4 0 0 6px; }
 
-/* line 116, Framework/sass/components/_form.sass */
+/* line 117, Framework/sass/components/_form.sass */
 .has__success {
   color: #008c3a; }
-  /* line 118, Framework/sass/components/_form.sass */
+  /* line 119, Framework/sass/components/_form.sass */
   .has__success .form__item {
     border: solid 1px #008c3a;
     outline: none; }
-    /* line 122, Framework/sass/components/_form.sass */
+    /* line 123, Framework/sass/components/_form.sass */
     .has__success .form__item:focus {
       outline: none;
       border: solid 1px #008c3a;
       -webkit-box-shadow: #008c3a 0 0 6px;
       box-shadow: #008c3a 0 0 6px; }
 
-/* line 116, Framework/sass/components/_form.sass */
+/* line 117, Framework/sass/components/_form.sass */
 .has__warning {
   color: #f09300; }
-  /* line 118, Framework/sass/components/_form.sass */
+  /* line 119, Framework/sass/components/_form.sass */
   .has__warning .form__item {
     border: solid 1px #f09300;
     outline: none; }
-    /* line 122, Framework/sass/components/_form.sass */
+    /* line 123, Framework/sass/components/_form.sass */
     .has__warning .form__item:focus {
       outline: none;
       border: solid 1px #f09300;
       -webkit-box-shadow: #f09300 0 0 6px;
       box-shadow: #f09300 0 0 6px; }
 
-/* line 116, Framework/sass/components/_form.sass */
+/* line 117, Framework/sass/components/_form.sass */
 .has__danger {
   color: #ea4335; }
-  /* line 118, Framework/sass/components/_form.sass */
+  /* line 119, Framework/sass/components/_form.sass */
   .has__danger .form__item {
     border: solid 1px #ea4335;
     outline: none; }
-    /* line 122, Framework/sass/components/_form.sass */
+    /* line 123, Framework/sass/components/_form.sass */
     .has__danger .form__item:focus {
       outline: none;
       border: solid 1px #ea4335;
       -webkit-box-shadow: #ea4335 0 0 6px;
       box-shadow: #ea4335 0 0 6px; }
 
-/* line 128, Framework/sass/components/_form.sass */
+/* line 129, Framework/sass/components/_form.sass */
 input:disabled,
 button:disabled {
   cursor: not-allowed; }
+
+/* line 135, Framework/sass/components/_form.sass */
+.form__group__checkbox {
+  display: inline-block;
+  margin-right: 15px;
+  /* Base for label styling */
+  /* checkbox aspect */
+  /* checked mark aspect */
+  /* checked mark aspect changes */
+  /* disabled checkbox */
+  /* accessibility */
+  /* hover style just for information */ }
+  /* line 140, Framework/sass/components/_form.sass */
+  .form__group__checkbox .form__checkbox[type="checkbox"]:not(:checked),
+  .form__group__checkbox .form__checkbox[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px; }
+  /* line 145, Framework/sass/components/_form.sass */
+  .form__group__checkbox .form__checkbox[type="checkbox"]:not(:checked) + label,
+  .form__group__checkbox .form__checkbox[type="checkbox"]:checked + label {
+    position: relative;
+    padding-left: 21px;
+    cursor: pointer; }
+  /* line 153, Framework/sass/components/_form.sass */
+  .form__group__checkbox .form__checkbox[type="checkbox"]:not(:checked) + label:before,
+  .form__group__checkbox .form__checkbox[type="checkbox"]:checked + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ddddde;
+    background: #f7f7f7;
+    border-radius: 4px; }
+  /* line 166, Framework/sass/components/_form.sass */
+  .form__group__checkbox .form__checkbox[type="checkbox"]:not(:checked) + label:after,
+  .form__group__checkbox .form__checkbox[type="checkbox"]:checked + label:after {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 2px;
+    font-size: 10px;
+    color: teal;
+    font-family: "Lunacon"; }
+  /* line 177, Framework/sass/components/_form.sass */
+  .form__group__checkbox .form__checkbox[type="checkbox"]:not(:checked) + label.from__label__checkbox:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0); }
+  /* line 181, Framework/sass/components/_form.sass */
+  .form__group__checkbox .form__checkbox[type="checkbox"]:checked + label.from__label__checkbox:after {
+    -webkit-animation: checkin 0.5s forwards;
+    animation: checkin 0.5s forwards; }
+  /* line 186, Framework/sass/components/_form.sass */
+  .form__group__checkbox .form__checkbox[type="checkbox"]:disabled:not(:checked) + label.from__label__checkbox:before,
+  .form__group__checkbox .form__checkbox[type="checkbox"]:disabled:checked + label.from__label__checkbox:before {
+    border-color: #bbb;
+    background-color: #ddd;
+    cursor: not-allowed; }
+  /* line 192, Framework/sass/components/_form.sass */
+  .form__group__checkbox .form__checkbox[type="checkbox"]:disabled:checked + label.from__label__checkbox:after {
+    color: #999; }
+  /* line 195, Framework/sass/components/_form.sass */
+  .form__group__checkbox .form__checkbox[type="checkbox"]:disabled + label.from__label__checkbox {
+    color: #aaa; }
+  /* line 199, Framework/sass/components/_form.sass */
+  .form__group__checkbox .form__checkbox[type="checkbox"]:checked:focus + label.from__label__checkbox:before,
+  .form__group__checkbox .form__checkbox[type="checkbox"]:not(:checked):focus + label.from__label__checkbox:before {
+    border: 2px solid teal; }
+  /* line 205, Framework/sass/components/_form.sass */
+  .form__group__checkbox label.from__label__checkbox:hover:before {
+    border: 2px solid teal; }
+  /* line 208, Framework/sass/components/_form.sass */
+  .form__group__checkbox label.from__label__checkbox::-moz-selection {
+    background: transparent !important; }
+  .form__group__checkbox label.from__label__checkbox::selection {
+    background: transparent !important; }
+
+@-webkit-keyframes checkin {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(2);
+    transform: scale(2); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes checkin {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(2);
+    transform: scale(2); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
 
 /* line 7, Framework/sass/components/_notify.sass */
 .notify {

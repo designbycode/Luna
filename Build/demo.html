@@ -8,86 +8,32 @@
     <link rel="stylesheet" href="css/style.css"/>
   </head>
   <body>
-    <nav class="nav nav--shadow">
-      <div class="nav__wrapper">
-        <div class="nav__brand"><a href="#">Luna Framework</a></div>
-        <div class="nav__navicon"></div>
-        <div class="nav__links__wrapper nav__links--right">
-          <ul class="nav__links">
-            <li class="nav__links__item"><a href="#">Home</a></li>
-            <li class="nav__links__item nav__links__item--dropdown"><a href="#">Shop
-                <ul class="nav__links">
-                  <li class="nav__links__item nav__links__item--dropdown"><a href="#">Mens
-                      <ul class="nav__links left">
-                        <li class="nav__links__item"><a href="#">Shoes</a></li>
-                        <li class="nav__links__item nav__links__item--dropdown"><a href="#">Jackets
-                            <ul class="nav__links left">
-                              <li class="nav__links__item nav__links__item--dropdown"><a href="#">Wool
-                                  <ul class="nav__links">
-                                    <li class="nav__links__item"><a href="#">Shoes</a></li>
-                                    <li class="nav__links__item"><a href="#">Jackets</a></li>
-                                    <li class="nav__links__item"><a href="#">Dresses</a></li>
-                                  </ul></a></li>
-                              <li class="nav__links__item"><a href="#">Leather</a></li>
-                            </ul></a></li>
-                        <li class="nav__links__item"><a href="#">Pants</a></li>
-                      </ul></a></li>
-                  <li class="nav__links__item nav__links__item--dropdown"><a href="#">Woman
-                      <ul class="nav__links">
-                        <li class="nav__links__item"><a href="#">Shoes</a></li>
-                        <li class="nav__links__item"><a href="#">Jackets</a></li>
-                        <li class="nav__links__item"><a href="#">Dresses</a></li>
-                      </ul></a></li>
-                </ul></a></li>
-            <li class="nav__links__item"><a href="#">Services</a></li>
-            <li class="nav__links__item"><a href="#">Contact Us</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="wrapper"> <br/>
-      <div class="row">
-        <div class="md-col-8 md-float-right">
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi perferendis ratione ipsam porro voluptates, quos quae temporibus enim maxime labore doloremque qui a consequatur inventore nemo dolores possimus nesciunt error impedit molestias rem harum. Maiores quaerat molestiae, velit officia est aliquid veniam impedit suscipit iste corporis perferendis, ipsa repellendus vero voluptatibus. Ipsam distinctio nam magnam ea dolorem est tempore nostrum, nisi aperiam similique architecto, cupiditate perspiciatis aspernatur quasi repellendus dolore provident numquam repellat quidem laboriosam porro totam debitis adipisci? Dolorem sed qui numquam consequuntur aperiam inventore eligendi, voluptatum asperiores, id dolor aliquid iure nesciunt veritatis vitae unde illum ab voluptate!</p>
-        </div>
-        <div class="md-col-4 md-float-left">
-          <h3> Lorem ipsum dolor sit amet, consectetur .</h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat aperiam dolorum delectus quidem perferendis saepe sit voluptates deserunt! Laboriosam, architecto!</p>
-        </div>
-      </div>
-      <div class="row">
-        <hr/>
-      </div>
+    <div class="wrapper">
       <div class="row"> 
-        <div class="md-col-4"> 
-          <div class="panel panel--default"> 
-            <div class="panel__header">Header 1</div>
-            <div class="panel__body"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex dolor, minima, totam nulla accusantium impedit blanditiis neque dicta ab ipsa dolore reiciendis quas alias ut quos aperiam cupiditate ad....</div>
-            <div class="panel__footer"><a href="#" class="btn btn--primary">READ MORE</a></div>
-          </div>
-        </div>
-        <div class="md-col-4"> 
-          <div class="panel panel--default"> 
-            <div class="panel__header">Header 2</div>
-            <div class="panel__body"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex dolor, minima, totam nulla accusantium impedit blanditiis neque dicta ab ipsa dolore reiciendis quas alias ut quos aperiam cupiditate ad....</div>
-            <div class="panel__footer"><a href="#" class="btn btn--primary">READ MORE</a></div>
-          </div>
-        </div>
-        <div class="md-col-4"> 
-          <div class="panel panel--default"> 
-            <div class="panel__header">Header 3</div>
-            <div class="panel__body"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex dolor, minima, totam nulla accusantium impedit blanditiis neque dicta ab ipsa dolore reiciendis quas alias ut quos aperiam cupiditate ad....</div>
-            <div class="panel__footer"><a href="#" class="btn btn--primary">READ MORE</a></div>
+        <div class="col"><br/>
+          <div class="form__group">
+            <div class="form__group__checkbox">
+              <input type="checkbox" name="" id="check-1" class="form__checkbox"/>
+              <label for="check-1" class="from__label__checkbox">Checkbox</label>
+            </div>
+            <div class="form__group__checkbox">
+              <input type="checkbox" name="" id="check-3" class="form__checkbox"/>
+              <label for="check-3" class="from__label__checkbox">Checkbox</label>
+            </div>
+            <div class="form__group__checkbox">
+              <input type="checkbox" disabled="disabled" name="" id="check-2" class="form__checkbox"/>
+              <label for="check-2" class="from__label__checkbox">Checkbox</label>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/app.js"></script>
-    <script>
-      $(document).ready(function(){
-        $(document).Luna();
-      });
-    </script>
   </body>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    $(document).ready(function(){
+    $(document).Luna();
+    });
+  </script>
 </html>

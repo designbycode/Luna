@@ -1,69 +1,35 @@
 <!DOCTYPE html>
 html(lang="en")
-  head
-    meta(charset="UTF-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    title Document
-    link(rel="stylesheet", href="css/style.css")
-  body
-    
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		title Document
+		link(rel="stylesheet", href="css/style.css")
+	body
+
+		.wrapper
+			.row 
+				.col
+					br
+					.form__group
+						.form__group__checkbox
+							input(type="checkbox", name="", id="check-1" class="form__checkbox")
+							label(for="check-1", class="from__label__checkbox") Checkbox
+
+						.form__group__checkbox
+							input(type="checkbox", name="", id="check-3" class="form__checkbox")
+							label(for="check-3", class="from__label__checkbox") Checkbox
+
+						.form__group__checkbox
+							input(type="checkbox", disabled="disabled" , name="", id="check-2" class="form__checkbox")
+							label(for="check-2", class="from__label__checkbox") Checkbox
 
 
-    nav.nav.nav--shadow
-      .nav__wrapper
-        .nav__brand: a(href="#") Luna Framework
-        .nav__navicon
-        .nav__links__wrapper.nav__links--right
-          ul.nav__links
-            li.nav__links__item: a(href="#") Home
-            li.nav__links__item.nav__links__item--dropdown: a(href="#") Shop
-              ul.nav__links
-                li.nav__links__item.nav__links__item--dropdown: a(href="#") Mens
-                  ul.nav__links.left
-                    li.nav__links__item: a(href="#") Shoes
-                    li.nav__links__item.nav__links__item--dropdown: a(href="#") Jackets
-                      ul.nav__links.left
-                        li.nav__links__item.nav__links__item--dropdown: a(href="#") Wool
-                          ul.nav__links
-                            li.nav__links__item: a(href="#") Shoes
-                            li.nav__links__item: a(href="#") Jackets
-                            li.nav__links__item: a(href="#") Dresses
-                        li.nav__links__item: a(href="#") Leather
 
-                    li.nav__links__item: a(href="#") Pants
-                li.nav__links__item.nav__links__item--dropdown: a(href="#") Woman
-                  ul.nav__links
-                    li.nav__links__item: a(href="#") Shoes
-                    li.nav__links__item: a(href="#") Jackets
-                    li.nav__links__item: a(href="#") Dresses
-            li.nav__links__item: a(href="#") Services
-            li.nav__links__item: a(href="#") Contact Us
-  
-
-    .wrapper 
-      br
-      .row
-
-        .md-col-8.md-float-right
-          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi perferendis ratione ipsam porro voluptates, quos quae temporibus enim maxime labore doloremque qui a consequatur inventore nemo dolores possimus nesciunt error impedit molestias rem harum. Maiores quaerat molestiae, velit officia est aliquid veniam impedit suscipit iste corporis perferendis, ipsa repellendus vero voluptatibus. Ipsam distinctio nam magnam ea dolorem est tempore nostrum, nisi aperiam similique architecto, cupiditate perspiciatis aspernatur quasi repellendus dolore provident numquam repellat quidem laboriosam porro totam debitis adipisci? Dolorem sed qui numquam consequuntur aperiam inventore eligendi, voluptatum asperiores, id dolor aliquid iure nesciunt veritatis vitae unde illum ab voluptate!
-
-        .md-col-4.md-float-left
-          h3  Lorem ipsum dolor sit amet, consectetur .
-          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat aperiam dolorum delectus quidem perferendis saepe sit voluptates deserunt! Laboriosam, architecto!
-      .row
-        hr
-      .row 
-      
-        each val in [1,2,3] 
-          .md-col-4  
-            .panel.panel--default 
-              .panel__header= 'Header ' + val 
-              .panel__body  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex dolor, minima, totam nulla accusantium impedit blanditiis neque dicta ab ipsa dolore reiciendis quas alias ut quos aperiam cupiditate ad....
-              .panel__footer: a.btn.btn--primary(href="#") READ MORE
-    script(src="js/jquery.min.js")
-    script(src="js/app.js")
-    script.
-      $(document).ready(function(){
-        $(document).Luna();
-      });
+	script(src="js/jquery.min.js")
+	script(src="js/app.js")
+	script.
+		$(document).ready(function(){
+		$(document).Luna();
+		});
