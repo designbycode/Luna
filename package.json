@@ -10,22 +10,25 @@
   "author": "Claude <claudemyburgh@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.18.13",
+    "browser-sync": "^2.23.6",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
     "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.2",
     "gulp-if": "^2.0.2",
     "gulp-imagemin": "^3.4.0",
     "gulp-jade": "^1.1.0",
-    "gulp-notify": "^3.0.0",
-    "gulp-plumber": "^1.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
     "gulp-sass": "^3.1.0",
     "gulp-scss-lint": "^0.5.0",
-    "gulp-sourcemaps": "^2.6.1",
+    "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.0",
     "gulp-webstandards": "^0.1.1"
   },
-  "repository": "https://github.com/DesignByCode/Luna.git"
+  "repository": "https://github.com/DesignByCode/Luna.git",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
 }

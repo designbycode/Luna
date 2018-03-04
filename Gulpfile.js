@@ -158,4 +158,5 @@ gulp.task('scss-lint', function() {
 
 
 
-gulp.task('default', ['watch', 'sass', 'jade', 'js', 'img', 'browserSync']);
+gulp.task('default', ['watch', 'sass', 'jade', 'js']);
+// gulp.task('default', ['watch', 'sass', 'jade', 'js', 'img', 'browserSync']);

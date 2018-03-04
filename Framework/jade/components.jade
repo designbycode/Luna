@@ -33,6 +33,7 @@ block scripts
   script.
     $(document).ready(function(){
         $table = $('#table');
+        $tableset = $('#table_set');
         $('#striped').on('change', function(){
           if (this.checked){
               $table.addClass('table--striped');
@@ -44,9 +45,9 @@ block scripts
 
         $('#outline').on('change', function(){
           if (this.checked){
-              $table.addClass('table--border');
+              $tableset.addClass('table--border');
             }else{
-              $table.removeClass('table--border');
+              $tableset.removeClass('table--border');
 
             }
         });

@@ -79,6 +79,10 @@
   &--bordered > thead.table__head > tr > td
     border-bottom-width: 2px
 
+  &--bordered > thead.table__head > tr::last-of-type
+    border-color: red
+
+
   &--striped > tbody.table__body > tr > td,
   &--striped > tbody.table__body > tr > th
     background-color: $table__background__color
