@@ -21,6 +21,12 @@ You can install the Framework using npm. Make sure you have nodejs installed, th
 ````
 npm install luna-sass
 ````
+### via yarn
+
+You can install the Framework using yarn, then run :
+````
+yarn add luna-sass
+````
 
 [![Bower](https://img.shields.io/bower/v/bootstrap.svg)](https://bower.io/search/?q=luna)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
