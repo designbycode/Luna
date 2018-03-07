@@ -69,16 +69,12 @@
 
   // Main Menu Wrapper
   &__wrapper
-    width: $the__width__of__wrapper
-    max-width: $the__max__width__of__wrapper
+    +wrapper
+    &--fluid
+      +wrapper
+      width: 100%
+      max-width: 100%
 
-    padding:
-      left: $the__global__padding
-      right: $the__global__padding
-    margin:
-      left: auto
-      right: auto
-    // +clearfix
 
   // The Logo Section
   &__brand
