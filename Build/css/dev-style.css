@@ -563,7 +563,11 @@ body {
   color: #444;
   background: #fff; }
 
-/* line 23, Framework/sass/globals/_body.sass */
+/* line 24, Framework/sass/globals/_body.sass */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat Alternates", sans-serif; }
+
+/* line 27, Framework/sass/globals/_body.sass */
 a:link,
 a:visited,
 a:hover,
@@ -571,11 +575,11 @@ a:focus {
   color: #2075d0;
   text-decoration: none; }
 
-/* line 30, Framework/sass/globals/_body.sass */
+/* line 34, Framework/sass/globals/_body.sass */
 a:hover {
   text-decoration: underline; }
 
-/* line 34, Framework/sass/globals/_body.sass */
+/* line 38, Framework/sass/globals/_body.sass */
 .clearfix {
   *zoom: 1; }
   /* line 9, Framework/sass/mixins/_clearfix.sass */
