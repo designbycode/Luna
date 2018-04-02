@@ -1,0 +1,138 @@
+
+$timeline__media__breakpoint: 800px
+$timeline__line__color: #999
+
+$timeline__padding: $the__global__padding
+
+$timeline__flag__background__color: #eee
+$timeline__flag__text__color: #666
+$timeline__flag__radius: 10px 0
+
+
+$timeline__flag__pointer__color: #333
+$timeline__flag__marker__color: #333
+$timeline__flag__marker__border__color: #eee
+
+$timeline__date__label__background__color: #777
+$timeline__date__label__text__color: #eee
+$timeline__date__label__padding: 5px 10px
+$timeline__date__label__border-radius: 10px 0
+$timeline__date__label__position: top // top || bottom
+$timeline__date__offset: -$timeline__padding //not negative
+
+.timeline
+	position: relative
+	width: 100%
+	max-width: 660px
+	margin: 0 auto
+	margin-top: 20px
+	padding: $timeline__padding 0
+	list-style-type: none
+	display: block
+
+	&::before
+		position: absolute
+		top: 0
+		left: 0
+		content: ' '
+		display: block
+		width: 2px
+		height: 100%
+		margin-left: -1px
+		background: $timeline__line__color
+		background: linear-gradient(to bottom, transparent 0%, $timeline__line__color 10%, $timeline__line__color 90%, transparent 100%)
+		z-index: 5
+		+media-custom('min', $timeline__media__breakpoint)
+			left: 50%
+
+	&__item
+		position: relative
+		+clearfix
+		margin: $timeline__padding * 2 0	
+
+		& .flag 
+			position: relative
+			max-width: 100%
+			background: $timeline__flag__background__color
+			color: $timeline__flag__text__color
+			padding:  $timeline__padding
+			box-shadow: rgba(#000, 0.15) 0 0 3px 1px
+			z-index: 8	
+			+radius($timeline__flag__radius)
+			+media-custom('min', $timeline__media__breakpoint)
+				width: 50%
+			
+			&__date 
+				position: absolute
+				display: inline-block
+				#{$timeline__date__label__position}: $timeline__date__offset
+				background: $timeline__date__label__background__color
+				border: solid 1px darken($timeline__date__label__background__color,2%)
+				color: $timeline__date__label__text__color
+				padding: $timeline__date__label__padding
+				+radius($timeline__date__label__border-radius)
+
+
+
+			&--left, 
+			&--right 
+				border-left: solid 2px $timeline__flag__pointer__color
+				margin-left: $timeline__padding * 2
+				&::before
+					position: absolute
+					content: ''
+					z-index: 10
+					top: 50%
+					width: 0
+					height: 0
+					left: 0%
+					margin-top: -8px
+					margin-left: -10px
+					border-right: solid 8px $timeline__flag__pointer__color
+					border-top: solid 8px transparent
+					border-bottom: solid 8px transparent
+
+				
+				&::after 
+					position: absolute
+					content: ''
+					width: 20px
+					height: 20px
+					display: block
+					background: $timeline__flag__marker__color 
+					left: 0
+					top: 50%
+					margin-top: -10px
+					margin-left: -($timeline__padding * 2) - 12px
+					+radius(100%)
+					z-index: 6
+					box-shadow: $timeline__flag__marker__border__color 0 0 0 3px, rgba(#000, 0.5) 0 0 3px 3px
+
+
+			&--left
+				+media-custom('min', $timeline__media__breakpoint)
+					border-left: none
+					border-right: solid 2px $timeline__flag__pointer__color
+					margin-left: -($timeline__padding * 2)
+
+					&::before
+						left: 100%
+						margin-left: 2px
+						border-right: none
+						border-left: solid 8px $timeline__flag__pointer__color
+						border-top: solid 8px transparent
+						border-bottom: solid 8px transparent
+
+					&::after 
+						left: 100%	
+						margin-left: ($timeline__padding * 2) - 8px
+
+
+					& .flag__date
+						right: $timeline__padding 
+
+			&--right 
+				+media-custom('min', $timeline__media__breakpoint)
+					float: right
+					left: ($timeline__padding * 2)
+
