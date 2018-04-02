@@ -1,24 +1,4 @@
 
-$timeline__media__breakpoint: 800px
-$timeline__line__color: #999
-
-$timeline__padding: $the__global__padding
-
-$timeline__flag__background__color: #eee
-$timeline__flag__text__color: #666
-$timeline__flag__radius: 10px 0
-
-
-$timeline__flag__pointer__color: #333
-$timeline__flag__marker__color: #333
-$timeline__flag__marker__border__color: #eee
-
-$timeline__date__label__background__color: #777
-$timeline__date__label__text__color: #eee
-$timeline__date__label__padding: 5px 10px
-$timeline__date__label__border-radius: 10px 0
-$timeline__date__label__position: top // top || bottom
-$timeline__date__offset: -$timeline__padding //not negative
 
 .timeline
 	position: relative
@@ -106,7 +86,7 @@ $timeline__date__offset: -$timeline__padding //not negative
 					margin-left: -($timeline__padding * 2) - 12px
 					+radius(100%)
 					z-index: 6
-					box-shadow: $timeline__flag__marker__border__color 0 0 0 3px, rgba(#000, 0.5) 0 0 3px 3px
+					box-shadow: $timeline__flag__marker__border__color 0 0 0 $timeline__flag__marker__border__width, rgba(#000, 0.5) 0 0 $timeline__flag__marker__border__width 3px
 
 
 			&--left
