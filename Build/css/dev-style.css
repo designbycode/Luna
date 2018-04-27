@@ -1676,7 +1676,7 @@ a:hover {
 .selectable__false, .btn,
 a.btn,
 button.btn,
-input[type="submit"].btn, .form__label, .form__helper {
+input.btn[type="submit"], .form__label, .form__helper {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
