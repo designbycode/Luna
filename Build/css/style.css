@@ -1676,7 +1676,7 @@ a:hover {
 .selectable__false, .btn,
 a.btn,
 button.btn,
-input.btn[type="submit"], .form__label, .form__helper {
+input.btn[type="submit"], .form__label, .form__helper, .ribbon__label {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -3027,10 +3027,10 @@ input[type="submit"].btn {
     button.btn--primary-gradient,
     input[type="submit"].btn--primary-gradient {
       background: orangered;
-      background: -webkit-gradient(linear, left top, left bottom, from(orangered), to(#e63e00));
-      background: -webkit-linear-gradient(top, orangered, #e63e00);
-      background: -o-linear-gradient(top, orangered, #e63e00);
-      background: linear-gradient(180deg, orangered, #e63e00);
+      background: -webkit-gradient(linear, left top, left bottom, from(orangered), to(#d63a00));
+      background: -webkit-linear-gradient(top, orangered, #d63a00);
+      background: -o-linear-gradient(top, orangered, #d63a00);
+      background: linear-gradient(180deg, orangered, #d63a00);
       color: #fff;
       border: solid 1px #e63e00;
       text-shadow: #992900 0 1px 1px; }
@@ -3079,10 +3079,10 @@ input[type="submit"].btn {
     button.btn--secondary-gradient,
     input[type="submit"].btn--secondary-gradient {
       background: yellow;
-      background: -webkit-gradient(linear, left top, left bottom, from(yellow), to(#e6e600));
-      background: -webkit-linear-gradient(top, yellow, #e6e600);
-      background: -o-linear-gradient(top, yellow, #e6e600);
-      background: linear-gradient(180deg, yellow, #e6e600);
+      background: -webkit-gradient(linear, left top, left bottom, from(yellow), to(#d6d600));
+      background: -webkit-linear-gradient(top, yellow, #d6d600);
+      background: -o-linear-gradient(top, yellow, #d6d600);
+      background: linear-gradient(180deg, yellow, #d6d600);
       color: #fff;
       border: solid 1px #e6e600;
       text-shadow: #999900 0 1px 1px; }
@@ -3131,10 +3131,10 @@ input[type="submit"].btn {
     button.btn--dark-gradient,
     input[type="submit"].btn--dark-gradient {
       background: #222;
-      background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#151515));
-      background: -webkit-linear-gradient(top, #222, #151515);
-      background: -o-linear-gradient(top, #222, #151515);
-      background: linear-gradient(180deg, #222, #151515);
+      background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#0e0e0e));
+      background: -webkit-linear-gradient(top, #222, #0e0e0e);
+      background: -o-linear-gradient(top, #222, #0e0e0e);
+      background: linear-gradient(180deg, #222, #0e0e0e);
       color: #fff;
       border: solid 1px #151515;
       text-shadow: black 0 1px 1px; }
@@ -3235,10 +3235,10 @@ input[type="submit"].btn {
     button.btn--white-gradient,
     input[type="submit"].btn--white-gradient {
       background: #fff;
-      background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f2f2f2));
-      background: -webkit-linear-gradient(top, #fff, #f2f2f2);
-      background: -o-linear-gradient(top, #fff, #f2f2f2);
-      background: linear-gradient(180deg, #fff, #f2f2f2);
+      background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ebebeb));
+      background: -webkit-linear-gradient(top, #fff, #ebebeb);
+      background: -o-linear-gradient(top, #fff, #ebebeb);
+      background: linear-gradient(180deg, #fff, #ebebeb);
       color: #fff;
       border: solid 1px #f2f2f2;
       text-shadow: #cccccc 0 1px 1px; }
@@ -3289,10 +3289,10 @@ input[type="submit"].btn {
     button.btn--default-gradient,
     input[type="submit"].btn--default-gradient {
       background: #fff;
-      background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f2f2f2));
-      background: -webkit-linear-gradient(top, #fff, #f2f2f2);
-      background: -o-linear-gradient(top, #fff, #f2f2f2);
-      background: linear-gradient(180deg, #fff, #f2f2f2);
+      background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ebebeb));
+      background: -webkit-linear-gradient(top, #fff, #ebebeb);
+      background: -o-linear-gradient(top, #fff, #ebebeb);
+      background: linear-gradient(180deg, #fff, #ebebeb);
       color: #fff;
       border: solid 1px #f2f2f2;
       text-shadow: #cccccc 0 1px 1px;
@@ -3344,10 +3344,10 @@ input[type="submit"].btn {
     button.btn--info-gradient,
     input[type="submit"].btn--info-gradient {
       background: #4285f4;
-      background: -webkit-gradient(linear, left top, left bottom, from(#4285f4), to(#2a75f3));
-      background: -webkit-linear-gradient(top, #4285f4, #2a75f3);
-      background: -o-linear-gradient(top, #4285f4, #2a75f3);
-      background: linear-gradient(180deg, #4285f4, #2a75f3);
+      background: -webkit-gradient(linear, left top, left bottom, from(#4285f4), to(#1b6cf2));
+      background: -webkit-linear-gradient(top, #4285f4, #1b6cf2);
+      background: -o-linear-gradient(top, #4285f4, #1b6cf2);
+      background: linear-gradient(180deg, #4285f4, #1b6cf2);
       color: #fff;
       border: solid 1px #2a75f3;
       text-shadow: #0b51c5 0 1px 1px; }
@@ -3396,10 +3396,10 @@ input[type="submit"].btn {
     button.btn--success-gradient,
     input[type="submit"].btn--success-gradient {
       background: #008c3a;
-      background: -webkit-gradient(linear, left top, left bottom, from(#008c3a), to(#00732f));
-      background: -webkit-linear-gradient(top, #008c3a, #00732f);
-      background: -o-linear-gradient(top, #008c3a, #00732f);
-      background: linear-gradient(180deg, #008c3a, #00732f);
+      background: -webkit-gradient(linear, left top, left bottom, from(#008c3a), to(#006329));
+      background: -webkit-linear-gradient(top, #008c3a, #006329);
+      background: -o-linear-gradient(top, #008c3a, #006329);
+      background: linear-gradient(180deg, #008c3a, #006329);
       color: #fff;
       border: solid 1px #00732f;
       text-shadow: #002610 0 1px 1px; }
@@ -3448,10 +3448,10 @@ input[type="submit"].btn {
     button.btn--warning-gradient,
     input[type="submit"].btn--warning-gradient {
       background: #f09300;
-      background: -webkit-gradient(linear, left top, left bottom, from(#f09300), to(#d78300));
-      background: -webkit-linear-gradient(top, #f09300, #d78300);
-      background: -o-linear-gradient(top, #f09300, #d78300);
-      background: linear-gradient(180deg, #f09300, #d78300);
+      background: -webkit-gradient(linear, left top, left bottom, from(#f09300), to(#c77a00));
+      background: -webkit-linear-gradient(top, #f09300, #c77a00);
+      background: -o-linear-gradient(top, #f09300, #c77a00);
+      background: linear-gradient(180deg, #f09300, #c77a00);
       color: #fff;
       border: solid 1px #d78300;
       text-shadow: #8a5500 0 1px 1px; }
@@ -3500,10 +3500,10 @@ input[type="submit"].btn {
     button.btn--danger-gradient,
     input[type="submit"].btn--danger-gradient {
       background: #ea4335;
-      background: -webkit-gradient(linear, left top, left bottom, from(#ea4335), to(#e82e1e));
-      background: -webkit-linear-gradient(top, #ea4335, #e82e1e);
-      background: -o-linear-gradient(top, #ea4335, #e82e1e);
-      background: linear-gradient(180deg, #ea4335, #e82e1e);
+      background: -webkit-gradient(linear, left top, left bottom, from(#ea4335), to(#df2717));
+      background: -webkit-linear-gradient(top, #ea4335, #df2717);
+      background: -o-linear-gradient(top, #ea4335, #df2717);
+      background: linear-gradient(180deg, #ea4335, #df2717);
       color: #fff;
       border: solid 1px #e82e1e;
       text-shadow: #a81d11 0 1px 1px; }
@@ -5119,5 +5119,304 @@ button:disabled {
         .timeline__item .flag--right {
           float: right;
           left: 30px; } }
+
+/* line 5, Framework/sass/components/_ribbon.sass */
+.ribbon__wrapper {
+  position: relative; }
+
+/* line 13, Framework/sass/components/_ribbon.sass */
+.ribbon--primary::before, .ribbon--primary::after,
+.ribbon--primary-gradient::before,
+.ribbon--primary-gradient::after {
+  border: 5px solid #992900; }
+
+/* line 13, Framework/sass/components/_ribbon.sass */
+.ribbon--secondary::before, .ribbon--secondary::after,
+.ribbon--secondary-gradient::before,
+.ribbon--secondary-gradient::after {
+  border: 5px solid #999900; }
+
+/* line 13, Framework/sass/components/_ribbon.sass */
+.ribbon--dark::before, .ribbon--dark::after,
+.ribbon--dark-gradient::before,
+.ribbon--dark-gradient::after {
+  border: 5px solid black; }
+
+/* line 13, Framework/sass/components/_ribbon.sass */
+.ribbon--black::before, .ribbon--black::after,
+.ribbon--black-gradient::before,
+.ribbon--black-gradient::after {
+  border: 5px solid black; }
+
+/* line 13, Framework/sass/components/_ribbon.sass */
+.ribbon--white::before, .ribbon--white::after,
+.ribbon--white-gradient::before,
+.ribbon--white-gradient::after {
+  border: 5px solid #cccccc; }
+
+/* line 13, Framework/sass/components/_ribbon.sass */
+.ribbon--default::before, .ribbon--default::after,
+.ribbon--default-gradient::before,
+.ribbon--default-gradient::after {
+  border: 5px solid #cccccc; }
+
+/* line 13, Framework/sass/components/_ribbon.sass */
+.ribbon--info::before, .ribbon--info::after,
+.ribbon--info-gradient::before,
+.ribbon--info-gradient::after {
+  border: 5px solid #0b51c5; }
+
+/* line 13, Framework/sass/components/_ribbon.sass */
+.ribbon--success::before, .ribbon--success::after,
+.ribbon--success-gradient::before,
+.ribbon--success-gradient::after {
+  border: 5px solid #002610; }
+
+/* line 13, Framework/sass/components/_ribbon.sass */
+.ribbon--warning::before, .ribbon--warning::after,
+.ribbon--warning-gradient::before,
+.ribbon--warning-gradient::after {
+  border: 5px solid #8a5500; }
+
+/* line 13, Framework/sass/components/_ribbon.sass */
+.ribbon--danger::before, .ribbon--danger::after,
+.ribbon--danger-gradient::before,
+.ribbon--danger-gradient::after {
+  border: 5px solid #a81d11; }
+
+/* line 18, Framework/sass/components/_ribbon.sass */
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 10;
+  /* top left*/
+  /* top right*/
+  /* bottom left*/
+  /* bottom right*/ }
+  /* line 25, Framework/sass/components/_ribbon.sass */
+  .ribbon::before, .ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block; }
+  /* line 33, Framework/sass/components/_ribbon.sass */
+  .ribbon__label {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 15px 0;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    text-align: center; }
+  /* line 55, Framework/sass/components/_ribbon.sass */
+  .ribbon--primary .ribbon__label {
+    background-color: orangered;
+    color: #fff; }
+  /* line 60, Framework/sass/components/_ribbon.sass */
+  .ribbon--primary-gradient .ribbon__label {
+    background: orangered;
+    background: -webkit-gradient(linear, left top, left bottom, from(orangered), to(#cc3700));
+    background: -webkit-linear-gradient(top, orangered, #cc3700);
+    background: -o-linear-gradient(top, orangered, #cc3700);
+    background: linear-gradient(180deg, orangered, #cc3700); }
+  /* line 55, Framework/sass/components/_ribbon.sass */
+  .ribbon--secondary .ribbon__label {
+    background-color: yellow;
+    color: #fff; }
+  /* line 60, Framework/sass/components/_ribbon.sass */
+  .ribbon--secondary-gradient .ribbon__label {
+    background: yellow;
+    background: -webkit-gradient(linear, left top, left bottom, from(yellow), to(#cccc00));
+    background: -webkit-linear-gradient(top, yellow, #cccc00);
+    background: -o-linear-gradient(top, yellow, #cccc00);
+    background: linear-gradient(180deg, yellow, #cccc00); }
+  /* line 55, Framework/sass/components/_ribbon.sass */
+  .ribbon--dark .ribbon__label {
+    background-color: #222;
+    color: #fff; }
+  /* line 60, Framework/sass/components/_ribbon.sass */
+  .ribbon--dark-gradient .ribbon__label {
+    background: #222;
+    background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#090909));
+    background: -webkit-linear-gradient(top, #222, #090909);
+    background: -o-linear-gradient(top, #222, #090909);
+    background: linear-gradient(180deg, #222, #090909); }
+  /* line 55, Framework/sass/components/_ribbon.sass */
+  .ribbon--black .ribbon__label {
+    background-color: #000;
+    color: #fff; }
+  /* line 60, Framework/sass/components/_ribbon.sass */
+  .ribbon--black-gradient .ribbon__label {
+    background: #000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(black));
+    background: -webkit-linear-gradient(top, #000, black);
+    background: -o-linear-gradient(top, #000, black);
+    background: linear-gradient(180deg, #000, black); }
+  /* line 55, Framework/sass/components/_ribbon.sass */
+  .ribbon--white .ribbon__label {
+    background-color: #fff;
+    color: #fff; }
+  /* line 60, Framework/sass/components/_ribbon.sass */
+  .ribbon--white-gradient .ribbon__label {
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e6e6e6));
+    background: -webkit-linear-gradient(top, #fff, #e6e6e6);
+    background: -o-linear-gradient(top, #fff, #e6e6e6);
+    background: linear-gradient(180deg, #fff, #e6e6e6); }
+  /* line 55, Framework/sass/components/_ribbon.sass */
+  .ribbon--default .ribbon__label {
+    background-color: #fff;
+    color: #fff; }
+  /* line 60, Framework/sass/components/_ribbon.sass */
+  .ribbon--default-gradient .ribbon__label {
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e6e6e6));
+    background: -webkit-linear-gradient(top, #fff, #e6e6e6);
+    background: -o-linear-gradient(top, #fff, #e6e6e6);
+    background: linear-gradient(180deg, #fff, #e6e6e6); }
+  /* line 55, Framework/sass/components/_ribbon.sass */
+  .ribbon--info .ribbon__label {
+    background-color: #4285f4;
+    color: #fff; }
+  /* line 60, Framework/sass/components/_ribbon.sass */
+  .ribbon--info-gradient .ribbon__label {
+    background: #4285f4;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4285f4), to(#1266f1));
+    background: -webkit-linear-gradient(top, #4285f4, #1266f1);
+    background: -o-linear-gradient(top, #4285f4, #1266f1);
+    background: linear-gradient(180deg, #4285f4, #1266f1); }
+  /* line 55, Framework/sass/components/_ribbon.sass */
+  .ribbon--success .ribbon__label {
+    background-color: #008c3a;
+    color: #fff; }
+  /* line 60, Framework/sass/components/_ribbon.sass */
+  .ribbon--success-gradient .ribbon__label {
+    background: #008c3a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#008c3a), to(#005925));
+    background: -webkit-linear-gradient(top, #008c3a, #005925);
+    background: -o-linear-gradient(top, #008c3a, #005925);
+    background: linear-gradient(180deg, #008c3a, #005925); }
+  /* line 55, Framework/sass/components/_ribbon.sass */
+  .ribbon--warning .ribbon__label {
+    background-color: #f09300;
+    color: #fff; }
+  /* line 60, Framework/sass/components/_ribbon.sass */
+  .ribbon--warning-gradient .ribbon__label {
+    background: #f09300;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f09300), to(#bd7400));
+    background: -webkit-linear-gradient(top, #f09300, #bd7400);
+    background: -o-linear-gradient(top, #f09300, #bd7400);
+    background: linear-gradient(180deg, #f09300, #bd7400); }
+  /* line 55, Framework/sass/components/_ribbon.sass */
+  .ribbon--danger .ribbon__label {
+    background-color: #ea4335;
+    color: #fff; }
+  /* line 60, Framework/sass/components/_ribbon.sass */
+  .ribbon--danger-gradient .ribbon__label {
+    background: #ea4335;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ea4335), to(#d62516));
+    background: -webkit-linear-gradient(top, #ea4335, #d62516);
+    background: -o-linear-gradient(top, #ea4335, #d62516);
+    background: linear-gradient(180deg, #ea4335, #d62516); }
+  /* line 66, Framework/sass/components/_ribbon.sass */
+  .ribbon--top-left {
+    top: -10px;
+    left: -10px; }
+  /* line 70, Framework/sass/components/_ribbon.sass */
+  .ribbon--top-left::before, .ribbon--top-left::after {
+    border-top-color: transparent;
+    border-left-color: transparent; }
+  /* line 75, Framework/sass/components/_ribbon.sass */
+  .ribbon--top-left::before {
+    top: 0;
+    right: 0; }
+  /* line 79, Framework/sass/components/_ribbon.sass */
+  .ribbon--top-left::after {
+    bottom: 0;
+    left: 0; }
+  /* line 83, Framework/sass/components/_ribbon.sass */
+  .ribbon--top-left .ribbon__label {
+    right: -25px;
+    top: 30px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  /* line 90, Framework/sass/components/_ribbon.sass */
+  .ribbon--top-right {
+    top: -10px;
+    right: -10px; }
+  /* line 94, Framework/sass/components/_ribbon.sass */
+  .ribbon--top-right::before, .ribbon--top-right::after {
+    border-top-color: transparent;
+    border-right-color: transparent; }
+  /* line 99, Framework/sass/components/_ribbon.sass */
+  .ribbon--top-right::before {
+    top: 0;
+    left: 0; }
+  /* line 103, Framework/sass/components/_ribbon.sass */
+  .ribbon--top-right::after {
+    bottom: 0;
+    right: 0; }
+  /* line 107, Framework/sass/components/_ribbon.sass */
+  .ribbon--top-right .ribbon__label {
+    left: -25px;
+    top: 30px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  /* line 114, Framework/sass/components/_ribbon.sass */
+  .ribbon--bottom-left {
+    bottom: -10px;
+    left: -10px; }
+  /* line 118, Framework/sass/components/_ribbon.sass */
+  .ribbon--bottom-left::before, .ribbon--bottom-left::after {
+    border-bottom-color: transparent;
+    border-left-color: transparent; }
+  /* line 123, Framework/sass/components/_ribbon.sass */
+  .ribbon--bottom-left::before {
+    bottom: 0;
+    right: 0; }
+  /* line 127, Framework/sass/components/_ribbon.sass */
+  .ribbon--bottom-left::after {
+    top: 0;
+    left: 0; }
+  /* line 131, Framework/sass/components/_ribbon.sass */
+  .ribbon--bottom-left .ribbon__label {
+    right: -25px;
+    bottom: 30px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  /* line 138, Framework/sass/components/_ribbon.sass */
+  .ribbon--bottom-right {
+    bottom: -10px;
+    right: -10px; }
+  /* line 142, Framework/sass/components/_ribbon.sass */
+  .ribbon--bottom-right::before, .ribbon--bottom-right::after {
+    border-bottom-color: transparent;
+    border-right-color: transparent; }
+  /* line 147, Framework/sass/components/_ribbon.sass */
+  .ribbon--bottom-right::before {
+    bottom: 0;
+    left: 0; }
+  /* line 151, Framework/sass/components/_ribbon.sass */
+  .ribbon--bottom-right::after {
+    top: 0;
+    right: 0; }
+  /* line 155, Framework/sass/components/_ribbon.sass */
+  .ribbon--bottom-right .ribbon__label {
+    left: -25px;
+    bottom: 30px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
 
 /*# sourceMappingURL=style.css.map */
