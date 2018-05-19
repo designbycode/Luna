@@ -127,6 +127,7 @@ gulp.task('img', ()=>{
 gulp.task('fonts', ['del'], ()=>{
   return gulp.src(FontsArray)
   .pipe(gulp.dest(`${Paths.output}fonts/`))
+  .pipe(gulp.dest(`${Paths.fonts}/`))
 });
 
 gulp.task('del', ()=>{

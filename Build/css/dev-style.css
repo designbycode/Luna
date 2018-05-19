@@ -1127,7 +1127,7 @@ a:hover {
   src: url("../fonts/lunacon/Lunacon.eot?#iefix") format("eot"), url("../fonts/lunacon/Lunacon.woff") format("woff"), url("../fonts/lunacon/Lunacon.ttf") format("truetype"), url("../fonts/lunacon/Lunacon.svg#Lunacon") format("svg"); }
 
 /* line 28, Framework/sass/vendor/_icons.scss */
-.lunacon, .lunacon-address-book::before, .lunacon-algolia::before, .lunacon-android::before, .lunacon-backward::before, .lunacon-basket-solid::before, .lunacon-basket::before, .lunacon-bell-mute-solid::before, .lunacon-bell-mute::before, .lunacon-bell-solid::before, .lunacon-bell::before, .lunacon-bitcoin::before, .lunacon-cart-solid::before, .lunacon-cart::before, .lunacon-checkmark-small::before, .lunacon-checkmark::before, .lunacon-chevron-down::before, .lunacon-chevron-left::before, .lunacon-chevron-right::before, .lunacon-chevron-up::before, .lunacon-close-small::before, .lunacon-close::before, .lunacon-cloud-check-solid::before, .lunacon-cloud-check::before, .lunacon-cloud-computing::before, .lunacon-cloud-solid::before, .lunacon-cloud::before, .lunacon-code-fork::before, .lunacon-cone::before, .lunacon-dailer-solid::before, .lunacon-dailer::before, .lunacon-dashboard::before, .lunacon-download::before, .lunacon-drag::before, .lunacon-facebook::before, .lunacon-fire::before, .lunacon-forward::before, .lunacon-gears::before, .lunacon-gift::before, .lunacon-giftbox::before, .lunacon-git::before, .lunacon-github-round-o::before, .lunacon-github-round::before, .lunacon-github::before, .lunacon-google-play::before, .lunacon-google-plus-g::before, .lunacon-google-plus::before, .lunacon-heartbeat::before, .lunacon-home-solid::before, .lunacon-home::before, .lunacon-instagram::before, .lunacon-key::before, .lunacon-keys-hole::before, .lunacon-linkedin::before, .lunacon-list::before, .lunacon-lock-open::before, .lunacon-lock::before, .lunacon-login::before, .lunacon-logout::before, .lunacon-mail-envelope::before, .lunacon-management::before, .lunacon-message::before, .lunacon-microphone::before, .lunacon-moon-solid::before, .lunacon-moon::before, .lunacon-navicon::before, .lunacon-pause::before, .lunacon-paypal-p::before, .lunacon-paypal::before, .lunacon-pencil::before, .lunacon-play::before, .lunacon-roboto::before, .lunacon-search-min::before, .lunacon-search-zoom::before, .lunacon-search::before, .lunacon-sent-mail::before, .lunacon-settings-tool::before, .lunacon-shield-lock-solid::before, .lunacon-shield::before, .lunacon-skip-back::before, .lunacon-skip-next::before, .lunacon-sky::before, .lunacon-slack::before, .lunacon-smartphonel::before, .lunacon-sound-big::before, .lunacon-sound-mute::before, .lunacon-sound-waves::before, .lunacon-sound::before, .lunacon-star-half-solid::before, .lunacon-star-half::before, .lunacon-star-solid::before, .lunacon-star::before, .lunacon-stop::before, .lunacon-tag::before, .lunacon-thumbs-down-solid::before, .lunacon-thumbs-down::before, .lunacon-thumbs-up-solid::before, .lunacon-thumbs-up::before, .lunacon-tractor::before, .lunacon-twitter-bird::before, .lunacon-twitter::before, .lunacon-upload::before, .lunacon-user-delete-solid::before, .lunacon-user-delete::before, .lunacon-user-solid::before, .lunacon-user::before, .lunacon-users-solid::before, .lunacon-users::before, .lunacon-whatsapp::before, .lunacon-wordpress::before, .lunacon-youtube-play-button::before, .lunacon-youtube::before {
+.lunacon, .lunacon-address-book::before, .lunacon-alarm-clock::before, .lunacon-android::before, .lunacon-backward::before, .lunacon-basket-solid::before, .lunacon-basket::before, .lunacon-beer::before, .lunacon-bell-mute-solid::before, .lunacon-bell-mute::before, .lunacon-bell-solid::before, .lunacon-bell::before, .lunacon-bitcoin::before, .lunacon-box-opened::before, .lunacon-calendar::before, .lunacon-cart-solid::before, .lunacon-cart::before, .lunacon-checkmark-small::before, .lunacon-checkmark::before, .lunacon-chevron-down::before, .lunacon-chevron-left::before, .lunacon-chevron-right::before, .lunacon-chevron-up::before, .lunacon-clock::before, .lunacon-close-small::before, .lunacon-close::before, .lunacon-cloud-check-solid::before, .lunacon-cloud-check::before, .lunacon-cloud-computing::before, .lunacon-cloud-solid::before, .lunacon-cloud::before, .lunacon-code-fork::before, .lunacon-coffee::before, .lunacon-cone::before, .lunacon-dailer-solid::before, .lunacon-dailer::before, .lunacon-dashboard::before, .lunacon-document::before, .lunacon-download::before, .lunacon-drag::before, .lunacon-drop::before, .lunacon-facebook::before, .lunacon-fire::before, .lunacon-forward::before, .lunacon-gears::before, .lunacon-gift::before, .lunacon-giftbox::before, .lunacon-git::before, .lunacon-github-round-o::before, .lunacon-github-round::before, .lunacon-github::before, .lunacon-google-play::before, .lunacon-google-plus-g::before, .lunacon-google-plus::before, .lunacon-heartbeat::before, .lunacon-help::before, .lunacon-home-solid::before, .lunacon-home::before, .lunacon-info::before, .lunacon-instagram::before, .lunacon-key::before, .lunacon-keys-hole::before, .lunacon-light-bulb::before, .lunacon-linkedin::before, .lunacon-list::before, .lunacon-lock-open::before, .lunacon-lock::before, .lunacon-login::before, .lunacon-logout::before, .lunacon-mail-envelope::before, .lunacon-management::before, .lunacon-message::before, .lunacon-microphone::before, .lunacon-moon-solid::before, .lunacon-moon::before, .lunacon-navicon::before, .lunacon-pause::before, .lunacon-paypal-p::before, .lunacon-paypal::before, .lunacon-pencil::before, .lunacon-play::before, .lunacon-roboto::before, .lunacon-search-min::before, .lunacon-search-zoom::before, .lunacon-search::before, .lunacon-sent-mail::before, .lunacon-settings-tool::before, .lunacon-share::before, .lunacon-shield-lock-solid::before, .lunacon-shield::before, .lunacon-skip-back::before, .lunacon-skip-next::before, .lunacon-sky::before, .lunacon-slack::before, .lunacon-smartphonel::before, .lunacon-sound-big::before, .lunacon-sound-mute::before, .lunacon-sound-waves::before, .lunacon-sound::before, .lunacon-spoon-and-fork::before, .lunacon-star-half-solid::before, .lunacon-star-half::before, .lunacon-star-solid::before, .lunacon-star::before, .lunacon-stop::before, .lunacon-tag::before, .lunacon-tags::before, .lunacon-test::before, .lunacon-thumbs-down-solid::before, .lunacon-thumbs-down::before, .lunacon-thumbs-up-solid::before, .lunacon-thumbs-up::before, .lunacon-tractor::before, .lunacon-trash::before, .lunacon-twitter-bird::before, .lunacon-twitter::before, .lunacon-upload::before, .lunacon-user-delete-solid::before, .lunacon-user-delete::before, .lunacon-user-solid::before, .lunacon-user::before, .lunacon-users-solid::before, .lunacon-users::before, .lunacon-whatsapp::before, .lunacon-wifi::before, .lunacon-wordpress::before, .lunacon-youtube-play-button::before, .lunacon-youtube::before {
   line-height: 24px;
   vertical-align: top;
   display: inline-block;
@@ -1167,456 +1167,520 @@ a:hover {
   font-size: 70px !important;
   line-height: 1; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
+/* line 968, Framework/sass/vendor/_icons.scss */
 .lunacon-address-book::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-algolia::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-alarm-clock::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
+/* line 968, Framework/sass/vendor/_icons.scss */
 .lunacon-android::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
+/* line 968, Framework/sass/vendor/_icons.scss */
 .lunacon-backward::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
+/* line 968, Framework/sass/vendor/_icons.scss */
 .lunacon-basket-solid::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
+/* line 968, Framework/sass/vendor/_icons.scss */
 .lunacon-basket::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-bell-mute-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-beer::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-bell-mute::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-bell-mute-solid::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-bell-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-bell-mute::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-bell::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-bell-solid::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-bitcoin::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-bell::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-cart-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-bitcoin::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-cart::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-box-opened::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-checkmark-small::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-calendar::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-checkmark::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-cart-solid::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-chevron-down::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-cart::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-chevron-left::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-checkmark-small::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-chevron-right::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-checkmark::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-chevron-up::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-chevron-down::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-close-small::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-chevron-left::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-close::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-chevron-right::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-cloud-check-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-chevron-up::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-cloud-check::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-clock::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-cloud-computing::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-close-small::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-cloud-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-close::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-cloud::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-cloud-check-solid::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-code-fork::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-cloud-check::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-cone::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-cloud-computing::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-dailer-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-cloud-solid::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-dailer::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-cloud::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-dashboard::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-code-fork::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-download::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-coffee::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-drag::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-cone::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-facebook::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-dailer-solid::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-fire::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-dailer::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-forward::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-dashboard::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-gears::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-document::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-gift::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-download::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-giftbox::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-drag::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-git::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-drop::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-github-round-o::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-facebook::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-github-round::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-fire::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-github::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-forward::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-google-play::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-gears::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-google-plus-g::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-gift::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-google-plus::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-giftbox::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-heartbeat::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-git::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-home-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-github-round-o::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-home::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-github-round::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-instagram::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-github::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-key::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-google-play::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-keys-hole::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-google-plus-g::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-linkedin::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-google-plus::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-list::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-heartbeat::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-lock-open::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-help::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-lock::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-home-solid::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-login::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-home::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-logout::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-info::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-mail-envelope::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-instagram::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-management::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-key::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-message::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-keys-hole::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-microphone::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-light-bulb::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-moon-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-linkedin::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-moon::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-list::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-navicon::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-lock-open::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-pause::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-lock::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-paypal-p::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-login::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-paypal::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-logout::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-pencil::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-mail-envelope::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-play::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-management::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-roboto::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-message::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-search-min::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-microphone::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-search-zoom::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-moon-solid::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-search::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-moon::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-sent-mail::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-navicon::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-settings-tool::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-pause::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-shield-lock-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-paypal-p::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-shield::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-paypal::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-skip-back::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-pencil::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-skip-next::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-play::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-sky::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-roboto::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-slack::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-search-min::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-smartphonel::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-search-zoom::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-sound-big::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-search::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-sound-mute::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-sent-mail::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-sound-waves::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-settings-tool::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-sound::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-share::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-star-half-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-shield-lock-solid::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-star-half::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-shield::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-star-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-skip-back::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-star::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-skip-next::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-stop::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-sky::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-tag::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-slack::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-thumbs-down-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-smartphonel::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-thumbs-down::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-sound-big::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-thumbs-up-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-sound-mute::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-thumbs-up::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-sound-waves::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-tractor::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-sound::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-twitter-bird::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-spoon-and-fork::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-twitter::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-star-half-solid::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-upload::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-star-half::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-user-delete-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-star-solid::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-user-delete::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-star::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-user-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-stop::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-user::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-tag::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-users-solid::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-tags::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-users::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-test::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-whatsapp::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-thumbs-down-solid::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-wordpress::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-thumbs-down::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-youtube-play-button::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-thumbs-up-solid::before {
   content: ""; }
 
-/* line 856, Framework/sass/vendor/_icons.scss */
-.lunacon-youtube::before {
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-thumbs-up::before {
   content: ""; }
 
-/* line 1205, Framework/sass/vendor/_icons.scss */
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-tractor::before {
+  content: ""; }
+
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-trash::before {
+  content: ""; }
+
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-twitter-bird::before {
+  content: ""; }
+
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-twitter::before {
+  content: ""; }
+
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-upload::before {
+  content: ""; }
+
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-user-delete-solid::before {
+  content: ""; }
+
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-user-delete::before {
+  content: ""; }
+
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-user-solid::before {
+  content: ""; }
+
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-user::before {
+  content: ""; }
+
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-users-solid::before {
+  content: ""; }
+
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-users::before {
+  content: ""; }
+
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-whatsapp::before {
+  content: ""; }
+
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-wifi::before {
+  content: ""; }
+
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-wordpress::before {
+  content: ""; }
+
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-youtube-play-button::before {
+  content: ""; }
+
+/* line 968, Framework/sass/vendor/_icons.scss */
+.lunacon-youtube::before {
+  content: ""; }
+
+/* line 1365, Framework/sass/vendor/_icons.scss */
 .lunacon-spin-animation {
   -webkit-animation: lunacon-spin 2s infinite linear;
   animation: lunacon-spin 2s infinite linear; }
 
-/* line 1210, Framework/sass/vendor/_icons.scss */
+/* line 1370, Framework/sass/vendor/_icons.scss */
 .lunacon-flash-animation {
   -webkit-animation: lunacon-flash 1s infinite  ease-in-out;
   animation: lunacon-flash 1s infinite  ease-in-out; }
@@ -2351,7 +2415,7 @@ input.btn[type="submit"], .form__label, .form__helper, .ribbon__label {
         text-decoration: none;
         padding: 0 15px; }
         /* line 148, Framework/sass/components/_navigation.sass */
-        .nav__links__item a > .lunacon, .nav__links__item a > .lunacon-address-book::before, .nav__links__item a > .lunacon-algolia::before, .nav__links__item a > .lunacon-android::before, .nav__links__item a > .lunacon-backward::before, .nav__links__item a > .lunacon-basket-solid::before, .nav__links__item a > .lunacon-basket::before, .nav__links__item a > .lunacon-bell-mute-solid::before, .nav__links__item a > .lunacon-bell-mute::before, .nav__links__item a > .lunacon-bell-solid::before, .nav__links__item a > .lunacon-bell::before, .nav__links__item a > .lunacon-bitcoin::before, .nav__links__item a > .lunacon-cart-solid::before, .nav__links__item a > .lunacon-cart::before, .nav__links__item a > .lunacon-checkmark-small::before, .nav__links__item a > .lunacon-checkmark::before, .nav__links__item a > .lunacon-chevron-down::before, .nav__links__item a > .lunacon-chevron-left::before, .nav__links__item a > .lunacon-chevron-right::before, .nav__links__item a > .lunacon-chevron-up::before, .nav__links__item a > .lunacon-close-small::before, .nav__links__item a > .lunacon-close::before, .nav__links__item a > .lunacon-cloud-check-solid::before, .nav__links__item a > .lunacon-cloud-check::before, .nav__links__item a > .lunacon-cloud-computing::before, .nav__links__item a > .lunacon-cloud-solid::before, .nav__links__item a > .lunacon-cloud::before, .nav__links__item a > .lunacon-code-fork::before, .nav__links__item a > .lunacon-cone::before, .nav__links__item a > .lunacon-dailer-solid::before, .nav__links__item a > .lunacon-dailer::before, .nav__links__item a > .lunacon-dashboard::before, .nav__links__item a > .lunacon-download::before, .nav__links__item a > .lunacon-drag::before, .nav__links__item a > .lunacon-facebook::before, .nav__links__item a > .lunacon-fire::before, .nav__links__item a > .lunacon-forward::before, .nav__links__item a > .lunacon-gears::before, .nav__links__item a > .lunacon-gift::before, .nav__links__item a > .lunacon-giftbox::before, .nav__links__item a > .lunacon-git::before, .nav__links__item a > .lunacon-github-round-o::before, .nav__links__item a > .lunacon-github-round::before, .nav__links__item a > .lunacon-github::before, .nav__links__item a > .lunacon-google-play::before, .nav__links__item a > .lunacon-google-plus-g::before, .nav__links__item a > .lunacon-google-plus::before, .nav__links__item a > .lunacon-heartbeat::before, .nav__links__item a > .lunacon-home-solid::before, .nav__links__item a > .lunacon-home::before, .nav__links__item a > .lunacon-instagram::before, .nav__links__item a > .lunacon-key::before, .nav__links__item a > .lunacon-keys-hole::before, .nav__links__item a > .lunacon-linkedin::before, .nav__links__item a > .lunacon-list::before, .nav__links__item a > .lunacon-lock-open::before, .nav__links__item a > .lunacon-lock::before, .nav__links__item a > .lunacon-login::before, .nav__links__item a > .lunacon-logout::before, .nav__links__item a > .lunacon-mail-envelope::before, .nav__links__item a > .lunacon-management::before, .nav__links__item a > .lunacon-message::before, .nav__links__item a > .lunacon-microphone::before, .nav__links__item a > .lunacon-moon-solid::before, .nav__links__item a > .lunacon-moon::before, .nav__links__item a > .lunacon-navicon::before, .nav__links__item a > .lunacon-pause::before, .nav__links__item a > .lunacon-paypal-p::before, .nav__links__item a > .lunacon-paypal::before, .nav__links__item a > .lunacon-pencil::before, .nav__links__item a > .lunacon-play::before, .nav__links__item a > .lunacon-roboto::before, .nav__links__item a > .lunacon-search-min::before, .nav__links__item a > .lunacon-search-zoom::before, .nav__links__item a > .lunacon-search::before, .nav__links__item a > .lunacon-sent-mail::before, .nav__links__item a > .lunacon-settings-tool::before, .nav__links__item a > .lunacon-shield-lock-solid::before, .nav__links__item a > .lunacon-shield::before, .nav__links__item a > .lunacon-skip-back::before, .nav__links__item a > .lunacon-skip-next::before, .nav__links__item a > .lunacon-sky::before, .nav__links__item a > .lunacon-slack::before, .nav__links__item a > .lunacon-smartphonel::before, .nav__links__item a > .lunacon-sound-big::before, .nav__links__item a > .lunacon-sound-mute::before, .nav__links__item a > .lunacon-sound-waves::before, .nav__links__item a > .lunacon-sound::before, .nav__links__item a > .lunacon-star-half-solid::before, .nav__links__item a > .lunacon-star-half::before, .nav__links__item a > .lunacon-star-solid::before, .nav__links__item a > .lunacon-star::before, .nav__links__item a > .lunacon-stop::before, .nav__links__item a > .lunacon-tag::before, .nav__links__item a > .lunacon-thumbs-down-solid::before, .nav__links__item a > .lunacon-thumbs-down::before, .nav__links__item a > .lunacon-thumbs-up-solid::before, .nav__links__item a > .lunacon-thumbs-up::before, .nav__links__item a > .lunacon-tractor::before, .nav__links__item a > .lunacon-twitter-bird::before, .nav__links__item a > .lunacon-twitter::before, .nav__links__item a > .lunacon-upload::before, .nav__links__item a > .lunacon-user-delete-solid::before, .nav__links__item a > .lunacon-user-delete::before, .nav__links__item a > .lunacon-user-solid::before, .nav__links__item a > .lunacon-user::before, .nav__links__item a > .lunacon-users-solid::before, .nav__links__item a > .lunacon-users::before, .nav__links__item a > .lunacon-whatsapp::before, .nav__links__item a > .lunacon-wordpress::before, .nav__links__item a > .lunacon-youtube-play-button::before, .nav__links__item a > .lunacon-youtube::before {
+        .nav__links__item a > .lunacon, .nav__links__item a > .lunacon-address-book::before, .nav__links__item a > .lunacon-alarm-clock::before, .nav__links__item a > .lunacon-android::before, .nav__links__item a > .lunacon-backward::before, .nav__links__item a > .lunacon-basket-solid::before, .nav__links__item a > .lunacon-basket::before, .nav__links__item a > .lunacon-beer::before, .nav__links__item a > .lunacon-bell-mute-solid::before, .nav__links__item a > .lunacon-bell-mute::before, .nav__links__item a > .lunacon-bell-solid::before, .nav__links__item a > .lunacon-bell::before, .nav__links__item a > .lunacon-bitcoin::before, .nav__links__item a > .lunacon-box-opened::before, .nav__links__item a > .lunacon-calendar::before, .nav__links__item a > .lunacon-cart-solid::before, .nav__links__item a > .lunacon-cart::before, .nav__links__item a > .lunacon-checkmark-small::before, .nav__links__item a > .lunacon-checkmark::before, .nav__links__item a > .lunacon-chevron-down::before, .nav__links__item a > .lunacon-chevron-left::before, .nav__links__item a > .lunacon-chevron-right::before, .nav__links__item a > .lunacon-chevron-up::before, .nav__links__item a > .lunacon-clock::before, .nav__links__item a > .lunacon-close-small::before, .nav__links__item a > .lunacon-close::before, .nav__links__item a > .lunacon-cloud-check-solid::before, .nav__links__item a > .lunacon-cloud-check::before, .nav__links__item a > .lunacon-cloud-computing::before, .nav__links__item a > .lunacon-cloud-solid::before, .nav__links__item a > .lunacon-cloud::before, .nav__links__item a > .lunacon-code-fork::before, .nav__links__item a > .lunacon-coffee::before, .nav__links__item a > .lunacon-cone::before, .nav__links__item a > .lunacon-dailer-solid::before, .nav__links__item a > .lunacon-dailer::before, .nav__links__item a > .lunacon-dashboard::before, .nav__links__item a > .lunacon-document::before, .nav__links__item a > .lunacon-download::before, .nav__links__item a > .lunacon-drag::before, .nav__links__item a > .lunacon-drop::before, .nav__links__item a > .lunacon-facebook::before, .nav__links__item a > .lunacon-fire::before, .nav__links__item a > .lunacon-forward::before, .nav__links__item a > .lunacon-gears::before, .nav__links__item a > .lunacon-gift::before, .nav__links__item a > .lunacon-giftbox::before, .nav__links__item a > .lunacon-git::before, .nav__links__item a > .lunacon-github-round-o::before, .nav__links__item a > .lunacon-github-round::before, .nav__links__item a > .lunacon-github::before, .nav__links__item a > .lunacon-google-play::before, .nav__links__item a > .lunacon-google-plus-g::before, .nav__links__item a > .lunacon-google-plus::before, .nav__links__item a > .lunacon-heartbeat::before, .nav__links__item a > .lunacon-help::before, .nav__links__item a > .lunacon-home-solid::before, .nav__links__item a > .lunacon-home::before, .nav__links__item a > .lunacon-info::before, .nav__links__item a > .lunacon-instagram::before, .nav__links__item a > .lunacon-key::before, .nav__links__item a > .lunacon-keys-hole::before, .nav__links__item a > .lunacon-light-bulb::before, .nav__links__item a > .lunacon-linkedin::before, .nav__links__item a > .lunacon-list::before, .nav__links__item a > .lunacon-lock-open::before, .nav__links__item a > .lunacon-lock::before, .nav__links__item a > .lunacon-login::before, .nav__links__item a > .lunacon-logout::before, .nav__links__item a > .lunacon-mail-envelope::before, .nav__links__item a > .lunacon-management::before, .nav__links__item a > .lunacon-message::before, .nav__links__item a > .lunacon-microphone::before, .nav__links__item a > .lunacon-moon-solid::before, .nav__links__item a > .lunacon-moon::before, .nav__links__item a > .lunacon-navicon::before, .nav__links__item a > .lunacon-pause::before, .nav__links__item a > .lunacon-paypal-p::before, .nav__links__item a > .lunacon-paypal::before, .nav__links__item a > .lunacon-pencil::before, .nav__links__item a > .lunacon-play::before, .nav__links__item a > .lunacon-roboto::before, .nav__links__item a > .lunacon-search-min::before, .nav__links__item a > .lunacon-search-zoom::before, .nav__links__item a > .lunacon-search::before, .nav__links__item a > .lunacon-sent-mail::before, .nav__links__item a > .lunacon-settings-tool::before, .nav__links__item a > .lunacon-share::before, .nav__links__item a > .lunacon-shield-lock-solid::before, .nav__links__item a > .lunacon-shield::before, .nav__links__item a > .lunacon-skip-back::before, .nav__links__item a > .lunacon-skip-next::before, .nav__links__item a > .lunacon-sky::before, .nav__links__item a > .lunacon-slack::before, .nav__links__item a > .lunacon-smartphonel::before, .nav__links__item a > .lunacon-sound-big::before, .nav__links__item a > .lunacon-sound-mute::before, .nav__links__item a > .lunacon-sound-waves::before, .nav__links__item a > .lunacon-sound::before, .nav__links__item a > .lunacon-spoon-and-fork::before, .nav__links__item a > .lunacon-star-half-solid::before, .nav__links__item a > .lunacon-star-half::before, .nav__links__item a > .lunacon-star-solid::before, .nav__links__item a > .lunacon-star::before, .nav__links__item a > .lunacon-stop::before, .nav__links__item a > .lunacon-tag::before, .nav__links__item a > .lunacon-tags::before, .nav__links__item a > .lunacon-test::before, .nav__links__item a > .lunacon-thumbs-down-solid::before, .nav__links__item a > .lunacon-thumbs-down::before, .nav__links__item a > .lunacon-thumbs-up-solid::before, .nav__links__item a > .lunacon-thumbs-up::before, .nav__links__item a > .lunacon-tractor::before, .nav__links__item a > .lunacon-trash::before, .nav__links__item a > .lunacon-twitter-bird::before, .nav__links__item a > .lunacon-twitter::before, .nav__links__item a > .lunacon-upload::before, .nav__links__item a > .lunacon-user-delete-solid::before, .nav__links__item a > .lunacon-user-delete::before, .nav__links__item a > .lunacon-user-solid::before, .nav__links__item a > .lunacon-user::before, .nav__links__item a > .lunacon-users-solid::before, .nav__links__item a > .lunacon-users::before, .nav__links__item a > .lunacon-whatsapp::before, .nav__links__item a > .lunacon-wifi::before, .nav__links__item a > .lunacon-wordpress::before, .nav__links__item a > .lunacon-youtube-play-button::before, .nav__links__item a > .lunacon-youtube::before {
           vertical-align: text-bottom; }
       /* line 151, Framework/sass/components/_navigation.sass */
       .nav__links__item:hover, .nav__links__item--active {
@@ -2399,7 +2463,7 @@ input.btn[type="submit"], .form__label, .form__helper, .ribbon__label {
           text-align: center;
           width: inherit;
           height: inherit;
-          content: "";
+          content: "";
           color: #f7f7f7; } }
 
 @media screen and (max-width: 900px) {
@@ -2428,7 +2492,7 @@ input.btn[type="submit"], .form__label, .form__helper, .ribbon__label {
         right: 0;
         top: 0;
         font-family: Lunacon;
-        content: "";
+        content: "";
         width: 30px;
         height: 30px;
         display: block; } }
@@ -2498,7 +2562,7 @@ input.btn[type="submit"], .form__label, .form__helper, .ribbon__label {
       position: absolute;
       font-family: "Lunacon";
       color: #283d44;
-      content: "";
+      content: "";
       text-align: center;
       top: 0;
       left: 0;
@@ -2510,7 +2574,7 @@ input.btn[type="submit"], .form__label, .form__helper, .ribbon__label {
   position: absolute;
   font-family: "Lunacon";
   color: #283d44;
-  content: "";
+  content: "";
   text-align: center;
   top: 0;
   left: 0;
@@ -2662,19 +2726,22 @@ input[type="submit"].btn {
       -webkit-box-shadow: none;
       box-shadow: none; }
   /* line 14, Framework/sass/components/_buttons.sass */
-  .btn > .lunacon, .btn > .lunacon-address-book::before, .btn > .lunacon-algolia::before, .btn > .lunacon-android::before, .btn > .lunacon-backward::before, .btn > .lunacon-basket-solid::before, .btn > .lunacon-basket::before, .btn > .lunacon-bell-mute-solid::before, .btn > .lunacon-bell-mute::before, .btn > .lunacon-bell-solid::before, .btn > .lunacon-bell::before, .btn > .lunacon-bitcoin::before, .btn > .lunacon-cart-solid::before, .btn > .lunacon-cart::before, .btn > .lunacon-checkmark-small::before, .btn > .lunacon-checkmark::before, .btn > .lunacon-chevron-down::before, .btn > .lunacon-chevron-left::before, .btn > .lunacon-chevron-right::before, .btn > .lunacon-chevron-up::before, .btn > .lunacon-close-small::before, .btn > .lunacon-close::before, .btn > .lunacon-cloud-check-solid::before, .btn > .lunacon-cloud-check::before, .btn > .lunacon-cloud-computing::before, .btn > .lunacon-cloud-solid::before, .btn > .lunacon-cloud::before, .btn > .lunacon-code-fork::before, .btn > .lunacon-cone::before, .btn > .lunacon-dailer-solid::before, .btn > .lunacon-dailer::before, .btn > .lunacon-dashboard::before, .btn > .lunacon-download::before, .btn > .lunacon-drag::before, .btn > .lunacon-facebook::before, .btn > .lunacon-fire::before, .btn > .lunacon-forward::before, .btn > .lunacon-gears::before, .btn > .lunacon-gift::before, .btn > .lunacon-giftbox::before, .btn > .lunacon-git::before, .btn > .lunacon-github-round-o::before, .btn > .lunacon-github-round::before, .btn > .lunacon-github::before, .btn > .lunacon-google-play::before, .btn > .lunacon-google-plus-g::before, .btn > .lunacon-google-plus::before, .btn > .lunacon-heartbeat::before, .btn > .lunacon-home-solid::before, .btn > .lunacon-home::before, .btn > .lunacon-instagram::before, .btn > .lunacon-key::before, .btn > .lunacon-keys-hole::before, .btn > .lunacon-linkedin::before, .btn > .lunacon-list::before, .btn > .lunacon-lock-open::before, .btn > .lunacon-lock::before, .btn > .lunacon-login::before, .btn > .lunacon-logout::before, .btn > .lunacon-mail-envelope::before, .btn > .lunacon-management::before, .btn > .lunacon-message::before, .btn > .lunacon-microphone::before, .btn > .lunacon-moon-solid::before, .btn > .lunacon-moon::before, .btn > .lunacon-navicon::before, .btn > .lunacon-pause::before, .btn > .lunacon-paypal-p::before, .btn > .lunacon-paypal::before, .btn > .lunacon-pencil::before, .btn > .lunacon-play::before, .btn > .lunacon-roboto::before, .btn > .lunacon-search-min::before, .btn > .lunacon-search-zoom::before, .btn > .lunacon-search::before, .btn > .lunacon-sent-mail::before, .btn > .lunacon-settings-tool::before, .btn > .lunacon-shield-lock-solid::before, .btn > .lunacon-shield::before, .btn > .lunacon-skip-back::before, .btn > .lunacon-skip-next::before, .btn > .lunacon-sky::before, .btn > .lunacon-slack::before, .btn > .lunacon-smartphonel::before, .btn > .lunacon-sound-big::before, .btn > .lunacon-sound-mute::before, .btn > .lunacon-sound-waves::before, .btn > .lunacon-sound::before, .btn > .lunacon-star-half-solid::before, .btn > .lunacon-star-half::before, .btn > .lunacon-star-solid::before, .btn > .lunacon-star::before, .btn > .lunacon-stop::before, .btn > .lunacon-tag::before, .btn > .lunacon-thumbs-down-solid::before, .btn > .lunacon-thumbs-down::before, .btn > .lunacon-thumbs-up-solid::before, .btn > .lunacon-thumbs-up::before, .btn > .lunacon-tractor::before, .btn > .lunacon-twitter-bird::before, .btn > .lunacon-twitter::before, .btn > .lunacon-upload::before, .btn > .lunacon-user-delete-solid::before, .btn > .lunacon-user-delete::before, .btn > .lunacon-user-solid::before, .btn > .lunacon-user::before, .btn > .lunacon-users-solid::before, .btn > .lunacon-users::before, .btn > .lunacon-whatsapp::before, .btn > .lunacon-wordpress::before, .btn > .lunacon-youtube-play-button::before, .btn > .lunacon-youtube::before,
+  .btn > .lunacon, .btn > .lunacon-address-book::before, .btn > .lunacon-alarm-clock::before, .btn > .lunacon-android::before, .btn > .lunacon-backward::before, .btn > .lunacon-basket-solid::before, .btn > .lunacon-basket::before, .btn > .lunacon-beer::before, .btn > .lunacon-bell-mute-solid::before, .btn > .lunacon-bell-mute::before, .btn > .lunacon-bell-solid::before, .btn > .lunacon-bell::before, .btn > .lunacon-bitcoin::before, .btn > .lunacon-box-opened::before, .btn > .lunacon-calendar::before, .btn > .lunacon-cart-solid::before, .btn > .lunacon-cart::before, .btn > .lunacon-checkmark-small::before, .btn > .lunacon-checkmark::before, .btn > .lunacon-chevron-down::before, .btn > .lunacon-chevron-left::before, .btn > .lunacon-chevron-right::before, .btn > .lunacon-chevron-up::before, .btn > .lunacon-clock::before, .btn > .lunacon-close-small::before, .btn > .lunacon-close::before, .btn > .lunacon-cloud-check-solid::before, .btn > .lunacon-cloud-check::before, .btn > .lunacon-cloud-computing::before, .btn > .lunacon-cloud-solid::before, .btn > .lunacon-cloud::before, .btn > .lunacon-code-fork::before, .btn > .lunacon-coffee::before, .btn > .lunacon-cone::before, .btn > .lunacon-dailer-solid::before, .btn > .lunacon-dailer::before, .btn > .lunacon-dashboard::before, .btn > .lunacon-document::before, .btn > .lunacon-download::before, .btn > .lunacon-drag::before, .btn > .lunacon-drop::before, .btn > .lunacon-facebook::before, .btn > .lunacon-fire::before, .btn > .lunacon-forward::before, .btn > .lunacon-gears::before, .btn > .lunacon-gift::before, .btn > .lunacon-giftbox::before, .btn > .lunacon-git::before, .btn > .lunacon-github-round-o::before, .btn > .lunacon-github-round::before, .btn > .lunacon-github::before, .btn > .lunacon-google-play::before, .btn > .lunacon-google-plus-g::before, .btn > .lunacon-google-plus::before, .btn > .lunacon-heartbeat::before, .btn > .lunacon-help::before, .btn > .lunacon-home-solid::before, .btn > .lunacon-home::before, .btn > .lunacon-info::before, .btn > .lunacon-instagram::before, .btn > .lunacon-key::before, .btn > .lunacon-keys-hole::before, .btn > .lunacon-light-bulb::before, .btn > .lunacon-linkedin::before, .btn > .lunacon-list::before, .btn > .lunacon-lock-open::before, .btn > .lunacon-lock::before, .btn > .lunacon-login::before, .btn > .lunacon-logout::before, .btn > .lunacon-mail-envelope::before, .btn > .lunacon-management::before, .btn > .lunacon-message::before, .btn > .lunacon-microphone::before, .btn > .lunacon-moon-solid::before, .btn > .lunacon-moon::before, .btn > .lunacon-navicon::before, .btn > .lunacon-pause::before, .btn > .lunacon-paypal-p::before, .btn > .lunacon-paypal::before, .btn > .lunacon-pencil::before, .btn > .lunacon-play::before, .btn > .lunacon-roboto::before, .btn > .lunacon-search-min::before, .btn > .lunacon-search-zoom::before, .btn > .lunacon-search::before, .btn > .lunacon-sent-mail::before, .btn > .lunacon-settings-tool::before, .btn > .lunacon-share::before, .btn > .lunacon-shield-lock-solid::before, .btn > .lunacon-shield::before, .btn > .lunacon-skip-back::before, .btn > .lunacon-skip-next::before, .btn > .lunacon-sky::before, .btn > .lunacon-slack::before, .btn > .lunacon-smartphonel::before, .btn > .lunacon-sound-big::before, .btn > .lunacon-sound-mute::before, .btn > .lunacon-sound-waves::before, .btn > .lunacon-sound::before, .btn > .lunacon-spoon-and-fork::before, .btn > .lunacon-star-half-solid::before, .btn > .lunacon-star-half::before, .btn > .lunacon-star-solid::before, .btn > .lunacon-star::before, .btn > .lunacon-stop::before, .btn > .lunacon-tag::before, .btn > .lunacon-tags::before, .btn > .lunacon-test::before, .btn > .lunacon-thumbs-down-solid::before, .btn > .lunacon-thumbs-down::before, .btn > .lunacon-thumbs-up-solid::before, .btn > .lunacon-thumbs-up::before, .btn > .lunacon-tractor::before, .btn > .lunacon-trash::before, .btn > .lunacon-twitter-bird::before, .btn > .lunacon-twitter::before, .btn > .lunacon-upload::before, .btn > .lunacon-user-delete-solid::before, .btn > .lunacon-user-delete::before, .btn > .lunacon-user-solid::before, .btn > .lunacon-user::before, .btn > .lunacon-users-solid::before, .btn > .lunacon-users::before, .btn > .lunacon-whatsapp::before, .btn > .lunacon-wifi::before, .btn > .lunacon-wordpress::before, .btn > .lunacon-youtube-play-button::before, .btn > .lunacon-youtube::before,
   a.btn > .lunacon,
   a.btn > .lunacon-address-book::before,
-  a.btn > .lunacon-algolia::before,
+  a.btn > .lunacon-alarm-clock::before,
   a.btn > .lunacon-android::before,
   a.btn > .lunacon-backward::before,
   a.btn > .lunacon-basket-solid::before,
   a.btn > .lunacon-basket::before,
+  a.btn > .lunacon-beer::before,
   a.btn > .lunacon-bell-mute-solid::before,
   a.btn > .lunacon-bell-mute::before,
   a.btn > .lunacon-bell-solid::before,
   a.btn > .lunacon-bell::before,
   a.btn > .lunacon-bitcoin::before,
+  a.btn > .lunacon-box-opened::before,
+  a.btn > .lunacon-calendar::before,
   a.btn > .lunacon-cart-solid::before,
   a.btn > .lunacon-cart::before,
   a.btn > .lunacon-checkmark-small::before,
@@ -2683,6 +2750,7 @@ input[type="submit"].btn {
   a.btn > .lunacon-chevron-left::before,
   a.btn > .lunacon-chevron-right::before,
   a.btn > .lunacon-chevron-up::before,
+  a.btn > .lunacon-clock::before,
   a.btn > .lunacon-close-small::before,
   a.btn > .lunacon-close::before,
   a.btn > .lunacon-cloud-check-solid::before,
@@ -2691,12 +2759,15 @@ input[type="submit"].btn {
   a.btn > .lunacon-cloud-solid::before,
   a.btn > .lunacon-cloud::before,
   a.btn > .lunacon-code-fork::before,
+  a.btn > .lunacon-coffee::before,
   a.btn > .lunacon-cone::before,
   a.btn > .lunacon-dailer-solid::before,
   a.btn > .lunacon-dailer::before,
   a.btn > .lunacon-dashboard::before,
+  a.btn > .lunacon-document::before,
   a.btn > .lunacon-download::before,
   a.btn > .lunacon-drag::before,
+  a.btn > .lunacon-drop::before,
   a.btn > .lunacon-facebook::before,
   a.btn > .lunacon-fire::before,
   a.btn > .lunacon-forward::before,
@@ -2711,11 +2782,14 @@ input[type="submit"].btn {
   a.btn > .lunacon-google-plus-g::before,
   a.btn > .lunacon-google-plus::before,
   a.btn > .lunacon-heartbeat::before,
+  a.btn > .lunacon-help::before,
   a.btn > .lunacon-home-solid::before,
   a.btn > .lunacon-home::before,
+  a.btn > .lunacon-info::before,
   a.btn > .lunacon-instagram::before,
   a.btn > .lunacon-key::before,
   a.btn > .lunacon-keys-hole::before,
+  a.btn > .lunacon-light-bulb::before,
   a.btn > .lunacon-linkedin::before,
   a.btn > .lunacon-list::before,
   a.btn > .lunacon-lock-open::before,
@@ -2740,6 +2814,7 @@ input[type="submit"].btn {
   a.btn > .lunacon-search::before,
   a.btn > .lunacon-sent-mail::before,
   a.btn > .lunacon-settings-tool::before,
+  a.btn > .lunacon-share::before,
   a.btn > .lunacon-shield-lock-solid::before,
   a.btn > .lunacon-shield::before,
   a.btn > .lunacon-skip-back::before,
@@ -2751,17 +2826,21 @@ input[type="submit"].btn {
   a.btn > .lunacon-sound-mute::before,
   a.btn > .lunacon-sound-waves::before,
   a.btn > .lunacon-sound::before,
+  a.btn > .lunacon-spoon-and-fork::before,
   a.btn > .lunacon-star-half-solid::before,
   a.btn > .lunacon-star-half::before,
   a.btn > .lunacon-star-solid::before,
   a.btn > .lunacon-star::before,
   a.btn > .lunacon-stop::before,
   a.btn > .lunacon-tag::before,
+  a.btn > .lunacon-tags::before,
+  a.btn > .lunacon-test::before,
   a.btn > .lunacon-thumbs-down-solid::before,
   a.btn > .lunacon-thumbs-down::before,
   a.btn > .lunacon-thumbs-up-solid::before,
   a.btn > .lunacon-thumbs-up::before,
   a.btn > .lunacon-tractor::before,
+  a.btn > .lunacon-trash::before,
   a.btn > .lunacon-twitter-bird::before,
   a.btn > .lunacon-twitter::before,
   a.btn > .lunacon-upload::before,
@@ -2772,21 +2851,25 @@ input[type="submit"].btn {
   a.btn > .lunacon-users-solid::before,
   a.btn > .lunacon-users::before,
   a.btn > .lunacon-whatsapp::before,
+  a.btn > .lunacon-wifi::before,
   a.btn > .lunacon-wordpress::before,
   a.btn > .lunacon-youtube-play-button::before,
   a.btn > .lunacon-youtube::before,
   button.btn > .lunacon,
   button.btn > .lunacon-address-book::before,
-  button.btn > .lunacon-algolia::before,
+  button.btn > .lunacon-alarm-clock::before,
   button.btn > .lunacon-android::before,
   button.btn > .lunacon-backward::before,
   button.btn > .lunacon-basket-solid::before,
   button.btn > .lunacon-basket::before,
+  button.btn > .lunacon-beer::before,
   button.btn > .lunacon-bell-mute-solid::before,
   button.btn > .lunacon-bell-mute::before,
   button.btn > .lunacon-bell-solid::before,
   button.btn > .lunacon-bell::before,
   button.btn > .lunacon-bitcoin::before,
+  button.btn > .lunacon-box-opened::before,
+  button.btn > .lunacon-calendar::before,
   button.btn > .lunacon-cart-solid::before,
   button.btn > .lunacon-cart::before,
   button.btn > .lunacon-checkmark-small::before,
@@ -2795,6 +2878,7 @@ input[type="submit"].btn {
   button.btn > .lunacon-chevron-left::before,
   button.btn > .lunacon-chevron-right::before,
   button.btn > .lunacon-chevron-up::before,
+  button.btn > .lunacon-clock::before,
   button.btn > .lunacon-close-small::before,
   button.btn > .lunacon-close::before,
   button.btn > .lunacon-cloud-check-solid::before,
@@ -2803,12 +2887,15 @@ input[type="submit"].btn {
   button.btn > .lunacon-cloud-solid::before,
   button.btn > .lunacon-cloud::before,
   button.btn > .lunacon-code-fork::before,
+  button.btn > .lunacon-coffee::before,
   button.btn > .lunacon-cone::before,
   button.btn > .lunacon-dailer-solid::before,
   button.btn > .lunacon-dailer::before,
   button.btn > .lunacon-dashboard::before,
+  button.btn > .lunacon-document::before,
   button.btn > .lunacon-download::before,
   button.btn > .lunacon-drag::before,
+  button.btn > .lunacon-drop::before,
   button.btn > .lunacon-facebook::before,
   button.btn > .lunacon-fire::before,
   button.btn > .lunacon-forward::before,
@@ -2823,11 +2910,14 @@ input[type="submit"].btn {
   button.btn > .lunacon-google-plus-g::before,
   button.btn > .lunacon-google-plus::before,
   button.btn > .lunacon-heartbeat::before,
+  button.btn > .lunacon-help::before,
   button.btn > .lunacon-home-solid::before,
   button.btn > .lunacon-home::before,
+  button.btn > .lunacon-info::before,
   button.btn > .lunacon-instagram::before,
   button.btn > .lunacon-key::before,
   button.btn > .lunacon-keys-hole::before,
+  button.btn > .lunacon-light-bulb::before,
   button.btn > .lunacon-linkedin::before,
   button.btn > .lunacon-list::before,
   button.btn > .lunacon-lock-open::before,
@@ -2852,6 +2942,7 @@ input[type="submit"].btn {
   button.btn > .lunacon-search::before,
   button.btn > .lunacon-sent-mail::before,
   button.btn > .lunacon-settings-tool::before,
+  button.btn > .lunacon-share::before,
   button.btn > .lunacon-shield-lock-solid::before,
   button.btn > .lunacon-shield::before,
   button.btn > .lunacon-skip-back::before,
@@ -2863,17 +2954,21 @@ input[type="submit"].btn {
   button.btn > .lunacon-sound-mute::before,
   button.btn > .lunacon-sound-waves::before,
   button.btn > .lunacon-sound::before,
+  button.btn > .lunacon-spoon-and-fork::before,
   button.btn > .lunacon-star-half-solid::before,
   button.btn > .lunacon-star-half::before,
   button.btn > .lunacon-star-solid::before,
   button.btn > .lunacon-star::before,
   button.btn > .lunacon-stop::before,
   button.btn > .lunacon-tag::before,
+  button.btn > .lunacon-tags::before,
+  button.btn > .lunacon-test::before,
   button.btn > .lunacon-thumbs-down-solid::before,
   button.btn > .lunacon-thumbs-down::before,
   button.btn > .lunacon-thumbs-up-solid::before,
   button.btn > .lunacon-thumbs-up::before,
   button.btn > .lunacon-tractor::before,
+  button.btn > .lunacon-trash::before,
   button.btn > .lunacon-twitter-bird::before,
   button.btn > .lunacon-twitter::before,
   button.btn > .lunacon-upload::before,
@@ -2884,21 +2979,25 @@ input[type="submit"].btn {
   button.btn > .lunacon-users-solid::before,
   button.btn > .lunacon-users::before,
   button.btn > .lunacon-whatsapp::before,
+  button.btn > .lunacon-wifi::before,
   button.btn > .lunacon-wordpress::before,
   button.btn > .lunacon-youtube-play-button::before,
   button.btn > .lunacon-youtube::before,
   input[type="submit"].btn > .lunacon,
   input[type="submit"].btn > .lunacon-address-book::before,
-  input[type="submit"].btn > .lunacon-algolia::before,
+  input[type="submit"].btn > .lunacon-alarm-clock::before,
   input[type="submit"].btn > .lunacon-android::before,
   input[type="submit"].btn > .lunacon-backward::before,
   input[type="submit"].btn > .lunacon-basket-solid::before,
   input[type="submit"].btn > .lunacon-basket::before,
+  input[type="submit"].btn > .lunacon-beer::before,
   input[type="submit"].btn > .lunacon-bell-mute-solid::before,
   input[type="submit"].btn > .lunacon-bell-mute::before,
   input[type="submit"].btn > .lunacon-bell-solid::before,
   input[type="submit"].btn > .lunacon-bell::before,
   input[type="submit"].btn > .lunacon-bitcoin::before,
+  input[type="submit"].btn > .lunacon-box-opened::before,
+  input[type="submit"].btn > .lunacon-calendar::before,
   input[type="submit"].btn > .lunacon-cart-solid::before,
   input[type="submit"].btn > .lunacon-cart::before,
   input[type="submit"].btn > .lunacon-checkmark-small::before,
@@ -2907,6 +3006,7 @@ input[type="submit"].btn {
   input[type="submit"].btn > .lunacon-chevron-left::before,
   input[type="submit"].btn > .lunacon-chevron-right::before,
   input[type="submit"].btn > .lunacon-chevron-up::before,
+  input[type="submit"].btn > .lunacon-clock::before,
   input[type="submit"].btn > .lunacon-close-small::before,
   input[type="submit"].btn > .lunacon-close::before,
   input[type="submit"].btn > .lunacon-cloud-check-solid::before,
@@ -2915,12 +3015,15 @@ input[type="submit"].btn {
   input[type="submit"].btn > .lunacon-cloud-solid::before,
   input[type="submit"].btn > .lunacon-cloud::before,
   input[type="submit"].btn > .lunacon-code-fork::before,
+  input[type="submit"].btn > .lunacon-coffee::before,
   input[type="submit"].btn > .lunacon-cone::before,
   input[type="submit"].btn > .lunacon-dailer-solid::before,
   input[type="submit"].btn > .lunacon-dailer::before,
   input[type="submit"].btn > .lunacon-dashboard::before,
+  input[type="submit"].btn > .lunacon-document::before,
   input[type="submit"].btn > .lunacon-download::before,
   input[type="submit"].btn > .lunacon-drag::before,
+  input[type="submit"].btn > .lunacon-drop::before,
   input[type="submit"].btn > .lunacon-facebook::before,
   input[type="submit"].btn > .lunacon-fire::before,
   input[type="submit"].btn > .lunacon-forward::before,
@@ -2935,11 +3038,14 @@ input[type="submit"].btn {
   input[type="submit"].btn > .lunacon-google-plus-g::before,
   input[type="submit"].btn > .lunacon-google-plus::before,
   input[type="submit"].btn > .lunacon-heartbeat::before,
+  input[type="submit"].btn > .lunacon-help::before,
   input[type="submit"].btn > .lunacon-home-solid::before,
   input[type="submit"].btn > .lunacon-home::before,
+  input[type="submit"].btn > .lunacon-info::before,
   input[type="submit"].btn > .lunacon-instagram::before,
   input[type="submit"].btn > .lunacon-key::before,
   input[type="submit"].btn > .lunacon-keys-hole::before,
+  input[type="submit"].btn > .lunacon-light-bulb::before,
   input[type="submit"].btn > .lunacon-linkedin::before,
   input[type="submit"].btn > .lunacon-list::before,
   input[type="submit"].btn > .lunacon-lock-open::before,
@@ -2964,6 +3070,7 @@ input[type="submit"].btn {
   input[type="submit"].btn > .lunacon-search::before,
   input[type="submit"].btn > .lunacon-sent-mail::before,
   input[type="submit"].btn > .lunacon-settings-tool::before,
+  input[type="submit"].btn > .lunacon-share::before,
   input[type="submit"].btn > .lunacon-shield-lock-solid::before,
   input[type="submit"].btn > .lunacon-shield::before,
   input[type="submit"].btn > .lunacon-skip-back::before,
@@ -2975,17 +3082,21 @@ input[type="submit"].btn {
   input[type="submit"].btn > .lunacon-sound-mute::before,
   input[type="submit"].btn > .lunacon-sound-waves::before,
   input[type="submit"].btn > .lunacon-sound::before,
+  input[type="submit"].btn > .lunacon-spoon-and-fork::before,
   input[type="submit"].btn > .lunacon-star-half-solid::before,
   input[type="submit"].btn > .lunacon-star-half::before,
   input[type="submit"].btn > .lunacon-star-solid::before,
   input[type="submit"].btn > .lunacon-star::before,
   input[type="submit"].btn > .lunacon-stop::before,
   input[type="submit"].btn > .lunacon-tag::before,
+  input[type="submit"].btn > .lunacon-tags::before,
+  input[type="submit"].btn > .lunacon-test::before,
   input[type="submit"].btn > .lunacon-thumbs-down-solid::before,
   input[type="submit"].btn > .lunacon-thumbs-down::before,
   input[type="submit"].btn > .lunacon-thumbs-up-solid::before,
   input[type="submit"].btn > .lunacon-thumbs-up::before,
   input[type="submit"].btn > .lunacon-tractor::before,
+  input[type="submit"].btn > .lunacon-trash::before,
   input[type="submit"].btn > .lunacon-twitter-bird::before,
   input[type="submit"].btn > .lunacon-twitter::before,
   input[type="submit"].btn > .lunacon-upload::before,
@@ -2996,6 +3107,7 @@ input[type="submit"].btn {
   input[type="submit"].btn > .lunacon-users-solid::before,
   input[type="submit"].btn > .lunacon-users::before,
   input[type="submit"].btn > .lunacon-whatsapp::before,
+  input[type="submit"].btn > .lunacon-wifi::before,
   input[type="submit"].btn > .lunacon-wordpress::before,
   input[type="submit"].btn > .lunacon-youtube-play-button::before,
   input[type="submit"].btn > .lunacon-youtube::before {
@@ -4185,7 +4297,7 @@ button:disabled {
       width: 50px;
       line-height: 50px;
       font-family: "Lunacon";
-      content: "";
+      content: "";
       color: #fff;
       text-align: center;
       font-size: 20px;
@@ -4375,7 +4487,7 @@ button:disabled {
         width: 100%;
         height: 100%;
         font-family: "Lunacon";
-        content: "";
+        content: "";
         text-align: center;
         line-height: 28px; }
     /* line 62, Framework/sass/components/_modal.sass */
@@ -4440,7 +4552,7 @@ button:disabled {
       width: 100%;
       height: 100%;
       font-family: "Lunacon";
-      content: "";
+      content: "";
       text-align: center;
       line-height: 28px; }
   /* line 129, Framework/sass/components/_modal.sass */
@@ -4825,7 +4937,7 @@ button:disabled {
   .dropdown:hover {
     text-decoration: none; }
   /* line 9, Framework/sass/components/_dropdown_button.sass */
-  .dropdown i.lunacon, .dropdown i.lunacon-address-book::before, .dropdown i.lunacon-algolia::before, .dropdown i.lunacon-android::before, .dropdown i.lunacon-backward::before, .dropdown i.lunacon-basket-solid::before, .dropdown i.lunacon-basket::before, .dropdown i.lunacon-bell-mute-solid::before, .dropdown i.lunacon-bell-mute::before, .dropdown i.lunacon-bell-solid::before, .dropdown i.lunacon-bell::before, .dropdown i.lunacon-bitcoin::before, .dropdown i.lunacon-cart-solid::before, .dropdown i.lunacon-cart::before, .dropdown i.lunacon-checkmark-small::before, .dropdown i.lunacon-checkmark::before, .dropdown i.lunacon-chevron-down::before, .dropdown i.lunacon-chevron-left::before, .dropdown i.lunacon-chevron-right::before, .dropdown i.lunacon-chevron-up::before, .dropdown i.lunacon-close-small::before, .dropdown i.lunacon-close::before, .dropdown i.lunacon-cloud-check-solid::before, .dropdown i.lunacon-cloud-check::before, .dropdown i.lunacon-cloud-computing::before, .dropdown i.lunacon-cloud-solid::before, .dropdown i.lunacon-cloud::before, .dropdown i.lunacon-code-fork::before, .dropdown i.lunacon-cone::before, .dropdown i.lunacon-dailer-solid::before, .dropdown i.lunacon-dailer::before, .dropdown i.lunacon-dashboard::before, .dropdown i.lunacon-download::before, .dropdown i.lunacon-drag::before, .dropdown i.lunacon-facebook::before, .dropdown i.lunacon-fire::before, .dropdown i.lunacon-forward::before, .dropdown i.lunacon-gears::before, .dropdown i.lunacon-gift::before, .dropdown i.lunacon-giftbox::before, .dropdown i.lunacon-git::before, .dropdown i.lunacon-github-round-o::before, .dropdown i.lunacon-github-round::before, .dropdown i.lunacon-github::before, .dropdown i.lunacon-google-play::before, .dropdown i.lunacon-google-plus-g::before, .dropdown i.lunacon-google-plus::before, .dropdown i.lunacon-heartbeat::before, .dropdown i.lunacon-home-solid::before, .dropdown i.lunacon-home::before, .dropdown i.lunacon-instagram::before, .dropdown i.lunacon-key::before, .dropdown i.lunacon-keys-hole::before, .dropdown i.lunacon-linkedin::before, .dropdown i.lunacon-list::before, .dropdown i.lunacon-lock-open::before, .dropdown i.lunacon-lock::before, .dropdown i.lunacon-login::before, .dropdown i.lunacon-logout::before, .dropdown i.lunacon-mail-envelope::before, .dropdown i.lunacon-management::before, .dropdown i.lunacon-message::before, .dropdown i.lunacon-microphone::before, .dropdown i.lunacon-moon-solid::before, .dropdown i.lunacon-moon::before, .dropdown i.lunacon-navicon::before, .dropdown i.lunacon-pause::before, .dropdown i.lunacon-paypal-p::before, .dropdown i.lunacon-paypal::before, .dropdown i.lunacon-pencil::before, .dropdown i.lunacon-play::before, .dropdown i.lunacon-roboto::before, .dropdown i.lunacon-search-min::before, .dropdown i.lunacon-search-zoom::before, .dropdown i.lunacon-search::before, .dropdown i.lunacon-sent-mail::before, .dropdown i.lunacon-settings-tool::before, .dropdown i.lunacon-shield-lock-solid::before, .dropdown i.lunacon-shield::before, .dropdown i.lunacon-skip-back::before, .dropdown i.lunacon-skip-next::before, .dropdown i.lunacon-sky::before, .dropdown i.lunacon-slack::before, .dropdown i.lunacon-smartphonel::before, .dropdown i.lunacon-sound-big::before, .dropdown i.lunacon-sound-mute::before, .dropdown i.lunacon-sound-waves::before, .dropdown i.lunacon-sound::before, .dropdown i.lunacon-star-half-solid::before, .dropdown i.lunacon-star-half::before, .dropdown i.lunacon-star-solid::before, .dropdown i.lunacon-star::before, .dropdown i.lunacon-stop::before, .dropdown i.lunacon-tag::before, .dropdown i.lunacon-thumbs-down-solid::before, .dropdown i.lunacon-thumbs-down::before, .dropdown i.lunacon-thumbs-up-solid::before, .dropdown i.lunacon-thumbs-up::before, .dropdown i.lunacon-tractor::before, .dropdown i.lunacon-twitter-bird::before, .dropdown i.lunacon-twitter::before, .dropdown i.lunacon-upload::before, .dropdown i.lunacon-user-delete-solid::before, .dropdown i.lunacon-user-delete::before, .dropdown i.lunacon-user-solid::before, .dropdown i.lunacon-user::before, .dropdown i.lunacon-users-solid::before, .dropdown i.lunacon-users::before, .dropdown i.lunacon-whatsapp::before, .dropdown i.lunacon-wordpress::before, .dropdown i.lunacon-youtube-play-button::before, .dropdown i.lunacon-youtube::before {
+  .dropdown i.lunacon, .dropdown i.lunacon-address-book::before, .dropdown i.lunacon-alarm-clock::before, .dropdown i.lunacon-android::before, .dropdown i.lunacon-backward::before, .dropdown i.lunacon-basket-solid::before, .dropdown i.lunacon-basket::before, .dropdown i.lunacon-beer::before, .dropdown i.lunacon-bell-mute-solid::before, .dropdown i.lunacon-bell-mute::before, .dropdown i.lunacon-bell-solid::before, .dropdown i.lunacon-bell::before, .dropdown i.lunacon-bitcoin::before, .dropdown i.lunacon-box-opened::before, .dropdown i.lunacon-calendar::before, .dropdown i.lunacon-cart-solid::before, .dropdown i.lunacon-cart::before, .dropdown i.lunacon-checkmark-small::before, .dropdown i.lunacon-checkmark::before, .dropdown i.lunacon-chevron-down::before, .dropdown i.lunacon-chevron-left::before, .dropdown i.lunacon-chevron-right::before, .dropdown i.lunacon-chevron-up::before, .dropdown i.lunacon-clock::before, .dropdown i.lunacon-close-small::before, .dropdown i.lunacon-close::before, .dropdown i.lunacon-cloud-check-solid::before, .dropdown i.lunacon-cloud-check::before, .dropdown i.lunacon-cloud-computing::before, .dropdown i.lunacon-cloud-solid::before, .dropdown i.lunacon-cloud::before, .dropdown i.lunacon-code-fork::before, .dropdown i.lunacon-coffee::before, .dropdown i.lunacon-cone::before, .dropdown i.lunacon-dailer-solid::before, .dropdown i.lunacon-dailer::before, .dropdown i.lunacon-dashboard::before, .dropdown i.lunacon-document::before, .dropdown i.lunacon-download::before, .dropdown i.lunacon-drag::before, .dropdown i.lunacon-drop::before, .dropdown i.lunacon-facebook::before, .dropdown i.lunacon-fire::before, .dropdown i.lunacon-forward::before, .dropdown i.lunacon-gears::before, .dropdown i.lunacon-gift::before, .dropdown i.lunacon-giftbox::before, .dropdown i.lunacon-git::before, .dropdown i.lunacon-github-round-o::before, .dropdown i.lunacon-github-round::before, .dropdown i.lunacon-github::before, .dropdown i.lunacon-google-play::before, .dropdown i.lunacon-google-plus-g::before, .dropdown i.lunacon-google-plus::before, .dropdown i.lunacon-heartbeat::before, .dropdown i.lunacon-help::before, .dropdown i.lunacon-home-solid::before, .dropdown i.lunacon-home::before, .dropdown i.lunacon-info::before, .dropdown i.lunacon-instagram::before, .dropdown i.lunacon-key::before, .dropdown i.lunacon-keys-hole::before, .dropdown i.lunacon-light-bulb::before, .dropdown i.lunacon-linkedin::before, .dropdown i.lunacon-list::before, .dropdown i.lunacon-lock-open::before, .dropdown i.lunacon-lock::before, .dropdown i.lunacon-login::before, .dropdown i.lunacon-logout::before, .dropdown i.lunacon-mail-envelope::before, .dropdown i.lunacon-management::before, .dropdown i.lunacon-message::before, .dropdown i.lunacon-microphone::before, .dropdown i.lunacon-moon-solid::before, .dropdown i.lunacon-moon::before, .dropdown i.lunacon-navicon::before, .dropdown i.lunacon-pause::before, .dropdown i.lunacon-paypal-p::before, .dropdown i.lunacon-paypal::before, .dropdown i.lunacon-pencil::before, .dropdown i.lunacon-play::before, .dropdown i.lunacon-roboto::before, .dropdown i.lunacon-search-min::before, .dropdown i.lunacon-search-zoom::before, .dropdown i.lunacon-search::before, .dropdown i.lunacon-sent-mail::before, .dropdown i.lunacon-settings-tool::before, .dropdown i.lunacon-share::before, .dropdown i.lunacon-shield-lock-solid::before, .dropdown i.lunacon-shield::before, .dropdown i.lunacon-skip-back::before, .dropdown i.lunacon-skip-next::before, .dropdown i.lunacon-sky::before, .dropdown i.lunacon-slack::before, .dropdown i.lunacon-smartphonel::before, .dropdown i.lunacon-sound-big::before, .dropdown i.lunacon-sound-mute::before, .dropdown i.lunacon-sound-waves::before, .dropdown i.lunacon-sound::before, .dropdown i.lunacon-spoon-and-fork::before, .dropdown i.lunacon-star-half-solid::before, .dropdown i.lunacon-star-half::before, .dropdown i.lunacon-star-solid::before, .dropdown i.lunacon-star::before, .dropdown i.lunacon-stop::before, .dropdown i.lunacon-tag::before, .dropdown i.lunacon-tags::before, .dropdown i.lunacon-test::before, .dropdown i.lunacon-thumbs-down-solid::before, .dropdown i.lunacon-thumbs-down::before, .dropdown i.lunacon-thumbs-up-solid::before, .dropdown i.lunacon-thumbs-up::before, .dropdown i.lunacon-tractor::before, .dropdown i.lunacon-trash::before, .dropdown i.lunacon-twitter-bird::before, .dropdown i.lunacon-twitter::before, .dropdown i.lunacon-upload::before, .dropdown i.lunacon-user-delete-solid::before, .dropdown i.lunacon-user-delete::before, .dropdown i.lunacon-user-solid::before, .dropdown i.lunacon-user::before, .dropdown i.lunacon-users-solid::before, .dropdown i.lunacon-users::before, .dropdown i.lunacon-whatsapp::before, .dropdown i.lunacon-wifi::before, .dropdown i.lunacon-wordpress::before, .dropdown i.lunacon-youtube-play-button::before, .dropdown i.lunacon-youtube::before {
     vertical-align: text-bottom !important; }
   /* line 12, Framework/sass/components/_dropdown_button.sass */
   .dropdown__link {
@@ -4993,7 +5105,7 @@ button:disabled {
     padding: 15px;
     color: #ddd; }
     /* line 77, Framework/sass/components/_card.sass */
-    .card__footer i.lunacon, .card__footer i.lunacon-address-book::before, .card__footer i.lunacon-algolia::before, .card__footer i.lunacon-android::before, .card__footer i.lunacon-backward::before, .card__footer i.lunacon-basket-solid::before, .card__footer i.lunacon-basket::before, .card__footer i.lunacon-bell-mute-solid::before, .card__footer i.lunacon-bell-mute::before, .card__footer i.lunacon-bell-solid::before, .card__footer i.lunacon-bell::before, .card__footer i.lunacon-bitcoin::before, .card__footer i.lunacon-cart-solid::before, .card__footer i.lunacon-cart::before, .card__footer i.lunacon-checkmark-small::before, .card__footer i.lunacon-checkmark::before, .card__footer i.lunacon-chevron-down::before, .card__footer i.lunacon-chevron-left::before, .card__footer i.lunacon-chevron-right::before, .card__footer i.lunacon-chevron-up::before, .card__footer i.lunacon-close-small::before, .card__footer i.lunacon-close::before, .card__footer i.lunacon-cloud-check-solid::before, .card__footer i.lunacon-cloud-check::before, .card__footer i.lunacon-cloud-computing::before, .card__footer i.lunacon-cloud-solid::before, .card__footer i.lunacon-cloud::before, .card__footer i.lunacon-code-fork::before, .card__footer i.lunacon-cone::before, .card__footer i.lunacon-dailer-solid::before, .card__footer i.lunacon-dailer::before, .card__footer i.lunacon-dashboard::before, .card__footer i.lunacon-download::before, .card__footer i.lunacon-drag::before, .card__footer i.lunacon-facebook::before, .card__footer i.lunacon-fire::before, .card__footer i.lunacon-forward::before, .card__footer i.lunacon-gears::before, .card__footer i.lunacon-gift::before, .card__footer i.lunacon-giftbox::before, .card__footer i.lunacon-git::before, .card__footer i.lunacon-github-round-o::before, .card__footer i.lunacon-github-round::before, .card__footer i.lunacon-github::before, .card__footer i.lunacon-google-play::before, .card__footer i.lunacon-google-plus-g::before, .card__footer i.lunacon-google-plus::before, .card__footer i.lunacon-heartbeat::before, .card__footer i.lunacon-home-solid::before, .card__footer i.lunacon-home::before, .card__footer i.lunacon-instagram::before, .card__footer i.lunacon-key::before, .card__footer i.lunacon-keys-hole::before, .card__footer i.lunacon-linkedin::before, .card__footer i.lunacon-list::before, .card__footer i.lunacon-lock-open::before, .card__footer i.lunacon-lock::before, .card__footer i.lunacon-login::before, .card__footer i.lunacon-logout::before, .card__footer i.lunacon-mail-envelope::before, .card__footer i.lunacon-management::before, .card__footer i.lunacon-message::before, .card__footer i.lunacon-microphone::before, .card__footer i.lunacon-moon-solid::before, .card__footer i.lunacon-moon::before, .card__footer i.lunacon-navicon::before, .card__footer i.lunacon-pause::before, .card__footer i.lunacon-paypal-p::before, .card__footer i.lunacon-paypal::before, .card__footer i.lunacon-pencil::before, .card__footer i.lunacon-play::before, .card__footer i.lunacon-roboto::before, .card__footer i.lunacon-search-min::before, .card__footer i.lunacon-search-zoom::before, .card__footer i.lunacon-search::before, .card__footer i.lunacon-sent-mail::before, .card__footer i.lunacon-settings-tool::before, .card__footer i.lunacon-shield-lock-solid::before, .card__footer i.lunacon-shield::before, .card__footer i.lunacon-skip-back::before, .card__footer i.lunacon-skip-next::before, .card__footer i.lunacon-sky::before, .card__footer i.lunacon-slack::before, .card__footer i.lunacon-smartphonel::before, .card__footer i.lunacon-sound-big::before, .card__footer i.lunacon-sound-mute::before, .card__footer i.lunacon-sound-waves::before, .card__footer i.lunacon-sound::before, .card__footer i.lunacon-star-half-solid::before, .card__footer i.lunacon-star-half::before, .card__footer i.lunacon-star-solid::before, .card__footer i.lunacon-star::before, .card__footer i.lunacon-stop::before, .card__footer i.lunacon-tag::before, .card__footer i.lunacon-thumbs-down-solid::before, .card__footer i.lunacon-thumbs-down::before, .card__footer i.lunacon-thumbs-up-solid::before, .card__footer i.lunacon-thumbs-up::before, .card__footer i.lunacon-tractor::before, .card__footer i.lunacon-twitter-bird::before, .card__footer i.lunacon-twitter::before, .card__footer i.lunacon-upload::before, .card__footer i.lunacon-user-delete-solid::before, .card__footer i.lunacon-user-delete::before, .card__footer i.lunacon-user-solid::before, .card__footer i.lunacon-user::before, .card__footer i.lunacon-users-solid::before, .card__footer i.lunacon-users::before, .card__footer i.lunacon-whatsapp::before, .card__footer i.lunacon-wordpress::before, .card__footer i.lunacon-youtube-play-button::before, .card__footer i.lunacon-youtube::before {
+    .card__footer i.lunacon, .card__footer i.lunacon-address-book::before, .card__footer i.lunacon-alarm-clock::before, .card__footer i.lunacon-android::before, .card__footer i.lunacon-backward::before, .card__footer i.lunacon-basket-solid::before, .card__footer i.lunacon-basket::before, .card__footer i.lunacon-beer::before, .card__footer i.lunacon-bell-mute-solid::before, .card__footer i.lunacon-bell-mute::before, .card__footer i.lunacon-bell-solid::before, .card__footer i.lunacon-bell::before, .card__footer i.lunacon-bitcoin::before, .card__footer i.lunacon-box-opened::before, .card__footer i.lunacon-calendar::before, .card__footer i.lunacon-cart-solid::before, .card__footer i.lunacon-cart::before, .card__footer i.lunacon-checkmark-small::before, .card__footer i.lunacon-checkmark::before, .card__footer i.lunacon-chevron-down::before, .card__footer i.lunacon-chevron-left::before, .card__footer i.lunacon-chevron-right::before, .card__footer i.lunacon-chevron-up::before, .card__footer i.lunacon-clock::before, .card__footer i.lunacon-close-small::before, .card__footer i.lunacon-close::before, .card__footer i.lunacon-cloud-check-solid::before, .card__footer i.lunacon-cloud-check::before, .card__footer i.lunacon-cloud-computing::before, .card__footer i.lunacon-cloud-solid::before, .card__footer i.lunacon-cloud::before, .card__footer i.lunacon-code-fork::before, .card__footer i.lunacon-coffee::before, .card__footer i.lunacon-cone::before, .card__footer i.lunacon-dailer-solid::before, .card__footer i.lunacon-dailer::before, .card__footer i.lunacon-dashboard::before, .card__footer i.lunacon-document::before, .card__footer i.lunacon-download::before, .card__footer i.lunacon-drag::before, .card__footer i.lunacon-drop::before, .card__footer i.lunacon-facebook::before, .card__footer i.lunacon-fire::before, .card__footer i.lunacon-forward::before, .card__footer i.lunacon-gears::before, .card__footer i.lunacon-gift::before, .card__footer i.lunacon-giftbox::before, .card__footer i.lunacon-git::before, .card__footer i.lunacon-github-round-o::before, .card__footer i.lunacon-github-round::before, .card__footer i.lunacon-github::before, .card__footer i.lunacon-google-play::before, .card__footer i.lunacon-google-plus-g::before, .card__footer i.lunacon-google-plus::before, .card__footer i.lunacon-heartbeat::before, .card__footer i.lunacon-help::before, .card__footer i.lunacon-home-solid::before, .card__footer i.lunacon-home::before, .card__footer i.lunacon-info::before, .card__footer i.lunacon-instagram::before, .card__footer i.lunacon-key::before, .card__footer i.lunacon-keys-hole::before, .card__footer i.lunacon-light-bulb::before, .card__footer i.lunacon-linkedin::before, .card__footer i.lunacon-list::before, .card__footer i.lunacon-lock-open::before, .card__footer i.lunacon-lock::before, .card__footer i.lunacon-login::before, .card__footer i.lunacon-logout::before, .card__footer i.lunacon-mail-envelope::before, .card__footer i.lunacon-management::before, .card__footer i.lunacon-message::before, .card__footer i.lunacon-microphone::before, .card__footer i.lunacon-moon-solid::before, .card__footer i.lunacon-moon::before, .card__footer i.lunacon-navicon::before, .card__footer i.lunacon-pause::before, .card__footer i.lunacon-paypal-p::before, .card__footer i.lunacon-paypal::before, .card__footer i.lunacon-pencil::before, .card__footer i.lunacon-play::before, .card__footer i.lunacon-roboto::before, .card__footer i.lunacon-search-min::before, .card__footer i.lunacon-search-zoom::before, .card__footer i.lunacon-search::before, .card__footer i.lunacon-sent-mail::before, .card__footer i.lunacon-settings-tool::before, .card__footer i.lunacon-share::before, .card__footer i.lunacon-shield-lock-solid::before, .card__footer i.lunacon-shield::before, .card__footer i.lunacon-skip-back::before, .card__footer i.lunacon-skip-next::before, .card__footer i.lunacon-sky::before, .card__footer i.lunacon-slack::before, .card__footer i.lunacon-smartphonel::before, .card__footer i.lunacon-sound-big::before, .card__footer i.lunacon-sound-mute::before, .card__footer i.lunacon-sound-waves::before, .card__footer i.lunacon-sound::before, .card__footer i.lunacon-spoon-and-fork::before, .card__footer i.lunacon-star-half-solid::before, .card__footer i.lunacon-star-half::before, .card__footer i.lunacon-star-solid::before, .card__footer i.lunacon-star::before, .card__footer i.lunacon-stop::before, .card__footer i.lunacon-tag::before, .card__footer i.lunacon-tags::before, .card__footer i.lunacon-test::before, .card__footer i.lunacon-thumbs-down-solid::before, .card__footer i.lunacon-thumbs-down::before, .card__footer i.lunacon-thumbs-up-solid::before, .card__footer i.lunacon-thumbs-up::before, .card__footer i.lunacon-tractor::before, .card__footer i.lunacon-trash::before, .card__footer i.lunacon-twitter-bird::before, .card__footer i.lunacon-twitter::before, .card__footer i.lunacon-upload::before, .card__footer i.lunacon-user-delete-solid::before, .card__footer i.lunacon-user-delete::before, .card__footer i.lunacon-user-solid::before, .card__footer i.lunacon-user::before, .card__footer i.lunacon-users-solid::before, .card__footer i.lunacon-users::before, .card__footer i.lunacon-whatsapp::before, .card__footer i.lunacon-wifi::before, .card__footer i.lunacon-wordpress::before, .card__footer i.lunacon-youtube-play-button::before, .card__footer i.lunacon-youtube::before {
       margin-right: 5px;
       vertical-align: middle;
       font-size: 14px;
@@ -5628,7 +5740,7 @@ code {
   -ms-flex-direction: column;
   flex-direction: column; }
   /* line 101, Framework/sass/dev-style.sass */
-  .icon__flex i.lunacon, .icon__flex i.lunacon-address-book::before, .icon__flex i.lunacon-algolia::before, .icon__flex i.lunacon-android::before, .icon__flex i.lunacon-backward::before, .icon__flex i.lunacon-basket-solid::before, .icon__flex i.lunacon-basket::before, .icon__flex i.lunacon-bell-mute-solid::before, .icon__flex i.lunacon-bell-mute::before, .icon__flex i.lunacon-bell-solid::before, .icon__flex i.lunacon-bell::before, .icon__flex i.lunacon-bitcoin::before, .icon__flex i.lunacon-cart-solid::before, .icon__flex i.lunacon-cart::before, .icon__flex i.lunacon-checkmark-small::before, .icon__flex i.lunacon-checkmark::before, .icon__flex i.lunacon-chevron-down::before, .icon__flex i.lunacon-chevron-left::before, .icon__flex i.lunacon-chevron-right::before, .icon__flex i.lunacon-chevron-up::before, .icon__flex i.lunacon-close-small::before, .icon__flex i.lunacon-close::before, .icon__flex i.lunacon-cloud-check-solid::before, .icon__flex i.lunacon-cloud-check::before, .icon__flex i.lunacon-cloud-computing::before, .icon__flex i.lunacon-cloud-solid::before, .icon__flex i.lunacon-cloud::before, .icon__flex i.lunacon-code-fork::before, .icon__flex i.lunacon-cone::before, .icon__flex i.lunacon-dailer-solid::before, .icon__flex i.lunacon-dailer::before, .icon__flex i.lunacon-dashboard::before, .icon__flex i.lunacon-download::before, .icon__flex i.lunacon-drag::before, .icon__flex i.lunacon-facebook::before, .icon__flex i.lunacon-fire::before, .icon__flex i.lunacon-forward::before, .icon__flex i.lunacon-gears::before, .icon__flex i.lunacon-gift::before, .icon__flex i.lunacon-giftbox::before, .icon__flex i.lunacon-git::before, .icon__flex i.lunacon-github-round-o::before, .icon__flex i.lunacon-github-round::before, .icon__flex i.lunacon-github::before, .icon__flex i.lunacon-google-play::before, .icon__flex i.lunacon-google-plus-g::before, .icon__flex i.lunacon-google-plus::before, .icon__flex i.lunacon-heartbeat::before, .icon__flex i.lunacon-home-solid::before, .icon__flex i.lunacon-home::before, .icon__flex i.lunacon-instagram::before, .icon__flex i.lunacon-key::before, .icon__flex i.lunacon-keys-hole::before, .icon__flex i.lunacon-linkedin::before, .icon__flex i.lunacon-list::before, .icon__flex i.lunacon-lock-open::before, .icon__flex i.lunacon-lock::before, .icon__flex i.lunacon-login::before, .icon__flex i.lunacon-logout::before, .icon__flex i.lunacon-mail-envelope::before, .icon__flex i.lunacon-management::before, .icon__flex i.lunacon-message::before, .icon__flex i.lunacon-microphone::before, .icon__flex i.lunacon-moon-solid::before, .icon__flex i.lunacon-moon::before, .icon__flex i.lunacon-navicon::before, .icon__flex i.lunacon-pause::before, .icon__flex i.lunacon-paypal-p::before, .icon__flex i.lunacon-paypal::before, .icon__flex i.lunacon-pencil::before, .icon__flex i.lunacon-play::before, .icon__flex i.lunacon-roboto::before, .icon__flex i.lunacon-search-min::before, .icon__flex i.lunacon-search-zoom::before, .icon__flex i.lunacon-search::before, .icon__flex i.lunacon-sent-mail::before, .icon__flex i.lunacon-settings-tool::before, .icon__flex i.lunacon-shield-lock-solid::before, .icon__flex i.lunacon-shield::before, .icon__flex i.lunacon-skip-back::before, .icon__flex i.lunacon-skip-next::before, .icon__flex i.lunacon-sky::before, .icon__flex i.lunacon-slack::before, .icon__flex i.lunacon-smartphonel::before, .icon__flex i.lunacon-sound-big::before, .icon__flex i.lunacon-sound-mute::before, .icon__flex i.lunacon-sound-waves::before, .icon__flex i.lunacon-sound::before, .icon__flex i.lunacon-star-half-solid::before, .icon__flex i.lunacon-star-half::before, .icon__flex i.lunacon-star-solid::before, .icon__flex i.lunacon-star::before, .icon__flex i.lunacon-stop::before, .icon__flex i.lunacon-tag::before, .icon__flex i.lunacon-thumbs-down-solid::before, .icon__flex i.lunacon-thumbs-down::before, .icon__flex i.lunacon-thumbs-up-solid::before, .icon__flex i.lunacon-thumbs-up::before, .icon__flex i.lunacon-tractor::before, .icon__flex i.lunacon-twitter-bird::before, .icon__flex i.lunacon-twitter::before, .icon__flex i.lunacon-upload::before, .icon__flex i.lunacon-user-delete-solid::before, .icon__flex i.lunacon-user-delete::before, .icon__flex i.lunacon-user-solid::before, .icon__flex i.lunacon-user::before, .icon__flex i.lunacon-users-solid::before, .icon__flex i.lunacon-users::before, .icon__flex i.lunacon-whatsapp::before, .icon__flex i.lunacon-wordpress::before, .icon__flex i.lunacon-youtube-play-button::before, .icon__flex i.lunacon-youtube::before {
+  .icon__flex i.lunacon, .icon__flex i.lunacon-address-book::before, .icon__flex i.lunacon-alarm-clock::before, .icon__flex i.lunacon-android::before, .icon__flex i.lunacon-backward::before, .icon__flex i.lunacon-basket-solid::before, .icon__flex i.lunacon-basket::before, .icon__flex i.lunacon-beer::before, .icon__flex i.lunacon-bell-mute-solid::before, .icon__flex i.lunacon-bell-mute::before, .icon__flex i.lunacon-bell-solid::before, .icon__flex i.lunacon-bell::before, .icon__flex i.lunacon-bitcoin::before, .icon__flex i.lunacon-box-opened::before, .icon__flex i.lunacon-calendar::before, .icon__flex i.lunacon-cart-solid::before, .icon__flex i.lunacon-cart::before, .icon__flex i.lunacon-checkmark-small::before, .icon__flex i.lunacon-checkmark::before, .icon__flex i.lunacon-chevron-down::before, .icon__flex i.lunacon-chevron-left::before, .icon__flex i.lunacon-chevron-right::before, .icon__flex i.lunacon-chevron-up::before, .icon__flex i.lunacon-clock::before, .icon__flex i.lunacon-close-small::before, .icon__flex i.lunacon-close::before, .icon__flex i.lunacon-cloud-check-solid::before, .icon__flex i.lunacon-cloud-check::before, .icon__flex i.lunacon-cloud-computing::before, .icon__flex i.lunacon-cloud-solid::before, .icon__flex i.lunacon-cloud::before, .icon__flex i.lunacon-code-fork::before, .icon__flex i.lunacon-coffee::before, .icon__flex i.lunacon-cone::before, .icon__flex i.lunacon-dailer-solid::before, .icon__flex i.lunacon-dailer::before, .icon__flex i.lunacon-dashboard::before, .icon__flex i.lunacon-document::before, .icon__flex i.lunacon-download::before, .icon__flex i.lunacon-drag::before, .icon__flex i.lunacon-drop::before, .icon__flex i.lunacon-facebook::before, .icon__flex i.lunacon-fire::before, .icon__flex i.lunacon-forward::before, .icon__flex i.lunacon-gears::before, .icon__flex i.lunacon-gift::before, .icon__flex i.lunacon-giftbox::before, .icon__flex i.lunacon-git::before, .icon__flex i.lunacon-github-round-o::before, .icon__flex i.lunacon-github-round::before, .icon__flex i.lunacon-github::before, .icon__flex i.lunacon-google-play::before, .icon__flex i.lunacon-google-plus-g::before, .icon__flex i.lunacon-google-plus::before, .icon__flex i.lunacon-heartbeat::before, .icon__flex i.lunacon-help::before, .icon__flex i.lunacon-home-solid::before, .icon__flex i.lunacon-home::before, .icon__flex i.lunacon-info::before, .icon__flex i.lunacon-instagram::before, .icon__flex i.lunacon-key::before, .icon__flex i.lunacon-keys-hole::before, .icon__flex i.lunacon-light-bulb::before, .icon__flex i.lunacon-linkedin::before, .icon__flex i.lunacon-list::before, .icon__flex i.lunacon-lock-open::before, .icon__flex i.lunacon-lock::before, .icon__flex i.lunacon-login::before, .icon__flex i.lunacon-logout::before, .icon__flex i.lunacon-mail-envelope::before, .icon__flex i.lunacon-management::before, .icon__flex i.lunacon-message::before, .icon__flex i.lunacon-microphone::before, .icon__flex i.lunacon-moon-solid::before, .icon__flex i.lunacon-moon::before, .icon__flex i.lunacon-navicon::before, .icon__flex i.lunacon-pause::before, .icon__flex i.lunacon-paypal-p::before, .icon__flex i.lunacon-paypal::before, .icon__flex i.lunacon-pencil::before, .icon__flex i.lunacon-play::before, .icon__flex i.lunacon-roboto::before, .icon__flex i.lunacon-search-min::before, .icon__flex i.lunacon-search-zoom::before, .icon__flex i.lunacon-search::before, .icon__flex i.lunacon-sent-mail::before, .icon__flex i.lunacon-settings-tool::before, .icon__flex i.lunacon-share::before, .icon__flex i.lunacon-shield-lock-solid::before, .icon__flex i.lunacon-shield::before, .icon__flex i.lunacon-skip-back::before, .icon__flex i.lunacon-skip-next::before, .icon__flex i.lunacon-sky::before, .icon__flex i.lunacon-slack::before, .icon__flex i.lunacon-smartphonel::before, .icon__flex i.lunacon-sound-big::before, .icon__flex i.lunacon-sound-mute::before, .icon__flex i.lunacon-sound-waves::before, .icon__flex i.lunacon-sound::before, .icon__flex i.lunacon-spoon-and-fork::before, .icon__flex i.lunacon-star-half-solid::before, .icon__flex i.lunacon-star-half::before, .icon__flex i.lunacon-star-solid::before, .icon__flex i.lunacon-star::before, .icon__flex i.lunacon-stop::before, .icon__flex i.lunacon-tag::before, .icon__flex i.lunacon-tags::before, .icon__flex i.lunacon-test::before, .icon__flex i.lunacon-thumbs-down-solid::before, .icon__flex i.lunacon-thumbs-down::before, .icon__flex i.lunacon-thumbs-up-solid::before, .icon__flex i.lunacon-thumbs-up::before, .icon__flex i.lunacon-tractor::before, .icon__flex i.lunacon-trash::before, .icon__flex i.lunacon-twitter-bird::before, .icon__flex i.lunacon-twitter::before, .icon__flex i.lunacon-upload::before, .icon__flex i.lunacon-user-delete-solid::before, .icon__flex i.lunacon-user-delete::before, .icon__flex i.lunacon-user-solid::before, .icon__flex i.lunacon-user::before, .icon__flex i.lunacon-users-solid::before, .icon__flex i.lunacon-users::before, .icon__flex i.lunacon-whatsapp::before, .icon__flex i.lunacon-wifi::before, .icon__flex i.lunacon-wordpress::before, .icon__flex i.lunacon-youtube-play-button::before, .icon__flex i.lunacon-youtube::before {
     font-size: 40px;
     margin-bottom: 15px; }
 
