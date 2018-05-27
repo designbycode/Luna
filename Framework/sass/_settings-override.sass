@@ -1,3 +1,5 @@
+
+
 // ==========================================
 // == Luna Framework
 // == AUTHOR: CLAUDE MYBURGH
@@ -86,6 +88,8 @@ $global-header-font: 'Montserrat Alternates', sans-serif
 $global-body-font: $base-font-family // override normalize base font family
 
 $font-path: '../fonts'
+
+@import "vendor/icons"
 
 
 // ==========================================
@@ -186,10 +190,10 @@ $the__form__font__weight: $the__button__font__weight
 $the__form__border__radius: $the__button__border__radius
 $the__form__border__color: darken($mute-color, 5%)
 
-$the__form__checkbox__icon: "\E00F"
+$the__form__checkbox__icon: $unicode-checkmark
 $the__form__checkbox__icon__font: "Lunacon"
 $the__form__checkbox__icon__color: $primary-color
-$the__form__checkbox__icon__size: $base-font-size - 6px 
+$the__form__checkbox__icon__size: $base-font-size
 $the__form__checkbox__icon__offset__top: 3px 
 $the__form__checkbox__checkmark__offset__top: 0px
 $the__form__checkbox__icon__offset__left: 2px 
