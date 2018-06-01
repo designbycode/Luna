@@ -34,6 +34,17 @@
 
 		pre: code(class="html")= '<a href="#" class="btn btn--primary-gradiant">Button</a>'
 
+
+		h2 Rounded Buttons
+
+		p Buttons can also be made rounder by prepending <code>-gradient </code> at the end of any btn element.
+		.btn__group
+			<a href="#" class="btn btn--round">Button</a> 
+			each val, index in ['default', 'primary', 'secondary', 'dark', 'info', 'warning', 'success', 'danger']
+				<a href="#" class="btn btn--round btn--#{val}-gradient">Button</a> 
+
+		pre: code(class="html")= '<a href="#" class="btn btn--round">Button</a>'
+
 		h2 Button Sizes
 		p To change button size, add one of the following classes to the <code>.btn</code> class. <code>.btn--xs</code> <code>.btn--sm</code> <code>.btn--md</code> <code>.btn--lg</code> <code>.btn--xl</code>
 		.btn__group

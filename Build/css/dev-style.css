@@ -2378,11 +2378,11 @@ input.btn[type="submit"], .form__label, .form__helper, .ribbon__label {
 /* line 15, Framework/sass/helpers/_helpers.sass */
 .text--secondary,
 .color--secondary {
-  color: orangered !important; }
+  color: #b94262 !important; }
   /* line 17, Framework/sass/helpers/_helpers.sass */
   .text--secondary-light,
   .color--secondary-light {
-    color: #ffc7b3 !important; }
+    color: #eac6d0 !important; }
 
 /* line 15, Framework/sass/helpers/_helpers.sass */
 .text--dark,
@@ -2465,10 +2465,10 @@ input.btn[type="submit"], .form__label, .form__helper, .ribbon__label {
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--secondary {
-  background-color: orangered !important; }
+  background-color: #b94262 !important; }
   /* line 25, Framework/sass/helpers/_helpers.sass */
   .background--secondary-light {
-    background-color: #ffece6 !important; }
+    background-color: #f8ecef !important; }
 
 /* line 23, Framework/sass/helpers/_helpers.sass */
 .background--dark {
@@ -2539,12 +2539,12 @@ input.btn[type="submit"], .form__label, .form__helper, .ribbon__label {
 
 /* line 32, Framework/sass/helpers/_helpers.sass */
 .border--secondary {
-  border-color: orangered !important;
+  border-color: #b94262 !important;
   border-width: 1px;
   border-style: solid; }
   /* line 37, Framework/sass/helpers/_helpers.sass */
   .border--secondary-light {
-    border-color: #ffc7b3 !important;
+    border-color: #eac6d0 !important;
     border-width: 1px;
     border-style: solid; }
 
@@ -3266,7 +3266,7 @@ input[type="submit"].btn {
   white-space: nowrap;
   z-index: 1;
   border-radius: 3px; }
-  /* line 38, Framework/sass/mixins/_buttons.sass */
+  /* line 41, Framework/sass/mixins/_buttons.sass */
   .btn:hover, .btn:active, .btn:focus,
   a.btn:hover,
   a.btn:active,
@@ -3280,7 +3280,7 @@ input[type="submit"].btn {
     background-color: #e1f3fc;
     z-index: 2;
     text-decoration: none; }
-  /* line 45, Framework/sass/mixins/_buttons.sass */
+  /* line 48, Framework/sass/mixins/_buttons.sass */
   .btn.disabled, .btn[disabled],
   a.btn.disabled,
   a.btn[disabled],
@@ -3291,7 +3291,7 @@ input[type="submit"].btn {
     background: #f7f7f7;
     border: solid 1px #ddddde;
     color: #d0d0d1; }
-    /* line 50, Framework/sass/mixins/_buttons.sass */
+    /* line 53, Framework/sass/mixins/_buttons.sass */
     .btn.disabled:hover, .btn[disabled]:hover,
     a.btn.disabled:hover,
     a.btn[disabled]:hover,
@@ -3748,7 +3748,7 @@ input[type="submit"].btn {
   a.btn--secondary,
   button.btn--secondary,
   input[type="submit"].btn--secondary {
-    background: orangered;
+    background: #b94262;
     color: #fff; }
     /* line 26, Framework/sass/components/_buttons.sass */
     .btn--secondary:hover, .btn--secondary:active, .btn--secondary:focus,
@@ -3761,7 +3761,7 @@ input[type="submit"].btn {
     input[type="submit"].btn--secondary:hover,
     input[type="submit"].btn--secondary:active,
     input[type="submit"].btn--secondary:focus {
-      background: #e63e00;
+      background: #a63b58;
       -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
     /* line 34, Framework/sass/components/_buttons.sass */
@@ -3769,14 +3769,14 @@ input[type="submit"].btn {
     a.btn--secondary-gradient,
     button.btn--secondary-gradient,
     input[type="submit"].btn--secondary-gradient {
-      background: orangered;
-      background: -webkit-gradient(linear, left top, left bottom, from(orangered), to(#d63a00));
-      background: -webkit-linear-gradient(top, orangered, #d63a00);
-      background: -o-linear-gradient(top, orangered, #d63a00);
-      background: linear-gradient(180deg, orangered, #d63a00);
+      background: #b94262;
+      background: -webkit-gradient(linear, left top, left bottom, from(#b94262), to(#9b3752));
+      background: -webkit-linear-gradient(top, #b94262, #9b3752);
+      background: -o-linear-gradient(top, #b94262, #9b3752);
+      background: linear-gradient(180deg, #b94262, #9b3752);
       color: #fff;
-      border: solid 1px #e63e00;
-      text-shadow: #992900 0 1px 1px; }
+      border: solid 1px #a63b58;
+      text-shadow: #6e273a 0 1px 1px; }
       /* line 44, Framework/sass/components/_buttons.sass */
       .btn--secondary-gradient:hover, .btn--secondary-gradient:active, .btn--secondary-gradient:focus,
       a.btn--secondary-gradient:hover,
@@ -3788,11 +3788,11 @@ input[type="submit"].btn {
       input[type="submit"].btn--secondary-gradient:hover,
       input[type="submit"].btn--secondary-gradient:active,
       input[type="submit"].btn--secondary-gradient:focus {
-        background: #e63e00;
-        background: -webkit-gradient(linear, left top, left bottom, from(#f54200), to(#db3b00));
-        background: -webkit-linear-gradient(top, #f54200, #db3b00);
-        background: -o-linear-gradient(top, #f54200, #db3b00);
-        background: linear-gradient(180deg, #f54200, #db3b00);
+        background: #a63b58;
+        background: -webkit-gradient(linear, left top, left bottom, from(#b13f5e), to(#9f3954));
+        background: -webkit-linear-gradient(top, #b13f5e, #9f3954);
+        background: -o-linear-gradient(top, #b13f5e, #9f3954);
+        background: linear-gradient(180deg, #b13f5e, #9f3954);
         -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.38); }
   /* line 19, Framework/sass/components/_buttons.sass */
@@ -4253,6 +4253,12 @@ input[type="submit"].btn {
     padding: 16px 64px;
     line-height: 40px; }
   /* line 77, Framework/sass/components/_buttons.sass */
+  .btn--round,
+  a.btn--round,
+  button.btn--round,
+  input[type="submit"].btn--round {
+    border-radius: 100px; }
+  /* line 80, Framework/sass/components/_buttons.sass */
   .btn--block,
   a.btn--block,
   button.btn--block,
@@ -4260,7 +4266,7 @@ input[type="submit"].btn {
     display: block;
     width: 100%; }
 
-/* line 81, Framework/sass/components/_buttons.sass */
+/* line 84, Framework/sass/components/_buttons.sass */
 .btn__group, .btn__group--middle {
   position: relative;
   margin-left: -3px;
@@ -4272,18 +4278,18 @@ input[type="submit"].btn {
   /* line 13, Framework/sass/mixins/_clearfix.sass */
   .btn__group::after, .btn__group--middle::after {
     clear: both; }
-  /* line 86, Framework/sass/components/_buttons.sass */
+  /* line 89, Framework/sass/components/_buttons.sass */
   .btn__group .btn, .btn__group--middle .btn {
     float: left;
     margin-bottom: 15px;
     margin-left: 3px;
     margin-right: 3px; }
-  /* line 95, Framework/sass/components/_buttons.sass */
+  /* line 98, Framework/sass/components/_buttons.sass */
   .btn__group--middle .btn {
     float: none;
     display: inline-block; }
 
-/* line 108, Framework/sass/components/_buttons.sass */
+/* line 111, Framework/sass/components/_buttons.sass */
 .btn__icon--left,
 .icon--left,
 a.btn__icon--left,
@@ -4294,7 +4300,7 @@ input[type="submit"].btn__icon--left,
 input[type="submit"].icon--left {
   margin-right: 5px; }
 
-/* line 110, Framework/sass/components/_buttons.sass */
+/* line 113, Framework/sass/components/_buttons.sass */
 .btn__icon--right,
 .icon--right,
 a.btn__icon--right,
@@ -4305,7 +4311,7 @@ input[type="submit"].btn__icon--right,
 input[type="submit"].icon--right {
   margin-left: 5px; }
 
-/* line 113, Framework/sass/components/_buttons.sass */
+/* line 116, Framework/sass/components/_buttons.sass */
 .btn__icon--left, .btn__icon--right,
 .icon--left,
 .icon--right,
@@ -4322,6 +4328,17 @@ input[type="submit"].btn__icon--right,
 input[type="submit"].icon--left,
 input[type="submit"].icon--right {
   position: relative; }
+
+/* line 120, Framework/sass/components/_buttons.sass */
+.btn__icon--round,
+.icon--round,
+a.btn__icon--round,
+a.icon--round,
+button.btn__icon--round,
+button.icon--round,
+input[type="submit"].btn__icon--round,
+input[type="submit"].icon--round {
+  border-radius: 100px; }
 
 /* line 8, Framework/sass/components/_form.sass */
 .form * {
@@ -4407,14 +4424,17 @@ input[type="submit"].icon--right {
       color: #b7b7b7;
       padding: 4px 8px;
       font-weight: 400; }
-    /* line 82, Framework/sass/components/_form.sass */
+      /* line 82, Framework/sass/components/_form.sass */
+      .form__item__group .addon > i.lunacon, .form__item__group .addon > i.lunacon-address-book::before, .form__item__group .addon > i.lunacon-alarm-clock::before, .form__item__group .addon > i.lunacon-android::before, .form__item__group .addon > i.lunacon-backward::before, .form__item__group .addon > i.lunacon-basket-solid::before, .form__item__group .addon > i.lunacon-basket::before, .form__item__group .addon > i.lunacon-beer::before, .form__item__group .addon > i.lunacon-bell-mute-solid::before, .form__item__group .addon > i.lunacon-bell-mute::before, .form__item__group .addon > i.lunacon-bell-solid::before, .form__item__group .addon > i.lunacon-bell::before, .form__item__group .addon > i.lunacon-bitcoin::before, .form__item__group .addon > i.lunacon-box-opened::before, .form__item__group .addon > i.lunacon-calendar::before, .form__item__group .addon > i.lunacon-cart-solid::before, .form__item__group .addon > i.lunacon-cart::before, .form__item__group .addon > i.lunacon-checkmark-small::before, .form__item__group .addon > i.lunacon-checkmark::before, .form__item__group .addon > i.lunacon-chevron-down::before, .form__item__group .addon > i.lunacon-chevron-left::before, .form__item__group .addon > i.lunacon-chevron-right::before, .form__item__group .addon > i.lunacon-chevron-up::before, .form__item__group .addon > i.lunacon-clock::before, .form__item__group .addon > i.lunacon-close-small::before, .form__item__group .addon > i.lunacon-close::before, .form__item__group .addon > i.lunacon-cloud-check-solid::before, .form__item__group .addon > i.lunacon-cloud-check::before, .form__item__group .addon > i.lunacon-cloud-computing::before, .form__item__group .addon > i.lunacon-cloud-solid::before, .form__item__group .addon > i.lunacon-cloud::before, .form__item__group .addon > i.lunacon-code-fork::before, .form__item__group .addon > i.lunacon-coffee::before, .form__item__group .addon > i.lunacon-cone::before, .form__item__group .addon > i.lunacon-dailer-solid::before, .form__item__group .addon > i.lunacon-dailer::before, .form__item__group .addon > i.lunacon-dashboard::before, .form__item__group .addon > i.lunacon-document::before, .form__item__group .addon > i.lunacon-download::before, .form__item__group .addon > i.lunacon-drag::before, .form__item__group .addon > i.lunacon-drop::before, .form__item__group .addon > i.lunacon-facebook::before, .form__item__group .addon > i.lunacon-fire::before, .form__item__group .addon > i.lunacon-forward::before, .form__item__group .addon > i.lunacon-gears::before, .form__item__group .addon > i.lunacon-gift::before, .form__item__group .addon > i.lunacon-giftbox::before, .form__item__group .addon > i.lunacon-git::before, .form__item__group .addon > i.lunacon-github-round-o::before, .form__item__group .addon > i.lunacon-github-round::before, .form__item__group .addon > i.lunacon-github::before, .form__item__group .addon > i.lunacon-google-play::before, .form__item__group .addon > i.lunacon-google-plus-g::before, .form__item__group .addon > i.lunacon-google-plus::before, .form__item__group .addon > i.lunacon-heartbeat::before, .form__item__group .addon > i.lunacon-help::before, .form__item__group .addon > i.lunacon-home-solid::before, .form__item__group .addon > i.lunacon-home::before, .form__item__group .addon > i.lunacon-info::before, .form__item__group .addon > i.lunacon-instagram::before, .form__item__group .addon > i.lunacon-key::before, .form__item__group .addon > i.lunacon-keys-hole::before, .form__item__group .addon > i.lunacon-light-bulb::before, .form__item__group .addon > i.lunacon-linkedin::before, .form__item__group .addon > i.lunacon-list::before, .form__item__group .addon > i.lunacon-lock-open::before, .form__item__group .addon > i.lunacon-lock::before, .form__item__group .addon > i.lunacon-login::before, .form__item__group .addon > i.lunacon-logout::before, .form__item__group .addon > i.lunacon-mail-envelope::before, .form__item__group .addon > i.lunacon-management::before, .form__item__group .addon > i.lunacon-message::before, .form__item__group .addon > i.lunacon-microphone::before, .form__item__group .addon > i.lunacon-moon-solid::before, .form__item__group .addon > i.lunacon-moon::before, .form__item__group .addon > i.lunacon-navicon::before, .form__item__group .addon > i.lunacon-pause::before, .form__item__group .addon > i.lunacon-paypal-p::before, .form__item__group .addon > i.lunacon-paypal::before, .form__item__group .addon > i.lunacon-pencil::before, .form__item__group .addon > i.lunacon-play::before, .form__item__group .addon > i.lunacon-roboto::before, .form__item__group .addon > i.lunacon-search-min::before, .form__item__group .addon > i.lunacon-search-zoom::before, .form__item__group .addon > i.lunacon-search::before, .form__item__group .addon > i.lunacon-sent-mail::before, .form__item__group .addon > i.lunacon-settings-tool::before, .form__item__group .addon > i.lunacon-share::before, .form__item__group .addon > i.lunacon-shield-lock-solid::before, .form__item__group .addon > i.lunacon-shield::before, .form__item__group .addon > i.lunacon-skip-back::before, .form__item__group .addon > i.lunacon-skip-next::before, .form__item__group .addon > i.lunacon-sky::before, .form__item__group .addon > i.lunacon-slack::before, .form__item__group .addon > i.lunacon-smartphonel::before, .form__item__group .addon > i.lunacon-sound-big::before, .form__item__group .addon > i.lunacon-sound-mute::before, .form__item__group .addon > i.lunacon-sound-waves::before, .form__item__group .addon > i.lunacon-sound::before, .form__item__group .addon > i.lunacon-spoon-and-fork::before, .form__item__group .addon > i.lunacon-star-half-solid::before, .form__item__group .addon > i.lunacon-star-half::before, .form__item__group .addon > i.lunacon-star-solid::before, .form__item__group .addon > i.lunacon-star::before, .form__item__group .addon > i.lunacon-stop::before, .form__item__group .addon > i.lunacon-tag::before, .form__item__group .addon > i.lunacon-tags::before, .form__item__group .addon > i.lunacon-test::before, .form__item__group .addon > i.lunacon-thumbs-down-solid::before, .form__item__group .addon > i.lunacon-thumbs-down::before, .form__item__group .addon > i.lunacon-thumbs-up-solid::before, .form__item__group .addon > i.lunacon-thumbs-up::before, .form__item__group .addon > i.lunacon-tractor::before, .form__item__group .addon > i.lunacon-trash::before, .form__item__group .addon > i.lunacon-twitter-bird::before, .form__item__group .addon > i.lunacon-twitter::before, .form__item__group .addon > i.lunacon-upload::before, .form__item__group .addon > i.lunacon-user-delete-solid::before, .form__item__group .addon > i.lunacon-user-delete::before, .form__item__group .addon > i.lunacon-user-solid::before, .form__item__group .addon > i.lunacon-user::before, .form__item__group .addon > i.lunacon-users-solid::before, .form__item__group .addon > i.lunacon-users::before, .form__item__group .addon > i.lunacon-whatsapp::before, .form__item__group .addon > i.lunacon-wifi::before, .form__item__group .addon > i.lunacon-wordpress::before, .form__item__group .addon > i.lunacon-youtube-play-button::before, .form__item__group .addon > i.lunacon-youtube::before {
+        vertical-align: middle; }
+    /* line 85, Framework/sass/components/_form.sass */
     .form__item__group input, .form__item__group button, .form__item__group .btn {
       border-radius: 0; }
-    /* line 85, Framework/sass/components/_form.sass */
+    /* line 88, Framework/sass/components/_form.sass */
     .form__item__group button.btn, .form__item__group .btn {
       min-width: 120px; }
 
-/* line 90, Framework/sass/components/_form.sass */
+/* line 93, Framework/sass/components/_form.sass */
 .form__helper {
   font-size: 75%;
   font-weight: 600;
@@ -4422,7 +4442,7 @@ input[type="submit"].icon--right {
   display: inline-block;
   pointer-events: none; }
 
-/* line 99, Framework/sass/components/_form.sass */
+/* line 102, Framework/sass/components/_form.sass */
 .form__horizontal {
   *zoom: 1; }
   /* line 9, Framework/sass/mixins/_clearfix.sass */
@@ -4432,98 +4452,98 @@ input[type="submit"].icon--right {
   /* line 13, Framework/sass/mixins/_clearfix.sass */
   .form__horizontal::after {
     clear: both; }
-  /* line 101, Framework/sass/components/_form.sass */
+  /* line 104, Framework/sass/components/_form.sass */
   .form__horizontal .form__group {
     margin-left: -15px;
     margin-right: -15px; }
 
-/* line 105, Framework/sass/components/_form.sass */
+/* line 108, Framework/sass/components/_form.sass */
 input.form__item,
 select.form__item {
   height: 38px; }
 
-/* line 109, Framework/sass/components/_form.sass */
+/* line 112, Framework/sass/components/_form.sass */
 textarea.form__item {
   height: '';
   min-width: 100%;
   width: 100%; }
 
-/* line 117, Framework/sass/components/_form.sass */
+/* line 120, Framework/sass/components/_form.sass */
 .has__default {
   color: #fff; }
-  /* line 119, Framework/sass/components/_form.sass */
+  /* line 122, Framework/sass/components/_form.sass */
   .has__default .form__item {
     border: solid 1px #fff;
     outline: none; }
-    /* line 123, Framework/sass/components/_form.sass */
+    /* line 126, Framework/sass/components/_form.sass */
     .has__default .form__item:focus {
       outline: none;
       border: solid 1px #fff;
       -webkit-box-shadow: #fff 0 0 6px;
       box-shadow: #fff 0 0 6px; }
 
-/* line 117, Framework/sass/components/_form.sass */
+/* line 120, Framework/sass/components/_form.sass */
 .has__info {
   color: #4285f4; }
-  /* line 119, Framework/sass/components/_form.sass */
+  /* line 122, Framework/sass/components/_form.sass */
   .has__info .form__item {
     border: solid 1px #4285f4;
     outline: none; }
-    /* line 123, Framework/sass/components/_form.sass */
+    /* line 126, Framework/sass/components/_form.sass */
     .has__info .form__item:focus {
       outline: none;
       border: solid 1px #4285f4;
       -webkit-box-shadow: #4285f4 0 0 6px;
       box-shadow: #4285f4 0 0 6px; }
 
-/* line 117, Framework/sass/components/_form.sass */
+/* line 120, Framework/sass/components/_form.sass */
 .has__success {
   color: #008c3a; }
-  /* line 119, Framework/sass/components/_form.sass */
+  /* line 122, Framework/sass/components/_form.sass */
   .has__success .form__item {
     border: solid 1px #008c3a;
     outline: none; }
-    /* line 123, Framework/sass/components/_form.sass */
+    /* line 126, Framework/sass/components/_form.sass */
     .has__success .form__item:focus {
       outline: none;
       border: solid 1px #008c3a;
       -webkit-box-shadow: #008c3a 0 0 6px;
       box-shadow: #008c3a 0 0 6px; }
 
-/* line 117, Framework/sass/components/_form.sass */
+/* line 120, Framework/sass/components/_form.sass */
 .has__warning {
   color: #f09300; }
-  /* line 119, Framework/sass/components/_form.sass */
+  /* line 122, Framework/sass/components/_form.sass */
   .has__warning .form__item {
     border: solid 1px #f09300;
     outline: none; }
-    /* line 123, Framework/sass/components/_form.sass */
+    /* line 126, Framework/sass/components/_form.sass */
     .has__warning .form__item:focus {
       outline: none;
       border: solid 1px #f09300;
       -webkit-box-shadow: #f09300 0 0 6px;
       box-shadow: #f09300 0 0 6px; }
 
-/* line 117, Framework/sass/components/_form.sass */
+/* line 120, Framework/sass/components/_form.sass */
 .has__danger {
   color: #ea4335; }
-  /* line 119, Framework/sass/components/_form.sass */
+  /* line 122, Framework/sass/components/_form.sass */
   .has__danger .form__item {
     border: solid 1px #ea4335;
     outline: none; }
-    /* line 123, Framework/sass/components/_form.sass */
+    /* line 126, Framework/sass/components/_form.sass */
     .has__danger .form__item:focus {
       outline: none;
       border: solid 1px #ea4335;
       -webkit-box-shadow: #ea4335 0 0 6px;
       box-shadow: #ea4335 0 0 6px; }
 
-/* line 129, Framework/sass/components/_form.sass */
+/* line 132, Framework/sass/components/_form.sass */
 input:disabled,
 button:disabled {
   cursor: not-allowed; }
 
-/* line 135, Framework/sass/components/_form.sass */
+/* line 138, Framework/sass/components/_form.sass */
 .form__group__checkbox {
   display: inline-block;
   margin-right: 15px;
@@ -4534,18 +4554,18 @@ button:disabled {
   /* disabled checkbox */
   /* accessibility */
   /* hover style just for information */ }
-  /* line 140, Framework/sass/components/_form.sass */
+  /* line 143, Framework/sass/components/_form.sass */
   .form__group__checkbox .form__checkbox[type="checkbox"]:not(:checked),
   .form__group__checkbox .form__checkbox[type="checkbox"]:checked {
     position: absolute;
     left: -9999px; }
-  /* line 145, Framework/sass/components/_form.sass */
+  /* line 148, Framework/sass/components/_form.sass */
   .form__group__checkbox .form__checkbox[type="checkbox"]:not(:checked) + label,
   .form__group__checkbox .form__checkbox[type="checkbox"]:checked + label {
     position: relative;
     padding-left: 21px;
     cursor: pointer; }
-  /* line 153, Framework/sass/components/_form.sass */
+  /* line 156, Framework/sass/components/_form.sass */
   .form__group__checkbox .form__checkbox[type="checkbox"]:not(:checked) + label:before,
   .form__group__checkbox .form__checkbox[type="checkbox"]:checked + label:before {
     content: '';
@@ -4557,7 +4577,7 @@ button:disabled {
     border: 2px solid #ddddde;
     background: #f7f7f7;
     border-radius: 4px; }
-  /* line 166, Framework/sass/components/_form.sass */
+  /* line 169, Framework/sass/components/_form.sass */
   .form__group__checkbox .form__checkbox[type="checkbox"]:not(:checked) + label:after,
   .form__group__checkbox .form__checkbox[type="checkbox"]:checked + label:after {
     content: "";
@@ -4567,36 +4587,36 @@ button:disabled {
     font-size: 10px;
     color: teal;
     font-family: "Lunacon"; }
-  /* line 177, Framework/sass/components/_form.sass */
+  /* line 180, Framework/sass/components/_form.sass */
   .form__group__checkbox .form__checkbox[type="checkbox"]:not(:checked) + label.from__label__checkbox:after {
     opacity: 0;
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0); }
-  /* line 181, Framework/sass/components/_form.sass */
+  /* line 184, Framework/sass/components/_form.sass */
   .form__group__checkbox .form__checkbox[type="checkbox"]:checked + label.from__label__checkbox:after {
     -webkit-animation: checkin 0.5s forwards;
     animation: checkin 0.5s forwards; }
-  /* line 186, Framework/sass/components/_form.sass */
+  /* line 189, Framework/sass/components/_form.sass */
   .form__group__checkbox .form__checkbox[type="checkbox"]:disabled:not(:checked) + label.from__label__checkbox:before,
   .form__group__checkbox .form__checkbox[type="checkbox"]:disabled:checked + label.from__label__checkbox:before {
     border-color: #bbb;
     background-color: #ddd;
     cursor: not-allowed; }
-  /* line 192, Framework/sass/components/_form.sass */
+  /* line 195, Framework/sass/components/_form.sass */
   .form__group__checkbox .form__checkbox[type="checkbox"]:disabled:checked + label.from__label__checkbox:after {
     color: #999; }
-  /* line 195, Framework/sass/components/_form.sass */
+  /* line 198, Framework/sass/components/_form.sass */
   .form__group__checkbox .form__checkbox[type="checkbox"]:disabled + label.from__label__checkbox {
     color: #aaa; }
-  /* line 199, Framework/sass/components/_form.sass */
+  /* line 202, Framework/sass/components/_form.sass */
   .form__group__checkbox .form__checkbox[type="checkbox"]:checked:focus + label.from__label__checkbox:before,
   .form__group__checkbox .form__checkbox[type="checkbox"]:not(:checked):focus + label.from__label__checkbox:before {
     border: 2px solid teal; }
-  /* line 205, Framework/sass/components/_form.sass */
+  /* line 208, Framework/sass/components/_form.sass */
   .form__group__checkbox label.from__label__checkbox:hover:before {
     border: 2px solid teal; }
-  /* line 208, Framework/sass/components/_form.sass */
+  /* line 211, Framework/sass/components/_form.sass */
   .form__group__checkbox label.from__label__checkbox::-moz-selection {
     background: transparent !important; }
   .form__group__checkbox label.from__label__checkbox::selection {
@@ -4744,10 +4764,10 @@ button:disabled {
       color: teal; }
   /* line 35, Framework/sass/components/_blockquote.sass */
   .blockquote--secondary {
-    border-left: solid orangered 5px; }
+    border-left: solid #b94262 5px; }
     /* line 38, Framework/sass/components/_blockquote.sass */
     .blockquote--secondary .blockquote__header {
-      color: orangered; }
+      color: #b94262; }
   /* line 35, Framework/sass/components/_blockquote.sass */
   .blockquote--dark {
     border-left: solid #283d44 5px; }
@@ -4944,6 +4964,16 @@ button:disabled {
     /* line 41, Framework/sass/components/_pagination.sass */
     .pagination li:not(.disable).active:hover {
       cursor: no-drop; }
+
+/* line 3, Framework/sass/components/_links-inline.sass */
+.links__inline {
+  padding: 0;
+  list-style: none; }
+  /* line 10, Framework/sass/components/_links-inline.sass */
+  .links__inline__item {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 5px; }
 
 /* line 6, Framework/sass/components/_media.sass */
 .media {
@@ -5296,7 +5326,7 @@ button:disabled {
   /* line 130, Framework/sass/components/_table.sass */
   .table--striped-secondary > tbody.table__body > tr:nth-child(odd) > td,
   .table--striped-secondary > tbody.table__body > tr:nth-child(odd) > th {
-    background: orangered;
+    background: #b94262;
     color: #fff; }
     /* line 136, Framework/sass/components/_table.sass */
     .table--striped-secondary > tbody.table__body > tr:nth-child(odd) > td a,
@@ -5305,7 +5335,7 @@ button:disabled {
   /* line 140, Framework/sass/components/_table.sass */
   .table--hover-secondary > tbody.table__body > tr:hover > td,
   .table--hover-secondary > tbody.table__body > tr:hover > th {
-    background: orangered;
+    background: #b94262;
     color: #fff; }
     /* line 145, Framework/sass/components/_table.sass */
     .table--hover-secondary > tbody.table__body > tr:hover > td a,
@@ -5762,8 +5792,8 @@ button:disabled {
         position: absolute;
         display: inline-block;
         top: -15px;
-        background: orangered;
-        border: solid 1px #f54200;
+        background: #b94262;
+        border: solid 1px #b13f5e;
         color: #eee;
         padding: 5px 10px;
         border-radius: 10px 0; }
@@ -5842,7 +5872,7 @@ button:disabled {
 .ribbon--secondary::before, .ribbon--secondary::after,
 .ribbon--secondary-gradient::before,
 .ribbon--secondary-gradient::after {
-  border: 5px solid #992900; }
+  border: 5px solid #6e273a; }
 
 /* line 13, Framework/sass/components/_ribbon.sass */
 .ribbon--dark::before, .ribbon--dark::after,
@@ -5937,15 +5967,15 @@ button:disabled {
     background: linear-gradient(180deg, teal, #004d4d); }
   /* line 55, Framework/sass/components/_ribbon.sass */
   .ribbon--secondary .ribbon__label {
-    background-color: orangered;
+    background-color: #b94262;
     color: #fff; }
   /* line 60, Framework/sass/components/_ribbon.sass */
   .ribbon--secondary-gradient .ribbon__label {
-    background: orangered;
-    background: -webkit-gradient(linear, left top, left bottom, from(orangered), to(#cc3700));
-    background: -webkit-linear-gradient(top, orangered, #cc3700);
-    background: -o-linear-gradient(top, orangered, #cc3700);
-    background: linear-gradient(180deg, orangered, #cc3700); }
+    background: #b94262;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b94262), to(#93354e));
+    background: -webkit-linear-gradient(top, #b94262, #93354e);
+    background: -o-linear-gradient(top, #b94262, #93354e);
+    background: linear-gradient(180deg, #b94262, #93354e); }
   /* line 55, Framework/sass/components/_ribbon.sass */
   .ribbon--dark .ribbon__label {
     background-color: #283d44;

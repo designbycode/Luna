@@ -11,12 +11,43 @@ html(lang="en")
 		.wrapper
 			.row 
 				.col
-					.ribbon__wrapper 
-						.ribbon.ribbon--info.ribbon--top-left: .ribbon__label Ribbon Top 
-						.ribbon.ribbon--danger.ribbon--top-right: .ribbon__label Ribbon 
-						.ribbon.ribbon--bottom-left.ribbon--warning: .ribbon__label Ribbon
-						.ribbon.ribbon--success.ribbon--bottom-right: .ribbon__label Ribbon
+					ul.links__inline
+						li.links__inline__item 
+							a(href="#") Item
 
+						li.links__inline__item 
+							a(href="#") Item
+
+						li.links__inline__item 
+							a(href="#") Item
+
+						li.links__inline__item 
+							a(href="#") Item
+			.row 
+				.col
+					ul.links__inline
+						li.links__inline__item 
+							a(href="#", class="btn btn--primary btn--round") Item
+						li.links__inline__item 
+							a(href="#", class="btn btn--round btn--secondary text--dark") Item
+						li.links__inline__item 
+							a(href="#", class="btn btn--round btn--dark") Item
+						li.links__inline__item 
+							a(href="#", class="btn btn--round btn--success") Item
+
+
+			.row 
+				.md-col-4
+					.ribbon__wrapper
+						.ribbon.ribbon--secondary.ribbon--top-left 
+							span.ribbon__label.text--dark Label
+						article.card
+							header.card__thumb
+								img(src="img/nasa-moon.jpg", alt="")
+
+							section.card__body 
+								.card__body__title Header	
+	
 
 	script(src="js/jquery.min.js")
 	script(src="js/app.js")
