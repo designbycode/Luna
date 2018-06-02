@@ -27,7 +27,6 @@
                     </ul></a></li>
                 <li class="nav__links__item"><a href="javascript.html">Javascript</a></li>
                 <li class="nav__links__devider"> </li>
-                <li class="nav__links__item"><a href="index.html">Tutorials</a></li>
               </ul>
             </li>
           </ul>
@@ -35,7 +34,7 @@
       </div>
     </nav>
     <div class="page__header">
-      <div class="wrapper">
+      <div class="wrapper"><i class="lunacon lunacon-thumbs-up bigicon"></i>
         <div class="row padding">
           <div class="md-col-7">
             <h1 class="text--white">Luna Framework Sass Helpers</h1>
@@ -48,29 +47,29 @@
         <div class="col">
           <h2>Clearfix Helper</h2>
           <p>Add a clearfix helper to any element to add a clear fix to it.</p>
-          <pre><code class="sass">//-- for sass
+          <pre><code lang="html">//-- for sass
 .element
-  +clearfix</pre></code>
-          <pre><code class="scss">//-- for scss
+  +clearfix</code></pre>
+          <pre><code lang="html">//-- for scss
 .element{
   @include clearfix;
-}</pre></code>
+}</code></pre>
         </div>
         <div class="col">
           <h2>Border Radius</h2>
           <p>The border radius helper will help you by short handing the class and also give you default radius that is predefined in the <code>_settings.sass</code> file.</p>
-          <pre><code class="sass">//-- for sass
+          <pre><code lang="html">//-- for sass
  .element
     +radius
  .element
-    +radius(10px)</pre></code>
-          <pre><code class="scss">//-- for sass
+    +radius(10px)</code></pre>
+          <pre><code lang="html">//-- for sass
  .element{
     @include radius;
  }
  .element{
     @include radius(10px);
- }</pre></code>
+ }</code></pre>
         </div>
         <div class="col">
           <h2>Media Breakpoints</h2>
@@ -87,11 +86,11 @@
             <li><code>+is--tablet</code></li>
             <li><code>+is--desktop</code></li>
           </ul>
-          <pre><code class="sass">//-- for sass
+          <pre><code lang="html">//-- for sass
  .element
     background: red
     +media-up(md)
-       background: blue</pre></code>
+       background: blue</code></pre>
         </div>
       </div>
     </div>

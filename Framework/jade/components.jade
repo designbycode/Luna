@@ -2,96 +2,98 @@ extends ./template/_layout.jade
 
 
 block title
-  title Luna Framework - Components
+	title Luna Framework - Components
 
 block content
 
-  .page__header
-    .wrapper
-      .row.padding
-        .md-col-7
-          h1.text--white Luna Framework Components
+	.page__header
+		.wrapper
+			i.lunacon.lunacon-dashboard.bigicon
+			.row.padding
+				.md-col-7
+					h1.text--white Luna Framework Components
 
-  .wrapper
-    .row
-      .md-col-12
-        h1 Components
+	.wrapper
+		.row
+			.md-col-12
+				h1 Components
 
 
 
-    include partials/_nav-docs.jade
-    include partials/_buttons.jade
-    include partials/_inline-link.jade
-    include partials/_blockquote.jade
-    include partials/_dropdown-button.jade
-    include partials/_notify.jade
-    include partials/_form-inputs.jade
-    include partials/_pagination.jade
-    include partials/_media-object.jade
-    include partials/_tables.jade
-    include partials/_card.jade
-    include partials/_timeline.jade
-    include partials/_ribbon.jade
+
+		include partials/_nav-docs.jade
+		include partials/_buttons.jade
+		include partials/_inline-link.jade
+		include partials/_blockquote.jade
+		include partials/_dropdown-button.jade
+		include partials/_notify.jade
+		include partials/_form-inputs.jade
+		include partials/_pagination.jade
+		include partials/_media-object.jade
+		include partials/_tables.jade
+		include partials/_card.jade
+		include partials/_timeline.jade
+		include partials/_ribbon.jade
 
 block scripts
-  script.
-    $(document).ready(function(){
-        $table = $('#table');
-        $tableset = $('#table_set');
-        $('#striped').on('change', function(){
-          if (this.checked){
-              $table.addClass('table--striped');
-            }else{
-              $table.removeClass('table--striped');
+	script.
+		$(document).ready(function(){
+			$table = $('#table');
+			$tableset = $('#table_set');
+			$('#striped').on('change', function(){
+			  if (this.checked){
+				  $table.addClass('table--striped');
+				}else{
+				  $table.removeClass('table--striped');
 
-            }
-        });
+				}
+			});
 
-        $('#outline').on('change', function(){
-          if (this.checked){
-              $tableset.addClass('table--border');
-            }else{
-              $tableset.removeClass('table--border');
+			$('#outline').on('change', function(){
+			  if (this.checked){
+				  $tableset.addClass('table--border');
+				}else{
+				  $tableset.removeClass('table--border');
 
-            }
-        });
-
-
-        $('#border').on('change', function(){
-          if (this.checked){
-              $table.addClass('table--bordered');
-            }else{
-              $table.removeClass('table--bordered');
-
-            }
-        });
+				}
+			});
 
 
-        $('#hover').on('change', function(){
-          if (this.checked){
-              $table.addClass('table--hover');
-            }else{
-              $table.removeClass('table--hover');
+			$('#border').on('change', function(){
+			  if (this.checked){
+				  $table.addClass('table--bordered');
+				}else{
+				  $table.removeClass('table--bordered');
 
-            }
-        });
+				}
+			});
 
-        $('#scroller').on('change', function(){
-          if (this.checked){
-              $('#table_set').addClass('table__scrollable');
-            }else{
-              $('#table_set').removeClass('table__scrollable');
 
-            }
-        });
+			$('#hover').on('change', function(){
+			  if (this.checked){
+				  $table.addClass('table--hover');
+				}else{
+				  $table.removeClass('table--hover');
 
-        $('#responsive').on('change', function(){
-          if (this.checked){
-              $('#table_set').addClass('table__responsive');
-            }else{
-              $('#table_set').removeClass('table__responsive');
+				}
+			});
 
-            }
-        });
+			$('#scroller').on('change', function(){
+			  if (this.checked){
+				  $('#table_set').addClass('table__scrollable');
+				}else{
+				  $('#table_set').removeClass('table__scrollable');
 
-    });
+				}
+			});
+
+			$('#responsive').on('change', function(){
+			  if (this.checked){
+				  $('#table_set').addClass('table__responsive');
+				}else{
+				  $('#table_set').removeClass('table__responsive');
+
+				}
+			});
+
+		});

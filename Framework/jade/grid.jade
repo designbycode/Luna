@@ -2,135 +2,135 @@ extends ./template/_layout.jade
 
 
 block title
-  title Luna Framework - Grid
+	title Luna Framework - Grid
 
 block content
 
-  .page__header
-    .wrapper
-      .row.padding
-        .md-col-7
-          h1.text--white <wbr> Luna Frame<wbr>work The Grid
+	.page__header
+		.wrapper
+			i.lunacon.lunacon-test.bigicon
+			.row.padding
+				.md-col-7
+					h1.text--white <wbr> Luna Frame<wbr>work The Grid
 
 
-  .wrapper
-    .row
-      .col
-        h1 The Grid
-        h2 Grid Layout
-        p The <strong>Luna Framework</strong> is a 12-column responsive grid by default. The column count be changed in the _settings.sass to whatever you need. This means that you can make it a 2-column grid, 24-column grid or anything in between. Each column set needs to be with in a <code>.row</code> class and  must by default be prepended with one of the following prefixes. <code>.xs-</code>  <code>.sm-</code>  <code>.md-</code>  <code>.lg-</code>  <code>.xl-</code>
-        blockquote.blockquote.blockquote--warning
-          .blockquote__header More breakpoint can be added or can be removed in <strong>_settings.sass</strong> file
+	.wrapper
+		.row
+			.col
+				h1 The Grid
+				h2 Grid Layout
+				p The <strong>Luna Framework</strong> is a 12-column responsive grid by default. The column count be changed in the _settings.sass to whatever you need. This means that you can make it a 2-column grid, 24-column grid or anything in between. Each column set needs to be with in a <code>.row</code> class and  must by default be prepended with one of the following prefixes. <code>.xs-</code>  <code>.sm-</code>  <code>.md-</code>  <code>.lg-</code>  <code>.xl-</code>
+				blockquote.blockquote.blockquote--warning
+				.blockquote__header More breakpoint can be added or can be removed in <strong>_settings.sass</strong> file
 
-    .row
-      - for(x=0;x<12;x++)
-          .md-col-1: .box-fill col-1
+		.row
+			- for(x=0;x<12;x++)
+				.md-col-1: .box-fill col-1
 
-    .row
-      - for(x=0;x<6;x++)
-          .md-col-2: .box-fill col-2
+		.row
+			- for(x=0;x<6;x++)
+				.md-col-2: .box-fill col-2
 
-    .row
-      - for(x=0;x<4;x++)
-          .md-col-3: .box-fill col-3
+		.row
+			- for(x=0;x<4;x++)
+				.md-col-3: .box-fill col-3
 
-    .row
-      - for(x=0;x<3;x++)
-          .md-col-4: .box-fill col-4
+		.row
+			- for(x=0;x<3;x++)
+				.md-col-4: .box-fill col-4
 
-    .row
-      - for(x=0;x<2;x++)
-          .md-col-6: .box-fill col-6
+		.row
+			- for(x=0;x<2;x++)
+				.md-col-6: .box-fill col-6
 
-    .row
-      .md-col-12: .box-fill col-12
+		.row
+			.md-col-12: .box-fill col-12
 
-    .row
-      .col
-        pre <code>&lt;div class=&quot;wrapper&quot;&gt;
-          |   &lt;div class=&quot;row&quot;&gt;
-          |     &lt;div class=&quot;md-col-4&quot;&gt;&lt;/div&gt;
-          |     &lt;div class=&quot;md-col-4&quot;&gt;&lt;/div&gt;
-          |     &lt;div class=&quot;md-col-4&quot;&gt;&lt;/div&gt;
-          |   &lt;/div&gt;
-          | &lt;/div&gt;
-        </code>
-
-    .row
-      .col
-        h2 Column Offset Layout
-        p Columns can be easily offset by using the <code>.{prefix}-offset-{num}</code> classes. Different offset can be set for different screen sizes by added multiple classes to a single element.
-
-    .row
-      .md-col-4.md-offset-4: .box-fill.background--secondary-light.text--secondary.border--secondary-light col 4 offset 4
-      .md-col-4: .box-fill col 4
-    .row
-      .md-col-4: .box-fill col 4
-      .md-col-4.md-offset-4: .box-fill.background--secondary-light.text--secondary.border--secondary-light col 4 offset 4
-    .row
-      .md-col-3: .box-fill col 3
-      .md-col-3.md-offset-1: .box-fill.background--secondary-light.text--secondary.border--secondary-light col 3 offset 1
-      .md-col-3.md-offset-1: .box-fill.background--secondary-light.text--secondary.border--secondary-light col 3 offset 1
-
-    .row
-      .col
-        pre <code>&lt;div class=&quot;row&quot;&gt;
-          |  &lt;div class=&quot;md-col-4 md-offset-4&quot;&gt;&lt;/div&gt;
-          |  &lt;div class=&quot;md-col-4&quot;&gt;&lt;/div&gt;
-          | &lt;/div&gt;
-        </code>
-
-    .row
-      .col
-        h2 Float Columns
-        p Columns can be floated left or right by using the following set for classes at the appropriated screen sizes. <code>.{prefix}-float-{direction}</code>
-
-    .row
-      .md-col-6.lg-float-right: .box-fill.background--primary-light.text--primary.border--primary-light col 6 float <strong>Left</strong> when small
-      .md-col-6.lg-float-left: .box-fill.background--secondary-light.text--secondary.border--secondary-light col 6 float <strong>Right</strong> when small
-
-    .row
-      .col
-        pre <code>&lt;div class=&quot;row&quot;&gt;
-          |  &lt;div class=&quot;md-col-4 md-float-right&quot;&gt;&lt;/div&gt;
-          |  &lt;div class=&quot;md-col-4 md-float-left&quot;&gt;&lt;/div&gt;
-          | &lt;/div&gt;
-        </code>
-
-    .row
-      .col
-        h2 Equal Height Columns
-        p All column elements will float to the left or when specified, right. This will collapse the element. To remedy this problem a class of <code>.flex</code> can be added to the parent element to give the columns an equal height.
-
-      .col
-        blockquote.blockquote.blockquote--danger
-          .blockquote__header When <code>.flex</code> is added. The float classes will not work.
-          .blockquote__body This must be manually added by using flex box ordering classes.
-
-    .row.flex
-      .md-col-6
-        .panel.panel--default
-          .panel__header.background--secondary-light.text--secondary  Lorem ipsum dolor sit amet.
-          .panel__body  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus voluptas voluptatem nihil doloremque rem dolorum hic ipsam, dolor nostrum maiores?
-
-      .md-col-6
-        .panel.panel--default
-          .panel__header.background--primary-light.text--primary  Lorem ipsum dolor sit amet.
-          .panel__body  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+		.row
+			.col
+				pre: code(lang="html") &lt;div class=&quot;wrapper&quot;&gt;
+					|   &lt;div class=&quot;row&quot;&gt;
+					|     &lt;div class=&quot;md-col-4&quot;&gt;&lt;/div&gt;
+					|     &lt;div class=&quot;md-col-4&quot;&gt;&lt;/div&gt;
+					|     &lt;div class=&quot;md-col-4&quot;&gt;&lt;/div&gt;
+					|   &lt;/div&gt;
+					| &lt;/div&gt;
 
 
-    .row
-      .col
-        pre <code>&lt;div class=&quot;row flex&quot;&gt;
-          |  &lt;div class=&quot;md-col-6&quot;&gt;&lt;/div&gt;
-          |  &lt;div class=&quot;md-col-6&quot;&gt;&lt;/div&gt;
-          | &lt;/div&gt;
-        </code>
+		.row
+			.col
+				h2 Column Offset Layout
+				p Columns can be easily offset by using the <code>.{prefix}-offset-{num}</code> classes. Different offset can be set for different screen sizes by added multiple classes to a single element.
+
+		.row
+			.md-col-4.md-offset-4: .box-fill.background--secondary-light.text--secondary.border--secondary-light col 4 offset 4
+			.md-col-4: .box-fill col 4
+		.row
+			.md-col-4: .box-fill col 4
+			.md-col-4.md-offset-4: .box-fill.background--secondary-light.text--secondary.border--secondary-light col 4 offset 4
+		.row
+			.md-col-3: .box-fill col 3
+			.md-col-3.md-offset-1: .box-fill.background--secondary-light.text--secondary.border--secondary-light col 3 offset 1
+			.md-col-3.md-offset-1: .box-fill.background--secondary-light.text--secondary.border--secondary-light col 3 offset 1
+
+		.row
+			.col
+				pre: code(lang="html") &lt;div class=&quot;row&quot;&gt;
+					|  &lt;div class=&quot;md-col-4 md-offset-4&quot;&gt;&lt;/div&gt;
+					|  &lt;div class=&quot;md-col-4&quot;&gt;&lt;/div&gt;
+					| &lt;/div&gt;
+
+		.row
+			.col
+				h2 Float Columns
+				p Columns can be floated left or right by using the following set for classes at the appropriated screen sizes. <code>.{prefix}-float-{direction}</code>
+
+		.row
+			.md-col-6.lg-float-right: .box-fill.background--primary-light.text--primary.border--primary-light col 6 float <strong>Left</strong> when small
+			.md-col-6.lg-float-left: .box-fill.background--secondary-light.text--secondary.border--secondary-light col 6 float <strong>Right</strong> when small
+
+		.row
+			.col
+				pre: code(lang="html") &lt;div class=&quot;row&quot;&gt;
+					|  &lt;div class=&quot;md-col-4 md-float-right&quot;&gt;&lt;/div&gt;
+					|  &lt;div class=&quot;md-col-4 md-float-left&quot;&gt;&lt;/div&gt;
+					| &lt;/div&gt;
 
 
-    .row
-      .col
-        blockquote.blockquote.blockquote--info
-          .blockquote__header Show &amp; Hide Columns.
-          .blockquote__body Element can also be hidden or shown on different screen sizes. Find out more by visiting <strong>CSS HELPER</strong> section.
-          .blockquote__footer.background--info-light <a href="#" class="btn btn--info">Read More</a>
+		.row
+			.col
+				h2 Equal Height Columns
+				p All column elements will float to the left or when specified, right. This will collapse the element. To remedy this problem a class of <code>.flex</code> can be added to the parent element to give the columns an equal height.
+
+			.col
+				blockquote.blockquote.blockquote--danger
+					.blockquote__header When <code>.flex</code> is added. The float classes will not work.
+					.blockquote__body This must be manually added by using flex box ordering classes.
+
+		.row.flex
+			.md-col-6
+				.panel.panel--default
+					.panel__header.background--secondary-light.text--secondary  Lorem ipsum dolor sit amet.
+					.panel__body  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus voluptas voluptatem nihil doloremque rem dolorum hic ipsam, dolor nostrum maiores?
+
+			.md-col-6
+				.panel.panel--default
+					.panel__header.background--primary-light.text--primary  Lorem ipsum dolor sit amet.
+					.panel__body  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+
+		.row
+			.col
+				pre: code(lang="html") &lt;div class=&quot;row flex&quot;&gt;
+					|  &lt;div class=&quot;md-col-6&quot;&gt;&lt;/div&gt;
+					|  &lt;div class=&quot;md-col-6&quot;&gt;&lt;/div&gt;
+					| &lt;/div&gt;
+
+
+
+		.row
+			.col
+				blockquote.blockquote.blockquote--info
+					.blockquote__header Show &amp; Hide Columns.
+					.blockquote__body Element can also be hidden or shown on different screen sizes. Find out more by visiting <strong>CSS HELPER</strong> section.
+					.blockquote__footer.background--info-light <a href="/css-helpers#hide-seciton" class="btn btn--info">Read More</a>

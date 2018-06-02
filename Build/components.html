@@ -27,7 +27,6 @@
                     </ul></a></li>
                 <li class="nav__links__item"><a href="javascript.html">Javascript</a></li>
                 <li class="nav__links__devider"> </li>
-                <li class="nav__links__item"><a href="index.html">Tutorials</a></li>
               </ul>
             </li>
           </ul>
@@ -35,7 +34,7 @@
       </div>
     </nav>
     <div class="page__header">
-      <div class="wrapper">
+      <div class="wrapper"><i class="lunacon lunacon-dashboard bigicon"></i>
         <div class="row padding">
           <div class="md-col-7">
             <h1 class="text--white">Luna Framework Components</h1>
@@ -1214,63 +1213,63 @@
     </script>
     <script>
       $(document).ready(function(){
-          $table = $('#table');
-          $tableset = $('#table_set');
-          $('#striped').on('change', function(){
-            if (this.checked){
-                $table.addClass('table--striped');
-              }else{
-                $table.removeClass('table--striped');
+      	$table = $('#table');
+      	$tableset = $('#table_set');
+      	$('#striped').on('change', function(){
+      	  if (this.checked){
+      		  $table.addClass('table--striped');
+      		}else{
+      		  $table.removeClass('table--striped');
       
-              }
-          });
+      		}
+      	});
       
-          $('#outline').on('change', function(){
-            if (this.checked){
-                $tableset.addClass('table--border');
-              }else{
-                $tableset.removeClass('table--border');
+      	$('#outline').on('change', function(){
+      	  if (this.checked){
+      		  $tableset.addClass('table--border');
+      		}else{
+      		  $tableset.removeClass('table--border');
       
-              }
-          });
-      
-      
-          $('#border').on('change', function(){
-            if (this.checked){
-                $table.addClass('table--bordered');
-              }else{
-                $table.removeClass('table--bordered');
-      
-              }
-          });
+      		}
+      	});
       
       
-          $('#hover').on('change', function(){
-            if (this.checked){
-                $table.addClass('table--hover');
-              }else{
-                $table.removeClass('table--hover');
+      	$('#border').on('change', function(){
+      	  if (this.checked){
+      		  $table.addClass('table--bordered');
+      		}else{
+      		  $table.removeClass('table--bordered');
       
-              }
-          });
+      		}
+      	});
       
-          $('#scroller').on('change', function(){
-            if (this.checked){
-                $('#table_set').addClass('table__scrollable');
-              }else{
-                $('#table_set').removeClass('table__scrollable');
       
-              }
-          });
+      	$('#hover').on('change', function(){
+      	  if (this.checked){
+      		  $table.addClass('table--hover');
+      		}else{
+      		  $table.removeClass('table--hover');
       
-          $('#responsive').on('change', function(){
-            if (this.checked){
-                $('#table_set').addClass('table__responsive');
-              }else{
-                $('#table_set').removeClass('table__responsive');
+      		}
+      	});
       
-              }
-          });
+      	$('#scroller').on('change', function(){
+      	  if (this.checked){
+      		  $('#table_set').addClass('table__scrollable');
+      		}else{
+      		  $('#table_set').removeClass('table__scrollable');
+      
+      		}
+      	});
+      
+      	$('#responsive').on('change', function(){
+      	  if (this.checked){
+      		  $('#table_set').addClass('table__responsive');
+      		}else{
+      		  $('#table_set').removeClass('table__responsive');
+      
+      		}
+      	});
       
       });
     </script>

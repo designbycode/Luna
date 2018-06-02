@@ -27,7 +27,6 @@
                     </ul></a></li>
                 <li class="nav__links__item"><a href="javascript.html">Javascript</a></li>
                 <li class="nav__links__devider"> </li>
-                <li class="nav__links__item"><a href="index.html">Tutorials</a></li>
               </ul>
             </li>
           </ul>
@@ -35,7 +34,7 @@
       </div>
     </nav>
     <div class="page__header">
-      <div class="wrapper">
+      <div class="wrapper"><i class="lunacon lunacon-gears bigicon"></i>
         <div class="row padding">
           <div class="md-col-7">
             <h1 class="text--white">Luna Framework JavaScript</h1>
@@ -48,13 +47,12 @@
         <div class="col">
           <h1>Initialize Luna's javascipt</h1>
           <p>Make sure to add jquery to the footer of your document or include it to the top of your project if using a build system. Simple add the following code to your project.</p>
-          <pre><code>&lt;script src=&quot;{path_to_js}/luna.js&quot;&gt;&lt;/script&gt;
+          <pre><code lang="html">&lt;script src=&quot;{path_to_js}/luna.js&quot;&gt;&lt;/script&gt;
 &lt;sript&gt;
   $(document).Luna();
-&lt;/sript&gt;  </pre></code>
+&lt;/sript&gt;  </code></pre>
           <p>This plugin has a few setting that you can change</p>
-          <pre><code>
-$(document).Luna({
+          <pre><code lang="html">$(document).Luna({
   nav: {
     mobileMenu: 900, // The media breakpoint
     speed:      200  // The animation speed
@@ -67,7 +65,7 @@ $(document).Luna({
     stopAt: 0,    // The offset from top to stop
     showAt: 500   // The offset the page have to scoll to show button
   }
-});</pre></code>
+});</code></pre>
         </div>
       </div>
     </div>

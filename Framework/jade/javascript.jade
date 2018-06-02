@@ -2,44 +2,44 @@ extends ./template/_layout.jade
 
 
 block title
-  title Luna Framework - JavaScript
+	title Luna Framework - JavaScript
 
 block content
 
-  .page__header
-    .wrapper
-      .row.padding
-        .md-col-7
-          h1.text--white Luna Framework JavaScript
+	.page__header
+		.wrapper
+			i.lunacon.lunacon-gears.bigicon
+			.row.padding
+				.md-col-7
+					h1.text--white Luna Framework JavaScript
 
 
-  .wrapper
-    .row 
-      .col
-        h1 Initialize Luna's javascipt
-        p Make sure to add jquery to the footer of your document or include it to the top of your project if using a build system. Simple add the following code to your project.
+	.wrapper
+		.row 
+			.col
+				h1 Initialize Luna's javascipt
+				p Make sure to add jquery to the footer of your document or include it to the top of your project if using a build system. Simple add the following code to your project.
 
-        pre <code>&lt;script src=&quot;{path_to_js}/luna.js&quot;&gt;&lt;/script&gt;
-          | &lt;sript&gt;
-          |   $(document).Luna();
-          | &lt;/sript&gt;  
-        </code>
+				pre: code(lang="html") &lt;script src=&quot;{path_to_js}/luna.js&quot;&gt;&lt;/script&gt;
+					| &lt;sript&gt;
+					|   $(document).Luna();
+					| &lt;/sript&gt;  
 
-        p This plugin has a few setting that you can change
+				p This plugin has a few setting that you can change
 
-        pre <code>
-          | $(document).Luna({
-          |   nav: {
-          |     mobileMenu: 900, // The media breakpoint
-          |     speed:      200  // The animation speed
-          |   },
-          |   notify: {
-          |     speed: 200 // The notity animation speed
-          |   },
-          |   scrolltop:{
-          |     speed:  1000, // The scroll speed
-          |     stopAt: 0,    // The offset from top to stop
-          |     showAt: 500   // The offset the page have to scoll to show button
-          |   }
-          | });
-        </code>
+				pre: code(lang="html")
+					| $(document).Luna({
+					|   nav: {
+					|     mobileMenu: 900, // The media breakpoint
+					|     speed:      200  // The animation speed
+					|   },
+					|   notify: {
+					|     speed: 200 // The notity animation speed
+					|   },
+					|   scrolltop:{
+					|     speed:  1000, // The scroll speed
+					|     stopAt: 0,    // The offset from top to stop
+					|     showAt: 500   // The offset the page have to scoll to show button
+					|   }
+					| });
+

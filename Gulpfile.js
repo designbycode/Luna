@@ -24,7 +24,7 @@ const gulp         = require('gulp'),
       notify       = require('gulp-notify');
 
 
-const isInDevelopment = true;
+const isInDevelopment = false;
 
 
 const Paths = {

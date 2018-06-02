@@ -20,7 +20,6 @@
     font-family: "Lunacon";
     font-style: normal;
     font-size: inherit;
-
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -39,34 +38,30 @@
 }
 
 
+
   .lunacon--size-x1{
     font-size: ($base-icon-size * 0) + $base-icon-size !important;
     vertical-align: bottom;
-    // line-height: 1;
   }
 
   .lunacon--size-x2{
     font-size: ($base-icon-size * 1) + $base-icon-size !important;
     vertical-align: bottom;
-    // line-height: 1;
   }
 
   .lunacon--size-x3{
     font-size: ($base-icon-size * 2) + $base-icon-size !important;
     vertical-align: bottom;
-    // line-height: 1;
   }
 
   .lunacon--size-x4{
     font-size: ($base-icon-size * 3) + $base-icon-size !important;
     vertical-align: bottom;
-    // line-height: 1;
   }
 
   .lunacon--size-x5{
     font-size: ($base-icon-size * 4) + $base-icon-size !important;
     vertical-align: bottom;
-    // line-height: 1;
   }
 
 
