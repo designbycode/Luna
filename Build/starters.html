@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/dev-style.css">
-    <title>Luna Framework - JavaScript</title>
+    <title>Luna Framework - Grid</title>
   </head>
   <body>
     <nav class="nav nav--fixed nav--shadow-light">
@@ -35,38 +35,40 @@
       </div>
     </nav>
     <div class="page__header">
-      <div class="wrapper"><i class="lunacon lunacon-gears bigicon"></i>
+      <div class="wrapper"><i class="lunacon lunacon-test bigicon"></i>
         <div class="row padding">
           <div class="md-col-7">
-            <h1 class="text--white">Luna Framework JavaScript</h1>
+            <h1 class="text--white"><strong>Luna</strong> Project Starters</h1>
           </div>
         </div>
       </div>
     </div>
     <div class="wrapper">
-      <div class="row"> 
+      <div class="row">
         <div class="col">
-          <h1>Initialize Luna's javascipt</h1>
-          <p>Make sure to add jquery to the footer of your document or include it to the top of your project if using a build system. Simple add the following code to your project.</p>
-          <pre><code lang="html">&lt;script src=&quot;{path_to_js}/luna.js&quot;&gt;&lt;/script&gt;
-&lt;sript&gt;
-  $(document).Luna();
-&lt;/sript&gt;  </code></pre>
-          <p>This plugin has a few setting that you can change</p>
-          <pre><code lang="html">$(document).Luna({
-  nav: {
-    mobileMenu: 900, // The media breakpoint
-    speed:      200  // The animation speed
-  },
-  notify: {
-    speed: 200 // The notity animation speed
-  },
-  scrolltop:{
-    speed:  1000, // The scroll speed
-    stopAt: 0,    // The offset from top to stop
-    showAt: 500   // The offset the page have to scoll to show button
-  }
-});</code></pre>
+          <h1>Start your next project faster with less setup</h1>
+          <p>We have create a couple of way to start you next <stong>Luna</strong> project faster.</p>
+        </div>
+        <div class="col"> 
+          <h2 class="color--primary">Laravel-Luna-preset</h2>
+          <p>For laravel lovers out there where have created a <stong>Luna</strong> preset package that will setup your sass, javascript and laravel-mix configuration. This package will also override the view and auth files using so artisan commands.</p>
+          <h3>Instruction </h3>
+          <ol> 
+            <li>Install Laravel project as normal.</li>
+            <li>cd into project</li>
+            <li>Run <code>composer require designbycode/laravel-luna-presets</code></li>
+            <li>Now run <code>php artisan preset luna</code></li>
+            <li>Then run <code>yarn</code> or <code>npm install</code></li>
+          </ol>
+          <blockquote class="blockquote blockquote--info">
+            <div class="blockquote__header">Setup _settings.sass file</div>
+            <div class="blockquote__body"> This will now have copied all the necessary files for you. All wat you need to do now is copy the the content of the _settings.sass file in node_modules/luna-sass/Framework/sass directory to your laravel/resouces/assets/sass/_settings.sass file. Or simply run <code>php artisan preset luna</code> again after npm packages has been installed. The command will copy the _settings.sass file if it exists in the node_modules.</div>
+          </blockquote>
+          <blockquote class="blockquote blockquote--success">
+            <div class="blockquote__header">Artisan commands</div>
+            <div class="blockquote__body">Artisan command will create the auth views</div>
+            <div class="blockquote__footer background--success-light"><code>code php artisan luna:view</code> and then  <code>npm run watch</code></div>
+          </blockquote>
         </div>
       </div>
     </div>
