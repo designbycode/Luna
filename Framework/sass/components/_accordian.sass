@@ -1,0 +1,82 @@
+
+
+.accordian
+	position: relative
+	list-style: none 
+	margin: 0 0 $the__global__padding 0
+	padding: 0
+	overflow: hidden 
+	border-right: solid 1px $accordian__border__color
+	border-left: solid 1px $accordian__border__color
+	border-bottom: solid 1px $accordian__border__color
+	+radius($accordian__radius) 
+
+
+	&__element 
+		margin-bottom: 0
+
+		
+	&--spaced 
+		border: none
+		.accordian__element
+			border: solid 1px $accordian__border__color
+			margin-bottom: $the__global__padding
+
+		.accordian__header 
+			border-top: none
+			+radius($accordian__radius)
+
+
+	&__header 
+		position: relative
+		display: block 
+		padding: $the__global__padding 
+		border-top: $accordian__border__color 1px solid
+		padding-right: ($the__global__padding * 2) + 26px
+		cursor: pointer
+		background: $accordian__header__background__color
+		transition: all 0.35s ease
+
+		&:hover 
+			background: $accordian__header__background__color__hover
+
+		&::after 
+			position: absolute
+			content: $unicode-chevron-down
+			width: 26px
+			height: 26px
+			display: block
+			text-align: center 
+			line-height: 26px
+			right: $the__global__padding
+			top: $the__global__padding
+			font-family: "Lunacon"
+			background: $accordian__header__icon__background__color
+			border: solid 1px $accordian__header__icon__background__border__color
+			color: $accordian__header__icon__color
+			transition: all 0.35s ease
+			+radius(100%)	
+
+			
+
+
+	&__body 
+		display: none 
+		padding: $the__global__padding 
+		background: $accordian__body__background__color
+		color: $accordian__header__text__color
+		border-top: solid 1px $accordian__border__color 
+
+		&--active 
+			display: block
+
+
+.accordian__header.accordian__header--active
+	background: $accordian__header__background__color__active
+
+	&:after 
+		transform: rotate(-180deg)
+		background: $accordian__header__icon__background__color__active
+		border: solid 1px $accordian__header__icon__background__border__color__active
+		color: $accordian__header__icon__color__active
+	

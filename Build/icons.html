@@ -491,6 +491,9 @@
           <div class="icon__flex"><i class="lunacon lunacon-heart "></i> <span class="selectable__all"> heart </span></div>
         </div>
         <div class="sm-col-6 md-col-3">
+          <div class="icon__flex"><i class="lunacon lunacon-heart-solid "></i> <span class="selectable__all"> heart-solid </span></div>
+        </div>
+        <div class="sm-col-6 md-col-3">
           <div class="icon__flex"><i class="lunacon lunacon-lips "></i> <span class="selectable__all"> lips </span></div>
         </div>
         <div class="sm-col-6 md-col-3">
@@ -516,6 +519,24 @@
         </div>
         <div class="sm-col-6 md-col-3">
           <div class="icon__flex"><i class="lunacon lunacon-watch "></i> <span class="selectable__all"> watch </span></div>
+        </div>
+        <div class="sm-col-6 md-col-3">
+          <div class="icon__flex"><i class="lunacon lunacon-add "></i> <span class="selectable__all"> add </span></div>
+        </div>
+        <div class="sm-col-6 md-col-3">
+          <div class="icon__flex"><i class="lunacon lunacon-minus "></i> <span class="selectable__all"> minus </span></div>
+        </div>
+        <div class="sm-col-6 md-col-3">
+          <div class="icon__flex"><i class="lunacon lunacon-equal "></i> <span class="selectable__all"> equal </span></div>
+        </div>
+        <div class="sm-col-6 md-col-3">
+          <div class="icon__flex"><i class="lunacon lunacon-star "></i> <span class="selectable__all"> star </span></div>
+        </div>
+        <div class="sm-col-6 md-col-3">
+          <div class="icon__flex"><i class="lunacon lunacon-star-solid "></i> <span class="selectable__all"> star-solid </span></div>
+        </div>
+        <div class="sm-col-6 md-col-3">
+          <div class="icon__flex"><i class="lunacon lunacon-star-half "></i> <span class="selectable__all"> star-half </span></div>
         </div>
       </div>
       <hr>
@@ -661,7 +682,18 @@
     <script src="js/highlight.pack.js"></script>
     <script>
       $(document).ready(function() {
-        $(document).Luna();
+        $(document).Luna({
+           	scrolltop:{
+           		speed:  700,
+           		stopAt: 0,
+           		showAt: 500,
+      
+           	},
+        	accordian: {
+        		speed: 300,
+        		easing: "easeInOutSine"
+        	}
+        });
         $('pre code').each(function(i, block) {
           hljs.highlightBlock(block);
         });

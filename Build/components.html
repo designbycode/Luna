@@ -1189,6 +1189,93 @@
 &lt;/div&gt;</code></pre>
         </div>
       </div>
+      <div class="row"> 
+        <div class="md-col-12"> 
+          <h2>Accordian Element </h2>
+          <p> Each accordion element performs as an individual component with its own active state and easy to customize in the <code>_settings.sass</code> file.</p>
+        </div>
+        <div class="md-col-12"> 
+          <h3>Accordian Default</h3>
+          <ul id="accorian" class="accordian">
+            <li class="accordian__element"> 
+              <header class="accordian__header accordian__header--active">Who owns the international space station?</header>
+              <section class="accordian__body accordian__body--active">International Space Station Legal Framework. The International Space Station is a co-operative programme between Europe, the United States, Russia, Canada, and Japan for the joint development, operation and utilisation of a permanently inhabited Space Station in low Earth orbit </section>
+            </li>
+            <li class="accordian__element"> 
+              <header class="accordian__header">How many space stations are there in total?</header>
+              <section class="accordian__body">There are only two space stations currently in orbit - the International Space Station and China's Tiangong-1. ISS is manned at all times and Tiangong-1 is unmanned most of the time.</section>
+            </li>
+            <li class="accordian__element"> 
+              <header class="accordian__header">What is the name of the world's first space station?</header>
+              <section class="accordian__body">The first space station was Salyut 1, which was launched by the Soviet Union on April 19, 1971. Like all the early space stations, it was "monolithic", intended to be constructed and launched in one piece, and then inhabited by a crew later.</section>
+            </li>
+            <li class="accordian__element"> 
+              <header class="accordian__header">Can you see the space station?</header>
+              <section class="accordian__body">The space station looks like a fast-moving plane in the sky, but it will be seen as a steady – not blinking – white pinpoint of light. Typically it will be the brightest object in the night sky (except for the Moon). It is bright enough that it can even be seen from the middle of a city!</section>
+            </li>
+          </ul>
+        </div>
+        <div class="md-col-12"> 
+          <pre><code lang="html">&lt;ul class=&quot;accordian&quot;&gt;
+  &lt;li class=&quot;accordian__element&quot;&gt; 
+    &lt;header class=&quot;accordian__header accordian__header--active&quot;&gt;[..]&lt;/header&gt;
+    &lt;section class=&quot;accordian__body accordian__body--active&quot;&gt;[..] &lt;/section&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;accordian__element&quot;&gt; 
+    &lt;header class=&quot;accordian__header&quot;&gt;[..]&lt;/header&gt;
+    &lt;section class=&quot;accordian__body&quot;&gt;[..] &lt;/section&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+          <blockquote class="blockquote blockquote--info"> 
+            <div class="blockquote__header">Set a active class to component. </div>
+            <div class="blockquote__body">To create an open tab simply follow the code example above. The <code>.accordian__{elem}--active</code> will start with open tab.</div>
+          </blockquote>
+        </div>
+        <div class="md-col-12"> 
+          <h3>Accordian spaced</h3>
+          <p>To add some spacing between elements just add <code>.accordian--spaced</code> to the <code>.accordian</code> element. </p>
+        </div>
+        <div class="md-col-12"> 
+          <ul id="accorian2" class="accordian accordian--spaced">
+            <li class="accordian__element"> 
+              <header class="accordian__header">how was the first man on the moon?</header>
+              <section class="accordian__body">
+                <h2>Neil Armstrong</h2>
+                <p>Apollo 11's mission was to land two men on the moon. They also had to come back to Earth safely. Apollo 11 blasted off on July 16, 1969. Neil Armstrong, Edwin "Buzz" Aldrin and Michael Collins were the astronauts on Apollo </p>
+              </section>
+            </li>
+            <li class="accordian__element"> 
+              <header class="accordian__header">Who was the first woman to walk on the moon?</header>
+              <section class="accordian__body"> 
+                <h2>Sally Ride</h2>
+                <p>It was the Cold War. NASA wouldn't accept women applicants to the astronaut corps until 1978. The first American woman to fly into space aboard the space shuttle was Sally Ride in 1983, and the glass stratosphere was finally shattered</p>
+              </section>
+            </li>
+            <li class="accordian__element"> 
+              <header class="accordian__header">Who was the very first astronaut?</header>
+              <section class="accordian__body"> 
+                <h2>Yuri Gagarin </h2>
+                <p>The Mercury Project suffered some early setbacks, however, and on April 12, 1961, Soviet cosmonaut Yuri Gagarin orbited Earth in the world's first manned space flight. Less than one month later, on May 5, astronaut Alan Shepard was successfully launched into space on a suborbital fligh</p>
+              </section>
+            </li>
+            <li class="accordian__element"> 
+              <header class="accordian__header">Who was the first animal on the moon?</header>
+              <section class="accordian__body"> 
+                <h2>Albert</h2>
+                <p>A rhesus monkey called Albert 1 became the first monkey launched into space on June 11, 1948; also on board a US-launched V2 rocket. These were just suborbital flights, though. The first animal to actually go into orbit was the dog Laika, launched on board the Soviet Sputnik 2 spacecraft on November 3, 1957</p>
+              </section>
+            </li>
+          </ul>
+        </div>
+        <div class="md-col-12"> 
+          <pre><code lang="html">&lt;ul class=&quot;accordian accordian--spaced&quot;&gt;
+  &lt;li class=&quot;accordian__element&quot;&gt; 
+    &lt;header class=&quot;accordian__header&quot;&gt;[..]&lt;/header&gt;
+    &lt;section class=&quot;accordian__body&quot;&gt;[..] &lt;/section&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        </div>
+      </div>
     </div>
     <footer class="footer">
       <div class="wrapper padding">
@@ -1205,7 +1292,18 @@
     <script src="js/highlight.pack.js"></script>
     <script>
       $(document).ready(function() {
-        $(document).Luna();
+        $(document).Luna({
+           	scrolltop:{
+           		speed:  700,
+           		stopAt: 0,
+           		showAt: 500,
+      
+           	},
+        	accordian: {
+        		speed: 300,
+        		easing: "easeInOutSine"
+        	}
+        });
         $('pre code').each(function(i, block) {
           hljs.highlightBlock(block);
         });

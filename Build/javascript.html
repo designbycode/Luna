@@ -48,25 +48,32 @@
         <div class="col">
           <h1>Initialize Luna's javascipt</h1>
           <p>Make sure to add jquery to the footer of your document or include it to the top of your project if using a build system. Simple add the following code to your project.</p>
-          <pre><code lang="html">&lt;script src=&quot;{path_to_js}/luna.js&quot;&gt;&lt;/script&gt;
+          <pre><code lang="javascipt">&lt;script src=&quot;{path_to_js}/luna.js&quot;&gt;&lt;/script&gt;
 &lt;sript&gt;
   $(document).Luna();
 &lt;/sript&gt;  </code></pre>
           <p>This plugin has a few setting that you can change</p>
-          <pre><code lang="html">$(document).Luna({
-  nav: {
-    mobileMenu: 900, // The media breakpoint
-    speed:      200  // The animation speed
-  },
-  notify: {
-    speed: 200 // The notity animation speed
-  },
-  scrolltop:{
-    speed:  1000, // The scroll speed
-    stopAt: 0,    // The offset from top to stop
-    showAt: 500   // The offset the page have to scoll to show button
-  }
-});</code></pre>
+          <pre><code lang="javascipt"> $(document).Luna({
+    nav: {
+      mobileMenu: 900, // The media breakpoint
+      speed:      200  // The animation speed
+    },
+    notify: {
+      speed: 200 // The notity animation speed
+    },
+    scrolltop:{
+      speed:  1000, // The scroll speed
+      stopAt: 0,    // The offset from top to stop
+      showAt: 500   // The offset the page have to scoll to show button
+    easing: "swing",  // Easing require easing plugin
+    callback: null      // callback: function(){ }
+    }
+    accordian: {
+      speed: 300,         // The animation speed
+      easing: "swing",    // Easing require easing plugin
+      callback: null      // callback: function(){ }
+    }
+ });</code></pre>
         </div>
       </div>
     </div>
@@ -85,7 +92,18 @@
     <script src="js/highlight.pack.js"></script>
     <script>
       $(document).ready(function() {
-        $(document).Luna();
+        $(document).Luna({
+           	scrolltop:{
+           		speed:  700,
+           		stopAt: 0,
+           		showAt: 500,
+      
+           	},
+        	accordian: {
+        		speed: 300,
+        		easing: "easeInOutSine"
+        	}
+        });
         $('pre code').each(function(i, block) {
           hljs.highlightBlock(block);
         });

@@ -62,12 +62,12 @@
           </ol>
           <blockquote class="blockquote blockquote--info">
             <div class="blockquote__header">Setup _settings.sass file</div>
-            <div class="blockquote__body"> This will now have copied all the necessary files for you. All wat you need to do now is copy the the content of the _settings.sass file in node_modules/luna-sass/Framework/sass directory to your laravel/resouces/assets/sass/_settings.sass file. Or simply run <code>php artisan preset luna</code> again after npm packages has been installed. The command will copy the _settings.sass file if it exists in the node_modules.</div>
+            <div class="blockquote__body"> This will now have copied all the necessary files for you.</div>
           </blockquote>
           <blockquote class="blockquote blockquote--success">
             <div class="blockquote__header">Artisan commands</div>
             <div class="blockquote__body">Artisan command will create the auth views</div>
-            <div class="blockquote__footer background--success-light"><code>code php artisan luna:view</code> and then  <code>npm run watch</code></div>
+            <div class="blockquote__footer background--success-light"><code>php artisan luna:start</code> and then  <code>npm run watch</code></div>
           </blockquote>
         </div>
       </div>
@@ -87,7 +87,18 @@
     <script src="js/highlight.pack.js"></script>
     <script>
       $(document).ready(function() {
-        $(document).Luna();
+        $(document).Luna({
+           	scrolltop:{
+           		speed:  700,
+           		stopAt: 0,
+           		showAt: 500,
+      
+           	},
+        	accordian: {
+        		speed: 300,
+        		easing: "easeInOutSine"
+        	}
+        });
         $('pre code').each(function(i, block) {
           hljs.highlightBlock(block);
         });

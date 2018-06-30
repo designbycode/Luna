@@ -24,7 +24,7 @@ const gulp         = require('gulp'),
       notify       = require('gulp-notify');
 
 
-const isInDevelopment = false;
+const isInDevelopment = true;
 
 
 const Paths = {
@@ -45,7 +45,7 @@ const SassArray  = [
 
 const JsArray    = [
   // `${Paths.bower}jquery/dist/jquery.js`,
-  // `${Paths.bower}clipboard/dist/clipboard.js`,
+  `${Paths.bower}jquery.easing/jquery.easing.js`,
   `${Paths.js}luna.js`,
   `${Paths.js}luna.modal.js`,
   // `${Paths.js}luna.app.js`,
