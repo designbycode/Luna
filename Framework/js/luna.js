@@ -46,13 +46,16 @@ if ( typeof Object.create !== 'function' ) {
 			self.$element = $( element );
 			self.settings = $.extend({}, $.fn.Luna.settings, settings);
 
+			
+
 			self.menu();
 			self.notification();
 			self.scrollUp();
 			self.scrollPosition();
 			self.dropdown();
-	  // self.modal();
-	  self.accordian();
+			self.spyscroll();
+			// self.modal();
+			self.accordian();
 
 	},
 
@@ -67,9 +70,9 @@ if ( typeof Object.create !== 'function' ) {
 
 		nav.on('click', '.nav__navicon', function() {
 			var $self        = $(this),
-			$nav         = $self.parents('.nav'),
-			$wrapperLink = $nav.find('.nav__links__wrapper'),
-			sub          = $('.submenu-button');
+				$nav         = $self.parents('.nav'),
+				$wrapperLink = $nav.find('.nav__links__wrapper'),
+				sub          = $('.submenu-button');
 
 			$wrapperLink.slideToggle(speed, function(){
 				$(this).toggleClass('nav__links__wrapper--open').css('display', '');
@@ -112,6 +115,33 @@ if ( typeof Object.create !== 'function' ) {
 
 		resizeWindow();
 		return $(window).on('resize', resizeWindow);
+
+	},
+
+	spyscroll: function() {
+
+		var el = this.settings.spyscroll.trigger;
+		var	$offset = this.settings.spyscroll.offset;	
+		var	$active = this.settings.spyscroll.activeClass;
+
+		console.log(this.settings.spyscroll);	
+
+		$(window).bind('scroll', function() {
+			var currentTop = $(window).scrollTop();
+
+
+			var elems = $(el);
+
+			elems.each(function(index){
+				var elemTop 	= $(this).offset().top - $offset;
+				var elemBottom 	= elemTop + $(this).height();
+				if( currentTop >= elemTop && currentTop <= elemBottom ) {
+					var id 		= $(this).attr('id');
+					var navElem = $('a[href="#' + id+ '"]');
+					navElem.parent().addClass($active).siblings().removeClass( $active );
+				}
+			});
+		}); 
 
 	},
 
@@ -253,25 +283,30 @@ $.fn.Luna = function( settings ) {
    * Luna Settings
    */
    $.fn.Luna.settings = {
-	nav: {
-		mobileMenu: 900,
-		speed:      200
-	},
-	notify: {
-		speed: 200
-	},
-	scrolltop:{
-		speed:  1000,
-		stopAt: 0,
-		showAt: 500,
-		easing: "swing",
-		callback: null
-	},
-	accordian: {
-		speed: 300,
-		easing: "swing",
-		callback: null
-	}
+		nav: {
+			mobileMenu: 900,
+			speed:      200
+		},
+		notify: {
+			speed: 200
+		},
+		scrolltop:{
+			speed:  1000,
+			stopAt: 0,
+			showAt: 500,
+			easing: "swing",
+			callback: null
+		},
+		accordian: {
+			speed: 300,
+			easing: "swing",
+			callback: null
+		},
+		spyscroll: {
+			trigger: ".scrollspy",
+			offset: 0,
+			activeClass: "active"
+		},
    };
 
 

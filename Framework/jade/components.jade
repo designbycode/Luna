@@ -14,27 +14,44 @@ block content
 					h1.text--white Luna Framework Components
 
 	.wrapper
-		.row
-			.md-col-12
-				h1 Components
+
+		.row.pinned-container
+			.md-col-3#sidebar 
+
+				.well
+					ul
+						li: a(href="#navigation") Navigation
+						li: a(href="#buttons") Buttons
+						li: a(href="#inline-links") Inline Links
+						li: a(href="#blockquotes") Blockquotes
+						li: a(href="#notify") Notify
+						li: a(href="#forms") Forms
+						li: a(href="#pagination") Pagination
+						li: a(href="#media-objects") Media Objects
+						li: a(href="#tables") Tables
+						li: a(href="#cards") Cards
+						li: a(href="#timeline") Timeline
+						li: a(href="#ribbon") Ribbon
+						li: a(href="#accordian") Accordian
 
 
+			.md-col-9
 
 
-		include partials/_nav-docs.jade
-		include partials/_buttons.jade
-		include partials/_inline-link.jade
-		include partials/_blockquote.jade
-		include partials/_dropdown-button.jade
-		include partials/_notify.jade
-		include partials/_form-inputs.jade
-		include partials/_pagination.jade
-		include partials/_media-object.jade
-		include partials/_tables.jade
-		include partials/_card.jade
-		include partials/_timeline.jade
-		include partials/_ribbon.jade
-		include partials/_accordian.jade
+				include partials/_nav-docs.jade
+				include partials/_buttons.jade
+				include partials/_dropdown-button.jade
+				include partials/_inline-link.jade
+				include partials/_blockquote.jade
+				include partials/_notify.jade
+				include partials/_form-inputs.jade
+				include partials/_pagination.jade
+				include partials/_media-object.jade
+				include partials/_tables.jade
+				include partials/_card.jade
+				include partials/_timeline.jade
+				include partials/_ribbon.jade
+				include partials/_accordian.jade
 
 block scripts
 	script.
@@ -96,5 +113,35 @@ block scripts
 
 				}
 			});
+
+
+			var window_width = $( window ).width();
+
+			if (window_width < 768) {
+				$("#sidebar").trigger("sticky_kit:detach");
+			} else {
+				make_sticky();
+			}
+
+			$( window ).resize(function() {
+
+				window_width = $( window ).width();
+
+				if (window_width < 800) {
+						$("#sidebar").trigger("sticky_kit:detach");
+					} else {
+						make_sticky();
+					}
+
+			});
+
+			function make_sticky() {
+				$("#sidebar").stick_in_parent({
+					offset_top: 120
+				});
+			}	
+
+
+
 
 		});

@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/dev-style.css">
-    <title>Luna Framework - Icons</title>
   </head>
+  <title>Luna Framework - Icons</title>
   <body>
     <nav class="nav nav--fixed nav--shadow-light">
       <div class="nav__wrapper">
@@ -668,7 +668,7 @@
       </div>
     </div>
     <footer class="footer">
-      <div class="wrapper padding">
+      <div class="wrapper--fluid padding">
         <div class="row">
           <div class="col text-align-center">Created by &nbsp;<a href="http://designbycode.co.za" target="_blank">DesignByCode</a></div>
         </div>
@@ -682,21 +682,25 @@
     <script src="js/highlight.pack.js"></script>
     <script>
       $(document).ready(function() {
-        $(document).Luna({
-           	scrolltop:{
-           		speed:  700,
-           		stopAt: 0,
-           		showAt: 500,
+      	$(document).Luna({
       
-           	},
-        	accordian: {
-        		speed: 300,
-        		easing: "easeInOutSine"
-        	}
-        });
-        $('pre code').each(function(i, block) {
-          hljs.highlightBlock(block);
-        });
+      		accordian: {
+      			speed: 320,
+      			easing: "easeInOutSine"
+      		},
+      		spyscroll: {
+      		}
+      	});
+      
+      
+      	$('pre code').each(function(i, block) {
+      		hljs.highlightBlock(block);
+      	});
+      
+      
+      
+      
+      
       });
       
     </script>

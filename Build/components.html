@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/dev-style.css">
-    <title>Luna Framework - Components</title>
   </head>
+  <title>Luna Framework - Components</title>
   <body>
     <nav class="nav nav--fixed nav--shadow-light">
       <div class="nav__wrapper">
@@ -44,128 +44,144 @@
       </div>
     </div>
     <div class="wrapper">
-      <div class="row">
-        <div class="md-col-12">
-          <h1>Components</h1>
+      <div class="row pinned-container">
+        <div id="sidebar" class="md-col-3"> 
+          <div class="well">
+            <ul>
+              <li><a href="#navigation">Navigation</a></li>
+              <li><a href="#buttons">Buttons</a></li>
+              <li><a href="#inline-links">Inline Links</a></li>
+              <li><a href="#blockquotes">Blockquotes</a></li>
+              <li><a href="#notify">Notify</a></li>
+              <li><a href="#forms">Forms</a></li>
+              <li><a href="#pagination">Pagination</a></li>
+              <li><a href="#media-objects">Media Objects</a></li>
+              <li><a href="#tables">Tables</a></li>
+              <li><a href="#cards">Cards</a></li>
+              <li><a href="#timeline">Timeline</a></li>
+              <li><a href="#ribbon">Ribbon</a></li>
+              <li><a href="#accordian">Accordian</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="md-col-12">
-          <h2>Navigation</h2>
-          <p>The navigation component can be added multiple times to a page. The navigation can be altered by changing the variables in the <code>_settings.sass </code> or adding color styles to the markup</p>
-        </div>
-      </div>
-      <div class="row padding--bottom">
-        <div class="col">
-          <nav class="nav background--primary">
-            <div class="nav__wrapper">
-              <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
-              <div class="nav__navicon"></div>
-              <div class="nav__links__wrapper nav__links--right">
-                <ul class="nav__links">
-                  <li class="nav__links__item"><a href="index.html">Home</a></li>
-                  <li class="nav__links__item"><a href="icons.html">Icons</a></li>
-                </ul>
-              </div>
+        <div class="md-col-9">
+          <div id="navigation" class="row scrollspy">
+            <div class="md-col-12">
+              <h2>Navigation</h2>
+              <p>The navigation component can be added multiple times to a page. The navigation can be altered by changing the variables in the <code>_settings.sass </code> or adding color styles to the markup</p>
             </div>
-          </nav>
-        </div>
-      </div>
-      <div class="row padding--bottom">
-        <div class="col">
-          <nav class="nav background--secondary nav--shadow-dark">
-            <div class="nav__wrapper">
-              <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
-              <div class="nav__navicon"></div>
-              <div class="nav__links__wrapper nav__links--left">
-                <ul class="nav__links">
-                  <li class="nav__links__item"><a href="index.html">Home</a></li>
-                  <li class="nav__links__item"><a href="icons.html">Icons</a></li>
-                  <li class="nav__links__button"><a href="#" class="btn btn--white text--secondary">Button</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-      <div class="row padding--bottom">
-        <div class="col">
-          <nav class="nav background--danger nav--shadow">
-            <div class="nav__wrapper">
-              <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
-              <div class="nav__navicon"></div>
-              <div class="nav__links__wrapper nav__links--left">
-                <ul class="nav__links">
-                  <li class="nav__links__item"><a href="index.html"><i class="icon--left lunacon lunacon-bell-solid"></i>  Home</a></li>
-                  <li class="nav__links__item"><a href="icons.html"><i class="btn__icon--left lunacon lunacon-bell-solid"></i>  Icons</a></li>
-                </ul>
-              </div>
-              <div class="nav__links__wrapper nav__links--right">
-                <ul class="nav__links">
-                  <li class="nav__links__item"><a href="index.html">Login</a></li>
-                  <li class="nav__links__item"><a href="icons.html">Register</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-      <div class="row padding--bottom">
-        <div class="col">
-          <nav class="nav nav__mobile background--success nav--shadow-light">
-            <div class="nav__wrapper">
-              <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
-              <div class="nav__navicon"></div>
-              <div class="nav__links__wrapper nav__links--left">
-                <ul class="nav__links">
-                  <li class="nav__links__item"><a href="index.html"><i class="icon--left lunacon lunacon-home-solid"></i>  Home</a></li>
-                  <li class="nav__links__item"><a href="icons.html"><i class="btn__icon--left lunacon lunacon-bell-solid"></i>  Icons</a></li>
-                </ul>
-              </div>
-              <div class="nav__links__wrapper nav__links--right">
-                <ul class="nav__links">
-                  <li class="nav__links__button"><a href="index.html" class="btn btn--white text--success"> <i class="btn__icon--left lunacon lunacon-user-solid"></i> Login</a></li>
-                  <li class="nav__links__button"><a href="icons.html" class="btn btn--white text--success"><i class="btn__icon--left lunacon lunacon-user-delete-solid "></i> Register</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-      <div class="row padding--bottom">
-        <div class="col">
-          <nav class="nav background--info">
-            <div class="nav__wrapper">
-              <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
-              <div class="nav__navicon"></div>
-              <div class="nav__links__wrapper nav__links--left">
-                <ul class="nav__links">
-                  <li class="nav__links__item"><a href="index.html">Login</a></li>
-                  <li class="nav__links__item"><a href="icons.html">Register</a></li>
-                </ul>
-              </div>
-              <div class="nav__links__wrapper nav__links--right">
-                <li class="nav__links__button">
-                  <div class="dropdown"> <a href="#" class="btn btn--default dropdown__link">Dropdown Link <i class="lunacon lunacon-chevron-down"></i></a>
-                    <div class="dropdown__container"> 
-                      <ul> 
-                        <li> <a href="#">Link Item 1</a></li>
-                        <li> <a href="#">Link Item 2</a></li>
-                        <li> <a href="#">Link Item 3</a></li>
-                        <li> <a href="#">Link Item 4</a></li>
-                      </ul>
-                    </div>
+          </div>
+          <div class="row padding--bottom">
+            <div class="col">
+              <nav class="nav background--primary">
+                <div class="nav__wrapper">
+                  <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
+                  <div class="nav__navicon"></div>
+                  <div class="nav__links__wrapper nav__links--right">
+                    <ul class="nav__links">
+                      <li class="nav__links__item"><a href="index.html">Home</a></li>
+                      <li class="nav__links__item"><a href="icons.html">Icons</a></li>
+                    </ul>
                   </div>
-                </li>
-              </div>
+                </div>
+              </nav>
             </div>
-          </nav>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h2>Single level navigation</h2>
-          <pre><code class="html">&lt;nav class=&quot;nav&quot;&gt;
+          </div>
+          <div class="row padding--bottom">
+            <div class="col">
+              <nav class="nav background--secondary nav--shadow-dark">
+                <div class="nav__wrapper">
+                  <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
+                  <div class="nav__navicon"></div>
+                  <div class="nav__links__wrapper nav__links--left">
+                    <ul class="nav__links">
+                      <li class="nav__links__item"><a href="index.html">Home</a></li>
+                      <li class="nav__links__item"><a href="icons.html">Icons</a></li>
+                      <li class="nav__links__button"><a href="#" class="btn btn--white text--secondary">Button</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="row padding--bottom">
+            <div class="col">
+              <nav class="nav background--danger nav--shadow">
+                <div class="nav__wrapper">
+                  <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
+                  <div class="nav__navicon"></div>
+                  <div class="nav__links__wrapper nav__links--left">
+                    <ul class="nav__links">
+                      <li class="nav__links__item"><a href="index.html"><i class="icon--left lunacon lunacon-bell-solid"></i>  Home</a></li>
+                      <li class="nav__links__item"><a href="icons.html"><i class="btn__icon--left lunacon lunacon-bell-solid"></i>  Icons</a></li>
+                    </ul>
+                  </div>
+                  <div class="nav__links__wrapper nav__links--right">
+                    <ul class="nav__links">
+                      <li class="nav__links__item"><a href="index.html">Login</a></li>
+                      <li class="nav__links__item"><a href="icons.html">Register</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="row padding--bottom">
+            <div class="col">
+              <nav class="nav nav__mobile background--success nav--shadow-light">
+                <div class="nav__wrapper">
+                  <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
+                  <div class="nav__navicon"></div>
+                  <div class="nav__links__wrapper nav__links--left">
+                    <ul class="nav__links">
+                      <li class="nav__links__item"><a href="index.html"><i class="icon--left lunacon lunacon-home-solid"></i>  Home</a></li>
+                      <li class="nav__links__item"><a href="icons.html"><i class="btn__icon--left lunacon lunacon-bell-solid"></i>  Icons</a></li>
+                    </ul>
+                  </div>
+                  <div class="nav__links__wrapper nav__links--right">
+                    <ul class="nav__links">
+                      <li class="nav__links__button"><a href="index.html" class="btn btn--white text--success"> <i class="btn__icon--left lunacon lunacon-user-solid"></i> Login</a></li>
+                      <li class="nav__links__button"><a href="icons.html" class="btn btn--white text--success"><i class="btn__icon--left lunacon lunacon-user-delete-solid "></i> Register</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="row padding--bottom">
+            <div class="col">
+              <nav class="nav background--info">
+                <div class="nav__wrapper">
+                  <div class="nav__brand"><a href="index.html">Luna Framework</a></div>
+                  <div class="nav__navicon"></div>
+                  <div class="nav__links__wrapper nav__links--left">
+                    <ul class="nav__links">
+                      <li class="nav__links__item"><a href="index.html">Login</a></li>
+                      <li class="nav__links__item"><a href="icons.html">Register</a></li>
+                    </ul>
+                  </div>
+                  <div class="nav__links__wrapper nav__links--right">
+                    <li class="nav__links__button">
+                      <div class="dropdown"> <a href="#" class="btn btn--default dropdown__link">Dropdown Link <i class="lunacon lunacon-chevron-down"></i></a>
+                        <div class="dropdown__container"> 
+                          <ul> 
+                            <li> <a href="#">Link Item 1</a></li>
+                            <li> <a href="#">Link Item 2</a></li>
+                            <li> <a href="#">Link Item 3</a></li>
+                            <li> <a href="#">Link Item 4</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h2>Single level navigation</h2>
+              <pre><code class="html">&lt;nav class=&quot;nav&quot;&gt;
   &lt;div class=&quot;nav__wrapper&quot;&gt;
     &lt;div class=&quot;nav__brand&quot;&gt;&lt;a href=&quot;#&quot;&gt;Luna Framework&lt;/a&gt;&lt;/div&gt;
     &lt;div class=&quot;nav__navicon&quot;&gt;&lt;/div&gt;
@@ -177,11 +193,11 @@
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/nav&gt;</pre></code>
-        </div>
-        <div class="col">
-          <h2>Multi-level dropdown navigation</h2>
-          <p> To create a dropdown menu within the navigation you simply need to add <code> .nav__links__item--dropdown</code> to the <code>.nav__links__item</code> item.</p>
-          <pre><code class="html">&lt;li class=&quot;nav__links__item nav__links__item--dropdown&quot;&gt;
+            </div>
+            <div class="col">
+              <h2>Multi-level dropdown navigation</h2>
+              <p> To create a dropdown menu within the navigation you simply need to add <code> .nav__links__item--dropdown</code> to the <code>.nav__links__item</code> item.</p>
+              <pre><code class="html">&lt;li class=&quot;nav__links__item nav__links__item--dropdown&quot;&gt;
  &lt;a href=&quot;#&quot;&gt;...&lt;/a&gt;
  &lt;ul class=&quot;nav__links&quot;&gt;
    &lt;li class=&quot;nav__links__item&quot;&gt;
@@ -195,20 +211,20 @@
    &lt;/li&gt;
  &lt;/ul&gt;
 &lt;/li&gt;</pre></code>
-        </div>
-      </div>
-      <div class="row">
-        <div class="md-col-12">
-          <h2>Buttons</h2>
-          <p>To create a button style you can just add a <code>.btn</code> class to your anchor or button elements. Optionally you can add additional classes to style the element color, size or stylization.</p>
-          <p>To change color just add the following code  <code>.btn--primary</code> <code>.btn--secondary</code> <code>.btn--info</code> <code>.btn--warning</code> <code>.btn--success</code> <code>.btn--danger</code></p>
-          <blockquote class="blockquote blockquote--info">
-            <div class="blockquote__header">Add more color buttons.</div>
-            <div class="blockquote__body">When any additional colors are added to any of the color maps the new button will be automatically be generated.</div>
-          </blockquote>
-          <div class="btn__group"><a href="#" class="btn">Button</a><a href="#" class="btn btn--default tooltip--top" data-tooltip="button">Button</a><a href="#" class="btn btn--primary tooltip--top" data-tooltip="button">Button</a><a href="#" class="btn btn--secondary tooltip--top" data-tooltip="button">Button</a><a href="#" class="btn btn--dark tooltip--top" data-tooltip="button">Button</a><a href="#" class="btn btn--info tooltip--top" data-tooltip="button">Button</a><a href="#" class="btn btn--warning tooltip--top" data-tooltip="button">Button</a><a href="#" class="btn btn--success tooltip--top" data-tooltip="button">Button</a><a href="#" class="btn btn--danger tooltip--top" data-tooltip="button">Button</a>
+            </div>
           </div>
-          <pre><code class="html">&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Button&lt;/a&gt;
+          <div id="buttons" class="row scrollspy">
+            <div class="md-col-12">
+              <h2>Buttons</h2>
+              <p>To create a button style you can just add a <code>.btn</code> class to your anchor or button elements. Optionally you can add additional classes to style the element color, size or stylization.</p>
+              <p>To change color just add the following code  <code>.btn--primary</code> <code>.btn--secondary</code> <code>.btn--info</code> <code>.btn--warning</code> <code>.btn--success</code> <code>.btn--danger</code></p>
+              <blockquote class="blockquote blockquote--info">
+                <div class="blockquote__header">Add more color buttons.</div>
+                <div class="blockquote__body">When any additional colors are added to any of the color maps the new button will be automatically be generated.</div>
+              </blockquote>
+              <div class="btn__group"><a href="#" class="btn">Button</a><a href="#" class="btn btn--default tooltip--top" data-tooltip="button">Button</a><a href="#" class="btn btn--primary tooltip--top" data-tooltip="button">Button</a><a href="#" class="btn btn--secondary tooltip--top" data-tooltip="button">Button</a><a href="#" class="btn btn--dark tooltip--top" data-tooltip="button">Button</a><a href="#" class="btn btn--info tooltip--top" data-tooltip="button">Button</a><a href="#" class="btn btn--warning tooltip--top" data-tooltip="button">Button</a><a href="#" class="btn btn--success tooltip--top" data-tooltip="button">Button</a><a href="#" class="btn btn--danger tooltip--top" data-tooltip="button">Button</a>
+              </div>
+              <pre><code class="html">&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Button&lt;/a&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn--default&quot;&gt;Button&lt;/a&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn--primary&quot;&gt;Button&lt;/a&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn--secondary&quot;&gt;Button&lt;/a&gt;
@@ -217,180 +233,112 @@
 &lt;a href=&quot;#&quot; class=&quot;btn btn--warning&quot;&gt;Button&lt;/a&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn--succeess&quot;&gt;Button&lt;/a&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn--danger&quot;&gt;Button&lt;/a&gt;</code></pre>
-          <h2>Gradient Buttons</h2>
-          <p>To add a subtle gradient to a button you can just append <code>-gradient </code> at the end of any of the styled buttons.</p>
-          <div class="btn__group"><a href="#" class="btn">Button</a> <a href="#" class="btn btn--default-gradient">Button</a> <a href="#" class="btn btn--primary-gradient">Button</a> <a href="#" class="btn btn--secondary-gradient">Button</a> <a href="#" class="btn btn--dark-gradient">Button</a> <a href="#" class="btn btn--info-gradient">Button</a> <a href="#" class="btn btn--warning-gradient">Button</a> <a href="#" class="btn btn--success-gradient">Button</a> <a href="#" class="btn btn--danger-gradient">Button</a> 
-          </div>
-          <pre><code class="html">&lt;a href=&quot;#&quot; class=&quot;btn btn--primary-gradiant&quot;&gt;Button&lt;/a&gt;</code></pre>
-          <h2>Rounded Buttons</h2>
-          <p>Buttons can also be made rounder by prepending <code>-gradient </code> at the end of any btn element.</p>
-          <div class="btn__group"><a href="#" class="btn btn--round">Button</a> <a href="#" class="btn btn--round btn--default-gradient">Button</a> <a href="#" class="btn btn--round btn--primary-gradient">Button</a> <a href="#" class="btn btn--round btn--secondary-gradient">Button</a> <a href="#" class="btn btn--round btn--dark-gradient">Button</a> <a href="#" class="btn btn--round btn--info-gradient">Button</a> <a href="#" class="btn btn--round btn--warning-gradient">Button</a> <a href="#" class="btn btn--round btn--success-gradient">Button</a> <a href="#" class="btn btn--round btn--danger-gradient">Button</a> 
-          </div>
-          <pre><code class="html">&lt;a href=&quot;#&quot; class=&quot;btn btn--round&quot;&gt;Button&lt;/a&gt;</code></pre>
-          <h2>Button Sizes</h2>
-          <p>To change button size, add one of the following classes to the <code>.btn</code> class. <code>.btn--xs</code> <code>.btn--sm</code> <code>.btn--md</code> <code>.btn--lg</code> <code>.btn--xl</code></p>
-          <div class="btn__group">
-            <a href="#" class="btn btn--primary btn--xs">Button</a>
-            <a href="#" class="btn btn--primary btn--sm">Button</a>
-            <a href="#" class="btn btn--primary btn--md">Button</a>
-            <a href="#" class="btn btn--primary btn--lg">Button</a>
-            <a href="#" class="btn btn--primary btn--xl">Button</a>    
-          </div>
-          <div class="btn__group--middle">
-            <a href="#" class="btn btn--secondary-gradient btn--xl">Button</a>
-            <a href="#" class="btn btn--secondary-gradient btn--lg">Button</a>
-            <a href="#" class="btn btn--secondary-gradient btn--md">Button</a>
-            <a href="#" class="btn btn--secondary-gradient btn--sm">Button</a>
-            <a href="#" class="btn btn--secondary-gradient btn--xs">Button</a>
-          </div>
-          <pre><code class="html">&lt;a href=&quot;#&quot; class=&quot;btn btn--xl&quot;&gt;Button&lt;/a&gt;
+              <h2>Gradient Buttons</h2>
+              <p>To add a subtle gradient to a button you can just append <code>-gradient </code> at the end of any of the styled buttons.</p>
+              <div class="btn__group"><a href="#" class="btn">Button</a> <a href="#" class="btn btn--default-gradient">Button</a> <a href="#" class="btn btn--primary-gradient">Button</a> <a href="#" class="btn btn--secondary-gradient">Button</a> <a href="#" class="btn btn--dark-gradient">Button</a> <a href="#" class="btn btn--info-gradient">Button</a> <a href="#" class="btn btn--warning-gradient">Button</a> <a href="#" class="btn btn--success-gradient">Button</a> <a href="#" class="btn btn--danger-gradient">Button</a> 
+              </div>
+              <pre><code class="html">&lt;a href=&quot;#&quot; class=&quot;btn btn--primary-gradiant&quot;&gt;Button&lt;/a&gt;</code></pre>
+              <h2>Rounded Buttons</h2>
+              <p>Buttons can also be made rounder by prepending <code>-gradient </code> at the end of any btn element.</p>
+              <div class="btn__group"><a href="#" class="btn btn--round">Button</a> <a href="#" class="btn btn--round btn--default-gradient">Button</a> <a href="#" class="btn btn--round btn--primary-gradient">Button</a> <a href="#" class="btn btn--round btn--secondary-gradient">Button</a> <a href="#" class="btn btn--round btn--dark-gradient">Button</a> <a href="#" class="btn btn--round btn--info-gradient">Button</a> <a href="#" class="btn btn--round btn--warning-gradient">Button</a> <a href="#" class="btn btn--round btn--success-gradient">Button</a> <a href="#" class="btn btn--round btn--danger-gradient">Button</a> 
+              </div>
+              <pre><code class="html">&lt;a href=&quot;#&quot; class=&quot;btn btn--round&quot;&gt;Button&lt;/a&gt;</code></pre>
+              <h2>Button Sizes</h2>
+              <p>To change button size, add one of the following classes to the <code>.btn</code> class. <code>.btn--xs</code> <code>.btn--sm</code> <code>.btn--md</code> <code>.btn--lg</code> <code>.btn--xl</code></p>
+              <div class="btn__group">
+                <a href="#" class="btn btn--primary btn--xs">Button</a>
+                <a href="#" class="btn btn--primary btn--sm">Button</a>
+                <a href="#" class="btn btn--primary btn--md">Button</a>
+                <a href="#" class="btn btn--primary btn--lg">Button</a>
+                <a href="#" class="btn btn--primary btn--xl">Button</a>    
+              </div>
+              <div class="btn__group--middle">
+                <a href="#" class="btn btn--secondary-gradient btn--xl">Button</a>
+                <a href="#" class="btn btn--secondary-gradient btn--lg">Button</a>
+                <a href="#" class="btn btn--secondary-gradient btn--md">Button</a>
+                <a href="#" class="btn btn--secondary-gradient btn--sm">Button</a>
+                <a href="#" class="btn btn--secondary-gradient btn--xs">Button</a>
+              </div>
+              <pre><code class="html">&lt;a href=&quot;#&quot; class=&quot;btn btn--xl&quot;&gt;Button&lt;/a&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn--sm&quot;&gt;Button&lt;/a&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn--md&quot;&gt;Button&lt;/a&gt; &lt;!-- default --&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn--lg&quot;&gt;Button&lt;/a&gt;
 &lt;a href=&quot;#&quot; class=&quot;btn btn--xl&quot;&gt;Button&lt;/a&gt;</code></pre>
-          <h2>Button Icons</h2>
-          <p>Lunacon Icon can be placed ever on left or right. <code>.btn__icon--left</code> or <code>.btn__icon--right</code></p>
-          <div class="btn__group"><a href="#" class="btn btn--primary-gradient">Icon on Right <i class="btn__icon--right lunacon lunacon-moon"></i></a><a href="#" class="btn btn--primary-gradient"><i class="btn__icon--left lunacon lunacon-moon-solid"></i> Icon on Left</a><a href="#" class="btn btn--primary-gradient"><i class="btn__icon lunacon lunacon-moon-solid"></i></a></div>
-          <pre><code class="html">&lt;a class=&quot;btn&quot;&gt;&lt;i class=&quot;btn__icon--left lunacon lunacon-moon-solid&quot;&gt;&lt;/i&gt;Button&lt;/a&gt;
+              <h2>Button Icons</h2>
+              <p>Lunacon Icon can be placed ever on left or right. <code>.btn__icon--left</code> or <code>.btn__icon--right</code></p>
+              <div class="btn__group"><a href="#" class="btn btn--primary-gradient">Icon on Right <i class="btn__icon--right lunacon lunacon-moon"></i></a><a href="#" class="btn btn--primary-gradient"><i class="btn__icon--left lunacon lunacon-moon-solid"></i> Icon on Left</a><a href="#" class="btn btn--primary-gradient"><i class="btn__icon lunacon lunacon-moon-solid"></i></a></div>
+              <pre><code class="html">&lt;a class=&quot;btn&quot;&gt;&lt;i class=&quot;btn__icon--left lunacon lunacon-moon-solid&quot;&gt;&lt;/i&gt;Button&lt;/a&gt;
 &lt;a class=&quot;btn&quot;&gt;Button&lt;i class=&quot;btn__icon--right lunacon lunacon-moon-solid&quot;&gt;&lt;/i&gt;&lt;/a&gt;
 &lt;a class=&quot;btn&quot;&gt;&lt;i class=&quot;btn__icon lunacon lunacon-moon-solid&quot;&gt;&lt;/i&gt;&lt;/a&gt;</code></pre>
-          <h2>Block Button</h2>
-          <p>This block element will stretch the button to fill the parent element. Just add <code>.btn--block</code> to the button element.</p>
-          <pre><code class="html">&lt;div class=&quot;column&quot;&gt;
+              <h2>Block Button</h2>
+              <p>This block element will stretch the button to fill the parent element. Just add <code>.btn--block</code> to the button element.</p>
+              <pre><code class="html">&lt;div class=&quot;column&quot;&gt;
  &lt;a href=&quot;#&quot; class=&quot;btn btn--primary btn--block&quot;&gt;Block Button&lt;/a&gt;
 &lt;/div&gt;</code></pre><a class="btn btn--primary btn--block">Block Button</a>
-          <h2>Grouped Button</h2>
-          <p>Grouping button elements</p>
-          <div class="btn__group"><a href="#" class="btn btn--primary">Button</a><a href="#" class="btn btn--primary"><i class="lunacon lunacon-moon-solid"></i></a></div>
-          <p class="clearfix"></p>
-          <div class="btn__group"><a href="#" class="btn btn--info"><i class="btn__icon--left lunacon lunacon-home-solid"></i> Button</a><a href="#" class="btn btn--warning"><i class="btn__icon--left lunacon lunacon-home-solid"></i> Button</a><a href="#" class="btn btn--success"><i class="btn__icon--left lunacon lunacon-home-solid"></i> Button</a><a href="#" class="btn btn--danger"><i class="btn__icon--left lunacon lunacon-home-solid"></i> Button</a></div>
-          <p>When using more than one <code>.btn</code> class, just wrap all the <code>.btn</code> in a <code>.btn__group</code>  </p>
-          <pre><code class="html">&lt;div clas=&quot;btn__group&quot;&gt;
+              <h2>Grouped Button</h2>
+              <p>Grouping button elements</p>
+              <div class="btn__group"><a href="#" class="btn btn--primary">Button</a><a href="#" class="btn btn--primary"><i class="lunacon lunacon-moon-solid"></i></a></div>
+              <p class="clearfix"></p>
+              <div class="btn__group"><a href="#" class="btn btn--info"><i class="btn__icon--left lunacon lunacon-home-solid"></i> Button</a><a href="#" class="btn btn--warning"><i class="btn__icon--left lunacon lunacon-home-solid"></i> Button</a><a href="#" class="btn btn--success"><i class="btn__icon--left lunacon lunacon-home-solid"></i> Button</a><a href="#" class="btn btn--danger"><i class="btn__icon--left lunacon lunacon-home-solid"></i> Button</a></div>
+              <p>When using more than one <code>.btn</code> class, just wrap all the <code>.btn</code> in a <code>.btn__group</code>  </p>
+              <pre><code class="html">&lt;div clas=&quot;btn__group&quot;&gt;
   &lt;a href=&quot;#&quot; class=&quot;btn btn--primary&quot;&gt;Button&lt;/a&gt;
   &lt;a href=&quot;#&quot; class=&quot;btn btn--primary&quot;&gt;Button&lt;/a&gt;
   &lt;a href=&quot;#&quot; class=&quot;btn btn--primary&quot;&gt;Button&lt;/a&gt;
   &lt;a href=&quot;#&quot; class=&quot;btn btn--primary&quot;&gt;Button&lt;/a&gt;
 &lt;/a&gt;</code></pre>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h2>Inline Links</h2>
-          <p>A very simple element for placing links inline. </p>
-        </div>
-        <div class="col">
-          <ul class="links__inline">
-            <li class="links__inline__item"><a href="#">Inline Item </a></li>
-            <li class="links__inline__item"><a href="#">Inline Item </a></li>
-            <li class="links__inline__item"><a href="#">Inline Item </a></li>
-          </ul>
-        </div>
-        <div class="col">
-          <ul class="links__inline">
-            <li class="links__inline__item"><a class="btn btn--primary">Inline Button </a></li>
-            <li class="links__inline__item"><a class="btn btn--primary">Inline Button </a></li>
-            <li class="links__inline__item"><a class="btn btn--primary">Inline Button </a></li>
-          </ul>
-        </div>
-        <div class="col"> 
-          <pre><code lang="html">&lt;ul class=&quot;links__inline&quot;&gt;
- &lt;li class=&quot;links__inline__item&quot;&gt;&lt;a class=&quot;btn btn--primary&quot;&gt;Inline Button &lt;/a&gt;&lt;/li&gt;
- &lt;li class=&quot;links__inline__item&quot;&gt;&lt;a class=&quot;btn btn--primary&quot;&gt;Inline Button &lt;/a&gt;&lt;/li&gt;
- &lt;li class=&quot;links__inline__item&quot;&gt;&lt;a class=&quot;btn btn--primary&quot;&gt;Inline Button &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</code></pre>
-        </div>
-      </div>
-      <div class="row">
-        <div class="md-col-12">
-          <h2>Blockquotes</h2>
-          <p>A simple blockquote element</p>
-        </div>
-      </div>
-      <div class="row"> 
-        <div class="md-col-6">
-          <blockquote class="blockquote blockquote--info">
-            <div class="blockquote__header">Blockquote Header</div>
-            <div class="blockquote__body">Blockquote Body</div>
-            <div class="blockquote__footer background--info-light"><a href="#" class="btn btn--info">Blockquote Footer </a></div>
-          </blockquote>
-          <blockquote class="blockquote blockquote--success">
-            <div class="blockquote__header">Blockquote Header</div>
-            <div class="blockquote__body">Blockquote Body</div>
-            <div class="blockquote__footer background--success-light"><a href="#" class="btn btn--success">Blockquote Footer </a></div>
-          </blockquote>
-        </div>
-        <div class="md-col-6">
-          <blockquote class="blockquote blockquote--warning">
-            <div class="blockquote__header">Blockquote Header</div>
-            <div class="blockquote__body">Blockquote Body</div>
-            <div class="blockquote__footer background--warning-light"><a href="#" class="btn btn--warning">Blockquote Footer  </a></div>
-          </blockquote>
-          <blockquote class="blockquote blockquote--danger">
-            <div class="blockquote__header">Blockquote Header</div>
-            <div class="blockquote__body">Blockquote Body</div>
-            <div class="blockquote__footer background--danger-light"><a href="#" class="btn btn--danger">Blockquote Footer </a></div>
-          </blockquote>
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <pre><code class="html">&lt;blockquote class=&quot;blockquote blockquote--info&quot;&gt;
-  &lt;div class=&quot;blockquote__header&quot;&gt;Blockquote Header&lt;/div&gt;
-  &lt;div class=&quot;blockquote__body&quot;&gt;Blockquote Body&lt;/div&gt;
-  &lt;div class=&quot;blockquote__footer background--info-light&quot;&gt;Blockquote Footer &lt;/div&gt;
-&lt;/blockquote&gt;</code></pre>
-        </div>
-      </div>
-      <div class="row"> 
-        <div class="col">
-          <h2>Dropdown Buttons</h2>
-          <p>The dropdown button can be used as a normal link or as a part of the default <code>.btn</code> classes.</p>
-        </div>
-        <div class="col">
-          <div class="dropdown"><a href="#" class="dropdown__link">Dropdown Link <i class="lunacon lunacon-chevron-down"></i></a>
-            <div class="dropdown__container">
-              <lorem>ipsum dolor sit amet, consectetur adipisicing elit. Doloremque enim iusto, ullam nesciunt distinctio facilis nisi saepe sunt unde laboriosam tempore quam, quas vitae, sed doloribus et, quisquam nobis sint.</lorem>
             </div>
           </div>
-          <div class="dropdown"><a href="#" class="dropdown__link">Dropdown Link <i class="lunacon lunacon-chevron-down"></i></a>
-            <div class="dropdown__container">
-              <ul>
-                <li><a href="#">Link Item 1</a></li>
-                <li><a href="#">Link Item 2</a></li>
-                <li><a href="#">Link Item 3</a></li>
-                <li><a href="#">Link Item 4</a></li>
-              </ul>
+          <div class="row"> 
+            <div class="col">
+              <h2>Dropdown Buttons</h2>
+              <p>The dropdown button can be used as a normal link or as a part of the default <code>.btn</code> classes.</p>
             </div>
-          </div>
-          <div class="dropdown"><a href="#" class="dropdown__link">Dropdown Link <i class="lunacon lunacon-chevron-down"></i></a>
-            <div class="dropdown__container">
-              <h3>Heading Text</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque enim iusto, ullam nesciunt distinctio facilis nisi saepe sunt unde laboriosam tempore quam, quas vitae, sed doloribus et, quisquam nobis sint.</p><a href="#" class="btn btn--primary btn--block">Block Button</a>
+            <div class="col">
+              <div class="dropdown"><a href="#" class="dropdown__link">Dropdown Link <i class="lunacon lunacon-chevron-down"></i></a>
+                <div class="dropdown__container">
+                  <lorem>ipsum dolor sit amet, consectetur adipisicing elit. Doloremque enim iusto, ullam nesciunt distinctio facilis nisi saepe sunt unde laboriosam tempore quam, quas vitae, sed doloribus et, quisquam nobis sint.</lorem>
+                </div>
+              </div>
+              <div class="dropdown"><a href="#" class="dropdown__link">Dropdown Link <i class="lunacon lunacon-chevron-down"></i></a>
+                <div class="dropdown__container">
+                  <ul>
+                    <li><a href="#">Link Item 1</a></li>
+                    <li><a href="#">Link Item 2</a></li>
+                    <li><a href="#">Link Item 3</a></li>
+                    <li><a href="#">Link Item 4</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="dropdown"><a href="#" class="dropdown__link">Dropdown Link <i class="lunacon lunacon-chevron-down"></i></a>
+                <div class="dropdown__container">
+                  <h3>Heading Text</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque enim iusto, ullam nesciunt distinctio facilis nisi saepe sunt unde laboriosam tempore quam, quas vitae, sed doloribus et, quisquam nobis sint.</p><a href="#" class="btn btn--primary btn--block">Block Button</a>
+                </div>
+              </div>
+              <div class="dropdown"><a href="#" class="btn btn--primary-gradient dropdown__link">Dropdown Link <i class="lunacon lunacon-chevron-down"></i></a>
+                <div class="dropdown__container">
+                  <ul>
+                    <li><a href="#">Link Item 1</a></li>
+                    <li><a href="#">Link Item 2</a></li>
+                    <li><a href="#">Link Item 3</a></li>
+                    <li><a href="#">Link Item 4</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="dropdown"><a href="#" class="btn btn--primary-gradient btn--xl dropdown__link">Dropdown Link <i class="lunacon lunacon-chevron-down"></i></a>
+                <div class="dropdown__container">
+                  <ul>
+                    <li><a href="#">Link Item 1</a></li>
+                    <li><a href="#">Link Item 2</a></li>
+                    <li><a href="#">Link Item 3</a></li>
+                    <li><a href="#">Link Item 4</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="dropdown"><a href="#" class="btn btn--primary-gradient dropdown__link">Dropdown Link <i class="lunacon lunacon-chevron-down"></i></a>
-            <div class="dropdown__container">
-              <ul>
-                <li><a href="#">Link Item 1</a></li>
-                <li><a href="#">Link Item 2</a></li>
-                <li><a href="#">Link Item 3</a></li>
-                <li><a href="#">Link Item 4</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="dropdown"><a href="#" class="btn btn--primary-gradient btn--xl dropdown__link">Dropdown Link <i class="lunacon lunacon-chevron-down"></i></a>
-            <div class="dropdown__container">
-              <ul>
-                <li><a href="#">Link Item 1</a></li>
-                <li><a href="#">Link Item 2</a></li>
-                <li><a href="#">Link Item 3</a></li>
-                <li><a href="#">Link Item 4</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col"> 
-          <pre><code lang="html">&lt;div class=&quot;dropdown&quot;&gt; 
+            <div class="col"> 
+              <pre><code lang="html">&lt;div class=&quot;dropdown&quot;&gt; 
  &lt;a href=&quot;#&quot; class=&quot;dropdown__link&quot;&gt;Dropdown Link &lt;i class=&quot;lunacon lunacon-chevron-down&quot;&gt;&lt;/i&gt;&lt;/a&gt;
  &lt;div class=&quot;dropdown__container&quot;&gt; 
    &lt;ul&gt; 
@@ -401,52 +349,120 @@
    &lt;/ul&gt;
  &lt;/div&gt;
 &lt;/div&gt;						</code></pre>
-        </div>
-        <div class="col"> 
-          <blockquote class="blockquote blockquote--info">
-            <div class="blockquote__header">Optionally to make button</div>
-            <div class="blockquote__body">To make the <code>.dropdown__link</code> a button, you simply chain on the <code>.btn</code>  classes to modify as needed.</div>
-          </blockquote>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h2>Notifyers</h2>
-          <p>There are 2 variations of the notify elements. A default set and a light set.  Simply append <code>-light</code> to the end of any notify elements.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <blockquote class="blockquote blockquote--warning">
-            <div class="blockquote__header">Make element dismissable.</div>
-            <div class="blockquote__body">
-              Add the class <code>.notify__dismissable</code> to the main element.
-              Also make sure to initialize the javasript function.
             </div>
-          </blockquote>
-        </div>
-      </div>
-      <div class="row">
-        <div class="md-col-6">
-          <div class="notify notify__dismissable">Info Notify</div>
-          <div class="notify notify__dismissable notify--default">Info Notify</div>
-          <div class="notify notify__dismissable notify--info">Info Notify</div>
-          <div class="notify notify__dismissable notify--warning">Warning Notify</div>
-          <div class="notify notify__dismissable notify--success">Success Notify</div>
-          <div class="notify notify__dismissable notify--danger">Danger Notify</div>
-        </div>
-        <div class="md-col-6">
-          <div class="notify notify__dismissable">Info Notify Light</div>
-          <div class="notify notify__dismissable notify--default-light">Info Notify Light</div>
-          <div class="notify notify__dismissable notify--info-light">Info Notify Light</div>
-          <div class="notify notify__dismissable notify--warning-light">Warning Notify Light</div>
-          <div class="notify notify__dismissable notify--success-light">Success Notify Light</div>
-          <div class="notify notify__dismissable notify--danger-light">Danger Notify Light</div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <pre><code>&lt;div class=&quot;notify notify__dismissable&quot;&gt;Info Notify&lt;/div&gt;
+            <div class="col"> 
+              <blockquote class="blockquote blockquote--info">
+                <div class="blockquote__header">Optionally to make button</div>
+                <div class="blockquote__body">To make the <code>.dropdown__link</code> a button, you simply chain on the <code>.btn</code>  classes to modify as needed.</div>
+              </blockquote>
+            </div>
+          </div>
+          <div id="inline-links" class="row scrollspy">
+            <div class="col">
+              <h2>Inline Links</h2>
+              <p>A very simple element for placing links inline. </p>
+            </div>
+            <div class="col">
+              <ul class="links__inline">
+                <li class="links__inline__item"><a href="#">Inline Item </a></li>
+                <li class="links__inline__item"><a href="#">Inline Item </a></li>
+                <li class="links__inline__item"><a href="#">Inline Item </a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="links__inline">
+                <li class="links__inline__item"><a class="btn btn--primary">Inline Button </a></li>
+                <li class="links__inline__item"><a class="btn btn--primary">Inline Button </a></li>
+                <li class="links__inline__item"><a class="btn btn--primary">Inline Button </a></li>
+              </ul>
+            </div>
+            <div class="col"> 
+              <pre><code lang="html">&lt;ul class=&quot;links__inline&quot;&gt;
+ &lt;li class=&quot;links__inline__item&quot;&gt;&lt;a class=&quot;btn btn--primary&quot;&gt;Inline Button &lt;/a&gt;&lt;/li&gt;
+ &lt;li class=&quot;links__inline__item&quot;&gt;&lt;a class=&quot;btn btn--primary&quot;&gt;Inline Button &lt;/a&gt;&lt;/li&gt;
+ &lt;li class=&quot;links__inline__item&quot;&gt;&lt;a class=&quot;btn btn--primary&quot;&gt;Inline Button &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+            </div>
+          </div>
+          <div id="blockquotes" class="row scrollspy">
+            <div class="md-col-12">
+              <h2>Blockquotes</h2>
+              <p>A simple blockquote element</p>
+            </div>
+          </div>
+          <div class="row"> 
+            <div class="md-col-6">
+              <blockquote class="blockquote blockquote--info">
+                <div class="blockquote__header">Blockquote Header</div>
+                <div class="blockquote__body">Blockquote Body</div>
+                <div class="blockquote__footer background--info-light"><a href="#" class="btn btn--info">Blockquote Footer </a></div>
+              </blockquote>
+              <blockquote class="blockquote blockquote--success">
+                <div class="blockquote__header">Blockquote Header</div>
+                <div class="blockquote__body">Blockquote Body</div>
+                <div class="blockquote__footer background--success-light"><a href="#" class="btn btn--success">Blockquote Footer </a></div>
+              </blockquote>
+            </div>
+            <div class="md-col-6">
+              <blockquote class="blockquote blockquote--warning">
+                <div class="blockquote__header">Blockquote Header</div>
+                <div class="blockquote__body">Blockquote Body</div>
+                <div class="blockquote__footer background--warning-light"><a href="#" class="btn btn--warning">Blockquote Footer  </a></div>
+              </blockquote>
+              <blockquote class="blockquote blockquote--danger">
+                <div class="blockquote__header">Blockquote Header</div>
+                <div class="blockquote__body">Blockquote Body</div>
+                <div class="blockquote__footer background--danger-light"><a href="#" class="btn btn--danger">Blockquote Footer </a></div>
+              </blockquote>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <pre><code class="html">&lt;blockquote class=&quot;blockquote blockquote--info&quot;&gt;
+  &lt;div class=&quot;blockquote__header&quot;&gt;Blockquote Header&lt;/div&gt;
+  &lt;div class=&quot;blockquote__body&quot;&gt;Blockquote Body&lt;/div&gt;
+  &lt;div class=&quot;blockquote__footer background--info-light&quot;&gt;Blockquote Footer &lt;/div&gt;
+&lt;/blockquote&gt;</code></pre>
+            </div>
+          </div>
+          <div id="notify" class="row scrollspy">
+            <div class="col">
+              <h2>Notifyers</h2>
+              <p>There are 2 variations of the notify elements. A default set and a light set.  Simply append <code>-light</code> to the end of any notify elements.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <blockquote class="blockquote blockquote--warning">
+                <div class="blockquote__header">Make element dismissable.</div>
+                <div class="blockquote__body">
+                  Add the class <code>.notify__dismissable</code> to the main element.
+                  Also make sure to initialize the javasript function.
+                </div>
+              </blockquote>
+            </div>
+          </div>
+          <div class="row">
+            <div class="md-col-6">
+              <div class="notify notify__dismissable">Info Notify</div>
+              <div class="notify notify__dismissable notify--default">Info Notify</div>
+              <div class="notify notify__dismissable notify--info">Info Notify</div>
+              <div class="notify notify__dismissable notify--warning">Warning Notify</div>
+              <div class="notify notify__dismissable notify--success">Success Notify</div>
+              <div class="notify notify__dismissable notify--danger">Danger Notify</div>
+            </div>
+            <div class="md-col-6">
+              <div class="notify notify__dismissable">Info Notify Light</div>
+              <div class="notify notify__dismissable notify--default-light">Info Notify Light</div>
+              <div class="notify notify__dismissable notify--info-light">Info Notify Light</div>
+              <div class="notify notify__dismissable notify--warning-light">Warning Notify Light</div>
+              <div class="notify notify__dismissable notify--success-light">Success Notify Light</div>
+              <div class="notify notify__dismissable notify--danger-light">Danger Notify Light</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <pre><code>&lt;div class=&quot;notify notify__dismissable&quot;&gt;Info Notify&lt;/div&gt;
 &lt;div class=&quot;notify notify__dismissable notify--default&quot;&gt;Info Notify&lt;/div&gt;
 &lt;div class=&quot;notify notify__dismissable notify--info&quot;&gt;Info Notify&lt;/div&gt;
 &lt;div class=&quot;notify notify__dismissable notify--warning&quot;&gt;Warning Notify&lt;/div&gt;
@@ -454,86 +470,86 @@
 &lt;div class=&quot;notify notify__dismissable notify--danger&quot;&gt;Danger Notify&lt;/div&gt;
 &lt;!-- for light version just add -light at the back --&gt;
 &lt;div class=&quot;notify notify--info-light&quot;&gt;Info Notify&lt;/div&gt;</pre></code>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h2>Form Inputs</h2>
-          <p>Luna has a variety of layout to accommodate your needs. There are the standard layout, inline layout and horizontal layout.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="md-col-6">
-          <div class="form__group">
-            <label class="form__label">Label:</label>
-            <input type="text" class="form__item">
-          </div>
-          <div class="form__group">
-            <label class="form__label">TextArea:</label>
-            <textarea class="form__item"></textarea>
-          </div>
-          <div class="form__group">
-            <button type="submit" class="btn btn--primary">Submit</button>
-            <button type="submit" class="btn">Learn more</button>
-          </div>
-        </div>
-        <div class="md-col-6">
-          <div class="form__group">
-            <label class="form__label">Addon</label>
-            <div class="form__item__group">
-              <div class="addon">http://</div>
-              <input type="text" class="form__item">
-              <button type="submit" class="btn btn--primary">Go</button>
             </div>
           </div>
-          <div class="form__group">
-            <label class="form__label">Addon</label>
-            <div class="form__item__group">
-              <input type="text" class="form__item">
-              <div class="addon"><i class="lunacon lunacon-search"></i></div>
-              <button type="submit" class="btn btn--primary">Search</button>
+          <div id="forms" class="row scrollspy">
+            <div class="col">
+              <h2>Form Inputs</h2>
+              <p>Luna has a variety of layout to accommodate your needs. There are the standard layout, inline layout and horizontal layout.</p>
             </div>
           </div>
-          <div class="form__group">
-            <label class="form__label">Attrubute set to Disabled</label>
-            <div class="form__item__group">
-              <input type="text" disabled value="Is Disabled" class="form__item">
-              <div class="addon"><i class="lunacon lunacon-search"></i></div>
-              <button type="submit" disabled class="btn btn--primary">Search</button>
+          <div class="row">
+            <div class="md-col-6">
+              <div class="form__group">
+                <label class="form__label">Label:</label>
+                <input type="text" class="form__item">
+              </div>
+              <div class="form__group">
+                <label class="form__label">TextArea:</label>
+                <textarea class="form__item"></textarea>
+              </div>
+              <div class="form__group">
+                <button type="submit" class="btn btn--primary">Submit</button>
+                <button type="submit" class="btn">Learn more</button>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <h2>Form Inputs Validation</h2>
-          <p>Form validation is an important part of web development. This section will show you how to make this easy to change form input fields, label colors and adding some validation messages to the <code>.form__group</code></p>
-        </div>
-        <div class="md-col-6">
-          <h2>Form Inputs Validation Colors</h2>
-          <p>The form <code>.has__{identifier}</code>automatically changes colors of the child elements in the  <code>.form__group</code> block element.</p>
-          <p>Simply add <code>info</code> , <code>warning</code> , <code>success</code> or <code>danger</code> as the {identifier} to change the input and label colors.</p>
-        </div>
-        <div class="md-col-6">
-          <div class="well">
-            <div class="form__group has__info">
-              <label class="form__label">Info Input</label>
-              <input type="text" class="form__item">
+            <div class="md-col-6">
+              <div class="form__group">
+                <label class="form__label">Addon</label>
+                <div class="form__item__group">
+                  <div class="addon">http://</div>
+                  <input type="text" class="form__item">
+                  <button type="submit" class="btn btn--primary">Go</button>
+                </div>
+              </div>
+              <div class="form__group">
+                <label class="form__label">Addon</label>
+                <div class="form__item__group">
+                  <input type="text" class="form__item">
+                  <div class="addon"><i class="lunacon lunacon-search"></i></div>
+                  <button type="submit" class="btn btn--primary">Search</button>
+                </div>
+              </div>
+              <div class="form__group">
+                <label class="form__label">Attrubute set to Disabled</label>
+                <div class="form__item__group">
+                  <input type="text" disabled value="Is Disabled" class="form__item">
+                  <div class="addon"><i class="lunacon lunacon-search"></i></div>
+                  <button type="submit" disabled class="btn btn--primary">Search</button>
+                </div>
+              </div>
             </div>
-            <div class="form__group has__warning">
-              <label class="form__label">Warning Input</label>
-              <input type="text" class="form__item">
+            <div class="col">
+              <h2>Form Inputs Validation</h2>
+              <p>Form validation is an important part of web development. This section will show you how to make this easy to change form input fields, label colors and adding some validation messages to the <code>.form__group</code></p>
             </div>
-            <div class="form__group has__success">
-              <label class="form__label">Success Input</label>
-              <input type="text" class="form__item">
+            <div class="md-col-6">
+              <h2>Form Inputs Validation Colors</h2>
+              <p>The form <code>.has__{identifier}</code>automatically changes colors of the child elements in the  <code>.form__group</code> block element.</p>
+              <p>Simply add <code>info</code> , <code>warning</code> , <code>success</code> or <code>danger</code> as the {identifier} to change the input and label colors.</p>
             </div>
-            <div class="form__group has__danger">
-              <label class="form__label">Danger Input</label>
-              <input type="text" class="form__item">
+            <div class="md-col-6">
+              <div class="well">
+                <div class="form__group has__info">
+                  <label class="form__label">Info Input</label>
+                  <input type="text" class="form__item">
+                </div>
+                <div class="form__group has__warning">
+                  <label class="form__label">Warning Input</label>
+                  <input type="text" class="form__item">
+                </div>
+                <div class="form__group has__success">
+                  <label class="form__label">Success Input</label>
+                  <input type="text" class="form__item">
+                </div>
+                <div class="form__group has__danger">
+                  <label class="form__label">Danger Input</label>
+                  <input type="text" class="form__item">
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="md-col-12">
-          <pre><code lang="html">&lt;div class=&quot;form__group has__info&quot;&gt;
+            <div class="md-col-12">
+              <pre><code lang="html">&lt;div class=&quot;form__group has__info&quot;&gt;
    &lt;label class=&quot;form__label&quot;&gt;Info Input&lt;/label&gt;
    &lt;input type=&quot;text&quot; class=&quot;form__item&quot;&gt;
  &lt;/div&gt;
@@ -549,29 +565,29 @@
    &lt;label class=&quot;form__label&quot;&gt;Danger Input&lt;/label&gt;
    &lt;input type=&quot;text&quot; class=&quot;form__item&quot;&gt;
  &lt;/div&gt;</code></pre>
-        </div>
-        <div class="md-col-6">
-          <h2>Form Validation Messages</h2>
-          <p>The validation message will inherit the color of the validation colors class above. Just add a <code>span</code> element with a class of <code>.form__helper</code> after the input field with in the <code>.form__group</code> block ether using php or JavaScript.</p>
-        </div>
-        <div class="md-col-6">
-          <div class="well">
-            <div class="form__group has__info">
-              <input type="text" class="form__item"><span class="form__helper">Info Message</span>
             </div>
-            <div class="form__group has__warning">
-              <input type="text" class="form__item"><span class="form__helper">Warning Message</span>
+            <div class="md-col-6">
+              <h2>Form Validation Messages</h2>
+              <p>The validation message will inherit the color of the validation colors class above. Just add a <code>span</code> element with a class of <code>.form__helper</code> after the input field with in the <code>.form__group</code> block ether using php or JavaScript.</p>
             </div>
-            <div class="form__group has__success">
-              <input type="text" class="form__item"><span class="form__helper">Success Message</span>
+            <div class="md-col-6">
+              <div class="well">
+                <div class="form__group has__info">
+                  <input type="text" class="form__item"><span class="form__helper">Info Message</span>
+                </div>
+                <div class="form__group has__warning">
+                  <input type="text" class="form__item"><span class="form__helper">Warning Message</span>
+                </div>
+                <div class="form__group has__success">
+                  <input type="text" class="form__item"><span class="form__helper">Success Message</span>
+                </div>
+                <div class="form__group has__danger">
+                  <input type="text" class="form__item"><span class="form__helper">Error Message</span>
+                </div>
+              </div>
             </div>
-            <div class="form__group has__danger">
-              <input type="text" class="form__item"><span class="form__helper">Error Message</span>
-            </div>
-          </div>
-        </div>
-        <div class="md-col-12">
-          <pre><code lang="html">&lt;div class=&quot;form__group has__info&quot;&gt;
+            <div class="md-col-12">
+              <pre><code lang="html">&lt;div class=&quot;form__group has__info&quot;&gt;
    &lt;input type=&quot;text&quot; class=&quot;form__item&quot;&gt;
    &lt;span class=&quot;form__helper&quot;&gt;Info Message&lt;/span&gt;
  &lt;/div&gt;
@@ -587,41 +603,41 @@
    &lt;input type=&quot;text&quot; class=&quot;form__item&quot;&gt;
    &lt;span class=&quot;form__helper&quot;&gt;Error Message&lt;/span&gt;
  &lt;/div&gt;</code></pre>
-        </div>
-        <div class="md-col-12">
-          <blockquote class="blockquote blockquote--warning">
-            <div class="blockquote__header">The inputs can also be styled using the <strong>Css Helpers</strong></div>
-            <div class="blockquote__body">By adding some html tags you can change the input fields.</div>
-            <div class="blockquote__footer background--warning-light"><a href="css-helpers.html" class="btn btn--warning">Css helpers</a></div>
-          </blockquote>
-        </div>
-      </div>
-      <div class="row">
-        <div class="md-col-6">
-          <h2>Form Input sizes</h2>
-          <p>Just like the <code>.btn</code> element the form input field can be resized by using style modifyers like <code>.form__item--xs</code> <code>.form__item--sm</code> <code>.form__item--md</code> <code>.form__item--lg</code> <code>.form__item--xl</code>.</p>
-        </div>
-        <div class="md-col-6">
-          <div class="well">
-            <div class="form__group">
-              <input type="text" placeholder="Extra small - xs" class="form__item form__item--xs">
             </div>
-            <div class="form__group">
-              <input type="text" placeholder="Small - sm" class="form__item form__item--sm">
-            </div>
-            <div class="form__group">
-              <input type="text" placeholder="Medium - xs" class="form__item form__item--md">
-            </div>
-            <div class="form__group">
-              <input type="text" placeholder="Large - lg" class="form__item form__item--lg">
-            </div>
-            <div class="form__group">
-              <input type="text" placeholder="Extra Large - xl" class="form__item form__item--xl">
+            <div class="md-col-12">
+              <blockquote class="blockquote blockquote--warning">
+                <div class="blockquote__header">The inputs can also be styled using the <strong>Css Helpers</strong></div>
+                <div class="blockquote__body">By adding some html tags you can change the input fields.</div>
+                <div class="blockquote__footer background--warning-light"><a href="css-helpers.html" class="btn btn--warning">Css helpers</a></div>
+              </blockquote>
             </div>
           </div>
-        </div>
-        <div class="md-col-12">
-          <pre><code lang="html">&lt;div class=&quot;form__group&quot;&gt;
+          <div class="row">
+            <div class="md-col-6">
+              <h2>Form Input sizes</h2>
+              <p>Just like the <code>.btn</code> element the form input field can be resized by using style modifyers like <code>.form__item--xs</code> <code>.form__item--sm</code> <code>.form__item--md</code> <code>.form__item--lg</code> <code>.form__item--xl</code>.</p>
+            </div>
+            <div class="md-col-6">
+              <div class="well">
+                <div class="form__group">
+                  <input type="text" placeholder="Extra small - xs" class="form__item form__item--xs">
+                </div>
+                <div class="form__group">
+                  <input type="text" placeholder="Small - sm" class="form__item form__item--sm">
+                </div>
+                <div class="form__group">
+                  <input type="text" placeholder="Medium - xs" class="form__item form__item--md">
+                </div>
+                <div class="form__group">
+                  <input type="text" placeholder="Large - lg" class="form__item form__item--lg">
+                </div>
+                <div class="form__group">
+                  <input type="text" placeholder="Extra Large - xl" class="form__item form__item--xl">
+                </div>
+              </div>
+            </div>
+            <div class="md-col-12">
+              <pre><code lang="html">&lt;div class=&quot;form__group&quot;&gt;
    &lt;input type=&quot;text&quot; placeholder=&quot;&quot; class=&quot;form__item form__item--xs&quot;&gt;
  &lt;/div&gt;
  &lt;div class=&quot;form__group&quot;&gt;
@@ -636,43 +652,43 @@
  &lt;div class=&quot;form__group&quot;&gt;
    &lt;input type=&quot;text&quot; placeholder=&quot;&quot; class=&quot;form__item form__item--xl&quot;&gt;
  &lt;/div&gt;</code></pre>
-        </div>
-        <div class="md-col-6">
-          <h2>Horizontal Form</h2>
-          <p>The <strong>horizontal</strong> style form can be created by using the <strong>grid classes</strong> and adding <code>.form__horizontal</code> to the parent container.</p>
-        </div>
-        <div class="md-col-6">
-          <div class="well">
-            <form action="" method="post" class="form__horizontal">
-              <div class="form__group">
-                <label for="name" class="md-col-3 md-text-align-right form__label">Name</label>
-                <div class="md-col-9">
-                  <input type="text" id="name" class="form__item">
-                </div>
+            </div>
+            <div class="md-col-6">
+              <h2>Horizontal Form</h2>
+              <p>The <strong>horizontal</strong> style form can be created by using the <strong>grid classes</strong> and adding <code>.form__horizontal</code> to the parent container.</p>
+            </div>
+            <div class="md-col-6">
+              <div class="well">
+                <form action="" method="post" class="form__horizontal">
+                  <div class="form__group">
+                    <label for="name" class="md-col-3 md-text-align-right form__label">Name</label>
+                    <div class="md-col-9">
+                      <input type="text" id="name" class="form__item">
+                    </div>
+                  </div>
+                  <div class="form__group">
+                    <label for="email" class="md-col-3 md-text-align-right form__label">Email</label>
+                    <div class="md-col-9">
+                      <input type="email" id="email" class="form__item">
+                    </div>
+                  </div>
+                  <div class="form__group">
+                    <label for="content" class="md-col-3 md-text-align-right form__label">Content</label>
+                    <div class="md-col-9">
+                      <textarea id="content" class="form__item"></textarea>
+                    </div>
+                  </div>
+                  <div class="form__group">
+                    <div class="md-col-9 md-offset-3">
+                      <button class="btn btn--primary">Submit</button>
+                      <button class="btn">Learn more</button>
+                    </div>
+                  </div>
+                </form>
               </div>
-              <div class="form__group">
-                <label for="email" class="md-col-3 md-text-align-right form__label">Email</label>
-                <div class="md-col-9">
-                  <input type="email" id="email" class="form__item">
-                </div>
-              </div>
-              <div class="form__group">
-                <label for="content" class="md-col-3 md-text-align-right form__label">Content</label>
-                <div class="md-col-9">
-                  <textarea id="content" class="form__item"></textarea>
-                </div>
-              </div>
-              <div class="form__group">
-                <div class="md-col-9 md-offset-3">
-                  <button class="btn btn--primary">Submit</button>
-                  <button class="btn">Learn more</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col">
-          <pre><code lang="html">&lt;form action=&quot;&quot; method=&quot;post&quot; class=&quot;form__horizontal&quot;&gt;
+            </div>
+            <div class="col">
+              <pre><code lang="html">&lt;form action=&quot;&quot; method=&quot;post&quot; class=&quot;form__horizontal&quot;&gt;
  &lt;div class=&quot;form__group&quot;&gt;
    &lt;label for=&quot;name&quot; class=&quot;md-col-3 md-text-align-right form__label&quot;&gt;Name&lt;/label&gt;
    &lt;div class=&quot;md-col-9&quot;&gt;
@@ -698,23 +714,23 @@
    &lt;/div&gt;
  &lt;/div&gt;
 &lt;/form&gt;</code></pre>
-        </div>
-        <div class="md-col-12">
-          <h2>Checkbox Element</h2>
-          <p>A simple checkbox element with animation and yes it is also customizable in the <code>_setting.sass</code></p>
-          <div class="well">
-            <div class="form__group"> 
-              <div class="form__group__checkbox">
-                <input type="checkbox" name="" id="check-3" class="form__checkbox">
-                <label for="check-3" class="from__label__checkbox">Checkbox</label>
-              </div>
-              <div class="form__group__checkbox">
-                <input type="checkbox" disabled="disabled" name="" id="check-2" class="form__checkbox">
-                <label for="check-2" class="from__label__checkbox">Checkbox Disables</label>
-              </div>
             </div>
-          </div>
-          <pre><code lang="html">&lt;div class=&quot;form__group__checkbox&quot;&gt;
+            <div class="md-col-12">
+              <h2>Checkbox Element</h2>
+              <p>A simple checkbox element with animation and yes it is also customizable in the <code>_setting.sass</code></p>
+              <div class="well">
+                <div class="form__group"> 
+                  <div class="form__group__checkbox">
+                    <input type="checkbox" name="" id="check-3" class="form__checkbox">
+                    <label for="check-3" class="from__label__checkbox">Checkbox</label>
+                  </div>
+                  <div class="form__group__checkbox">
+                    <input type="checkbox" disabled="disabled" name="" id="check-2" class="form__checkbox">
+                    <label for="check-2" class="from__label__checkbox">Checkbox Disables</label>
+                  </div>
+                </div>
+              </div>
+              <pre><code lang="html">&lt;div class=&quot;form__group__checkbox&quot;&gt;
    &lt;input type=&quot;checkbox&quot; name=&quot;&quot; id=&quot;check-3&quot; class=&quot;form__checkbox&quot;/&gt;
    &lt;label for=&quot;check-3&quot; class=&quot;from__label__checkbox&quot;&gt;Checkbox&lt;/label&gt;
  &lt;/div&gt;
@@ -722,31 +738,31 @@
    &lt;input type=&quot;checkbox&quot; disabled=&quot;disabled&quot; name=&quot;&quot; id=&quot;check-2&quot; class=&quot;form__checkbox&quot;/&gt;
    &lt;label for=&quot;check-2&quot; class=&quot;from__label__checkbox&quot;&gt;Checkbox Disabled&lt;/label&gt;
  &lt;/div&gt;</code></pre>
-        </div>
-      </div>
-      <div class="row">
-        <div class="md-col-12">
-          <h2>Pagination</h2>
-          <p>A simple pagination wrapper. </p>
-        </div>
-      </div>
-      <div class="row"> 
-        <div class="col"> 
-          <ul class="pagination">
-            <li class="disable"><span>&laquo;</span></li>
-            <li class="active"><span>1</span></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li><a href="#">6</a></li>
-            <li><a href="#">&raquo;</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <pre><code class="html">&lt;ul class=&quot;pagination&quot;&gt;
+            </div>
+          </div>
+          <div id="pagination" class="row scrollspy">
+            <div class="md-col-12">
+              <h2>Pagination</h2>
+              <p>A simple pagination wrapper. </p>
+            </div>
+          </div>
+          <div class="row"> 
+            <div class="col"> 
+              <ul class="pagination">
+                <li class="disable"><span>&laquo;</span></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">&raquo;</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <pre><code class="html">&lt;ul class=&quot;pagination&quot;&gt;
    &lt;li class=&quot;disable&quot;&gt;&lt;span&gt;&amp;laquo;&lt;/span&gt;&lt;/li&gt;
    &lt;li class=&quot;active&quot;&gt;&lt;span&gt;1&lt;/span&gt;&lt;/li&gt;
    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
@@ -756,40 +772,40 @@
    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;6&lt;/a&gt;&lt;/li&gt;
    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&amp;raquo;&lt;/a&gt;&lt;/li&gt;
  &lt;/ul&gt;</code></pre>
-        </div>
-      </div>
-      <div class="row">
-        <div class="md-col-12">
-          <h2>Media Object</h2>
-          <p>The media object is ideal for comment, listing product or categories.</p>
-          <blockquote class="blockquote blockquote--warning">
-            <div class="blockquote__header">This element works great for comments and listings.</div>
-          </blockquote>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="media">
-            <div class="media__left media--top">
-              <div class="media__image"><img src="" alt="" width="80px" height="80px" class="media__thumbnail"></div>
-            </div>
-            <div class="media__body">
-              <div class="media__heading"> Lorem ipsum dolor sit amet.</div>
-              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!</div>
             </div>
           </div>
-          <div class="media">
-            <div class="media__body">
-              <div class="media__heading"> Lorem ipsum dolor sit amet.</div>
-              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!</div>
-            </div>
-            <div class="media__right media--top">
-              <div class="media__image"></div><img src="" alt="" width="80px" height="80px" class="media__thumbnail">
+          <div id="media-objects" class="row scrollspy">
+            <div class="md-col-12">
+              <h2>Media Object</h2>
+              <p>The media object is ideal for comment, listing product or categories.</p>
+              <blockquote class="blockquote blockquote--warning">
+                <div class="blockquote__header">This element works great for comments and listings.</div>
+              </blockquote>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <pre><code class="html">&lt;div class=&quot;media&quot;&gt;
+          <div class="row">
+            <div class="col">
+              <div class="media">
+                <div class="media__left media--top">
+                  <div class="media__image"><img src="" alt="" width="80px" height="80px" class="media__thumbnail"></div>
+                </div>
+                <div class="media__body">
+                  <div class="media__heading"> Lorem ipsum dolor sit amet.</div>
+                  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!</div>
+                </div>
+              </div>
+              <div class="media">
+                <div class="media__body">
+                  <div class="media__heading"> Lorem ipsum dolor sit amet.</div>
+                  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!</div>
+                </div>
+                <div class="media__right media--top">
+                  <div class="media__image"></div><img src="" alt="" width="80px" height="80px" class="media__thumbnail">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <pre><code class="html">&lt;div class=&quot;media&quot;&gt;
  &lt;div class=&quot;media__body&quot;&gt;
    &lt;div class=&quot;media__heading&quot;&gt; .....&lt;/div&gt;
    &lt;div&gt;.....&lt;/div&gt;
@@ -798,39 +814,39 @@
    &lt;div class=&quot;media__image&quot;&gt;&lt;/div&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; width=&quot;80px&quot; height=&quot;80px&quot; class=&quot;media__thumbnail&quot;&gt;
  &lt;/div&gt;
 &lt;/div&gt;</code></pre>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <blockquote class="blockquote blockquote--warning">
-            <div class="blockquote__header">Just add a little styling to the element.</div>
-            <div class="blockquote__body">Just add <code>.media--default</code> to the main media element</div>
-          </blockquote>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="media media--default">
-            <div class="media__left media--top">
-              <div class="media__image"><img src="" alt="" width="80px" height="80px" class="media__thumbnail"></div>
-            </div>
-            <div class="media__body">
-              <div class="media__heading"> Lorem ipsum dolor sit amet.</div>
-              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!</div>
             </div>
           </div>
-          <div class="media media--default">
-            <div class="media__body">
-              <div class="media__heading"> Lorem ipsum dolor sit amet.</div>
-              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!</div>
-            </div>
-            <div class="media__right media--top">
-              <div class="media__image"><img src="" alt="" width="80px" height="80px" class="media__thumbnail"></div>
+          <div class="row">
+            <div class="col">
+              <blockquote class="blockquote blockquote--warning">
+                <div class="blockquote__header">Just add a little styling to the element.</div>
+                <div class="blockquote__body">Just add <code>.media--default</code> to the main media element</div>
+              </blockquote>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <pre><code class="html">&lt;div class=&quot;media media--default&quot;&gt;
+          <div class="row">
+            <div class="col">
+              <div class="media media--default">
+                <div class="media__left media--top">
+                  <div class="media__image"><img src="" alt="" width="80px" height="80px" class="media__thumbnail"></div>
+                </div>
+                <div class="media__body">
+                  <div class="media__heading"> Lorem ipsum dolor sit amet.</div>
+                  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!</div>
+                </div>
+              </div>
+              <div class="media media--default">
+                <div class="media__body">
+                  <div class="media__heading"> Lorem ipsum dolor sit amet.</div>
+                  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum non tempore et nemo corporis praesentium cumque porro animi necessitatibus dicta!</div>
+                </div>
+                <div class="media__right media--top">
+                  <div class="media__image"><img src="" alt="" width="80px" height="80px" class="media__thumbnail"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <pre><code class="html">&lt;div class=&quot;media media--default&quot;&gt;
  &lt;div class=&quot;media__body&quot;&gt;
    &lt;div class=&quot;media__heading&quot;&gt; .....&lt;/div&gt;
    &lt;div&gt;.....&lt;/div&gt;
@@ -839,143 +855,143 @@
    &lt;div class=&quot;media__image&quot;&gt;&lt;/div&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; width=&quot;80px&quot; height=&quot;80px&quot; class=&quot;media__thumbnail&quot;&gt;
  &lt;/div&gt;
 &lt;/div&gt;</code></pre>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h2>Data Tables</h2>
-        </div>
-        <div class="col">
-          <div class="form__group">
-            <div class="form__group__checkbox">
-              <input id="outline" type="checkbox" class="form__checkbox">
-              <label for="outline" class="from__label__checkbox">Outline</label>
-            </div>
-            <div class="form__group__checkbox">
-              <input id="border" type="checkbox" class="form__checkbox">
-              <label for="border" class="from__label__checkbox">Border	</label>
-            </div>
-            <div class="form__group__checkbox">
-              <input id="striped" type="checkbox" class="form__checkbox">
-              <label for="striped" class="from__label__checkbox">Striped</label>
-            </div>
-            <div class="form__group__checkbox">
-              <input id="hover" type="checkbox" class="form__checkbox">
-              <label for="hover" class="from__label__checkbox">Hover Effect	</label>
-            </div>
-            <div class="form__group__checkbox">
-              <input id="scroller" type="checkbox" class="form__checkbox">
-              <label for="scroller" class="from__label__checkbox">Scrollable</label>
-            </div>
-            <div class="form__group__checkbox">
-              <input id="responsive" type="checkbox" class="form__checkbox">
-              <label for="responsive" class="from__label__checkbox">Responsive</label>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div id="table_set" class="table__scroll-x">
-            <table id="table" class="table">
-              <thead class="table__head">
-                <tr>
-                  <th>Id</th>
-                  <th>Name</th>
-                  <th>Email Address</th>
-                  <th>Mission</th>
-                  <th>Services</th>
-                </tr>
-              </thead>
-              <tbody class="table__body">
-                <tr>
-                  <td data-title="Id">1</td>
-                  <td data-title="Name">Neil Armstrong</td>
-                  <td data-title="Email">nielarmstrong@luna.co.za</td>
-                  <td data-title="Mission">Apollo 11</td>
-                  <td data-title="Services">NASA</td>
-                </tr>
-                <tr>
-                  <td data-title="Id">2</td>
-                  <td data-title="Name">Buzz Aldrin</td>
-                  <td data-title="Email">buzzaldrin@luna.co.za</td>
-                  <td data-title="Mission">Apollo 11</td>
-                  <td data-title="Services">Air Force</td>
-                </tr>
-                <tr>
-                  <td data-title="Id">3</td>
-                  <td data-title="Name">Pete Conrad</td>
-                  <td data-title="Email">pete-conrad@luna.co.za</td>
-                  <td data-title="Mission">Apollo 12</td>
-                  <td data-title="Services">Navy</td>
-                </tr>
-                <tr>
-                  <td data-title="Id">4</td>
-                  <td data-title="Name">Alan Bean</td>
-                  <td data-title="Email">alan-bean@luna.co.za</td>
-                  <td data-title="Mission">Apollo 12</td>
-                  <td data-title="Services">Navy</td>
-                </tr>
-                <tr>
-                  <td data-title="Id">5</td>
-                  <td data-title="Name">Alan Shepard</td>
-                  <td data-title="Email">alanshepard@luna.co.za</td>
-                  <td data-title="Mission">Apollo 14</td>
-                  <td data-title="Services">Navy</td>
-                </tr>
-                <tr>
-                  <td data-title="Id">6</td>
-                  <td data-title="Name">Edgar Mitchell</td>
-                  <td data-title="Email">edgar-mitchell@luna.co.za</td>
-                  <td data-title="Mission">Apollo 14</td>
-                  <td data-title="Services">Navy</td>
-                </tr>
-                <tr>
-                  <td data-title="Id">7</td>
-                  <td data-title="Name">David Scott</td>
-                  <td data-title="Email">davidscott@luna.co.za</td>
-                  <td data-title="Mission">Apollo 15</td>
-                  <td data-title="Services">Air Force</td>
-                </tr>
-                <tr>
-                  <td data-title="Id">8</td>
-                  <td data-title="Name">James Irwin</td>
-                  <td data-title="Email">james-irwin@luna.co.za</td>
-                  <td data-title="Mission">Apollo 15</td>
-                  <td data-title="Services">Air Force</td>
-                </tr>
-                <tr>
-                  <td data-title="Id">9</td>
-                  <td data-title="Name">John Young</td>
-                  <td data-title="Email">johnyoung@luna.co.za</td>
-                  <td data-title="Mission">Apollo 16</td>
-                  <td data-title="Services">Navy</td>
-                </tr>
-                <tr>
-                  <td data-title="Id">10</td>
-                  <td data-title="Name">Charles Duke</td>
-                  <td data-title="Email">charles-duke@luna.co.za</td>
-                  <td data-title="Mission">Apollo 16</td>
-                  <td data-title="Services">Air Force</td>
-                </tr>
-                <tr>
-                  <td data-title="Id">11</td>
-                  <td data-title="Name">Eugene Cernan</td>
-                  <td data-title="Email">eugenecernan@luna.co.za</td>
-                  <td data-title="Mission">Apollo 17</td>
-                  <td data-title="Services">Navy</td>
-                </tr>
-                <tr>
-                  <td data-title="Id">12</td>
-                  <td data-title="Name">Harrison Schmitt</td>
-                  <td data-title="Email">harrison-schmitt@luna.co.za</td>
-                  <td data-title="Mission">Apollo 17</td>
-                  <td data-title="Services">NASA</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div class="col"> 
-          <pre><code class="html">&lt;div class=&quot;table__responsive table--border&quot;&gt;
+          <div id="tables" class="row scrollspy">
+            <div class="col">
+              <h2>Data Tables</h2>
+            </div>
+            <div class="col">
+              <div class="form__group">
+                <div class="form__group__checkbox">
+                  <input id="outline" type="checkbox" class="form__checkbox">
+                  <label for="outline" class="from__label__checkbox">Outline</label>
+                </div>
+                <div class="form__group__checkbox">
+                  <input id="border" type="checkbox" class="form__checkbox">
+                  <label for="border" class="from__label__checkbox">Border	</label>
+                </div>
+                <div class="form__group__checkbox">
+                  <input id="striped" type="checkbox" class="form__checkbox">
+                  <label for="striped" class="from__label__checkbox">Striped</label>
+                </div>
+                <div class="form__group__checkbox">
+                  <input id="hover" type="checkbox" class="form__checkbox">
+                  <label for="hover" class="from__label__checkbox">Hover Effect	</label>
+                </div>
+                <div class="form__group__checkbox">
+                  <input id="scroller" type="checkbox" class="form__checkbox">
+                  <label for="scroller" class="from__label__checkbox">Scrollable</label>
+                </div>
+                <div class="form__group__checkbox">
+                  <input id="responsive" type="checkbox" class="form__checkbox">
+                  <label for="responsive" class="from__label__checkbox">Responsive</label>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div id="table_set" class="table__scroll-x">
+                <table id="table" class="table">
+                  <thead class="table__head">
+                    <tr>
+                      <th>Id</th>
+                      <th>Name</th>
+                      <th>Email Address</th>
+                      <th>Mission</th>
+                      <th>Services</th>
+                    </tr>
+                  </thead>
+                  <tbody class="table__body">
+                    <tr>
+                      <td data-title="Id">1</td>
+                      <td data-title="Name">Neil Armstrong</td>
+                      <td data-title="Email">nielarmstrong@luna.co.za</td>
+                      <td data-title="Mission">Apollo 11</td>
+                      <td data-title="Services">NASA</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Id">2</td>
+                      <td data-title="Name">Buzz Aldrin</td>
+                      <td data-title="Email">buzzaldrin@luna.co.za</td>
+                      <td data-title="Mission">Apollo 11</td>
+                      <td data-title="Services">Air Force</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Id">3</td>
+                      <td data-title="Name">Pete Conrad</td>
+                      <td data-title="Email">pete-conrad@luna.co.za</td>
+                      <td data-title="Mission">Apollo 12</td>
+                      <td data-title="Services">Navy</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Id">4</td>
+                      <td data-title="Name">Alan Bean</td>
+                      <td data-title="Email">alan-bean@luna.co.za</td>
+                      <td data-title="Mission">Apollo 12</td>
+                      <td data-title="Services">Navy</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Id">5</td>
+                      <td data-title="Name">Alan Shepard</td>
+                      <td data-title="Email">alanshepard@luna.co.za</td>
+                      <td data-title="Mission">Apollo 14</td>
+                      <td data-title="Services">Navy</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Id">6</td>
+                      <td data-title="Name">Edgar Mitchell</td>
+                      <td data-title="Email">edgar-mitchell@luna.co.za</td>
+                      <td data-title="Mission">Apollo 14</td>
+                      <td data-title="Services">Navy</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Id">7</td>
+                      <td data-title="Name">David Scott</td>
+                      <td data-title="Email">davidscott@luna.co.za</td>
+                      <td data-title="Mission">Apollo 15</td>
+                      <td data-title="Services">Air Force</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Id">8</td>
+                      <td data-title="Name">James Irwin</td>
+                      <td data-title="Email">james-irwin@luna.co.za</td>
+                      <td data-title="Mission">Apollo 15</td>
+                      <td data-title="Services">Air Force</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Id">9</td>
+                      <td data-title="Name">John Young</td>
+                      <td data-title="Email">johnyoung@luna.co.za</td>
+                      <td data-title="Mission">Apollo 16</td>
+                      <td data-title="Services">Navy</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Id">10</td>
+                      <td data-title="Name">Charles Duke</td>
+                      <td data-title="Email">charles-duke@luna.co.za</td>
+                      <td data-title="Mission">Apollo 16</td>
+                      <td data-title="Services">Air Force</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Id">11</td>
+                      <td data-title="Name">Eugene Cernan</td>
+                      <td data-title="Email">eugenecernan@luna.co.za</td>
+                      <td data-title="Mission">Apollo 17</td>
+                      <td data-title="Services">Navy</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Id">12</td>
+                      <td data-title="Name">Harrison Schmitt</td>
+                      <td data-title="Email">harrison-schmitt@luna.co.za</td>
+                      <td data-title="Mission">Apollo 17</td>
+                      <td data-title="Services">NASA</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="col"> 
+              <pre><code class="html">&lt;div class=&quot;table__responsive table--border&quot;&gt;
  &lt;table class=&quot;table table--striped table--bordered&quot;&gt;
    &lt;thead class=&quot;table__head&quot;&gt;
      &lt;tr&gt;
@@ -1007,51 +1023,51 @@
    &lt;/tbody&gt;
  &lt;/table&gt;
 &lt;/div&gt;</code></pre>
-        </div>
-      </div>
-      <div class="row"> 
-        <div class="col">
-          <h2>Card Component</h2>
-          <p>The card component is an alternative for the panel element and work great with image headers and headline text and a small excerpt section.</p>
-        </div>
-        <div class="sm-col-6 md-col-4">
-          <div class="card">
-            <div class="card__thumb"><a href="#"><img src="img/nasa-moon.jpg" alt=""></a></div>
-            <div class="card__body">
-              <div class="card__body__label">R500</div>
-              <div class="card__body__title">July 20, 1969: One Giant Leap For Mankind</div>
-              <div class="card__body__subtitle">July 1969. It's a little over eight years since the flights of Gagarin and Shepard, followed quickly by President Kennedy's challenge to put a man on the moon before the decade is out.</div>
-              <div class="card__body__description">It is only seven months since NASA's made a bold decision to send Apollo 8 all the way to the moon on the first manned flight of the massive Saturn V rocket. Now, on the morning of July 16, Apollo 11 astronauts Neil Armstrong, Buzz Aldrin and Michael Collins sit atop another Saturn V at Launch Complex 39A at the Kennedy Space Center. The three-stage 363-foot rocket will use its 7.5 million pounds of thrust to propel them into space and into history.</div>
             </div>
-            <div class="card__footer"><span><i class="lunacon lunacon-clock"><span class="text--primary"> 6min ago</span></i></span><span><i class="lunacon lunacon-share"><span class="text--primary"> Share</span></i></span></div>
           </div>
-        </div>
-        <div class="sm-col-6 md-col-4">
-          <div class="card">
-            <div class="card__thumb"><a href="#"><img src="img/nasa-moon.jpg" alt=""></a></div>
-            <div class="card__body">
-              <div class="card__body__label">R500</div>
-              <div class="card__body__title">July 20, 1969: One Giant Leap For Mankind</div>
-              <div class="card__body__subtitle">July 1969. It's a little over eight years since the flights of Gagarin and Shepard, followed quickly by President Kennedy's challenge to put a man on the moon before the decade is out.</div>
-              <div class="card__body__description">It is only seven months since NASA's made a bold decision to send Apollo 8 all the way to the moon on the first manned flight of the massive Saturn V rocket. Now, on the morning of July 16, Apollo 11 astronauts Neil Armstrong, Buzz Aldrin and Michael Collins sit atop another Saturn V at Launch Complex 39A at the Kennedy Space Center. The three-stage 363-foot rocket will use its 7.5 million pounds of thrust to propel them into space and into history.</div>
+          <div id="cards" class="row scrollspy">
+            <div class="col">
+              <h2>Card Component</h2>
+              <p>The card component is an alternative for the panel element and work great with image headers and headline text and a small excerpt section.</p>
             </div>
-            <div class="card__footer"><span><i class="lunacon lunacon-clock"><span class="text--primary"> 6min ago</span></i></span><span><i class="lunacon lunacon-share"><span class="text--primary"> Share</span></i></span></div>
-          </div>
-        </div>
-        <div class="sm-col-6 md-col-4">
-          <div class="card">
-            <div class="card__thumb"><a href="#"><img src="img/nasa-moon.jpg" alt=""></a></div>
-            <div class="card__body">
-              <div class="card__body__label">R500</div>
-              <div class="card__body__title">July 20, 1969: One Giant Leap For Mankind</div>
-              <div class="card__body__subtitle">July 1969. It's a little over eight years since the flights of Gagarin and Shepard, followed quickly by President Kennedy's challenge to put a man on the moon before the decade is out.</div>
-              <div class="card__body__description">It is only seven months since NASA's made a bold decision to send Apollo 8 all the way to the moon on the first manned flight of the massive Saturn V rocket. Now, on the morning of July 16, Apollo 11 astronauts Neil Armstrong, Buzz Aldrin and Michael Collins sit atop another Saturn V at Launch Complex 39A at the Kennedy Space Center. The three-stage 363-foot rocket will use its 7.5 million pounds of thrust to propel them into space and into history.</div>
+            <div class="sm-col-6 md-col-4">
+              <div class="card">
+                <div class="card__thumb"><a href="#"><img src="img/nasa-moon.jpg" alt=""></a></div>
+                <div class="card__body">
+                  <div class="card__body__label">R500</div>
+                  <div class="card__body__title">July 20, 1969: One Giant Leap For Mankind</div>
+                  <div class="card__body__subtitle">July 1969. It's a little over eight years since the flights of Gagarin and Shepard, followed quickly by President Kennedy's challenge to put a man on the moon before the decade is out.</div>
+                  <div class="card__body__description">It is only seven months since NASA's made a bold decision to send Apollo 8 all the way to the moon on the first manned flight of the massive Saturn V rocket. Now, on the morning of July 16, Apollo 11 astronauts Neil Armstrong, Buzz Aldrin and Michael Collins sit atop another Saturn V at Launch Complex 39A at the Kennedy Space Center. The three-stage 363-foot rocket will use its 7.5 million pounds of thrust to propel them into space and into history.</div>
+                </div>
+                <div class="card__footer"><span><i class="lunacon lunacon-clock"><span class="text--primary"> 6min ago</span></i></span><span><i class="lunacon lunacon-share"><span class="text--primary"> Share</span></i></span></div>
+              </div>
             </div>
-            <div class="card__footer"><span><i class="lunacon lunacon-clock"><span class="text--primary"> 6min ago</span></i></span><span><i class="lunacon lunacon-share"><span class="text--primary"> Share</span></i></span></div>
-          </div>
-        </div>
-        <div class="col"> 
-          <pre><code lang="html">&lt;article class=&quot;card&quot;&gt; &lt;header class=&quot;card__thumb&quot;&gt; &lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;[...]&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/header&gt;
+            <div class="sm-col-6 md-col-4">
+              <div class="card">
+                <div class="card__thumb"><a href="#"><img src="img/nasa-moon.jpg" alt=""></a></div>
+                <div class="card__body">
+                  <div class="card__body__label">R500</div>
+                  <div class="card__body__title">July 20, 1969: One Giant Leap For Mankind</div>
+                  <div class="card__body__subtitle">July 1969. It's a little over eight years since the flights of Gagarin and Shepard, followed quickly by President Kennedy's challenge to put a man on the moon before the decade is out.</div>
+                  <div class="card__body__description">It is only seven months since NASA's made a bold decision to send Apollo 8 all the way to the moon on the first manned flight of the massive Saturn V rocket. Now, on the morning of July 16, Apollo 11 astronauts Neil Armstrong, Buzz Aldrin and Michael Collins sit atop another Saturn V at Launch Complex 39A at the Kennedy Space Center. The three-stage 363-foot rocket will use its 7.5 million pounds of thrust to propel them into space and into history.</div>
+                </div>
+                <div class="card__footer"><span><i class="lunacon lunacon-clock"><span class="text--primary"> 6min ago</span></i></span><span><i class="lunacon lunacon-share"><span class="text--primary"> Share</span></i></span></div>
+              </div>
+            </div>
+            <div class="sm-col-6 md-col-4">
+              <div class="card">
+                <div class="card__thumb"><a href="#"><img src="img/nasa-moon.jpg" alt=""></a></div>
+                <div class="card__body">
+                  <div class="card__body__label">R500</div>
+                  <div class="card__body__title">July 20, 1969: One Giant Leap For Mankind</div>
+                  <div class="card__body__subtitle">July 1969. It's a little over eight years since the flights of Gagarin and Shepard, followed quickly by President Kennedy's challenge to put a man on the moon before the decade is out.</div>
+                  <div class="card__body__description">It is only seven months since NASA's made a bold decision to send Apollo 8 all the way to the moon on the first manned flight of the massive Saturn V rocket. Now, on the morning of July 16, Apollo 11 astronauts Neil Armstrong, Buzz Aldrin and Michael Collins sit atop another Saturn V at Launch Complex 39A at the Kennedy Space Center. The three-stage 363-foot rocket will use its 7.5 million pounds of thrust to propel them into space and into history.</div>
+                </div>
+                <div class="card__footer"><span><i class="lunacon lunacon-clock"><span class="text--primary"> 6min ago</span></i></span><span><i class="lunacon lunacon-share"><span class="text--primary"> Share</span></i></span></div>
+              </div>
+            </div>
+            <div class="col"> 
+              <pre><code lang="html">&lt;article class=&quot;card&quot;&gt; &lt;header class=&quot;card__thumb&quot;&gt; &lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;[...]&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/header&gt;
   &lt;div class=&quot;card__body&quot;&gt;
     &lt;div class=&quot;card__body__label&quot;&gt;[...]&lt;/div&gt;
     &lt;div class=&quot;card__body__title&quot;&gt;[...]&lt;/div&gt;
@@ -1063,44 +1079,44 @@
     &lt;span&gt;&lt;i class=&quot;lunacon lunacon-users-solid&quot;&gt;&lt;span&gt;[...]&lt;/span&gt;&lt;/i&gt;&lt;/span&gt;
   &lt;/footer&gt;
 &lt;/article&gt;</code></pre>
-        </div>
-      </div>
-      <div class="row"> 
-        <div class="col"> 
-          <h2>Timeline component</h2>
-          <p>The timeline component is perfect for showing time based data or a creative way to display headline for a blog site.</p>
-        </div>
-        <div class="col"> <br>
-          <h1 class="text--primary md-text-align-center">THE YEAR IS 1961	</h1>
-          <ul class="timeline">
-            <li class="timeline__item">
-              <div class="flag flag--left"> <small class="flag__date">25 March 1961</small>
-                <h2>Yuri Alexeyevich Gagarin</h2>
-                <p>Yuri Alexeyevich Gagarin, Russian cosmonaut, experienced the weightlessness of space for 108 minutes. He orbited the Earth once before making a safe landing. The Russians rocketed Yuri Gagarin, the first man into space. His ship, Vostok I, was guided entirely from the ground.</p>
-              </div>
-            </li>
-            <li class="timeline__item">
-              <div class="flag flag--right"> <small class="flag__date">12 April 1961</small>
-                <h2>Mercury-Atlas</h2>
-                <p>Mercury-Atlas rocket lifted off with an electronic mannequin. An unmanned Mercury test exploded on launch pad.</p>
-              </div>
-            </li>
-            <li class="timeline__item">
-              <div class="flag flag--left"> <small class="flag__date">25 April 1961</small>
-                <h2>The spacecraft reached</h2>
-                <p>Astronaut Alan Bartlett Shepard Jr. (d.1998 at 74), a Navy commander, became the first American in space as he made a 15-minute suborbital flight in the Freedom 7 Project Mercury capsule launched from Cape Canaveral, Fla. The spacecraft reached a maximum altitude of 116.5 miles.</p>
-              </div>
-            </li>
-            <li class="timeline__item">
-              <div class="flag flag--right"> <small class="flag__date">21 July 1961</small>
-                <h2>The Mercury sank</h2>
-                <p> Capt. Virgil "Gus" Grissom became the second American to rocket into a suborbital pattern around the Earth, flying on the Mercury 4 Liberty Bell 7. The Mercury capsule sank in the Atlantic, 302 miles from Cape Canaveral and Grissom was rescued by helicopter. The space capsule was recovered in 1999</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="col"> 
-          <pre><code lang="html">&lt;ul class=&quot;timeline&quot;&gt;
+            </div>
+          </div>
+          <div id="timeline" class="row scrollspy">
+            <div class="col"> 
+              <h2>Timeline component</h2>
+              <p>The timeline component is perfect for showing time based data or a creative way to display headline for a blog site.</p>
+            </div>
+            <div class="col"> <br>
+              <h1 class="text--primary md-text-align-center">THE YEAR IS 1961	</h1>
+              <ul class="timeline">
+                <li class="timeline__item">
+                  <div class="flag flag--left"> <small class="flag__date">25 March 1961</small>
+                    <h2>Yuri Alexeyevich Gagarin</h2>
+                    <p>Yuri Alexeyevich Gagarin, Russian cosmonaut, experienced the weightlessness of space for 108 minutes. He orbited the Earth once before making a safe landing. The Russians rocketed Yuri Gagarin, the first man into space. His ship, Vostok I, was guided entirely from the ground.</p>
+                  </div>
+                </li>
+                <li class="timeline__item">
+                  <div class="flag flag--right"> <small class="flag__date">12 April 1961</small>
+                    <h2>Mercury-Atlas</h2>
+                    <p>Mercury-Atlas rocket lifted off with an electronic mannequin. An unmanned Mercury test exploded on launch pad.</p>
+                  </div>
+                </li>
+                <li class="timeline__item">
+                  <div class="flag flag--left"> <small class="flag__date">25 April 1961</small>
+                    <h2>The spacecraft reached</h2>
+                    <p>Astronaut Alan Bartlett Shepard Jr. (d.1998 at 74), a Navy commander, became the first American in space as he made a 15-minute suborbital flight in the Freedom 7 Project Mercury capsule launched from Cape Canaveral, Fla. The spacecraft reached a maximum altitude of 116.5 miles.</p>
+                  </div>
+                </li>
+                <li class="timeline__item">
+                  <div class="flag flag--right"> <small class="flag__date">21 July 1961</small>
+                    <h2>The Mercury sank</h2>
+                    <p> Capt. Virgil "Gus" Grissom became the second American to rocket into a suborbital pattern around the Earth, flying on the Mercury 4 Liberty Bell 7. The Mercury capsule sank in the Atlantic, 302 miles from Cape Canaveral and Grissom was rescued by helicopter. The space capsule was recovered in 1999</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col"> 
+              <pre><code lang="html">&lt;ul class=&quot;timeline&quot;&gt;
    &lt;li class=&quot;timeline__item&quot;&gt;
      &lt;div class=&quot;flag flag--left&quot;&gt; &lt;small class=&quot;flag__date&quot;&gt;[datetime]&lt;/small&gt;
        &lt;h2&gt;...&lt;/h2&gt;
@@ -1126,55 +1142,55 @@
      &lt;/div&gt;
    &lt;/li&gt;
  &lt;/ul&gt;</code></pre>
-        </div>
-      </div>
-      <div class="row"> 
-        <div class="col"> 
-          <h2>Corner Ribbons</h2>
-          <p>A corner element that is absolute positioned with 2 different styles normal and gradient background. Change color by using <code>.ribbon--{$value}</code> and <code>.ribbon--{$value}-gradient</code></p>
-          <blockquote class="blockquote blockquote--info">
-            <div class="blockquote__header"> Color Set</div>
-            <div class="blockquote__body"><code>$value</code> reference all colors in <code>$_color_set</code> in <code>_settings.sass</code> file.</div>
-          </blockquote>
-        </div>
-      </div>
-      <div class="row"> 
-        <div class="md-col-6">
-          <div class="well ribbon__wrapper text-align-center">
-            <div class="ribbon ribbon--info ribbon--top-left">
-              <div class="ribbon__label">Ribbon </div>
             </div>
-            <div class="ribbon ribbon--warning ribbon--top-right">
-              <div class="ribbon__label">Ribbon </div>
-            </div>
-            <div class="ribbon ribbon--success ribbon--bottom-left">
-              <div class="ribbon__label">Ribbon</div>
-            </div>
-            <div class="ribbon ribbon--danger ribbon--bottom-right">
-              <div class="ribbon__label">Ribbon</div>
-            </div><br><br><br><br>
-            <h1 class="text--primary">Corner Ribbons</h1><br><br><br><br>
           </div>
-        </div>
-        <div class="md-col-6">
-          <div class="well ribbon__wrapper text-align-center">
-            <div class="ribbon ribbon--info-gradient ribbon--top-left">
-              <div class="ribbon__label">Ribbon </div>
+          <div id="ribbon" class="row scrollspy">
+            <div class="col"> 
+              <h2>Corner Ribbons</h2>
+              <p>A corner element that is absolute positioned with 2 different styles normal and gradient background. Change color by using <code>.ribbon--{$value}</code> and <code>.ribbon--{$value}-gradient</code></p>
+              <blockquote class="blockquote blockquote--info">
+                <div class="blockquote__header"> Color Set</div>
+                <div class="blockquote__body"><code>$value</code> reference all colors in <code>$_color_set</code> in <code>_settings.sass</code> file.</div>
+              </blockquote>
             </div>
-            <div class="ribbon ribbon--warning-gradient ribbon--top-right">
-              <div class="ribbon__label">Ribbon </div>
-            </div>
-            <div class="ribbon ribbon--success-gradient ribbon--bottom-left">
-              <div class="ribbon__label">Ribbon</div>
-            </div>
-            <div class="ribbon ribbon--danger-gradient ribbon--bottom-right">
-              <div class="ribbon__label">Ribbon</div>
-            </div><br><br><br><br>
-            <h1 class="text--primary">Gradient Corner Ribbons</h1><br><br><br><br>
           </div>
-        </div>
-        <div class="col"> 
-          <pre><code class="html">&lt;div class=&quot;ribbon__wrapper&quot;&gt;
+          <div class="row"> 
+            <div class="md-col-6">
+              <div class="well ribbon__wrapper text-align-center">
+                <div class="ribbon ribbon--info ribbon--top-left">
+                  <div class="ribbon__label">Ribbon </div>
+                </div>
+                <div class="ribbon ribbon--warning ribbon--top-right">
+                  <div class="ribbon__label">Ribbon </div>
+                </div>
+                <div class="ribbon ribbon--success ribbon--bottom-left">
+                  <div class="ribbon__label">Ribbon</div>
+                </div>
+                <div class="ribbon ribbon--danger ribbon--bottom-right">
+                  <div class="ribbon__label">Ribbon</div>
+                </div><br><br><br><br>
+                <h1 class="text--primary">Corner Ribbons</h1><br><br><br><br>
+              </div>
+            </div>
+            <div class="md-col-6">
+              <div class="well ribbon__wrapper text-align-center">
+                <div class="ribbon ribbon--info-gradient ribbon--top-left">
+                  <div class="ribbon__label">Ribbon </div>
+                </div>
+                <div class="ribbon ribbon--warning-gradient ribbon--top-right">
+                  <div class="ribbon__label">Ribbon </div>
+                </div>
+                <div class="ribbon ribbon--success-gradient ribbon--bottom-left">
+                  <div class="ribbon__label">Ribbon</div>
+                </div>
+                <div class="ribbon ribbon--danger-gradient ribbon--bottom-right">
+                  <div class="ribbon__label">Ribbon</div>
+                </div><br><br><br><br>
+                <h1 class="text--primary">Gradient Corner Ribbons</h1><br><br><br><br>
+              </div>
+            </div>
+            <div class="col"> 
+              <pre><code class="html">&lt;div class=&quot;ribbon__wrapper&quot;&gt;
   &lt;div class=&quot;ribbon ribbon--info ribbon--top-left&quot;&gt;
     &lt;div class=&quot;ribbon__label&quot;&gt;...&lt;/div&gt;
   &lt;/div&gt;
@@ -1187,36 +1203,36 @@
   &lt;div class=&quot;ribbon ribbon--danger ribbon--bottom-right&quot;&gt;
     &lt;div class=&quot;ribbon__label&quot;&gt;...&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-        </div>
-      </div>
-      <div class="row"> 
-        <div class="md-col-12"> 
-          <h2>Accordian Element </h2>
-          <p> Each accordion element performs as an individual component with its own active state and easy to customize in the <code>_settings.sass</code> file.</p>
-        </div>
-        <div class="md-col-12"> 
-          <h3>Accordian Default</h3>
-          <ul id="accorian" class="accordian">
-            <li class="accordian__element"> 
-              <header class="accordian__header accordian__header--active">Who owns the international space station?</header>
-              <section class="accordian__body accordian__body--active">International Space Station Legal Framework. The International Space Station is a co-operative programme between Europe, the United States, Russia, Canada, and Japan for the joint development, operation and utilisation of a permanently inhabited Space Station in low Earth orbit </section>
-            </li>
-            <li class="accordian__element"> 
-              <header class="accordian__header">How many space stations are there in total?</header>
-              <section class="accordian__body">There are only two space stations currently in orbit - the International Space Station and China's Tiangong-1. ISS is manned at all times and Tiangong-1 is unmanned most of the time.</section>
-            </li>
-            <li class="accordian__element"> 
-              <header class="accordian__header">What is the name of the world's first space station?</header>
-              <section class="accordian__body">The first space station was Salyut 1, which was launched by the Soviet Union on April 19, 1971. Like all the early space stations, it was "monolithic", intended to be constructed and launched in one piece, and then inhabited by a crew later.</section>
-            </li>
-            <li class="accordian__element"> 
-              <header class="accordian__header">Can you see the space station?</header>
-              <section class="accordian__body">The space station looks like a fast-moving plane in the sky, but it will be seen as a steady – not blinking – white pinpoint of light. Typically it will be the brightest object in the night sky (except for the Moon). It is bright enough that it can even be seen from the middle of a city!</section>
-            </li>
-          </ul>
-        </div>
-        <div class="md-col-12"> 
-          <pre><code lang="html">&lt;ul class=&quot;accordian&quot;&gt;
+            </div>
+          </div>
+          <div id="accordian" class="row scrollspy">
+            <div class="md-col-12"> 
+              <h2>Accordian Element </h2>
+              <p> Each accordion element performs as an individual component with its own active state and easy to customize in the <code>_settings.sass</code> file.</p>
+            </div>
+            <div class="md-col-12"> 
+              <h3>Accordian Default</h3>
+              <ul id="accorian" class="accordian">
+                <li class="accordian__element"> 
+                  <header class="accordian__header accordian__header--active">Who owns the international space station?</header>
+                  <section class="accordian__body accordian__body--active">International Space Station Legal Framework. The International Space Station is a co-operative programme between Europe, the United States, Russia, Canada, and Japan for the joint development, operation and utilisation of a permanently inhabited Space Station in low Earth orbit </section>
+                </li>
+                <li class="accordian__element"> 
+                  <header class="accordian__header">How many space stations are there in total?</header>
+                  <section class="accordian__body">There are only two space stations currently in orbit - the International Space Station and China's Tiangong-1. ISS is manned at all times and Tiangong-1 is unmanned most of the time.</section>
+                </li>
+                <li class="accordian__element"> 
+                  <header class="accordian__header">What is the name of the world's first space station?</header>
+                  <section class="accordian__body">The first space station was Salyut 1, which was launched by the Soviet Union on April 19, 1971. Like all the early space stations, it was "monolithic", intended to be constructed and launched in one piece, and then inhabited by a crew later.</section>
+                </li>
+                <li class="accordian__element"> 
+                  <header class="accordian__header">Can you see the space station?</header>
+                  <section class="accordian__body">The space station looks like a fast-moving plane in the sky, but it will be seen as a steady – not blinking – white pinpoint of light. Typically it will be the brightest object in the night sky (except for the Moon). It is bright enough that it can even be seen from the middle of a city!</section>
+                </li>
+              </ul>
+            </div>
+            <div class="md-col-12"> 
+              <pre><code lang="html">&lt;ul class=&quot;accordian&quot;&gt;
   &lt;li class=&quot;accordian__element&quot;&gt; 
     &lt;header class=&quot;accordian__header accordian__header--active&quot;&gt;[..]&lt;/header&gt;
     &lt;section class=&quot;accordian__body accordian__body--active&quot;&gt;[..] &lt;/section&gt;
@@ -1226,59 +1242,61 @@
     &lt;section class=&quot;accordian__body&quot;&gt;[..] &lt;/section&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</code></pre>
-          <blockquote class="blockquote blockquote--info"> 
-            <div class="blockquote__header">Set a active class to component. </div>
-            <div class="blockquote__body">To create an open tab simply follow the code example above. The <code>.accordian__{elem}--active</code> will start with open tab.</div>
-          </blockquote>
-        </div>
-        <div class="md-col-12"> 
-          <h3>Accordian spaced</h3>
-          <p>To add some spacing between elements just add <code>.accordian--spaced</code> to the <code>.accordian</code> element. </p>
-        </div>
-        <div class="md-col-12"> 
-          <ul id="accorian2" class="accordian accordian--spaced">
-            <li class="accordian__element"> 
-              <header class="accordian__header">how was the first man on the moon?</header>
-              <section class="accordian__body">
-                <h2>Neil Armstrong</h2>
-                <p>Apollo 11's mission was to land two men on the moon. They also had to come back to Earth safely. Apollo 11 blasted off on July 16, 1969. Neil Armstrong, Edwin "Buzz" Aldrin and Michael Collins were the astronauts on Apollo </p>
-              </section>
-            </li>
-            <li class="accordian__element"> 
-              <header class="accordian__header">Who was the first woman to walk on the moon?</header>
-              <section class="accordian__body"> 
-                <h2>Sally Ride</h2>
-                <p>It was the Cold War. NASA wouldn't accept women applicants to the astronaut corps until 1978. The first American woman to fly into space aboard the space shuttle was Sally Ride in 1983, and the glass stratosphere was finally shattered</p>
-              </section>
-            </li>
-            <li class="accordian__element"> 
-              <header class="accordian__header">Who was the very first astronaut?</header>
-              <section class="accordian__body"> 
-                <h2>Yuri Gagarin </h2>
-                <p>The Mercury Project suffered some early setbacks, however, and on April 12, 1961, Soviet cosmonaut Yuri Gagarin orbited Earth in the world's first manned space flight. Less than one month later, on May 5, astronaut Alan Shepard was successfully launched into space on a suborbital fligh</p>
-              </section>
-            </li>
-            <li class="accordian__element"> 
-              <header class="accordian__header">Who was the first animal on the moon?</header>
-              <section class="accordian__body"> 
-                <h2>Albert</h2>
-                <p>A rhesus monkey called Albert 1 became the first monkey launched into space on June 11, 1948; also on board a US-launched V2 rocket. These were just suborbital flights, though. The first animal to actually go into orbit was the dog Laika, launched on board the Soviet Sputnik 2 spacecraft on November 3, 1957</p>
-              </section>
-            </li>
-          </ul>
-        </div>
-        <div class="md-col-12"> 
-          <pre><code lang="html">&lt;ul class=&quot;accordian accordian--spaced&quot;&gt;
+              <blockquote class="blockquote blockquote--info"> 
+                <div class="blockquote__header">Set a active class to component. </div>
+                <div class="blockquote__body">To create an open tab simply follow the code example above. The <code>.accordian__{elem}--active</code> will start with open tab.</div>
+              </blockquote>
+            </div>
+            <div class="md-col-12"> 
+              <h3>Accordian spaced</h3>
+              <p>To add some spacing between elements just add <code>.accordian--spaced</code> to the <code>.accordian</code> element. </p>
+            </div>
+            <div class="md-col-12"> 
+              <ul id="accorian2" class="accordian accordian--spaced">
+                <li class="accordian__element"> 
+                  <header class="accordian__header">how was the first man on the moon?</header>
+                  <section class="accordian__body">
+                    <h2>Neil Armstrong</h2>
+                    <p>Apollo 11's mission was to land two men on the moon. They also had to come back to Earth safely. Apollo 11 blasted off on July 16, 1969. Neil Armstrong, Edwin "Buzz" Aldrin and Michael Collins were the astronauts on Apollo </p>
+                  </section>
+                </li>
+                <li class="accordian__element"> 
+                  <header class="accordian__header">Who was the first woman to walk on the moon?</header>
+                  <section class="accordian__body"> 
+                    <h2>Sally Ride</h2>
+                    <p>It was the Cold War. NASA wouldn't accept women applicants to the astronaut corps until 1978. The first American woman to fly into space aboard the space shuttle was Sally Ride in 1983, and the glass stratosphere was finally shattered</p>
+                  </section>
+                </li>
+                <li class="accordian__element"> 
+                  <header class="accordian__header">Who was the very first astronaut?</header>
+                  <section class="accordian__body"> 
+                    <h2>Yuri Gagarin </h2>
+                    <p>The Mercury Project suffered some early setbacks, however, and on April 12, 1961, Soviet cosmonaut Yuri Gagarin orbited Earth in the world's first manned space flight. Less than one month later, on May 5, astronaut Alan Shepard was successfully launched into space on a suborbital fligh</p>
+                  </section>
+                </li>
+                <li class="accordian__element"> 
+                  <header class="accordian__header">Who was the first animal on the moon?</header>
+                  <section class="accordian__body"> 
+                    <h2>Albert</h2>
+                    <p>A rhesus monkey called Albert 1 became the first monkey launched into space on June 11, 1948; also on board a US-launched V2 rocket. These were just suborbital flights, though. The first animal to actually go into orbit was the dog Laika, launched on board the Soviet Sputnik 2 spacecraft on November 3, 1957</p>
+                  </section>
+                </li>
+              </ul>
+            </div>
+            <div class="md-col-12"> 
+              <pre><code lang="html">&lt;ul class=&quot;accordian accordian--spaced&quot;&gt;
   &lt;li class=&quot;accordian__element&quot;&gt; 
     &lt;header class=&quot;accordian__header&quot;&gt;[..]&lt;/header&gt;
     &lt;section class=&quot;accordian__body&quot;&gt;[..] &lt;/section&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</code></pre>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <footer class="footer">
-      <div class="wrapper padding">
+      <div class="wrapper--fluid padding">
         <div class="row">
           <div class="col text-align-center">Created by &nbsp;<a href="http://designbycode.co.za" target="_blank">DesignByCode</a></div>
         </div>
@@ -1292,21 +1310,25 @@
     <script src="js/highlight.pack.js"></script>
     <script>
       $(document).ready(function() {
-        $(document).Luna({
-           	scrolltop:{
-           		speed:  700,
-           		stopAt: 0,
-           		showAt: 500,
+      	$(document).Luna({
       
-           	},
-        	accordian: {
-        		speed: 300,
-        		easing: "easeInOutSine"
-        	}
-        });
-        $('pre code').each(function(i, block) {
-          hljs.highlightBlock(block);
-        });
+      		accordian: {
+      			speed: 320,
+      			easing: "easeInOutSine"
+      		},
+      		spyscroll: {
+      		}
+      	});
+      
+      
+      	$('pre code').each(function(i, block) {
+      		hljs.highlightBlock(block);
+      	});
+      
+      
+      
+      
+      
       });
       
     </script>
@@ -1369,6 +1391,36 @@
       
       		}
       	});
+      
+      
+      	var window_width = $( window ).width();
+      
+      	if (window_width < 768) {
+      		$("#sidebar").trigger("sticky_kit:detach");
+      	} else {
+      		make_sticky();
+      	}
+      
+      	$( window ).resize(function() {
+      
+      		window_width = $( window ).width();
+      
+      		if (window_width < 800) {
+      				$("#sidebar").trigger("sticky_kit:detach");
+      			} else {
+      				make_sticky();
+      			}
+      
+      	});
+      
+      	function make_sticky() {
+      		$("#sidebar").stick_in_parent({
+      			offset_top: 120
+      		});
+      	}	
+      
+      
+      
       
       });
     </script>

@@ -46,6 +46,7 @@ const SassArray  = [
 const JsArray    = [
   // `${Paths.bower}jquery/dist/jquery.js`,
   `${Paths.bower}jquery.easing/jquery.easing.js`,
+  `${Paths.bower}sticky-kit/jquery.sticky-kit.js`,
   `${Paths.js}luna.js`,
   `${Paths.js}luna.modal.js`,
   // `${Paths.js}luna.app.js`,

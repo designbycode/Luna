@@ -2307,7 +2307,7 @@ a:hover {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1140px; }
+  max-width: 1340px; }
   /* line 24, Framework/sass/mixins/_grid.sass */
   .wrapper--fluid {
     position: relative;
@@ -2316,7 +2316,7 @@ a:hover {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1140px;
+    max-width: 1340px;
     width: 100%;
     max-width: 100%; }
 
@@ -3444,7 +3444,7 @@ input.btn[type="submit"], .form__label, .form__helper, .ribbon__label {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1140px; }
+    max-width: 1340px; }
     /* line 73, Framework/sass/components/_navigation.sass */
     .nav__wrapper--fluid {
       position: relative;
@@ -3453,7 +3453,7 @@ input.btn[type="submit"], .form__label, .form__helper, .ribbon__label {
       padding-right: 15px;
       margin-left: auto;
       margin-right: auto;
-      max-width: 1140px;
+      max-width: 1340px;
       width: 100%;
       max-width: 100%; }
   /* line 80, Framework/sass/components/_navigation.sass */
@@ -7125,5 +7125,25 @@ code {
   right: 0;
   top: 150px;
   opacity: 0.1; }
+
+/* line 117, Framework/sass/dev-style.sass */
+.well ul, .well--lg ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+  /* line 122, Framework/sass/dev-style.sass */
+  .well ul li, .well--lg ul li {
+    line-height: 2.4;
+    padding-left: 15px;
+    border-left: transparent 4px solid; }
+    /* line 127, Framework/sass/dev-style.sass */
+    .well ul li.active, .well--lg ul li.active, .well ul li:hover, .well--lg ul li:hover {
+      border-left: teal 4px solid; }
+    /* line 131, Framework/sass/dev-style.sass */
+    .well ul li a, .well--lg ul li a {
+      display: block; }
+      /* line 134, Framework/sass/dev-style.sass */
+      .well ul li a:hover, .well--lg ul li a:hover {
+        text-decoration: none; }
 
 /*# sourceMappingURL=dev-style.css.map */
