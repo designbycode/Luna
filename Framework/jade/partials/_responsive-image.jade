@@ -1,36 +1,40 @@
 
 .row
-  .col
-    h2 Responsive Images
-    p  The <code>.responsive__image</code> class will keep the image element from overflowing the parent element. This will also make the image mobile friendly because the image never exceeds the boundary of the webpage.
+	.col
+		h2 Responsive Images
+		p  The <code>.responsive__image</code> class will keep the image element from overflowing the parent element. This will also make the image mobile friendly because the image never exceeds the boundary of the webpage.
 
-  .md-col-4
-    img(src="img/luna.jpg", alt="Luna", class="responsive__image")
-  .md-col-4
-    img(src="img/nasa-earth.jpg", alt="Nasa Earth", class="responsive__image")
-  .md-col-4
-    img(src="img/nasa-moon.jpg", alt="Nasa Moon", class="responsive__image")
+	.md-col-4
+		img(src="img/luna.jpg", alt="Luna", class="responsive__image")
+	.md-col-4
+		img(src="img/nasa-earth.jpg", alt="Nasa Earth", class="responsive__image")
+	.md-col-4
+		img(src="img/nasa-moon.jpg", alt="Nasa Moon", class="responsive__image")
 
-  .col
-    pre: code  &lt;img src=&quot;#&quot; class=&quot;responsive__image&quot; alt=&quot;&quot;&gt;
+	.col
+		pre: code  &lt;img src=&quot;#&quot; class=&quot;responsive__image&quot; alt=&quot;&quot;&gt;
 
-  .col
-    h2 Responsive Embed
-    p The responsive helper will help you to make responsive video’s, iframes, embeds, object’s, maps and svg’s. There are three types of embeds you can do. Square, normal screen size and wide-screen size. Just wrap the target element with an div with a class of any of these <code>.responsive__square</code>, <code>.responsive__screen</code> or <code>.responsive__wide-screen</code>. Make the object you want to constrain a child element of the div you created.
+	.col
+		h2 Responsive Embed
+		p The responsive helper will help you to make responsive video’s, iframes, embeds, object’s, maps and svg’s. There are three types of embeds you can do. Square, normal screen size and wide-screen size. Just wrap the target element with an div with a class of any of these <code>.responsive__square</code>, <code>.responsive__screen</code> or <code>.responsive__wide-screen</code>. Make the object you want to constrain a child element of the div you created.
 
-    blockquote.blockquote.blockquote--danger
-      .blockquote__header Optionally
-      .blockquote__body If something went wrong you can’t add a class of <code>.responsive__item</code> to the element you want to make responsive, by overriding the default css code.
+		blockquote.blockquote.blockquote--danger
+			.blockquote__header Optionally
+			.blockquote__body If something went wrong you can’t add a class of <code>.responsive__item</code> to the element you want to make responsive, by overriding the default css code.
 
-  .md-col-6
-    .well
-      .responsive__wide-screen
-        video(src="img/lips.mp4", controls, class="responsive__item ")
-  .md-col-6
-    .well
-      .responsive__wide-screen
-        <iframe class="responsive__item" src="https://www.youtube.com/embed/wbNJR2JYn7I" frameborder="0" autoplay="0" controls="0"    allowfullscreen></iframe>
-  .md-col-6
-    .well
-      .responsive__screen
-        img(src="img/nasa-moon.jpg", alt="Nasa Moon", class="responsive__item")
+	.md-col-6
+		.well
+			.responsive__wide-screen
+				video(src="img/lips.mp4", controls, class="responsive__item ")
+
+	.md-col-6
+		.well
+			.responsive__wide-screen
+				<iframe class="responsive__item" src="https://www.youtube.com/embed/wbNJR2JYn7I" frameborder="0" autoplay="0" controls="0"    allowfullscreen></iframe>
+
+
+	.md-col-6
+		.well
+			.responsive__screen
+				img(alt="Nasa Moon", class="responsive__item", src="img/nasa-moon.jpg")
+
