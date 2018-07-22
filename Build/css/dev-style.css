@@ -5811,10 +5811,6 @@ button:disabled {
   .media--bottom {
     vertical-align: bottom; }
 
-/* line 1, Framework/sass/components/_modal.sass */
-.modal {
-  display: none; }
-
 @-webkit-keyframes bounceInDownModal {
   0% {
     opacity: 0;
@@ -5836,73 +5832,77 @@ button:disabled {
     transform: translateY(0px); } }
 
 /* line 18, Framework/sass/components/_modal.sass */
+.modal {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  background: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 5px 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 5px 20px;
+  z-index: 10011;
+  display: none;
+  -webkit-animation: bounceInDownModal 0.5s forwards;
+  animation: bounceInDownModal 0.5s forwards;
+  border-radius: 3px;
+  -ms-flex-negative: 0; }
+  /* line 34, Framework/sass/components/_modal.sass */
+  .modal__close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border: solid 2px #ddddde;
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 3px; }
+    /* line 45, Framework/sass/components/_modal.sass */
+    .modal__close::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      font-family: "Lunacon";
+      content: "";
+      text-align: center;
+      line-height: 28px; }
+  /* line 56, Framework/sass/components/_modal.sass */
+  .modal__header, .modal__body, .modal__footer {
+    padding: 15px; }
+  /* line 62, Framework/sass/components/_modal.sass */
+  .modal__header {
+    border-bottom: solid 1px #ddddde;
+    font-weight: 600;
+    border-radius: 3px 3px 0 0; }
+  /* line 67, Framework/sass/components/_modal.sass */
+  .modal__footer {
+    background: #f7f7f7;
+    border-radius: 0 0 3px 3px; }
+  /* line 71, Framework/sass/components/_modal.sass */
+  .modal__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    z-index: 10010;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+      background--ms-flex-direction: column; }
+
+/* line 88, Framework/sass/components/_modal.sass */
 .has__modal {
   overflow: hidden; }
-  /* line 21, Framework/sass/components/_modal.sass */
+  /* line 91, Framework/sass/components/_modal.sass */
   .has__modal .modal {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    margin: auto;
-    background-color: white;
-    background: #fff;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 5px 20px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 5px 20px;
-    z-index: 10011;
-    display: block;
-    -webkit-animation: bounceInDownModal 1s forwards;
-    animation: bounceInDownModal 1s forwards;
-    border-radius: 3px;
-    -ms-flex-negative: 0; }
-    /* line 37, Framework/sass/components/_modal.sass */
-    .has__modal .modal__close {
-      position: absolute;
-      right: 15px;
-      top: 15px;
-      width: 30px;
-      height: 30px;
-      background: #fff;
-      border: solid 2px #ddddde;
-      z-index: 10;
-      cursor: pointer;
-      border-radius: 3px; }
-      /* line 48, Framework/sass/components/_modal.sass */
-      .has__modal .modal__close::after {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        font-family: "Lunacon";
-        content: "";
-        text-align: center;
-        line-height: 28px; }
-    /* line 59, Framework/sass/components/_modal.sass */
-    .has__modal .modal__header, .has__modal .modal__body, .has__modal .modal__footer {
-      padding: 15px; }
-    /* line 65, Framework/sass/components/_modal.sass */
-    .has__modal .modal__header {
-      border-bottom: solid 1px #ddddde;
-      font-weight: 600;
-      border-radius: 3px 3px 0 0; }
-    /* line 70, Framework/sass/components/_modal.sass */
-    .has__modal .modal__footer {
-      background: #f7f7f7;
-      border-radius: 0 0 3px 3px; }
-    /* line 74, Framework/sass/components/_modal.sass */
-    .has__modal .modal__overlay {
-      position: fixed;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      overflow-y: auto;
-      z-index: 10010;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      background: rgba(0, 0, 0, 0.5);
-        background--ms-flex-direction: column; }
+    display: block; }
 
 /* line 2, Framework/sass/components/_table.sass */
 .table__scroll-x {

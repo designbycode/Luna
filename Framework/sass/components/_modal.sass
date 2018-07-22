@@ -1,5 +1,3 @@
-.modal
-	display: none
 
 @keyframes bounceInDownModal
 
@@ -15,74 +13,80 @@
 
 
 
+
+
+.modal 
+	position: relative
+	width: 100%
+	max-width: 600px 
+	margin: auto  // required
+	background-color: white
+	background: #fff 
+	box-shadow: rgba(#000, 0.25) 0 5px 20px
+	z-index: 10011
+	display: none
+	animation: bounceInDownModal 0.5s forwards
+	+radius
+
+	// IE 11 fix for modal content incorrectly overflowing container
+	-ms-flex-negative: 0
+
+	&__close 
+		position: absolute
+		right: $the__global__padding
+		top: $the__global__padding
+		width: 30px
+		height: 30px
+		background: #fff
+		border: solid 2px $mute-border-color 
+		z-index: 10
+		cursor: pointer 
+		+radius
+		&::after 
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			height: 100%
+			font-family: "Lunacon"
+			content: $unicode-close-small
+			text-align: center
+			line-height: 28px
+
+	&__header,
+	&__body,
+	&__footer 
+		padding: $the__global__padding	
+	
+
+	&__header 
+		border-bottom: solid 1px $mute-border-color
+		font-weight: 600
+		+radius($global-border-radius $global-border-radius 0 0)
+
+	&__footer 
+		background: $mute-color
+		+radius(0 0 $global-border-radius $global-border-radius)
+
+	&__overlay 
+
+		position: fixed
+		top: 0
+		right: 0
+		bottom: 0
+		left: 0
+		overflow-y: auto
+		z-index: 10010
+		display: flex
+		background: rgba(#000, 0.5)
+    
+	    // IE 10/11 fix for modal incorrectly expanding to fill viewport height
+	    -ms-flex-direction: column
+
+
+
 .has__modal 
 	overflow: hidden 
 
 	.modal 
-		position: relative
-		width: 100%
-		max-width: 600px 
-		margin: auto  // required
-		background-color: white
-		background: #fff 
-		box-shadow: rgba(#000, 0.25) 0 5px 20px
-		z-index: 10011
 		display: block
-		animation: bounceInDownModal 1s forwards
-		+radius
-
-		// IE 11 fix for modal content incorrectly overflowing container
-		-ms-flex-negative: 0
-
-		&__close 
-			position: absolute
-			right: $the__global__padding
-			top: $the__global__padding
-			width: 30px
-			height: 30px
-			background: #fff
-			border: solid 2px $mute-border-color 
-			z-index: 10
-			cursor: pointer 
-			+radius
-			&::after 
-				position: absolute
-				top: 0
-				left: 0
-				width: 100%
-				height: 100%
-				font-family: "Lunacon"
-				content: $unicode-close-small
-				text-align: center
-				line-height: 28px
-
-		&__header,
-		&__body,
-		&__footer 
-			padding: $the__global__padding	
-		
-
-		&__header 
-			border-bottom: solid 1px $mute-border-color
-			font-weight: 600
-			+radius($global-border-radius $global-border-radius 0 0)
-
-		&__footer 
-			background: $mute-color
-			+radius(0 0 $global-border-radius $global-border-radius)
-
-		&__overlay 
-
-			position: fixed
-			top: 0
-			right: 0
-			bottom: 0
-			left: 0
-			overflow-y: auto
-			z-index: 10010
-			display: flex
-			background: rgba(#000, 0.5)
-	    
-		    // IE 10/11 fix for modal incorrectly expanding to fill viewport height
-		    -ms-flex-direction: column
-
