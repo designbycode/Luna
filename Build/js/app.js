@@ -543,8 +543,6 @@ if ( typeof Object.create !== 'function' ) {
 		var	$offset = this.settings.spyscroll.offset;	
 		var	$active = this.settings.spyscroll.activeClass;
 
-		console.log(this.settings.spyscroll);	
-
 		$(window).bind('scroll', function() {
 			var currentTop = $(window).scrollTop();
 
