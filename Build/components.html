@@ -61,6 +61,7 @@
               <li><a href="#timeline">Timeline</a></li>
               <li><a href="#ribbon">Ribbon</a></li>
               <li><a href="#accordian">Accordian</a></li>
+              <li><a href="#list">List</a></li>
             </ul>
           </div>
         </div>
@@ -1292,6 +1293,29 @@
 &lt;/ul&gt;</code></pre>
             </div>
           </div>
+          <div id="list" class="row">
+            <div class="column">
+              <h2>List Element</h2>
+              <p>A simply way to style list items.</p>
+            </div>
+            <div class="md-col-12">
+              <ul class="list">
+                <li class="list__item"> <a href="">Lorem ipsum dolor.</a></li>
+                <li class="list__item"> Lorem ipsum dolor.</li>
+                <li class="list__item"> Lorem ipsum dolor.</li>
+                <li class="list__item"> Lorem ipsum dolor.</li>
+                <li class="list__item"> Lorem ipsum dolor.</li>
+              </ul>
+            </div>
+            <div class="md-col-12"> 
+              <pre><code class="html">&lt;ul class=&quot;list&quot;&gt;
+  &lt;li class=&quot;list__item&quot;&gt;&lt;/li&gt;
+  &lt;li class=&quot;list__item&quot;&gt;&lt;/li&gt;
+  &lt;li class=&quot;list__item&quot;&gt;&lt;/li&gt;
+  &lt;li class=&quot;list__item&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -1393,31 +1417,31 @@
       	});
       
       
-      	var window_width = $( window ).width();
+      	//- var window_width = $( window ).width();
       
-      	if (window_width < 768) {
-      		$("#sidebar").trigger("sticky_kit:detach");
-      	} else {
-      		make_sticky();
-      	}
+      	//- if (window_width < 768) {
+      	//- 	$("#sidebar").trigger("sticky_kit:detach");
+      	//- } else {
+      	//- 	make_sticky();
+      	//- }
       
-      	$( window ).resize(function() {
+      	//- $( window ).resize(function() {
       
-      		window_width = $( window ).width();
+      	//- 	window_width = $( window ).width();
       
-      		if (window_width < 800) {
-      				$("#sidebar").trigger("sticky_kit:detach");
-      			} else {
-      				make_sticky();
-      			}
+      	//- 	if (window_width < 800) {
+      	//- 			$("#sidebar").trigger("sticky_kit:detach");
+      	//- 		} else {
+      	//- 			make_sticky();
+      	//- 		}
       
-      	});
+      	//- });
       
-      	function make_sticky() {
-      		$("#sidebar").stick_in_parent({
-      			offset_top: 120
-      		});
-      	}	
+      	//- function make_sticky() {
+      	//- 	$("#sidebar").stick_in_parent({
+      	//- 		offset_top: 120
+      	//- 	});
+      	//- }	
       
       
       

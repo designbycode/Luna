@@ -3232,7 +3232,7 @@ input.btn[type="submit"], .form__label, .form__helper, .ribbon__label {
 
 /* line 9, Framework/sass/helpers/_responsive.sass */
 .responsive__image {
-  display: block;
+  display: inline-block;
   height: auto;
   max-width: 100%;
   margin-bottom: 15px; }
@@ -6953,6 +6953,36 @@ button:disabled {
     border: solid 1px teal;
     color: teal; }
 
+/* line 1, Framework/sass/components/_list.sass */
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background: #fff;
+  margin-bottom: 15px;
+  border: solid 1px #ddddde;
+  color: #444;
+  border-radius: 3px; }
+  /* line 11, Framework/sass/components/_list.sass */
+  .list__item {
+    padding: 15px;
+    border-bottom: #ddddde 1px solid; }
+    /* line 15, Framework/sass/components/_list.sass */
+    .list__item a {
+      display: block;
+      color: #2075d0; }
+      /* line 18, Framework/sass/components/_list.sass */
+      .list__item a:hover {
+        text-decoration: none;
+        color: #2075d0; }
+    /* line 22, Framework/sass/components/_list.sass */
+    .list__item:last-child {
+      border-bottom: none; }
+    /* line 25, Framework/sass/components/_list.sass */
+    .list__item:hover {
+      background: #f7f7f7;
+      color: teal; }
+
 /*
 
 Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
@@ -7078,32 +7108,40 @@ Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
 h1, h2, h3, h4, h5, h6 {
   color: teal; }
 
-/* line 41, Framework/sass/dev-style.sass */
+@media screen and (min-width: 800px) {
+  @supports ((position: -webkit-sticky) or (position: sticky)) {
+    /* line 40, Framework/sass/dev-style.sass */
+    #sidebar {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 100px; } } }
+
+/* line 47, Framework/sass/dev-style.sass */
 footer.footer {
   background: #222;
   color: #eee;
   margin-top: 60px; }
 
-/* line 47, Framework/sass/dev-style.sass */
+/* line 53, Framework/sass/dev-style.sass */
 .padding {
   padding-top: 60px;
   padding-bottom: 60px; }
 
-/* line 52, Framework/sass/dev-style.sass */
+/* line 58, Framework/sass/dev-style.sass */
 .small-padding {
   padding: 5px 15px;
   margin-bottom: 5px; }
 
-/* line 57, Framework/sass/dev-style.sass */
+/* line 63, Framework/sass/dev-style.sass */
 .page__header {
   margin-bottom: 60px;
   background-color: teal; }
 
-/* line 61, Framework/sass/dev-style.sass */
+/* line 67, Framework/sass/dev-style.sass */
 body {
   padding-top: 70px; }
 
-/* line 65, Framework/sass/dev-style.sass */
+/* line 71, Framework/sass/dev-style.sass */
 code {
   border: solid #c7ddf3 1px;
   border-radius: 3px;
@@ -7113,7 +7151,7 @@ code {
   display: inline-block;
   color: #2075d0; }
 
-/* line 76, Framework/sass/dev-style.sass */
+/* line 82, Framework/sass/dev-style.sass */
 .box-fill {
   padding: 5px;
   background: #f7f7f7;
@@ -7125,12 +7163,12 @@ code {
   margin-bottom: 15px;
   margin-top: 15px; }
 
-/* line 88, Framework/sass/dev-style.sass */
+/* line 94, Framework/sass/dev-style.sass */
 .bigger-text {
   color: teal;
   font-size: 20px; }
 
-/* line 92, Framework/sass/dev-style.sass */
+/* line 98, Framework/sass/dev-style.sass */
 .icon__flex {
   background: #f7f7f7;
   border: solid 1px #ddddde;
@@ -7145,12 +7183,12 @@ code {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column; }
-  /* line 102, Framework/sass/dev-style.sass */
+  /* line 108, Framework/sass/dev-style.sass */
   .icon__flex i.lunacon, .icon__flex i.lunacon-add::before, .icon__flex i.lunacon-address-book::before, .icon__flex i.lunacon-alarm-clock::before, .icon__flex i.lunacon-anchor::before, .icon__flex i.lunacon-android::before, .icon__flex i.lunacon-back-arrow::before, .icon__flex i.lunacon-backward::before, .icon__flex i.lunacon-basket-solid::before, .icon__flex i.lunacon-basket::before, .icon__flex i.lunacon-bathtub::before, .icon__flex i.lunacon-bed::before, .icon__flex i.lunacon-beer::before, .icon__flex i.lunacon-bell-mute-solid::before, .icon__flex i.lunacon-bell-mute::before, .icon__flex i.lunacon-bell-solid::before, .icon__flex i.lunacon-bell::before, .icon__flex i.lunacon-bitcoin::before, .icon__flex i.lunacon-book::before, .icon__flex i.lunacon-books-stack::before, .icon__flex i.lunacon-books::before, .icon__flex i.lunacon-box-opened::before, .icon__flex i.lunacon-bug::before, .icon__flex i.lunacon-bull-horn::before, .icon__flex i.lunacon-calendar::before, .icon__flex i.lunacon-camera::before, .icon__flex i.lunacon-cart-solid::before, .icon__flex i.lunacon-cart::before, .icon__flex i.lunacon-checkmark-small::before, .icon__flex i.lunacon-checkmark::before, .icon__flex i.lunacon-chef::before, .icon__flex i.lunacon-chevron-down::before, .icon__flex i.lunacon-chevron-left::before, .icon__flex i.lunacon-chevron-right::before, .icon__flex i.lunacon-chevron-up::before, .icon__flex i.lunacon-clock::before, .icon__flex i.lunacon-close-small::before, .icon__flex i.lunacon-close::before, .icon__flex i.lunacon-cloud-check-solid::before, .icon__flex i.lunacon-cloud-check::before, .icon__flex i.lunacon-cloud-computing::before, .icon__flex i.lunacon-cloud-solid::before, .icon__flex i.lunacon-cloud::before, .icon__flex i.lunacon-code-fork::before, .icon__flex i.lunacon-coffee::before, .icon__flex i.lunacon-cone::before, .icon__flex i.lunacon-cosmetics::before, .icon__flex i.lunacon-cpu::before, .icon__flex i.lunacon-csv::before, .icon__flex i.lunacon-dailer-solid::before, .icon__flex i.lunacon-dailer::before, .icon__flex i.lunacon-dashboard::before, .icon__flex i.lunacon-delivery-truck::before, .icon__flex i.lunacon-doc::before, .icon__flex i.lunacon-document::before, .icon__flex i.lunacon-double-bed::before, .icon__flex i.lunacon-download::before, .icon__flex i.lunacon-drag::before, .icon__flex i.lunacon-drop::before, .icon__flex i.lunacon-earth::before, .icon__flex i.lunacon-equal::before, .icon__flex i.lunacon-expand::before, .icon__flex i.lunacon-eye::before, .icon__flex i.lunacon-facebook::before, .icon__flex i.lunacon-file-delete::before, .icon__flex i.lunacon-file::before, .icon__flex i.lunacon-files::before, .icon__flex i.lunacon-fire::before, .icon__flex i.lunacon-flask::before, .icon__flex i.lunacon-focus::before, .icon__flex i.lunacon-folder::before, .icon__flex i.lunacon-forward-arrow::before, .icon__flex i.lunacon-forward::before, .icon__flex i.lunacon-funnel::before, .icon__flex i.lunacon-garage::before, .icon__flex i.lunacon-gears::before, .icon__flex i.lunacon-gif::before, .icon__flex i.lunacon-gift::before, .icon__flex i.lunacon-giftbox::before, .icon__flex i.lunacon-git::before, .icon__flex i.lunacon-github-round-o::before, .icon__flex i.lunacon-github-round::before, .icon__flex i.lunacon-github::before, .icon__flex i.lunacon-google-play::before, .icon__flex i.lunacon-google-plus-g::before, .icon__flex i.lunacon-google-plus::before, .icon__flex i.lunacon-grid::before, .icon__flex i.lunacon-haircut::before, .icon__flex i.lunacon-hand-click::before, .icon__flex i.lunacon-hand-plant::before, .icon__flex i.lunacon-handsoap::before, .icon__flex i.lunacon-heart-solid::before, .icon__flex i.lunacon-heart::before, .icon__flex i.lunacon-heartbeat::before, .icon__flex i.lunacon-help::before, .icon__flex i.lunacon-home-solid::before, .icon__flex i.lunacon-home::before, .icon__flex i.lunacon-html::before, .icon__flex i.lunacon-info::before, .icon__flex i.lunacon-instagram::before, .icon__flex i.lunacon-key::before, .icon__flex i.lunacon-keys-hole::before, .icon__flex i.lunacon-light-bulb::before, .icon__flex i.lunacon-line-chart-down::before, .icon__flex i.lunacon-line-chart-up::before, .icon__flex i.lunacon-linkedin::before, .icon__flex i.lunacon-lips::before, .icon__flex i.lunacon-lipstick::before, .icon__flex i.lunacon-list::before, .icon__flex i.lunacon-lock-open::before, .icon__flex i.lunacon-lock::before, .icon__flex i.lunacon-login::before, .icon__flex i.lunacon-logout::before, .icon__flex i.lunacon-mail-envelope::before, .icon__flex i.lunacon-management::before, .icon__flex i.lunacon-message::before, .icon__flex i.lunacon-microphone::before, .icon__flex i.lunacon-minus::before, .icon__flex i.lunacon-moon-solid::before, .icon__flex i.lunacon-moon::before, .icon__flex i.lunacon-mpeg::before, .icon__flex i.lunacon-navicon::before, .icon__flex i.lunacon-open-door::before, .icon__flex i.lunacon-open-razor::before, .icon__flex i.lunacon-paper-clip::before, .icon__flex i.lunacon-pause::before, .icon__flex i.lunacon-paw::before, .icon__flex i.lunacon-paypal-p::before, .icon__flex i.lunacon-paypal::before, .icon__flex i.lunacon-pdf::before, .icon__flex i.lunacon-pencil::before, .icon__flex i.lunacon-pet-friendly::before, .icon__flex i.lunacon-pie-chart::before, .icon__flex i.lunacon-play::before, .icon__flex i.lunacon-plug::before, .icon__flex i.lunacon-pot-plant::before, .icon__flex i.lunacon-power-button::before, .icon__flex i.lunacon-psd::before, .icon__flex i.lunacon-push-pin::before, .icon__flex i.lunacon-razor::before, .icon__flex i.lunacon-road::before, .icon__flex i.lunacon-roboto::before, .icon__flex i.lunacon-route::before, .icon__flex i.lunacon-screwdriver::before, .icon__flex i.lunacon-search-min::before, .icon__flex i.lunacon-search-zoom::before, .icon__flex i.lunacon-search::before, .icon__flex i.lunacon-sent-mail::before, .icon__flex i.lunacon-settings-tool::before, .icon__flex i.lunacon-share::before, .icon__flex i.lunacon-shield-lock-solid::before, .icon__flex i.lunacon-shield::before, .icon__flex i.lunacon-shuffle::before, .icon__flex i.lunacon-skip-back::before, .icon__flex i.lunacon-skip-next::before, .icon__flex i.lunacon-sky::before, .icon__flex i.lunacon-slack::before, .icon__flex i.lunacon-smartphonel::before, .icon__flex i.lunacon-sound-big::before, .icon__flex i.lunacon-sound-mute::before, .icon__flex i.lunacon-sound-waves::before, .icon__flex i.lunacon-sound::before, .icon__flex i.lunacon-spoon-and-fork::before, .icon__flex i.lunacon-star-half-solid::before, .icon__flex i.lunacon-star-half::before, .icon__flex i.lunacon-star-solid::before, .icon__flex i.lunacon-star::before, .icon__flex i.lunacon-steering::before, .icon__flex i.lunacon-stop::before, .icon__flex i.lunacon-student-cap::before, .icon__flex i.lunacon-swim::before, .icon__flex i.lunacon-tag::before, .icon__flex i.lunacon-tags::before, .icon__flex i.lunacon-tap::before, .icon__flex i.lunacon-test::before, .icon__flex i.lunacon-thumbs-down-solid::before, .icon__flex i.lunacon-thumbs-down::before, .icon__flex i.lunacon-thumbs-up-solid::before, .icon__flex i.lunacon-thumbs-up::before, .icon__flex i.lunacon-tractor::before, .icon__flex i.lunacon-trash::before, .icon__flex i.lunacon-truck::before, .icon__flex i.lunacon-twitter-bird::before, .icon__flex i.lunacon-twitter::before, .icon__flex i.lunacon-upload::before, .icon__flex i.lunacon-user-delete-solid::before, .icon__flex i.lunacon-user-delete::before, .icon__flex i.lunacon-user-solid::before, .icon__flex i.lunacon-user::before, .icon__flex i.lunacon-users-solid::before, .icon__flex i.lunacon-users::before, .icon__flex i.lunacon-watch::before, .icon__flex i.lunacon-weight::before, .icon__flex i.lunacon-whatsapp::before, .icon__flex i.lunacon-wheel::before, .icon__flex i.lunacon-wifi::before, .icon__flex i.lunacon-wordpress::before, .icon__flex i.lunacon-youtube-play-button::before, .icon__flex i.lunacon-youtube::before {
     font-size: 40px;
     margin-bottom: 15px; }
 
-/* line 107, Framework/sass/dev-style.sass */
+/* line 113, Framework/sass/dev-style.sass */
 .bigicon {
   position: absolute;
   font-size: 300px;
@@ -7159,23 +7197,23 @@ code {
   top: 150px;
   opacity: 0.1; }
 
-/* line 117, Framework/sass/dev-style.sass */
+/* line 123, Framework/sass/dev-style.sass */
 .well ul, .well--lg ul {
   padding: 0;
   margin: 0;
   list-style: none; }
-  /* line 122, Framework/sass/dev-style.sass */
+  /* line 128, Framework/sass/dev-style.sass */
   .well ul li, .well--lg ul li {
     line-height: 2.4;
     padding-left: 15px;
     border-left: transparent 4px solid; }
-    /* line 127, Framework/sass/dev-style.sass */
+    /* line 133, Framework/sass/dev-style.sass */
     .well ul li.active, .well--lg ul li.active, .well ul li:hover, .well--lg ul li:hover {
       border-left: teal 4px solid; }
-    /* line 131, Framework/sass/dev-style.sass */
+    /* line 137, Framework/sass/dev-style.sass */
     .well ul li a, .well--lg ul li a {
       display: block; }
-      /* line 134, Framework/sass/dev-style.sass */
+      /* line 140, Framework/sass/dev-style.sass */
       .well ul li a:hover, .well--lg ul li a:hover {
         text-decoration: none; }
 

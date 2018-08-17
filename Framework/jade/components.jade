@@ -33,6 +33,7 @@ block content
 						li: a(href="#timeline") Timeline
 						li: a(href="#ribbon") Ribbon
 						li: a(href="#accordian") Accordian
+						li: a(href="#list") List
 
 
 			.md-col-9
@@ -52,6 +53,7 @@ block content
 				include partials/_timeline.jade
 				include partials/_ribbon.jade
 				include partials/_accordian.jade
+				include partials/_list.jade
 
 block scripts
 	script.
@@ -115,31 +117,31 @@ block scripts
 			});
 
 
-			var window_width = $( window ).width();
+			//- var window_width = $( window ).width();
 
-			if (window_width < 768) {
-				$("#sidebar").trigger("sticky_kit:detach");
-			} else {
-				make_sticky();
-			}
+			//- if (window_width < 768) {
+			//- 	$("#sidebar").trigger("sticky_kit:detach");
+			//- } else {
+			//- 	make_sticky();
+			//- }
 
-			$( window ).resize(function() {
+			//- $( window ).resize(function() {
 
-				window_width = $( window ).width();
+			//- 	window_width = $( window ).width();
 
-				if (window_width < 800) {
-						$("#sidebar").trigger("sticky_kit:detach");
-					} else {
-						make_sticky();
-					}
+			//- 	if (window_width < 800) {
+			//- 			$("#sidebar").trigger("sticky_kit:detach");
+			//- 		} else {
+			//- 			make_sticky();
+			//- 		}
 
-			});
+			//- });
 
-			function make_sticky() {
-				$("#sidebar").stick_in_parent({
-					offset_top: 120
-				});
-			}	
+			//- function make_sticky() {
+			//- 	$("#sidebar").stick_in_parent({
+			//- 		offset_top: 120
+			//- 	});
+			//- }	
 
 
 
