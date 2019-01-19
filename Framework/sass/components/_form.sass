@@ -1,223 +1,212 @@
+
 // ==========================================
 // == Luna Framework
 // == AUTHOR: CLAUDE MYBURGH
-// == URL: http://lunaframework.co.za
+// == URL: http://designbycode.co.za
 // ==========================================
 
+
 .form
-	*
-		line-height: (12px + $the__button__font__size)
+    *
+        line-height: (12px + $the__button__font__size)
 
-	&__group
-		padding-bottom: $the__global__padding
-		+clearfix
+    &__group
+        padding-bottom: $the__global__padding
+        +clearfix
 
-	&__label
-		@extend .selectable__false
-		display: block
-		font-weight: 400px
-		padding:
-			top: 2px
-			bottom: 2px
+    &__label
+        @extend .selectable__false
+        display: block
+        font-weight: 400px
+        padding:
+            top: 2px
+            bottom: 2px
 
-	&__item
-		width: 100%
-		max-width: 100%
-		border: solid 1px $the__form__border__color
-		box-shadow: none
-		background: #fff
-		padding: 4px 8px
-		border-radius: $global-border-radius
+    &__item
+        width: 100%
+        max-width: 100%
+        border: solid 1px $the__form__border__color
+        box-shadow: none
+        background: #fff
+        padding: 4px 8px
+        border-radius: $global-border-radius
 
-		&.disabled,
-		&[disabled]
-			background: $mute-color
-			border: solid 1px $mute-border-color
-			color: darken($mute-border-color, 5%)
-			&:hover
-				background: $mute-color
-				border: solid 1px $mute-border-color
-				color: darken($mute-border-color, 5%)
-				box-shadow: none
+        &.disabled,
+        &[disabled]
+            background: $mute-color
+            border: solid 1px $mute-border-color
+            color: darken($mute-border-color, 5%)
+            &:hover
+                background: $mute-color
+                border: solid 1px $mute-border-color
+                color: darken($mute-border-color, 5%)
+                box-shadow: none
 
-		&--xs
-			padding: 1px 8px
-			line-height: (3px + $the__button__font__size)
-			font-size: 75%
+        &--xs
+            padding: 1px 8px
+            line-height: (3px + $the__button__font__size)
+            font-size: 75%
 
-		&--sm
-			padding: 2px 8px
-			line-height: (6px + $the__button__font__size)
+        &--sm
+            padding: 2px 8px
+            line-height: (6px + $the__button__font__size)
 
+        &--md
+            padding: 4px 8px
+            line-height: (12px + $the__button__font__size)
 
-		&--md
-			padding: 4px 8px
-			line-height: (12px + $the__button__font__size)
+        &--lg
+            padding: 8px 8px
+            line-height: (16px + $the__button__font__size)
 
+        &--xl
+            padding: 16px 8px
+            line-height: (24px + $the__button__font__size)
 
-		&--lg
-			padding: 8px 8px
-			line-height: (16px + $the__button__font__size)
+        &__group
+            display: flex
+            flex-direction: row
+            overflow: hidden
+            +radius($global-border-radius)
 
+            .addon
+                background: $mute-color
+                border: solid 1px $the__form__border__color
+                color: darken($the__form__border__color, 20%)
+                padding: 4px 8px
+                font-weight: 400
 
-		&--xl
-			padding: 16px 8px
-			line-height: (24px + $the__button__font__size)
+                > i.lunacon 
+                    vertical-align: middle
 
+            input,button,.btn
+                +radius(0)
 
+            button.btn, .btn
+                min-width: 120px
 
-		&__group
-			display: flex
-			flex-direction: row
-			overflow: hidden
-			+radius($global-border-radius)
+    &__helper
+        font-size: 75%
+        font-weight: 600
+        font-style: italic
+        display: inline-block
+        @extend .selectable__false
+        pointer-events: none
 
-			.addon
-				background: $mute-color
-				border: solid 1px $the__form__border__color
-				color: darken($the__form__border__color, 20%)
-				padding: 4px 8px
-				font-weight: 400
-
-				> i.lunacon 
-					vertical-align: middle
-
-			input,button,.btn
-				+radius(0)
-
-			button.btn, .btn
-				min-width: 120px
-
-
-
-	&__helper
-		font-size: 75%
-		font-weight: 600
-		font-style: italic
-		display: inline-block
-		// padding: $the__global__padding
-		@extend .selectable__false
-		pointer-events: none
-
-	&__horizontal
-		+clearfix
-		.form__group
-			margin-left: -15px
-			margin-right: -15px
+    &__horizontal
+        +clearfix
+        .form__group
+            margin-left: -15px
+            margin-right: -15px
 
 input.form__item,
 select.form__item
-	height: 38px
+    height: 38px
 
 textarea.form__item
-	height: ''
-	min-width: 100%
-	width: 100%
-
+    height: ''
+    min-width: 100%
+    width: 100%
 
 .has
-	@each $key, $value in $_nofiy_colors
-		&__#{$key}
-			color: $value
-			.form__item
-				border: solid 1px $value
-				outline: none
+    @each $key, $value in $_nofiy_colors
+        &__#{$key}
+            color: $value
+            .form__item
+                border: solid 1px $value
+                outline: none
 
-				&:focus
-					outline: none
-					border: solid 1px $value
-					box-shadow: $value 0 0 6px
-
+                &:focus
+                    outline: none
+                    border: solid 1px $value
+                    box-shadow: $value 0 0 6px
 
 input:disabled,
 button:disabled
-	@extend .selectable__false--cursor
-	cursor: not-allowed
+    @extend .selectable__false--cursor
+    cursor: not-allowed
+
+.form__group__checkbox  
+    display: inline-block
+    margin-right: $the__global__padding
+    
+    /* Base for label styling */
+    .form__checkbox[type="checkbox"]:not(:checked),
+    .form__checkbox[type="checkbox"]:checked 
+        position: absolute
+        left: -9999px
+
+    .form__checkbox[type="checkbox"]:not(:checked) + label,
+    .form__checkbox[type="checkbox"]:checked + label 
+        position: relative
+        padding-left: $base-font-size  + 5px
+        cursor: pointer
 
 
-.form__group__checkbox	
-	display: inline-block
-	margin-right: $the__global__padding
-	
-	/* Base for label styling */
-	.form__checkbox[type="checkbox"]:not(:checked),
-	.form__checkbox[type="checkbox"]:checked 
-		position: absolute
-		left: -9999px
+    /* checkbox aspect */
+    .form__checkbox[type="checkbox"]:not(:checked) + label:before,
+    .form__checkbox[type="checkbox"]:checked + label:before
+        content: ''
+        position: absolute
+        left: 0 
+        top: $the__form__checkbox__icon__offset__top
+        width: $base-font-size  
+        height: $base-font-size 
+        border: 2px solid $mute-border-color
+        background: $mute-color
+        border-radius: 4px
 
-	.form__checkbox[type="checkbox"]:not(:checked) + label,
-	.form__checkbox[type="checkbox"]:checked + label 
-		position: relative
-		padding-left: $base-font-size  + 5px
-		cursor: pointer
+    /* checked mark aspect */
+    .form__checkbox[type="checkbox"]:not(:checked) + label:after,
+    .form__checkbox[type="checkbox"]:checked + label:after 
+        content: $the__form__checkbox__icon 
+        position: absolute
+        top: $the__form__checkbox__checkmark__offset__top
+        left: $the__form__checkbox__icon__offset__left
+        font-size: $base-font-size - 6px 
+        color: $the__form__checkbox__icon__color
+        font-family: $the__form__checkbox__icon__font
 
+    /* checked mark aspect changes */
+    .form__checkbox[type="checkbox"]:not(:checked) + label.from__label__checkbox:after 
+        opacity: 0
+        transform: scale(0)
 
-	/* checkbox aspect */
-	.form__checkbox[type="checkbox"]:not(:checked) + label:before,
-	.form__checkbox[type="checkbox"]:checked + label:before
-		content: ''
-		position: absolute
-		left: 0 
-		top: $the__form__checkbox__icon__offset__top
-		width: $base-font-size  
-		height: $base-font-size 
-		border: 2px solid $mute-border-color
-		background: $mute-color
-		border-radius: 4px
+    .form__checkbox[type="checkbox"]:checked + label.from__label__checkbox:after 
+        animation: checkin 0.5s forwards
 
-	/* checked mark aspect */
-	.form__checkbox[type="checkbox"]:not(:checked) + label:after,
-	.form__checkbox[type="checkbox"]:checked + label:after 
-		content: $the__form__checkbox__icon 
-		position: absolute
-		top: $the__form__checkbox__checkmark__offset__top
-		left: $the__form__checkbox__icon__offset__left
-		font-size: $base-font-size - 6px 
-		color: $the__form__checkbox__icon__color
-		font-family: $the__form__checkbox__icon__font
+    /* disabled checkbox */
+    .form__checkbox[type="checkbox"]:disabled:not(:checked) + label.from__label__checkbox:before,
+    .form__checkbox[type="checkbox"]:disabled:checked + label.from__label__checkbox:before 
+        border-color: #bbb
+        background-color: #ddd
+        cursor: not-allowed 
 
-	/* checked mark aspect changes */
-	.form__checkbox[type="checkbox"]:not(:checked) + label.from__label__checkbox:after 
-		opacity: 0
-		transform: scale(0)
+    .form__checkbox[type="checkbox"]:disabled:checked + label.from__label__checkbox:after 
+        color: #999
 
-	.form__checkbox[type="checkbox"]:checked + label.from__label__checkbox:after 
-		animation: checkin 0.5s forwards
+    .form__checkbox[type="checkbox"]:disabled + label.from__label__checkbox 
+        color: #aaa
 
+    /* accessibility */
+    .form__checkbox[type="checkbox"]:checked:focus + label.from__label__checkbox:before,
+    .form__checkbox[type="checkbox"]:not(:checked):focus + label.from__label__checkbox:before 
+        border: 2px solid $the__form__checkbox__icon__border__focus__color
 
-	/* disabled checkbox */
-	.form__checkbox[type="checkbox"]:disabled:not(:checked) + label.from__label__checkbox:before,
-	.form__checkbox[type="checkbox"]:disabled:checked + label.from__label__checkbox:before 
-		border-color: #bbb
-		background-color: #ddd
-		cursor: not-allowed 
+    /* hover style just for information */
+    label.from__label__checkbox:hover:before 
+        border: 2px solid $the__form__checkbox__icon__border__hover__color
 
-	.form__checkbox[type="checkbox"]:disabled:checked + label.from__label__checkbox:after 
-		color: #999
-
-	.form__checkbox[type="checkbox"]:disabled + label.from__label__checkbox 
-		color: #aaa
-
-	/* accessibility */
-	.form__checkbox[type="checkbox"]:checked:focus + label.from__label__checkbox:before,
-	.form__checkbox[type="checkbox"]:not(:checked):focus + label.from__label__checkbox:before 
-		border: 2px solid $the__form__checkbox__icon__border__focus__color
-
-
-	/* hover style just for information */
-	label.from__label__checkbox:hover:before 
-		border: 2px solid $the__form__checkbox__icon__border__hover__color
-
-	label.from__label__checkbox::selection 
-		background: transparent !important
+    label.from__label__checkbox::selection 
+        background: transparent !important
 
 @keyframes checkin 
-	0% 
-		opacity: 0
-		transform: scale(0)	
-	50% 
-		opacity: 1
-		transform: scale(2)	
-	100% 
-		opacity: 1
-		transform: scale(1)
+    0% 
+        opacity: 0
+        transform: scale(0) 
+    50% 
+        opacity: 1
+        transform: scale(2) 
+    100% 
+        opacity: 1
+        transform: scale(1)

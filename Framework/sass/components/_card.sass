@@ -1,93 +1,93 @@
 
+// ==========================================
+// == Luna Framework
+// == AUTHOR: CLAUDE MYBURGH
+// == URL: http://designbycode.co.za
+// ==========================================
+
 
 .card
-	background-color: $card__background__color
-	color: $card__text__color 
-	box-shadow: $card__shadow
-	overflow: hidden
-	transition: all 0.25s ease
-	margin-bottom: $the__global__padding
+    background-color: $card__background__color
+    color: $card__text__color 
+    box-shadow: $card__shadow
+    overflow: hidden
+    transition: all 0.25s ease
+    margin-bottom: $the__global__padding
 
+    &__thumb
+        position: relative
+        img
+            max-width: 100%
 
-	&__thumb
-		position: relative
-		img
-			max-width: 100%
+    &__body
+        position: relative
 
-	&__body
-		position: relative
+        &__title,
+        &__subtitle,
+        &__description
+            padding: $the__global__padding
 
-		&__title,
-		&__subtitle,
-		&__description
-			padding: $the__global__padding
-	
+        &__title
+            color: $card__title__font__color
+            font-size: $card__title__font__size
+            line-height: 1.2 
+            font-weight: bold
+            text-transform: uppercase
 
-		&__title
-			color: $card__title__font__color
-			font-size: $card__title__font__size
-			line-height: 1.2 
-			font-weight: bold
-			text-transform: uppercase
+        &__subtitle
+            padding-top: 0
+            font-size: $card__subtitle__font__size
+            font-style: italic
+            color: $card__subtitle__font__color
+            @extend .ellipsis
 
-		&__subtitle
-			padding-top: 0
-			font-size: $card__subtitle__font__size
-			font-style: italic
-			color: $card__subtitle__font__color
-			@extend .ellipsis
+        &__description
+            font-size: $card__description__font__size
+            color: $card__description__font__color
+            position: relative
+            height: 100px
+            overflow: hidden
 
-		
-		&__description
-			font-size: $card__description__font__size
-			color: $card__description__font__color
-			position: relative
-			height: 100px
-			overflow: hidden
-			&::after 
-				position: absolute
-				content: ''
-				display: block
-				width: 100%
-				height: 100px
-				top: 0px
-				left: 0
-				right: 0
-				z-index: 2
-				background: linear-gradient(to bottom, transparent , $card__background__color)
+            &::after 
+                position: absolute
+                content: ''
+                display: block
+                width: 100%
+                height: 100px
+                top: 0px
+                left: 0
+                right: 0
+                z-index: 2
+                background: linear-gradient(to bottom, transparent , $card__background__color)
 
+        &__label
+            position: absolute
+            background: $card__label__background__color
+            padding: 10px $the__global__padding
+            color: $card__label__text__color
+            font-weight: 600
+            letter-spacing: 1px
+            float: left
+            top: -40px
+            box-shadow: rgba(#000, 0.3) 4px 4px 4px
 
-			
-		&__label
-			position: absolute
-			background: $card__label__background__color
-			padding: 10px $the__global__padding
-			color: $card__label__text__color
-			font-weight: 600
-			letter-spacing: 1px
-			float: left
-			top: -40px
-			box-shadow: rgba(#000, 0.3) 4px 4px 4px
+    &__footer
+        background: $card__footer__background__color
+        padding: $the__global__padding
+        color: $card__footer__text__color
+        i.lunacon
+            margin-right: 5px 
+            vertical-align: middle
+            font-size: 14px
+            color: $card__footer__icon__color
+        span 
+            display: inline-block   
+            margin-right: 5px
+            color: $card__footer__text__color
 
-
-	&__footer
-		background: $card__footer__background__color
-		padding: $the__global__padding
-		color: $card__footer__text__color
-		i.lunacon
-			margin-right: 5px 
-			vertical-align: middle
-			font-size: 14px
-			color: $card__footer__icon__color
-		span 
-			display: inline-block	
-			margin-right: 5px
-			color: $card__footer__text__color
-
-
-		
 .card
-	&:hover
-		box-shadow: $card__shadow__hover
+
+    &:hover
+        box-shadow: $card__shadow__hover
 
 

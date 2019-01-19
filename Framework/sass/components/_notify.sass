@@ -1,54 +1,51 @@
 // ==========================================
 // == Luna Framework
 // == AUTHOR: CLAUDE MYBURGH
-// == URL: http://lunaframework.co.za
+// == URL: http://designbycode.co.za
 // ==========================================
 
 .notify
-	position: relative
-	display: block
-	padding: 8px 16px
-	border: solid 1px $mute-color
-	margin-bottom: $the__global__padding
-	+radius($the__notify__border__radius)
-	opacity: 1
-	transition: 0.2s ease-out all
+    position: relative
+    display: block
+    padding: 8px 16px
+    border: solid 1px $mute-color
+    margin-bottom: $the__global__padding
+    +radius($the__notify__border__radius)
+    opacity: 1
+    transition: 0.2s ease-out all
 
-	&__close
-		position: absolute
-		top: $the__global__padding / 2
-		right: $the__global__padding / 2
-		height: 30px
-		width: 30px
-		display: block
-		text-align: center
-		cursor: pointer
-		z-index: 2
+    &__close
+        position: absolute
+        top: $the__global__padding / 2
+        right: $the__global__padding / 2
+        height: 30px
+        width: 30px
+        display: block
+        text-align: center
+        cursor: pointer
+        z-index: 2
 
-		&__closed
-			opacity: 0
+        &__closed
+            opacity: 0
 
+    @each $key, $value in $_nofiy_colors
 
+        &--#{$key}
+            color: #fff
+            background: $value
+            border: darken($value, 5%) solid 1px
 
+            @if $key == "default"
+                background: $global-link-color
+                border: solid 1px $mute-color
+                color: #fff
 
-	@each $key, $value in $_nofiy_colors
+            &-light
+                color: $value
+                background: mix($value, #fff, 10%)
+                border: darken($value, 10%) solid 1px
 
-		&--#{$key}
-			color: #fff
-			background: $value
-			border: darken($value, 5%) solid 1px
-
-			@if $key == "default"
-				background: $global-link-color
-				border: solid 1px $mute-color
-				color: #fff
-
-			&-light
-				color: $value
-				background: mix($value, #fff, 10%)
-				border: darken($value, 10%) solid 1px
-
-				@if $key == "default"
-					background: #fff
-					border: solid 1px $global-link-color
-					color: $global-link-color
+                @if $key == "default"
+                    background: #fff
+                    border: solid 1px $global-link-color
+                    color: $global-link-color

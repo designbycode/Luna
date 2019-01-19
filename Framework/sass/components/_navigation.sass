@@ -1,184 +1,20 @@
 // ==========================================
 // == Luna Framework
 // == AUTHOR: CLAUDE MYBURGH
-// == URL: http://lunaframework.co.za
+// == URL: http://designbycode.co.za
 // ==========================================
 
 %icon
-  position: absolute
-  top: ($navigation__height / 2) - ($navicon__size / 2)  //$navicon__position__top
-  right: $navicon__position__right
-  display: block
-  width: $navicon__size
-  height: $navicon__size
-  background: $navicon__backgound__color
-  cursor: pointer
-  &::after,
-  &--open::after
-    font-family: "Lunacon"
     position: absolute
-    top: 0
-    left: 0
-    line-height: $navicon__size
-    font-size: $navicon__font__size
-    text-align: center
-    width: inherit
-    height: inherit
-    content: $unicode-navicon
-    color: $navicon__color
-
-
-
-.nav
-  position: relative
-  z-index: 9999
-  background: $navigation__background__color
-  width: 100%
-  max-height: 100%
-  padding: 0
-  +media-custom('min', $navigation__breakpoint)
-    min-height: $navigation__height + ($navigation__padding * 2)
-    padding:
-      top: $navigation__padding
-      bottom: $navigation__padding
-  +clearfix
-
-  &--shadow
-    box-shadow: rgba(#000, 0.5) 0 2px 5px
-
-    &-light 
-      box-shadow: rgba(#000, 0.15) 0 1px 1px  
-
-    &-dark 
-      box-shadow: rgba(#000, 0.75) 0 5px 10px
-
-  &--strip
-    +media-custom('min', $navigation__breakpoint)
-      background: transparent
-      border-color: transparent
-      box-shadow: none
-      transition: all 0,5s ease
-
-
-
-  //  Fixed Menu
-  &--fixed
-    position: fixed
-    top: 0
-    z-index: 10000
-
-  // Main Menu Wrapper
-  &__wrapper
-    +wrapper
-    &--fluid
-      +wrapper
-      width: 100%
-      max-width: 100%
-
-
-  // The Logo Section
-  &__brand
-    float: left
-    font-size: $navigation__brand__font__size
-    line-height: $navigation__height
-    margin-right: $the__global__padding
-    a
-      color: $navigation__brand__color
-      text-decoration: none
-      float: left
-
-  &__no__brand
-    +media-custom('max', $navigation__breakpoint)
-      padding-top: $navigation__height
-
-  // Link Set
-  &__links
-    list-style: none
-    padding: 0
-    margin: 0
+    top: ($navigation__height / 2) - ($navicon__size / 2)  //$navicon__position__top
+    right: $navicon__position__right
     display: block
-    +clearfix
-
-
-
-    // The Wrapper wraps the links above
-    &__wrapper
-      float: left
-      +media-custom('max', $navigation__breakpoint)
-        float: none
-        width: 100%
-        display: none
-
-      &--open
-        +media-custom('max', $navigation__breakpoint)
-          display: block
-
-      &:first-child
-        border-bottom: 1px solid rgba(#fff, 1)
-
-    // Align menu right
-    &--right
-      float: right
-    //Align menu left
-    &--left
-      float: left
-
-    &__button,
-    &__btn	
-      position: relative
-      display: inline-block
-      float: left
-      line-height: $navigation__height
-      margin-left: $the__global__padding / 2
-
-
-    &__item
-      position: relative
-      display: inline-block
-      float: left
-      background: $navigation__links__background__color
-      line-height: $navigation__height
-
-
-      a
-        display: block
-        color: $navigation__links__color
-        text-decoration: none
-        padding: 0 15px
-
-        > .lunacon 
-          vertical-align: bottom
-
-      &:hover,
-      &--active
-        background: $navigation__links__background__color__hover
-        > a
-          color: $navigation__links__color__hover
-
-  &__form 
-    +clearfix
-    display: flex
-    position: relative
-    top: ($navigation__height / 2) - (8px + $the__button__font__size)
-    
-
-  // ===================
-  //  Nav icon button
-  //  ==================
-  &__navicon
-    display: none
-
-    +media-custom('max', $navigation__breakpoint)
-      position: absolute
-      top: ($navigation__height / 2) - ($navicon__size / 2)  //$navicon__position__top
-      right: $navicon__position__right
-      display: block
-      width: $navicon__size
-      height: $navicon__size
-      background: $navicon__backgound__color
-      cursor: pointer
-      &::after,
-      &--open::after
+    width: $navicon__size
+    height: $navicon__size
+    background: $navicon__backgound__color
+    cursor: pointer
+    &::after,
+    &--open::after
         font-family: "Lunacon"
         position: absolute
         top: 0
@@ -191,192 +27,324 @@
         content: $unicode-navicon
         color: $navicon__color
 
-
-
-// ================
-// Dromdown Section
-// ================
-
-
 .nav
-  &__links
-    +media-custom('max', $navigation__breakpoint)
-      margin-bottom: $the__global__padding
+    position: relative
+    z-index: 9999
+    background: $navigation__background__color
+    width: 100%
+    max-height: 100%
+    padding: 0
+    +clearfix
+    +media-custom('min', $navigation__breakpoint)
+        min-height: $navigation__height + ($navigation__padding * 2)
+        padding:
+            top: $navigation__padding
+            bottom: $navigation__padding
 
+    &--shadow
+        box-shadow: rgba(#000, 0.5) 0 2px 5px
 
-    &__item
-      +media-custom('max', $navigation__breakpoint)
-        float: none
-        display: block
-        line-height: $mobile__navigation__height
+    &-light 
+        box-shadow: rgba(#000, 0.15) 0 1px 1px  
 
+    &-dark 
+        box-shadow: rgba(#000, 0.75) 0 5px 10px
 
-
-      &--dropdown
-        position: relative
-        > a
-          position: relative
-          padding-right: 36px
-
-          &::after
-            +media-custom('min', $navigation__breakpoint)
-              position: absolute
-              right: 0
-              top: 0
-              font-family: Lunacon
-              content: $unicode-chevron-down
-              width: 30px
-              height: 30px
-              display: block
-
-
-        .nav__links
-          position: absolute
-          display: none
-          width: $navigation__submenu__links__width
-          background: $navigation__submenu__links__background__color
-          top: $navigation__height
-          left: 0
-          box-shadow: rgba(#000, 0.75) 0 20px 40px -10px
-          +media-custom('max', $navigation__breakpoint)
+    &--strip
+        +media-custom('min', $navigation__breakpoint)
+            background: transparent
+            border-color: transparent
             box-shadow: none
-            position: relative
+            transition: all 0,5s ease
+
+    //  Fixed Menu
+    &--fixed
+        position: fixed
+        top: 0
+        z-index: 10000
+
+    // Main Menu Wrapper
+    &__wrapper
+        +wrapper
+        &--fluid
+            +wrapper
             width: 100%
-            top: 0
-            padding-left: $the__global__padding
-          a
-            line-height: $navigation__dropdown__links__height
-            color: $navigation__submenu__links__color
-            @extend .ellipsis
+            max-width: 100%
+
+    // The Logo Section
+    &__brand
+        float: left
+        font-size: $navigation__brand__font__size
+        line-height: $navigation__height
+        margin-right: $the__global__padding
+        a
+            color: $navigation__brand__color
+            text-decoration: none
+            float: left
+
+    &__no__brand
+        +media-custom('max', $navigation__breakpoint)
+            padding-top: $navigation__height
+
+    // Link Set
+    &__links
+        list-style: none
+        padding: 0
+        margin: 0
+        display: block
+        +clearfix
+
+        // The Wrapper wraps the links above
+        &__wrapper
+            float: left
             +media-custom('max', $navigation__breakpoint)
-              border-left: solid 2px $navigation__submenu__links__background__color__hover
-              line-height: $mobile__navigation__height
-          &__item
-            width: 100%
-            &:hover
-              background: $navigation__submenu__links__background__color__hover
-              a
-                color: $navigation__submenu__links__color__hover
+                float: none
+                width: 100%
+                display: none
 
-          &__devider
-            float: none
-            width: 100%
-            height: 1px
-            overflow: hidden 
-            background: darken($navigation__submenu__links__background__color, 5%)
+            &--open
+                +media-custom('max', $navigation__breakpoint)
+                    display: block
+
+            &:first-child
+                border-bottom: 1px solid rgba(#fff, 1)
+
+        // Align menu right
+        &--right
+            float: right
+
+        //Align menu left
+        &--left
+            float: left
+
+        &__button,
+        &__btn  
+            position: relative
+            display: inline-block
+            float: left
+            line-height: $navigation__height
+            margin-left: $the__global__padding / 2
+
+        &__item
+            position: relative
+            display: inline-block
+            float: left
+            background: $navigation__links__background__color
+            line-height: $navigation__height
+
+            a
+                display: block
+                color: $navigation__links__color
+                text-decoration: none
+                padding: 0 15px
+
+                > .lunacon 
+                    vertical-align: bottom
+
+            &:hover,
+            &--active
+                background: $navigation__links__background__color__hover
+                > a
+                    color: $navigation__links__color__hover
+
+    &__form 
+        display: flex
+        position: relative
+        top: ($navigation__height / 2) - (8px + $the__button__font__size)
+        +clearfix
+    
+    // ===================
+    //  Nav icon button
+    //  ==================
+    &__navicon
+        display: none
+        +media-custom('max', $navigation__breakpoint)
+            position: absolute
+            top: ($navigation__height / 2) - ($navicon__size / 2)  //$navicon__position__top
+            right: $navicon__position__right
+            display: block
+            width: $navicon__size
+            height: $navicon__size
+            background: $navicon__backgound__color
+            cursor: pointer
+            &::after,
+            &--open::after
+                font-family: "Lunacon"
+                position: absolute
+                top: 0
+                left: 0
+                line-height: $navicon__size
+                font-size: $navicon__font__size
+                text-align: center
+                width: inherit
+                height: inherit
+                content: $unicode-navicon
+                color: $navicon__color
+
+    &__links
+        +media-custom('max', $navigation__breakpoint)
+            margin-bottom: $the__global__padding
+
+        &__item
+            +media-custom('max', $navigation__breakpoint)
+                float: none
+                display: block
+                line-height: $mobile__navigation__height
+
+            &--dropdown
+                position: relative
+
+                > a
+                    position: relative
+                    padding-right: 36px
+
+                    &::after
+                        +media-custom('min', $navigation__breakpoint)
+                            position: absolute
+                            right: 0
+                            top: 0
+                            font-family: Lunacon
+                            content: $unicode-chevron-down
+                            width: 30px
+                            height: 30px
+                            display: block
+
+                .nav__links
+                    position: absolute
+                    display: none
+                    width: $navigation__submenu__links__width
+                    background: $navigation__submenu__links__background__color
+                    top: $navigation__height
+                    left: 0
+                    box-shadow: rgba(#000, 0.75) 0 20px 40px -10px
+                    +media-custom('max', $navigation__breakpoint)
+                        box-shadow: none
+                        position: relative
+                        width: 100%
+                        top: 0
+                        padding-left: $the__global__padding
+                    a
+                        line-height: $navigation__dropdown__links__height
+                        color: $navigation__submenu__links__color
+                        @extend .ellipsis
+                        +media-custom('max', $navigation__breakpoint)
+                            border-left: solid 2px $navigation__submenu__links__background__color__hover
+                            line-height: $mobile__navigation__height
+
+                    &__item
+                        width: 100%
+
+                        &:hover
+                            background: $navigation__submenu__links__background__color__hover
+
+                            a
+                                color: $navigation__submenu__links__color__hover
+
+                    &__devider
+                        float: none
+                        width: 100%
+                        height: 1px
+                        overflow: hidden 
+                        background: darken($navigation__submenu__links__background__color, 5%)
 
 
-        &:hover,
-        &--open
-          .nav__links
-            +media-custom('min', $navigation__breakpoint)
-              display: block
-
+                &:hover,
+                &--open
+                    .nav__links
+                        +media-custom('min', $navigation__breakpoint)
+                            display: block
 
 
 .submenu-button
-  +media-custom('max', $navigation__breakpoint)
-    position: relative
-    z-index: 10
-    display: block
-    width: 44px
-    height: $mobile__navigation__height
-    background: $mute-color
-    border-left: 1px solid $mute-border-color
-    cursor: pointer
-    float: right
-    &::after
-      position: absolute
-      font-family: "Lunacon"
-      color: $navigation__links__color__hover
-      content: $unicode-chevron-down
-      text-align: center
-      top: 0
-      left: 0
-      width: 100%
-      height: 100%
-
-
+    +media-custom('max', $navigation__breakpoint)
+        position: relative
+        z-index: 10
+        display: block
+        width: 44px
+        height: $mobile__navigation__height
+        background: $mute-color
+        border-left: 1px solid $mute-border-color
+        cursor: pointer
+        float: right
+        &::after
+            position: absolute
+            font-family: "Lunacon"
+            color: $navigation__links__color__hover
+            content: $unicode-chevron-down
+            text-align: center
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
 
 .is-open
-  &::after
-    position: absolute
-    font-family: "Lunacon"
-    color: $navigation__links__color__hover
-    content: $unicode-chevron-up
-    text-align: center
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
-
-
-
-
-
-
-
+    &::after
+        position: absolute
+        font-family: "Lunacon"
+        color: $navigation__links__color__hover
+        content: $unicode-chevron-up
+        text-align: center
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
 
 .nav__links .nav__links .nav__links
-  display: none
-  position: absolute
-  left: 95%
-  top: 15px
-  z-index: 10
-  +media-custom('max', $navigation__breakpoint)
-    position: relative
-    top: 0
-    left: 0
-    padding-left: $the__global__padding
-
-  a
-    color: $navigation__submenu__links__color
+    display: none
+    position: absolute
+    left: 95%
+    top: 15px
+    z-index: 10
     +media-custom('max', $navigation__breakpoint)
-      border-left: solid 2px $navigation__submenu__links__background__color__hover
-    &:hover
-      color: $navigation__submenu__links__color__hover
+        position: relative
+        top: 0
+        left: 0
+        padding-left: $the__global__padding
 
+    a
+        color: $navigation__submenu__links__color
+        +media-custom('max', $navigation__breakpoint)
+            border-left: solid 2px $navigation__submenu__links__background__color__hover
 
+        &:hover
+            color: $navigation__submenu__links__color__hover
 
 .nav__links__item--dropdown .nav__links__item--dropdown:hover
-  +media-custom('min', $navigation__breakpoint)
-    .nav__links
-      display: block
-
-
-
-
+    +media-custom('min', $navigation__breakpoint)
+        .nav__links
+            display: block
 
 .nav__links .nav__links .nav__links .nav__links
-  display: none
-  position: absolute
-  left: 95%
-  top: 15px
-  z-index: 20
-  +media-custom('max', $navigation__breakpoint)
-    position: relative
-    left: 0
-    top: 0
-  a
-    color: $navigation__submenu__links__color
-    &:hover
-      color: $navigation__submenu__links__color__hover
+    display: none
+    position: absolute
+    left: 95%
+    top: 15px
+    z-index: 20
+    +media-custom('max', $navigation__breakpoint)
+        position: relative
+        left: 0
+        top: 0
+    a
+        color: $navigation__submenu__links__color
 
-  &:hover
-    display: block
+        &:hover
+            color: $navigation__submenu__links__color__hover
+
+    &:hover
+        display: block
+
 
 .nav__links__item--dropdown  .nav__links__item--dropdown .nav__links__item--dropdown:hover
-
-  > .nav__links
-    +media-custom('min', $navigation__breakpoint)
-      display: block
+    
+    > .nav__links
+        +media-custom('min', $navigation__breakpoint)
+            display: block
 
 
 +media-custom('max', $navigation__breakpoint)
-  .nav__links .nav__links .nav__links .nav__links
-    width: 100%
+    .nav__links .nav__links .nav__links .nav__links
+        width: 100%
 
 +media-custom('min', $navigation__breakpoint)
-
-  .nav__links .left
-    left: -95% !important
+    .nav__links .left
+        left: -95% !important

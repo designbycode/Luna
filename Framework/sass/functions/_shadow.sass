@@ -1,20 +1,24 @@
-
+// ==========================================
+// == Luna Framework
+// == AUTHOR: CLAUDE MYBURGH
+// == URL: http://designbycode.co.za
+// ==========================================
 
 @function longshadow($color_a, $color_b ,$stepnum, $opacity: 1)
 
-	$gradient_steps: null
+    $gradient_steps: null
 
-	@for $i from 1 through $stepnum
+    @for $i from 1 through $stepnum
 
-		$weight: ( ( $i - 1 ) / $stepnum ) * 100
+        $weight: ( ( $i - 1 ) / $stepnum ) * 100
 
-		$colour_mix: mix($color_b, rgba($color_a, $opacity), $weight)
+        $colour_mix: mix($color_b, rgba($color_a, $opacity), $weight)
 
-		$seperator: null
+        $seperator: null
 
-		@if($i != $stepnum)
-			$seperator: #{','}
+        @if($i != $stepnum)
+            $seperator: #{','}
 
-		$gradient_steps: append( #{$gradient_steps}, #{$i}px #{$i}px $colour_mix $seperator )
+        $gradient_steps: append( #{$gradient_steps}, #{$i}px #{$i}px $colour_mix $seperator )
 
-		@return $gradient_steps
+    @return $gradient_steps

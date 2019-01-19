@@ -1,7 +1,8 @@
+
 // ==========================================
 // == Luna Framework
 // == AUTHOR: CLAUDE MYBURGH
-// == URL: http://lunaframework.co.za
+// == URL: http://designbycode.co.za
 // ==========================================
 
 @import "../functions/main"
@@ -9,95 +10,92 @@
 a.btn,
 button.btn,
 input[type="submit"].btn
-	+makeButton
+    +makeButton
 
-	> .lunacon 
-		vertical-align: bottom
+    > .lunacon 
+        vertical-align: bottom
 
-	@each $key, $value in $_color_set
+    @each $key, $value in $_color_set
 
-		&--#{$key}
-			background: $value
-			color: #fff
+        &--#{$key}
+            background: $value
+            color: #fff
 
-			@if($key == 'default')
-				color: $global-link-color
+            @if($key == 'default')
+                color: $global-link-color
 
-			&:hover,
-			&:active,
-			&:focus
-				background: darken($value, 5%)
-				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.38)
-				@if($key == 'default')
-					background-color: #e1f3fc
+            &:hover,
+            &:active,
+            &:focus
+                background: darken($value, 5%)
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.38)
+                @if($key == 'default')
+                    background-color: #e1f3fc
 
-			&-gradient
-				background: $value
-				background: linear-gradient(180deg, $value, darken($value, 8%))
-				color: #fff
-				border: solid 1px darken($value, 5%)
-				text-shadow: darken($value, 20%) 0 1px 1px
-				@if($key == 'default')
-					color: $global-link-color
-					border: solid 1px $mute-color
+            &-gradient
+                background: $value
+                background: linear-gradient(180deg, $value, darken($value, 8%))
+                color: #fff
+                border: solid 1px darken($value, 5%)
+                text-shadow: darken($value, 20%) 0 1px 1px
+                @if($key == 'default')
+                    color: $global-link-color
+                    border: solid 1px $mute-color
 
-				&:hover,
-				&:active,
-				&:focus
-					background: darken($value, 5%)
-					background: linear-gradient(180deg, darken($value, 2%), darken($value, 7%))
-					box-shadow: 0 4px 8px 0 rgba(0,0,0,0.38)
-				@if($key == 'default')
-					background-color: #e1f3fc
+                &:hover,
+                &:active,
+                &:focus
+                    background: darken($value, 5%)
+                    background: linear-gradient(180deg, darken($value, 2%), darken($value, 7%))
+                    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.38)
+                @if($key == 'default')
+                    background-color: #e1f3fc
 
-	&--xs
-		padding: 1px 4px
-		line-height: (3px + $the__button__font__size)
-		font-size: 75%
+    &--xs
+        padding: 1px 4px
+        line-height: (3px + $the__button__font__size)
+        font-size: 75%
 
-	&--sm
-		padding: 2px 8px
-		line-height: (6px + $the__button__font__size)
+    &--sm
+        padding: 2px 8px
+        line-height: (6px + $the__button__font__size)
 
+    &--md
+        padding: 4px 16px
+        line-height: (12px + $the__button__font__size)
 
-	&--md
-		padding: 4px 16px
-		line-height: (12px + $the__button__font__size)
+    &--lg
+        padding: 8px 32px
+        line-height: (16px + $the__button__font__size)
 
+    &--xl
+        padding: 16px 64px
+        line-height: (24px + $the__button__font__size)
 
-	&--lg
-		padding: 8px 32px
-		line-height: (16px + $the__button__font__size)
+    &--round 
+        +radius(100px)
 
-
-	&--xl
-		padding: 16px 64px
-		line-height: (24px + $the__button__font__size)
-
-	&--round 
-		+radius(100px)
-
-	&--block
-		display: block
-		width: 100%
+    &--block
+        display: block
+        width: 100%
 
 .btn__group
-	position: relative
-	margin-left: -3px
-	+clearfix
+    position: relative
+    margin-left: -3px
+    +clearfix
 
-	.btn
-		float: left
-		margin-bottom: $the__global__padding
-		margin-left: 3px
-		margin-right: 3px
+    .btn
+        float: left
+        margin-bottom: $the__global__padding
+        margin-left: 3px
+        margin-right: 3px
 
-	&--middle 
-		@extend .btn__group	
+    &--middle 
+        @extend .btn__group     
 
-		.btn 
-			float: none
-			display: inline-block
+        .btn 
+            float: none
+            display: inline-block
 
 .btn__icon,
 .icon,
@@ -107,15 +105,16 @@ button.btn__icon,
 button.icon,
 input[type="submit"].btn__icon,
 input[type="submit"].icon
-	
-	&--left
-		margin-right: 5px
-	&--right
-		margin-left: 5px
+        
+    &--left
+        margin-right: 5px
+        
+    &--right
+        margin-left: 5px
 
-	&--left,
-	&--right
-		position: relative
+    &--left,
+    &--right
+        position: relative
 
-	&--round 
-		+radius(100px)	
+    &--round 
+        +radius(100px)  

@@ -1,38 +1,36 @@
 // ==========================================
 // == Luna Framework
 // == AUTHOR: CLAUDE MYBURGH
-// == URL: http://lunaframework.co.za
+// == URL: http://designbycode.co.za
 // ==========================================
 
 .panel
-	position: relative
-	background: #fff
-	// overflow: hidden
-	display: block
-	+radius
-	margin-bottom: $the__global__padding
+    position: relative
+    background: #fff
+    display: block
+    margin-bottom: $the__global__padding
+    +radius
 
-	h1, h2, h3, h4, h5, h6, p
-		padding: 0
-		margin: 0
+    h1, h2, h3, h4, h5, h6, p
+        padding: 0
+        margin: 0
 
-	&--default
-		border: solid 1px $mute-border-color
+    &--default
+        border: solid 1px $mute-border-color
 
+    &__header,
+    &__body,
+    &__footer
+        padding: $the__global__padding
 
-	&__header,
-	&__body,
-	&__footer
-		padding: $the__global__padding
+    &__header
+        border-bottom: solid 1px $mute-border-color
+        font-weight: 600
 
-	&__header
-		border-bottom: solid 1px $mute-border-color
-		font-weight: 600
+    &__body
 
+        p
+            padding-bottom: $the__global__padding
 
-	&__body
-		p
-			padding-bottom: $the__global__padding
-
-	&__footer
-		background: $mute-color
+    &__footer
+        background: $mute-color

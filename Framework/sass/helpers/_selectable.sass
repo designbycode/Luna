@@ -1,22 +1,28 @@
 // ==========================================
 // == Luna Framework
 // == AUTHOR: CLAUDE MYBURGH
-// == URL: http://lunaframework.co.za
+// == URL: http://designbycode.co.za
 // ==========================================
 
 .selectable
-	&__false
-		user-select: none
-		&--cursor
-			user-select: none
-			cursor: not-allowed
-	&__true
-		user-select: text
-		&--cursor
-			user-select: text
-			cursor: auto
-	&__all
-		user-select: all
-		&--cursor
-			user-select: all
-			cursor: text
+
+    &__false
+        user-select: none
+
+        &--cursor
+            user-select: none
+            cursor: not-allowed
+
+    &__true
+        user-select: text
+
+        &--cursor
+            user-select: text
+            cursor: auto
+
+    &__all
+        user-select: all
+        
+        &--cursor
+            user-select: all
+            cursor: text

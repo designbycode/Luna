@@ -1,27 +1,34 @@
+
+// ==========================================
+// == Luna Framework
+// == AUTHOR: CLAUDE MYBURGH
+// == URL: http://designbycode.co.za
+// ==========================================
+
 .list
-	padding: 0
-	margin: 0
-	list-style: none
-	background: $list__background__color 
-	margin-bottom: $the__global__padding
-	border: solid 1px $list__border__color
-	color: $list__text__color
-	+radius
+    padding: 0
+    margin: 0
+    list-style: none
+    background: $list__background__color 
+    margin-bottom: $the__global__padding
+    border: solid 1px $list__border__color
+    color: $list__text__color
+    +radius
 
-	&__item
-		padding: $list__item__padding
-		border-bottom: $list__border__color 1px solid
+    &__item
+        padding: $list__item__padding
+        border-bottom: $list__border__color 1px solid
 
-		a 
-			display: block
-			color: $list__link__color
-			&:hover 
-				text-decoration: none
-				color: $list__link__color__hover
+        a 
+            display: block
+            color: $list__link__color
+            &:hover 
+                text-decoration: none
+                color: $list__link__color__hover
 
-		&:last-child
-			border-bottom: none
+        &:last-child
+            border-bottom: none
 
-		&:hover
-			background: $list__background__color__hover
-			color: $list__text__color__hover
+        &:hover
+            background: $list__background__color__hover
+            color: $list__text__color__hover

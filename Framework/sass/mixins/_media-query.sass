@@ -1,48 +1,48 @@
 // ==========================================
 // == Luna Framework
 // == AUTHOR: CLAUDE MYBURGH
-// == URL: http://lunaframework.co.za
+// == URL: http://designbycode.co.za
 // ==========================================
 
 =media-up($name)
-	$size: ''
-	@if is-number($name)
-		$size: $name
-	@else
-		$size: map-get($_breakpoints, $name)
-	@media screen and (min-width: $size)
-		@content
+    $size: ''
+    @if is-number($name)
+        $size: $name
+    @else
+        $size: map-get($_breakpoints, $name)
+    @media screen and (min-width: $size)
+        @content
 
 
 =media-down($name)
-	$size: ''
-	@if is-number($name)
-		$size: $name
-	@else
-		$size: map-get($_breakpoints, $name)
-	@media screen and (max-width: $size)
-		@content
+    $size: ''
+    @if is-number($name)
+        $size: $name
+    @else
+        $size: map-get($_breakpoints, $name)
+    @media screen and (max-width: $size)
+        @content
 
 =media-between($size1, $size2)
-	$value1: map-get($_breakpoints, $size1)
-	$value2: map-get($_breakpoints, $size2)
-	@media (min-width: $value1) and (max-width: $value2)
-		@content
+    $value1: map-get($_breakpoints, $size1)
+    $value2: map-get($_breakpoints, $size2)
+    @media (min-width: $value1) and (max-width: $value2)
+        @content
 
 
 =media-custom($direction, $value)
-	@media screen and (#{$direction}-width: $value)
-		@content
+    @media screen and (#{$direction}-width: $value)
+        @content
 
 
 =is--mobile($direction: max, $value: $mobile__view)
-	+media-custom($direction, $value)
-		@content
+    +media-custom($direction, $value)
+        @content
 
 =is--tablet($direction: max, $value: $tablet_view)
-	+media-custom($direction, $value)
-		@content
+    +media-custom($direction, $value)
+        @content
 
 =is--desktop($direction: min, $value: $mobile__view)
-	+media-custom($direction, $value)
-		@content
+    +media-custom($direction, $value)
+        @content

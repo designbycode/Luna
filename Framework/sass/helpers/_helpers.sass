@@ -1,41 +1,47 @@
 // ==========================================
 // == Luna Framework
 // == AUTHOR: CLAUDE MYBURGH
-// == URL: http://lunaframework.co.za
+// == URL: http://designbycode.co.za
 // ==========================================
 
 .lead
-	font-weight: 700
-	font-size: 120%
+    font-weight: 700
+    font-size: 120%
 
 
 .text,
 .color
-	@each $key, $value in $_color_set
-		&--#{$key}
-			color: $value !important
-			&-light
-				color: mix($value, #fff, 30%) !important
+    @each $key, $value in $_color_set
+
+        &--#{$key}
+            color: $value !important
+            
+            &-light
+                color: mix($value, #fff, 30%) !important
 
 
 .background
-	@each $key, $value in $_color_set
-		&--#{$key}
-			background-color: $value !important
-			&-light
-				background-color: mix($value, #fff, 10%) !important
+    @each $key, $value in $_color_set
+
+        &--#{$key}
+            background-color: $value !important
+
+            &-light
+                background-color: mix($value, #fff, 10%) !important
 
 
 
 .border
-	@each $key, $value in $_color_set
-		&--#{$key}
-			border:
-				color: $value !important
-				width: 1px
-				style: solid
-			&-light
-				border:
-					color: mix($value, #fff, 30%) !important
-					width: 1px
-					style: solid
+    @each $key, $value in $_color_set
+
+        &--#{$key}
+            border:
+                color: $value !important
+                width: 1px
+                style: solid
+
+            &-light
+                border:
+                    color: mix($value, #fff, 30%) !important
+                    width: 1px
+                    style: solid

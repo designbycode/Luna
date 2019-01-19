@@ -1,42 +1,42 @@
 // ==========================================
 // == Luna Framework
 // == AUTHOR: CLAUDE MYBURGH
-// == URL: http://lunaframework.co.za
+// == URL: http://designbycode.co.za
 // ==========================================
 
 .pagination
-	border: solid 1px $mute-border-color
-	background: #fff
-	display: inline-block
-	padding: 0
-	margin: 0
-	+radius
-	+clearfix
+    border: solid 1px $mute-border-color
+    background: #fff
+    display: inline-block
+    padding: 0
+    margin: 0
+    +radius
+    +clearfix
 
-	li
-		display: block
-		float: left
-		height: 40px
-		width: 40px
-		line-height: 40px
-		text-align: center
+    li
+        display: block
+        float: left
+        height: 40px
+        width: 40px
+        line-height: 40px
+        text-align: center
 
+        &.disable
+            background: $mute-color
+            color: darken($mute-border-color, 10%)
+            cursor: no-drop
 
-		&.disable
-			background: $mute-color
-			color: darken($mute-border-color, 10%)
-			cursor: no-drop
+        a
+            display: block
+            color: $primary-color
+            text-decoration: none
+        
+        &:not(.disable):hover,
+        &:not(.disable).active
+            background: $primary-color 
 
-		a
-			display: block
-			color: $primary-color
-			text-decoration: none
-		
-		&:not(.disable):hover,
-		&:not(.disable).active
-			background: $primary-color 
-
-			a,span 
-				color: $mute-color
-		&:not(.disable).active:hover  
-			cursor: no-drop
+            a,span 
+                color: $mute-color
+                
+        &:not(.disable).active:hover  
+            cursor: no-drop
