@@ -1,4 +1,6 @@
 
+
+
 if ( typeof Object.create !== 'function' ) {
 	Object.create = function(obj){
 		function F(){}

@@ -15,10 +15,15 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-webpack-plugin": "^2.4.0",
     "laravel-mix": "^4.0.14",
-    "laravel-mix-blade-jade": "^1.0.2"
+    "laravel-mix-pug": "^0.2.1",
+    "path": "^0.12.7"
   },
   "devDependencies": {
+    "pug": "^2.0.3",
     "resolve-url-loader": "^2.3.1",
     "sass": "^1.16.1",
     "sass-loader": "^7.1.0",

@@ -4,6 +4,7 @@
 // == URL: http://designbycode.co.za
 // ==========================================
 
-@import "map-get"
-@import "shadow"
-@import "is-number"
+@function get($map, $keys...)
+    @each $key in $keys
+        $map: map-get($map, $key)
+    @return $map

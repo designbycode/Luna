@@ -1,0 +1,97 @@
+// ==========================================
+// == Luna Framework
+// == AUTHOR: CLAUDE MYBURGH
+// == URL: http://designbycode.co.za
+// ==========================================
+
+
+$bar: (width: 34px, height: 14px, color: (default: $mute-color, active: rgba($primary-color, 0.25)))
+
+$thumb: (width: 20px, height: 20px, color: (default: #FAFAFA, active: $primary-color))
+
+$switch: (margin: 5px 15px, padding: 8px 0 8px get($bar, width) + (get($thumb, width)/2))
+
+$thumb-shadow: 0 3px 1px -2px rgba(0,0,0,.14), 0 2px 2px 0 rgba(0,0,0,.098), 0 1px 5px 0 rgba(0,0,0,.084)
+
+.switch
+    display: inline-block
+
+    &__input
+        display: none
+
+    &__label
+        position: relative
+        display: inline-block
+        min-width: 112px
+        cursor: pointer
+        font-weight: 600
+        text-align: left
+        margin: get($switch, margin)
+        padding: get($switch, padding)
+        @extend .selectable__false
+
+        &::before,
+        &::after
+            content: ""
+            position: absolute
+            margin: 0
+            outline: 0
+            top: 50%
+            transform: translate(0, -50%)
+            transition: transform 0.2s ease
+
+        &::before
+            left: 2px
+            width: get($bar, width)
+            height: get($bar, height)
+            background-color: get($bar, color, default)
+            border: solid 1px rgba($primary-color, 0.75)
+            +radius(8px)
+
+        &::after
+            left: 0px
+            width: get($thumb, width)
+            height: get($thumb, height)
+            background-color: get($thumb, color, default)
+            +radius(50px)
+            box-shadow: $thumb-shadow
+
+        & .toggle
+
+            &--on
+                display: none
+
+            &--off
+                display: inline-block
+
+    &__input:checked + &__label
+        &::before
+            background-color: get($bar, color, active)
+
+        &::after
+            background-color: get($thumb, color, active)
+            transform: translate(80%, -50%)
+
+        & .toggle
+
+            &--on
+                display: inline-block
+
+            &--off
+                display: none
+
+    @each $key, $value in $_color_set 
+
+        &.switch--#{$key}
+
+            .switch__label::before
+                border: solid 1px rgba($value, 0.75) !important
+
+            .switch__input:checked + .switch__label
+
+                &::before
+                    background-color: rgba($value, 0.25) !important
+                    border: solid 1px rgba($value, 0.75) !important
+
+                &::after 
+                    background-color: $value
