@@ -11,7 +11,7 @@
 	src: url('#{$font-path}/lunacon/Lunacon.eot?#iefix') format('eot'),
 		url('#{$font-path}/lunacon/Lunacon.woff') format('woff'),
 		url('#{$font-path}/lunacon/Lunacon.ttf') format('truetype'),
-		url('#{$font-path}/lunacon/Lunacon.svg#Lunacon') format('svg');
+		// url('#{$font-path}/lunacon/Lunacon.svg#Lunacon') format('svg');
 }
 
 @mixin lunacon-styles() {
@@ -2092,4 +2092,4 @@ $unicode-youtube: "\E0C6";
   100% {
     transform: scale(1);
   }
-}
+}

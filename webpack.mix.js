@@ -7,6 +7,7 @@ let imageminMozjpeg    = require('imagemin-mozjpeg')
 
 
 mix
+    .setPublicPath('Build')
     .webpackConfig({
         resolve: {
             alias: {
@@ -14,13 +15,10 @@ mix
             }
         },
         plugins: [
-            new CopyWebpackPlugin([{
-                    from: 'Framework/img', // FROM
-                    to: './dist/img/', // TO
-            }]),
+
             new CopyWebpackPlugin([{
                 from: 'Framework/img', // FROM
-                to: 'Build/img/', // TO
+                to: '/img/', // TO
             }]),
             new ImageminPlugin({
                 test: /\.(jpe?g|png|gif|svg)$/i,
@@ -38,8 +36,11 @@ mix
         ]
     })
     // .sass('./Framework/sass/style.sass', './dist/css/style.css')
-    .sass('./Framework/sass/style.sass', './Build/css/dev-style.css')
-    .js('./Framework/js/lunaapp.js', './dist/js/app.js')
+    .js('./Framework/js/lunaapp.js', './js/luna.js')
+    .sass('./Framework/sass/style.sass', './css/dev-style.css')
+    .options({
+        processCssUrls: false
+    });
 
 
 

@@ -5,8 +5,103 @@
 @import "init"
 
 
-
 @import "arduino-light"
 
 
 
+
+
+.padding--bottom 
+    margin-bottom: $the__global__padding * 2
+
+
+.hero
+    text-align: center
+    width: 100%
+    height: 100vh
+    padding: 30px 0
+    background: 
+        color: #314b54  
+        image: url('../img/hero.svg'), linear-gradient(to bottom, darken(#314b54, 5%), #314b54, #57513b)
+        repeat: no-repeat
+        size: contain
+        position: center bottom
+    display: block
+
+    h1
+        +media-up(md)
+            font-size: 10vh
+    h3
+        +media-up(md)
+            font-size: 5vh
+    h1, h3
+        text-shadow: $primary-color 2px 2px, $primary-color 4px 4px
+
+h1, h2, h3, h4, h5, h6
+    color: $primary-color   
+
+
+
+footer.footer 
+    background: #222
+    color: #eee
+    margin-top: 60px    
+
+
+.padding
+    padding-top: 60px
+    padding-bottom: 60px
+
+
+.small-padding
+    padding: 5px 15px
+    margin-bottom: 5px
+    
+
+.page__header 
+    margin-bottom: 60px
+    background-color: $primary-color
+
+body
+    padding-top: 70px
+
+
+code
+    border: solid #c7ddf3 1px
+    border-radius: 3px
+    background: #f4f8fd
+    padding: 0 5px
+    margin-right: 3px
+    display: inline-block
+    color: #2075d0
+
+// grid
+
+.box-fill
+    padding: 5px
+    background: #f7f7f7
+    border-radius: 3px
+    border: solid 1px #eaeaea
+    color: #b7b7b7
+    font-size: 12px
+    text-align: center
+    margin-bottom: 15px
+    margin-top: 15px
+
+
+.bigger-text 
+    color: $primary-color
+    font-size: 20px
+    
+.icon__flex
+    background: $mute-color
+    border: solid 1px $mute-border-color
+    padding: $the__global__padding
+    text-align: center
+    margin: $the__global__padding
+    display: flex
+    flex-direction: column
+
+    i.lunacon
+        font-size: 40px
+        margin-bottom: $the__global__padding
