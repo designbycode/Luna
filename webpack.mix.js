@@ -3,7 +3,7 @@ let Path               = require('path')
 let ImageminPlugin     = require('imagemin-webpack-plugin').default
 let CopyWebpackPlugin  = require('copy-webpack-plugin')
 let imageminMozjpeg    = require('imagemin-mozjpeg')
-mix.pug                = require('laravel-mix-pug');
+
 
 
 mix
@@ -15,8 +15,8 @@ mix
         },
         plugins: [
             new CopyWebpackPlugin([{
-                from: 'Framework/img', // FROM
-                to: 'dist/img/', // TO
+                    from: 'Framework/img', // FROM
+                    to: './dist/img/', // TO
             }]),
             new CopyWebpackPlugin([{
                 from: 'Framework/img', // FROM
@@ -37,7 +37,9 @@ mix
             })
         ]
     })
-    .sass('./Framework/sass/style.sass', './dist/css/style.css')
+    // .sass('./Framework/sass/style.sass', './dist/css/style.css')
+    .sass('./Framework/sass/style.sass', './Build/css/dev-style.css')
     .js('./Framework/js/lunaapp.js', './dist/js/app.js')
- 
+
+
 
