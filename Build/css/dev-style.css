@@ -7184,3 +7184,20 @@ code {
   font-size: 40px;
   margin-bottom: 15px;
 }
+
+@media screen and (min-width: 800px) {
+  #sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    max-height: calc(100vh - 120px);
+    overflow-y: scroll;
+  }
+  #sidebar::-webkit-scrollbar {
+    width: 5px;
+    background: #f7f7f7;
+  }
+  #sidebar::-webkit-scrollbar-thumb {
+    background-color: #ddddde;
+  }
+}

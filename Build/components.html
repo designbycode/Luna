@@ -46,24 +46,22 @@
     <div class="wrapper">
       <div class="row pinned-container">
         <div id="sidebar" class="md-col-3"> 
-          <div class="well">
-            <ul>
-              <li><a href="#navigation">Navigation</a></li>
-              <li><a href="#buttons">Buttons</a></li>
-              <li><a href="#inline-links">Inline Links</a></li>
-              <li><a href="#blockquotes">Blockquotes</a></li>
-              <li><a href="#notify">Notify</a></li>
-              <li><a href="#forms">Forms</a></li>
-              <li><a href="#pagination">Pagination</a></li>
-              <li><a href="#media-objects">Media Objects</a></li>
-              <li><a href="#tables">Tables</a></li>
-              <li><a href="#cards">Cards</a></li>
-              <li><a href="#timeline">Timeline</a></li>
-              <li><a href="#ribbon">Ribbon</a></li>
-              <li><a href="#accordian">Accordian</a></li>
-              <li><a href="#list">List</a></li>
+            <ul class="list">
+              <li class="list__item"><a href="#navigation">Navigation</a></li>
+              <li class="list__item"><a href="#buttons">Buttons</a></li>
+              <li class="list__item"><a href="#inline-links">Inline Links</a></li>
+              <li class="list__item"><a href="#blockquotes">Blockquotes</a></li>
+              <li class="list__item"><a href="#notify">Notify</a></li>
+              <li class="list__item"><a href="#forms">Forms</a></li>
+              <li class="list__item"><a href="#pagination">Pagination</a></li>
+              <li class="list__item"><a href="#media-objects">Media Objects</a></li>
+              <li class="list__item"><a href="#tables">Tables</a></li>
+              <li class="list__item"><a href="#cards">Cards</a></li>
+              <li class="list__item"><a href="#timeline">Timeline</a></li>
+              <li class="list__item"><a href="#ribbon">Ribbon</a></li>
+              <li class="list__item"><a href="#accordian">Accordian</a></li>
+              <li class="list__item"><a href="#list">List</a></li>
             </ul>
-          </div>
         </div>
         <div class="md-col-9">
           <div id="navigation" class="row scrollspy">
@@ -902,12 +900,14 @@
             <div class="col">
               <pre><code class="html">&lt;div class=&quot;media media--default&quot;&gt;
  &lt;div class=&quot;media__body&quot;&gt;
+  &lt;div class=&quot;media__left media--top&quot;&gt;
+   &lt;div class=&quot;media__image&quot;&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; width=&quot;80px&quot; height=&quot;80px&quot; class=&quot;media__thumbnail&quot;&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
    &lt;div class=&quot;media__heading&quot;&gt; .....&lt;/div&gt;
    &lt;div&gt;.....&lt;/div&gt;
  &lt;/div&gt;
- &lt;div class=&quot;media__right media--top&quot;&gt;
-   &lt;div class=&quot;media__image&quot;&gt;&lt;/div&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; width=&quot;80px&quot; height=&quot;80px&quot; class=&quot;media__thumbnail&quot;&gt;
- &lt;/div&gt;
+
 &lt;/div&gt;</code></pre>
             </div>
           </div>
@@ -1387,24 +1387,9 @@
     <script src="js/highlight.pack.js"></script>
     <script>
       $(document).ready(function() {
-      	$(document).Luna({
-      
-      		accordian: {
-      			speed: 320,
-      			easing: "easeInOutSine"
-      		},
-      		spyscroll: {
-      		}
-      	});
-      
-      
       	$('pre code').each(function(i, block) {
       		hljs.highlightBlock(block);
       	});
-      
-      
-      
-      
       
       });
       
@@ -1467,38 +1452,7 @@
       		  $('#table_set').removeClass('table__responsive');
       
       		}
-      	});
-      
-      
-      	//- var window_width = $( window ).width();
-      
-      	//- if (window_width < 768) {
-      	//- 	$("#sidebar").trigger("sticky_kit:detach");
-      	//- } else {
-      	//- 	make_sticky();
-      	//- }
-      
-      	//- $( window ).resize(function() {
-      
-      	//- 	window_width = $( window ).width();
-      
-      	//- 	if (window_width < 800) {
-      	//- 			$("#sidebar").trigger("sticky_kit:detach");
-      	//- 		} else {
-      	//- 			make_sticky();
-      	//- 		}
-      
-      	//- });
-      
-      	//- function make_sticky() {
-      	//- 	$("#sidebar").stick_in_parent({
-      	//- 		offset_top: 120
-      	//- 	});
-      	//- }	
-      
-      
-      
-      
+      	});    
       
       });
     </script>

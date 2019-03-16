@@ -4,8 +4,6 @@ let ImageminPlugin     = require('imagemin-webpack-plugin').default
 let CopyWebpackPlugin  = require('copy-webpack-plugin')
 let imageminMozjpeg    = require('imagemin-mozjpeg')
 
-
-
 mix
     .setPublicPath('Build')
     .webpackConfig({
@@ -36,7 +34,7 @@ mix
         ]
     })
     // .sass('./Framework/sass/style.sass', './dist/css/style.css')
-    .js('./Framework/js/lunaapp.js', './js/luna.js')
+    .js('./Framework/js/lunaapp.js', './js/app.js')
     .sass('./Framework/sass/style.sass', './css/dev-style.css')
     .options({
         processCssUrls: false

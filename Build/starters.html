@@ -86,26 +86,10 @@
     <script src="js/app.js"></script>
     <script src="js/highlight.pack.js"></script>
     <script>
-      $(document).ready(function() {
-      	$(document).Luna({
-      
-      		accordian: {
-      			speed: 320,
-      			easing: "easeInOutSine"
-      		},
-      		spyscroll: {
-      		}
-      	});
-      
-      
+      $(document).ready(function() { 
       	$('pre code').each(function(i, block) {
       		hljs.highlightBlock(block);
       	});
-      
-      
-      
-      
-      
       });
       
     </script>

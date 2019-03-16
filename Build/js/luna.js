@@ -133,6 +133,10 @@ if (typeof Object.create !== 'function') {
       self.spyscroll(); // self.modal();
 
       self.accordian();
+      self.skewer();
+    },
+    elems: {
+      skewer: $('.skewer')
     },
     menu: function menu() {
       var resizeWindow,
@@ -232,6 +236,9 @@ if (typeof Object.create !== 'function') {
           $(this).parent('.notify').remove();
         });
       });
+    },
+    skewer: function skewer() {
+      alert('dasfd');
     },
     scrollPosition: function scrollPosition() {
       var body = this.$element,

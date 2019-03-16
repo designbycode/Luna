@@ -58,6 +58,7 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "laravel-mix-pug": "^0.2.1",
     "pug": "^2.0.3",
     "resolve-url-loader": "^2.3.1",
