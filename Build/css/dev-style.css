@@ -6995,6 +6995,13 @@ button:disabled {
   padding: 30px;
 }
 
+.skew-scroll {
+  will-change: transform;
+  transition: -webkit-transform 0.25s;
+  transition: transform 0.25s;
+  transition: transform 0.25s, -webkit-transform 0.25s;
+}
+
 /*
 
 Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>

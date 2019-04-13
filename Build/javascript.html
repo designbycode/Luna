@@ -67,7 +67,11 @@
       showAt: 500   // The offset the page have to scoll to show button
     easing: "swing",  // Easing require easing plugin
     callback: null      // callback: function(){ }
-    }
+    },
+    skewScroll: {
+        force: 0.25, //Scroll force - keep under 1
+        maxSkew: 8 // Max scroll degrees
+    },
     accordian: {
       speed: 300,         // The animation speed
       easing: "swing",    // Easing require easing plugin

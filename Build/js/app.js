@@ -101,6 +101,10 @@
       trigger: ".scrollspy",
       offset: 0,
       activeClass: "list__item--active"
+    },
+    skewScroll: {
+      force: 0.3,
+      maxSkew: 5
     }
   });
 })();
@@ -145,7 +149,7 @@ if (typeof Object.create !== 'function') {
       var self = this;
       self.element = element;
       self.$element = $(element);
-      self.settings = $.extend({}, settings, $.fn.Luna.settings);
+      self.settings = $.extend({}, $.fn.Luna.settings, settings);
       self.menu();
       self.notification();
       self.scrollUp();
@@ -153,7 +157,9 @@ if (typeof Object.create !== 'function') {
       self.dropdown();
       self.spyscroll(); // self.modal();
 
-      self.accordian();
+      self.accordian(); // self.keyframeLooper();
+
+      self.skewLooper();
     },
     menu: function menu() {
       var resizeWindow,
@@ -215,6 +221,28 @@ if (typeof Object.create !== 'function') {
           }
         });
       });
+    },
+    skewLooper: function skewLooper() {
+      var skewSection = $('.skew-scroll');
+      var currentPosition = window.pageYOffset;
+      var force = this.settings.skewScroll.force;
+      var maxSkew = this.settings.skewScroll.maxSkew;
+
+      var looper = function looper() {
+        var newPixel = window.pageYOffset;
+        var diff = newPixel - currentPosition;
+        var top = maxSkew;
+        var intensity = force;
+        var speed = top * (2 / (1 + Math.exp(-1 * intensity * diff)) - 1); // var speed = diff * force;
+
+        skewSection.css({
+          'transform': 'skewY(' + speed + 'deg)'
+        });
+        currentPosition = newPixel;
+        requestAnimFrame(looper);
+      };
+
+      looper();
     },
     accordian: function accordian() {
       var accordian = $('.accordian');
@@ -304,7 +332,7 @@ if (typeof Object.create !== 'function') {
     },
     modal: function modal() {},
     keyframeLooper: function keyframeLooper() {
-      requestAnimFrame(this.keyframeLooper.bind(this));
+      requestAnimFrame(this.keyframeLooper.bind(this)); // this.skewLooper();
     }
   };
 
@@ -338,6 +366,10 @@ if (typeof Object.create !== 'function') {
       speed: 300,
       easing: "swing",
       callback: null
+    },
+    skewScroll: {
+      force: 0.25,
+      maxSkew: 8
     },
     spyscroll: {
       trigger: ".scrollspy",

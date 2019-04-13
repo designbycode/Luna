@@ -44,7 +44,7 @@ if ( typeof Object.create !== 'function' ) {
 
             self.element  = element;
             self.$element = $( element );
-            self.settings = $.extend({}, settings, $.fn.Luna.settings);
+            self.settings = $.extend({}, $.fn.Luna.settings, settings);
 
             self.menu();
             self.notification();
@@ -54,6 +54,8 @@ if ( typeof Object.create !== 'function' ) {
             self.spyscroll();
             // self.modal();
             self.accordian();
+            // self.keyframeLooper();
+            self.skewLooper();
 
     },
 
@@ -130,8 +132,28 @@ if ( typeof Object.create !== 'function' ) {
         }); 
 
     },
+    skewLooper: function() {
 
+        var skewSection = $('.skew-scroll');
+        var currentPosition = window.pageYOffset
+        var force = this.settings.skewScroll.force
+        var maxSkew = this.settings.skewScroll.maxSkew
+        var looper = function() {
+            var newPixel = window.pageYOffset;
+            var diff = newPixel - currentPosition;
+            var top = maxSkew;
+            var intensity = force;
+            var speed = top * ((2 / (1 +  Math.exp(-1 * intensity * diff ))) - 1)
+            // var speed = diff * force;
+            skewSection.css({
+                'transform': 'skewY('+ speed + 'deg)'
+            })
+            currentPosition = newPixel;
+            requestAnimFrame(looper)
+        }
 
+        looper()
+    },
     accordian: function () {
         var accordian = $('.accordian');
 
@@ -250,6 +272,7 @@ if ( typeof Object.create !== 'function' ) {
 
     keyframeLooper: function(){
         requestAnimFrame(this.keyframeLooper.bind(this));
+        // this.skewLooper();
     }
 
 };
@@ -285,6 +308,10 @@ $.fn.Luna = function( settings ) {
             speed: 300,
             easing: "swing",
             callback: null
+        },
+        skewScroll: {
+            force: 0.25,
+            maxSkew: 8
         },
         spyscroll: {
             trigger: ".scrollspy",
