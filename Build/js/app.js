@@ -268,7 +268,7 @@ if (typeof Object.create !== 'function') {
           closeButton,
           speed = this.settings.notify.speed;
       closeButton = $('<span/>', {
-        class: "notify__close",
+        "class": "notify__close",
         html: "&times;"
       });
 
