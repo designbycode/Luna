@@ -1,6 +1,11 @@
 # Luna Framework
 > Lightweight Responsive Framework
 
+[![npm version](https://badge.fury.io/js/luna-sass.svg)](https://badge.fury.io/js/luna-sass)
+[![GitHub version](https://badge.fury.io/gh/designbycode%2Fluna.svg)](https://badge.fury.io/gh/designbycode%2Fluna)
+[![GitHub license](https://img.shields.io/github/license/DesignByCode/Luna)](https://github.com/DesignByCode/Luna)
+[![GitHub stars](https://img.shields.io/github/stars/DesignByCode/Luna)](https://github.com/DesignByCode/Luna/stargazers)
+
 :last_quarter_moon: Luna Framework is a responsive Open Source CSS framework, build in SASS. The aim of this framework is to speed up frontend development by handling cross browser inconsistencies and creating support for mobile devices at the same time. The Luna Framework is also built on the CSS BEM methodology to reduce the CSS footprint.
 
 [Demo](https://designbycode.github.io/Luna/Build/index.html)
@@ -28,9 +33,7 @@ You can install the Framework using yarn, then run :
 yarn add luna-sass
 ````
 
-[![Bower](https://img.shields.io/bower/v/bootstrap.svg)](https://bower.io/search/?q=luna)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
-[![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)]()
+
 
 
 
