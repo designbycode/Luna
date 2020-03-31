@@ -41,15 +41,6 @@
             top: $navigation__padding
             bottom: $navigation__padding
 
-    &--shadow
-        box-shadow: rgba(#000, 0.5) 0 2px 5px
-
-    &-light 
-        box-shadow: rgba(#000, 0.15) 0 1px 1px  
-
-    &-dark 
-        box-shadow: rgba(#000, 0.75) 0 5px 10px
-
     &--strip
         +media-custom('min', $navigation__breakpoint)
             background: transparent
@@ -131,6 +122,8 @@
             float: left
             background: $navigation__links__background__color
             line-height: $navigation__height
+            +radius($navigation__links__border__radius)
+            transition: $navigation__links__border__transition__speed 
 
             a
                 display: block
@@ -144,6 +137,7 @@
             &:hover,
             &--active
                 background: $navigation__links__background__color__hover
+                +radius($navigation__links__border__radius)
                 > a
                     color: $navigation__links__color__hover
 

@@ -1,0 +1,72 @@
+
+
+.flex 
+    display: flex 
+    flex-wrap: wrap
+    &--grow 
+        flex-grow: 1
+    &--row 
+        flex-direction: row
+    &--column 
+        flex-direction: column
+    &--align-center
+        align-items: center
+    &--align-start
+        align-items: flex-start
+    &--align-end
+        align-items: flex-end
+    &--center
+        justify-content: center
+        align-items: center
+
+
+.justify
+    &--center
+        justify-content: center
+    &--between
+        justify-content: space-between
+    &--evenly
+        justify-content: space-evenly
+    &--around
+        justify-content: space-around
+    &--start
+        justify-content: flex-start
+    &--end
+        justify-content: flex-end
+
+
+@each $key, $value in $_breakpoints
+    @for $i from 1 through $the__column__count
+        +media-up($key)
+            .#{$key}--flex
+                display: flex 
+                flex-wrap: wrap
+                &--grow 
+                    flex-grow: 1
+                &--row 
+                    flex-direction: row
+                &--column 
+                    flex-direction: column
+                &--align-center
+                    align-items: center
+                &--align-start
+                    align-items: flex-start
+                &--align-end
+                    align-items: flex-end
+                &--center
+                    justify-content: center
+                    align-items: center
+
+            .#{$key}--justify
+                &--center
+                    justify-content: center
+                &--between
+                    justify-content: space-between
+                &--evenly
+                    justify-content: space-evenly
+                &--around
+                    justify-content: space-around
+                &--start
+                    justify-content: flex-start
+                &--end
+                    justify-content: flex-end

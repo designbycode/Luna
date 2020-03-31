@@ -21,7 +21,7 @@ $base-line-height: 24px !default
 $base-unit: 'em' !default
 
 // The default font family.
-$base-font-family: 'Roboto', sans-serif !default
+$base-font-family: 'Inter', sans-serif !default
 
 // The font sizes for h1-h6.
 $h1-font-size: 2.2   * $base-font-size !default
@@ -82,7 +82,7 @@ $global-border-radius: 3px
 $global-background-color: #fff
 $global-font-color: #444
 $global-link-color: #2075d0
-$global-header-font: 'Montserrat Alternates', sans-serif
+$global-header-font: 'Rubik', sans-serif
 $global-body-font: $base-font-family // override normalize base font family
 
 $font-path: '../fonts'
@@ -95,9 +95,9 @@ $font-path: '../fonts'
 
 
 // Main Colors
-$primary-color: teal 
-$secondary-color: #b94262
-$dark-color: darken(#314b54, 5%)
+$primary-color: #16bdca 
+$secondary-color: #ca1650
+$dark-color: #052e3c
 
 $mute-color: #f7f7f7
 $mute-border-color: #ddddde //#e6e9ec
@@ -106,10 +106,10 @@ $well-color: $mute-color
 $well-border-color: $mute-border-color
 
 // notifacation colors
-$info-color: #4285f4
-$warning-color: #f09300
-$success-color: #008c3a
-$danger-color: #ea4335
+$info-color: #16c2ca
+$warning-color: #ca6916
+$success-color: #16ca90
+$danger-color: #ca1616
 
 // ==========================================
 // == COLOR MAP
@@ -140,19 +140,25 @@ $the__button__default__hover__background__color: #e1f3fc
 // ==========================================
 
 $navigation__breakpoint: 900px
-$navigation__height: 70px
-$navigation__dropdown__links__height: 60px
+$navigation__height: 50px
+$navigation__dropdown__links__height: 50px
 
-$navigation__padding: 0px
+$navigation__padding: 10px
 $navigation__brand__color: #fff
-$navigation__brand__font__size: 28px
+$navigation__brand__font__size: 22px
 $navigation__background__color: $dark-color
 
 $navigation__links__color: #fff
 $navigation__links__color__hover: $dark-color
+$navigation__links__border__radius: $global-border-radius
+$navigation__links__border__transition__speed: none
+
 
 $navigation__links__background__color: transparent
 $navigation__links__background__color__hover: #fff
+$navigation__links__border__radius__hover: $navigation__links__border__radius
+
+
 // Submenu
 $navigation__submenu__links__width: 200px
 $navigation__submenu__links__color: $dark-color

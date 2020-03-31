@@ -1,0 +1,11 @@
+// ==========================================
+// == Luna Framework
+// == AUTHOR: CLAUDE MYBURGH
+// == URL: http://designbycode.co.za
+// ==========================================
+
+=shadow($color: rgba(black, 0.2), $y: 0, $x: 0, $blur: 2px, $spread: 0, $filter: false)
+        @if($filter === true)
+            drop-shadow: $color $y $x $blur $spread
+        @else 
+            box-shadow: $color $y $x $blur $spread
