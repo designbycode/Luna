@@ -19,21 +19,21 @@
 .bg
     @each $key, $value in $_color_set
         &--#{$key}
-            background-color: $value 
+            background-color: $value !important
             &-light
-                background-color: mix($value, #fff, 10%) 
+                background-color: mix($value, #fff, 10%) !important
             &-gradient
-                background: linear-gradient(to bottom, $value, darken($value, 5%)) 
+                background: linear-gradient(to bottom, $value, darken($value, 5%)) !important
 
 .hover
     &\:bg
         @each $key, $value in $_color_set
             &--#{$key}:hover
-                background-color: $value 
+                background-color: $value !important
             &--#{$key}-light:hover
-                background-color: mix($value, #fff, 10%) 
+                background-color: mix($value, #fff, 10%) !important
             &--#{$key}-gradient:hover
-                background: linear-gradient(to bottom, $value, darken($value, 5%)) 
+                background: linear-gradient(to bottom, $value, darken($value, 5%)) !important
 
 .border
     @each $key, $value in $_color_set

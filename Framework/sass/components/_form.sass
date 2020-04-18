@@ -85,6 +85,42 @@
             button.btn, .btn
                 min-width: 120px
 
+    &__wrap
+        display: flex
+        align-items: center
+        width: 100%
+        max-width: 100%
+        border: solid 1px $the__form__border__color
+        box-shadow: none
+        background: #fff
+        padding: 4px 8px
+        border-radius: $global-border-radius
+
+
+
+        &:focus-within
+            outline: none
+            border: solid 1px $global-link-color
+            box-shadow: rgba($global-link-color, 0.95) 0 0 6px
+
+
+        & > i 
+            min-width: 25px
+            margin-right: 5px
+            // text-align: center
+            border-right: solid 1px $the__form__border__color
+
+
+        & > .form__item 
+            border: none !important
+            outline: none
+            box-shadow: none
+            &:focus
+                outline: none !important
+                border: none !important
+                box-shadow: none !important
+
+
     &__helper
         font-size: 75%
         font-weight: 600
@@ -110,14 +146,21 @@ textarea.form__item
 
 .has
     @each $key, $value in $_nofiy_colors
-        &__#{$key}
+        &__#{$key},
+        &--#{$key}
             color: $value
             .form__item
                 border: solid 1px $value
                 outline: none
-
                 &:focus
                     outline: none
+                    border: solid 1px $value
+                    box-shadow: $value 0 0 6px
+            .form__wrap
+                border: solid 1px $value
+                outline: none
+                &:focus-within
+                    outline: none   
                     border: solid 1px $value
                     box-shadow: $value 0 0 6px
 
