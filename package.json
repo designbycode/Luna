@@ -51,19 +51,19 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
-    "copy-webpack-plugin": "^4.6.0",
+    "copy-webpack-plugin": "^5.1.1",
     "imagemin-mozjpeg": "^8.0.0",
-    "imagemin-webpack-plugin": "^2.4.0",
-    "laravel-mix": "^4.0.14",
-    "path": "^0.12.7"
+    "imagemin-webpack-plugin": "^2.4.2",
+    "laravel-mix": "^5.0.4",
+    "path": "^0.12.7",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.2.0"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0",
-    "laravel-mix-pug": "^0.2.1",
-    "pug": "^2.0.3",
-    "resolve-url-loader": "^2.3.1",
-    "sass": "^1.16.1",
-    "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.22"
+    "cross-env": "^7.0.2",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
   }
 }

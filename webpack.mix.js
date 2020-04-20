@@ -34,8 +34,10 @@ mix
         ]
     })
     // .sass('./Framework/sass/style.sass', './dist/css/style.css')
-    .js('./Framework/js/lunaapp.js', './js/app.js')
-    .sass('./Framework/sass/style.sass', './css/dev-style.css')
+    .js('./Build/assets/js/app.js', './js/app.js')
+    // .js('./Framework/js/app.js', './js/app.js')
+    .sass('./Build/assets/sass/app.sass', './css/app.css')
+    // .sass('./Framework/sass/style.sass', '../Framework/sass/style.css')
     .options({
         processCssUrls: false
     });

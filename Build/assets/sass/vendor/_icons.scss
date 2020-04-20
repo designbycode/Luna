@@ -1,0 +1,2095 @@
+// ==========================================
+// == Luna Framework - Lunacon
+// == AUTHOR: CLAUDE MYBURGH
+// == URL: http://lunaframework.co.za
+// ==========================================
+//
+//
+@font-face {
+	font-family: "Lunacon";
+	src: url('#{$font-path}/lunacon/Lunacon.eot');
+	src: url('#{$font-path}/lunacon/Lunacon.eot?#iefix') format('eot'),
+		url('#{$font-path}/lunacon/Lunacon.woff') format('woff'),
+		url('#{$font-path}/lunacon/Lunacon.ttf') format('truetype'),
+		// url('#{$font-path}/lunacon/Lunacon.svg#Lunacon') format('svg');
+}
+
+@mixin lunacon-styles() {
+    display: inline-block;
+    font-family: "Lunacon";
+    font-style: normal;
+    font-size: inherit;
+    vertical-align: bottom;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.lunacon{
+  @include lunacon-styles();
+}
+
+.lunacon-fw{
+  width: 1.28571429em;
+  text-align: center;
+}
+
+
+  .lunacon--size-x1{
+    font-size: ($base-icon-size * 0) + $base-icon-size !important;
+  }
+
+  .lunacon--size-x2{
+    font-size: ($base-icon-size * 1) + $base-icon-size !important;
+  }
+
+  .lunacon--size-x3{
+    font-size: ($base-icon-size * 2) + $base-icon-size !important;
+  }
+
+  .lunacon--size-x4{
+    font-size: ($base-icon-size * 3) + $base-icon-size !important;
+  }
+
+  .lunacon--size-x5{
+    font-size: ($base-icon-size * 4) + $base-icon-size !important;
+  }
+
+
+
+
+
+$unicode-add: "\E001";
+
+$unicode-address-book: "\E002";
+
+$unicode-alarm-clock: "\E003";
+
+$unicode-anchor: "\E004";
+
+$unicode-android: "\E005";
+
+$unicode-back-arrow: "\E006";
+
+$unicode-backward: "\E007";
+
+$unicode-basket-solid: "\E008";
+
+$unicode-basket: "\E009";
+
+$unicode-bathtub: "\E00A";
+
+$unicode-bed: "\E00B";
+
+$unicode-beer: "\E00C";
+
+$unicode-bell-mute-solid: "\E00D";
+
+$unicode-bell-mute: "\E00E";
+
+$unicode-bell-solid: "\E00F";
+
+$unicode-bell: "\E010";
+
+$unicode-bitcoin: "\E011";
+
+$unicode-book: "\E012";
+
+$unicode-books-stack: "\E013";
+
+$unicode-books: "\E014";
+
+$unicode-box-opened: "\E015";
+
+$unicode-bug: "\E016";
+
+$unicode-bull-horn: "\E017";
+
+$unicode-calendar: "\E018";
+
+$unicode-camera: "\E019";
+
+$unicode-cart-solid: "\E01A";
+
+$unicode-cart: "\E01B";
+
+$unicode-checkmark-small: "\E01C";
+
+$unicode-checkmark: "\E01D";
+
+$unicode-chef: "\E01E";
+
+$unicode-chevron-down: "\E01F";
+
+$unicode-chevron-left: "\E020";
+
+$unicode-chevron-right: "\E021";
+
+$unicode-chevron-up: "\E022";
+
+$unicode-clock: "\E023";
+
+$unicode-close-small: "\E024";
+
+$unicode-close: "\E025";
+
+$unicode-cloud-check-solid: "\E026";
+
+$unicode-cloud-check: "\E027";
+
+$unicode-cloud-computing: "\E028";
+
+$unicode-cloud-solid: "\E029";
+
+$unicode-cloud: "\E02A";
+
+$unicode-code-fork: "\E02B";
+
+$unicode-coffee: "\E02C";
+
+$unicode-cone: "\E02D";
+
+$unicode-cosmetics: "\E02E";
+
+$unicode-cpu: "\E02F";
+
+$unicode-csv: "\E030";
+
+$unicode-dailer-solid: "\E031";
+
+$unicode-dailer: "\E032";
+
+$unicode-dashboard: "\E033";
+
+$unicode-delivery-truck: "\E034";
+
+$unicode-doc: "\E035";
+
+$unicode-document: "\E036";
+
+$unicode-double-bed: "\E037";
+
+$unicode-download: "\E038";
+
+$unicode-drag: "\E039";
+
+$unicode-drop: "\E03A";
+
+$unicode-earth: "\E03B";
+
+$unicode-equal: "\E03C";
+
+$unicode-expand: "\E03D";
+
+$unicode-eye: "\E03E";
+
+$unicode-facebook: "\E03F";
+
+$unicode-file-delete: "\E040";
+
+$unicode-file: "\E041";
+
+$unicode-files: "\E042";
+
+$unicode-fire: "\E043";
+
+$unicode-flask: "\E044";
+
+$unicode-focus: "\E045";
+
+$unicode-folder: "\E046";
+
+$unicode-forward-arrow: "\E047";
+
+$unicode-forward: "\E048";
+
+$unicode-funnel: "\E049";
+
+$unicode-garage: "\E04A";
+
+$unicode-gears: "\E04B";
+
+$unicode-gif: "\E04C";
+
+$unicode-gift: "\E04D";
+
+$unicode-giftbox: "\E04E";
+
+$unicode-git: "\E04F";
+
+$unicode-github-round-o: "\E050";
+
+$unicode-github-round: "\E051";
+
+$unicode-github: "\E052";
+
+$unicode-google-play: "\E053";
+
+$unicode-google-plus-g: "\E054";
+
+$unicode-google-plus: "\E055";
+
+$unicode-grid: "\E056";
+
+$unicode-haircut: "\E057";
+
+$unicode-hand-click: "\E058";
+
+$unicode-hand-plant: "\E059";
+
+$unicode-handsoap: "\E05A";
+
+$unicode-heart-solid: "\E05B";
+
+$unicode-heart: "\E05C";
+
+$unicode-heartbeat: "\E05D";
+
+$unicode-help: "\E05E";
+
+$unicode-home-solid: "\E05F";
+
+$unicode-home: "\E060";
+
+$unicode-html: "\E061";
+
+$unicode-info: "\E062";
+
+$unicode-instagram: "\E063";
+
+$unicode-key: "\E064";
+
+$unicode-keys-hole: "\E065";
+
+$unicode-light-bulb: "\E066";
+
+$unicode-line-chart-down: "\E067";
+
+$unicode-line-chart-up: "\E068";
+
+$unicode-linkedin: "\E069";
+
+$unicode-lips: "\E06A";
+
+$unicode-lipstick: "\E06B";
+
+$unicode-list: "\E06C";
+
+$unicode-lock-open: "\E06D";
+
+$unicode-lock: "\E06E";
+
+$unicode-login: "\E06F";
+
+$unicode-logout: "\E070";
+
+$unicode-mail-envelope: "\E071";
+
+$unicode-management: "\E072";
+
+$unicode-message: "\E073";
+
+$unicode-microphone: "\E074";
+
+$unicode-minus: "\E075";
+
+$unicode-moon-solid: "\E076";
+
+$unicode-moon: "\E077";
+
+$unicode-mpeg: "\E078";
+
+$unicode-navicon: "\E079";
+
+$unicode-open-door: "\E07A";
+
+$unicode-open-razor: "\E07B";
+
+$unicode-paper-clip: "\E07C";
+
+$unicode-pause: "\E07D";
+
+$unicode-paw: "\E07E";
+
+$unicode-paypal-p: "\E07F";
+
+$unicode-paypal: "\E080";
+
+$unicode-pdf: "\E081";
+
+$unicode-pencil: "\E082";
+
+$unicode-pet-friendly: "\E083";
+
+$unicode-pie-chart: "\E084";
+
+$unicode-play: "\E085";
+
+$unicode-plug: "\E086";
+
+$unicode-pot-plant: "\E087";
+
+$unicode-power-button: "\E088";
+
+$unicode-psd: "\E089";
+
+$unicode-push-pin: "\E08A";
+
+$unicode-razor: "\E08B";
+
+$unicode-road: "\E08C";
+
+$unicode-roboto: "\E08D";
+
+$unicode-route: "\E08E";
+
+$unicode-screwdriver: "\E08F";
+
+$unicode-search-min: "\E090";
+
+$unicode-search-zoom: "\E091";
+
+$unicode-search: "\E092";
+
+$unicode-sent-mail: "\E093";
+
+$unicode-settings-tool: "\E094";
+
+$unicode-share: "\E095";
+
+$unicode-shield-lock-solid: "\E096";
+
+$unicode-shield: "\E097";
+
+$unicode-shuffle: "\E098";
+
+$unicode-skip-back: "\E099";
+
+$unicode-skip-next: "\E09A";
+
+$unicode-sky: "\E09B";
+
+$unicode-slack: "\E09C";
+
+$unicode-smartphonel: "\E09D";
+
+$unicode-sound-big: "\E09E";
+
+$unicode-sound-mute: "\E09F";
+
+$unicode-sound-waves: "\E0A0";
+
+$unicode-sound: "\E0A1";
+
+$unicode-spoon-and-fork: "\E0A2";
+
+$unicode-star-half-solid: "\E0A3";
+
+$unicode-star-half: "\E0A4";
+
+$unicode-star-solid: "\E0A5";
+
+$unicode-star: "\E0A6";
+
+$unicode-steering: "\E0A7";
+
+$unicode-stop: "\E0A8";
+
+$unicode-student-cap: "\E0A9";
+
+$unicode-swim: "\E0AA";
+
+$unicode-tag: "\E0AB";
+
+$unicode-tags: "\E0AC";
+
+$unicode-tap: "\E0AD";
+
+$unicode-test: "\E0AE";
+
+$unicode-thumbs-down-solid: "\E0AF";
+
+$unicode-thumbs-down: "\E0B0";
+
+$unicode-thumbs-up-solid: "\E0B1";
+
+$unicode-thumbs-up: "\E0B2";
+
+$unicode-tractor: "\E0B3";
+
+$unicode-trash: "\E0B4";
+
+$unicode-truck: "\E0B5";
+
+$unicode-twitter-bird: "\E0B6";
+
+$unicode-twitter: "\E0B7";
+
+$unicode-upload: "\E0B8";
+
+$unicode-user-delete-solid: "\E0B9";
+
+$unicode-user-delete: "\E0BA";
+
+$unicode-user-solid: "\E0BB";
+
+$unicode-user: "\E0BC";
+
+$unicode-users-solid: "\E0BD";
+
+$unicode-users: "\E0BE";
+
+$unicode-watch: "\E0BF";
+
+$unicode-weight: "\E0C0";
+
+$unicode-whatsapp: "\E0C1";
+
+$unicode-wheel: "\E0C2";
+
+$unicode-wifi: "\E0C3";
+
+$unicode-wordpress: "\E0C4";
+
+$unicode-youtube-play-button: "\E0C5";
+
+$unicode-youtube: "\E0C6";
+
+
+
+
+@function lunacon-char($filename){
+	$char: "";
+	
+		@if $filename == add{
+			$char: "\E001";
+		}
+
+	
+		@if $filename == address-book{
+			$char: "\E002";
+		}
+
+	
+		@if $filename == alarm-clock{
+			$char: "\E003";
+		}
+
+	
+		@if $filename == anchor{
+			$char: "\E004";
+		}
+
+	
+		@if $filename == android{
+			$char: "\E005";
+		}
+
+	
+		@if $filename == back-arrow{
+			$char: "\E006";
+		}
+
+	
+		@if $filename == backward{
+			$char: "\E007";
+		}
+
+	
+		@if $filename == basket-solid{
+			$char: "\E008";
+		}
+
+	
+		@if $filename == basket{
+			$char: "\E009";
+		}
+
+	
+		@if $filename == bathtub{
+			$char: "\E00A";
+		}
+
+	
+		@if $filename == bed{
+			$char: "\E00B";
+		}
+
+	
+		@if $filename == beer{
+			$char: "\E00C";
+		}
+
+	
+		@if $filename == bell-mute-solid{
+			$char: "\E00D";
+		}
+
+	
+		@if $filename == bell-mute{
+			$char: "\E00E";
+		}
+
+	
+		@if $filename == bell-solid{
+			$char: "\E00F";
+		}
+
+	
+		@if $filename == bell{
+			$char: "\E010";
+		}
+
+	
+		@if $filename == bitcoin{
+			$char: "\E011";
+		}
+
+	
+		@if $filename == book{
+			$char: "\E012";
+		}
+
+	
+		@if $filename == books-stack{
+			$char: "\E013";
+		}
+
+	
+		@if $filename == books{
+			$char: "\E014";
+		}
+
+	
+		@if $filename == box-opened{
+			$char: "\E015";
+		}
+
+	
+		@if $filename == bug{
+			$char: "\E016";
+		}
+
+	
+		@if $filename == bull-horn{
+			$char: "\E017";
+		}
+
+	
+		@if $filename == calendar{
+			$char: "\E018";
+		}
+
+	
+		@if $filename == camera{
+			$char: "\E019";
+		}
+
+	
+		@if $filename == cart-solid{
+			$char: "\E01A";
+		}
+
+	
+		@if $filename == cart{
+			$char: "\E01B";
+		}
+
+	
+		@if $filename == checkmark-small{
+			$char: "\E01C";
+		}
+
+	
+		@if $filename == checkmark{
+			$char: "\E01D";
+		}
+
+	
+		@if $filename == chef{
+			$char: "\E01E";
+		}
+
+	
+		@if $filename == chevron-down{
+			$char: "\E01F";
+		}
+
+	
+		@if $filename == chevron-left{
+			$char: "\E020";
+		}
+
+	
+		@if $filename == chevron-right{
+			$char: "\E021";
+		}
+
+	
+		@if $filename == chevron-up{
+			$char: "\E022";
+		}
+
+	
+		@if $filename == clock{
+			$char: "\E023";
+		}
+
+	
+		@if $filename == close-small{
+			$char: "\E024";
+		}
+
+	
+		@if $filename == close{
+			$char: "\E025";
+		}
+
+	
+		@if $filename == cloud-check-solid{
+			$char: "\E026";
+		}
+
+	
+		@if $filename == cloud-check{
+			$char: "\E027";
+		}
+
+	
+		@if $filename == cloud-computing{
+			$char: "\E028";
+		}
+
+	
+		@if $filename == cloud-solid{
+			$char: "\E029";
+		}
+
+	
+		@if $filename == cloud{
+			$char: "\E02A";
+		}
+
+	
+		@if $filename == code-fork{
+			$char: "\E02B";
+		}
+
+	
+		@if $filename == coffee{
+			$char: "\E02C";
+		}
+
+	
+		@if $filename == cone{
+			$char: "\E02D";
+		}
+
+	
+		@if $filename == cosmetics{
+			$char: "\E02E";
+		}
+
+	
+		@if $filename == cpu{
+			$char: "\E02F";
+		}
+
+	
+		@if $filename == csv{
+			$char: "\E030";
+		}
+
+	
+		@if $filename == dailer-solid{
+			$char: "\E031";
+		}
+
+	
+		@if $filename == dailer{
+			$char: "\E032";
+		}
+
+	
+		@if $filename == dashboard{
+			$char: "\E033";
+		}
+
+	
+		@if $filename == delivery-truck{
+			$char: "\E034";
+		}
+
+	
+		@if $filename == doc{
+			$char: "\E035";
+		}
+
+	
+		@if $filename == document{
+			$char: "\E036";
+		}
+
+	
+		@if $filename == double-bed{
+			$char: "\E037";
+		}
+
+	
+		@if $filename == download{
+			$char: "\E038";
+		}
+
+	
+		@if $filename == drag{
+			$char: "\E039";
+		}
+
+	
+		@if $filename == drop{
+			$char: "\E03A";
+		}
+
+	
+		@if $filename == earth{
+			$char: "\E03B";
+		}
+
+	
+		@if $filename == equal{
+			$char: "\E03C";
+		}
+
+	
+		@if $filename == expand{
+			$char: "\E03D";
+		}
+
+	
+		@if $filename == eye{
+			$char: "\E03E";
+		}
+
+	
+		@if $filename == facebook{
+			$char: "\E03F";
+		}
+
+	
+		@if $filename == file-delete{
+			$char: "\E040";
+		}
+
+	
+		@if $filename == file{
+			$char: "\E041";
+		}
+
+	
+		@if $filename == files{
+			$char: "\E042";
+		}
+
+	
+		@if $filename == fire{
+			$char: "\E043";
+		}
+
+	
+		@if $filename == flask{
+			$char: "\E044";
+		}
+
+	
+		@if $filename == focus{
+			$char: "\E045";
+		}
+
+	
+		@if $filename == folder{
+			$char: "\E046";
+		}
+
+	
+		@if $filename == forward-arrow{
+			$char: "\E047";
+		}
+
+	
+		@if $filename == forward{
+			$char: "\E048";
+		}
+
+	
+		@if $filename == funnel{
+			$char: "\E049";
+		}
+
+	
+		@if $filename == garage{
+			$char: "\E04A";
+		}
+
+	
+		@if $filename == gears{
+			$char: "\E04B";
+		}
+
+	
+		@if $filename == gif{
+			$char: "\E04C";
+		}
+
+	
+		@if $filename == gift{
+			$char: "\E04D";
+		}
+
+	
+		@if $filename == giftbox{
+			$char: "\E04E";
+		}
+
+	
+		@if $filename == git{
+			$char: "\E04F";
+		}
+
+	
+		@if $filename == github-round-o{
+			$char: "\E050";
+		}
+
+	
+		@if $filename == github-round{
+			$char: "\E051";
+		}
+
+	
+		@if $filename == github{
+			$char: "\E052";
+		}
+
+	
+		@if $filename == google-play{
+			$char: "\E053";
+		}
+
+	
+		@if $filename == google-plus-g{
+			$char: "\E054";
+		}
+
+	
+		@if $filename == google-plus{
+			$char: "\E055";
+		}
+
+	
+		@if $filename == grid{
+			$char: "\E056";
+		}
+
+	
+		@if $filename == haircut{
+			$char: "\E057";
+		}
+
+	
+		@if $filename == hand-click{
+			$char: "\E058";
+		}
+
+	
+		@if $filename == hand-plant{
+			$char: "\E059";
+		}
+
+	
+		@if $filename == handsoap{
+			$char: "\E05A";
+		}
+
+	
+		@if $filename == heart-solid{
+			$char: "\E05B";
+		}
+
+	
+		@if $filename == heart{
+			$char: "\E05C";
+		}
+
+	
+		@if $filename == heartbeat{
+			$char: "\E05D";
+		}
+
+	
+		@if $filename == help{
+			$char: "\E05E";
+		}
+
+	
+		@if $filename == home-solid{
+			$char: "\E05F";
+		}
+
+	
+		@if $filename == home{
+			$char: "\E060";
+		}
+
+	
+		@if $filename == html{
+			$char: "\E061";
+		}
+
+	
+		@if $filename == info{
+			$char: "\E062";
+		}
+
+	
+		@if $filename == instagram{
+			$char: "\E063";
+		}
+
+	
+		@if $filename == key{
+			$char: "\E064";
+		}
+
+	
+		@if $filename == keys-hole{
+			$char: "\E065";
+		}
+
+	
+		@if $filename == light-bulb{
+			$char: "\E066";
+		}
+
+	
+		@if $filename == line-chart-down{
+			$char: "\E067";
+		}
+
+	
+		@if $filename == line-chart-up{
+			$char: "\E068";
+		}
+
+	
+		@if $filename == linkedin{
+			$char: "\E069";
+		}
+
+	
+		@if $filename == lips{
+			$char: "\E06A";
+		}
+
+	
+		@if $filename == lipstick{
+			$char: "\E06B";
+		}
+
+	
+		@if $filename == list{
+			$char: "\E06C";
+		}
+
+	
+		@if $filename == lock-open{
+			$char: "\E06D";
+		}
+
+	
+		@if $filename == lock{
+			$char: "\E06E";
+		}
+
+	
+		@if $filename == login{
+			$char: "\E06F";
+		}
+
+	
+		@if $filename == logout{
+			$char: "\E070";
+		}
+
+	
+		@if $filename == mail-envelope{
+			$char: "\E071";
+		}
+
+	
+		@if $filename == management{
+			$char: "\E072";
+		}
+
+	
+		@if $filename == message{
+			$char: "\E073";
+		}
+
+	
+		@if $filename == microphone{
+			$char: "\E074";
+		}
+
+	
+		@if $filename == minus{
+			$char: "\E075";
+		}
+
+	
+		@if $filename == moon-solid{
+			$char: "\E076";
+		}
+
+	
+		@if $filename == moon{
+			$char: "\E077";
+		}
+
+	
+		@if $filename == mpeg{
+			$char: "\E078";
+		}
+
+	
+		@if $filename == navicon{
+			$char: "\E079";
+		}
+
+	
+		@if $filename == open-door{
+			$char: "\E07A";
+		}
+
+	
+		@if $filename == open-razor{
+			$char: "\E07B";
+		}
+
+	
+		@if $filename == paper-clip{
+			$char: "\E07C";
+		}
+
+	
+		@if $filename == pause{
+			$char: "\E07D";
+		}
+
+	
+		@if $filename == paw{
+			$char: "\E07E";
+		}
+
+	
+		@if $filename == paypal-p{
+			$char: "\E07F";
+		}
+
+	
+		@if $filename == paypal{
+			$char: "\E080";
+		}
+
+	
+		@if $filename == pdf{
+			$char: "\E081";
+		}
+
+	
+		@if $filename == pencil{
+			$char: "\E082";
+		}
+
+	
+		@if $filename == pet-friendly{
+			$char: "\E083";
+		}
+
+	
+		@if $filename == pie-chart{
+			$char: "\E084";
+		}
+
+	
+		@if $filename == play{
+			$char: "\E085";
+		}
+
+	
+		@if $filename == plug{
+			$char: "\E086";
+		}
+
+	
+		@if $filename == pot-plant{
+			$char: "\E087";
+		}
+
+	
+		@if $filename == power-button{
+			$char: "\E088";
+		}
+
+	
+		@if $filename == psd{
+			$char: "\E089";
+		}
+
+	
+		@if $filename == push-pin{
+			$char: "\E08A";
+		}
+
+	
+		@if $filename == razor{
+			$char: "\E08B";
+		}
+
+	
+		@if $filename == road{
+			$char: "\E08C";
+		}
+
+	
+		@if $filename == roboto{
+			$char: "\E08D";
+		}
+
+	
+		@if $filename == route{
+			$char: "\E08E";
+		}
+
+	
+		@if $filename == screwdriver{
+			$char: "\E08F";
+		}
+
+	
+		@if $filename == search-min{
+			$char: "\E090";
+		}
+
+	
+		@if $filename == search-zoom{
+			$char: "\E091";
+		}
+
+	
+		@if $filename == search{
+			$char: "\E092";
+		}
+
+	
+		@if $filename == sent-mail{
+			$char: "\E093";
+		}
+
+	
+		@if $filename == settings-tool{
+			$char: "\E094";
+		}
+
+	
+		@if $filename == share{
+			$char: "\E095";
+		}
+
+	
+		@if $filename == shield-lock-solid{
+			$char: "\E096";
+		}
+
+	
+		@if $filename == shield{
+			$char: "\E097";
+		}
+
+	
+		@if $filename == shuffle{
+			$char: "\E098";
+		}
+
+	
+		@if $filename == skip-back{
+			$char: "\E099";
+		}
+
+	
+		@if $filename == skip-next{
+			$char: "\E09A";
+		}
+
+	
+		@if $filename == sky{
+			$char: "\E09B";
+		}
+
+	
+		@if $filename == slack{
+			$char: "\E09C";
+		}
+
+	
+		@if $filename == smartphonel{
+			$char: "\E09D";
+		}
+
+	
+		@if $filename == sound-big{
+			$char: "\E09E";
+		}
+
+	
+		@if $filename == sound-mute{
+			$char: "\E09F";
+		}
+
+	
+		@if $filename == sound-waves{
+			$char: "\E0A0";
+		}
+
+	
+		@if $filename == sound{
+			$char: "\E0A1";
+		}
+
+	
+		@if $filename == spoon-and-fork{
+			$char: "\E0A2";
+		}
+
+	
+		@if $filename == star-half-solid{
+			$char: "\E0A3";
+		}
+
+	
+		@if $filename == star-half{
+			$char: "\E0A4";
+		}
+
+	
+		@if $filename == star-solid{
+			$char: "\E0A5";
+		}
+
+	
+		@if $filename == star{
+			$char: "\E0A6";
+		}
+
+	
+		@if $filename == steering{
+			$char: "\E0A7";
+		}
+
+	
+		@if $filename == stop{
+			$char: "\E0A8";
+		}
+
+	
+		@if $filename == student-cap{
+			$char: "\E0A9";
+		}
+
+	
+		@if $filename == swim{
+			$char: "\E0AA";
+		}
+
+	
+		@if $filename == tag{
+			$char: "\E0AB";
+		}
+
+	
+		@if $filename == tags{
+			$char: "\E0AC";
+		}
+
+	
+		@if $filename == tap{
+			$char: "\E0AD";
+		}
+
+	
+		@if $filename == test{
+			$char: "\E0AE";
+		}
+
+	
+		@if $filename == thumbs-down-solid{
+			$char: "\E0AF";
+		}
+
+	
+		@if $filename == thumbs-down{
+			$char: "\E0B0";
+		}
+
+	
+		@if $filename == thumbs-up-solid{
+			$char: "\E0B1";
+		}
+
+	
+		@if $filename == thumbs-up{
+			$char: "\E0B2";
+		}
+
+	
+		@if $filename == tractor{
+			$char: "\E0B3";
+		}
+
+	
+		@if $filename == trash{
+			$char: "\E0B4";
+		}
+
+	
+		@if $filename == truck{
+			$char: "\E0B5";
+		}
+
+	
+		@if $filename == twitter-bird{
+			$char: "\E0B6";
+		}
+
+	
+		@if $filename == twitter{
+			$char: "\E0B7";
+		}
+
+	
+		@if $filename == upload{
+			$char: "\E0B8";
+		}
+
+	
+		@if $filename == user-delete-solid{
+			$char: "\E0B9";
+		}
+
+	
+		@if $filename == user-delete{
+			$char: "\E0BA";
+		}
+
+	
+		@if $filename == user-solid{
+			$char: "\E0BB";
+		}
+
+	
+		@if $filename == user{
+			$char: "\E0BC";
+		}
+
+	
+		@if $filename == users-solid{
+			$char: "\E0BD";
+		}
+
+	
+		@if $filename == users{
+			$char: "\E0BE";
+		}
+
+	
+		@if $filename == watch{
+			$char: "\E0BF";
+		}
+
+	
+		@if $filename == weight{
+			$char: "\E0C0";
+		}
+
+	
+		@if $filename == whatsapp{
+			$char: "\E0C1";
+		}
+
+	
+		@if $filename == wheel{
+			$char: "\E0C2";
+		}
+
+	
+		@if $filename == wifi{
+			$char: "\E0C3";
+		}
+
+	
+		@if $filename == wordpress{
+			$char: "\E0C4";
+		}
+
+	
+		@if $filename == youtube-play-button{
+			$char: "\E0C5";
+		}
+
+	
+		@if $filename == youtube{
+			$char: "\E0C6";
+		}
+
+	
+	@return $char;
+}
+
+@mixin lunacon($filename, $insert: before, $extend: true){
+	&::#{$insert}{
+		@if $extend{
+			@extend .lunacon;
+		}@else {
+			@include lunacon-styles;
+		}
+		content: lunacon-char($filename);
+	}
+}
+
+.lunacon-add {
+	@include lunacon(add);
+}
+.lunacon-address-book {
+	@include lunacon(address-book);
+}
+.lunacon-alarm-clock {
+	@include lunacon(alarm-clock);
+}
+.lunacon-anchor {
+	@include lunacon(anchor);
+}
+.lunacon-android {
+	@include lunacon(android);
+}
+.lunacon-back-arrow {
+	@include lunacon(back-arrow);
+}
+.lunacon-backward {
+	@include lunacon(backward);
+}
+.lunacon-basket-solid {
+	@include lunacon(basket-solid);
+}
+.lunacon-basket {
+	@include lunacon(basket);
+}
+.lunacon-bathtub {
+	@include lunacon(bathtub);
+}
+.lunacon-bed {
+	@include lunacon(bed);
+}
+.lunacon-beer {
+	@include lunacon(beer);
+}
+.lunacon-bell-mute-solid {
+	@include lunacon(bell-mute-solid);
+}
+.lunacon-bell-mute {
+	@include lunacon(bell-mute);
+}
+.lunacon-bell-solid {
+	@include lunacon(bell-solid);
+}
+.lunacon-bell {
+	@include lunacon(bell);
+}
+.lunacon-bitcoin {
+	@include lunacon(bitcoin);
+}
+.lunacon-book {
+	@include lunacon(book);
+}
+.lunacon-books-stack {
+	@include lunacon(books-stack);
+}
+.lunacon-books {
+	@include lunacon(books);
+}
+.lunacon-box-opened {
+	@include lunacon(box-opened);
+}
+.lunacon-bug {
+	@include lunacon(bug);
+}
+.lunacon-bull-horn {
+	@include lunacon(bull-horn);
+}
+.lunacon-calendar {
+	@include lunacon(calendar);
+}
+.lunacon-camera {
+	@include lunacon(camera);
+}
+.lunacon-cart-solid {
+	@include lunacon(cart-solid);
+}
+.lunacon-cart {
+	@include lunacon(cart);
+}
+.lunacon-checkmark-small {
+	@include lunacon(checkmark-small);
+}
+.lunacon-checkmark {
+	@include lunacon(checkmark);
+}
+.lunacon-chef {
+	@include lunacon(chef);
+}
+.lunacon-chevron-down {
+	@include lunacon(chevron-down);
+}
+.lunacon-chevron-left {
+	@include lunacon(chevron-left);
+}
+.lunacon-chevron-right {
+	@include lunacon(chevron-right);
+}
+.lunacon-chevron-up {
+	@include lunacon(chevron-up);
+}
+.lunacon-clock {
+	@include lunacon(clock);
+}
+.lunacon-close-small {
+	@include lunacon(close-small);
+}
+.lunacon-close {
+	@include lunacon(close);
+}
+.lunacon-cloud-check-solid {
+	@include lunacon(cloud-check-solid);
+}
+.lunacon-cloud-check {
+	@include lunacon(cloud-check);
+}
+.lunacon-cloud-computing {
+	@include lunacon(cloud-computing);
+}
+.lunacon-cloud-solid {
+	@include lunacon(cloud-solid);
+}
+.lunacon-cloud {
+	@include lunacon(cloud);
+}
+.lunacon-code-fork {
+	@include lunacon(code-fork);
+}
+.lunacon-coffee {
+	@include lunacon(coffee);
+}
+.lunacon-cone {
+	@include lunacon(cone);
+}
+.lunacon-cosmetics {
+	@include lunacon(cosmetics);
+}
+.lunacon-cpu {
+	@include lunacon(cpu);
+}
+.lunacon-csv {
+	@include lunacon(csv);
+}
+.lunacon-dailer-solid {
+	@include lunacon(dailer-solid);
+}
+.lunacon-dailer {
+	@include lunacon(dailer);
+}
+.lunacon-dashboard {
+	@include lunacon(dashboard);
+}
+.lunacon-delivery-truck {
+	@include lunacon(delivery-truck);
+}
+.lunacon-doc {
+	@include lunacon(doc);
+}
+.lunacon-document {
+	@include lunacon(document);
+}
+.lunacon-double-bed {
+	@include lunacon(double-bed);
+}
+.lunacon-download {
+	@include lunacon(download);
+}
+.lunacon-drag {
+	@include lunacon(drag);
+}
+.lunacon-drop {
+	@include lunacon(drop);
+}
+.lunacon-earth {
+	@include lunacon(earth);
+}
+.lunacon-equal {
+	@include lunacon(equal);
+}
+.lunacon-expand {
+	@include lunacon(expand);
+}
+.lunacon-eye {
+	@include lunacon(eye);
+}
+.lunacon-facebook {
+	@include lunacon(facebook);
+}
+.lunacon-file-delete {
+	@include lunacon(file-delete);
+}
+.lunacon-file {
+	@include lunacon(file);
+}
+.lunacon-files {
+	@include lunacon(files);
+}
+.lunacon-fire {
+	@include lunacon(fire);
+}
+.lunacon-flask {
+	@include lunacon(flask);
+}
+.lunacon-focus {
+	@include lunacon(focus);
+}
+.lunacon-folder {
+	@include lunacon(folder);
+}
+.lunacon-forward-arrow {
+	@include lunacon(forward-arrow);
+}
+.lunacon-forward {
+	@include lunacon(forward);
+}
+.lunacon-funnel {
+	@include lunacon(funnel);
+}
+.lunacon-garage {
+	@include lunacon(garage);
+}
+.lunacon-gears {
+	@include lunacon(gears);
+}
+.lunacon-gif {
+	@include lunacon(gif);
+}
+.lunacon-gift {
+	@include lunacon(gift);
+}
+.lunacon-giftbox {
+	@include lunacon(giftbox);
+}
+.lunacon-git {
+	@include lunacon(git);
+}
+.lunacon-github-round-o {
+	@include lunacon(github-round-o);
+}
+.lunacon-github-round {
+	@include lunacon(github-round);
+}
+.lunacon-github {
+	@include lunacon(github);
+}
+.lunacon-google-play {
+	@include lunacon(google-play);
+}
+.lunacon-google-plus-g {
+	@include lunacon(google-plus-g);
+}
+.lunacon-google-plus {
+	@include lunacon(google-plus);
+}
+.lunacon-grid {
+	@include lunacon(grid);
+}
+.lunacon-haircut {
+	@include lunacon(haircut);
+}
+.lunacon-hand-click {
+	@include lunacon(hand-click);
+}
+.lunacon-hand-plant {
+	@include lunacon(hand-plant);
+}
+.lunacon-handsoap {
+	@include lunacon(handsoap);
+}
+.lunacon-heart-solid {
+	@include lunacon(heart-solid);
+}
+.lunacon-heart {
+	@include lunacon(heart);
+}
+.lunacon-heartbeat {
+	@include lunacon(heartbeat);
+}
+.lunacon-help {
+	@include lunacon(help);
+}
+.lunacon-home-solid {
+	@include lunacon(home-solid);
+}
+.lunacon-home {
+	@include lunacon(home);
+}
+.lunacon-html {
+	@include lunacon(html);
+}
+.lunacon-info {
+	@include lunacon(info);
+}
+.lunacon-instagram {
+	@include lunacon(instagram);
+}
+.lunacon-key {
+	@include lunacon(key);
+}
+.lunacon-keys-hole {
+	@include lunacon(keys-hole);
+}
+.lunacon-light-bulb {
+	@include lunacon(light-bulb);
+}
+.lunacon-line-chart-down {
+	@include lunacon(line-chart-down);
+}
+.lunacon-line-chart-up {
+	@include lunacon(line-chart-up);
+}
+.lunacon-linkedin {
+	@include lunacon(linkedin);
+}
+.lunacon-lips {
+	@include lunacon(lips);
+}
+.lunacon-lipstick {
+	@include lunacon(lipstick);
+}
+.lunacon-list {
+	@include lunacon(list);
+}
+.lunacon-lock-open {
+	@include lunacon(lock-open);
+}
+.lunacon-lock {
+	@include lunacon(lock);
+}
+.lunacon-login {
+	@include lunacon(login);
+}
+.lunacon-logout {
+	@include lunacon(logout);
+}
+.lunacon-mail-envelope {
+	@include lunacon(mail-envelope);
+}
+.lunacon-management {
+	@include lunacon(management);
+}
+.lunacon-message {
+	@include lunacon(message);
+}
+.lunacon-microphone {
+	@include lunacon(microphone);
+}
+.lunacon-minus {
+	@include lunacon(minus);
+}
+.lunacon-moon-solid {
+	@include lunacon(moon-solid);
+}
+.lunacon-moon {
+	@include lunacon(moon);
+}
+.lunacon-mpeg {
+	@include lunacon(mpeg);
+}
+.lunacon-navicon {
+	@include lunacon(navicon);
+}
+.lunacon-open-door {
+	@include lunacon(open-door);
+}
+.lunacon-open-razor {
+	@include lunacon(open-razor);
+}
+.lunacon-paper-clip {
+	@include lunacon(paper-clip);
+}
+.lunacon-pause {
+	@include lunacon(pause);
+}
+.lunacon-paw {
+	@include lunacon(paw);
+}
+.lunacon-paypal-p {
+	@include lunacon(paypal-p);
+}
+.lunacon-paypal {
+	@include lunacon(paypal);
+}
+.lunacon-pdf {
+	@include lunacon(pdf);
+}
+.lunacon-pencil {
+	@include lunacon(pencil);
+}
+.lunacon-pet-friendly {
+	@include lunacon(pet-friendly);
+}
+.lunacon-pie-chart {
+	@include lunacon(pie-chart);
+}
+.lunacon-play {
+	@include lunacon(play);
+}
+.lunacon-plug {
+	@include lunacon(plug);
+}
+.lunacon-pot-plant {
+	@include lunacon(pot-plant);
+}
+.lunacon-power-button {
+	@include lunacon(power-button);
+}
+.lunacon-psd {
+	@include lunacon(psd);
+}
+.lunacon-push-pin {
+	@include lunacon(push-pin);
+}
+.lunacon-razor {
+	@include lunacon(razor);
+}
+.lunacon-road {
+	@include lunacon(road);
+}
+.lunacon-roboto {
+	@include lunacon(roboto);
+}
+.lunacon-route {
+	@include lunacon(route);
+}
+.lunacon-screwdriver {
+	@include lunacon(screwdriver);
+}
+.lunacon-search-min {
+	@include lunacon(search-min);
+}
+.lunacon-search-zoom {
+	@include lunacon(search-zoom);
+}
+.lunacon-search {
+	@include lunacon(search);
+}
+.lunacon-sent-mail {
+	@include lunacon(sent-mail);
+}
+.lunacon-settings-tool {
+	@include lunacon(settings-tool);
+}
+.lunacon-share {
+	@include lunacon(share);
+}
+.lunacon-shield-lock-solid {
+	@include lunacon(shield-lock-solid);
+}
+.lunacon-shield {
+	@include lunacon(shield);
+}
+.lunacon-shuffle {
+	@include lunacon(shuffle);
+}
+.lunacon-skip-back {
+	@include lunacon(skip-back);
+}
+.lunacon-skip-next {
+	@include lunacon(skip-next);
+}
+.lunacon-sky {
+	@include lunacon(sky);
+}
+.lunacon-slack {
+	@include lunacon(slack);
+}
+.lunacon-smartphonel {
+	@include lunacon(smartphonel);
+}
+.lunacon-sound-big {
+	@include lunacon(sound-big);
+}
+.lunacon-sound-mute {
+	@include lunacon(sound-mute);
+}
+.lunacon-sound-waves {
+	@include lunacon(sound-waves);
+}
+.lunacon-sound {
+	@include lunacon(sound);
+}
+.lunacon-spoon-and-fork {
+	@include lunacon(spoon-and-fork);
+}
+.lunacon-star-half-solid {
+	@include lunacon(star-half-solid);
+}
+.lunacon-star-half {
+	@include lunacon(star-half);
+}
+.lunacon-star-solid {
+	@include lunacon(star-solid);
+}
+.lunacon-star {
+	@include lunacon(star);
+}
+.lunacon-steering {
+	@include lunacon(steering);
+}
+.lunacon-stop {
+	@include lunacon(stop);
+}
+.lunacon-student-cap {
+	@include lunacon(student-cap);
+}
+.lunacon-swim {
+	@include lunacon(swim);
+}
+.lunacon-tag {
+	@include lunacon(tag);
+}
+.lunacon-tags {
+	@include lunacon(tags);
+}
+.lunacon-tap {
+	@include lunacon(tap);
+}
+.lunacon-test {
+	@include lunacon(test);
+}
+.lunacon-thumbs-down-solid {
+	@include lunacon(thumbs-down-solid);
+}
+.lunacon-thumbs-down {
+	@include lunacon(thumbs-down);
+}
+.lunacon-thumbs-up-solid {
+	@include lunacon(thumbs-up-solid);
+}
+.lunacon-thumbs-up {
+	@include lunacon(thumbs-up);
+}
+.lunacon-tractor {
+	@include lunacon(tractor);
+}
+.lunacon-trash {
+	@include lunacon(trash);
+}
+.lunacon-truck {
+	@include lunacon(truck);
+}
+.lunacon-twitter-bird {
+	@include lunacon(twitter-bird);
+}
+.lunacon-twitter {
+	@include lunacon(twitter);
+}
+.lunacon-upload {
+	@include lunacon(upload);
+}
+.lunacon-user-delete-solid {
+	@include lunacon(user-delete-solid);
+}
+.lunacon-user-delete {
+	@include lunacon(user-delete);
+}
+.lunacon-user-solid {
+	@include lunacon(user-solid);
+}
+.lunacon-user {
+	@include lunacon(user);
+}
+.lunacon-users-solid {
+	@include lunacon(users-solid);
+}
+.lunacon-users {
+	@include lunacon(users);
+}
+.lunacon-watch {
+	@include lunacon(watch);
+}
+.lunacon-weight {
+	@include lunacon(weight);
+}
+.lunacon-whatsapp {
+	@include lunacon(whatsapp);
+}
+.lunacon-wheel {
+	@include lunacon(wheel);
+}
+.lunacon-wifi {
+	@include lunacon(wifi);
+}
+.lunacon-wordpress {
+	@include lunacon(wordpress);
+}
+.lunacon-youtube-play-button {
+	@include lunacon(youtube-play-button);
+}
+.lunacon-youtube {
+	@include lunacon(youtube);
+}
+
+
+
+
+
+
+.lunacon-spin-animation {
+  animation: lunacon-spin 2s infinite linear;
+}
+
+
+.lunacon-flash-animation {
+  animation: lunacon-flash 1s infinite  ease-in-out;
+}
+
+
+@keyframes lunacon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+
+@keyframes lunacon-flash {
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
