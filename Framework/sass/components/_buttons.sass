@@ -83,21 +83,11 @@ input[type="submit"].btn
 
 .btn__group
     position: relative
-    margin-left: -3px
     +clearfix
 
-    .btn
-        float: left
-        margin-bottom: $the__global__padding
-        margin-left: 3px
-        margin-right: 3px
+    & > .btn + .btn
+        margin-left: 5px
 
-    &--middle 
-        @extend .btn__group     
-
-        .btn 
-            float: none
-            display: inline-block
 
 .btn__icon,
 .icon,

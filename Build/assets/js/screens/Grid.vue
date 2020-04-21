@@ -7,8 +7,15 @@
                     <h2>Grid Layout</h2>
                     <p>The <strong>Luna Framework</strong> is a 12-column responsive grid by default. The column count be changed in the _settings.sass to whatever you need. This means that you can make it a 2-column grid, 24-column grid or anything in between. Each column set needs to be with in a <code>.row</code> class and  must by default be prepended with one of the following prefixes. <code>.xs-</code>  <code>.sm-</code>  <code>.md-</code>  <code>.lg-</code>  <code>.xl-</code></p>
 
-                    <blockquote class="blockquote blockquote--warning shadow--3">
-                        <div class="blockquote__header">More breakpoint can be added or can be removed in <strong>_settings.sass</strong> file</div>
+                    <blockquote class="bq bq--warning shadow--2">
+                        <div class="bq__header bg--warning-light mb-4 flex justify--between flex--center"><div>More breakpoint can be added or can be removed in <strong>_settings.sass</strong> file</div> <div class="btn btn--warning">View</div></div>
+                        <div class="bq__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                        <div class="bq__footer bg--mute">Lorem ipsum dolor.</div>
                     </blockquote>
                 </div>
             </div>

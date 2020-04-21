@@ -8,15 +8,15 @@
     @for $i from 1 through 10
 
         &--#{$i}
-            box-shadow: rgba(#000, 0.25 ) 0 #{$i}px #{$i * 3}px
+            box-shadow: rgba(#000, 0.3 ) 0 #{$i}px #{$i * 3}px
             &-hover
                 &:hover
-                    box-shadow: rgba(#000, 0.2) 0 #{$i}px #{$i}px
+                    box-shadow: rgba(#000, 0.35) 0 #{$i}px #{$i}px
 
 
         &--inset-#{$i}
-            box-shadow: inset rgba(#000, 0.25 ) 0 0 #{$i * 3}px
+            box-shadow: inset rgba(#000, 0.3 ) 0 0 #{$i * 3}px
             &-hover
                 &:hover
-                    box-shadow: inset rgba(#000, 0.2) 0 0 #{$i}px
+                    box-shadow: inset rgba(#000, 0.35) 0 0 #{$i}px
 

@@ -14,7 +14,8 @@
 				<ul class="nav__links">
 					<router-link  class="nav__links__item md-mr-3" tag="li" :to="{ name: 'home'}"><a>Home</a></router-link>
 					<router-link  class="nav__links__item md-mr-3" tag="li" :to="{ name: 'grid'}"><a>Grid</a></router-link>
-                    <router-link  class="nav__links__item" tag="li" :to="{ name: 'buttons'}"><a>Buttons</a></router-link>
+                    <router-link  class="nav__links__item md-mr-3" tag="li" :to="{ name: 'buttons'}"><a>Buttons</a></router-link>
+                    <router-link  class="nav__links__item" tag="li" :to="{ name: 'cards'}"><a>Cards</a></router-link>
 				</ul>
 			</div>
 

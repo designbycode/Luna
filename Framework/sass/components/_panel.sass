@@ -28,7 +28,6 @@
         font-weight: 600
 
     &__body
-
         p
             padding-bottom: $the__global__padding
 
@@ -45,3 +44,18 @@
         width: 100%
         max-width: 100%
         display: block
+
+
+    //mdeia Cards
+    &__media 
+        @extend .flex 
+
+    &__avatar 
+        max-width: 120px
+        @extend .m-4
+
+        & img 
+            @extend .img--round
+            height: 50px
+            width: 50px
+

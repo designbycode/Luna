@@ -46,6 +46,14 @@
                 <a href="#" class="btn btn--lg btn--success"><i class="lunacon lunacon-search"></i> BUTTON</a>
                 <a href="#" class="btn btn--xl btn--success"><i class="lunacon lunacon-search"></i> BUTTON</a>
             </div>
+            <div class="md-col-12 mb-5 btn__group flex flex--center justify--start">
+                <a href="#" class="btn btn--xs btn--success-gradient"><i class="lunacon lunacon-search"></i> BUTTON</a>
+                <a href="#" class="btn btn--sm btn--success-gradient"><i class="lunacon lunacon-search"></i> BUTTON</a>
+                <a href="#" class="btn btn--md btn--success-gradient"><i class="lunacon lunacon-search"></i> BUTTON</a>
+                <a href="#" class="btn btn--lg btn--success-gradient"><i class="lunacon lunacon-search"></i> BUTTON</a>
+                <a href="#" class="btn btn--xl btn--success-gradient"><i class="lunacon lunacon-search"></i> BUTTON</a>
+                <a href="#" class="btn btn--xl btn--success-gradient"><i class="lunacon lunacon-search"></i></a>
+            </div>
         </div>
         <div class="row">
             <div class="md-col-12">
