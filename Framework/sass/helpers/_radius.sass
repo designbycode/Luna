@@ -1,0 +1,10 @@
+
+
+@each $key, $value in $_border_radius_size_increment
+    .r-#{$key}
+        border-radius: $value !important
+
+    @each $media_key, $media_value in  $_breakpoints
+        +media-up($media_key)
+            .#{$media_key}-r-#{$key}
+                border-radius: $value !important

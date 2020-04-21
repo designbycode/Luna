@@ -8,16 +8,14 @@
     font-weight: 700
     font-size: 120%
 
-.text,
-.color
-    @each $key, $value in $_color_set
+@each $key, $value in $_color_set
+    .text
         &--#{$key}
             color: $value !important
             &-light
                 color: mix($value, #fff, 30%) !important
 
-.bg
-    @each $key, $value in $_color_set
+    .bg
         &--#{$key}
             background-color: $value !important
             &-light
@@ -25,18 +23,7 @@
             &-gradient
                 background: linear-gradient(to bottom, $value, darken($value, 5%)) !important
 
-.hover
-    &\:bg
-        @each $key, $value in $_color_set
-            &--#{$key}:hover
-                background-color: $value !important
-            &--#{$key}-light:hover
-                background-color: mix($value, #fff, 10%) !important
-            &--#{$key}-gradient:hover
-                background: linear-gradient(to bottom, $value, darken($value, 5%)) !important
-
-.border
-    @each $key, $value in $_color_set
+    .border
         &--#{$key}
             border:
                 color: $value !important
@@ -47,3 +34,4 @@
                     color: mix($value, #fff, 30%) !important
                     width: 1px
                     style: solid
+

@@ -37,7 +37,7 @@ mix
     .js('./Build/assets/js/app.js', './js/app.js')
     // .js('./Framework/js/app.js', './js/app.js')
     .sass('./Build/assets/sass/app.sass', './css/app.css')
-    // .sass('./Framework/sass/style.sass', '../Framework/sass/style.css')
+    .sass('./Framework/sass/style.sass', '../Framework/sass/style.css')
     .options({
         processCssUrls: false
     });

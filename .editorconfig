@@ -19,7 +19,7 @@ indent_style = tab
 indent_size = 4
 
 # 4 space indentation
-[*.{scss,sass,jade,js}]
+[*.{scss,sass,jade,js,vue}]
 indent_style = space
 indent_size = 4
 

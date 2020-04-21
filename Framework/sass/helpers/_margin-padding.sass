@@ -1,0 +1,52 @@
+
+
+@each $key, $value in $_padding_margin_position_size_increment
+    @each $pm_key, $pm_value in $_padding_margin_map
+        .#{$pm_key}-#{$key}
+            #{$pm_value}: $value
+        .#{$pm_key}x-#{$key}
+            #{$pm_value}-left: $value
+            #{$pm_value}-right: $value
+        .#{$pm_key}y-#{$key}
+            #{$pm_value}-top: $value
+            #{$pm_value}-bottom: $value
+
+        @each $p, $k in $_padding_margin_position
+            .#{$pm_key}#{$p}-#{$key}
+                #{$pm_value}-#{$k}: $value
+            @if $key == left
+                .#{$pm_key}x-#{$key}
+                    #{$pm_value}-left: $value
+                    #{$pm_value}-right: $value
+            @if $key == top
+                .#{$pm_key}y-#{$key}
+                    #{$pm_value}-top: $value
+                    #{$pm_value}-bottom: $value
+
+
+@each $b_key, $b_value in  $_breakpoints
+    +media-up($b_key)
+        @each $key, $value in $_padding_margin_position_size_increment
+            @each $pm_key, $pm_value in $_padding_margin_map
+                .#{$b_key}-#{$pm_key}-#{$key}
+                    #{$pm_value}: $value
+                .#{$b_key}-#{$pm_key}x-#{$key}
+                    #{$pm_value}-left: $value
+                    #{$pm_value}-right: $value
+                .#{$b_key}-#{$pm_key}y-#{$key}
+                    #{$pm_value}-top: $value
+                    #{$pm_value}-bottom: $value
+
+                @each $p, $k in $_padding_margin_position
+                    .#{$b_key}-#{$pm_key}#{$p}-#{$key}
+                        #{$pm_value}-#{$k}: $value
+                    @if $key == left
+                        .#{$b_key}-#{$pm_key}x-#{$key}
+                            #{$pm_value}-left: $value
+                            #{$pm_value}-right: $value
+                    @if $key == top
+                        .#{$b_key}-#{$pm_key}y-#{$key}
+                            #{$pm_value}-top: $value
+                            #{$pm_value}-bottom: $value
+
+

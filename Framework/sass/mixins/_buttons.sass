@@ -8,7 +8,6 @@
     position: relative
     background-color: transparent
     border: 1px solid transparent
-    border-radius: 2px
     box-shadow: none
     color: $global-link-color
     cursor: pointer
@@ -18,25 +17,19 @@
     font:
         weight: $the__button__font__weight
         size: $the__button__font__size
-    font-family: Roboto, sans-serif
+    font-family: $base-font-family
     margin: 0
-    min-width: 36px
     outline: 0
     overflow: hidden
-    padding: 4px 16px
+    padding: 6px 16px
     line-height: (12px + $the__button__font__size)
     text-align: center
     text-decoration: none
-    text-overflow: ellipsis 
     transition: background-color .2s, box-shadow .2s
     vertical-align: middle
     white-space: nowrap
     z-index: 1
     +radius($the__button__border__radius)
-    @extend .selectable__false
-
-
-
 
     &:hover,
     &:active,
@@ -47,12 +40,9 @@
 
     &.disabled,
     &[disabled]
-        background: $mute-color
-        border: solid 1px $mute-border-color
-        color: darken($mute-border-color, 5%)
+        opacity: 0.55
         &:hover
-            background: $mute-color
-            border: solid 1px $mute-border-color
-            color: darken($mute-border-color, 5%)
+            cursor: no-drop
+            opacity: 0.55
             box-shadow: none
 
