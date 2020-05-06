@@ -2317,6 +2317,15 @@ a:hover {
   clear: both;
 }
 
+.col, .xl-col-12, .xl-col-11, .xl-col-10, .xl-col-9, .xl-col-8, .xl-col-7, .xl-col-6, .xl-col-5, .xl-col-4, .xl-col-3, .xl-col-2, .xl-col-1, .lg-col-12, .lg-col-11, .lg-col-10, .lg-col-9, .lg-col-8, .lg-col-7, .lg-col-6, .lg-col-5, .lg-col-4, .lg-col-3, .lg-col-2, .lg-col-1, .md-col-12, .md-col-11, .md-col-10, .md-col-9, .md-col-8, .md-col-7, .md-col-6, .md-col-5, .md-col-4, .md-col-3, .md-col-2, .md-col-1, .sm-col-12, .sm-col-11, .sm-col-10, .sm-col-9, .sm-col-8, .sm-col-7, .sm-col-6, .sm-col-5, .sm-col-4, .sm-col-3, .sm-col-2, .sm-col-1, .xs-col-12, .xs-col-11, .xs-col-10, .xs-col-9, .xs-col-8, .xs-col-7, .xs-col-6, .xs-col-5, .xs-col-4, .xs-col-3, .xs-col-2, .xs-col-1 {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 .wrapper {
   position: relative;
   padding-left: 12px;
@@ -2349,16 +2358,6 @@ a:hover {
 }
 .row::after {
   clear: both;
-}
-
-.xl-col-12, .xl-col-11, .xl-col-10, .xl-col-9, .xl-col-8, .xl-col-7, .xl-col-6, .xl-col-5, .xl-col-4, .xl-col-3, .xl-col-2, .xl-col-1, .lg-col-12, .lg-col-11, .lg-col-10, .lg-col-9, .lg-col-8, .lg-col-7, .lg-col-6, .lg-col-5, .lg-col-4, .lg-col-3, .lg-col-2, .lg-col-1, .md-col-12, .md-col-11, .md-col-10, .md-col-9, .md-col-8, .md-col-7, .md-col-6, .md-col-5, .md-col-4, .md-col-3, .md-col-2, .md-col-1, .sm-col-12, .sm-col-11, .sm-col-10, .sm-col-9, .sm-col-8, .sm-col-7, .sm-col-6, .sm-col-5, .sm-col-4, .sm-col-3, .sm-col-2, .sm-col-1, .xs-col-12, .xs-col-11, .xs-col-10, .xs-col-9, .xs-col-8, .xs-col-7, .xs-col-6, .xs-col-5, .xs-col-4, .xs-col-3, .xs-col-2, .xs-col-1, .col,
-.column {
-  position: relative;
-  display: inline-block;
-  float: left;
-  width: 100%;
-  padding-left: 12px;
-  padding-right: 12px;
 }
 
 @media screen and (min-width: 300px) {
@@ -4466,90 +4465,6 @@ button.icon--round,
 input[type=submit].btn__icon--round,
 input[type=submit].icon--round {
   border-radius: 100px;
-}
-
-.card {
-  background-color: #fff;
-  color: #eee;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: all 0.25s ease;
-  margin-bottom: 12px;
-}
-.card__thumb {
-  position: relative;
-}
-.card__thumb img {
-  max-width: 100%;
-}
-.card__body {
-  position: relative;
-}
-.card__body__title, .card__body__subtitle, .card__body__description {
-  padding: 12px;
-}
-.card__body__title {
-  color: #60667d;
-  font-size: 24px;
-  line-height: 1.2;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-.card__body__subtitle {
-  padding-top: 0;
-  font-size: 18.72px;
-  font-style: italic;
-  color: #16bdca;
-}
-.card__body__description {
-  font-size: 16px;
-  color: #60667d;
-  position: relative;
-  height: 100px;
-  overflow: hidden;
-}
-.card__body__description::after {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100px;
-  top: 0px;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  background: linear-gradient(to bottom, transparent, #fff);
-}
-.card__body__label {
-  position: absolute;
-  background: #16bdca;
-  padding: 10px 12px;
-  color: #fff;
-  font-weight: 600;
-  letter-spacing: 1px;
-  float: left;
-  top: -40px;
-  box-shadow: rgba(0, 0, 0, 0.3) 4px 4px 4px;
-}
-.card__footer {
-  background: #f7f7f7;
-  padding: 12px;
-  color: #ddd;
-}
-.card__footer i.lunacon, .card__footer i.lunacon-add::before, .card__footer i.lunacon-address-book::before, .card__footer i.lunacon-alarm-clock::before, .card__footer i.lunacon-anchor::before, .card__footer i.lunacon-android::before, .card__footer i.lunacon-back-arrow::before, .card__footer i.lunacon-backward::before, .card__footer i.lunacon-basket-solid::before, .card__footer i.lunacon-basket::before, .card__footer i.lunacon-bathtub::before, .card__footer i.lunacon-bed::before, .card__footer i.lunacon-beer::before, .card__footer i.lunacon-bell-mute-solid::before, .card__footer i.lunacon-bell-mute::before, .card__footer i.lunacon-bell-solid::before, .card__footer i.lunacon-bell::before, .card__footer i.lunacon-bitcoin::before, .card__footer i.lunacon-book::before, .card__footer i.lunacon-books-stack::before, .card__footer i.lunacon-books::before, .card__footer i.lunacon-box-opened::before, .card__footer i.lunacon-bug::before, .card__footer i.lunacon-bull-horn::before, .card__footer i.lunacon-calendar::before, .card__footer i.lunacon-camera::before, .card__footer i.lunacon-cart-solid::before, .card__footer i.lunacon-cart::before, .card__footer i.lunacon-checkmark-small::before, .card__footer i.lunacon-checkmark::before, .card__footer i.lunacon-chef::before, .card__footer i.lunacon-chevron-down::before, .card__footer i.lunacon-chevron-left::before, .card__footer i.lunacon-chevron-right::before, .card__footer i.lunacon-chevron-up::before, .card__footer i.lunacon-clock::before, .card__footer i.lunacon-close-small::before, .card__footer i.lunacon-close::before, .card__footer i.lunacon-cloud-check-solid::before, .card__footer i.lunacon-cloud-check::before, .card__footer i.lunacon-cloud-computing::before, .card__footer i.lunacon-cloud-solid::before, .card__footer i.lunacon-cloud::before, .card__footer i.lunacon-code-fork::before, .card__footer i.lunacon-coffee::before, .card__footer i.lunacon-cone::before, .card__footer i.lunacon-cosmetics::before, .card__footer i.lunacon-cpu::before, .card__footer i.lunacon-csv::before, .card__footer i.lunacon-dailer-solid::before, .card__footer i.lunacon-dailer::before, .card__footer i.lunacon-dashboard::before, .card__footer i.lunacon-delivery-truck::before, .card__footer i.lunacon-doc::before, .card__footer i.lunacon-document::before, .card__footer i.lunacon-double-bed::before, .card__footer i.lunacon-download::before, .card__footer i.lunacon-drag::before, .card__footer i.lunacon-drop::before, .card__footer i.lunacon-earth::before, .card__footer i.lunacon-equal::before, .card__footer i.lunacon-expand::before, .card__footer i.lunacon-eye::before, .card__footer i.lunacon-facebook::before, .card__footer i.lunacon-file-delete::before, .card__footer i.lunacon-file::before, .card__footer i.lunacon-files::before, .card__footer i.lunacon-fire::before, .card__footer i.lunacon-flask::before, .card__footer i.lunacon-focus::before, .card__footer i.lunacon-folder::before, .card__footer i.lunacon-forward-arrow::before, .card__footer i.lunacon-forward::before, .card__footer i.lunacon-funnel::before, .card__footer i.lunacon-garage::before, .card__footer i.lunacon-gears::before, .card__footer i.lunacon-gif::before, .card__footer i.lunacon-gift::before, .card__footer i.lunacon-giftbox::before, .card__footer i.lunacon-git::before, .card__footer i.lunacon-github-round-o::before, .card__footer i.lunacon-github-round::before, .card__footer i.lunacon-github::before, .card__footer i.lunacon-google-play::before, .card__footer i.lunacon-google-plus-g::before, .card__footer i.lunacon-google-plus::before, .card__footer i.lunacon-grid::before, .card__footer i.lunacon-haircut::before, .card__footer i.lunacon-hand-click::before, .card__footer i.lunacon-hand-plant::before, .card__footer i.lunacon-handsoap::before, .card__footer i.lunacon-heart-solid::before, .card__footer i.lunacon-heart::before, .card__footer i.lunacon-heartbeat::before, .card__footer i.lunacon-help::before, .card__footer i.lunacon-home-solid::before, .card__footer i.lunacon-home::before, .card__footer i.lunacon-html::before, .card__footer i.lunacon-info::before, .card__footer i.lunacon-instagram::before, .card__footer i.lunacon-key::before, .card__footer i.lunacon-keys-hole::before, .card__footer i.lunacon-light-bulb::before, .card__footer i.lunacon-line-chart-down::before, .card__footer i.lunacon-line-chart-up::before, .card__footer i.lunacon-linkedin::before, .card__footer i.lunacon-lips::before, .card__footer i.lunacon-lipstick::before, .card__footer i.lunacon-list::before, .card__footer i.lunacon-lock-open::before, .card__footer i.lunacon-lock::before, .card__footer i.lunacon-login::before, .card__footer i.lunacon-logout::before, .card__footer i.lunacon-mail-envelope::before, .card__footer i.lunacon-management::before, .card__footer i.lunacon-message::before, .card__footer i.lunacon-microphone::before, .card__footer i.lunacon-minus::before, .card__footer i.lunacon-moon-solid::before, .card__footer i.lunacon-moon::before, .card__footer i.lunacon-mpeg::before, .card__footer i.lunacon-navicon::before, .card__footer i.lunacon-open-door::before, .card__footer i.lunacon-open-razor::before, .card__footer i.lunacon-paper-clip::before, .card__footer i.lunacon-pause::before, .card__footer i.lunacon-paw::before, .card__footer i.lunacon-paypal-p::before, .card__footer i.lunacon-paypal::before, .card__footer i.lunacon-pdf::before, .card__footer i.lunacon-pencil::before, .card__footer i.lunacon-pet-friendly::before, .card__footer i.lunacon-pie-chart::before, .card__footer i.lunacon-play::before, .card__footer i.lunacon-plug::before, .card__footer i.lunacon-pot-plant::before, .card__footer i.lunacon-power-button::before, .card__footer i.lunacon-psd::before, .card__footer i.lunacon-push-pin::before, .card__footer i.lunacon-razor::before, .card__footer i.lunacon-road::before, .card__footer i.lunacon-roboto::before, .card__footer i.lunacon-route::before, .card__footer i.lunacon-screwdriver::before, .card__footer i.lunacon-search-min::before, .card__footer i.lunacon-search-zoom::before, .card__footer i.lunacon-search::before, .card__footer i.lunacon-sent-mail::before, .card__footer i.lunacon-settings-tool::before, .card__footer i.lunacon-share::before, .card__footer i.lunacon-shield-lock-solid::before, .card__footer i.lunacon-shield::before, .card__footer i.lunacon-shuffle::before, .card__footer i.lunacon-skip-back::before, .card__footer i.lunacon-skip-next::before, .card__footer i.lunacon-sky::before, .card__footer i.lunacon-slack::before, .card__footer i.lunacon-smartphonel::before, .card__footer i.lunacon-sound-big::before, .card__footer i.lunacon-sound-mute::before, .card__footer i.lunacon-sound-waves::before, .card__footer i.lunacon-sound::before, .card__footer i.lunacon-spoon-and-fork::before, .card__footer i.lunacon-star-half-solid::before, .card__footer i.lunacon-star-half::before, .card__footer i.lunacon-star-solid::before, .card__footer i.lunacon-star::before, .card__footer i.lunacon-steering::before, .card__footer i.lunacon-stop::before, .card__footer i.lunacon-student-cap::before, .card__footer i.lunacon-swim::before, .card__footer i.lunacon-tag::before, .card__footer i.lunacon-tags::before, .card__footer i.lunacon-tap::before, .card__footer i.lunacon-test::before, .card__footer i.lunacon-thumbs-down-solid::before, .card__footer i.lunacon-thumbs-down::before, .card__footer i.lunacon-thumbs-up-solid::before, .card__footer i.lunacon-thumbs-up::before, .card__footer i.lunacon-tractor::before, .card__footer i.lunacon-trash::before, .card__footer i.lunacon-truck::before, .card__footer i.lunacon-twitter-bird::before, .card__footer i.lunacon-twitter::before, .card__footer i.lunacon-upload::before, .card__footer i.lunacon-user-delete-solid::before, .card__footer i.lunacon-user-delete::before, .card__footer i.lunacon-user-solid::before, .card__footer i.lunacon-user::before, .card__footer i.lunacon-users-solid::before, .card__footer i.lunacon-users::before, .card__footer i.lunacon-watch::before, .card__footer i.lunacon-weight::before, .card__footer i.lunacon-whatsapp::before, .card__footer i.lunacon-wheel::before, .card__footer i.lunacon-wifi::before, .card__footer i.lunacon-wordpress::before, .card__footer i.lunacon-youtube-play-button::before, .card__footer i.lunacon-youtube::before {
-  margin-right: 5px;
-  vertical-align: middle;
-  font-size: 14px;
-  color: #16bdca;
-}
-.card__footer span {
-  display: inline-block;
-  margin-right: 5px;
-  color: #ddd;
-}
-
-.card:hover {
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
 }
 
 .switch {
@@ -6723,6 +6638,99 @@ button:disabled {
 .skew-scroll {
   will-change: transform;
   transition: transform 0.25s;
+}
+
+.ig {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid #ddddde 1px;
+}
+.ig__item {
+  position: relative;
+  width: calc(100% - (2px * 2));
+  background: gray;
+  margin: 2px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.ig__item::before {
+  content: "";
+  padding-top: 100%;
+  display: block;
+}
+.ig__item::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 5;
+  transform: translateY(-100%);
+  transition: transform 0.15s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 3px;
+}
+.ig__item img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+  transition: transform 0.15s ease;
+}
+.ig__item:hover::after, .ig__item.ig--active::after {
+  transform: translateY(0);
+}
+.ig__item:hover img, .ig__item.ig--active img {
+  transform: scale(1.3);
+}
+.ig__item.ig--larger::after {
+  font-size: x-large;
+}
+.ig__item.ig__data::after {
+  content: attr(data-text);
+}
+.ig__item.ig__icon::after {
+  font-family: "Lunacon" !important;
+  content: "\E091";
+}
+
+.ig--1\/6, .ig--1\/5, .ig--1\/4, .ig--1\/3, .ig--1\/2, .ig--1\/1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: start;
+}
+
+.ig--1\/1 {
+  width: calc(100% / 1);
+}
+
+.ig--1\/2 {
+  width: calc(100% / 2);
+}
+
+.ig--1\/3 {
+  width: calc(100% / 3);
+}
+
+.ig--1\/4 {
+  width: calc(100% / 4);
+}
+
+.ig--1\/5 {
+  width: calc(100% / 5);
+}
+
+.ig--1\/6 {
+  width: calc(100% / 6);
 }
 
 .text-align-center {
@@ -9601,7 +9609,7 @@ button:disabled {
     justify-content: flex-end;
   }
 }
-.ellipsis, .card__body__subtitle, .nav__links__item--dropdown .nav__links a {
+.ellipsis, .nav__links__item--dropdown .nav__links a {
   overflow-x: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;

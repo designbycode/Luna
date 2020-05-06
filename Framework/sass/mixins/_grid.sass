@@ -18,12 +18,6 @@
     width: $width
     max-width: $max-width
 
-.wrapper
-    +wrapper
-    &--fluid
-        +wrapper
-        width: 100%
-        max-width: 100%
 
 
 // ==========================================
@@ -35,9 +29,6 @@
         right: -$padding
     +clearfix
 
-
-.row
-    +row
 
 // ==========================================
 // == MAKE COLUMNS
@@ -53,10 +44,6 @@
         right: $the__global__padding
 
 
-.col,
-.column
-    @extend %column
-
 
 
 =makeColumns($columnCount: $the__column__count, $gutter: $the__global__padding, $map: $_breakpoints)
@@ -65,18 +52,14 @@
             .#{$key}-col-#{$i}
                 @extend %column
 
-
     @each $key, $value in $map
-
         +media-up($key)
             @for $i from 1 through $columnCount
                 .#{$key}-col-#{$i}
                     width: (100% / $columnCount) * $i
-
                 // Offset
                 .#{$key}-offset-#{$i}
                     margin-left: (100% / $columnCount) * $i
-
 
             // Float on size
             .#{$key}-float-right
@@ -103,4 +86,19 @@
                 text-align: center
 
 
+
+.wrapper
+    +wrapper
+    &--fluid
+        +wrapper
+        width: 100%
+        max-width: 100%
+
+.row
+    +row
+
 +makeColumns
+
+.col
+    @extend %column
+

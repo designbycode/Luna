@@ -2,35 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc66b808-c099-431c-8625-fb54e672801d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Build/assets/js/components/FooterComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Build/assets/sass/Frontend/_display-parts.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Build/assets/sass/Frontend/_globals.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Build/assets/sass/Frontend/_hero.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Build/assets/sass/Frontend/_main.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Build/assets/sass/Frontend/_nav.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/sass/config/_main.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/sass/config/_padding-margin.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/sass/config/_radius.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/sass/helpers/_margin-padding.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/sass/helpers/_radius.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Build/assets/js/screens/GridComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Framework/sass/components/_image-grid.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Build/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/assets/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Build/assets/js/components/NavComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/assets/js/components/NavComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Build/assets/js/screens/Grid.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/assets/js/screens/Grid.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Build/assets/js/screens/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/assets/js/screens/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/assets/js/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/assets/js/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Build/assets/sass/_settings.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/assets/sass/_settings.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Build/assets/sass/app.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/assets/sass/app.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Build/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Build/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Framework/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Framework/sass/_init.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/sass/_init.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Framework/sass/helpers/_main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/sass/helpers/_main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Framework/sass/_settings.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/sass/_settings.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Framework/sass/components/_main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/sass/components/_main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Framework/sass/mixins/_grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/sass/mixins/_grid.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Framework/sass/mixins/_shadow.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/sass/mixins/_shadow.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Framework/sass/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Framework/sass/style.sass" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +83,7 @@
       <workItem from="1550152194048" duration="1192000" />
       <workItem from="1550166817034" duration="26000" />
       <workItem from="1587414389591" duration="18759000" />
+      <workItem from="1588722293823" duration="21026000" />
     </task>
     <servers />
   </component>
@@ -110,10 +99,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="184" width="840" height="682" key="#Live_Templates/0.0.1920.1050/1920.148.1366.738@0.0.1920.1050" timestamp="1587422266290" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1587435541881">
+    <state x="616" y="243" key="run.anything.popup" timestamp="1588726208257">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.148.1366.738@0.0.1920.1050" timestamp="1587435541881" />
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/1920.148.1366.738@0.0.1920.1050" timestamp="1588726208257" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1588729008580">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.148.1366.738@0.0.1920.1050" timestamp="1588729008580" />
   </component>
   <component name="masterDetails">
     <states>

@@ -1,0 +1,80 @@
+
+.ig
+    display: flex
+    flex-wrap: wrap
+    border: solid $image__grid__border__color 1px
+
+    &__item
+        position: relative
+        width: calc(100% - (#{$image__grid__gaps} * 2))
+        background: gray
+        margin: $image__grid__gaps
+        overflow: hidden
+        +radius()
+        &::before
+            content: ''
+            padding-top: 100%
+            display: block
+
+        &::after
+            position: absolute
+            content: ''
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            background: $image__grid__overlay__color
+            z-index: 5
+            transform: translateY(-100%)
+            transition: transform 0.15s ease
+            display: flex
+            justify-content: center
+            align-items: center
+            color: #fff
+            +radius()
+
+        & img
+            position: absolute
+            left: 0
+            top: 0
+            width: 100%
+            height: 100%
+            object-fit: cover
+            z-index: 1
+            transition: transform 0.15s ease
+
+        &:hover,
+        &.ig--active
+            &::after
+                transform: translateY(0)
+            & img
+                transform: scale(1.3)
+        &.ig--larger
+            &::after
+                font-size: x-large
+
+        &.ig__data
+            &::after
+                content: attr(data-text)
+
+        &.ig__icon
+            &::after
+                font-family: "Lunacon" !important
+                content: $unicode-search-zoom
+
+
+// ==========================================
+// == MAKE GRID
+// ==========================================
+
+
+%imgGrid
+    display: flex
+    flex-wrap: wrap
+    align-self: start
+
+@for $i from 1 through 6
+    .ig--1\/#{$i}
+        @extend %imgGrid
+        width: calc(100% / #{$i})
+

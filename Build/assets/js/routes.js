@@ -23,6 +23,12 @@ export default [
         path: '/buttons',
         component: require('./screens/buttons').default
     }
+,
+    {
+        name: 'grid-component',
+        path: '/grid-component',
+        component: require('./screens/GridComponent').default
+    }
 
 
 ]
