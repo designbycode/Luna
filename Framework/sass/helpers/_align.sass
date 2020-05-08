@@ -12,3 +12,14 @@
             text-align: left
         &-right
             text-align: right
+
+@each $key, $value in $_breakpoints
+    +media-up($key)
+        .#{$key}-text
+            &-align
+                &-center
+                    text-align: center
+                &-left
+                    text-align: left
+                &-right
+                    text-align: right

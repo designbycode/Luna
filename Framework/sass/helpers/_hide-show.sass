@@ -9,3 +9,11 @@
 
 .show
     display: block
+
+@each $key, $value in $_breakpoints
+    +media-up($key)
+        .#{key}-hide
+            display: none
+
+        .#{key}-show
+            display: block

@@ -1202,6 +1202,37 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Home"
 });
@@ -3184,24 +3215,66 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "hero" }, [
-      _c("div", { staticClass: "wrapper" }, [
-        _c("div", { staticClass: "row flex flex--center" }, [
-          _c("div", { staticClass: "md-col-5" }, [
-            _c("h1", { staticClass: "text--primary" }, [_vm._v("Luna-sass")]),
+    return _c("div", [
+      _c("div", { staticClass: "hero" }, [
+        _c("div", { staticClass: "wrapper" }, [
+          _c("div", { staticClass: "row flex justify--between flex--center" }, [
+            _c("div", { staticClass: "md-col-7" }, [
+              _c("h1", { staticClass: "text--primary" }, [_vm._v("Luna-sass")]),
+              _vm._v(" "),
+              _c("p", { staticClass: "text--white" }, [
+                _vm._v(
+                  "\n                        An mobile firt css framwork for rapid we development\n                    "
+                )
+              ])
+            ]),
             _vm._v(" "),
-            _c("p", { staticClass: "text--white" }, [
-              _vm._v(
-                "\n                    An mobile firt css framwork for rapid we development\n                "
-              )
+            _c("div", { staticClass: "md-col-5" }, [
+              _c("img", {
+                staticClass: "hero__img responsive__img",
+                attrs: { src: "/img/jetpacktocat.png" }
+              })
             ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "md-col-7" }, [
-            _c("img", {
-              staticClass: "hero__img",
-              attrs: { src: "/img/jetpacktocat.png" }
-            })
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "py-7" }, [
+        _c("div", { staticClass: "wrapper" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "md-col-4" }, [
+              _c("div", { staticClass: "ig" }, [
+                _c("div", { staticClass: "ig--1/2" }, [
+                  _c("div", { staticClass: "ig__item" }, [
+                    _vm._v(
+                      "\n                                Lorem ipsum dolor sit amet, consectetur.\n                            "
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "ig--1/2 " }, [
+                  _c("div", { staticClass: "ig--1/2 " }, [
+                    _c("div", { staticClass: "ig__item" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "ig--1/2 " }, [
+                    _c("div", { staticClass: "ig__item" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "ig--1/2 " }, [
+                    _c("div", { staticClass: "ig__item" })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "ig--1/2 " }, [
+                    _c("div", {
+                      staticClass:
+                        "ig__item ig--active ig__data font--xx-large",
+                      attrs: { "data-text": "+7" }
+                    })
+                  ])
+                ])
+              ])
+            ])
           ])
         ])
       ])

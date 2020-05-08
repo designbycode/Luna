@@ -9,7 +9,6 @@ mix
     .webpackConfig({
         resolve: {
             alias: {
-
             }
         },
         plugins: [
@@ -33,9 +32,8 @@ mix
             })
         ]
     })
-    // .sass('./Framework/sass/style.sass', './dist/css/style.css')
+
     .js('./Build/assets/js/app.js', './js/app.js')
-    // .js('./Framework/js/app.js', './js/app.js')
     .sass('./Build/assets/sass/app.sass', './css/app.css')
     .options({
         processCssUrls: false

@@ -2306,9 +2306,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.clearfix {
-  *zoom: 1;
-}
 .clearfix::before, .clearfix::after {
   display: table;
   content: "";
@@ -2350,7 +2347,6 @@ a:hover {
 .row {
   margin-left: -12px;
   margin-right: -12px;
-  *zoom: 1;
 }
 .row::before, .row::after {
   display: table;
@@ -4406,7 +4402,6 @@ input[type=submit].btn--block {
 
 .btn__group {
   position: relative;
-  *zoom: 1;
 }
 .btn__group::before, .btn__group::after {
   display: table;
@@ -4856,9 +4851,6 @@ input[type=submit].icon--round {
   display: inline-block;
   pointer-events: none;
 }
-.form__horizontal {
-  *zoom: 1;
-}
 .form__horizontal::before, .form__horizontal::after {
   display: table;
   content: "";
@@ -5238,7 +5230,7 @@ button:disabled {
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.25) 0 5px 20px;
   z-index: 10011;
-  display: none;
+  display: block;
   -webkit-animation: bounceInDownModal 0.5s forwards;
           animation: bounceInDownModal 0.5s forwards;
   border-radius: 3px;
@@ -5291,13 +5283,6 @@ button:disabled {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.has__modal {
-  overflow: hidden;
-}
-.has__modal .modal {
-  display: block;
-}
-
 .nav {
   position: relative;
   z-index: 9999;
@@ -5305,7 +5290,6 @@ button:disabled {
   width: 100%;
   max-height: 100%;
   padding: 0;
-  *zoom: 1;
 }
 .nav::before, .nav::after {
   display: table;
@@ -5375,7 +5359,6 @@ button:disabled {
   padding: 0;
   margin: 0;
   display: block;
-  *zoom: 1;
 }
 .nav__links::before, .nav__links::after {
   display: table;
@@ -5444,7 +5427,6 @@ button:disabled {
   display: flex;
   position: relative;
   top: 1px;
-  *zoom: 1;
 }
 .nav__form::before, .nav__form::after {
   display: table;
@@ -5760,7 +5742,6 @@ button:disabled {
   padding: 0;
   margin: 0;
   border-radius: 3px;
-  *zoom: 1;
 }
 .pagination::before, .pagination::after {
   display: table;
@@ -6524,7 +6505,6 @@ button:disabled {
 .timeline__item {
   position: relative;
   margin: 24px 0;
-  *zoom: 1;
 }
 .timeline__item::before, .timeline__item::after {
   display: table;
@@ -6743,6 +6723,61 @@ button:disabled {
   text-align: right;
 }
 
+@media screen and (min-width: 300px) {
+  .xs-text-align-center {
+    text-align: center;
+  }
+  .xs-text-align-left {
+    text-align: left;
+  }
+  .xs-text-align-right {
+    text-align: right;
+  }
+}
+@media screen and (min-width: 480px) {
+  .sm-text-align-center {
+    text-align: center;
+  }
+  .sm-text-align-left {
+    text-align: left;
+  }
+  .sm-text-align-right {
+    text-align: right;
+  }
+}
+@media screen and (min-width: 800px) {
+  .md-text-align-center {
+    text-align: center;
+  }
+  .md-text-align-left {
+    text-align: left;
+  }
+  .md-text-align-right {
+    text-align: right;
+  }
+}
+@media screen and (min-width: 960px) {
+  .lg-text-align-center {
+    text-align: center;
+  }
+  .lg-text-align-left {
+    text-align: left;
+  }
+  .lg-text-align-right {
+    text-align: right;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .xl-text-align-center {
+    text-align: center;
+  }
+  .xl-text-align-left {
+    text-align: left;
+  }
+  .xl-text-align-right {
+    text-align: right;
+  }
+}
 .flex, .hero, .panel__media {
   display: flex;
   flex-wrap: wrap;
@@ -9680,6 +9715,15 @@ button:disabled {
   font-weight: normal;
   font-style: italic;
 }
+.font--larger {
+  font-size: larger;
+}
+.font--x-large {
+  font-size: x-large;
+}
+.font--xx-large {
+  font-size: xx-large;
+}
 
 .hide {
   display: none;
@@ -9689,6 +9733,51 @@ button:disabled {
   display: block;
 }
 
+@media screen and (min-width: 300px) {
+  .key-hide {
+    display: none;
+  }
+
+  .key-show {
+    display: block;
+  }
+}
+@media screen and (min-width: 480px) {
+  .key-hide {
+    display: none;
+  }
+
+  .key-show {
+    display: block;
+  }
+}
+@media screen and (min-width: 800px) {
+  .key-hide {
+    display: none;
+  }
+
+  .key-show {
+    display: block;
+  }
+}
+@media screen and (min-width: 960px) {
+  .key-hide {
+    display: none;
+  }
+
+  .key-show {
+    display: block;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .key-hide {
+    display: none;
+  }
+
+  .key-show {
+    display: block;
+  }
+}
 .responsive__img {
   display: inline-block;
   height: auto;
@@ -14465,7 +14554,4 @@ button:disabled {
   min-height: 70vh;
   width: 100%;
   background: #01122b;
-}
-.hero__img {
-  max-width: 100%;
 }
