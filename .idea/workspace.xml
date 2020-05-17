@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc66b808-c099-431c-8625-fb54e672801d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Build/assets/js/screens/GridComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Framework/sass/components/_image-grid.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Build/assets/js/components/DropdownSearch.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Build/assets/js/components/OnClickOutside.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Build/assets/js/components/NavComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/assets/js/components/NavComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Build/assets/js/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/assets/js/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Build/assets/sass/_settings.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/assets/sass/_settings.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/assets/js/screens/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/assets/js/screens/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Build/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Build/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Build/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Build/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Framework/sass/_settings.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/sass/_settings.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Framework/sass/components/_main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/sass/components/_main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Framework/sass/mixins/_grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/sass/mixins/_grid.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Framework/sass/mixins/_shadow.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/sass/mixins/_shadow.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Framework/sass/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Framework/sass/style.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webpack.mix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Framework/sass/components/_form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../Framework/sass/components/_form.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +76,7 @@
       <workItem from="1550166817034" duration="26000" />
       <workItem from="1587414389591" duration="18759000" />
       <workItem from="1588722293823" duration="21654000" />
+      <workItem from="1589647365331" duration="21574000" />
     </task>
     <servers />
   </component>

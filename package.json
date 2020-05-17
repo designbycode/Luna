@@ -51,6 +51,7 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
+    "@popperjs/core": "^2.4.0",
     "copy-webpack-plugin": "^5.1.1",
     "cryptojs": "^2.5.3",
     "imagemin-mozjpeg": "^8.0.0",

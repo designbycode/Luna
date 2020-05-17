@@ -17,29 +17,15 @@
         </div>
         <div class="py-7">
             <div class="wrapper">
-                <div class="row">
+                <div class="row flex justify--between">
                     <div class="md-col-4">
-                        <div class="ig">
-                            <div class="ig--1/2">
-                                <div class="ig__item">
-                                    Lorem ipsum dolor sit amet, consectetur.
-                                </div>
-                            </div>
-                            <div class="ig--1/2 ">
-                                <div class="ig--1/2 ">
-                                    <div class="ig__item" ></div>
-                                </div>
-                                <div class="ig--1/2 ">
-                                    <div class="ig__item" ></div>
-                                </div>
-                                <div class="ig--1/2 ">
-                                    <div class="ig__item" ></div>
-                                </div>
-                                <div class="ig--1/2 ">
-                                    <div class="ig__item ig--active ig__data font--xx-large"  data-text="+7" ></div>
-                                </div>
-                            </div>
-                        </div>
+                        <dropdown-search
+                            :options="bands"
+                            v-model="selectBand"
+                            :filter-function="applySearchFilter"
+                        >
+                            <label for="option" class="form__label font--bold"> Select Band</label>
+                        </dropdown-search>
                     </div>
                 </div>
             </div>
@@ -49,8 +35,38 @@
 
 <script>
 	
-	export default {
-		name: "Home"
-	}
+	import DropdownSearch from "../components/DropdownSearch";
+    export default {
+		name: "Home",
+        components: {DropdownSearch},
+        data() {
+		    return {
+                selectBand: null,
+                bands: [
+                    'Anthrax',
+                    'Dark Angel',
+                    'Death Angel',
+                    'Destruction',
+                    'Exodus',
+                    'Flotsam and Jetsam',
+                    'Kreator',
+                    'Megadeth',
+                    'Ludi Myburgh',
+                    'Metallica',
+                    'Overkill',
+                    'Sepultura',
+                    'Slayer',
+                    'Testament',
+                ]
+            }
+        },
+        methods: {
+            applySearchFilter(search, options) {
+		        return options.filter(option => {
+		            return option.toLowerCase().startsWith(search.toLowerCase())
+                })
+            }
+        }
+    }
 
 </script>
