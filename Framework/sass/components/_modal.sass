@@ -26,9 +26,25 @@
     box-shadow: rgba(#000, 0.25) 0 5px 20px
     z-index: 10011
     display: block
-    animation: bounceInDownModal 0.5s forwards
     +radius
     -ms-flex-negative: 0
+
+    &--sm 
+        max-width: 300px
+
+
+    &--md 
+        max-width: 480px
+
+
+    &--lg
+        max-width: 800px
+
+
+
+    &--animation
+        animation: bounceInDownModal 0.5s forwards
+    
 
     &__close 
         position: absolute
@@ -76,6 +92,6 @@
         overflow-y: auto
         z-index: 10010
         display: flex
-        background: rgba(#000, 0.5)
+        background: rgba(#000, 0.75)
         -ms-flex-direction: column
 

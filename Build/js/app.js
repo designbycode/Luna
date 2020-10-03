@@ -5410,9 +5410,9 @@ var render = function() {
               },
               [
                 _vm._v(
-                  '\n                No search result for "' +
+                  '\r\n                No search result for "' +
                     _vm._s(_vm.search) +
-                    '"\n            '
+                    '"\r\n            '
                 )
               ]
             )
@@ -21730,8 +21730,8 @@ module.exports = g;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\wamp64\www\MyProjects\Luna\Build\assets\js\app.js */"./Build/assets/js/app.js");
-module.exports = __webpack_require__(/*! C:\wamp64\www\MyProjects\Luna\Build\assets\sass\app.sass */"./Build/assets/sass/app.sass");
+__webpack_require__(/*! C:\www\designbycode_projects\Luna\Build\assets\js\app.js */"./Build/assets/js/app.js");
+module.exports = __webpack_require__(/*! C:\www\designbycode_projects\Luna\Build\assets\sass\app.sass */"./Build/assets/sass/app.sass");
 
 
 /***/ })
